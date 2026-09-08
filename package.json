@@ -1,0 +1,9 @@
+{
+  "name": "philosophy-scholar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs philosophy-scholar philosophy-scholar-v1 public src/worker.mjs dist/worker.mjs",
+    "deploy": "npm run build && npx wrangler deploy"
+  }
+}

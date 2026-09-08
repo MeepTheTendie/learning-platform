@@ -1,0 +1,2492 @@
+{
+  "version": 1,
+  "sources": {
+    "argument": {
+      "title": "Argument · Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/argument/"
+    },
+    "validity": {
+      "title": "Validity and Soundness · Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/val-snd/"
+    },
+    "induction": {
+      "title": "Deductive and Inductive Arguments · Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/deductive-inductive-arguments/"
+    },
+    "socrates": {
+      "title": "Socrates · Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/socrates/"
+    },
+    "plato": {
+      "title": "Plato · Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/plato/"
+    },
+    "apology": {
+      "title": "Plato, Apology · Benjamin Jowett translation",
+      "url": "https://www.gutenberg.org/files/1656/1656-h/1656-h.htm",
+      "local": "content/apology.html"
+    },
+    "crito": {
+      "title": "Plato, Crito · Benjamin Jowett translation",
+      "url": "https://www.gutenberg.org/files/1657/1657-h/1657-h.htm",
+      "local": "content/crito.html"
+    },
+    "confucius": {
+      "title": "Confucius · Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/confucius/"
+    },
+    "buddha": {
+      "title": "Buddha · Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/buddha/"
+    }
+  },
+  "lessons": [
+    {
+      "id": "f1",
+      "world": 0,
+      "title": "What is philosophy?",
+      "description": "Turn a familiar conviction into a question worth investigating.",
+      "keyQuestion": "What would count as a good reason to change your mind?",
+      "historicalContext": "Philosophical inquiry examines basic questions about reality, knowledge, value, and how to live. These questions have been pursued in many languages and communities. The opening route uses transferable reasoning tools before a focused study of Socrates; it is not a claim that philosophy began with, or belongs to, Greece.",
+      "concept": "Inquiry, reasons, and intellectual independence",
+      "explanation": [
+        "Suppose two people disagree about a promise. One says it must be kept because a promise creates an obligation. Another says that preventing serious harm matters more. Counting how many people favor each answer will not by itself settle what ought to be done. We need to identify what each person takes to be a reason and ask whether that reason survives difficult cases.",
+        "Philosophy is not just having an opinion on a large topic. A useful beginning is to formulate a question clearly, distinguish possible answers, and examine the reasons for them. Some questions concern what exists (metaphysics); some concern what knowledge requires (epistemology); others concern how we should act (ethics). These areas overlap: a claim about what a person is may affect what we think we owe that person.",
+        "Understanding and endorsement are different achievements. You can explain why someone thinks promises bind us without agreeing that they bind us without exception. First reconstruct the strongest reasonable version of a claim. Then identify where your disagreement lies. Otherwise you risk answering an easier argument that no one actually offered.",
+        "Not every dispute has a quick decisive test. That does not make every answer equally supported. Clarifying a term, finding an inconsistency, or showing that an objection misses its target can be real progress even when the larger question remains open. In this app, correct answers concern reasoning and interpretation—not which ultimate outlook you adopt."
+      ],
+      "primaryText": {
+        "text": "Mara: A promise creates a reason to do what you said you would do.\nIlan: Suppose keeping it would expose someone to serious harm. Is that reason always decisive?\nMara: Perhaps not. I need to distinguish having a reason from having an overriding reason.",
+        "question": "What distinction does Mara introduce after the objection?",
+        "work": "Workshop case",
+        "author": "Philosophy Scholar editors",
+        "reference": "",
+        "source": null,
+        "kind": "EDITORIAL EXERCISE · NOT A HISTORICAL QUOTATION",
+        "date": "Contemporary teaching example",
+        "region": "Philosophical tools · cross-tradition use",
+        "translation": "Original teaching material. No historical attribution."
+      },
+      "breakdown": "Mara begins with a claim about reasons. Ilan tests its possible scope with a difficult case. Mara revises the formulation rather than abandoning all obligations. Notice that neither popularity nor force of feeling appears as a premise.",
+      "objection": "An objection to this approach says that relentless questioning can prevent action. A serious reply must explain when inquiry should pause for a decision; merely celebrating doubt does not answer the practical problem.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What changes in Mara’s position?",
+          "options": [
+            "She denies that promises matter.",
+            "She distinguishes a reason from a reason that overrides every other consideration.",
+            "She proves Ilan is always right."
+          ],
+          "answer": 1,
+          "explanation": "A reason can retain weight without settling every conflict.",
+          "id": "f1-q0"
+        },
+        {
+          "type": "match",
+          "label": "Match concepts",
+          "prompt": "Match the inquiry to its field.",
+          "pairs": [
+            [
+              "What can justify a belief?",
+              "Epistemology"
+            ],
+            [
+              "What kinds of things exist?",
+              "Metaphysics"
+            ],
+            [
+              "What should I do?",
+              "Ethics"
+            ]
+          ],
+          "explanation": "These are entry points, not sealed boundaries between fields.",
+          "id": "f1-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Identify a fair reconstruction",
+          "prompt": "Which response demonstrates understanding before criticism?",
+          "options": [
+            "Promises are foolish.",
+            "You treat promising as generating an obligation; I question whether that obligation is exceptionless.",
+            "Most people break promises."
+          ],
+          "answer": 1,
+          "explanation": "It states the claim fairly and locates a precise disagreement.",
+          "id": "f1-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Apply the concept",
+          "prompt": "A city must choose a policy tomorrow. Which is the most defensible philosophical next step?",
+          "options": [
+            "Keep asking questions forever.",
+            "Identify the relevant values, evidence, and tradeoffs, then decide with stated uncertainty.",
+            "Treat the loudest view as true."
+          ],
+          "answer": 1,
+          "explanation": "Inquiry can guide responsible decisions without claiming certainty.",
+          "id": "f1-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which objection directly addresses unlimited inquiry?",
+          "options": [
+            "Ancient thinkers wore different clothes.",
+            "Some thinkers disagree.",
+            "Decisions sometimes must be made before inquiry is complete."
+          ],
+          "answer": 2,
+          "explanation": "The objection targets the practical cost of never concluding.",
+          "id": "f1-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Name one belief you hold. Explain what understanding an opposing argument would require before you criticize it.",
+          "rubric": [
+            "I state a specific belief.",
+            "I give a fair opposing reason, not a caricature.",
+            "I distinguish understanding that reason from agreeing with it."
+          ],
+          "model": "For example: I favor keeping promises. An opponent may prioritize preventing grave harm. Understanding that priority requires asking why harm could override an obligation, not assuming that the opponent dislikes honesty.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "f1-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Which is primarily an epistemological question?",
+          "options": [
+            "How tall is this tree?",
+            "What makes testimony a good reason for belief?",
+            "What color is the notebook?"
+          ],
+          "answer": 1,
+          "explanation": "It asks about justification for belief.",
+          "id": "f1-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Two incompatible positions are both carefully studied. What follows?",
+          "options": [
+            "Both are true.",
+            "Neither is true.",
+            "Studying a position does not settle whether it is true."
+          ],
+          "answer": 2,
+          "explanation": "Interpretive understanding and truth assessment are separate tasks.",
+          "id": "f1-q7"
+        }
+      ],
+      "masteryTags": [
+        "epistemology",
+        "metaphysics",
+        "ethics"
+      ],
+      "concepts": [
+        "epistemology",
+        "metaphysics",
+        "ethics"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [],
+      "sources": [
+        "argument"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A writer explains an argument accurately and then rejects its conclusion. Is that inconsistent?",
+          "options": [
+            "Yes: understanding implies agreement.",
+            "No: understanding and agreement are different."
+          ],
+          "answer": 1,
+          "explanation": "An accurate reconstruction can be the basis of a serious objection.",
+          "id": "f1-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What would improve a dispute over whether a practice is fair?",
+          "options": [
+            "Clarify what each side means by fairness and the reasons offered.",
+            "Replace reasons with a vote on who sounds more confident."
+          ],
+          "answer": 0,
+          "explanation": "A precise disagreement makes inquiry possible.",
+          "id": "f1-r1"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "world": 0,
+      "title": "Questions versus arguments",
+      "description": "Find the difference between asking, asserting, and supporting.",
+      "keyQuestion": "When is a set of sentences actually an argument?",
+      "historicalContext": "The word argument often means a quarrel in everyday speech. Here it names an attempt to support a claim with reasons. An argument can be calm, unpersuasive, or wrong and still be an argument.",
+      "concept": "A reason offered for a claim",
+      "explanation": [
+        "A question invites an answer: “Should this archive be open?” An assertion proposes an answer: “The archive should be open.” An argument adds support: “The collection was publicly funded, and public funding creates a duty of reasonable public access; therefore the archive should offer access.” Whether the reasons are good is a further question.",
+        "Arguments are not defined by a magic word. Because and therefore can signal support, but a reason can be left implicit. Conversely, the word because may explain why an event occurred rather than justify believing a disputed claim. “The room is wet because a pipe burst” may explain an accepted fact; “The pipe burst because pressure rose and the valve was blocked” may offer an inference to a cause. Context and purpose matter.",
+        "Separate an argument’s content from the confidence of its speaker. A timid speaker can offer a powerful argument. A confident speaker can merely repeat a conclusion. When reading, ask: what is the reader being invited to accept, and what is offered as a reason to accept it?",
+        "Reconstruction is interpretive work. A sentence that supplies background need not function as a premise. If two reconstructions are reasonable, make the ambiguity explicit instead of presenting your preferred reading as an obvious fact. In the exercises, enough context is supplied to identify the intended support relation."
+      ],
+      "primaryText": {
+        "text": "The archive was built with public funds. Institutions supported by public funds owe the public reasonable access. Therefore this archive should provide reasonable access. It opened in a former railway building.",
+        "question": "Which sentence is background rather than support for the access claim?",
+        "work": "Workshop case",
+        "author": "Philosophy Scholar editors",
+        "reference": "",
+        "source": null,
+        "kind": "EDITORIAL EXERCISE · NOT A HISTORICAL QUOTATION",
+        "date": "Contemporary teaching example",
+        "region": "Philosophical tools · cross-tradition use",
+        "translation": "Original teaching material. No historical attribution."
+      },
+      "breakdown": "The first two claims jointly support the third. The final sentence locates the archive but does not help establish an obligation. The normative bridge from funding to access must be defended; the fact of funding alone does not supply it.",
+      "objection": "Publicly funded institutions sometimes hold private medical records. This challenges a careless claim that public support requires unrestricted access. The original argument says reasonable access; a useful objection must address what that qualification allows.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which sentence is background in this argument?",
+          "options": [
+            "The archive was built with public funds.",
+            "It opened in a former railway building.",
+            "Public institutions owe reasonable access."
+          ],
+          "answer": 1,
+          "explanation": "The railway location is not used to support the obligation.",
+          "id": "f2-q0"
+        },
+        {
+          "type": "match",
+          "label": "Match concepts",
+          "prompt": "Identify the function.",
+          "pairs": [
+            [
+              "Should we preserve it?",
+              "Question"
+            ],
+            [
+              "We should preserve it.",
+              "Assertion"
+            ],
+            [
+              "We should preserve it because the records are irreplaceable.",
+              "Argument"
+            ]
+          ],
+          "explanation": "A supported assertion functions as a conclusion.",
+          "id": "f2-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Find a hidden assumption",
+          "prompt": "Which implicit premise would connect “publicly funded” to “owes access”?",
+          "options": [
+            "Anything built of brick is public.",
+            "The public likes old buildings.",
+            "Public funding generates some obligation of public access."
+          ],
+          "answer": 2,
+          "explanation": "This bridge links the descriptive funding claim to the normative conclusion.",
+          "id": "f2-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "“It is true, because I say so.” What is the best initial analysis?",
+          "options": [
+            "It cannot be an argument because it is weak.",
+            "It offers the speaker’s assertion as support, but that support needs justification.",
+            "It proves its conclusion."
+          ],
+          "answer": 1,
+          "explanation": "Being an argument and being a good argument are different.",
+          "id": "f2-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which objection respects the word “reasonable”?",
+          "options": [
+            "Private records show no access policy could ever be reasonable.",
+            "Explain what balance between access and privacy counts as reasonable here.",
+            "The railway is old."
+          ],
+          "answer": 1,
+          "explanation": "This asks for a defensible account of the qualification.",
+          "id": "f2-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Write a question, an assertion answering it, and a two-premise argument for that assertion.",
+          "rubric": [
+            "The question and answer concern the same issue.",
+            "My premises give reasons rather than merely repeating the answer.",
+            "I label the claim being supported."
+          ],
+          "model": "Question: Should a fragile record be digitized? Conclusion: It should. Premise: Digitization allows access without repeated handling. Premise: We should use available ways of providing access that reduce damage.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "f2-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Which is an argument as presented?",
+          "options": [
+            "When does the museum close?",
+            "Preserve this object: it is unique, and unique evidence merits protection.",
+            "What a remarkable object!"
+          ],
+          "answer": 1,
+          "explanation": "It provides a reason and a general principle supporting preservation.",
+          "id": "f2-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Why may “because” fail to indicate an argument?",
+          "options": [
+            "The word has no meaning.",
+            "It may explain an already accepted event rather than offer support for a disputed claim.",
+            "Only therefore can indicate an argument."
+          ],
+          "answer": 1,
+          "explanation": "We must identify what the speaker is doing in context.",
+          "id": "f2-q7"
+        }
+      ],
+      "masteryTags": [
+        "argument",
+        "premise",
+        "conclusion",
+        "ambiguity"
+      ],
+      "concepts": [
+        "argument",
+        "premise",
+        "conclusion",
+        "ambiguity"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "f1"
+      ],
+      "sources": [
+        "argument"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A paragraph states a claim three times with increasing emphasis. What is still missing?",
+          "options": [
+            "A reason offered in support.",
+            "A fourth repetition."
+          ],
+          "answer": 0,
+          "explanation": "Repetition alone adds no inferential support.",
+          "id": "f2-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "“Why did the glass break?” and “The glass broke.” differ because…",
+          "options": [
+            "One requests an explanation; one asserts an event.",
+            "Both are complete arguments."
+          ],
+          "answer": 0,
+          "explanation": "An assertion alone need not supply an argument.",
+          "id": "f2-r1"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "world": 0,
+      "title": "Premises and conclusions",
+      "description": "Make an argument’s structure visible.",
+      "keyQuestion": "What is doing the supporting, and what is being supported?",
+      "historicalContext": "A premise and a conclusion are roles within an argument, not permanent kinds of sentence. A claim can be the conclusion of one inference and a premise in the next.",
+      "concept": "The architecture of support",
+      "explanation": [
+        "Consider: Every item in this box is catalogued. This coin is in the box. So this coin is catalogued. The first two sentences are premises; the third is the conclusion. They work together. Knowing only that the coin is in a box tells us nothing about whether it has been catalogued.",
+        "A longer argument can contain an intermediate conclusion. If catalogued items can be located in a database, the conclusion that the coin is catalogued can become a premise for the further conclusion that it can be located there. Argument maps make these dependencies explicit. An arrow means “is offered as support for,” not “occurred before.”",
+        "An unstated assumption is a claim the inference needs but the text does not explicitly provide. Recovering it can make an argument intelligible, but adding a premise changes what must be defended. Do not smuggle in whichever claim would make your preferred conclusion follow. Explain why the assumption fits the passage and identify it as your reconstruction.",
+        "Distinguish a challenge to a premise from a challenge to the inference. “Not every item in the box is catalogued” targets a premise. “Even if your premises were true, your conclusion would not follow” targets the support relation. Both may be serious, but they require different answers."
+      ],
+      "primaryText": {
+        "text": "Every item in the blue box has been catalogued. The coin is an item in the blue box. So the coin has been catalogued. Every catalogued item has a database entry. Consequently the coin has a database entry.",
+        "question": "Which claim is both supported by earlier claims and used to support a later one?",
+        "work": "Workshop case",
+        "author": "Philosophy Scholar editors",
+        "reference": "",
+        "source": null,
+        "kind": "EDITORIAL EXERCISE · NOT A HISTORICAL QUOTATION",
+        "date": "Contemporary teaching example",
+        "region": "Philosophical tools · cross-tradition use",
+        "translation": "Original teaching material. No historical attribution."
+      },
+      "breakdown": "The coin’s catalogued status is an intermediate conclusion. It depends on the first two claims and, with the database rule, supports the final conclusion. No claim about the coin’s age is needed.",
+      "objection": "A critic might question whether every catalogued item has actually been entered into the database. That is a direct premise objection, even if the mapping is structurally impeccable.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which is the intermediate conclusion?",
+          "options": [
+            "The coin has been catalogued.",
+            "Every catalogued item has a database entry.",
+            "The coin is very old."
+          ],
+          "answer": 0,
+          "explanation": "Its role changes as the argument continues.",
+          "id": "f3-q0"
+        },
+        {
+          "type": "map",
+          "label": "Build an argument map",
+          "prompt": "Place the claims in a simple argument. Each premise supports the conclusion.",
+          "claims": [
+            "All blue-box items are catalogued.",
+            "This coin is in the blue box.",
+            "This coin is catalogued."
+          ],
+          "slots": [
+            "General premise",
+            "Case premise",
+            "Conclusion"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "targets": [
+            2,
+            2,
+            -1
+          ],
+          "explanation": "The general rule and case premise jointly support the conclusion.",
+          "id": "f3-q1"
+        },
+        {
+          "type": "order",
+          "label": "Reconstruct the sequence",
+          "prompt": "Build the chain from policy to recommendation.",
+          "items": [
+            "Items that are irreplaceable should receive protective storage.",
+            "This manuscript is irreplaceable.",
+            "Therefore this manuscript should receive protective storage."
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "The first two steps provide the rule and case. The conclusion is supported by both.",
+          "id": "f3-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Supply the missing step",
+          "prompt": "“This is a loaned object, so we must return it.” Which assumption completes the argument?",
+          "options": [
+            "Loaned objects must be returned under the relevant agreement.",
+            "All valuable objects are loaned.",
+            "We like museums."
+          ],
+          "answer": 0,
+          "explanation": "The first option supplies the relevant obligation.",
+          "id": "f3-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which targets the database premise rather than the argument’s structure?",
+          "options": [
+            "The font is unattractive.",
+            "Some catalogued objects have not yet received database entries.",
+            "I dislike conclusions."
+          ],
+          "answer": 1,
+          "explanation": "A counterinstance to the premise challenges its truth.",
+          "id": "f3-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Reconstruct a short argument you encountered today. Identify an explicit premise, the conclusion, and one assumption you had to add.",
+          "rubric": [
+            "I distinguish the speaker’s words from my reconstruction.",
+            "I show how the premise supports the conclusion.",
+            "I name an added assumption and explain why it is needed."
+          ],
+          "model": "A shop says “It is on sale, so buy it.” The offered premise is a reduced price. The conclusion is a recommendation to buy. An implicit assumption is that this purchase serves a need at an acceptable overall cost; price reduction alone does not establish that.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "f3-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Can one statement be both a premise and a conclusion?",
+          "options": [
+            "No, the roles never change.",
+            "Yes, in different inferential steps.",
+            "Only if it is false."
+          ],
+          "answer": 1,
+          "explanation": "Intermediate conclusions have precisely this dual role.",
+          "id": "f3-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "What does an arrow in a support map mean?",
+          "options": [
+            "The first event happened earlier.",
+            "The claim is offered as a reason for the target claim.",
+            "The target claim is certainly true."
+          ],
+          "answer": 1,
+          "explanation": "Mapping support does not certify truth.",
+          "id": "f3-q7"
+        }
+      ],
+      "masteryTags": [
+        "premise",
+        "conclusion",
+        "argument",
+        "assumption"
+      ],
+      "concepts": [
+        "premise",
+        "conclusion",
+        "argument",
+        "assumption"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "f2"
+      ],
+      "sources": [
+        "argument"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "“This document is authentic because its provenance is continuous.” Identify the conclusion.",
+          "options": [
+            "The document is authentic.",
+            "Its provenance is continuous."
+          ],
+          "answer": 0,
+          "explanation": "Authenticity is what the reason is offered to establish.",
+          "id": "f3-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A claim follows from two premises and then supports another claim. It is…",
+          "options": [
+            "An intermediate conclusion.",
+            "An irrelevant sentence."
+          ],
+          "answer": 0,
+          "explanation": "It connects inferential steps.",
+          "id": "f3-r1"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "world": 0,
+      "title": "Deduction and induction",
+      "description": "Distinguish a guarantee from a well-supported expectation.",
+      "keyQuestion": "How much support does an argument claim to provide?",
+      "historicalContext": "These are introductory reasoning categories, not a complete taxonomy. Philosophers disagree about how best to draw their boundaries; explanations, analogies, and inference to the best explanation deserve further study.",
+      "concept": "Necessity and probability",
+      "explanation": [
+        "A deductive argument aims to make its conclusion unavoidable if its premises are true. “Every key in this drawer opens the cabinet; this is a key in that drawer; so it opens the cabinet” makes a guarantee conditional on its premises. It may still fail because a premise is false.",
+        "An inductive argument supports a conclusion without ruling out its falsity. If a large and varied sample of the keys opens the cabinet, we may expect an untested key to open it. A defective key remains possible. Induction is often indispensable precisely because we act beyond what our evidence logically guarantees.",
+        "Do not define deduction as reasoning from general to particular and induction as reasoning from particular to general. A probability-based prediction about one case can be inductive; a mathematically valid argument can establish a general result. Here we classify the strength of support being claimed, not the direction of generality.",
+        "Good inductive evaluation asks about sample quality, relevant variation, and alternative explanations. A thousand observations from one biased source may support less than a carefully selected smaller sample. A failed deductive inference does not automatically become strong induction. We must ask whether its premises actually make the conclusion probable."
+      ],
+      "primaryText": {
+        "text": "Case A: Every sealed vial in tray A passed inspection. Vial 7 is a sealed vial in tray A. Therefore vial 7 passed inspection.\nCase B: In a representative random sample, 98 of 100 vials passed inspection. Vial 8 comes from the same production run. It probably passed too.",
+        "question": "Which case permits true premises with a false conclusion?",
+        "work": "Workshop case",
+        "author": "Philosophy Scholar editors",
+        "reference": "",
+        "source": null,
+        "kind": "EDITORIAL EXERCISE · NOT A HISTORICAL QUOTATION",
+        "date": "Contemporary teaching example",
+        "region": "Philosophical tools · cross-tradition use",
+        "translation": "Original teaching material. No historical attribution."
+      },
+      "breakdown": "Case A claims necessity relative to the premises. Case B expressly claims probability. The word representative matters: removing it weakens the inference if the sample is biased.",
+      "objection": "A critic asks why the observed sample should guide belief about unobserved cases. Merely collecting another sample does not by itself answer every version of this philosophical problem. In practice, we can still compare stronger and weaker sampling methods.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which conclusion can be false while its stated premises are true?",
+          "options": [
+            "Only A.",
+            "B, because probability leaves room for an exception.",
+            "Neither."
+          ],
+          "answer": 1,
+          "explanation": "The sample need not include the particular untested vial.",
+          "id": "f4-q0"
+        },
+        {
+          "type": "match",
+          "label": "Match concepts",
+          "prompt": "Classify by the support claimed.",
+          "pairs": [
+            [
+              "All the tickets are numbered; this is one of them; so it is numbered.",
+              "Deductive"
+            ],
+            [
+              "Most well-stored copies survive; this copy was well-stored; it probably survives.",
+              "Inductive"
+            ]
+          ],
+          "explanation": "The distinction concerns a guarantee versus defeasible support.",
+          "id": "f4-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Strengthen the reasoning",
+          "prompt": "Which change most improves a sample-based inference?",
+          "options": [
+            "Choose only convenient successes.",
+            "Sample relevant subgroups and include failures.",
+            "Repeat the conclusion confidently."
+          ],
+          "answer": 1,
+          "explanation": "Representativeness reduces a source of bias.",
+          "id": "f4-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Three friends love a film, so everyone in the city will love it. The central weakness is…",
+          "options": [
+            "A small, unrepresentative sample and an overstrong conclusion.",
+            "Any reasoning about films is deductive.",
+            "The friends cannot have preferences."
+          ],
+          "answer": 0,
+          "explanation": "Evidence may support a narrower claim without establishing a universal one.",
+          "id": "f4-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which question targets the induction problem rather than a mere counting error?",
+          "options": [
+            "Why should observed regularities extend to unobserved cases?",
+            "Did you add 98 correctly?",
+            "Was the tray blue?"
+          ],
+          "answer": 0,
+          "explanation": "It concerns the move beyond observed evidence.",
+          "id": "f4-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Give one prediction you reasonably rely on without a logical guarantee. What evidence supports it, and what could undermine it?",
+          "rubric": [
+            "I state a prediction rather than a certainty.",
+            "I identify relevant evidence.",
+            "I give a possible defeating condition."
+          ],
+          "model": "I expect my train to arrive near its scheduled time because many comparable trips have done so. A signal failure would undermine the expectation. The pattern supports planning but does not entail today’s arrival time.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "f4-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Can an inductive argument be valuable if its conclusion might be false?",
+          "options": [
+            "No: all useful reasoning guarantees truth.",
+            "Yes: strong evidence can support reasonable uncertain judgment."
+          ],
+          "answer": 1,
+          "explanation": "Uncertainty does not erase differences in evidential strength.",
+          "id": "f4-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Does an invalid deduction automatically count as strong induction?",
+          "options": [
+            "Yes.",
+            "No: its probabilistic support must be evaluated separately."
+          ],
+          "answer": 1,
+          "explanation": "Failure to guarantee does not itself establish probability.",
+          "id": "f4-q7"
+        }
+      ],
+      "masteryTags": [
+        "deduction",
+        "induction",
+        "argument"
+      ],
+      "concepts": [
+        "deduction",
+        "induction",
+        "argument"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "f3"
+      ],
+      "sources": [
+        "induction"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A reliable weather model predicts rain with 80% probability. Is a dry day logically excluded?",
+          "options": [
+            "Yes.",
+            "No."
+          ],
+          "answer": 1,
+          "explanation": "The prediction explicitly allows uncertainty.",
+          "id": "f4-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "“Every member signed; Lee is a member; therefore Lee signed” aims at…",
+          "options": [
+            "Deductive support.",
+            "A sample-based probability."
+          ],
+          "answer": 0,
+          "explanation": "Given both premises, the conclusion is unavoidable.",
+          "id": "f4-r1"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "world": 0,
+      "title": "Validity and soundness",
+      "description": "Test the inference without confusing it with the truth of its premises.",
+      "keyQuestion": "Could the premises be true while the conclusion is false?",
+      "historicalContext": "The next distinction applies to deductive arguments. In ordinary language, valid may mean acceptable. Here it has a precise technical meaning concerning possible combinations of truth and falsity.",
+      "concept": "A valid structure is not enough",
+      "explanation": [
+        "A deductive argument is valid when there is no possible case in which all its premises are true and its conclusion false. To test validity, temporarily grant the premises—even strange ones—and ask whether the conclusion must then follow. You are examining a relationship, not endorsing a worldview.",
+        "All whales are birds. All birds have wings. Therefore all whales have wings. The argument has a valid form, although a premise is false. Soundness requires both validity and true premises. This example is not sound. By contrast, a conclusion that happens to be true does not rescue an invalid inference used to reach it.",
+        "Consider “If the alarm is active, the light is on; the light is on; so the alarm is active.” The light might be on for a maintenance test. The inference affirms the consequent: if P then Q; Q; therefore P. Compare the valid form modus ponens: if P then Q; P; therefore Q.",
+        "The truth of premises and the validity of inference need different kinds of work. Evidence about how a device functions may establish a premise. A countermodel—a possible assignment with true premises and a false conclusion—can refute the proposed deductive entailment. Once you have one, more favorable examples do not repair that form."
+      ],
+      "primaryText": {
+        "text": "If a manuscript is in collection A, then it is insured. This manuscript is insured. Therefore it is in collection A.",
+        "question": "Could the manuscript be insured for a reason other than belonging to collection A?",
+        "work": "Workshop case",
+        "author": "Philosophy Scholar editors",
+        "reference": "",
+        "source": null,
+        "kind": "EDITORIAL EXERCISE · NOT A HISTORICAL QUOTATION",
+        "date": "Contemporary teaching example",
+        "region": "Philosophical tools · cross-tradition use",
+        "translation": "Original teaching material. No historical attribution."
+      },
+      "breakdown": "Let P mean membership in A and Q mean being insured. The proposed inference is P → Q, Q, therefore P. Setting P false and Q true makes both premises true but the conclusion false. That is enough to show invalidity.",
+      "objection": "The author might add “Only collection A manuscripts are insured.” That would change the argument by adding Q → P. A successful repair must acknowledge the new premise and provide grounds for it.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Why does the manuscript conclusion fail to follow?",
+          "options": [
+            "Insurance might also cover manuscripts outside collection A.",
+            "Insurance never exists.",
+            "The conclusion is necessarily false."
+          ],
+          "answer": 0,
+          "explanation": "Invalidity allows a true-premise/false-conclusion case; it does not prove the conclusion false.",
+          "id": "f5-q0"
+        },
+        {
+          "type": "match",
+          "label": "Match concepts",
+          "prompt": "Match the technical term.",
+          "pairs": [
+            [
+              "No true-premise/false-conclusion case is possible.",
+              "Valid"
+            ],
+            [
+              "Valid inference with true premises.",
+              "Sound"
+            ],
+            [
+              "If P then Q; Q; therefore P.",
+              "Affirming the consequent"
+            ]
+          ],
+          "explanation": "Validity evaluates entailment; soundness adds truth of premises.",
+          "id": "f5-q1"
+        },
+        {
+          "type": "order",
+          "label": "Reconstruct the sequence",
+          "prompt": "Arrange a valid modus ponens inference.",
+          "items": [
+            "If the seal is intact, the container is unopened.",
+            "The seal is intact.",
+            "Therefore the container is unopened."
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "This follows the form P → Q; P; therefore Q. Whether the conditional is true is a separate issue.",
+          "id": "f5-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "All cats are reptiles. All reptiles are cold-blooded. Therefore all cats are cold-blooded. This is…",
+          "options": [
+            "Valid but unsound.",
+            "Invalid because the conclusion is false.",
+            "Sound because it is orderly."
+          ],
+          "answer": 0,
+          "explanation": "The form preserves truth if the premises are granted, but the premises are not all true.",
+          "id": "f5-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which added premise repairs the manuscript inference?",
+          "options": [
+            "All manuscripts are interesting.",
+            "Only collection A manuscripts are insured.",
+            "Collection A is large."
+          ],
+          "answer": 1,
+          "explanation": "This supplies the missing reverse conditional, which then needs evidence.",
+          "id": "f5-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Construct an invalid argument with a true conclusion. Explain why the conclusion’s truth does not make the inference valid.",
+          "rubric": [
+            "My conclusion is true.",
+            "I show a possible case where premises hold but the conclusion fails, using the same structure.",
+            "I distinguish actual truth from entailment."
+          ],
+          "model": "If Paris is in France, then Paris is in Europe. Paris is in Europe, so Paris is in France. The conclusion is true, but the pattern is invalid: a city could be in Europe without being in France.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "f5-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Which follows from an argument’s soundness?",
+          "options": [
+            "Its conclusion is true.",
+            "Its premises may all be false.",
+            "It is invalid."
+          ],
+          "answer": 0,
+          "explanation": "Truth of premises plus valid entailment ensures a true conclusion.",
+          "id": "f5-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "A single true-premise/false-conclusion countermodel establishes…",
+          "options": [
+            "Invalidity.",
+            "That every premise is false.",
+            "Soundness."
+          ],
+          "answer": 0,
+          "explanation": "It refutes the required guarantee.",
+          "id": "f5-q7"
+        }
+      ],
+      "masteryTags": [
+        "validity",
+        "soundness",
+        "deduction",
+        "contradiction"
+      ],
+      "concepts": [
+        "validity",
+        "soundness",
+        "deduction",
+        "contradiction"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "f4"
+      ],
+      "sources": [
+        "validity"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "If P then Q; not Q; therefore not P. Can P be true while both premises are true?",
+          "options": [
+            "Yes.",
+            "No."
+          ],
+          "answer": 1,
+          "explanation": "This is modus tollens: P would force Q, contradicting not Q.",
+          "id": "f5-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "If a deduction has a false premise, is it necessarily invalid?",
+          "options": [
+            "No: form and premise truth are separate.",
+            "Yes: false premises destroy validity."
+          ],
+          "answer": 0,
+          "explanation": "False premises prevent soundness, not necessarily validity.",
+          "id": "f5-r1"
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "world": 0,
+      "title": "Counterexamples",
+      "description": "Use a difficult case to test a general claim.",
+      "keyQuestion": "What exactly does one exception show?",
+      "historicalContext": "Testing a claim with a counterexample is different from collecting opinions against it. You need a case that fits the claim’s scope and fails the property it attributes to every case.",
+      "concept": "Scope, necessity, and sufficiency",
+      "explanation": [
+        "“Every helpful act is morally right” is a universal claim. A helpful act that assists a serious injustice would be a candidate counterexample: it counts as helpful to someone but is not morally right. The counterexample challenges the universal connection. It does not establish that no helpful acts are right.",
+        "A sufficient condition guarantees an outcome: if being a square is sufficient for being a rectangle, every square is a rectangle. A necessary condition is required: being a rectangle is necessary for being a square. Rectangular shape alone is not sufficient for square shape. These examples use ordinary Euclidean definitions.",
+        "To refute “A is sufficient for B,” find A without B. To refute “A is necessary for B,” find B without A. Direction matters. A rectangle that is not square refutes the claim that being rectangular is sufficient for being square; it does not refute the claim that it is necessary.",
+        "Thought experiments propose possible cases when real examples are hard to isolate. A good one makes the relevant features explicit. If its possibility is disputed, that dispute matters. Revising a definition after a counterexample can improve a theory, but adding arbitrary exceptions solely to protect a conclusion can make it uninformative."
+      ],
+      "primaryText": {
+        "text": "Claim: Returning something you borrowed is always just.\nCase: You borrowed a neighbor’s tool. The neighbor now intends to use it immediately to seriously harm an innocent person. You can safely delay returning it.\nQuestion: Does the original claim still cover this case?",
+        "question": "What additional moral issue appears in this case besides the fact of borrowing?",
+        "work": "Workshop case",
+        "author": "Philosophy Scholar editors",
+        "reference": "",
+        "source": null,
+        "kind": "EDITORIAL EXERCISE · NOT A HISTORICAL QUOTATION",
+        "date": "Contemporary teaching example",
+        "region": "Philosophical tools · cross-tradition use",
+        "translation": "Original teaching material. No historical attribution."
+      },
+      "breakdown": "The claim is exceptionless. The case preserves borrowing but introduces preventable harm. If withholding is justified under these conditions, returning a borrowed item is not sufficient for acting justly in every case. The example is editorial; a related weapons-return case appears in Plato’s Republic 331c.",
+      "objection": "A critic may say that delaying return violates ownership. To answer, the defender must explain why preventing grave harm can override immediate return in this case. Calling the critic heartless would avoid the argument.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What creates pressure on the universal claim?",
+          "options": [
+            "A foreseeable serious harm that could be safely prevented.",
+            "The tool is borrowed rather than owned.",
+            "The neighbor has a name."
+          ],
+          "answer": 0,
+          "explanation": "The case tests whether borrowing settles justice irrespective of consequences.",
+          "id": "f6-q0"
+        },
+        {
+          "type": "match",
+          "label": "Match concepts",
+          "prompt": "Match the condition.",
+          "pairs": [
+            [
+              "Being a square guarantees being a rectangle.",
+              "Sufficient"
+            ],
+            [
+              "A square must be a rectangle.",
+              "Necessary"
+            ],
+            [
+              "A rectangle with unequal adjacent sides tests rectangle → square.",
+              "Counterexample"
+            ]
+          ],
+          "explanation": "The direction of the proposed guarantee is essential.",
+          "id": "f6-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Find the counterexample",
+          "prompt": "What refutes “All A are B”?",
+          "options": [
+            "A B that is not A.",
+            "An A that is not B.",
+            "Many cases that are both."
+          ],
+          "answer": 1,
+          "explanation": "It must fall inside the subject class and fail the predicate.",
+          "id": "f6-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A rule says passing an exam is necessary for certification. What would refute it?",
+          "options": [
+            "Someone passed but was not certified.",
+            "Someone was certified without passing.",
+            "Someone failed and was not certified."
+          ],
+          "answer": 1,
+          "explanation": "Certification without passing violates necessity.",
+          "id": "f6-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which response directly addresses the ownership objection?",
+          "options": [
+            "You are a bad person.",
+            "Ownership never matters.",
+            "Explain why this imminent harm can justify temporarily delaying return."
+          ],
+          "answer": 2,
+          "explanation": "This addresses the competing reason without erasing it.",
+          "id": "f6-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Propose a universal claim, then a counterexample. Revise the claim without simply naming your example as an exception.",
+          "rubric": [
+            "My case satisfies the subject of the original claim.",
+            "I explain which attributed property it lacks.",
+            "My revision states a principled limitation."
+          ],
+          "model": "Original: Always tell someone exactly what you think. Counterexample: disclosure that needlessly exposes another person to danger. Revision: Speak honestly while respecting justified duties of confidentiality and protection; explain how those duties are identified.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "f6-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "One counterexample to “All helpful acts are right” establishes…",
+          "options": [
+            "No helpful acts are right.",
+            "The universal claim is false, if the case is genuine.",
+            "Morality is impossible."
+          ],
+          "answer": 1,
+          "explanation": "The scope of the refutation is limited.",
+          "id": "f6-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Being a rectangle is necessary but not sufficient for being a square. Which case is possible?",
+          "options": [
+            "A square that is not a rectangle.",
+            "A rectangle that is not a square."
+          ],
+          "answer": 1,
+          "explanation": "A necessary condition need not guarantee the outcome.",
+          "id": "f6-q7"
+        }
+      ],
+      "masteryTags": [
+        "counterexample",
+        "necessary condition",
+        "sufficient condition",
+        "thought experiment"
+      ],
+      "concepts": [
+        "counterexample",
+        "necessary condition",
+        "sufficient condition",
+        "thought experiment"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "f5"
+      ],
+      "sources": [
+        "argument",
+        "validity",
+        "plato"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "“A good explanation must make a novel prediction.” Which case challenges necessity?",
+          "options": [
+            "A good explanation with no novel prediction.",
+            "A poor explanation with a novel prediction."
+          ],
+          "answer": 0,
+          "explanation": "A necessary condition fails when the result exists without it.",
+          "id": "f6-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "If one genuine exception defeats a universal definition, what is a reasonable next step?",
+          "options": [
+            "Develop and test a principled revision.",
+            "Pretend the case never occurred."
+          ],
+          "answer": 0,
+          "explanation": "A counterexample can guide improvement rather than end inquiry.",
+          "id": "f6-r1"
+        }
+      ]
+    },
+    {
+      "id": "b0",
+      "world": 0,
+      "title": "Argument Fundamentals",
+      "description": "Put a claim, its reasons, a counterexample, and a repair together.",
+      "keyQuestion": "Can you defend a policy without hiding its weakest assumption?",
+      "historicalContext": "This is an original practical argument, not a quotation from a historical thinker. You will test a proposed museum policy using the tools of World 0. Treat understanding the policy and endorsing it as separate tasks.",
+      "concept": "A complete examination",
+      "explanation": [
+        "A museum proposes displaying every donated object. Its supporter argues that displaying gifts respects donors, and that respecting donors is always the right policy. Before voting on the proposal, reconstruct the argument. Identify what the reasons establish, where a universal claim enters, and what additional considerations might matter.",
+        "An objection should target a claim or an inference. A fragile object may be destroyed by exposure to light; an object may also have been donated by someone without a rightful claim to it. These are different objections. The first concerns preservation, the second rightful possession. A repair that answers one does not automatically answer the other.",
+        "In this boss, aim to understand and improve an argument rather than defeat a person. A principled revision should apply to future cases, not merely exempt the one difficult object mentioned today. You can oppose or support the policy while giving an accurate reconstruction."
+      ],
+      "primaryText": {
+        "text": "Every donated object should be displayed, because displaying donations respects donors, and every policy that respects donors is right. A newly donated manuscript will be irreversibly damaged by prolonged exposure to light.",
+        "question": "Which universal claim links donor respect to the policy recommendation?",
+        "work": "Workshop case",
+        "author": "Philosophy Scholar editors",
+        "reference": "",
+        "source": null,
+        "kind": "EDITORIAL EXERCISE · NOT A HISTORICAL QUOTATION",
+        "date": "Contemporary teaching example",
+        "region": "Philosophical tools · cross-tradition use",
+        "translation": "Original teaching material. No historical attribution."
+      },
+      "breakdown": "The argument moves from displaying donations to respecting donors, then from donor respect to right policy. It needs a bridge from a policy being right to our implementing it. The manuscript introduces a competing obligation of preservation.",
+      "objection": "A donor says that withholding an object from display betrays the gift’s purpose. A serious reply must explain how preservation can honor that purpose over time, or why the purpose does not settle the institution’s duties.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which statement supplies the broad normative premise?",
+          "options": [
+            "The manuscript is newly donated.",
+            "Every policy that respects donors is right.",
+            "The museum has a roof."
+          ],
+          "answer": 1,
+          "explanation": "This premise connects donor respect with rightness.",
+          "id": "b0-q0"
+        },
+        {
+          "type": "map",
+          "label": "Build an argument map",
+          "prompt": "Map a reconstruction with an explicit implementation assumption.",
+          "claims": [
+            "Displaying every donation respects donors.",
+            "Every donor-respecting policy is right.",
+            "Displaying every donation is right.",
+            "Every right policy should be implemented.",
+            "We should implement universal display."
+          ],
+          "slots": [
+            "Premise 1",
+            "Premise 2",
+            "Intermediate conclusion",
+            "Implementation assumption",
+            "Final conclusion"
+          ],
+          "answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "targets": [
+            2,
+            2,
+            4,
+            4,
+            -1
+          ],
+          "explanation": "The first two premises jointly support the intermediate conclusion. That conclusion and the implementation assumption support the final recommendation.",
+          "id": "b0-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A policy pleases donors by destroying irreplaceable evidence. If that policy is wrong, it is…",
+          "options": [
+            "A counterexample to the claim that all donor-respecting policies are right.",
+            "Proof that donors never matter.",
+            "Evidence that all museums are unjust."
+          ],
+          "answer": 0,
+          "explanation": "It challenges the universal premise without refuting every concern for donors.",
+          "id": "b0-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Choose a principled repair.",
+          "options": [
+            "Display everything except this one named manuscript.",
+            "Provide access consistent with preservation and rightful possession, explaining restrictions to donors.",
+            "Ignore every donor’s purpose."
+          ],
+          "answer": 1,
+          "explanation": "The repair states conditions applicable to new cases.",
+          "id": "b0-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which reply addresses the donor’s objection?",
+          "options": [
+            "The donor is foolish.",
+            "Preserving the manuscript can sustain future access, which may better serve the gift’s educational purpose.",
+            "All complaints are equally persuasive."
+          ],
+          "answer": 1,
+          "explanation": "It connects the response to the stated purpose rather than attacking the person.",
+          "id": "b0-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Reconstruct the original policy argument, identify a serious objection, and defend a principled revision. You may also reject universal display entirely.",
+          "rubric": [
+            "I identify the normative premise and conclusion.",
+            "I explain exactly which premise or inference my objection targets.",
+            "My revision addresses the objection and applies beyond one case."
+          ],
+          "model": "A fair reconstruction links universal display to donor respect, then donor respect to rightness. The universal second premise overlooks preservation and rightful ownership. A revised policy could provide responsible access while protecting objects and checking the donor’s title.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "b0-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Independent mastery check",
+          "prompt": "If the original argument’s form is valid but its donor-respect premise is false, it is…",
+          "options": [
+            "Sound.",
+            "Valid but unsound.",
+            "Neither an argument nor a policy."
+          ],
+          "answer": 1,
+          "explanation": "Validity does not make a false premise true.",
+          "id": "b0-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Independent mastery check",
+          "prompt": "Which evidence would best support an inductive claim that protective restrictions improve long-term access?",
+          "options": [
+            "A representative comparison of preservation outcomes across comparable collections.",
+            "One enthusiastic donor’s preference.",
+            "Repeating the policy."
+          ],
+          "answer": 0,
+          "explanation": "The sample must bear on the outcome being predicted.",
+          "id": "b0-q7"
+        }
+      ],
+      "masteryTags": [
+        "argument",
+        "assumption",
+        "validity",
+        "counterexample"
+      ],
+      "concepts": [
+        "argument",
+        "assumption",
+        "validity",
+        "counterexample"
+      ],
+      "xpReward": 100,
+      "minutes": 20,
+      "prerequisites": [
+        "f1",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6"
+      ],
+      "sources": [
+        "argument",
+        "validity"
+      ],
+      "review": [],
+      "boss": true
+    },
+    {
+      "id": "s1",
+      "world": 1,
+      "title": "The historical Socrates",
+      "description": "Meet a thinker through sources that do not speak with one voice.",
+      "keyQuestion": "How can we study a philosopher who left no writings of his own?",
+      "historicalContext": "FACT / APPROXIMATE DATE: Socrates lived in Athens, approximately 469–399 BCE, and was tried and executed in 399 BCE. His thought reaches us through others, especially Plato, Xenophon, and Aristophanes. These sources differ in genre and purpose.",
+      "concept": "A source is evidence, not a transparent window",
+      "explanation": [
+        "Plato’s Apology presents a defense speech by Socrates. It is a literary work by a follower, not a recording we can independently compare with the trial. Calling it a primary source does not make every speech a verbatim transcript. A primary source can be close to an event while still requiring interpretation.",
+        "When we write “Socrates argues” in these lessons, normally read it as “the Socrates portrayed in this passage argues.” That care is not needless skepticism. It keeps an interpretation of Plato’s text distinct from a historical claim about precisely what the living Socrates said.",
+        "Read for both the speech’s argument and its self-presentation. A speaker can ask a jury to judge truth rather than style while also using that request to establish credibility. Noticing rhetorical purpose does not prove dishonesty; it gives you another question to examine.",
+        "Historical context supplies constraints. A civic trial in Athens is not a modern university seminar. But context does not settle whether an argument is good. We will distinguish textual evidence, plausible reconstruction, and uncertain historical attribution throughout the unit."
+      ],
+      "primaryText": {
+        "text": "For I am more than seventy years of age, and appearing now for the first time in a court of law, I am quite a stranger to the language of the place; and therefore I would have you regard me as if I were really a stranger, whom you would excuse if he spoke in his native tongue, and after the fashion of his country:—Am I making an unfair request of you? Never mind the manner, which may or may not be good; but think only of the truth of my words, and give heed to that: let the speaker speak truly and the judge decide justly.",
+        "question": "What standard does the speaker ask the jury to use?",
+        "work": "Apology",
+        "author": "Plato",
+        "reference": "17d–18a",
+        "source": "apology",
+        "kind": "PRIMARY TEXT · PUBLIC-DOMAIN TRANSLATION",
+        "date": "Composed in the 4th century BCE; dramatic setting 399 BCE",
+        "region": "Athens, Greek world",
+        "translation": "Benjamin Jowett (1817–1893). Public domain in the United States. Full edition and Gutenberg license included."
+      },
+      "breakdown": "The portrayed speaker asks the jury to attend to the truth of his claims rather than the polish of his manner. This is a normative request about judgment. The passage also presents him as an outsider to courtroom speech.",
+      "objection": "A critic may say that a plain-speaking persona is itself a rhetorical strategy. That objection does not show the claims false; it challenges the idea that a modest style guarantees sincerity or truth.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What does the speaker ask the jury to prioritize?",
+          "options": [
+            "The truth of his claims.",
+            "His decorative language.",
+            "His wealth."
+          ],
+          "answer": 0,
+          "explanation": "He contrasts the manner of speaking with what is true.",
+          "id": "s1-q0"
+        },
+        {
+          "type": "match",
+          "label": "Match concepts",
+          "prompt": "Keep these claims separate.",
+          "pairs": [
+            [
+              "Socrates was executed in 399 BCE.",
+              "Historical claim"
+            ],
+            [
+              "In this passage Plato portrays Socrates asking for truthful judgment.",
+              "Textual observation"
+            ],
+            [
+              "These are the exact words spoken in court.",
+              "Uncertain historical attribution"
+            ]
+          ],
+          "explanation": "Evidence for the scene and evidence for exact wording are not identical.",
+          "id": "s1-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which is the most careful attribution?",
+          "options": [
+            "A surviving audio record proves these words.",
+            "Plato’s Apology portrays Socrates saying this.",
+            "Every ancient author gives the same account."
+          ],
+          "answer": 1,
+          "explanation": "This identifies the source and avoids unsupported precision.",
+          "id": "s1-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A modern memoir reconstructs a conversation from thirty years earlier. What is the best response?",
+          "options": [
+            "Use it critically as evidence while distinguishing recollection from exact transcript.",
+            "Treat every sentence as recorded verbatim.",
+            "Reject it as useless automatically."
+          ],
+          "answer": 0,
+          "explanation": "Genre and distance shape how evidence can be used.",
+          "id": "s1-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What follows if the plain-speaking persona is rhetorical?",
+          "options": [
+            "The speaker must be lying.",
+            "Nothing the speaker says can be true.",
+            "Style alone cannot guarantee sincerity; assess the claims and evidence."
+          ],
+          "answer": 2,
+          "explanation": "Rhetoric and truth are not mutually exclusive.",
+          "id": "s1-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Explain why a primary source may be valuable without being a verbatim or neutral record. Apply the distinction to this passage.",
+          "rubric": [
+            "I identify Plato as the author and Socrates as the portrayed speaker.",
+            "I distinguish textual claims from historical reconstruction.",
+            "I explain a legitimate use of the source despite its limits."
+          ],
+          "model": "The passage supports an interpretation of how Plato presents Socrates’ defense. It can contribute to historical inquiry, but its literary form does not establish that each sentence was spoken exactly this way.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "s1-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "What is the safest conclusion about this passage?",
+          "options": [
+            "It shows how Plato presents Socrates’ preferred standard of judgment.",
+            "It proves every trial speech was identical.",
+            "It tells us every juror’s motive."
+          ],
+          "answer": 0,
+          "explanation": "The textual observation is narrower than those historical inferences.",
+          "id": "s1-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Does uncertainty about exact speech make argument analysis impossible?",
+          "options": [
+            "Yes.",
+            "No: we can analyze the argument in the surviving text."
+          ],
+          "answer": 1,
+          "explanation": "Textual analysis does not require certainty about verbatim historical speech.",
+          "id": "s1-q7"
+        }
+      ],
+      "masteryTags": [
+        "argument",
+        "assumption",
+        "epistemology"
+      ],
+      "concepts": [
+        "argument",
+        "assumption",
+        "epistemology"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [],
+      "sources": [
+        "apology",
+        "socrates"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Why distinguish Plato’s Socrates from the historical Socrates?",
+          "options": [
+            "Plato’s portrayal is evidence requiring interpretation, not an independent recording.",
+            "Socrates is a modern invention."
+          ],
+          "answer": 0,
+          "explanation": "The distinction calibrates what the evidence establishes.",
+          "id": "s1-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A source has a persuasive aim. Must its factual claims be false?",
+          "options": [
+            "Yes.",
+            "No: evaluate them with appropriate evidence."
+          ],
+          "answer": 1,
+          "explanation": "Purpose matters without settling truth.",
+          "id": "s1-r1"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "world": 1,
+      "title": "Socratic questioning",
+      "description": "Find what a sequence of questions can—and cannot—establish.",
+      "keyQuestion": "If someone’s commitments conflict, which one should they revise?",
+      "historicalContext": "INTERPRETATION: Socratic examination, often called elenchus, tests a respondent’s commitments through questions. Scholars dispute whether it primarily refutes a thesis, exposes inconsistency, or also establishes positive ethical knowledge.",
+      "concept": "Examination rather than humiliation",
+      "explanation": [
+        "Asking many questions is not yet an examination of an argument. A productive sequence identifies a claim, clarifies its meaning, and checks it against other commitments. “What do you mean by courage?” seeks an account; “Can retreat ever be courageous?” tests that account against a case.",
+        "Suppose someone says courage means never retreating, then agrees that a tactical retreat can protect others at great personal risk and be courageous. The commitments conflict. This does not by itself tell us which to abandon. It supplies a reason to revise at least one or explain a relevant distinction.",
+        "An examination is strongest when the respondent understands the commitments and the proposed case. Ambiguous wording, pressure, or a false dilemma can manufacture apparent contradiction. A fair questioner gives the other person space to clarify rather than treating every hesitation as defeat.",
+        "The passage records a portrait of persistent examination about virtue. The method illustrated in our exercise is an editorial reconstruction, not a transcript of a single historical conversation."
+      ],
+      "primaryText": {
+        "text": "And if the person with whom I am arguing, says: Yes, but I do care; then I do not leave him or let him go at once; but I proceed to interrogate and examine and cross-examine him, and if I think that he has no virtue in him, but only says that he has, I reproach him with undervaluing the greater, and overvaluing the less.",
+        "question": "Why does an assertion of caring about virtue not end the examination?",
+        "work": "Apology",
+        "author": "Plato",
+        "reference": "29e–30a",
+        "source": "apology",
+        "kind": "PRIMARY TEXT · PUBLIC-DOMAIN TRANSLATION",
+        "date": "Composed in the 4th century BCE; dramatic setting 399 BCE",
+        "region": "Athens, Greek world",
+        "translation": "Benjamin Jowett (1817–1893). Public domain in the United States. Full edition and Gutenberg license included."
+      },
+      "breakdown": "Claiming to care about virtue is not the same as showing understanding or living accordingly. Socratic questioning presses the relation between a person’s professed commitment and their other judgments. What the method ultimately proves remains an interpretive question.",
+      "objection": "A critic objects that inconsistency among commitments does not identify the false one. A careful defender should concede that limited result and explain how further inquiry can assess the alternatives.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Why does the portrayed Socrates continue asking?",
+          "options": [
+            "A declaration of caring does not settle whether the person’s other commitments support it.",
+            "Every answer is automatically false.",
+            "Virtue has been defined conclusively."
+          ],
+          "answer": 0,
+          "explanation": "The examination tests rather than merely records a profession.",
+          "id": "s2-q0"
+        },
+        {
+          "type": "order",
+          "label": "Reconstruct the sequence",
+          "prompt": "Arrange a fair examination.",
+          "items": [
+            "Ask what the person means by courage.",
+            "Confirm that their account rules out every retreat.",
+            "Test a retreat undertaken to protect others.",
+            "Ask whether the definition or another commitment needs revision."
+          ],
+          "answer": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "The questioner first establishes the claim and then tests its scope.",
+          "id": "s2-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "If a person’s accepted claims are inconsistent, what has been established?",
+          "options": [
+            "Every belief they hold is false.",
+            "At least one commitment must be revised or clarified.",
+            "The opposite of the opening claim must be true."
+          ],
+          "answer": 1,
+          "explanation": "Inconsistency alone does not select the false premise.",
+          "id": "s2-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A colleague changes “never” to “usually” after a difficult case. What should you do?",
+          "options": [
+            "Examine whether the qualification is principled and resolves the difficulty.",
+            "Declare all revisions dishonest.",
+            "Ignore the revised claim."
+          ],
+          "answer": 0,
+          "explanation": "A revision can improve an account if it has reasons.",
+          "id": "s2-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which reply addresses the critic’s limitation objection?",
+          "options": [
+            "Admit that exposing inconsistency is a limited result, then assess the competing commitments.",
+            "Say the critic is afraid of questions.",
+            "Claim that every contradiction proves the examiner right."
+          ],
+          "answer": 0,
+          "explanation": "It acknowledges what the examination does and does not establish.",
+          "id": "s2-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Create three fair questions testing “loyalty means always agreeing with a friend.” Do not simply insult or trap the respondent.",
+          "rubric": [
+            "I ask for or clarify the definition.",
+            "I introduce a relevant case of principled disagreement.",
+            "I allow revision and do not pretend inconsistency alone proves my full theory."
+          ],
+          "model": "Ask whether loyalty is agreement or concern for a friend’s good. Ask about a friend planning a harmful act. Ask whether honest disagreement in that case can be loyal, and how the definition should reflect that.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "s2-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Which most undermines a fair examination?",
+          "options": [
+            "Clarifying a term.",
+            "Letting the respondent revise a claim.",
+            "Switching the meaning of a key word without acknowledging it."
+          ],
+          "answer": 2,
+          "explanation": "Equivocation can produce only an apparent contradiction.",
+          "id": "s2-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "What is elenchus here?",
+          "options": [
+            "A family of question-driven examinations of commitments.",
+            "A guarantee that the examiner knows everything.",
+            "A personality type."
+          ],
+          "answer": 0,
+          "explanation": "Its scope and aims require interpretation.",
+          "id": "s2-q7"
+        }
+      ],
+      "masteryTags": [
+        "elenchus",
+        "contradiction",
+        "ambiguity",
+        "counterexample"
+      ],
+      "concepts": [
+        "elenchus",
+        "contradiction",
+        "ambiguity",
+        "counterexample"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "s1"
+      ],
+      "sources": [
+        "apology",
+        "socrates"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A counterexample exposes a tension in two accepted claims. What next?",
+          "options": [
+            "Identify which commitment should change and why.",
+            "Assume the examiner’s entire outlook is proven."
+          ],
+          "answer": 0,
+          "explanation": "The result is a starting point for further assessment.",
+          "id": "s2-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Does any rapid sequence of questions count as fair Socratic inquiry?",
+          "options": [
+            "No: clarify commitments and test relevant implications.",
+            "Yes: speed is the criterion."
+          ],
+          "answer": 0,
+          "explanation": "Questioning needs an intelligible inferential purpose.",
+          "id": "s2-r1"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "world": 1,
+      "title": "Apology: the duty to philosophize",
+      "description": "Reconstruct a claim of obligation before accepting or contesting it.",
+      "keyQuestion": "Why does the portrayed Socrates refuse to stop philosophizing?",
+      "historicalContext": "TEXTUAL CONTEXT: In Apology 29c–30b, Socrates imagines being acquitted on condition that he stops examining others. He frames his activity as a divine duty and a service directed toward care for the soul.",
+      "concept": "Competing authorities",
+      "explanation": [
+        "The argument is not merely “I enjoy philosophy, so I will continue.” The portrayed Socrates claims an obligation whose authority outweighs a hypothetical order to stop. Whether that higher authority is justified is a central question for a critic, not something a reader must accept to understand the argument.",
+        "A charitable reconstruction distinguishes two lines of support: obedience to a divine command, and the value of examining virtue rather than prioritizing wealth and reputation. They may reinforce one another in the speech without being interchangeable. Rejecting one reason does not automatically answer the other.",
+        "The English word soul can carry later associations. In this reading, attend to the text’s concern with ethical improvement before importing a complete later theology. The lesson does not require accepting a metaphysical doctrine about souls.",
+        "A personal claim of exceptional duty can be mistaken. Ask what grounds the claim, whether it permits accountability, and whether the purported service actually benefits others. These questions target the argument without reducing it to either heroic individualism or automatic obedience."
+      ],
+      "primaryText": {
+        "text": "Men of Athens, I honour and love you; but I shall obey God rather than you, and while I have life and strength I shall never cease from the practice and teaching of philosophy, exhorting any one whom I meet and saying to him after my manner: You, my friend,—a citizen of the great and mighty and wise city of Athens,—are you not ashamed of heaping up the greatest amount of money and honour and reputation, and caring so little about wisdom and truth and the greatest improvement of the soul, which you never regard or heed at all?",
+        "question": "Which authority does Socrates place above the imagined civic condition, and toward what end?",
+        "work": "Apology",
+        "author": "Plato",
+        "reference": "29d–e",
+        "source": "apology",
+        "kind": "PRIMARY TEXT · PUBLIC-DOMAIN TRANSLATION",
+        "date": "Composed in the 4th century BCE; dramatic setting 399 BCE",
+        "region": "Athens, Greek world",
+        "translation": "Benjamin Jowett (1817–1893). Public domain in the United States. Full edition and Gutenberg license included."
+      },
+      "breakdown": "Reconstruction: If a divine duty to examine takes priority over an order to stop, and this activity is such a duty, then he should continue. The argument’s structure does not establish the truth of its priority or divine-duty premises.",
+      "objection": "A serious objection asks how a citizen or jury could distinguish a genuine higher duty from a confident mistake. The argument requires more than the strength of the speaker’s conviction.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which reason appears explicitly in the passage?",
+          "options": [
+            "Obedience to God rather than the imagined order to stop.",
+            "A wish to become wealthy.",
+            "A claim that no human duty ever matters."
+          ],
+          "answer": 0,
+          "explanation": "The portrayed speaker contrasts authorities in this case.",
+          "id": "s3-q0"
+        },
+        {
+          "type": "map",
+          "label": "Build an argument map",
+          "prompt": "Map the priority reconstruction.",
+          "claims": [
+            "A genuine divine duty takes priority over this order to stop.",
+            "The examination is a genuine divine duty.",
+            "Socrates ought to continue despite this order."
+          ],
+          "slots": [
+            "Priority premise",
+            "Duty premise",
+            "Conclusion"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "targets": [
+            2,
+            2,
+            -1
+          ],
+          "explanation": "Both the priority and the identification of the duty require assessment.",
+          "id": "s3-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which claim is an assumption needing defense rather than a result of mapping?",
+          "options": [
+            "This examination really is divinely required.",
+            "A conclusion is represented in the map.",
+            "The passage has an author."
+          ],
+          "answer": 0,
+          "explanation": "The map exposes that commitment; it does not verify it.",
+          "id": "s3-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A researcher claims conscience requires challenging an institutional rule. What is the relevant next question?",
+          "options": [
+            "What grounds that duty, and how does it bear on this rule?",
+            "Is the researcher charismatic?",
+            "Must every rule be either perfect or worthless?"
+          ],
+          "answer": 0,
+          "explanation": "This tests the asserted obligation and its priority.",
+          "id": "s3-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which objection directly targets the duty premise?",
+          "options": [
+            "How do we know that this activity is divinely required rather than personally preferred?",
+            "The speech is old.",
+            "The speaker is not wealthy."
+          ],
+          "answer": 0,
+          "explanation": "The question asks for grounds for the specific premise.",
+          "id": "s3-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Explain Socrates’ refusal in this passage, then identify one premise you would need to investigate before endorsing it.",
+          "rubric": [
+            "I distinguish obligation from personal preference.",
+            "I state a premise actually relevant to the passage.",
+            "I keep my judgment separate from my reconstruction."
+          ],
+          "model": "The speaker treats examination as a higher duty, not merely a pastime. I would ask what establishes that this activity has the authority he claims. That question need not deny that ethical examination can have civic value.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "s3-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Does a valid reconstruction prove the divine-duty premise true?",
+          "options": [
+            "Yes.",
+            "No."
+          ],
+          "answer": 1,
+          "explanation": "Validity concerns what follows if premises hold.",
+          "id": "s3-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "What is a mistake when criticizing this passage?",
+          "options": [
+            "Questioning the source of the duty.",
+            "Treating “I enjoy it” as the whole argument and ignoring the stated obligation.",
+            "Distinguishing civic and divine authority."
+          ],
+          "answer": 1,
+          "explanation": "That criticism would answer a weaker argument.",
+          "id": "s3-q7"
+        }
+      ],
+      "masteryTags": [
+        "assumption",
+        "ethics",
+        "validity",
+        "argument"
+      ],
+      "concepts": [
+        "assumption",
+        "ethics",
+        "validity",
+        "argument"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "s2"
+      ],
+      "sources": [
+        "apology"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "The speaker gives both an authority-based reason and a benefit-based reason. Refuting one…",
+          "options": [
+            "Does not by itself refute the other.",
+            "Automatically defeats both."
+          ],
+          "answer": 0,
+          "explanation": "Distinct lines of support need distinct assessment.",
+          "id": "s3-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What must a critic separate?",
+          "options": [
+            "The reconstruction’s validity and the truth of its duty premise.",
+            "The color and size of the page only."
+          ],
+          "answer": 0,
+          "explanation": "A valid structure cannot supply its own premises.",
+          "id": "s3-r1"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "world": 1,
+      "title": "Knowledge and ignorance",
+      "description": "Learn why recognizing a limit differs from denying all knowledge.",
+      "keyQuestion": "Can knowing your limits count as an intellectual advantage?",
+      "historicalContext": "TEXTUAL CONTEXT: In Apology 21b–23b, Socrates describes examining people reputed wise. The familiar slogan “I know that I know nothing” is not the sentence quoted here. Read the actual contrast in Plato’s portrayal.",
+      "concept": "Confidence proportioned to grounds",
+      "explanation": [
+        "The contrast is between lacking a kind of knowledge while claiming it and lacking it without that pretense. The passage need not be read as a formal proof that Socrates has no knowledge whatsoever. It identifies an advantage concerning awareness of a limit.",
+        "Later in the speech, Socrates acknowledges the artisans’ genuine expertise while criticizing their extension of that expertise to matters beyond it. A skilled builder may know how to build without thereby knowing every answer about justice. Respect for expertise and criticism of overreach can coexist.",
+        "Intellectual humility is not the habit of adding “maybe” to every statement. It concerns how your confidence relates to your grounds, your ability to explain those grounds, and your willingness to revise. Excessive doubt can be as poorly calibrated as excessive certainty.",
+        "INTERPRETIVE LIMIT: The scope of Socratic professions of ignorance and their relation to his moral commitments are debated. Avoid turning a particular passage into a slogan that erases other claims in the speech."
+      ],
+      "primaryText": {
+        "text": "Well, although I do not suppose that either of us knows anything really beautiful and good, I am better off than he is,—for he knows nothing, and thinks that he knows; I neither know nor think that I know. In this latter particular, then, I seem to have slightly the advantage of him.",
+        "question": "In what particular respect does the speaker claim an advantage?",
+        "work": "Apology",
+        "author": "Plato",
+        "reference": "21d",
+        "source": "apology",
+        "kind": "PRIMARY TEXT · PUBLIC-DOMAIN TRANSLATION",
+        "date": "Composed in the 4th century BCE; dramatic setting 399 BCE",
+        "region": "Athens, Greek world",
+        "translation": "Benjamin Jowett (1817–1893). Public domain in the United States. Full edition and Gutenberg license included."
+      },
+      "breakdown": "The advantage is limited: the speaker does not add a false claim of knowledge to ignorance. This does not entail that he possesses a complete account of virtue, nor that all genuine expertise is impossible.",
+      "objection": "A critic asks whether a person who confidently says another lacks knowledge must himself possess standards of knowledge. A thoughtful interpretation must examine those standards rather than treating ignorance as a self-explanatory virtue.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What advantage is claimed in this passage?",
+          "options": [
+            "Possessing every kind of knowledge.",
+            "Not thinking he knows what he does not know.",
+            "Having no need to examine himself."
+          ],
+          "answer": 1,
+          "explanation": "The comparison concerns a specific kind of epistemic self-assessment.",
+          "id": "s4-q0"
+        },
+        {
+          "type": "match",
+          "label": "Match concepts",
+          "prompt": "Distinguish these attitudes.",
+          "pairs": [
+            [
+              "My evidence is limited, so my confidence should be limited.",
+              "Calibrated humility"
+            ],
+            [
+              "I know this craft, so I know every ethical answer.",
+              "Overextension of expertise"
+            ],
+            [
+              "No one can know anything, no matter the evidence.",
+              "Global skeptical claim"
+            ]
+          ],
+          "explanation": "The first claim does not entail the third.",
+          "id": "s4-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Why does acknowledging artisans’ expertise matter?",
+          "options": [
+            "It blocks the inference that the speech simply denies all human knowledge.",
+            "It proves artisans know every moral truth.",
+            "It makes all questioning pointless."
+          ],
+          "answer": 0,
+          "explanation": "A limited kind of expertise is compatible with limits elsewhere.",
+          "id": "s4-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "An excellent engineer gives an unsupported view about a historical event. What should you do?",
+          "options": [
+            "Accept it because expertise transfers to every subject.",
+            "Assess the relevant historical evidence while respecting the engineering expertise.",
+            "Deny all engineering knowledge."
+          ],
+          "answer": 1,
+          "explanation": "Expertise is domain-sensitive.",
+          "id": "s4-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which question targets the critic’s concern?",
+          "options": [
+            "What standards justify the claim that another person lacks knowledge?",
+            "Why is the book old?",
+            "Why does confidence feel pleasant?"
+          ],
+          "answer": 0,
+          "explanation": "The challenge concerns the grounds of the evaluation itself.",
+          "id": "s4-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Describe a subject you know something about. Identify a nearby question where that knowledge does not justify high confidence.",
+          "rubric": [
+            "I name genuine knowledge or skill.",
+            "I identify a limit rather than dismissing the skill.",
+            "I explain what additional evidence the nearby question would require."
+          ],
+          "model": "Knowing how to repair a bicycle does not by itself establish which transport policy is fairest. That further question requires evidence about effects and an account of fairness, not merely mechanical competence.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "s4-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Which interpretation is too quick?",
+          "options": [
+            "The passage contrasts pretense with recognition of ignorance.",
+            "The passage proves Socrates denies every possible item of knowledge."
+          ],
+          "answer": 1,
+          "explanation": "The universal reading goes beyond the stated contrast.",
+          "id": "s4-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Intellectual humility requires…",
+          "options": [
+            "Always claiming total ignorance.",
+            "Calibrating confidence to grounds and acknowledging limits.",
+            "Never making a decision."
+          ],
+          "answer": 1,
+          "explanation": "It can coexist with justified confidence.",
+          "id": "s4-q7"
+        }
+      ],
+      "masteryTags": [
+        "intellectual humility",
+        "epistemology",
+        "assumption"
+      ],
+      "concepts": [
+        "intellectual humility",
+        "epistemology",
+        "assumption"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "s3"
+      ],
+      "sources": [
+        "apology",
+        "socrates"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Does recognizing uncertainty require treating all claims as equally supported?",
+          "options": [
+            "No.",
+            "Yes."
+          ],
+          "answer": 0,
+          "explanation": "Evidence can support different degrees of confidence.",
+          "id": "s4-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What is the error in “she is an expert, therefore every opinion of hers is authoritative”?",
+          "options": [
+            "It ignores the domain and grounds of expertise.",
+            "It gives any weight to expertise."
+          ],
+          "answer": 0,
+          "explanation": "Respecting expertise does not make it unlimited.",
+          "id": "s4-r1"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "world": 1,
+      "title": "Crito: obligation and justice",
+      "description": "Ask whether suffering injustice licenses doing it.",
+      "keyQuestion": "Would escaping punishment itself be unjust?",
+      "historicalContext": "TEXTUAL CONTEXT: Plato’s Crito presents Socrates in prison after his conviction. Crito urges escape. Socrates asks whether escape would be just, then the dialogue introduces an imagined speech by the Laws. Interpreting that speech and its relation to the Apology is contested.",
+      "concept": "Principle, application, and political obligation",
+      "explanation": [
+        "The passage begins from a principle about wrongdoing and retaliation. Even if one has been wronged, it does not follow that doing wrong in return is permissible. That is not yet an argument that escape is wrong. A further application must connect escape to the prohibited wrongdoing.",
+        "The personified Laws later appeal to the city’s role in the citizen’s life, the damage of undermining judgments, and an alleged agreement expressed through remaining in the city. These are distinguishable grounds for obligation. Benefits, consent, and effects on institutions do not mean the same thing.",
+        "An objection may accept the principle against wrongdoing but deny that escape here violates a just obligation. Alternatively, it may challenge whether staying in a city constitutes genuine consent. These criticisms do not require endorsing revenge.",
+        "Do not flatten the dialogue into “always obey the state.” In the Apology, Socrates describes refusing unjust commands and imagines continuing philosophy despite an order to stop. Interpreters must consider how obedience, persuasion, justice, and particular civic obligations fit together. Your task is to expose that difficulty before resolving it."
+      ],
+      "primaryText": {
+        "text": "SOCRATES: Then we ought not to retaliate or render evil for evil to anyone, whatever evil we may have suffered from him. But I would have you consider, Crito, whether you really mean what you are saying.",
+        "question": "Does this principle by itself establish that escape is wrongdoing?",
+        "work": "Crito",
+        "author": "Plato",
+        "reference": "49c–d",
+        "source": "crito",
+        "kind": "PRIMARY TEXT · PUBLIC-DOMAIN TRANSLATION",
+        "date": "Composed in the 4th century BCE; dramatic setting 399 BCE",
+        "region": "Athens, Greek world",
+        "translation": "Benjamin Jowett (1817–1893). Public domain in the United States. Full edition and Gutenberg license included."
+      },
+      "breakdown": "Reconstruction: One must not do wrong, even in response to wrong. If escaping in these circumstances would be doing wrong, one must not escape. The second premise carries the disputed application. The text’s later arguments try to supply it.",
+      "objection": "A serious objection accepts the ban on wrongdoing but argues that an unjust conviction need not create an obligation to remain. A reply must explain why this escape violates a genuine obligation, rather than simply restating the ban on wrongdoing.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "What principle is expressed in the excerpt?",
+          "options": [
+            "One should not return wrong for wrong.",
+            "Every escape is automatically unjust.",
+            "Whatever is legal is always right."
+          ],
+          "answer": 0,
+          "explanation": "The excerpt states a principle whose application still needs argument.",
+          "id": "s5-q0"
+        },
+        {
+          "type": "map",
+          "label": "Build an argument map",
+          "prompt": "Expose the disputed application.",
+          "claims": [
+            "One must not do wrong, even in response to wrong.",
+            "Escaping in these circumstances would be doing wrong.",
+            "Socrates must not escape in these circumstances."
+          ],
+          "slots": [
+            "General principle",
+            "Disputed application",
+            "Conclusion"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "targets": [
+            2,
+            2,
+            -1
+          ],
+          "explanation": "The general principle does not establish the application premise by itself.",
+          "id": "s5-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which distinction matters in evaluating the Laws’ speech?",
+          "options": [
+            "Receiving benefits and freely consenting are not identical.",
+            "All obligations have one obvious source.",
+            "Remaining in a city proves assent to every possible command."
+          ],
+          "answer": 0,
+          "explanation": "Different grounds for obligation require separate assessment.",
+          "id": "s5-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "A worker accepts that one should keep just agreements but denies that an exploitative contract binds them. What is disputed?",
+          "options": [
+            "The application or legitimacy of the agreement, not necessarily the general principle.",
+            "The meaning of every word.",
+            "Whether reasoning is possible."
+          ],
+          "answer": 0,
+          "explanation": "A critic can accept a principle while contesting whether the case meets its conditions.",
+          "id": "s5-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which reply actually addresses the unjust-conviction objection?",
+          "options": [
+            "Show why this particular escape would violate a genuine obligation despite the injustice.",
+            "Repeat “wrongdoing is wrong” and stop.",
+            "Attack Crito’s personality."
+          ],
+          "answer": 0,
+          "explanation": "The critic challenges the bridge to escape, not merely the general rule.",
+          "id": "s5-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Reconstruct the argument against escape. Identify the premise you would challenge or defend, and give a reason.",
+          "rubric": [
+            "I state the principle and the disputed application separately.",
+            "I address whether this escape is unjust.",
+            "I do not equate understanding with agreeing, or law with justice without argument."
+          ],
+          "model": "The argument requires both a ban on wrongdoing and the claim that this escape is wrongdoing. I might challenge consent through residence, asking whether citizens had meaningful alternatives. A defender would need to show a genuine obligation not erased by this conviction.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "s5-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Does rejecting the application premise require endorsing retaliation?",
+          "options": [
+            "Yes.",
+            "No: escape might be defended as not wrongful in this case."
+          ],
+          "answer": 1,
+          "explanation": "The critic can accept the general ban.",
+          "id": "s5-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Mastery check",
+          "prompt": "Why compare the Crito with the Apology?",
+          "options": [
+            "To erase their differences.",
+            "To assess whether an interpretation accounts for both obedience and resistance to unjust commands.",
+            "To decide which text has the nicer title."
+          ],
+          "answer": 1,
+          "explanation": "A responsible interpretation must explain relevant tensions.",
+          "id": "s5-q7"
+        }
+      ],
+      "masteryTags": [
+        "justice",
+        "ethics",
+        "assumption",
+        "argument"
+      ],
+      "concepts": [
+        "justice",
+        "ethics",
+        "assumption",
+        "argument"
+      ],
+      "xpReward": 40,
+      "minutes": 15,
+      "prerequisites": [
+        "s4"
+      ],
+      "sources": [
+        "crito",
+        "apology",
+        "socrates"
+      ],
+      "review": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "An argument states a general moral rule. What else is needed for a particular recommendation?",
+          "options": [
+            "A defended account of how the case falls under the rule.",
+            "Only louder repetition."
+          ],
+          "answer": 0,
+          "explanation": "Application is part of the argument.",
+          "id": "s5-r0"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Can someone accept “never do wrong” while disputing “never escape”?",
+          "options": [
+            "Yes: they can dispute whether a particular escape is wrong.",
+            "No: they are the same claim."
+          ],
+          "answer": 0,
+          "explanation": "The second requires an additional premise.",
+          "id": "s5-r1"
+        }
+      ]
+    },
+    {
+      "id": "b1",
+      "world": 1,
+      "title": "Defend or criticize Socrates",
+      "description": "Interpret fairly, map the dispute, and answer an objection.",
+      "keyQuestion": "Can you make your opponent’s best argument visible before answering it?",
+      "historicalContext": "This integrative challenge joins Apology and Crito. The objective questions test what follows from a reconstruction. The written work is self-reviewed for clarity, fidelity, and relevance; your stance is not an answer key.",
+      "concept": "An examined disagreement",
+      "explanation": [
+        "You may defend or criticize the portrayed Socrates. Begin by stating an argument he is represented as offering. Distinguish its general principle from any disputed application, and keep a textual claim separate from a claim about the exact words of the historical speaker.",
+        "A criticism succeeds only if it addresses a reason the argument needs. A defense succeeds only if it answers the actual objection. Neither rhetorical confidence nor personal agreement substitutes for this work.",
+        "Your next step after this world is deeper work on Plato and, later, cross-tradition comparison. This MVP does not pretend those later lessons are already written. The challenge recognizes an initial ability to reconstruct a position, not permanent mastery of Socrates."
+      ],
+      "primaryText": {
+        "text": "Reconstruction: Doing wrong is never justified merely by having suffered wrong. Escaping would violate a genuine obligation in this case. Therefore escape is not justified merely by the injustice suffered.\nObjection: The second premise needs support. An unjust conviction may not create the obligation alleged.",
+        "question": "Does the objection reject the first premise or challenge the application?",
+        "work": "Crito argument workshop",
+        "author": "Philosophy Scholar editors",
+        "reference": "",
+        "source": null,
+        "kind": "EDITORIAL EXERCISE · NOT A HISTORICAL QUOTATION",
+        "date": "Contemporary teaching example",
+        "region": "Philosophical tools · cross-tradition use",
+        "translation": "Original teaching material. No historical attribution."
+      },
+      "breakdown": "The objection targets a premise needed to apply the principle. A defender should identify the grounds of the obligation and answer the challenge to them. A critic must not replace the argument with a blanket endorsement of every state command.",
+      "objection": "A critic of the critic says civic cooperation would become unstable if everyone treated personal disagreement as release from obligation. The critic must address that institutional concern without conceding that every legal outcome is just.",
+      "questions": [
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which premise does the stated objection target?",
+          "options": [
+            "The application of a genuine obligation to this escape.",
+            "The claim that the dialogue has a title.",
+            "The claim that all questions have answers."
+          ],
+          "answer": 0,
+          "explanation": "It challenges the obligation alleged in the second premise.",
+          "id": "b1-q0"
+        },
+        {
+          "type": "map",
+          "label": "Build an argument map",
+          "prompt": "Map the conditional reconstruction.",
+          "claims": [
+            "If escape violates a genuine obligation, Socrates should not escape.",
+            "This escape violates a genuine obligation.",
+            "Socrates should not escape."
+          ],
+          "slots": [
+            "Conditional principle",
+            "Application premise",
+            "Conclusion"
+          ],
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "targets": [
+            2,
+            2,
+            -1
+          ],
+          "explanation": "The form is modus ponens. The application premise remains contestable.",
+          "id": "b1-q1"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which is the fairest description of the source?",
+          "options": [
+            "An exact recording of every historical word.",
+            "Plato’s literary portrayal, which supports textual analysis and requires historical interpretation.",
+            "A modern personality quiz."
+          ],
+          "answer": 1,
+          "explanation": "The source has evidential value without becoming a transcript.",
+          "id": "b1-q2"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which comparison of Apology and Crito is careful?",
+          "options": [
+            "They straightforwardly prove unconditional state obedience.",
+            "The relation between civic duties and resistance to unjust commands needs interpretation.",
+            "One must be ignored completely."
+          ],
+          "answer": 1,
+          "explanation": "The tension invites explanation, not erasure.",
+          "id": "b1-q3"
+        },
+        {
+          "type": "choice",
+          "label": "Choose the best analysis",
+          "prompt": "Which reply addresses the civic-stability objection?",
+          "options": [
+            "Give a public, principled account of when resistance is justified and why ordinary disagreement is insufficient.",
+            "Say institutions never matter.",
+            "Insult anyone who obeys a law."
+          ],
+          "answer": 0,
+          "explanation": "It answers the institutional concern with reasons and boundaries.",
+          "id": "b1-q4"
+        },
+        {
+          "type": "write",
+          "label": "Explain in your own words",
+          "prompt": "Defend or criticize Socrates’ refusal to escape. First reconstruct the argument, then answer the strongest objection to your own view.",
+          "rubric": [
+            "My reconstruction is recognizable from the text.",
+            "I identify and defend or challenge a particular premise.",
+            "I answer an objection to my own position without grading by agreement."
+          ],
+          "model": "A defense could argue that certain civic obligations survive an unjust judgment, while addressing whether residence is consent. A criticism could distinguish resistance to injustice from revenge, while explaining why principled resistance need not destroy civic cooperation.",
+          "explanation": "This response is self-assessed. The app checks that you wrote a response; it does not certify its philosophical quality.",
+          "id": "b1-q5"
+        },
+        {
+          "type": "choice",
+          "label": "Independent mastery check",
+          "prompt": "What does exposing inconsistent commitments establish by itself?",
+          "options": [
+            "The examiner knows every truth.",
+            "At least one commitment needs revision or clarification.",
+            "The first claim is always the false one."
+          ],
+          "answer": 1,
+          "explanation": "Further reasoning is required to choose what to revise.",
+          "id": "b1-q6"
+        },
+        {
+          "type": "choice",
+          "label": "Independent mastery check",
+          "prompt": "What is the best evidence of understanding an argument you reject?",
+          "options": [
+            "You can reconstruct its reasons and locate the precise point of disagreement.",
+            "You can mock its conclusion.",
+            "You agree with its author’s politics."
+          ],
+          "answer": 0,
+          "explanation": "Understanding precedes meaningful criticism.",
+          "id": "b1-q7"
+        }
+      ],
+      "masteryTags": [
+        "justice",
+        "elenchus",
+        "argument",
+        "assumption"
+      ],
+      "concepts": [
+        "justice",
+        "elenchus",
+        "argument",
+        "assumption"
+      ],
+      "xpReward": 100,
+      "minutes": 20,
+      "prerequisites": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "sources": [
+        "apology",
+        "crito",
+        "socrates"
+      ],
+      "review": [],
+      "boss": true
+    }
+  ]
+}
