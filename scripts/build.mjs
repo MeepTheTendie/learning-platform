@@ -1,66 +1,32 @@
 import fs from 'node:fs';
-import path from 'node:path';
-import zlib from 'node:zlib';
-
-const [app, storageKey, sourceDirectory, templateFile, outputFile] = process.argv.slice(2);
-const types = {
-  '.html': 'text/html; charset=utf-8', '.js': 'application/javascript; charset=utf-8',
-  '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8',
-  '.webmanifest': 'application/manifest+json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png'
-};
-const assets = {};
-
-function visit(current) {
-  for (const entry of fs.readdirSync(current, {withFileTypes:true})) {
-    const full = path.join(current, entry.name);
-    if (entry.isDirectory()) visit(full);
-    else if (entry.isFile()) {
-      const relative = path.relative(sourceDirectory, full).replaceAll('\\', '/');
-      let content = fs.readFileSync(full);
-      if (relative === 'index.html') {
-        const tag = `<script src="/__cloud-sync.js" data-app="${app}" data-storage="${storageKey}"></script>`;
-        const html = content.toString('utf8');
-        const injected = /<\/head>/i.test(html) ? html.replace(/<\/head>/i, tag + '</head>')
-          : /<body/i.test(html) ? html.replace(/<body/i, tag + '<body')
-          : html.replace(/<!doctype html>/i, match => match + tag);
-        content = Buffer.from(injected);
-      }
-      if (relative === 'sw.js') content = Buffer.from(content.toString('utf8').replace(/philosophy-scholar-v1-[^']+/, 'philosophy-scholar-v1-20260908-sync'));
-      const compressed = zlib.gzipSync(content, {level:9});
-      assets['/' + relative] = {type:types[path.extname(relative).toLowerCase()] || 'application/octet-stream', data:compressed.toString('base64')};
-    }
-  }
+import crypto from 'node:crypto';
+const config = JSON.parse(fs.readFileSync('wrangler.jsonc', 'utf8'));
+fs.rmSync('dist', {recursive:true, force:true});
+fs.cpSync('public', 'dist', {recursive:true});
+const html = fs.readFileSync('dist/index.html', 'utf8');
+const tag = `<script src="/__cloud-sync.js" data-app="${config.vars.APP_ID}" data-storage="${config.vars.STORAGE_KEY}"></script>`;
+fs.writeFileSync('dist/index.html', (/<\/head>/i.test(html) ? html.replace(/<\/head>/i, tag + '</head>') : /<body/i.test(html) ? html.replace(/<body/i, tag+'<body') : html.replace(/<!doctype html>/i, match=>match+tag)));
+if (!fs.readFileSync('dist/index.html','utf8').includes(tag)) throw Error('Missing HTML head');
+fs.copyFileSync('src/sync-client.js','dist/__cloud-sync.js');
+fs.copyFileSync('src/sync-merge.js','dist/sync-merge.js');
+if (fs.existsSync('dist/sw.js')) {
+  const hash = crypto.createHash('sha256');
+  function visit(dir) { for (const name of fs.readdirSync(dir).sort()) { const file=dir+'/'+name; if(fs.statSync(file).isDirectory())visit(file); else hash.update(fs.readFileSync(file)); } }
+  visit('dist');
+  fs.writeFileSync('dist/sw.js', fs.readFileSync('dist/sw.js','utf8').replace('__BUILD__',hash.digest('hex').slice(0,16)));
 }
-visit(sourceDirectory);
-
-const runtime = String.raw`
-const EMBEDDED_ASSETS = __ASSET_MAP__;
-const decodedAssets = new Map();
-function decodeAsset(pathname, data) {
-  if (decodedAssets.has(pathname)) return decodedAssets.get(pathname);
-  const binary = atob(data), bytes = new Uint8Array(binary.length);
-  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
-  decodedAssets.set(pathname, bytes);
-  return bytes;
-}
-function serveAsset(request) {
-  const url = new URL(request.url);
-  const pathname = url.pathname === '/' ? '/index.html' : decodeURIComponent(url.pathname);
-  const asset = EMBEDDED_ASSETS[pathname];
-  if (!asset) return new Response('Not found', {status:404});
-  const headers = new Headers({'content-type':asset.type,'x-content-type-options':'nosniff'});
-  headers.set('cache-control', pathname === '/index.html' || pathname === '/sw.js' ? 'no-cache' : 'public, max-age=3600');
-  if (pathname === '/sw.js') headers.set('service-worker-allowed','/');
-  const compressed = new Blob([decodeAsset(pathname, asset.data)]).stream();
-  return new Response(compressed.pipeThrough(new DecompressionStream('gzip')), {headers});
-}
-`.replace('__ASSET_MAP__', JSON.stringify(assets));
-
-let worker = fs.readFileSync(templateFile, 'utf8');
-worker = runtime + '\n' + worker;
-const oldTail = `    const response = await env.ASSETS.fetch(request);\n    if ((response.headers.get('content-type') || '').includes('text/html')) {\n      const tag = '<script src="/__cloud-sync.js" data-app="' + env.APP_ID + '" data-storage="' + env.STORAGE_KEY + '"></script>';\n      return new HTMLRewriter().on('head', { element(element) { element.append(tag, {html:true}); } }).transform(response);\n    }\n    return response;`;
-worker = worker.replace(oldTail, `    return serveAsset(request);`);
-if (worker.includes('env.ASSETS.fetch')) throw new Error('Failed to replace the static asset handler');
-fs.mkdirSync(path.dirname(outputFile), {recursive:true});
-fs.writeFileSync(outputFile, worker);
-console.log(JSON.stringify({app, files:Object.keys(assets).length, bytes:Buffer.byteLength(worker)}));
+fs.writeFileSync('dist/_headers', `/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  X-Frame-Options: DENY
+  Content-Security-Policy: frame-ancestors 'none'; object-src 'none'; base-uri 'self'
+/index.html
+  Cache-Control: no-cache
+/__cloud-sync.js
+  Cache-Control: no-cache
+/sync-merge.js
+  Cache-Control: no-cache
+/sw.js
+  Cache-Control: no-cache
+`);
+console.log('Built '+config.name);
