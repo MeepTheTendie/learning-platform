@@ -27,3 +27,5 @@ Static files use Cloudflare Workers Assets. Builds include the sync client and s
 Validation: `npm ci && npm run check`. Wrangler is pinned; the sharp override fixes the development-tool advisory without downgrading Wrangler. The unit suite exercises actual SQLite revision writes as well as merges, deletions, authentication and body limits.
 
 Browser integration: install Playwright and set `PLAYWRIGHT_MODULE` to its module path; run `node tests/browser.cjs` against a local test server (History uses `APP_URL`; Philosophy accepts a URL argument). Browser profiles are isolated.
+
+Deployment preflight verifies the required `SYNC_KEY_HASH` secret. The previously plain-text binding was preserved from deployment history and moved to a Wrangler secret; existing pairing links remain valid.
