@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "geography-landforms",
+  "subject": "geography",
+  "title": "Landforms and erosion",
+  "objective": "Describe how water, ice, and wind shape the land.",
+  "lesson": {
+    "opening": "Landscapes are built by uplift and carved by erosion. The shape of a valley or coast records which process did the work.",
+    "sections": [
+      {
+        "heading": "Weathering and erosion",
+        "body": "Weathering breaks rock in place; erosion carries the pieces away. Water, ice, wind, and gravity are the main movers."
+      },
+      {
+        "heading": "Rivers and coasts",
+        "body": "Rivers cut valleys, carry sediment, and build deltas at their mouths. Waves erode headlands and deposit sand to form beaches and spits."
+      },
+      {
+        "heading": "Ice and wind",
+        "body": "Glaciers carve U-shaped valleys and leave ridges of debris. Wind builds dunes in dry regions."
+      }
+    ]
+  },
+  "sources": [
+    "World geography survey"
+  ],
+  "activities": [
+    {
+      "id": "geography-landforms-a0",
+      "type": "choice",
+      "prompt": "The difference between weathering and erosion is that erosion…",
+      "responseId": "geography-landforms:geography-landforms-a0",
+      "choices": [
+        "Moves material away",
+        "Breaks rock in place",
+        "Only affects ice",
+        "Only happens in deserts"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-landforms-a1",
+      "type": "choice",
+      "prompt": "A delta forms where a river…",
+      "responseId": "geography-landforms:geography-landforms-a1",
+      "choices": [
+        "Drops sediment at its mouth",
+        "Begins in the mountains",
+        "Flows fastest",
+        "Freezes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-landforms-a2",
+      "type": "choice",
+      "prompt": "A U-shaped valley is most likely carved by…",
+      "responseId": "geography-landforms:geography-landforms-a2",
+      "choices": [
+        "A glacier",
+        "Wind",
+        "A small stream",
+        "Waves"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-landforms-a3",
+      "type": "choice",
+      "prompt": "Sand dunes are mainly built by…",
+      "responseId": "geography-landforms:geography-landforms-a3",
+      "choices": [
+        "Wind",
+        "Rivers",
+        "Glaciers",
+        "Volcanoes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-landforms-a4",
+      "type": "short-answer",
+      "prompt": "Pick one landform and explain the process that created it.",
+      "responseId": "geography-landforms:geography-landforms-a4",
+      "instructions": "Two or three sentences.",
+      "context": "Water, ice, and wind each leave a recognizable signature on the land.",
+      "rubric": [
+        "names a landform",
+        "names the process"
+      ]
+    }
+  ]
+}

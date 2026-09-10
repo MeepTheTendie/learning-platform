@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "subject": "geography",
+  "lessons": [
+    {
+      "id": "geography-locate",
+      "title": "Latitude and longitude",
+      "world": 0,
+      "worldTitle": "Map skills",
+      "objective": "Use coordinates to locate places on Earth.",
+      "boss": false
+    },
+    {
+      "id": "geography-scale",
+      "title": "Scale, projections, and map choices",
+      "world": 0,
+      "worldTitle": "Map skills",
+      "objective": "Explain how scale and projection shape what a map shows.",
+      "boss": false
+    },
+    {
+      "id": "geography-thematic",
+      "title": "Reading thematic maps and data",
+      "world": 0,
+      "worldTitle": "Map skills",
+      "objective": "Interpret maps that show data rather than just places.",
+      "boss": false
+    },
+    {
+      "id": "geography-tectonics",
+      "title": "Earth’s structure and plate tectonics",
+      "world": 1,
+      "worldTitle": "Physical geography",
+      "objective": "Explain how moving plates shape the surface.",
+      "boss": false
+    },
+    {
+      "id": "geography-landforms",
+      "title": "Landforms and erosion",
+      "world": 1,
+      "worldTitle": "Physical geography",
+      "objective": "Describe how water, ice, and wind shape the land.",
+      "boss": false
+    },
+    {
+      "id": "geography-weather-climate",
+      "title": "Weather and climate",
+      "world": 1,
+      "worldTitle": "Physical geography",
+      "objective": "Tell weather apart from climate and name the controls on each.",
+      "boss": false
+    },
+    {
+      "id": "geography-biomes",
+      "title": "Climate zones and biomes",
+      "world": 1,
+      "worldTitle": "Physical geography",
+      "objective": "Match climate zones to the biomes they support.",
+      "boss": false
+    },
+    {
+      "id": "geography-water",
+      "title": "The water cycle and rivers",
+      "world": 1,
+      "worldTitle": "Physical geography",
+      "objective": "Trace water through the cycle and along a river.",
+      "boss": false
+    },
+    {
+      "id": "geography-population",
+      "title": "Population distribution and density",
+      "world": 2,
+      "worldTitle": "Human geography",
+      "objective": "Distinguish distribution from density and explain where people live.",
+      "boss": false
+    },
+    {
+      "id": "geography-migration",
+      "title": "Migration",
+      "world": 2,
+      "worldTitle": "Human geography",
+      "objective": "Explain why people move and how to classify the movement.",
+      "boss": false
+    },
+    {
+      "id": "geography-urbanization",
+      "title": "Urbanization and cities",
+      "world": 2,
+      "worldTitle": "Human geography",
+      "objective": "Explain why cities grow and how they are sited.",
+      "boss": false
+    },
+    {
+      "id": "geography-culture",
+      "title": "Culture regions, language, and religion",
+      "world": 2,
+      "worldTitle": "Human geography",
+      "objective": "Describe how culture spreads and how regions are defined.",
+      "boss": false
+    },
+    {
+      "id": "geography-agriculture",
+      "title": "Agriculture and food systems",
+      "world": 2,
+      "worldTitle": "Human geography",
+      "objective": "Connect climate, farming, and the food supply.",
+      "boss": false
+    },
+    {
+      "id": "geography-development",
+      "title": "Resources, industry, and development",
+      "world": 2,
+      "worldTitle": "Human geography",
+      "objective": "Compare measures of development and the role of resources.",
+      "boss": false
+    },
+    {
+      "id": "geography-continents",
+      "title": "Continents and major physical features",
+      "world": 3,
+      "worldTitle": "Regions",
+      "objective": "Place the continents and their great physical features.",
+      "boss": false
+    },
+    {
+      "id": "geography-oceans",
+      "title": "Oceans, currents, and global connections",
+      "world": 3,
+      "worldTitle": "Regions",
+      "objective": "Explain the role of oceans and currents in a connected world.",
+      "boss": false
+    }
+  ]
+}

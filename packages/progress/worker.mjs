@@ -22,7 +22,7 @@ export async function readBody(request) {
 }
 const snapshot=row=>row?{revision:Number(row.revision),state:JSON.parse(row.state_json),updatedAt:Number(row.updated_at)}:{revision:0,state:null,updatedAt:null};
 async function current(env){return snapshot(await env.PROGRESS_DB.prepare('SELECT revision,state_json,updated_at FROM progress WHERE app_id = ?').bind(env.APP_ID).first());}
-const TUTOR_LESSON={'grammar-reader':'english','history-atlas':'history','philosophy-scholar':'philosophy'};
+const TUTOR_LESSON={'grammar-reader':'english','history-atlas':'history','philosophy-scholar':'philosophy','geography-atlas':'geography'};
 const TUTOR_MAX_MESSAGES=20, TUTOR_MAX_CHARS=4000, TUTOR_MAX_TOTAL=20000, TUTOR_MAX_MATERIAL=6000;
 function tutorMessages(raw){
   if(!Array.isArray(raw)||raw.length<1||raw.length>TUTOR_MAX_MESSAGES)throw {status:400,error:'invalid_messages'};

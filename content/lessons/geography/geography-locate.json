@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "geography-locate",
+  "subject": "geography",
+  "title": "Latitude and longitude",
+  "objective": "Use coordinates to locate places on Earth.",
+  "lesson": {
+    "opening": "Every place on Earth can be located by two coordinates: how far north or south, and how far east or west.",
+    "sections": [
+      {
+        "heading": "Parallels of latitude",
+        "body": "Lines of latitude run east–west and measure distance north or south of the equator, from 0° at the equator to 90° at the poles. Because they are parallel, a degree of latitude covers roughly the same distance everywhere, about 111 km."
+      },
+      {
+        "heading": "Meridians of longitude",
+        "body": "Lines of longitude run north–south between the poles and measure distance east or west of the prime meridian at 0°. They converge at the poles, so a degree of longitude covers less ground the farther you are from the equator."
+      },
+      {
+        "heading": "Writing a coordinate",
+        "body": "Latitude is given first, then longitude — for example 30°N, 90°W. The equator and the prime meridian divide the globe into hemispheres."
+      }
+    ]
+  },
+  "sources": [
+    "World geography survey"
+  ],
+  "activities": [
+    {
+      "id": "geography-locate-a0",
+      "type": "choice",
+      "prompt": "Which lines run east–west and measure distance north or south of the equator?",
+      "responseId": "geography-locate:geography-locate-a0",
+      "choices": [
+        "Lines of latitude",
+        "Lines of longitude",
+        "The prime meridian",
+        "The tropics"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-locate-a1",
+      "type": "choice",
+      "prompt": "Lines of longitude all meet at…",
+      "responseId": "geography-locate:geography-locate-a1",
+      "choices": [
+        "The equator",
+        "The poles",
+        "The prime meridian",
+        "The tropics"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "geography-locate-a2",
+      "type": "choice",
+      "prompt": "A place at 30°N, 90°W is closest to…",
+      "responseId": "geography-locate:geography-locate-a2",
+      "choices": [
+        "New Orleans",
+        "London",
+        "Cairo",
+        "Sydney"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-locate-a3",
+      "type": "choice",
+      "prompt": "Why does one degree of longitude cover less ground near the poles?",
+      "responseId": "geography-locate:geography-locate-a3",
+      "choices": [
+        "Meridians converge at the poles",
+        "Latitude lines are farther apart",
+        "The equator is tilted",
+        "Earth spins faster there"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-locate-a4",
+      "type": "short-answer",
+      "prompt": "Explain why latitude alone cannot locate a place.",
+      "responseId": "geography-locate:geography-locate-a4",
+      "instructions": "Two or three sentences are enough.",
+      "context": "Latitude gives only north–south position. Many places share the same latitude, so a second coordinate is needed.",
+      "rubric": [
+        "mentions east–west",
+        "explains that longitude is also needed"
+      ]
+    }
+  ]
+}

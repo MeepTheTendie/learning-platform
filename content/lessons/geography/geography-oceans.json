@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "geography-oceans",
+  "subject": "geography",
+  "title": "Oceans, currents, and global connections",
+  "objective": "Explain the role of oceans and currents in a connected world.",
+  "lesson": {
+    "opening": "Oceans cover most of the planet, move heat around it, and carry most of its trade.",
+    "sections": [
+      {
+        "heading": "The oceans",
+        "body": "Pacific, Atlantic, Indian, Southern, and Arctic. The Pacific is the largest and deepest."
+      },
+      {
+        "heading": "Currents and climate",
+        "body": "Surface currents move warm water toward the poles and cold water toward the equator, moderating climate. The Gulf Stream warms western Europe."
+      },
+      {
+        "heading": "Global connections",
+        "body": "Ships carry the bulk of world trade, and undersea cables carry the data. Oceans link economies as much as they separate coasts."
+      }
+    ]
+  },
+  "sources": [
+    "World geography survey"
+  ],
+  "activities": [
+    {
+      "id": "geography-oceans-a0",
+      "type": "choice",
+      "prompt": "Which is the largest ocean?",
+      "responseId": "geography-oceans:geography-oceans-a0",
+      "choices": [
+        "Pacific",
+        "Atlantic",
+        "Indian",
+        "Arctic"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-oceans-a1",
+      "type": "choice",
+      "prompt": "Ocean currents mainly move…",
+      "responseId": "geography-oceans:geography-oceans-a1",
+      "choices": [
+        "Heat around the planet",
+        "Continents",
+        "Mountains",
+        "The Moon"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-oceans-a2",
+      "type": "choice",
+      "prompt": "The Gulf Stream helps keep which region mild?",
+      "responseId": "geography-oceans:geography-oceans-a2",
+      "choices": [
+        "Western Europe",
+        "The Sahara",
+        "Antarctica",
+        "The Andes"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-oceans-a3",
+      "type": "choice",
+      "prompt": "Most world trade in goods travels by…",
+      "responseId": "geography-oceans:geography-oceans-a3",
+      "choices": [
+        "Ship",
+        "Air",
+        "Rail only",
+        "Pipeline only"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-oceans-a4",
+      "type": "short-answer",
+      "prompt": "Explain how an ocean current can affect a coast’s climate.",
+      "responseId": "geography-oceans:geography-oceans-a4",
+      "instructions": "Two or three sentences.",
+      "context": "Warm currents raise coastal temperatures; cold currents can help create coastal deserts.",
+      "rubric": [
+        "names a current direction or example",
+        "explains the climate effect"
+      ]
+    }
+  ]
+}

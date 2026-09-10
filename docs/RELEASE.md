@@ -9,10 +9,13 @@ This is the runbook for building, validating, deploying, backing up and restorin
 | English | `grammar-reader.history-atlas.workers.dev` | `learning-english-preview.history-atlas.workers.dev` |
 | History | `history-atlas.history-atlas.workers.dev` | `learning-history-preview.history-atlas.workers.dev` |
 | Philosophy | `philosophy-scholar.history-atlas.workers.dev` | `learning-philosophy-preview.history-atlas.workers.dev` |
+| Geography | `geography-atlas.history-atlas.workers.dev` | `learning-geography-preview.history-atlas.workers.dev` |
 
-Previews use Cloudflare Access (owner-email only) and the separate `learning-platform-preview` D1 database. Production still uses the legacy pairing key and the `learning-progress-sync` database.
+English, History and Philosophy previews use Cloudflare Access (owner-email only) and the separate `learning-platform-preview` D1 database. Their production apps use the account-wide legacy pairing key and the `learning-progress-sync` database.
 
-Account resources (all intentional): six Workers — production `grammar-reader`, `history-atlas`, `philosophy-scholar`; previews `learning-english-preview`, `learning-history-preview`, `learning-philosophy-preview` — and two D1 databases, `learning-progress-sync` and `learning-platform-preview`. The previews are the staging environment and should be kept.
+Geography is different: Cloudflare Access does not cover new hostnames, so it uses the legacy pairing key on both preview and production, with an **app-scoped** key (`KEY_SCOPE=app`) stored in that origin's localStorage. This keeps it from overwriting the shared pairing cookie the other subjects rely on. Pairing links are written to `~/Projects/learning-platform-private/geography-pairing.txt`.
+
+Account resources (all intentional): eight Workers — production `grammar-reader`, `history-atlas`, `philosophy-scholar`, `geography-atlas`; previews `learning-english-preview`, `learning-history-preview`, `learning-philosophy-preview`, `learning-geography-preview` — and two D1 databases, `learning-progress-sync` and `learning-platform-preview`. The previews are the staging environment and should be kept.
 
 ## Prerequisites
 

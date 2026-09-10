@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "geography-urbanization",
+  "subject": "geography",
+  "title": "Urbanization and cities",
+  "objective": "Explain why cities grow and how they are sited.",
+  "lesson": {
+    "opening": "More than half the world’s people now live in cities, and the share keeps rising. Cities grow through migration and natural increase.",
+    "sections": [
+      {
+        "heading": "Urbanization",
+        "body": "Urbanization is the rising share of people living in towns and cities. It usually follows economic change as work shifts from farming to industry and services."
+      },
+      {
+        "heading": "Why cities sit where they do",
+        "body": "A city’s site is its immediate setting, such as a river bend or harbour. Its situation is its position relative to the wider region, such as a crossroads of trade."
+      },
+      {
+        "heading": "Megacities",
+        "body": "A megacity has more than ten million people. Many are now in Asia and the global South."
+      }
+    ]
+  },
+  "sources": [
+    "World geography survey"
+  ],
+  "activities": [
+    {
+      "id": "geography-urbanization-a0",
+      "type": "choice",
+      "prompt": "Urbanization means…",
+      "responseId": "geography-urbanization:geography-urbanization-a0",
+      "choices": [
+        "A rising share of people living in cities",
+        "Building taller buildings",
+        "Closing farms",
+        "Building new roads"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-urbanization-a1",
+      "type": "choice",
+      "prompt": "A city’s “site” refers to…",
+      "responseId": "geography-urbanization:geography-urbanization-a1",
+      "choices": [
+        "Its immediate physical setting",
+        "Its position in the wider region",
+        "Its population rank",
+        "Its climate zone"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-urbanization-a2",
+      "type": "choice",
+      "prompt": "A megacity has a population over…",
+      "responseId": "geography-urbanization:geography-urbanization-a2",
+      "choices": [
+        "Ten million",
+        "One million",
+        "One hundred thousand",
+        "One billion"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-urbanization-a3",
+      "type": "choice",
+      "prompt": "Cities often grow first at…",
+      "responseId": "geography-urbanization:geography-urbanization-a3",
+      "choices": [
+        "River crossings and harbours",
+        "High mountain peaks",
+        "Deep deserts",
+        "Polar ice"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-urbanization-a4",
+      "type": "short-answer",
+      "prompt": "Explain one reason a city grows where it does.",
+      "responseId": "geography-urbanization:geography-urbanization-a4",
+      "instructions": "Two or three sentences.",
+      "context": "Site and situation explain why cities form at river crossings, harbours, and trade crossroads.",
+      "rubric": [
+        "names a location factor",
+        "explains the advantage"
+      ]
+    }
+  ]
+}

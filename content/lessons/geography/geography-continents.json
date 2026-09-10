@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "geography-continents",
+  "subject": "geography",
+  "title": "Continents and major physical features",
+  "objective": "Place the continents and their great physical features.",
+  "lesson": {
+    "opening": "Seven continents hold the world’s great mountain ranges, deserts, and plains.",
+    "sections": [
+      {
+        "heading": "The continents",
+        "body": "Asia, Africa, North America, South America, Antarctica, Europe, and Australia. Asia is the largest; Australia the smallest inhabited continent."
+      },
+      {
+        "heading": "Great ranges and deserts",
+        "body": "The Himalayas, Andes, and Rockies are young, high ranges. The Sahara and the Australian outback are vast dry regions."
+      },
+      {
+        "heading": "Rivers and plains",
+        "body": "The Amazon, Nile, and Yangtze drain huge basins and support dense settlement."
+      }
+    ]
+  },
+  "sources": [
+    "World geography survey"
+  ],
+  "activities": [
+    {
+      "id": "geography-continents-a0",
+      "type": "choice",
+      "prompt": "Which is the largest continent?",
+      "responseId": "geography-continents:geography-continents-a0",
+      "choices": [
+        "Asia",
+        "Africa",
+        "Europe",
+        "South America"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-continents-a1",
+      "type": "choice",
+      "prompt": "The Andes are found in…",
+      "responseId": "geography-continents:geography-continents-a1",
+      "choices": [
+        "South America",
+        "Asia",
+        "Africa",
+        "Europe"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-continents-a2",
+      "type": "choice",
+      "prompt": "The Sahara is a…",
+      "responseId": "geography-continents:geography-continents-a2",
+      "choices": [
+        "Desert in North Africa",
+        "Mountain range",
+        "River",
+        "Rainforest"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-continents-a3",
+      "type": "choice",
+      "prompt": "The Nile flows mainly through…",
+      "responseId": "geography-continents:geography-continents-a3",
+      "choices": [
+        "Africa",
+        "South America",
+        "Asia",
+        "Europe"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-continents-a4",
+      "type": "short-answer",
+      "prompt": "Name one great physical feature and the continent it is on.",
+      "responseId": "geography-continents:geography-continents-a4",
+      "instructions": "One or two sentences.",
+      "context": "Continents hold distinctive mountain ranges, deserts, and river basins.",
+      "rubric": [
+        "names a feature",
+        "names the continent"
+      ]
+    }
+  ]
+}

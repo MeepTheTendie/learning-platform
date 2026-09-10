@@ -1,5 +1,5 @@
 const ACTIVITY_TYPES = new Set(['choice', 'short-answer', 'sequence', 'edit']);
-const SUBJECTS = new Set(['english', 'history', 'philosophy']);
+const SUBJECTS = new Set(['english', 'history', 'philosophy', 'geography']);
 const text = (value, label, max = 20000) => {
   if (typeof value !== 'string' || !value.trim() || value.length > max) throw new Error(`${label} must be a non-empty string`);
   return value;

@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "geography-agriculture",
+  "subject": "geography",
+  "title": "Agriculture and food systems",
+  "objective": "Connect climate, farming, and the food supply.",
+  "lesson": {
+    "opening": "Farming feeds the world, and what can be grown where depends on climate, soil, and technology.",
+    "sections": [
+      {
+        "heading": "Subsistence and commercial",
+        "body": "Subsistence farming feeds the farmer’s family; commercial farming sells for profit, often on a large scale."
+      },
+      {
+        "heading": "Climate and crops",
+        "body": "Warm, wet climates suit rice and tropical crops; temperate climates suit wheat, maize, and livestock."
+      },
+      {
+        "heading": "The Green Revolution",
+        "body": "New seeds, fertiliser, and irrigation raised yields sharply in the twentieth century, with uneven costs and benefits."
+      }
+    ]
+  },
+  "sources": [
+    "World geography survey"
+  ],
+  "activities": [
+    {
+      "id": "geography-agriculture-a0",
+      "type": "choice",
+      "prompt": "Subsistence farming mainly…",
+      "responseId": "geography-agriculture:geography-agriculture-a0",
+      "choices": [
+        "Feeds the farmer’s family",
+        "Sells for export",
+        "Uses no labour",
+        "Raises only livestock"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-agriculture-a1",
+      "type": "choice",
+      "prompt": "Rice grows best in…",
+      "responseId": "geography-agriculture:geography-agriculture-a1",
+      "choices": [
+        "Warm, wet climates",
+        "Cold, dry climates",
+        "Polar regions",
+        "High mountains"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-agriculture-a2",
+      "type": "choice",
+      "prompt": "The Green Revolution mainly increased…",
+      "responseId": "geography-agriculture:geography-agriculture-a2",
+      "choices": [
+        "Crop yields",
+        "Farm sizes",
+        "Rainfall",
+        "Imports"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-agriculture-a3",
+      "type": "choice",
+      "prompt": "Which is a commercial farming crop?",
+      "responseId": "geography-agriculture:geography-agriculture-a3",
+      "choices": [
+        "Wheat grown for export",
+        "A family vegetable plot",
+        "Foraged berries",
+        "A subsistence rice paddy"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-agriculture-a4",
+      "type": "short-answer",
+      "prompt": "Explain how climate limits what can be farmed in a region.",
+      "responseId": "geography-agriculture:geography-agriculture-a4",
+      "instructions": "Two or three sentences.",
+      "context": "Temperature, rainfall, and growing season decide which crops a region can support.",
+      "rubric": [
+        "names a climate factor",
+        "links it to a crop"
+      ]
+    }
+  ]
+}

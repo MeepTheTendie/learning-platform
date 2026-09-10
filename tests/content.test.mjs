@@ -20,7 +20,7 @@ test('shared lesson validation rejects duplicate response IDs', () => {
 });
 
 test('all generated subject lessons satisfy the shared lesson contract', () => {
-  const expected = { english: 10, history: 16, philosophy: 13 };
+  const expected = { english: 10, history: 16, philosophy: 13, geography: 16 };
   for (const [subject, count] of Object.entries(expected)) {
     const index = JSON.parse(fs.readFileSync(`content/lessons/${subject}/index.json`, 'utf8'));
     assert.equal(index.subject, subject);

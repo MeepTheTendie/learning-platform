@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "geography-water",
+  "subject": "geography",
+  "title": "The water cycle and rivers",
+  "objective": "Trace water through the cycle and along a river.",
+  "lesson": {
+    "opening": "Water moves endlessly between ocean, air, and land. Rivers are the visible part of that journey.",
+    "sections": [
+      {
+        "heading": "The cycle",
+        "body": "The Sun evaporates water; it condenses into clouds; precipitation falls; water runs off or soaks in; and it eventually returns to the ocean."
+      },
+      {
+        "heading": "A river’s course",
+        "body": "A river begins at a source, gathers tributaries, flows through a watershed, and ends at a mouth, often building a delta."
+      },
+      {
+        "heading": "Why it matters",
+        "body": "The water cycle supplies fresh water, shapes land, and links climate to rivers."
+      }
+    ]
+  },
+  "sources": [
+    "World geography survey"
+  ],
+  "activities": [
+    {
+      "id": "geography-water-a0",
+      "type": "choice",
+      "prompt": "Water turning from liquid to vapour is…",
+      "responseId": "geography-water:geography-water-a0",
+      "choices": [
+        "Evaporation",
+        "Condensation",
+        "Precipitation",
+        "Runoff"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-water-a1",
+      "type": "choice",
+      "prompt": "Vapour forming cloud droplets is…",
+      "responseId": "geography-water:geography-water-a1",
+      "choices": [
+        "Condensation",
+        "Evaporation",
+        "Erosion",
+        "Infiltration"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-water-a2",
+      "type": "choice",
+      "prompt": "The area drained by a river system is its…",
+      "responseId": "geography-water:geography-water-a2",
+      "choices": [
+        "Watershed",
+        "Delta",
+        "Source",
+        "Tributary"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-water-a3",
+      "type": "choice",
+      "prompt": "A tributary is…",
+      "responseId": "geography-water:geography-water-a3",
+      "choices": [
+        "A smaller stream joining a larger one",
+        "A river’s mouth",
+        "A type of cloud",
+        "An ocean current"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-water-a4",
+      "type": "short-answer",
+      "prompt": "Describe one step of the water cycle in your own words.",
+      "responseId": "geography-water:geography-water-a4",
+      "instructions": "Two or three sentences.",
+      "context": "Evaporation, condensation, precipitation, runoff, and infiltration move water between ocean, air, and land.",
+      "rubric": [
+        "names a step",
+        "explains what happens"
+      ]
+    }
+  ]
+}

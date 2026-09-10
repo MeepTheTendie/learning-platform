@@ -4,7 +4,7 @@ const config = JSON.parse(fs.readFileSync(process.env.APP_CONFIG || 'wrangler.js
 fs.rmSync('dist', {recursive:true, force:true});
 fs.cpSync('public', 'dist', {recursive:true});
 const html = fs.readFileSync('dist/index.html', 'utf8');
-const tag = `<script src="/__cloud-sync.js" data-app="${config.vars.APP_ID}" data-storage="${config.vars.STORAGE_KEY}" data-auth="${config.vars.AUTH_MODE || 'legacy'}"></script>`;
+const tag = `<script src="/__cloud-sync.js" data-app="${config.vars.APP_ID}" data-storage="${config.vars.STORAGE_KEY}" data-auth="${config.vars.AUTH_MODE || 'legacy'}" data-key="${config.vars.KEY_SCOPE || 'shared'}"></script>`;
 fs.writeFileSync('dist/index.html', (/<\/head>/i.test(html) ? html.replace(/<\/head>/i, tag + '</head>') : /<body/i.test(html) ? html.replace(/<body/i, tag+'<body') : html.replace(/<!doctype html>/i, match=>match+tag)));
 if (!fs.readFileSync('dist/index.html','utf8').includes(tag)) throw Error('Missing HTML head');
 fs.copyFileSync('../../packages/progress/sync-client.js','dist/__cloud-sync.js');
@@ -13,10 +13,13 @@ fs.copyFileSync('../../packages/learning-content/browser.mjs','dist/learning-con
 fs.copyFileSync('../../packages/learning-content/progress.mjs','dist/progress.js');
 fs.copyFileSync('../../packages/learning-content/tutor.mjs','dist/tutor.js');
 fs.copyFileSync('../../packages/learning-content/exemplar-review.mjs','dist/exemplar-review.js');
-const exemplarSubject = { 'grammar-reader': 'english', 'history-atlas': 'history', 'philosophy-scholar': 'philosophy' }[config.vars.APP_ID];
+const exemplarSubject = { 'grammar-reader': 'english', 'history-atlas': 'history', 'philosophy-scholar': 'philosophy', 'geography-atlas': 'geography' }[config.vars.APP_ID];
 if (!exemplarSubject) throw Error('Unknown exemplar subject for '+config.vars.APP_ID);
-fs.mkdirSync('dist/content/exemplars', { recursive: true });
-fs.copyFileSync(`../../content/exemplars/${exemplarSubject === 'english' ? 'english-sentence' : exemplarSubject === 'history' ? 'history-cities' : 'philosophy-reasons'}.json`, `dist/content/exemplars/${exemplarSubject}.json`);
+const exemplarFile = { english: 'english-sentence', history: 'history-cities', philosophy: 'philosophy-reasons' }[exemplarSubject];
+if (exemplarFile) {
+  fs.mkdirSync('dist/content/exemplars', { recursive: true });
+  fs.copyFileSync(`../../content/exemplars/${exemplarFile}.json`, `dist/content/exemplars/${exemplarSubject}.json`);
+}
 if (fs.existsSync(`../../content/lessons/${exemplarSubject}`)) {
   fs.cpSync(`../../content/lessons/${exemplarSubject}`, `dist/content/lessons/${exemplarSubject}`, { recursive: true });
 }

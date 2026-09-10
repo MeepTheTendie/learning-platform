@@ -167,3 +167,19 @@ Deployed this turn:
 - Verified: production health passes and each app serves its lesson set (English 10, History 16, Philosophy 13). The app header wraps on small screens now that it carries the guided-lessons link.
 
 Remaining: full English book conversion (~111 sections) remains an ongoing content effort; paid AI overage stays off.
+
+## Geography Atlas — 2026-09-10
+
+Owner asked for a fourth subject, Geography, scoped as a world survey.
+
+- New app `apps/geography` (Worker `geography-atlas`, preview `learning-geography-preview`), reusing the shared progress/sync Worker, tutor, and guided lesson library. Its own app shell is a minimal state manager (`exemplars`, `tutor`, `awards`, theme).
+- `scripts/build-geography-lessons.mjs` generated 16 recognition-first lessons across four groups (Map skills, Physical geography, Human geography, Regions), each with multiple choice and one optional reflection carrying a passage.
+- Auth: Cloudflare Access does not cover new hostnames (verified: the new preview returned 200, not 302), so Geography uses the legacy pairing key on both preview and production. To avoid clobbering the account-wide pairing cookie used by the other subjects, the shared sync client gained an app-scoped key (`KEY_SCOPE=app`) stored in the origin's localStorage. Pairing links are in `~/Projects/learning-platform-private/geography-pairing.txt` (mode 600).
+- Wiring: `packages/progress/worker.mjs` (tutor subject), `scripts/build-app.mjs` (optional exemplar + lessons copy), `scripts/preview.mjs` (allow app-scoped previews), `scripts/check-health.mjs`, and the content/browser tests all include geography.
+
+Deployed:
+- Preview: `796b26ed-0d42-4d13-969e-d6340943d6c1` (legacy app-scoped key; `/` 200, `/api/progress` 401).
+- Production: `e6afd49e-7fb3-402b-b8c4-cbc56ccb8c54` (same; serves 16 lessons).
+- Verified: `npm run health` passes for preview and production; all existing apps unchanged.
+
+Remaining: Geography shares the `learning-progress-sync` database (separate `geography-atlas` row). The owner pairs Geography once per device using the links in the private file.

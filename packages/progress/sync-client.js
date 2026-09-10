@@ -2,6 +2,9 @@
   const script = document.currentScript;
   const app = script.dataset.app, key = script.dataset.storage;
   const mode = script.dataset.auth || 'legacy';
+  // 'shared' reuses the account-wide pairing cookie; 'app' keeps an independent
+  // key in this origin's localStorage so a new app cannot clobber the others.
+  const keyScope = script.dataset.key || 'shared';
   const metaKey = 'learning-sync-v2-' + app;
   const read = name => { try { return JSON.parse(localStorage.getItem(name)); } catch { return null; } };
   const write = (name, value) => localStorage.setItem(name, JSON.stringify(value));
@@ -15,12 +18,17 @@
   const ready = new Promise(resolve => { resolveReady = resolve; });
   // A fresh browser's app defaults must not overwrite the cloud on first load.
   let initialBase;
-  const legacyKey = () => document.cookie.split('; ').find(v => v.startsWith('learning_sync_key='))?.slice(18) || localStorage.getItem('learning-cloud-key-v1') || '';
+  const legacyKey = () => keyScope === 'app'
+    ? (localStorage.getItem('learning-cloud-key-v1-' + app) || '')
+    : (document.cookie.split('; ').find(v => v.startsWith('learning_sync_key='))?.slice(18) || localStorage.getItem('learning-cloud-key-v1') || '');
   // Legacy pairing: a private link carries the shared key to a new device.
   const paired = location.hash.match(/^#sync=([a-f0-9]{64})$/i)?.[1];
   if (paired) {
-    document.cookie = 'learning_sync_key=' + paired + '; Domain=history-atlas.workers.dev; Path=/; Max-Age=31536000; Secure; SameSite=Lax';
-    localStorage.setItem('learning-cloud-key-v1', paired);
+    if (keyScope === 'app') localStorage.setItem('learning-cloud-key-v1-' + app, paired);
+    else {
+      document.cookie = 'learning_sync_key=' + paired + '; Domain=history-atlas.workers.dev; Path=/; Max-Age=31536000; Secure; SameSite=Lax';
+      localStorage.setItem('learning-cloud-key-v1', paired);
+    }
     history.replaceState(null, '', location.pathname + location.search);
   }
   function status(text) { lastStatus = text; if (label) label.textContent = text; }

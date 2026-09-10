@@ -16,7 +16,7 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
     let output = '';
     const timeout = setTimeout(() => reject(Error('Test server startup timed out')), 10000);
     server.once('exit', code => reject(Error('Test server exited ' + code)));
-    server.stdout.on('data', data => { output += data; if (output.includes('philosophy 19003')) { clearTimeout(timeout); resolve(); } });
+    server.stdout.on('data', data => { output += data; if (output.includes('geography 19004')) { clearTimeout(timeout); resolve(); } });
   });
   await ready;
   const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_BIN || (fs.existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined), headless: true, args: ['--no-sandbox'] });
@@ -164,14 +164,15 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
     await pairing.close();
 
     // Guided lesson libraries for every subject: recognition-first and synced.
-    for (const [app, port, key, count, sample] of [
-      ['english', 19002, 'grammar-room-v1', 10, 'english-nouns'],
-      ['history', 19001, 'civilization-atlas-v1', 16, 'history-cities'],
-      ['philosophy', 19003, 'philosophy-scholar-v1', 13, 'philosophy-f3'],
+    for (const [app, port, key, count, sample, localKey] of [
+      ['english', 19002, 'grammar-room-v1', 10, 'english-nouns', 'learning-cloud-key-v1'],
+      ['history', 19001, 'civilization-atlas-v1', 16, 'history-cities', 'learning-cloud-key-v1'],
+      ['philosophy', 19003, 'philosophy-scholar-v1', 13, 'philosophy-f3', 'learning-cloud-key-v1'],
+      ['geography', 19004, 'geography-atlas-v1', 16, 'geography-locate', 'learning-cloud-key-v1-geography-atlas'],
     ]) {
       const lesson = JSON.parse(fs.readFileSync(`content/lessons/${app}/${sample}.json`, 'utf8'));
       const contexts = await Promise.all([browser.newContext(), browser.newContext()]);
-      for (const context of contexts) await context.addInitScript(() => localStorage.setItem('learning-cloud-key-v1', 'a'.repeat(64)));
+      for (const context of contexts) await context.addInitScript(name => localStorage.setItem(name, 'a'.repeat(64)), localKey);
       const [libA, libB] = await Promise.all(contexts.map(context => context.newPage()));
       const errors = [];
       for (const page of [libA, libB]) page.on('pageerror', error => errors.push(error.message));

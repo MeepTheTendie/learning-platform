@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "id": "geography-weather-climate",
+  "subject": "geography",
+  "title": "Weather and climate",
+  "objective": "Tell weather apart from climate and name the controls on each.",
+  "lesson": {
+    "opening": "Weather is what the sky is doing now; climate is the long-run pattern of weather in a place.",
+    "sections": [
+      {
+        "heading": "Two timescales",
+        "body": "Weather changes hour to hour. Climate is the average and the range of conditions over decades. A cold week does not disprove a warming climate."
+      },
+      {
+        "heading": "Controls on climate",
+        "body": "Latitude sets how much sunlight a place receives. Altitude cools the air. Distance from the sea moderates temperature. Ocean currents warm or cool coasts, and prevailing winds carry moisture or dryness."
+      },
+      {
+        "heading": "Oceans and climate",
+        "body": "A warm current can keep a high-latitude port ice-free; a cold current can help create a coastal desert."
+      }
+    ]
+  },
+  "sources": [
+    "World geography survey"
+  ],
+  "activities": [
+    {
+      "id": "geography-weather-climate-a0",
+      "type": "choice",
+      "prompt": "Climate is best described as…",
+      "responseId": "geography-weather-climate:geography-weather-climate-a0",
+      "choices": [
+        "The long-run pattern of weather",
+        "Today’s temperature",
+        "Tomorrow’s forecast",
+        "A single storm"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-weather-climate-a1",
+      "type": "choice",
+      "prompt": "Which factor cools a place at high altitude?",
+      "responseId": "geography-weather-climate:geography-weather-climate-a1",
+      "choices": [
+        "Altitude",
+        "Latitude",
+        "Longitude",
+        "Population"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-weather-climate-a2",
+      "type": "choice",
+      "prompt": "Why are coastal places often milder than inland places?",
+      "responseId": "geography-weather-climate:geography-weather-climate-a2",
+      "choices": [
+        "The sea moderates temperature",
+        "They are closer to the equator",
+        "They get more wind",
+        "They are lower"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-weather-climate-a3",
+      "type": "choice",
+      "prompt": "A warm ocean current can…",
+      "responseId": "geography-weather-climate:geography-weather-climate-a3",
+      "choices": [
+        "Keep a high-latitude coast ice-free",
+        "Freeze the coast",
+        "Cause a desert",
+        "Stop the tides"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "geography-weather-climate-a4",
+      "type": "short-answer",
+      "prompt": "Explain how one control on climate shapes a place you know.",
+      "responseId": "geography-weather-climate:geography-weather-climate-a4",
+      "instructions": "Name the control and the effect.",
+      "context": "Latitude, altitude, distance from the sea, currents, and winds all shape local climate.",
+      "rubric": [
+        "names a control",
+        "explains its effect"
+      ]
+    }
+  ]
+}
