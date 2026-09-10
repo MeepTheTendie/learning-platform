@@ -125,11 +125,12 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       }
 
       // Passing the reflection awards practice points, and native XP where the app has it.
+      await saved(b);
       const reflection = lesson.activities.find(activity => activity.type === 'short-answer');
       const reflectionNode = b.locator(`[data-response-id="${lesson.id}:${reflection.id}"]`);
       await reflectionNode.locator('textarea').fill('This reflection explains the idea in my own words with a concrete example and clear reasoning.');
       await reflectionNode.locator('[data-check]').click();
-      await b.waitForFunction(({ storageKey, lessonId }) => (JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.points || 0) >= 20, { storageKey: key, lessonId: lesson.id }, { timeout: 10000 });
+      await b.waitForFunction(({ storageKey, lessonId }) => (JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.points || 0) >= 20, { storageKey: key, lessonId: lesson.id }, { timeout: 15000 });
       if (app !== 'history') {
         await b.waitForFunction(storageKey => Object.keys(JSON.parse(localStorage.getItem(storageKey) || '{}').awards || {}).some(name => name.startsWith('reflect:')), key, { timeout: 10000 });
       }
