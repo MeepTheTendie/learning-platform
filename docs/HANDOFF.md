@@ -100,9 +100,11 @@ Owner direction: written responses broke flow, so lessons are now mostly multipl
 - All three exemplars were rewritten to 5 choice activities plus 1 short reflection (History keeps one sequence).
 
 Deployed previews from this commit (Cloudflare Access, `learning-platform-preview` database):
-- English: `79951b84-3ebd-4842-804e-08fa9a6bdc4a`
-- History: `160bcb10-f3a0-44e1-a882-ca3d2a655d0d`
-- Philosophy: `493ab422-8fc3-4e96-9ff3-bc7f5b50fd2b`
+- English: `c80bf1d0-871b-4888-a8b1-6c8bd0020745`
+- History: `c2e8477d-622b-4948-8590-316ebb9b2b5b`
+- Philosophy: `c5189e7f-b578-4526-8bd2-4b4f4336d6a2`
+
+The `0002_tutor.sql` migration was applied to the preview D1 database. The tutor route was exercised against the real `@cf/meta/llama-3.1-8b-instruct-fp8` model with a local `wrangler dev` run: it returned a grounded reply and counted usage (`remaining: 39`).
 
 Remaining, owner-gated:
 1. Exemplar content review before curriculum expansion (Milestone 2): confirm the multiple-choice mix and tutor behavior on the previews.
