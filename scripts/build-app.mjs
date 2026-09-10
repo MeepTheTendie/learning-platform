@@ -1,10 +1,10 @@
 import fs from 'node:fs';
 import crypto from 'node:crypto';
-const config = JSON.parse(fs.readFileSync('wrangler.jsonc', 'utf8'));
+const config = JSON.parse(fs.readFileSync(process.env.APP_CONFIG || 'wrangler.jsonc', 'utf8'));
 fs.rmSync('dist', {recursive:true, force:true});
 fs.cpSync('public', 'dist', {recursive:true});
 const html = fs.readFileSync('dist/index.html', 'utf8');
-const tag = `<script src="/__cloud-sync.js" data-app="${config.vars.APP_ID}" data-storage="${config.vars.STORAGE_KEY}"></script>`;
+const tag = `<script src="/__cloud-sync.js" data-app="${config.vars.APP_ID}" data-storage="${config.vars.STORAGE_KEY}" data-auth="${config.vars.AUTH_MODE || 'legacy'}"></script>`;
 fs.writeFileSync('dist/index.html', (/<\/head>/i.test(html) ? html.replace(/<\/head>/i, tag + '</head>') : /<body/i.test(html) ? html.replace(/<body/i, tag+'<body') : html.replace(/<!doctype html>/i, match=>match+tag)));
 if (!fs.readFileSync('dist/index.html','utf8').includes(tag)) throw Error('Missing HTML head');
 fs.copyFileSync('../../packages/progress/sync-client.js','dist/__cloud-sync.js');

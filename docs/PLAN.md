@@ -7,9 +7,9 @@ Approved by the user on 2026-09-09. Deliver in three milestones with tested comm
 - [x] Record live deployments, storage bindings, and sync implementation.
 - [x] Export production D1 and verify SQL restoration locally.
 - [x] Back up existing Git histories; preserve newer History illustration fixes.
-- [ ] Collect desktop and laptop browser recovery exports before merging progress.
-- [ ] Create a monorepo preserving the three histories and separate app deployments/URLs.
-- [ ] Establish shared, established authentication (provider/domain choice still pending), preview isolation, and shared persistence.
+- [x] Browser recovery exports explicitly waived by user; preserve cloud backup.
+- [x] Create a monorepo preserving the three histories and separate app deployments/URLs.
+- [ ] Establish shared, established authentication (Access configured and previews deployed; real sign-in acceptance pending), preview isolation, and shared persistence.
 - [ ] Replace pairing widget with sign-in and discreet save status.
 - [ ] Introduce stable response IDs, drafts, reading positions, revisions and offline retry; retain conflicts.
 - [ ] Test cross-device edits, offline recovery, migration and rollback before production switch.

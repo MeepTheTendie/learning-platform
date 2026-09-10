@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+const app=process.argv[2];
+if(!['english','history','philosophy'].includes(app))throw Error('Choose english, history or philosophy');
+const cwd=path.resolve('apps',app);
+const config=JSON.parse(fs.readFileSync(path.join(cwd,'wrangler.preview.jsonc')));
+const prod=JSON.parse(fs.readFileSync(path.join(cwd,'wrangler.jsonc')));
+if(!config.name.endsWith('-preview')||config.name===prod.name||config.vars.AUTH_MODE!=='access')throw Error('Unsafe preview configuration');
+if(config.d1_databases.some(db=>prod.d1_databases.some(p=>p.database_id===db.database_id)))throw Error('Preview cannot use production data');
+execFileSync(process.execPath,['scripts/build.mjs'],{cwd,env:{...process.env,APP_CONFIG:'wrangler.preview.jsonc'},stdio:'inherit'});
+const cli=path.resolve('node_modules/wrangler/bin/wrangler.js');
+execFileSync(process.execPath,[cli,'deploy','--config','wrangler.preview.jsonc',...(process.argv.includes('--dry-run')?['--dry-run']:[])],{cwd,stdio:'inherit'});

@@ -13,7 +13,7 @@ Progress is stored in the browser and synchronized through the Worker to the sha
 
 ## Build and deploy
 
-Run `npm run build` to generate `dist/worker.mjs`, then `npm run deploy` to deploy it with Wrangler. The Cloudflare Worker requires a `SYNC_KEY_HASH` secret and the `PROGRESS_DB` D1 binding declared in `wrangler.jsonc`. The private pairing key is intentionally excluded from this repository.
+Install dependencies from the monorepo root with `npm ci`. Run `npm run build` in this app to generate `dist/` assets; Wrangler bundles `src/worker.mjs` with the shared Worker. See the root README for checks and isolated preview deployment. Production deployment remains gated by `docs/PLAN.md`. The Cloudflare Worker requires a `SYNC_KEY_HASH` secret and the `PROGRESS_DB` D1 binding declared in `wrangler.jsonc`. The private pairing key is intentionally excluded from this repository.
 
 
 ## Sync reliability and recovery
@@ -24,6 +24,6 @@ Refresh old tabs after deployment. The old revisionless sync protocol is rejecte
 
 Static files use Cloudflare Workers Assets. Builds include the sync client and security headers, and Philosophy Scholar keeps API responses out of its offline cache. The shared D1 schema is unchanged. Back up the remote D1 database before deployment.
 
-Validation: `npm ci && npm run check`. Wrangler is pinned; the sharp override fixes the development-tool advisory without downgrading Wrangler. The unit suite exercises actual SQLite revision writes as well as merges, deletions, authentication and body limits.
+Validation from the monorepo root: `npm ci && npm run check`. Wrangler is pinned; the sharp override fixes the development-tool advisory without downgrading Wrangler. The unit suite exercises actual SQLite revision writes as well as merges, deletions, authentication and body limits.
 
 Deployment preflight verifies the required `SYNC_KEY_HASH` secret. The previously plain-text binding was preserved from deployment history and moved to a Wrangler secret; existing pairing links remain valid.

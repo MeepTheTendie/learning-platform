@@ -1,7 +1,10 @@
+import { accessIdentity } from './access.mjs';
 const LIMIT = 2_000_000;
 const headers = {'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
 const json = (data,status=200) => new Response(JSON.stringify(data),{status,headers});
 export async function authorized(request,env) {
+  if(env.AUTH_MODE==='access')return !!await accessIdentity(request,env);
+  if(env.AUTH_MODE && env.AUTH_MODE!=='legacy')return false;
   const key=request.headers.get('authorization')?.replace(/^Bearer\s+/i,'')||'';
   if(!/^[a-f0-9]{64}$/.test(key)||!/^[a-f0-9]{64}$/.test(env.SYNC_KEY_HASH||''))return false;
   const digest=new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(key)));
@@ -32,6 +35,7 @@ export default {
   if(url.pathname==='/api/progress-beacon')return json({error:'refresh_required'},409);
   if(url.pathname!=='/api/progress')return json({error:'not_found'},404);
   if(!await authorized(request,env))return json({error:'unauthorized'},401);
+  if(request.method==='PUT' && request.headers.get('origin') && request.headers.get('origin')!==url.origin)return json({error:'origin'},403);
   try {
     if(request.method==='GET')return json(await current(env));
     if(request.method!=='PUT')return json({error:'method'},405);

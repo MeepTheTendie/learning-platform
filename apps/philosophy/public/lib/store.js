@@ -1,6 +1,6 @@
 export const KEY='philosophy-scholar-v1';
 export const today=(date=new Date())=>`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
-export const fresh=()=>({app:'philosophy-scholar',version:1,current:'f1',lessons:{},xp:0,awards:{},mastery:{},reviews:{},reviewLog:[],notes:[],bookmarks:[],revisit:[],daily:{},settings:{theme:'light',font:21,scholar:false},debates:{}});
+export const fresh=()=>({app:'philosophy-scholar',version:1,current:'f1',lessons:{},xp:0,awards:{},mastery:{},reviews:{},reviewLog:[],notes:[],bookmarks:[],revisit:[],daily:{},settings:{theme:'light',font:21,scholar:false},debates:{},noteDraft:{text:'',lesson:'f1',type:'note'}});
 const obj=x=>x&&typeof x==='object'&&!Array.isArray(x);
 const safeKey=k=>!['__proto__','constructor','prototype'].includes(k);
 const bounded=(x,max=100000)=>typeof x==='string'?x.slice(0,max):'';
@@ -10,6 +10,7 @@ export function validate(raw,ids){
  for(const field of ['lessons','awards','mastery','reviews','daily','debates']){
   if(obj(raw[field]))s[field]=Object.fromEntries(Object.entries(raw[field]).filter(([k,v])=>safeKey(k)&&k.length<200&&obj(v)).map(([k,v])=>[k,JSON.parse(JSON.stringify(v),(key,value)=>safeKey(key)?value:undefined)]));
  }
+ if(obj(raw.noteDraft))s.noteDraft={text:bounded(raw.noteDraft.text),lesson:ids.includes(raw.noteDraft.lesson)?raw.noteDraft.lesson:ids[0],type:['note','question','argument','objection','concept','quotation'].includes(raw.noteDraft.type)?raw.noteDraft.type:'note'};
  s.xp=Number.isFinite(raw.xp)?Math.max(0,Math.min(1e9,raw.xp)):0;
  s.notes=Array.isArray(raw.notes)?raw.notes.filter(n=>obj(n)&&typeof n.text==='string'&&typeof n.id==='string').map(n=>({id:bounded(n.id,100),text:bounded(n.text),type:bounded(n.type,30),lesson:ids.includes(n.lesson)?n.lesson:ids[0],date:bounded(n.date,40),author:bounded(n.author,500),work:bounded(n.work,1000)})).slice(0,20000):[];
  for(const f of ['bookmarks','revisit'])s[f]=Array.isArray(raw[f])?[...new Set(raw[f].filter(id=>ids.includes(id)))]:[];
