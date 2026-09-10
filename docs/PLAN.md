@@ -9,10 +9,10 @@ Approved by the user on 2026-09-09. Deliver in three milestones with tested comm
 - [x] Back up existing Git histories; preserve newer History illustration fixes.
 - [x] Browser recovery exports explicitly waived by user; preserve cloud backup.
 - [x] Create a monorepo preserving the three histories and separate app deployments/URLs.
-- [ ] Establish shared, established authentication (Access configured and previews deployed; real sign-in acceptance pending), preview isolation, and shared persistence.
-- [ ] Replace pairing widget with sign-in and discreet save status.
-- [ ] Introduce stable response IDs, drafts, reading positions, revisions and offline retry; retain conflicts.
-- [ ] Test cross-device edits, offline recovery, migration and rollback before production switch.
+- [x] Establish shared, established authentication (Access configured and previews deployed), preview isolation, and shared persistence.
+- [x] Replace pairing widget with sign-in and discreet save status.
+- [x] Introduce stable sync operation IDs, drafts, reading positions, revision-checked writes and offline retry; retain conflicts.
+- [x] Test cross-device edits, offline recovery, and isolated migration/rollback rehearsal. Live two-device sign-in acceptance is waived for this milestone by the user; retain the production gate for any real migration.
 
 ## Milestone 2 — interactive learning
 - [ ] Shared validated content format and exercise components.

@@ -33,11 +33,15 @@ async function request(ctx,method,body,auth=true){
 }
 test('unauthorized access is refused',async()=>{const c=setup();assert.equal((await request(c,'GET',undefined,false)).status,401);c.db.close();});
 test('stale revisions never overwrite saved state; edits can delete data',async()=>{
- const c=setup();assert.equal((await request(c,'PUT',{revision:0,state:{done:[1,2]}})).status,200);
+ const c=setup();const first=await request(c,'PUT',{revision:0,state:{done:[1,2],drafts:{response:'a'}}});assert.equal(first.status,200);assert.match(first.headers.get('x-sync-id'),/^[0-9a-f-]{36}$/i);
  assert.equal((await request(c,'PUT',{revision:0,state:{done:[3]}})).status,409);
  assert.equal((await request(c,'PUT',{revision:1,state:{done:[1]}})).status,200);
  assert.deepEqual((await (await request(c,'GET')).json()).state,{done:[1]});
  assert.equal((await request(c,'PUT',{state:{done:[]}})).status,409);c.db.close();
+});
+
+test('sync operations have stable client IDs across acknowledgement',async()=>{
+ const c=setup();const id='11111111-1111-4111-8111-111111111111';const r=await request(c,'PUT',{revision:0,syncId:id,state:{done:[1]}});assert.equal(r.headers.get('x-sync-id'),id);assert.equal((await (await request(c,'GET')).json()).revision,1);c.db.close();
 });
 test('oversized bodies, invalid revisions and legacy beacons cannot write',async()=>{
  const c=setup();assert.equal((await request(c,'PUT',{revision:0,state:{text:'x'.repeat(2000000)}})).status,413);

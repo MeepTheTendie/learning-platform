@@ -12,7 +12,7 @@
     "test": "npm run test --workspaces",
     "build": "npm run build --workspaces",
     "check": "npm run test:auth && npm run check --workspaces",
-    "test:auth": "node --test tests/access.test.mjs",
+    "test:auth": "node --test tests/access.test.mjs tests/migration.test.mjs",
     "preview": "node scripts/preview.mjs",
     "test:browser": "npm run build && node tests/run-browser.mjs"
   },

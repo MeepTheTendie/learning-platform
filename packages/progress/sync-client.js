@@ -6,7 +6,7 @@
   const read = name => { try { return JSON.parse(localStorage.getItem(name)); } catch { return null; } };
   const write = (name, value) => localStorage.setItem(name, JSON.stringify(value));
   const copy = value => JSON.parse(JSON.stringify(value));
-  let meta = read(metaKey) || { revision: 0, base: null };
+  let meta = read(metaKey) || { revision: 0, base: null, syncId: null };
   let adapter, busy = false, applying = false, timer, retry = 1000, pendingUI = false;
   let canonical = read(key);
   let shown = read(key), label, merge, equal, lastStatus = 'Connecting…';
@@ -68,10 +68,10 @@
     },
     syncNow() { queue(0); },
   };
-  async function request(method, body) {
+  async function request(method, body, syncId) {
     const response = await fetch('/api/progress', {
       method, credentials: 'same-origin', cache: 'no-store', redirect: 'manual',
-      headers: { ...(mode === 'legacy' ? { Authorization: 'Bearer ' + legacyKey() } : {}), ...(body ? { 'Content-Type': 'application/json' } : {}) },
+      headers: { ...(mode === 'legacy' ? { Authorization: 'Bearer ' + legacyKey() } : {}), ...(body ? { 'Content-Type': 'application/json' } : {}), ...(syncId ? { 'X-Sync-Id': syncId } : {}) },
       body: body ? JSON.stringify(body) : undefined, signal: AbortSignal.timeout(15000),
     });
     if (response.type === 'opaqueredirect' || response.status === 401 || response.status === 403) throw Error('signin');
@@ -79,7 +79,7 @@
     if (!response.ok && response.status !== 409) throw Error('unavailable');
     const data = await response.json();
     if (response.status === 409 && data.error !== 'conflict') throw Error('unavailable');
-    return { ...data, conflict: response.status === 409 };
+    return { ...data, syncId: response.headers.get('x-sync-id') || data.syncId || syncId || null, conflict: response.status === 409 };
   }
   async function sync() {
     if (busy || !adapter) return;
@@ -93,14 +93,15 @@
         const base = meta.base ?? initialBase;
         const sent = remote.state === null ? local : mergeRetainingConflicts(base, local, remote.state);
         if (!equal(local, sent)) backup(local, remote.state);
-        const result = equal(sent, remote.state) ? remote : await request('PUT', { revision: remote.revision, state: sent });
+        const syncId = crypto.randomUUID();
+        const result = equal(sent, remote.state) ? remote : await request('PUT', { revision: remote.revision, state: sent, syncId }, syncId);
         if (result.conflict) { remote = result; continue; }
         const now = read(key) ?? local;
         const next = equal(now, local) ? sent : mergeRetainingConflicts(local, now, sent);
         // Write state before its acknowledgement so a crash never loses pending work.
         write(key, next);
         canonical = next;
-        meta = { revision: result.revision, base: result.state, updatedAt: result.updatedAt };
+        meta = { revision: result.revision, base: result.state, updatedAt: result.updatedAt, syncId: result.syncId || null };
         write(metaKey, meta);
         initialBase = undefined;
         pendingUI = !equal(next, shown);

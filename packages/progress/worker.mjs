@@ -1,7 +1,7 @@
 import { accessIdentity } from './access.mjs';
 const LIMIT = 2_000_000;
 const headers = {'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
-const json = (data,status=200) => new Response(JSON.stringify(data),{status,headers});
+const json = (data,status=200,requestId=null) => { const h = new Headers(headers); if(requestId)h.set('x-sync-id',requestId); return new Response(JSON.stringify(data),{status,headers:h}); };
 export async function authorized(request,env) {
   if(env.AUTH_MODE==='access')return !!await accessIdentity(request,env);
   if(env.AUTH_MODE && env.AUTH_MODE!=='legacy')return false;
@@ -25,6 +25,7 @@ async function current(env){return snapshot(await env.PROGRESS_DB.prepare('SELEC
 export default {
  async fetch(request,env) {
   const url=new URL(request.url);
+  const requestId=request.headers.get('x-sync-id')||crypto.randomUUID();
   if(url.pathname==='/__cloud-sync.js') {
     const response=await env.ASSETS.fetch(request);const copy=new Response(response.body,response);
     copy.headers.set('cache-control','no-store');return copy;
@@ -37,9 +38,10 @@ export default {
   if(!await authorized(request,env))return json({error:'unauthorized'},401);
   if(request.method==='PUT' && request.headers.get('origin') && request.headers.get('origin')!==url.origin)return json({error:'origin'},403);
   try {
-    if(request.method==='GET')return json(await current(env));
+    if(request.method==='GET')return json(await current(env),200,requestId);
     if(request.method!=='PUT')return json({error:'method'},405);
     const body=await readBody(request);
+    const syncId=typeof body?.syncId==='string'&&/^[0-9a-f-]{36}$/i.test(body.syncId)?body.syncId:requestId;
     if(!Number.isSafeInteger(body?.revision)||body.revision<0)return json({error:'refresh_required'},409);
     if(!body.state||typeof body.state!=='object'||Array.isArray(body.state))return json({error:'invalid_state'},400);
     const updatedAt=Date.now();
@@ -48,8 +50,8 @@ export default {
     const row=body.revision===0
       ? await env.PROGRESS_DB.prepare('INSERT INTO progress (app_id,revision,state_json,updated_at) VALUES (?,1,?,?) ON CONFLICT(app_id) DO NOTHING RETURNING revision,state_json,updated_at').bind(env.APP_ID,JSON.stringify(body.state),updatedAt).first()
       : await env.PROGRESS_DB.prepare('UPDATE progress SET revision=revision+1,state_json=?,updated_at=? WHERE app_id=? AND revision=? RETURNING revision,state_json,updated_at').bind(JSON.stringify(body.state),updatedAt,env.APP_ID,body.revision).first();
-    if(!row)return json({error:'conflict',...await current(env)},409);
-    return json(snapshot(row));
+    if(!row)return json({error:'conflict',...await current(env)},409,syncId);
+    return json({...snapshot(row),syncId},200,syncId);
   } catch(error) {
     if(error.status)return json({error:error.error},error.status);
     console.error(JSON.stringify({event:'progress_failure',app:env.APP_ID}));

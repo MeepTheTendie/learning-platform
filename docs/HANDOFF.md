@@ -10,6 +10,7 @@ User wants the approved learning-app work continued, with economical token use. 
 - App adapters apply downloaded state without reload, defer UI replacement while editing, merge in-flight changes, and retry offline edits. Save status replaces the floating pairing widget in the new build.
 - Unresolved conflicts now live separately from the three rotating routine recovery snapshots and are included in recovery downloads. Storage failure aborts conflict merge rather than deleting older unresolved copies.
 - Philosophy commonplace note drafts now save locally and sync, survive reload/validation, and clear when converted to a saved entry.
+- Sync writes carry stable client operation IDs through acknowledgement and retries. English and Philosophy now persist reading positions; History already did. The migration/rollback test copies a synthetic progress backup into an isolated database, verifies it, deletes it, and restores it.
 - Root and app README build/preview guidance updated.
 
 ## Validation this turn
@@ -19,10 +20,9 @@ User wants the approved learning-app work continued, with economical token use. 
 - The sandbox blocks localhost browser tests; approved `node tests/run-browser.mjs` outside sandbox. Saved Wrangler login refresh/deploy also requires network access outside sandbox; use approved `npm run preview` when needed. Never print tokens.
 
 ## Remaining milestone 1 work
-1. Complete real owner sign-in / two-device acceptance. Previews: https://learning-{english,history,philosophy}-preview.history-atlas.workers.dev/ . No production cutover yet.
-2. Extend persistent drafts/reading positions where missing; stable per-response records and revisions are not yet implemented (storage is still per-app revisioned JSON snapshots).
-3. Verify migration and rollback with synthetic isolated data, refresh cloud backup before real cutover, and verify full live asset/Worker provenance. Preserve current production data, URLs and latest illustrations.
-4. Complete account-authenticated migration only after those checks. Then milestone 2 exemplar lessons for user review; optional paid AI remains gated on provider/spending agreement.
+1. Live owner sign-in / two-device acceptance is waived by the user for this milestone. Previews remain available at https://learning-{english,history,philosophy}-preview.history-atlas.workers.dev/ . No production cutover yet.
+2. Refresh the production cloud backup immediately before any real cutover, verify full live asset/Worker provenance, and preserve current production data, URLs and latest illustrations.
+3. Keep real account-authenticated migration gated until the user elects to cut over. Then milestone 2 exemplar lessons for user review; optional paid AI remains gated on provider/spending agreement.
 
 Cloudflare Codex duplicate login was addressed separately: config disables plugin duplicate `cloudflare-api`, keeps authenticated `cloudflare`. Do not redo OAuth unnecessarily.
 
@@ -32,3 +32,11 @@ All three previews updated successfully this turn. Unauthenticated `/` and `/api
 - History version: `9711317c-38fb-4c02-a918-8803ee4fea4d`
 - Philosophy version: `08f7487a-fee8-469d-984d-3b6c6d943646`
 Production was not deployed or migrated. Unit/build/dry-run and local browser checks passed before these preview deployments.
+
+## Milestone 1 continuation
+Stable sync operation IDs, English and Philosophy reading positions, and the isolated migration/rollback rehearsal were added after the previous preview checkpoint. The updated previews were deployed from the tested build:
+- English version: `32c1433b-c9ad-4779-962c-1ead2f5803f5`
+- History version: `05e17ba3-7a37-4de1-ab10-d0a95badb752`
+- Philosophy version: `0cf679f7-f36c-4411-a746-72dd650bce25`
+
+The deploy output confirmed each preview was built from the local `dist/` assets and bound to `learning-platform-preview`; no production Worker or D1 binding was targeted. The remaining production-gated actions are a fresh backup immediately before cutover, final live provenance review, and an explicit decision to migrate production.
