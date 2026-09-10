@@ -1,0 +1,22 @@
+{
+  "name": "learning-platform",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "test": "npm run test --workspaces",
+    "build": "npm run build --workspaces",
+    "check": "npm run check --workspaces"
+  },
+  "devDependencies": {
+    "wrangler": "4.129.1"
+  },
+  "overrides": {
+    "sharp": "0.35.4"
+  }
+}
