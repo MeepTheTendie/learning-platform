@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 const app=process.argv[2];
-if(!['english','history','philosophy','geography'].includes(app))throw Error('Choose english, history, philosophy or geography');
+if(!['english','history','philosophy','geography','hub'].includes(app))throw Error('Choose english, history, philosophy, geography or hub');
 const cwd=path.resolve('apps',app);
 const config=JSON.parse(fs.readFileSync(path.join(cwd,'wrangler.preview.jsonc')));
 const prod=JSON.parse(fs.readFileSync(path.join(cwd,'wrangler.jsonc')));

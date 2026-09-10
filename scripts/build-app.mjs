@@ -13,19 +13,22 @@ fs.copyFileSync('../../packages/learning-content/browser.mjs','dist/learning-con
 fs.copyFileSync('../../packages/learning-content/progress.mjs','dist/progress.js');
 fs.copyFileSync('../../packages/learning-content/tutor.mjs','dist/tutor.js');
 fs.copyFileSync('../../packages/learning-content/exemplar-review.mjs','dist/exemplar-review.js');
+const subjectless = new Set(['learning-hub']);
 const exemplarSubject = { 'grammar-reader': 'english', 'history-atlas': 'history', 'philosophy-scholar': 'philosophy', 'geography-atlas': 'geography' }[config.vars.APP_ID];
-if (!exemplarSubject) throw Error('Unknown exemplar subject for '+config.vars.APP_ID);
-const exemplarFile = { english: 'english-sentence', history: 'history-cities', philosophy: 'philosophy-reasons' }[exemplarSubject];
-if (exemplarFile) {
-  fs.mkdirSync('dist/content/exemplars', { recursive: true });
-  fs.copyFileSync(`../../content/exemplars/${exemplarFile}.json`, `dist/content/exemplars/${exemplarSubject}.json`);
+if (!exemplarSubject && !subjectless.has(config.vars.APP_ID)) throw Error('Unknown exemplar subject for '+config.vars.APP_ID);
+if (exemplarSubject) {
+  const exemplarFile = { english: 'english-sentence', history: 'history-cities', philosophy: 'philosophy-reasons' }[exemplarSubject];
+  if (exemplarFile) {
+    fs.mkdirSync('dist/content/exemplars', { recursive: true });
+    fs.copyFileSync(`../../content/exemplars/${exemplarFile}.json`, `dist/content/exemplars/${exemplarSubject}.json`);
+  }
+  if (fs.existsSync(`../../content/lessons/${exemplarSubject}`)) {
+    fs.cpSync(`../../content/lessons/${exemplarSubject}`, `dist/content/lessons/${exemplarSubject}`, { recursive: true });
+  }
+  const reviewTag = `<script type="module" src="/exemplar-review.js" data-subject="${exemplarSubject}"></script>`;
+  const builtHTML = fs.readFileSync('dist/index.html','utf8');
+  fs.writeFileSync('dist/index.html', /<\/head>/i.test(builtHTML) ? builtHTML.replace(/<\/head>/i, reviewTag + '</head>') : /<body/i.test(builtHTML) ? builtHTML.replace(/<body/i, reviewTag + '<body') : builtHTML.replace(/<!doctype html>/i, match => match + reviewTag));
 }
-if (fs.existsSync(`../../content/lessons/${exemplarSubject}`)) {
-  fs.cpSync(`../../content/lessons/${exemplarSubject}`, `dist/content/lessons/${exemplarSubject}`, { recursive: true });
-}
-const reviewTag = `<script type="module" src="/exemplar-review.js" data-subject="${exemplarSubject}"></script>`;
-const builtHTML = fs.readFileSync('dist/index.html','utf8');
-fs.writeFileSync('dist/index.html', /<\/head>/i.test(builtHTML) ? builtHTML.replace(/<\/head>/i, reviewTag + '</head>') : /<body/i.test(builtHTML) ? builtHTML.replace(/<body/i, reviewTag + '<body') : builtHTML.replace(/<!doctype html>/i, match => match + reviewTag));
 if (fs.existsSync('dist/sw.js')) {
   const hash = crypto.createHash('sha256');
   function visit(dir) { for (const name of fs.readdirSync(dir).sort()) { const file=dir+'/'+name; if(fs.statSync(file).isDirectory())visit(file); else hash.update(fs.readFileSync(file)); } }

@@ -6,6 +6,7 @@ Three independent Cloudflare apps with shared progress code and build tooling.
 - `apps/history`: history-atlas, including restored book illustrations
 - `apps/philosophy`: philosophy-scholar
 - `apps/geography`: geography-atlas, a world geography survey
+- `apps/hub`: learning-hub, one dashboard across all subjects plus manual session logging
 - `packages/progress`: shared Worker, browser sync and merge logic
 - `packages/learning-content`: validated lesson contract and exercise renderer
 - `scripts/build-app.mjs`: common asset packaging

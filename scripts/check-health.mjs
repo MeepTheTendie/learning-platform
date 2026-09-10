@@ -9,13 +9,14 @@
 // preview and production because Access does not cover its hostnames.
 
 const target = process.argv[2] || 'preview';
-const apps = ['english', 'history', 'philosophy', 'geography'];
+const apps = ['english', 'history', 'philosophy', 'geography', 'hub'];
 const accessApps = new Set(['english', 'history', 'philosophy']);
 const productionHosts = {
   english: 'grammar-reader.history-atlas.workers.dev',
   history: 'history-atlas.history-atlas.workers.dev',
   philosophy: 'philosophy-scholar.history-atlas.workers.dev',
   geography: 'geography-atlas.history-atlas.workers.dev',
+  hub: 'learning-hub.history-atlas.workers.dev',
 };
 const hosts = target === 'production'
   ? productionHosts

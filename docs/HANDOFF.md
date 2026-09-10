@@ -193,3 +193,14 @@ Owner reported finishing a Geography lesson with no way to mark it complete. Add
 - Completion state is stored in the canonical synced record (`exemplars[lessonId].completed`), so it syncs and survives reloads; the guided-lessons list shows a ✓ and "completed" per finished lesson.
 
 Deployed to all four previews and all four production apps this turn (completion is shared code). Verified with the browser tests, which now assert the toggle, persistence and cross-device sync. Production health passes.
+
+## Learning Hub — 2026-09-10
+
+Owner wanted a progress tracker outside ChatGPT that spans all their learning. Khan Academy and Biblingo have no public APIs (Khan's old API is retired; Biblingo is closed), so external learning is logged by hand while the platform's own apps aggregate automatically.
+
+- New app `apps/hub` (Worker `learning-hub`, preview `learning-hub-preview`). Its Worker wraps the shared one and adds authenticated `GET /api/hub`, which reads the shared `progress` table and returns per-subject lessons completed, practice points, activities passed, and last-active time.
+- The client shows subject cards (English, History, Philosophy, Geography), a manual "log a session" form (date, source, subject, minutes, note), totals, a day streak, and a recent log. Logs are stored in the hub's own synced state.
+- Uses the app-scoped key (`KEY_SCOPE=app`), no Access, like Geography. Pairing links were appended to `~/Projects/learning-platform-private/geography-pairing.txt`.
+- `scripts/build-app.mjs` now skips the lesson-review injection for subject-less apps; the hub has a unit test for aggregation and auth.
+
+Deployed: preview `8e323c1b-a640-433f-9e64-52498dc7633a`, production `f630acc3-7efb-46dc-a18a-95dbed5921c4`. Health passes (`/` 200, `/api/progress` and `/api/hub` 401).
