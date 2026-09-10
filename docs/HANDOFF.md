@@ -162,6 +162,8 @@ Security:
 Naming: the preview Workers keep their `-preview` names deliberately. Renaming a Worker changes its `workers.dev` hostname, and the new hostname would not be covered by the existing Access application (which I cannot reconfigure with the current credentials), so a rename would drop the Access sign-in and make the previews unusable. The `-preview` suffix already marks them as non-production.
 
 Deployed this turn:
-- Previews and production were redeployed with all three guided lesson libraries; version IDs are recorded below once the deploy completes.
+- Previews: English `fcd05dbf-9e81-4a08-8e73-dad151090c80`, History `871afeb5-be14-4da5-a430-719a37f232b5`, Philosophy `ad80ef3a-6853-49b5-999e-6add8d2cadee`.
+- Production: grammar-reader `5e62b2dd-7ad7-467e-a3e0-2372d6d2f830`, history-atlas `c4e682fd-9c85-4ea7-8376-5cf7e5573634`, philosophy-scholar `44c41839-1f74-449a-9d7c-d683c88477e0`.
+- Verified: production health passes and each app serves its lesson set (English 10, History 16, Philosophy 13).
 
 Remaining: full English book conversion (~111 sections) remains an ongoing content effort; paid AI overage stays off.
