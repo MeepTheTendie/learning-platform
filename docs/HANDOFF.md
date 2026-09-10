@@ -47,6 +47,6 @@ The shared content contract and first exercise renderer are in `packages/learnin
 The review surface is now wired into each preview build behind a `Review exemplar` link. It loads the subject exemplar, renders three activities, saves draft responses locally, and provides a first self-check. `tests/exemplars.cjs` covers all three interfaces; existing curriculum routes remain unchanged.
 
 Latest preview versions with the review surface:
-- English: `c52b176a-5ee9-4076-9a06-28a1eb36070d`
-- History: `bee0224f-efca-4994-91b9-6d8c49ef8fe6`
-- Philosophy: `7129364d-6e3a-4981-9f50-395d594ec2f2`
+- English: `8fe6008e-89f4-4665-8fd9-81874c9aa34b`
+- History: `5669eb0e-851a-4a68-b2a9-6e2fc2cfc567`
+- Philosophy: `fe9ffe39-9ce1-4a79-9492-4dcf7842f20e`
