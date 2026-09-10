@@ -20,7 +20,11 @@ const { spawn } = require('node:child_process');
       await page.waitForSelector('[data-response-id]', { timeout: 5000 });
       const heading = (await page.locator('h1').first().textContent()).toLowerCase();
       if (!heading.includes(title.toLowerCase()) || await page.locator('[data-response-id]').count() !== 3 || errors.length) throw Error(`${app} exemplar failed: ${heading}; ${errors.join('; ')}`);
-      await page.locator('[data-response-id] [data-check]').first().click();
+      const first = page.locator('[data-response-id]').first();
+      if (await first.locator('input[type=radio]').count()) await first.locator('input[type=radio]').first().check();
+      else await first.locator('textarea').fill('This response uses concrete evidence and explains the comparison clearly.');
+      await first.locator('[data-check]').click();
+      if (!(await first.locator('output').textContent()).includes('Passed')) throw Error(`${app} first activity did not produce a passing result`);
       console.log('PASS exemplar', app);
       await page.close();
     }
