@@ -105,4 +105,4 @@ function tick(){const now=Date.now();if(!document.hidden&&now-activityAt<60000&&
 render();if(store.error)toast('Saved data could not be loaded. Export or inspect your backup before clearing browser storage.');
 if('serviceWorker' in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('./sw.js').catch(()=>toast('Offline installation unavailable. The online app still works.'));
 
-window.LearningSync?.register({read:()=>store.state,apply:next=>{store.replace(next);render(false)}});
+window.LearningSync?.register({read:()=>store.state,apply:next=>{store.replace(next);if(location.hash!=='#exemplar')render(false)}});

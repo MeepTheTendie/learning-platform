@@ -51,11 +51,11 @@ The three first lessons are complete as reviewable preview content:
 - History: river settings, chronology, causal reasoning, evidence/inference boundaries, and source comparison.
 - Philosophy: conclusions and premises, fair reconstruction, hidden assumptions, objections, and counterexamples.
 
-The review surface currently stores answers and attempt metadata in separate browser-local keys (`learning-exemplar-v1-*`). It is **not yet part of each app's canonical synced state**. This is the next engineering task: add a validated exemplar-progress field to each app adapter/state schema, migrate existing local drafts without overwriting current progress, call the existing `LearningSync` path on changes, and test cross-device lesson answers plus offline merge.
+The review surface now stores answers and attempt metadata in each app's canonical synced state (`state.exemplars`), so exemplar work syncs between devices, merges offline, participates in conflict handling, and is included in recovery backups. Older `learning-exemplar-v1-*` drafts are migrated into canonical state on first load and then removed. Shared sanitization lives in `packages/learning-content/progress.mjs`; `tests/exemplar-progress.test.mjs` and the extended `tests/exemplars.cjs` cover migration, cross-device sync, the sequence round-trip and offline merge.
 
-Do not replace existing curriculum routes or production data while doing that work. Keep content and preview deployments isolated.
+Do not replace existing curriculum routes or production data. Keep content and preview deployments isolated.
 
-Latest preview versions with the review surface:
+Latest preview versions with the review surface (pre-sync build):
 - English: `8fe6008e-89f4-4665-8fd9-81874c9aa34b`
 - History: `82d0c968-4536-4c6a-942b-551b80f34a27`
 - Philosophy: `a1a86117-5443-4556-aebe-1fceab8b344f`
@@ -63,6 +63,7 @@ Latest preview versions with the review surface:
 ## Takeover checkpoint
 
 Latest commits, newest first:
+- `a35174f` documents the milestone two takeover state (this handoff).
 - `ecb99b1` marks the first subject lessons complete in the plan.
 - `d39ec76` records the Philosophy preview deployment.
 - `2cbcda0` adds the complete Philosophy lesson.
@@ -75,3 +76,21 @@ Latest commits, newest first:
 Checks currently passing: `npm run test:auth`, `npm run test:browser`, and the earlier full `npm run check`. Before handing off new code, rerun `npm run check` and `npm run test:browser`, then deploy only the affected preview with `npm run preview -- <subject>`.
 
 The next model should inspect the three app state validators and `packages/progress/sync-client.js`, then implement synced exemplar progress. Do not begin paid AI feedback, production migration, or broad curriculum expansion yet.
+
+## Synced exemplars and operations — 2026-09-10
+
+Exemplar progress is now part of each app's canonical synced state. Changes made this turn:
+
+- `packages/learning-content/progress.mjs` defines and sanitizes the `state.exemplars` shape (`responses`, `attempts`, `passed`, `updatedAt` per lesson).
+- `packages/progress/sync-client.js` exposes `LearningSync.read()`, `whenReady()` and `refresh()`, dispatches a `learning-sync:applied` event, and keeps the save widget outside `<main>`.
+- `packages/learning-content/exemplar-review.mjs` reads and mutates canonical state, migrates legacy `learning-exemplar-v1-*` drafts once, and hands the view back to the app on leaving `#exemplar`.
+- English, History and Philosophy state schemas carry and preserve `exemplars`; the app re-renders are deferred while the exemplar route is active.
+- The shared renderer now round-trips sequence answers (1-based input, 0-based storage).
+- Milestone 3 operations: `npm run backup`, `npm run restore-drill`, `npm run health`, and `docs/RELEASE.md`.
+
+Validation: `npm run check` (14 unit tests plus builds/dry runs) and `npm run test:browser` (all three apps: cross-device state, offline merge, exemplar migration, exemplar cross-device sync, sequence round-trip, mobile) pass. `npm run health -- preview` returns 302 to Access for all six checks.
+
+Remaining, owner-gated:
+1. Exemplar content review before curriculum expansion (Milestone 2).
+2. Production cutover: refresh backup, `npm run restore-drill`, review live provenance, then deploy. See `docs/RELEASE.md`.
+3. Optional paid AI feedback: needs an agreed provider and spending limit before any calls.

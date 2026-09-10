@@ -8,13 +8,15 @@ Three independent Cloudflare apps with shared progress code and build tooling.
 - `packages/progress`: shared Worker, browser sync and merge logic
 - `packages/learning-content`: validated lesson contract and exercise renderer
 - `scripts/build-app.mjs`: common asset packaging
-- `docs/`: approved plan, audit and current handoff
+- `docs/`: approved plan, audit, current handoff and release runbook (`docs/RELEASE.md`)
 
 ## Development
 
 Use Node 22.16 or later. Run `npm ci`, then `npm run check` from the root. This runs all existing tests, builds all subjects and checks Worker packaging without deploying. Run an individual app with `npm run check --workspace=history-atlas` (or its corresponding package name).
 
-All three original Git histories were imported with non-squashed git subtree merges. Original repositories and production sites remain intact. The current milestone adds Access sign-in, automatic application of remote edits, offline retries, retained conflicts, and Philosophy note drafts. Production still uses the original pairing system until migration acceptance checks pass.
+All three original Git histories were imported with non-squashed git subtree merges. Original repositories and production sites remain intact. The current milestone adds Access sign-in, automatic application of remote edits, offline retries, retained conflicts, Philosophy note drafts, and exemplar lesson progress in each app's canonical synced state. Production still uses the original pairing system until migration acceptance checks pass.
+
+Operations: `npm run backup` exports production D1 to a private directory, `npm run restore-drill` verifies the newest backup in isolated SQLite, and `npm run health -- preview` checks the deployed apps. See `docs/RELEASE.md`.
 
 Do not deploy production until the authentication and migration acceptance checks in docs/PLAN.md pass. Never place database exports, pairing keys, or learner answers in this repository. Browser recovery exports were explicitly waived by the user; preserve the existing cloud backup and allow the user to redo local-only completions.
 
@@ -28,4 +30,4 @@ Preview URLs: `https://learning-{english,history,philosophy}-preview.history-atl
 
 ## Milestone 2 content review
 
-The first reviewable lesson exemplars are in `content/exemplars/`. They use the shared contract in `packages/learning-content`; each activity has a stable response ID, prompt, response shape, and optional rubric. They are drafts for review and do not replace the existing app curriculum until approved.
+The first reviewable lesson exemplars are in `content/exemplars/`. They use the shared contract in `packages/learning-content`; each activity has a stable response ID, prompt, response shape, and optional rubric. Answers, attempts and completion save into each app's synced progress (`state.exemplars`), so they follow the same save, conflict and recovery paths as the rest of the app. They are drafts for review and do not replace the existing app curriculum until approved.

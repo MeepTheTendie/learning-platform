@@ -10,6 +10,7 @@ if (!fs.readFileSync('dist/index.html','utf8').includes(tag)) throw Error('Missi
 fs.copyFileSync('../../packages/progress/sync-client.js','dist/__cloud-sync.js');
 fs.copyFileSync('../../packages/progress/sync-merge.js','dist/sync-merge.js');
 fs.copyFileSync('../../packages/learning-content/browser.mjs','dist/learning-content.js');
+fs.copyFileSync('../../packages/learning-content/progress.mjs','dist/progress.js');
 fs.copyFileSync('../../packages/learning-content/exemplar-review.mjs','dist/exemplar-review.js');
 const exemplarSubject = { 'grammar-reader': 'english', 'history-atlas': 'history', 'philosophy-scholar': 'philosophy' }[config.vars.APP_ID];
 if (!exemplarSubject) throw Error('Unknown exemplar subject for '+config.vars.APP_ID);

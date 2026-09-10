@@ -11,6 +11,8 @@
   let canonical = read(key);
   let shown = read(key), label, merge, equal, lastStatus = 'Connecting…';
   const initial = read(key);
+  let resolveReady;
+  const ready = new Promise(resolve => { resolveReady = resolve; });
   // A fresh browser's app defaults must not overwrite the cloud on first load.
   let initialBase;
   const legacyKey = () => document.cookie.split('; ').find(v => v.startsWith('learning_sync_key='))?.slice(18) || localStorage.getItem('learning-cloud-key-v1') || '';
@@ -45,6 +47,7 @@
       shown = copy(adapter.read());
       pendingUI = false;
     } finally { applying = false; }
+    window.dispatchEvent(new CustomEvent('learning-sync:applied'));
   }
   window.LearningSync = {
     register(value) {
@@ -52,8 +55,13 @@
       shown = copy(adapter.read());
       canonical = read(key) ?? shown;
       initialBase = initial === null ? copy(shown) : undefined;
+      resolveReady();
       queue(0);
     },
+    // Live app state, so shared modules can read and mutate the canonical
+    // synced object instead of keeping a parallel localStorage copy.
+    read() { return adapter ? adapter.read() : read(key); },
+    whenReady() { return ready; },
     changed() {
       if (applying || !adapter) return;
       try {
@@ -67,6 +75,9 @@
       } catch { status('Device storage full — export a backup'); }
     },
     syncNow() { queue(0); },
+    // Re-render the app from its own in-memory state, e.g. after a shared
+    // route (the exemplar review) hands the page back.
+    refresh() { if (adapter) adapter.apply(copy(adapter.read())); },
   };
   async function request(method, body, syncId) {
     const response = await fetch('/api/progress', {
@@ -135,7 +146,12 @@
       const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = app + '-sync-recovery.json'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     };
     panel.append(backupButton); box.append(panel);
-    if (host) { host.hidden = true; host.after(box); } else (document.querySelector('header') || document.body).append(box);
+    // Keep the widget outside <main> so views that replace the main content
+    // (the exemplar review) cannot destroy it.
+    const main = document.querySelector('main, #main');
+    if (host && main && main.contains(host)) { host.hidden = true; document.body.append(box); }
+    else if (host) { host.hidden = true; host.after(box); }
+    else (document.querySelector('header') || document.body).append(box);
   }
   if (document.readyState === 'loading') addEventListener('DOMContentLoaded', init, { once: true }); else init();
   addEventListener('online', () => queue(0));

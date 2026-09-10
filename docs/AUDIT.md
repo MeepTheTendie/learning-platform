@@ -37,5 +37,20 @@ Private directory: /home/meep/Projects/learning-platform-private/2026-09-09 (dir
 learning-progress.sql is mode 600; SHA256SUMS records its checksum. Imported successfully into an in-memory SQLite database: integrity_check=ok; all three state_json values parsed as objects. Rows: History revision 15, Grammar 12, Philosophy 1. No production writes performed.
 Git bundles preserve all local refs for each maintenance repo; a further history-atlas-current.bundle preserves the current GitHub History clone. Local maintenance bundles verified. These are local backups, not yet an independent off-machine backup policy.
 
-## Pending evidence
-Desktop/laptop recovery exports, full deployment provenance, auth provider/domain choice, baseline application test run and actual GitHub workflow status. No repos moved, no new GitHub repo created, no app code or production configuration changed.
+## Status update — 2026-09-10
+
+The sections above record the 2026-09-09 baseline. The following items have since changed; `docs/HANDOFF.md` is authoritative for current state.
+
+Resolved since this audit:
+- Auth/domain choice: Cloudflare Access at `meep-learning.cloudflareaccess.com`, owner-email-only application `9025fce3-e998-4c7f-abd5-20ade6229ecd`.
+- Monorepo: created; all three histories imported with the latest History illustrations.
+- App changes: shared auth, sync client, merge logic, save status and an exemplar review surface implemented, with preview Workers deployed.
+- Baseline tests: `npm run check` and the browser suites pass locally (see HANDOFF validation; they do not prove real account-authenticated sign-in).
+
+Still pending or production-gated:
+- Desktop/laptop recovery exports were explicitly waived by the user; the private cloud backup is preserved.
+- Full live Worker/asset provenance verification before cutover.
+- Live owner sign-in and two-device account-authenticated acceptance (waived for milestone 1; required before production migration).
+- Fresh production backup immediately before cutover, and an explicit decision to migrate.
+
+The closing statement below applied only to the 2026-09-09 baseline: at that time no repos had moved, no new GitHub repo had been created, and no app code or production configuration had changed.
