@@ -48,5 +48,5 @@ The review surface is now wired into each preview build behind a `Review exempla
 
 Latest preview versions with the review surface:
 - English: `8fe6008e-89f4-4665-8fd9-81874c9aa34b`
-- History: `5669eb0e-851a-4a68-b2a9-6e2fc2cfc567`
+- History: `82d0c968-4536-4c6a-942b-551b80f34a27`
 - Philosophy: `fe9ffe39-9ce1-4a79-9492-4dcf7842f20e`
