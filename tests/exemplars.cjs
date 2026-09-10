@@ -136,7 +136,13 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       console.log('PASS exemplar points', app);
 
       await b.setViewportSize({ width: 390, height: 844 });
-      assert.equal(await b.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${app} mobile overflow`);
+      await b.waitForTimeout(150);
+      const layout = await b.evaluate(() => {
+        const vw = innerWidth;
+        const offenders = [...document.querySelectorAll('*')].filter(el => { const r = el.getBoundingClientRect(); return (r.width || r.height) && r.right > vw + 1; }).slice(0, 12).map(el => `${el.tagName}.${(el.className || '').toString().slice(0, 24)}#${el.id}:${Math.round(el.getBoundingClientRect().right)}`);
+        return { over: document.documentElement.scrollWidth > vw, scrollWidth: document.documentElement.scrollWidth, vw, offenders };
+      });
+      assert.equal(layout.over, false, `${app} mobile overflow ${JSON.stringify(layout)}`);
       assert.deepEqual(errors, [], `${app} browser errors`);
       console.log('PASS exemplar', app);
       await Promise.all(contexts.map(context => context.close()));
