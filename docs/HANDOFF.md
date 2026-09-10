@@ -90,6 +90,11 @@ Exemplar progress is now part of each app's canonical synced state. Changes made
 
 Validation: `npm run check` (14 unit tests plus builds/dry runs) and `npm run test:browser` (all three apps: cross-device state, offline merge, exemplar migration, exemplar cross-device sync, sequence round-trip, mobile) pass. `npm run health -- preview` returns 302 to Access for all six checks.
 
+Deployed previews from this commit (Cloudflare Access, `learning-platform-preview` database):
+- English: `79951b84-3ebd-4842-804e-08fa9a6bdc4a`
+- History: `160bcb10-f3a0-44e1-a882-ca3d2a655d0d`
+- Philosophy: `493ab422-8fc3-4e96-9ff3-bc7f5b50fd2b`
+
 Remaining, owner-gated:
 1. Exemplar content review before curriculum expansion (Milestone 2).
 2. Production cutover: refresh backup, `npm run restore-drill`, review live provenance, then deploy. See `docs/RELEASE.md`.
