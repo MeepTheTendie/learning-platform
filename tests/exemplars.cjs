@@ -193,15 +193,11 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       await node.locator('[data-check]').click();
       await passed(libA);
       await saved(libA);
-      // The lesson can be marked complete, and that state syncs.
-      await libA.locator('[data-complete-card] [data-complete-toggle]').click();
-      await libA.waitForFunction(({ storageKey, lessonId }) => JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.completed === true, { storageKey: key, lessonId: lesson.id }, { timeout: 15000 }).catch(async error => {
-        const dump = await libA.evaluate(({ storageKey, lessonId }) => {
-          const state = JSON.parse(localStorage.getItem(storageKey) || '{}');
-          return { record: state.exemplars?.[lessonId] || null, card: document.querySelector('[data-complete-card]')?.textContent };
-        }, { storageKey: key, lessonId: lesson.id });
-        throw Error(`${app} completion not persisted: ${JSON.stringify(dump)} (${error.message})`);
-      });
+      // Completing the lesson (auto when every check passes, or via the toggle) persists and syncs.
+      const isComplete = () => libA.evaluate(({ storageKey, lessonId }) => JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.completed === true, { storageKey: key, lessonId: lesson.id });
+      if (!(await isComplete())) await libA.locator('[data-complete-card] [data-complete-toggle]').click();
+      await libA.waitForFunction(({ storageKey, lessonId }) => JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.completed === true, { storageKey: key, lessonId: lesson.id }, { timeout: 15000 });
+      assert.ok((await libA.locator('[data-complete-card]').textContent()).includes('Lesson complete'), `${app} shows lesson completion`);
       assert.ok((await libA.locator('[data-complete-card]').textContent()).includes('Lesson complete'), `${app} shows lesson completion`);
       await saved(libA);
       const reflection = lesson.activities.find(activity => activity.type === 'short-answer');
