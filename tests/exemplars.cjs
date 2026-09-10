@@ -136,6 +136,8 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       console.log('PASS exemplar points', app);
 
       await b.setViewportSize({ width: 390, height: 844 });
+      // innerWidth updates before the layout reflows, and slower runners lag a
+      // frame, so let the resize settle before measuring.
       await b.waitForTimeout(150);
       const layout = await b.evaluate(() => {
         const vw = innerWidth;
