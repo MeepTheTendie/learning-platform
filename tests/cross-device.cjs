@@ -76,6 +76,9 @@ const assert=require('node:assert/strict');
    await wait(async()=>await b.locator('#note-text').inputValue()==='');
   }
   await b.setViewportSize({width:390,height:844});
+  // innerWidth updates before the layout reflows, and slower runners lag a
+  // frame, so let the resize settle before measuring.
+  await b.waitForTimeout(150);
   assert.equal(await b.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,app+' mobile overflow');
   assert.deepEqual(errors,[],app+' browser errors');
   console.log('PASS',app,'two-device state, automatic application, mobile'+(app!=='philosophy'?', deletions, offline merge':''));
