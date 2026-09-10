@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "id": "history-empire",
+  "subject": "history",
+  "title": "Governing Rome’s empire",
+  "objective": "Law, provinces, religion & political transformation",
+  "lesson": {
+    "opening": "What held the empire together—and which parts survived the western imperial office?",
+    "sections": [
+      {
+        "heading": "The institutional thread",
+        "body": "The principate and provincial administration\n\nUrban life, law, taxation, and the army\n\nChristianity and changing imperial institutions"
+      },
+      {
+        "heading": "A model to test",
+        "body": "Differentiate the western imperial office from Roman law, urban institutions, Christianity, and the eastern empire. Their timelines are not identical."
+      },
+      {
+        "heading": "Keep the question",
+        "body": "What held the empire together—and which parts survived the western imperial office?"
+      }
+    ]
+  },
+  "sources": [
+    "apps/history/public/course.js#empire"
+  ],
+  "activities": [
+    {
+      "id": "history-empire-order",
+      "type": "choice",
+      "prompt": "Which happened first: “Extension of Roman citizenship” or “Deposition of the western emperor”?",
+      "responseId": "history-empire:history-empire-order",
+      "hint": "Compare the dates on the unit timeline.",
+      "choices": [
+        "Deposition of the western emperor",
+        "Extension of Roman citizenship"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-empire-claim",
+      "type": "choice",
+      "prompt": "“Roman civilization ended everywhere in 476.” — is that an event claim or an interpretation?",
+      "responseId": "history-empire:history-empire-claim",
+      "hint": "This extends a western political event into an unsupported universal conclusion. Track each institution and region separately.",
+      "choices": [
+        "An event claim",
+        "An inference or interpretation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-empire-sequence",
+      "type": "sequence",
+      "prompt": "Put these events back in chronological order.",
+      "responseId": "history-empire:history-empire-sequence",
+      "items": [
+        "Deposition of the western emperor",
+        "Constantinople dedicated",
+        "Imperial toleration of Christianity",
+        "Extension of Roman citizenship"
+      ],
+      "answer": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "history-empire-reflect",
+      "type": "short-answer",
+      "prompt": "Describe three institutions that made distant provinces governable.",
+      "responseId": "history-empire:history-empire-reflect",
+      "instructions": "A few sentences are enough. Cite a passage when it helps.",
+      "context": "Differentiate the western imperial office from Roman law, urban institutions, Christianity, and the eastern empire. Their timelines are not identical.",
+      "rubric": [
+        "names evidence",
+        "explains a consequence",
+        "marks an inference"
+      ]
+    }
+  ]
+}

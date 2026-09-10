@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "id": "history-greeklife",
+  "subject": "history",
+  "title": "Life & thought in the Greek world",
+  "objective": "Institutions behind the familiar names",
+  "lesson": {
+    "opening": "What social arrangements supported Greek intellectual and artistic life?",
+    "sections": [
+      {
+        "heading": "The institutional thread",
+        "body": "Citizenship, households, and slavery\n\nTheater, philosophy, and civic life\n\nHellenistic centers of learning"
+      },
+      {
+        "heading": "A model to test",
+        "body": "A useful account links ideas to schools, patrons, households, public festivals, and political settings. Cultural influence and political independence do not rise and fall together."
+      },
+      {
+        "heading": "Keep the question",
+        "body": "What social arrangements supported Greek intellectual and artistic life?"
+      }
+    ]
+  },
+  "sources": [
+    "apps/history/public/course.js#greeklife"
+  ],
+  "activities": [
+    {
+      "id": "history-greeklife-order",
+      "type": "choice",
+      "prompt": "Which happened first: “Parthenon construction begins” or “Foundation of Alexandria”?",
+      "responseId": "history-greeklife:history-greeklife-order",
+      "hint": "Compare the dates on the unit timeline.",
+      "choices": [
+        "Foundation of Alexandria",
+        "Parthenon construction begins"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-greeklife-claim",
+      "type": "choice",
+      "prompt": "“Political conquest necessarily ends the influence of a culture.” — is that an event claim or an interpretation?",
+      "responseId": "history-greeklife:history-greeklife-claim",
+      "hint": "The influence of Greek language, education, and art under Roman rule provides a way to test and challenge this claim.",
+      "choices": [
+        "An event claim",
+        "An inference or interpretation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-greeklife-sequence",
+      "type": "sequence",
+      "prompt": "Put these events back in chronological order.",
+      "responseId": "history-greeklife:history-greeklife-sequence",
+      "items": [
+        "Foundation of Alexandria",
+        "Trial and death of Socrates",
+        "Parthenon construction begins"
+      ],
+      "answer": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "history-greeklife-reflect",
+      "type": "short-answer",
+      "prompt": "Connect one artistic or intellectual practice to the institution that supported it.",
+      "responseId": "history-greeklife:history-greeklife-reflect",
+      "instructions": "A few sentences are enough. Cite a passage when it helps.",
+      "context": "A useful account links ideas to schools, patrons, households, public festivals, and political settings. Cultural influence and political independence do not rise and fall together.",
+      "rubric": [
+        "names evidence",
+        "explains a consequence",
+        "marks an inference"
+      ]
+    }
+  ]
+}

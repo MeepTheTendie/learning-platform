@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "subject": "english",
+  "lessons": [
+    {
+      "id": "english-the-sentence",
+      "title": "The Sentence",
+      "world": 0,
+      "worldTitle": "Sentences",
+      "objective": "Recognise and use the sentence correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-kinds-of-sentences",
+      "title": "Kinds Of Sentences",
+      "world": 0,
+      "worldTitle": "Sentences",
+      "objective": "Recognise and use kinds of sentences correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-nouns",
+      "title": "Nouns",
+      "world": 1,
+      "worldTitle": "Parts of speech",
+      "objective": "Recognise and use nouns correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-pronouns",
+      "title": "Pronouns",
+      "world": 1,
+      "worldTitle": "Parts of speech",
+      "objective": "Recognise and use pronouns correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-adjectives",
+      "title": "Adjectives",
+      "world": 1,
+      "worldTitle": "Parts of speech",
+      "objective": "Recognise and use adjectives correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-adverbs",
+      "title": "Adverbs",
+      "world": 1,
+      "worldTitle": "Parts of speech",
+      "objective": "Recognise and use adverbs correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-verbs",
+      "title": "Verbs",
+      "world": 1,
+      "worldTitle": "Parts of speech",
+      "objective": "Recognise and use verbs correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-prepositions",
+      "title": "Prepositions",
+      "world": 1,
+      "worldTitle": "Parts of speech",
+      "objective": "Recognise and use prepositions correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-conjunctions",
+      "title": "Conjunctions",
+      "world": 1,
+      "worldTitle": "Parts of speech",
+      "objective": "Recognise and use conjunctions correctly.",
+      "boss": false
+    },
+    {
+      "id": "english-interjections",
+      "title": "Interjections",
+      "world": 1,
+      "worldTitle": "Parts of speech",
+      "objective": "Recognise and use interjections correctly.",
+      "boss": false
+    }
+  ]
+}

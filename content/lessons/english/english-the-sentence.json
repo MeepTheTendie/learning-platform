@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "english-the-sentence",
+  "subject": "english",
+  "title": "The Sentence",
+  "objective": "Recognise and use the sentence correctly.",
+  "lesson": {
+    "opening": "“Patient effort” names what is spoken of. “Removes mountains” says something about that subject.",
+    "sections": [
+      {
+        "heading": "The Sentence",
+        "body": "“Patient effort” names what is spoken of. “Removes mountains” says something about that subject."
+      }
+    ]
+  },
+  "sources": [
+    "apps/english/public/index.html"
+  ],
+  "activities": [
+    {
+      "id": "english-the-sentence-q",
+      "type": "choice",
+      "prompt": "In “Patient effort removes mountains,” which words form the complete subject?",
+      "responseId": "english-the-sentence:english-the-sentence-q",
+      "choices": [
+        "Patient effort",
+        "removes mountains",
+        "effort removes",
+        "mountains"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "english-the-sentence-reflect",
+      "type": "short-answer",
+      "prompt": "In your own words, explain the rule behind “The Sentence”, with one example.",
+      "responseId": "english-the-sentence:english-the-sentence-reflect",
+      "instructions": "A few sentences are enough.",
+      "context": "“Patient effort” names what is spoken of. “Removes mountains” says something about that subject.",
+      "rubric": [
+        "states the rule",
+        "gives an example"
+      ]
+    }
+  ]
+}

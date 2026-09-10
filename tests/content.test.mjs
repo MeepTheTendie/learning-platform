@@ -19,15 +19,20 @@ test('shared lesson validation rejects duplicate response IDs', () => {
   assert.throws(() => validateLesson(lesson), /repeats activity id/);
 });
 
-test('all generated Philosophy lessons satisfy the shared lesson contract', () => {
-  const index = JSON.parse(fs.readFileSync('content/lessons/philosophy/index.json', 'utf8'));
-  assert.equal(index.subject, 'philosophy');
-  assert.equal(index.lessons.length, 13);
-  for (const meta of index.lessons) {
-    const lesson = validateLesson(JSON.parse(fs.readFileSync(`content/lessons/philosophy/${meta.id}.json`, 'utf8')));
-    assert.equal(lesson.subject, 'philosophy');
-    assert.equal(lesson.id, meta.id);
-    assert.ok(lesson.activities.some(activity => activity.type === 'short-answer'), `${meta.id} has a reflection`);
-    assert.ok(lesson.activities.filter(activity => activity.type === 'choice').length >= 3, `${meta.id} is mostly multiple choice`);
+test('all generated subject lessons satisfy the shared lesson contract', () => {
+  const expected = { english: 10, history: 16, philosophy: 13 };
+  for (const [subject, count] of Object.entries(expected)) {
+    const index = JSON.parse(fs.readFileSync(`content/lessons/${subject}/index.json`, 'utf8'));
+    assert.equal(index.subject, subject);
+    assert.equal(index.lessons.length, count, `${subject} lesson count`);
+    for (const meta of index.lessons) {
+      const lesson = validateLesson(JSON.parse(fs.readFileSync(`content/lessons/${subject}/${meta.id}.json`, 'utf8')));
+      assert.equal(lesson.subject, subject);
+      assert.equal(lesson.id, meta.id);
+      assert.ok(lesson.activities.some(activity => activity.type === 'short-answer'), `${meta.id} has a reflection`);
+      assert.ok(lesson.activities.filter(activity => activity.type === 'choice' || activity.type === 'sequence').length >= 1, `${meta.id} leads with recognition`);
+      const reflection = lesson.activities.find(activity => activity.type === 'short-answer');
+      assert.ok(reflection.context, `${meta.id} reflection has source context`);
+    }
   }
 });

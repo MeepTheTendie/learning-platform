@@ -163,31 +163,42 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
     console.log('PASS legacy pairing');
     await pairing.close();
 
-    // Philosophy guided lesson library: all 13 lessons, recognition-first, synced.
-    const f3 = JSON.parse(fs.readFileSync('content/lessons/philosophy/philosophy-f3.json', 'utf8'));
-    const libContexts = await Promise.all([browser.newContext(), browser.newContext()]);
-    for (const context of libContexts) await context.addInitScript(() => localStorage.setItem('learning-cloud-key-v1', 'a'.repeat(64)));
-    const [libA, libB] = await Promise.all(libContexts.map(context => context.newPage()));
-    const libErrors = [];
-    for (const page of [libA, libB]) page.on('pageerror', error => libErrors.push(error.message));
-    const libUrl = 'http://127.0.0.1:19003/';
-    await libA.goto(libUrl + '#lessons');
-    await libA.waitForSelector('a[href^="#lessons/"]');
-    assert.equal(await libA.locator('a[href^="#lessons/"]').count(), 13, 'philosophy library lists 13 lessons');
-    await libA.locator('a[href="#lessons/philosophy-f3"]').click();
-    await libA.waitForSelector('[data-response-id]');
-    const libFirst = libA.locator('[data-response-id]').first();
-    await libFirst.locator(`input[value="${f3.activities[0].answer}"]`).check();
-    await libFirst.locator('[data-check]').click();
-    await libA.waitForFunction(() => Object.values(JSON.parse(localStorage.getItem('philosophy-scholar-v1') || '{}').exemplars?.['philosophy-f3']?.passed || {}).some(Boolean), null, { timeout: 10000 });
-    await libA.waitForFunction(() => (document.querySelector('[data-learning-sync] summary')?.textContent || '').startsWith('Saved'), null, { timeout: 15000 });
-    // The written reflection is optional and carries a no-penalty passage.
-    assert.equal(await libA.locator('[data-response-id="philosophy-f3:f3-q5"] .activity-context').count(), 1, 'reflection shows a passage');
-    await libB.goto(libUrl + '#lessons/philosophy-f3');
-    await libB.waitForSelector('[data-response-id]');
-    await libB.waitForFunction(() => Object.values(JSON.parse(localStorage.getItem('philosophy-scholar-v1') || '{}').exemplars?.['philosophy-f3']?.passed || {}).some(Boolean), null, { timeout: 15000 });
-    assert.deepEqual(libErrors, []);
-    console.log('PASS philosophy lesson library');
-    await Promise.all(libContexts.map(context => context.close()));
+    // Guided lesson libraries for every subject: recognition-first and synced.
+    for (const [app, port, key, count, sample] of [
+      ['english', 19002, 'grammar-room-v1', 10, 'english-nouns'],
+      ['history', 19001, 'civilization-atlas-v1', 16, 'history-cities'],
+      ['philosophy', 19003, 'philosophy-scholar-v1', 13, 'philosophy-f3'],
+    ]) {
+      const lesson = JSON.parse(fs.readFileSync(`content/lessons/${app}/${sample}.json`, 'utf8'));
+      const contexts = await Promise.all([browser.newContext(), browser.newContext()]);
+      for (const context of contexts) await context.addInitScript(() => localStorage.setItem('learning-cloud-key-v1', 'a'.repeat(64)));
+      const [libA, libB] = await Promise.all(contexts.map(context => context.newPage()));
+      const errors = [];
+      for (const page of [libA, libB]) page.on('pageerror', error => errors.push(error.message));
+      const url = `http://127.0.0.1:${port}/`;
+      const saved = page => page.waitForFunction(() => (document.querySelector('[data-learning-sync] summary')?.textContent || '').startsWith('Saved'), null, { timeout: 15000 });
+      const passed = page => page.waitForFunction(({ storageKey, lessonId }) => Object.values(JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.passed || {}).some(Boolean), { storageKey: key, lessonId: lesson.id }, { timeout: 15000 });
+
+      await libA.goto(url + '#lessons');
+      await libA.waitForSelector('a[href^="#lessons/"]');
+      assert.equal(await libA.locator('a[href^="#lessons/"]').count(), count, `${app} library count`);
+      await libA.locator(`a[href="#lessons/${sample}"]`).click();
+      await libA.waitForSelector('[data-response-id]');
+      const recognition = lesson.activities.find(activity => activity.type === 'choice' || activity.type === 'sequence');
+      const node = libA.locator(`[data-response-id="${lesson.id}:${recognition.id}"]`);
+      if (recognition.type === 'choice') await node.locator(`input[value="${recognition.answer}"]`).check();
+      else await node.locator('[data-sequence]').fill(recognition.answer.map(value => value + 1).join(', '));
+      await node.locator('[data-check]').click();
+      await passed(libA);
+      await saved(libA);
+      const reflection = lesson.activities.find(activity => activity.type === 'short-answer');
+      assert.equal(await libA.locator(`[data-response-id="${lesson.id}:${reflection.id}"] .activity-context`).count(), 1, `${app} reflection shows a passage`);
+      await libB.goto(url + `#lessons/${sample}`);
+      await libB.waitForSelector('[data-response-id]');
+      await passed(libB);
+      assert.deepEqual(errors, []);
+      console.log('PASS lesson library', app);
+      await Promise.all(contexts.map(context => context.close()));
+    }
   } finally { await browser.close(); server.kill('SIGTERM'); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "id": "history-atlantic",
+  "subject": "history",
+  "title": "Enlightenment & the Atlantic crisis",
+  "objective": "Ideas meet inherited institutions",
+  "lesson": {
+    "opening": "How did arguments about rights become conflicts over institutions and sovereignty?",
+    "sections": [
+      {
+        "heading": "The institutional thread",
+        "body": "Social orders and legal privileges\n\nEmpire, taxation, and representation\n\nArguments for independence"
+      },
+      {
+        "heading": "A model to test",
+        "body": "Link institutions and circumstances to ideas. The Declaration states a justification; it does not by itself prove every allegation or represent every inhabitant’s experience."
+      },
+      {
+        "heading": "Keep the question",
+        "body": "How did arguments about rights become conflicts over institutions and sovereignty?"
+      }
+    ]
+  },
+  "sources": [
+    "apps/history/public/course.js#atlantic"
+  ],
+  "activities": [
+    {
+      "id": "history-atlantic-order",
+      "type": "choice",
+      "prompt": "Which happened first: “Postwar imperial settlement” or “Recognition of American independence”?",
+      "responseId": "history-atlantic:history-atlantic-order",
+      "hint": "Compare the dates on the unit timeline.",
+      "choices": [
+        "Recognition of American independence",
+        "Postwar imperial settlement"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-atlantic-claim",
+      "type": "choice",
+      "prompt": "“The Declaration proves that every colonist agreed with independence.” — is that an event claim or an interpretation?",
+      "responseId": "history-atlantic:history-atlantic-claim",
+      "hint": "A document issued by political representatives establishes their position, not unanimous opinion.",
+      "choices": [
+        "An event claim",
+        "An inference or interpretation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-atlantic-sequence",
+      "type": "sequence",
+      "prompt": "Put these events back in chronological order.",
+      "responseId": "history-atlantic:history-atlantic-sequence",
+      "items": [
+        "Recognition of American independence",
+        "Declaration of Independence",
+        "Postwar imperial settlement"
+      ],
+      "answer": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "history-atlantic-reflect",
+      "type": "short-answer",
+      "prompt": "Separate an argument about legitimate authority from an account of what actually caused a revolution.",
+      "responseId": "history-atlantic:history-atlantic-reflect",
+      "instructions": "A few sentences are enough. Cite a passage when it helps.",
+      "context": "Link institutions and circumstances to ideas. The Declaration states a justification; it does not by itself prove every allegation or represent every inhabitant’s experience.",
+      "rubric": [
+        "names evidence",
+        "explains a consequence",
+        "marks an inference"
+      ]
+    }
+  ]
+}

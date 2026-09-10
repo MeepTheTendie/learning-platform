@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "id": "history-states",
+  "subject": "history",
+  "title": "States, parliaments & imperial rivalry",
+  "objective": "How governments find money and enforce decisions",
+  "lesson": {
+    "opening": "How did taxation, credit, military organization, and political bargaining change state power?",
+    "sections": [
+      {
+        "heading": "The institutional thread",
+        "body": "Monarchy and representative institutions\n\nStanding armies, taxation, and public credit\n\nEuropean wars and overseas competition"
+      },
+      {
+        "heading": "A model to test",
+        "body": "Explain state power through institutions and resources, not just a ruler’s personality. Trace the relationship between war, borrowing, taxes, and consent."
+      },
+      {
+        "heading": "Keep the question",
+        "body": "How did taxation, credit, military organization, and political bargaining change state power?"
+      }
+    ]
+  },
+  "sources": [
+    "apps/history/public/course.js#states"
+  ],
+  "activities": [
+    {
+      "id": "history-states-order",
+      "type": "choice",
+      "prompt": "Which happened first: “Execution of Charles I” or “End of the Seven Years’ War”?",
+      "responseId": "history-states:history-states-order",
+      "hint": "Compare the dates on the unit timeline.",
+      "choices": [
+        "End of the Seven Years’ War",
+        "Execution of Charles I"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-states-claim",
+      "type": "choice",
+      "prompt": "“Absolute monarchy meant that a king could always do anything he wished.” — is that an event claim or an interpretation?",
+      "responseId": "history-states:history-states-claim",
+      "hint": "An ideal claim of sovereignty is not evidence of unlimited practical capacity. Examine institutions and constraints.",
+      "choices": [
+        "An event claim",
+        "An inference or interpretation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-states-sequence",
+      "type": "sequence",
+      "prompt": "Put these events back in chronological order.",
+      "responseId": "history-states:history-states-sequence",
+      "items": [
+        "End of the Seven Years’ War",
+        "Foundation of St Petersburg",
+        "Revolution in England",
+        "Execution of Charles I"
+      ],
+      "answer": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "history-states-reflect",
+      "type": "short-answer",
+      "prompt": "Compare how two states raised resources and negotiated resistance.",
+      "responseId": "history-states:history-states-reflect",
+      "instructions": "A few sentences are enough. Cite a passage when it helps.",
+      "context": "Explain state power through institutions and resources, not just a ruler’s personality. Trace the relationship between war, borrowing, taxes, and consent.",
+      "rubric": [
+        "names evidence",
+        "explains a consequence",
+        "marks an inference"
+      ]
+    }
+  ]
+}

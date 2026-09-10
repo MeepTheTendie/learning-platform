@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "id": "history-republic",
+  "subject": "history",
+  "title": "Rome: city, republic, Mediterranean power",
+  "objective": "Expansion changes the institutions that direct it",
+  "lesson": {
+    "opening": "What happens when the institutions of a city govern a Mediterranean empire?",
+    "sections": [
+      {
+        "heading": "The institutional thread",
+        "body": "Citizenship, magistracies, and the Senate\n\nItalian alliances and Punic wars\n\nProvincial government and conflict within the republic"
+      },
+      {
+        "heading": "A model to test",
+        "body": "Track changes in scale: city institutions, Italian alliances, overseas provinces, and armies loyal to commanders. Avoid a single-cause story of republican collapse."
+      },
+      {
+        "heading": "Keep the question",
+        "body": "What happens when the institutions of a city govern a Mediterranean empire?"
+      }
+    ]
+  },
+  "sources": [
+    "apps/history/public/course.js#republic"
+  ],
+  "activities": [
+    {
+      "id": "history-republic-order",
+      "type": "choice",
+      "prompt": "Which happened first: “First Punic War begins” or “Augustan settlement”?",
+      "responseId": "history-republic:history-republic-order",
+      "hint": "Compare the dates on the unit timeline.",
+      "choices": [
+        "Augustan settlement",
+        "First Punic War begins"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-republic-claim",
+      "type": "choice",
+      "prompt": "“Rome destroyed Carthage in 146 BCE.” — is that an event claim or an interpretation?",
+      "responseId": "history-republic:history-republic-claim",
+      "hint": "This is a claim about an occurrence. Its causes and significance are separate questions.",
+      "choices": [
+        "An event claim",
+        "An inference or interpretation"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "history-republic-sequence",
+      "type": "sequence",
+      "prompt": "Put these events back in chronological order.",
+      "responseId": "history-republic:history-republic-sequence",
+      "items": [
+        "Augustan settlement",
+        "Assassination of Caesar",
+        "Destruction of Carthage",
+        "Second Punic War begins",
+        "First Punic War begins"
+      ],
+      "answer": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "history-republic-reflect",
+      "type": "short-answer",
+      "prompt": "Explain how Roman expansion affected military service, wealth, and political competition.",
+      "responseId": "history-republic:history-republic-reflect",
+      "instructions": "A few sentences are enough. Cite a passage when it helps.",
+      "context": "Track changes in scale: city institutions, Italian alliances, overseas provinces, and armies loyal to commanders. Avoid a single-cause story of republican collapse.",
+      "rubric": [
+        "names evidence",
+        "explains a consequence",
+        "marks an inference"
+      ]
+    }
+  ]
+}

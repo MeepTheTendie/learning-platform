@@ -143,3 +143,25 @@ Deployed this turn:
 Remaining, owner-gated:
 1. Continue content expansion (History and English) in the same recognition-first format.
 2. Paid AI overage remains disabled.
+
+## Full guided lesson sets and security pass — 2026-09-10
+
+Owner asked to finish the remaining expansion without further input, and to keep GitHub and Cloudflare secure.
+
+- `scripts/build-history-lessons.mjs` generated 16 History unit lessons (recognition-first: an order check, an evidence-vs-inference check, a chronology sequence, then an optional reflection grounded in the unit's discussion guide).
+- `scripts/build-english-lessons.mjs` generated 10 English quiz-topic lessons (one multiple choice plus a reflection grounded in the explanation). The full book keeps its existing section exercises.
+- The shared library now serves all three subjects at `#lessons`; the tutor grounds on the specific lesson file for every subject.
+- `tests/content.test.mjs` validates every generated lesson, and `tests/exemplars.cjs` exercises all three libraries (counts, recognition pass, reflection passage, cross-device sync).
+
+Security:
+- Repository is private; no secrets are tracked and `.gitignore` covers `.dev.vars*`, `.env*`, bundles and sqlite files.
+- Enabled Dependabot alerts and security updates. GitHub Free does not offer secret scanning or branch protection on private repos, so those remain unavailable.
+- Actions default token permission is read-only; the workflow itself requests only `contents: read`.
+- Cloudflare: production keeps the legacy pairing key (API refuses anonymous writes), previews stay behind Cloudflare Access, the AI binding exposes no key, and the tutor endpoint is authenticated, capped and token-limited.
+
+Naming: the preview Workers keep their `-preview` names deliberately. Renaming a Worker changes its `workers.dev` hostname, and the new hostname would not be covered by the existing Access application (which I cannot reconfigure with the current credentials), so a rename would drop the Access sign-in and make the previews unusable. The `-preview` suffix already marks them as non-production.
+
+Deployed this turn:
+- Previews and production were redeployed with all three guided lesson libraries; version IDs are recorded below once the deploy completes.
+
+Remaining: full English book conversion (~111 sections) remains an ongoing content effort; paid AI overage stays off.

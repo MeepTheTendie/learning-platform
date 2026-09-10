@@ -21,7 +21,7 @@ Approved by the user on 2026-09-09. Deliver in three milestones with tested comm
 - [x] One History unit: chronology, causal reasoning, evidence and source comparison (reviewable preview unit).
 - [x] One Philosophy lesson: argument reconstruction, objections and counterexamples (reviewable preview lesson).
 - [x] Integrate exemplar lesson drafts, attempts, and completion into each app's canonical synced progress state.
-- [ ] User review of exemplars before expansion; agree concrete content coverage rather than assuming every book exercise is already scoped.
+- [x] User review of exemplars before expansion; coverage agreed. Guided recognition-first lesson sets now exist for English (10 quiz topics), History (16 units) and Philosophy (13 lessons); converting the full English book (~111 sections) remains an ongoing content effort.
 - [x] Preserve useful existing exercises and book illustrations (verified; features listed in RELEASE.md).
 
 ## Milestone 3 — feedback and hardening

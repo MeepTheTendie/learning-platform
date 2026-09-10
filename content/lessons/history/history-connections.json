@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "id": "history-connections",
+  "subject": "history",
+  "title": "A more connected medieval world",
+  "objective": "Mongols, trade, cities & changing states",
+  "lesson": {
+    "opening": "How can greater connection transmit both opportunity and disruption?",
+    "sections": [
+      {
+        "heading": "The institutional thread",
+        "body": "Mongol conquests and Eurasian routes\n\nUrban trades and political bargaining\n\nChanging regional states"
+      },
+      {
+        "heading": "A model to test",
+        "body": "Do not make “connection” synonymous with improvement. Identify the institutions and routes through which goods, people, information, and disease moved."
+      },
+      {
+        "heading": "Keep the question",
+        "body": "How can greater connection transmit both opportunity and disruption?"
+      }
+    ]
+  },
+  "sources": [
+    "apps/history/public/course.js#connections"
+  ],
+  "activities": [
+    {
+      "id": "history-connections-order",
+      "type": "choice",
+      "prompt": "Which happened first: “Chinggis Khan’s rise” or “Ottoman conquest of Constantinople”?",
+      "responseId": "history-connections:history-connections-order",
+      "hint": "Compare the dates on the unit timeline.",
+      "choices": [
+        "Ottoman conquest of Constantinople",
+        "Chinggis Khan’s rise"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-connections-claim",
+      "type": "choice",
+      "prompt": "“Greater trade necessarily made every population more prosperous.” — is that an event claim or an interpretation?",
+      "responseId": "history-connections:history-connections-claim",
+      "hint": "This universal causal claim requires evidence about distribution, disruption, and particular places.",
+      "choices": [
+        "An event claim",
+        "An inference or interpretation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-connections-sequence",
+      "type": "sequence",
+      "prompt": "Put these events back in chronological order.",
+      "responseId": "history-connections:history-connections-sequence",
+      "items": [
+        "Ottoman conquest of Constantinople",
+        "Black Death reaches Mediterranean Europe",
+        "Chinggis Khan’s rise"
+      ],
+      "answer": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "history-connections-reflect",
+      "type": "short-answer",
+      "prompt": "Trace a possible chain of exchange from Central Asia to a Mediterranean port.",
+      "responseId": "history-connections:history-connections-reflect",
+      "instructions": "A few sentences are enough. Cite a passage when it helps.",
+      "context": "Do not make “connection” synonymous with improvement. Identify the institutions and routes through which goods, people, information, and disease moved.",
+      "rubric": [
+        "names evidence",
+        "explains a consequence",
+        "marks an inference"
+      ]
+    }
+  ]
+}

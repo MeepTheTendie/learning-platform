@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "id": "history-greekwars",
+  "subject": "history",
+  "title": "Persia, Athens & Alexander",
+  "objective": "Follow the chain from revolt to empire",
+  "lesson": {
+    "opening": "How did resistance to Persia lead into Athenian power and then conflicts among the Greeks?",
+    "sections": [
+      {
+        "heading": "The institutional thread",
+        "body": "Ionian revolt and Persian campaigns\n\nAlliance, tribute, and Athenian empire\n\nPeloponnesian War and Macedonian expansion"
+      },
+      {
+        "heading": "A model to test",
+        "body": "Connect Ionian revolt, mainland intervention, Persian campaigns, allied naval power, tribute, and the rivalry with Sparta. A victory does not explain by itself why the victors later fought one another."
+      },
+      {
+        "heading": "Keep the question",
+        "body": "How did resistance to Persia lead into Athenian power and then conflicts among the Greeks?"
+      }
+    ]
+  },
+  "sources": [
+    "apps/history/public/course.js#greekwars"
+  ],
+  "activities": [
+    {
+      "id": "history-greekwars-order",
+      "type": "choice",
+      "prompt": "Which happened first: “Ionian revolt begins” or “Death of Alexander”?",
+      "responseId": "history-greekwars:history-greekwars-order",
+      "hint": "Compare the dates on the unit timeline.",
+      "choices": [
+        "Death of Alexander",
+        "Ionian revolt begins"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-greekwars-claim",
+      "type": "choice",
+      "prompt": "“Fear of growing Athenian power explains the Peloponnesian War.” — is that an event claim or an interpretation?",
+      "responseId": "history-greekwars:history-greekwars-claim",
+      "hint": "This is an influential causal interpretation associated with Thucydides, not simply a date or an observed occurrence.",
+      "choices": [
+        "An event claim",
+        "An inference or interpretation"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "history-greekwars-sequence",
+      "type": "sequence",
+      "prompt": "Put these events back in chronological order.",
+      "responseId": "history-greekwars:history-greekwars-sequence",
+      "items": [
+        "Death of Alexander",
+        "Peloponnesian War begins",
+        "Salamis",
+        "Marathon",
+        "Ionian revolt begins"
+      ],
+      "answer": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "history-greekwars-reflect",
+      "type": "short-answer",
+      "prompt": "Explain the sequence from the Ionian revolt through the Persian invasions without reducing it to a list of battles.",
+      "responseId": "history-greekwars:history-greekwars-reflect",
+      "instructions": "A few sentences are enough. Cite a passage when it helps.",
+      "context": "Connect Ionian revolt, mainland intervention, Persian campaigns, allied naval power, tribute, and the rivalry with Sparta. A victory does not explain by itself why the victors later fought one another.",
+      "rubric": [
+        "names evidence",
+        "explains a consequence",
+        "marks an inference"
+      ]
+    }
+  ]
+}

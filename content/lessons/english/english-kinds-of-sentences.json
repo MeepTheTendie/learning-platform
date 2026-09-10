@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "id": "english-kinds-of-sentences",
+  "subject": "english",
+  "title": "Kinds Of Sentences",
+  "objective": "Recognise and use kinds of sentences correctly.",
+  "lesson": {
+    "opening": "An imperative sentence expresses a command or request. Its subject, “you,” is often understood.",
+    "sections": [
+      {
+        "heading": "Kinds Of Sentences",
+        "body": "An imperative sentence expresses a command or request. Its subject, “you,” is often understood."
+      }
+    ]
+  },
+  "sources": [
+    "apps/english/public/index.html"
+  ],
+  "activities": [
+    {
+      "id": "english-kinds-of-sentences-q",
+      "type": "choice",
+      "prompt": "“Close the window.” is what kind of sentence?",
+      "responseId": "english-kinds-of-sentences:english-kinds-of-sentences-q",
+      "choices": [
+        "Declarative",
+        "Interrogative",
+        "Imperative",
+        "Exclamatory"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "english-kinds-of-sentences-reflect",
+      "type": "short-answer",
+      "prompt": "In your own words, explain the rule behind “Kinds Of Sentences”, with one example.",
+      "responseId": "english-kinds-of-sentences:english-kinds-of-sentences-reflect",
+      "instructions": "A few sentences are enough.",
+      "context": "An imperative sentence expresses a command or request. Its subject, “you,” is often understood.",
+      "rubric": [
+        "states the rule",
+        "gives an example"
+      ]
+    }
+  ]
+}

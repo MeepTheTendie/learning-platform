@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "english-verbs",
+  "subject": "english",
+  "title": "Verbs",
+  "objective": "Recognise and use verbs correctly.",
+  "lesson": {
+    "opening": "“Laughed” tells what the children did.",
+    "sections": [
+      {
+        "heading": "Verbs",
+        "body": "“Laughed” tells what the children did."
+      }
+    ]
+  },
+  "sources": [
+    "apps/english/public/index.html"
+  ],
+  "activities": [
+    {
+      "id": "english-verbs-q",
+      "type": "choice",
+      "prompt": "Which word is the verb in “The children laughed”?",
+      "responseId": "english-verbs:english-verbs-q",
+      "choices": [
+        "The",
+        "children",
+        "laughed"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "english-verbs-reflect",
+      "type": "short-answer",
+      "prompt": "In your own words, explain the rule behind “Verbs”, with one example.",
+      "responseId": "english-verbs:english-verbs-reflect",
+      "instructions": "A few sentences are enough.",
+      "context": "“Laughed” tells what the children did.",
+      "rubric": [
+        "states the rule",
+        "gives an example"
+      ]
+    }
+  ]
+}
