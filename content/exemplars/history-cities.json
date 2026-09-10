@@ -4,6 +4,27 @@
   "subject": "history",
   "title": "Rivers, cities, and the first states",
   "objective": "Connect settlement, surplus, specialized work, records, and authority while separating evidence from inference.",
+  "lesson": {
+    "opening": "Early cities grew through connected changes rather than one automatic chain. Environmental conditions shaped choices, while institutions and people organized work in different ways.",
+    "sections": [
+      {
+        "heading": "Start with the setting",
+        "body": "Rivers could support farming and transport, but they also brought floods, drought, and disputes over water. A historical explanation should name the environmental feature before claiming what it caused."
+      },
+      {
+        "heading": "Trace a possible sequence",
+        "body": "A surplus of food could support coordinated labor and specialized work. Record keeping might then help institutions track goods and obligations. This is a model to test, not a universal rule."
+      },
+      {
+        "heading": "Separate evidence from inference",
+        "body": "A storehouse, tablet, or settlement layer is evidence. The claim that it proves a particular political arrangement is an inference. Good history marks that boundary and asks what other evidence would support it."
+      },
+      {
+        "heading": "Compare sources carefully",
+        "body": "A building record and a later narrative may describe the same society for different purposes. Compare what each source preserves, what it leaves out, and who had reason to create it."
+      }
+    ]
+  },
   "sources": ["apps/history/public/course.js#cities", "apps/history/public/sources/myers.html"],
   "activities": [
     {
@@ -27,6 +48,13 @@
       "prompt": "Which link in your account is an inference rather than a directly observed fact, and what evidence could test it?",
       "instructions": "Name the inference and propose one kind of surviving evidence.",
       "rubric": ["labels an inference", "proposes testable evidence"]
+    },
+    {
+      "id": "source-comparison",
+      "type": "short-answer",
+      "prompt": "Compare a material record, such as a tablet or building, with a later written account of the same society.",
+      "instructions": "Explain one strength and one limitation of each source before drawing a conclusion.",
+      "rubric": ["compares both sources", "identifies a limitation"]
     }
   ]
 }

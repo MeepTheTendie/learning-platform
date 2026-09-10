@@ -12,14 +12,14 @@ const { spawn } = require('node:child_process');
   await ready;
   const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_BIN || (require('fs').existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined), headless: true, args: ['--no-sandbox'] });
   try {
-    for (const [app, port, title] of [['english', 19002, 'The sentence'], ['history', 19001, 'Rivers, cities'], ['philosophy', 19003, 'What makes a reason']]) {
+    for (const [app, port, title, activityCount] of [['english', 19002, 'The sentence', 3], ['history', 19001, 'Rivers, cities', 4], ['philosophy', 19003, 'What makes a reason', 3]]) {
       const page = await browser.newPage();
       const errors = [];
       page.on('pageerror', error => errors.push(error.message));
       await page.goto(`http://127.0.0.1:${port}/#exemplar`);
       await page.waitForSelector('[data-response-id]', { timeout: 5000 });
       const heading = (await page.locator('h1').first().textContent()).toLowerCase();
-      if (!heading.includes(title.toLowerCase()) || await page.locator('[data-response-id]').count() !== 3 || errors.length) throw Error(`${app} exemplar failed: ${heading}; ${errors.join('; ')}`);
+      if (!heading.includes(title.toLowerCase()) || await page.locator('[data-response-id]').count() !== activityCount || errors.length) throw Error(`${app} exemplar failed: ${heading}; ${errors.join('; ')}`);
       const first = page.locator('[data-response-id]').first();
       if (await first.locator('input[type=radio]').count()) await first.locator('input[type=radio]').first().check();
       else await first.locator('textarea').fill('This response uses concrete evidence and explains the comparison clearly.');
