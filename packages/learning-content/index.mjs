@@ -34,6 +34,7 @@ export function validateLesson(raw) {
       result.answer = [...activity.answer];
     } else {
       result.instructions = text(activity.instructions || 'Write your response in your own words.', `${activityId}.instructions`, 1000);
+      if (activity.context !== undefined) result.context = text(activity.context, `${activityId}.context`, 4000);
       if (type === 'edit') result.source = text(activity.source, `${activityId}.source`, 5000);
       if (activity.rubric !== undefined) {
         if (!Array.isArray(activity.rubric) || activity.rubric.length > 8) throw new Error(`${activityId}.rubric is invalid`);

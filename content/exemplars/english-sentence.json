@@ -68,6 +68,7 @@
       "type": "short-answer",
       "prompt": "In your own words, explain how you can tell a complete sentence from a fragment.",
       "instructions": "Use the words subject and predicate, and give one short example.",
+      "context": "A complete sentence needs a subject (who or what it is about) and a predicate (what the subject does, is, or experiences). Example: “Patient effort removes mountains.” — subject: “Patient effort”; predicate: “removes mountains.” A fragment such as “After the long climb.” is missing one of these.",
       "rubric": ["mentions a subject", "mentions a predicate", "gives an example"]
     }
   ]

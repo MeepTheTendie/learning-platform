@@ -72,6 +72,7 @@
       "type": "short-answer",
       "prompt": "In your own words, explain the difference between evidence and inference, using one example from this lesson.",
       "instructions": "Name the evidence, then state the inference it might support and what could test it.",
+      "context": "A storehouse floor, a tablet, or a settlement layer is evidence you can observe. The claim that it proves a particular political arrangement is an inference. Ask what other surviving evidence would support or challenge that inference.",
       "rubric": ["names evidence", "states an inference", "suggests a test"]
     }
   ]

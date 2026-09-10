@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "id": "philosophy-s2",
+  "subject": "philosophy",
+  "title": "Socratic questioning",
+  "objective": "Find what a sequence of questions can—and cannot—establish.",
+  "lesson": {
+    "opening": "INTERPRETATION: Socratic examination, often called elenchus, tests a respondent’s commitments through questions. Scholars dispute whether it primarily refutes a thesis, exposes inconsistency, or also establishes positive ethical knowledge.",
+    "sections": [
+      {
+        "heading": "Examination rather than humiliation",
+        "body": "Asking many questions is not yet an examination of an argument. A productive sequence identifies a claim, clarifies its meaning, and checks it against other commitments. “What do you mean by courage?” seeks an account; “Can retreat ever be courageous?” tests that account against a case.\n\nSuppose someone says courage means never retreating, then agrees that a tactical retreat can protect others at great personal risk and be courageous. The commitments conflict. This does not by itself tell us which to abandon. It supplies a reason to revise at least one or explain a relevant distinction.\n\nAn examination is strongest when the respondent understands the commitments and the proposed case. Ambiguous wording, pressure, or a false dilemma can manufacture apparent contradiction. A fair questioner gives the other person space to clarify rather than treating every hesitation as defeat.\n\nThe passage records a portrait of persistent examination about virtue. The method illustrated in our exercise is an editorial reconstruction, not a transcript of a single historical conversation."
+      },
+      {
+        "heading": "Reconstructing the argument",
+        "body": "Claiming to care about virtue is not the same as showing understanding or living accordingly. Socratic questioning presses the relation between a person’s professed commitment and their other judgments. What the method ultimately proves remains an interpretive question."
+      },
+      {
+        "heading": "A serious objection",
+        "body": "A critic objects that inconsistency among commitments does not identify the false one. A careful defender should concede that limited result and explain how further inquiry can assess the alternatives."
+      }
+    ]
+  },
+  "sources": [
+    "apps/philosophy/public/content/curriculum.json#s2"
+  ],
+  "activities": [
+    {
+      "id": "s2-q0",
+      "type": "choice",
+      "prompt": "Why does the portrayed Socrates continue asking?",
+      "responseId": "philosophy-s2:s2-q0",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "A declaration of caring does not settle whether the person’s other commitments support it.",
+        "Every answer is automatically false.",
+        "Virtue has been defined conclusively."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "s2-q1",
+      "type": "sequence",
+      "prompt": "Arrange a fair examination.",
+      "responseId": "philosophy-s2:s2-q1",
+      "items": [
+        "Ask what the person means by courage.",
+        "Confirm that their account rules out every retreat.",
+        "Test a retreat undertaken to protect others.",
+        "Ask whether the definition or another commitment needs revision."
+      ],
+      "answer": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "s2-q2",
+      "type": "choice",
+      "prompt": "If a person’s accepted claims are inconsistent, what has been established?",
+      "responseId": "philosophy-s2:s2-q2",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "Every belief they hold is false.",
+        "At least one commitment must be revised or clarified.",
+        "The opposite of the opening claim must be true."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "s2-q3",
+      "type": "choice",
+      "prompt": "A colleague changes “never” to “usually” after a difficult case. What should you do?",
+      "responseId": "philosophy-s2:s2-q3",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "Examine whether the qualification is principled and resolves the difficulty.",
+        "Declare all revisions dishonest.",
+        "Ignore the revised claim."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "s2-q4",
+      "type": "choice",
+      "prompt": "Which reply addresses the critic’s limitation objection?",
+      "responseId": "philosophy-s2:s2-q4",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "Admit that exposing inconsistency is a limited result, then assess the competing commitments.",
+        "Say the critic is afraid of questions.",
+        "Claim that every contradiction proves the examiner right."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "s2-q6",
+      "type": "choice",
+      "prompt": "Which most undermines a fair examination?",
+      "responseId": "philosophy-s2:s2-q6",
+      "hint": "Mastery check",
+      "choices": [
+        "Clarifying a term.",
+        "Letting the respondent revise a claim.",
+        "Switching the meaning of a key word without acknowledging it."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "s2-q7",
+      "type": "choice",
+      "prompt": "What is elenchus here?",
+      "responseId": "philosophy-s2:s2-q7",
+      "hint": "Mastery check",
+      "choices": [
+        "A family of question-driven examinations of commitments.",
+        "A guarantee that the examiner knows everything.",
+        "A personality type."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "s2-q5",
+      "type": "short-answer",
+      "prompt": "Create three fair questions testing “loyalty means always agreeing with a friend.” Do not simply insult or trap the respondent.",
+      "responseId": "philosophy-s2:s2-q5",
+      "instructions": "Explain in your own words",
+      "context": "And if the person with whom I am arguing, says: Yes, but I do care; then I do not leave him or let him go at once; but I proceed to interrogate and examine and cross-examine him, and if I think that he has no virtue in him, but only says that he has, I reproach him with undervaluing the greater, and overvaluing the less.",
+      "rubric": [
+        "I ask for or clarify the definition.",
+        "I introduce a relevant case of principled disagreement.",
+        "I allow revision and do not pretend inconsistency alone proves my full theory."
+      ]
+    }
+  ]
+}

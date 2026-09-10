@@ -72,6 +72,7 @@
       "type": "short-answer",
       "prompt": "In your own words, explain what makes a reason support a conclusion, using one example.",
       "instructions": "State the reason and the conclusion, then say what has to be true for the reason to work.",
+      "context": "A reason supports a conclusion when the conclusion follows from it. The link is often a hidden assumption: something that must be true for the reason to work. Example: “The pavement is wet, so it rained” assumes the wetness was caused by rain rather than a sprinkler.",
       "rubric": ["states a reason", "states a conclusion", "explains the link"]
     }
   ]

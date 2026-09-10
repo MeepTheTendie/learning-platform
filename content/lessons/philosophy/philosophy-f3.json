@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "id": "philosophy-f3",
+  "subject": "philosophy",
+  "title": "Premises and conclusions",
+  "objective": "Make an argument’s structure visible.",
+  "lesson": {
+    "opening": "A premise and a conclusion are roles within an argument, not permanent kinds of sentence. A claim can be the conclusion of one inference and a premise in the next.",
+    "sections": [
+      {
+        "heading": "The architecture of support",
+        "body": "Consider: Every item in this box is catalogued. This coin is in the box. So this coin is catalogued. The first two sentences are premises; the third is the conclusion. They work together. Knowing only that the coin is in a box tells us nothing about whether it has been catalogued.\n\nA longer argument can contain an intermediate conclusion. If catalogued items can be located in a database, the conclusion that the coin is catalogued can become a premise for the further conclusion that it can be located there. Argument maps make these dependencies explicit. An arrow means “is offered as support for,” not “occurred before.”\n\nAn unstated assumption is a claim the inference needs but the text does not explicitly provide. Recovering it can make an argument intelligible, but adding a premise changes what must be defended. Do not smuggle in whichever claim would make your preferred conclusion follow. Explain why the assumption fits the passage and identify it as your reconstruction.\n\nDistinguish a challenge to a premise from a challenge to the inference. “Not every item in the box is catalogued” targets a premise. “Even if your premises were true, your conclusion would not follow” targets the support relation. Both may be serious, but they require different answers."
+      },
+      {
+        "heading": "Reconstructing the argument",
+        "body": "The coin’s catalogued status is an intermediate conclusion. It depends on the first two claims and, with the database rule, supports the final conclusion. No claim about the coin’s age is needed."
+      },
+      {
+        "heading": "A serious objection",
+        "body": "A critic might question whether every catalogued item has actually been entered into the database. That is a direct premise objection, even if the mapping is structurally impeccable."
+      }
+    ]
+  },
+  "sources": [
+    "apps/philosophy/public/content/curriculum.json#f3"
+  ],
+  "activities": [
+    {
+      "id": "f3-q0",
+      "type": "choice",
+      "prompt": "Which is the intermediate conclusion?",
+      "responseId": "philosophy-f3:f3-q0",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "The coin has been catalogued.",
+        "Every catalogued item has a database entry.",
+        "The coin is very old."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "f3-q2",
+      "type": "sequence",
+      "prompt": "Build the chain from policy to recommendation.",
+      "responseId": "philosophy-f3:f3-q2",
+      "items": [
+        "Items that are irreplaceable should receive protective storage.",
+        "This manuscript is irreplaceable.",
+        "Therefore this manuscript should receive protective storage."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f3-q3",
+      "type": "choice",
+      "prompt": "“This is a loaned object, so we must return it.” Which assumption completes the argument?",
+      "responseId": "philosophy-f3:f3-q3",
+      "hint": "Supply the missing step",
+      "choices": [
+        "Loaned objects must be returned under the relevant agreement.",
+        "All valuable objects are loaned.",
+        "We like museums."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "f3-q4",
+      "type": "choice",
+      "prompt": "Which targets the database premise rather than the argument’s structure?",
+      "responseId": "philosophy-f3:f3-q4",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "The font is unattractive.",
+        "Some catalogued objects have not yet received database entries.",
+        "I dislike conclusions."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "f3-q6",
+      "type": "choice",
+      "prompt": "Can one statement be both a premise and a conclusion?",
+      "responseId": "philosophy-f3:f3-q6",
+      "hint": "Mastery check",
+      "choices": [
+        "No, the roles never change.",
+        "Yes, in different inferential steps.",
+        "Only if it is false."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "f3-q7",
+      "type": "choice",
+      "prompt": "What does an arrow in a support map mean?",
+      "responseId": "philosophy-f3:f3-q7",
+      "hint": "Mastery check",
+      "choices": [
+        "The first event happened earlier.",
+        "The claim is offered as a reason for the target claim.",
+        "The target claim is certainly true."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "f3-q5",
+      "type": "short-answer",
+      "prompt": "Reconstruct a short argument you encountered today. Identify an explicit premise, the conclusion, and one assumption you had to add.",
+      "responseId": "philosophy-f3:f3-q5",
+      "instructions": "Explain in your own words",
+      "context": "Every item in the blue box has been catalogued. The coin is an item in the blue box. So the coin has been catalogued. Every catalogued item has a database entry. Consequently the coin has a database entry.",
+      "rubric": [
+        "I distinguish the speaker’s words from my reconstruction.",
+        "I show how the premise supports the conclusion.",
+        "I name an added assumption and explain why it is needed."
+      ]
+    }
+  ]
+}

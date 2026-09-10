@@ -18,3 +18,16 @@ test('shared lesson validation rejects duplicate response IDs', () => {
   lesson.activities[1].id = lesson.activities[0].id;
   assert.throws(() => validateLesson(lesson), /repeats activity id/);
 });
+
+test('all generated Philosophy lessons satisfy the shared lesson contract', () => {
+  const index = JSON.parse(fs.readFileSync('content/lessons/philosophy/index.json', 'utf8'));
+  assert.equal(index.subject, 'philosophy');
+  assert.equal(index.lessons.length, 13);
+  for (const meta of index.lessons) {
+    const lesson = validateLesson(JSON.parse(fs.readFileSync(`content/lessons/philosophy/${meta.id}.json`, 'utf8')));
+    assert.equal(lesson.subject, 'philosophy');
+    assert.equal(lesson.id, meta.id);
+    assert.ok(lesson.activities.some(activity => activity.type === 'short-answer'), `${meta.id} has a reflection`);
+    assert.ok(lesson.activities.filter(activity => activity.type === 'choice').length >= 3, `${meta.id} is mostly multiple choice`);
+  }
+});

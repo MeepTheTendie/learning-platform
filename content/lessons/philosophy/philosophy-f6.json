@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "id": "philosophy-f6",
+  "subject": "philosophy",
+  "title": "Counterexamples",
+  "objective": "Use a difficult case to test a general claim.",
+  "lesson": {
+    "opening": "Testing a claim with a counterexample is different from collecting opinions against it. You need a case that fits the claim’s scope and fails the property it attributes to every case.",
+    "sections": [
+      {
+        "heading": "Scope, necessity, and sufficiency",
+        "body": "“Every helpful act is morally right” is a universal claim. A helpful act that assists a serious injustice would be a candidate counterexample: it counts as helpful to someone but is not morally right. The counterexample challenges the universal connection. It does not establish that no helpful acts are right.\n\nA sufficient condition guarantees an outcome: if being a square is sufficient for being a rectangle, every square is a rectangle. A necessary condition is required: being a rectangle is necessary for being a square. Rectangular shape alone is not sufficient for square shape. These examples use ordinary Euclidean definitions.\n\nTo refute “A is sufficient for B,” find A without B. To refute “A is necessary for B,” find B without A. Direction matters. A rectangle that is not square refutes the claim that being rectangular is sufficient for being square; it does not refute the claim that it is necessary.\n\nThought experiments propose possible cases when real examples are hard to isolate. A good one makes the relevant features explicit. If its possibility is disputed, that dispute matters. Revising a definition after a counterexample can improve a theory, but adding arbitrary exceptions solely to protect a conclusion can make it uninformative."
+      },
+      {
+        "heading": "Reconstructing the argument",
+        "body": "The claim is exceptionless. The case preserves borrowing but introduces preventable harm. If withholding is justified under these conditions, returning a borrowed item is not sufficient for acting justly in every case. The example is editorial; a related weapons-return case appears in Plato’s Republic 331c."
+      },
+      {
+        "heading": "A serious objection",
+        "body": "A critic may say that delaying return violates ownership. To answer, the defender must explain why preventing grave harm can override immediate return in this case. Calling the critic heartless would avoid the argument."
+      }
+    ]
+  },
+  "sources": [
+    "apps/philosophy/public/content/curriculum.json#f6"
+  ],
+  "activities": [
+    {
+      "id": "f6-q0",
+      "type": "choice",
+      "prompt": "What creates pressure on the universal claim?",
+      "responseId": "philosophy-f6:f6-q0",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "A foreseeable serious harm that could be safely prevented.",
+        "The tool is borrowed rather than owned.",
+        "The neighbor has a name."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "f6-q2",
+      "type": "choice",
+      "prompt": "What refutes “All A are B”?",
+      "responseId": "philosophy-f6:f6-q2",
+      "hint": "Find the counterexample",
+      "choices": [
+        "A B that is not A.",
+        "An A that is not B.",
+        "Many cases that are both."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "f6-q3",
+      "type": "choice",
+      "prompt": "A rule says passing an exam is necessary for certification. What would refute it?",
+      "responseId": "philosophy-f6:f6-q3",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "Someone passed but was not certified.",
+        "Someone was certified without passing.",
+        "Someone failed and was not certified."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "f6-q4",
+      "type": "choice",
+      "prompt": "Which response directly addresses the ownership objection?",
+      "responseId": "philosophy-f6:f6-q4",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "You are a bad person.",
+        "Ownership never matters.",
+        "Explain why this imminent harm can justify temporarily delaying return."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "f6-q6",
+      "type": "choice",
+      "prompt": "One counterexample to “All helpful acts are right” establishes…",
+      "responseId": "philosophy-f6:f6-q6",
+      "hint": "Mastery check",
+      "choices": [
+        "No helpful acts are right.",
+        "The universal claim is false, if the case is genuine.",
+        "Morality is impossible."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "f6-q7",
+      "type": "choice",
+      "prompt": "Being a rectangle is necessary but not sufficient for being a square. Which case is possible?",
+      "responseId": "philosophy-f6:f6-q7",
+      "hint": "Mastery check",
+      "choices": [
+        "A square that is not a rectangle.",
+        "A rectangle that is not a square."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "f6-q5",
+      "type": "short-answer",
+      "prompt": "Propose a universal claim, then a counterexample. Revise the claim without simply naming your example as an exception.",
+      "responseId": "philosophy-f6:f6-q5",
+      "instructions": "Explain in your own words",
+      "context": "Claim: Returning something you borrowed is always just.\nCase: You borrowed a neighbor’s tool. The neighbor now intends to use it immediately to seriously harm an innocent person. You can safely delay returning it.\nQuestion: Does the original claim still cover this case?",
+      "rubric": [
+        "My case satisfies the subject of the original claim.",
+        "I explain which attributed property it lacks.",
+        "My revision states a principled limitation."
+      ]
+    }
+  ]
+}

@@ -12,7 +12,10 @@ const readLocal = name => { try { return JSON.parse(localStorage.getItem(name)) 
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
 const main = () => document.querySelector('main, #main');
 const legacyKey = () => document.cookie.split('; ').find(value => value.startsWith('learning_sync_key='))?.slice(18) || localStorage.getItem('learning-cloud-key-v1') || '';
-let lesson, progress = {}, tutor = {}, rendered = false, sending = false, tutorDraft = '';
+const isRecognition = activity => activity.type === 'choice' || activity.type === 'sequence';
+let lesson, exemplar, catalog, progress = {}, tutor = {}, rendered = false, sending = false, tutorDraft = '';
+
+const normalize = raw => ({ ...raw, activities: raw.activities.map(activity => ({ ...activity, responseId: `${raw.id}:${activity.id}` })) });
 
 // Response IDs are `${lessonId}:${activityId}`; the legacy draft keys used that
 // flat form, while canonical state nests activities under their lesson.
@@ -76,34 +79,57 @@ function responseFor(activity, node) {
   if (activity.type === 'sequence') return (node.querySelector('[data-sequence]')?.value || '').split(',').map(value => Number(value.trim()) - 1).filter(Number.isInteger);
   return node.querySelector('textarea')?.value || '';
 }
+function activityHTML(activity, record) {
+  const status = record.passed[activity.id];
+  const attempts = record.attempts[activity.id] || 0;
+  return `<article class="exemplar-activity" data-response-id="${escapeHTML(activity.responseId)}">${renderActivity(activity, record.responses[activity.id] ?? '')}${activity.hint ? `<details><summary>Hint</summary><p>${escapeHTML(activity.hint)}</p></details>` : ''}${activity.rubric?.length ? `<details><summary>Review criteria</summary><ul>${activity.rubric.map(item => `<li>${escapeHTML(item)}</li>`).join('')}</ul></details>` : ''}<button data-check type="button">${status ? 'Review again' : 'Check response'}</button><output aria-live="polite">${status ? `Passed after ${attempts} attempt${attempts === 1 ? '' : 's'}.` : ''}</output></article>`;
+}
+function bindActivity(node, activity, record, target) {
+  const save = () => { setExemplarResponse(progress, lesson.id, activity.id, responseFor(activity, node)); persist(); };
+  node.querySelectorAll('input,textarea').forEach(input => input.addEventListener('input', save));
+  node.querySelector('[data-check]').onclick = () => {
+    save();
+    const prior = record.passed[activity.id], priorAttempts = record.attempts[activity.id] || 0;
+    const current = recordExemplarAttempt(progress, lesson.id, activity.id, gradeActivity(activity, record.responses[activity.id]));
+    const grants = [];
+    if (current.passed[activity.id]) {
+      if (activity.type === 'short-answer') { const xp = awardPoints(record, 'reflect:' + activity.id, 20); if (xp) grants.push(['reflect:' + activity.id, xp]); }
+      if (!prior && priorAttempts > 0) { const xp = awardPoints(record, 'review:' + activity.id, 5); if (xp) grants.push(['review:' + activity.id, xp]); }
+      const recognition = lesson.activities.filter(isRecognition);
+      if (recognition.length && recognition.every(item => record.passed[item.id])) { const xp = awardPoints(record, 'complete', 30); if (xp) grants.push(['complete', xp]); }
+    }
+    persist();
+    for (const [key, xp] of grants) window.LearningSync?.award?.(key, xp);
+    const points = target.querySelector('[data-practice-points]');
+    if (points) points.textContent = `${record.points || 0} practice points`;
+    const attempts = current.attempts[activity.id];
+    node.querySelector('output').textContent = current.passed[activity.id] ? `Passed after ${attempts} attempt${attempts === 1 ? '' : 's'}.${grants.length ? ' +' + grants.reduce((sum, [, xp]) => sum + xp, 0) + ' practice points.' : ''}` : 'Keep working. Revise your response and try again.';
+    node.querySelector('[data-check]').textContent = current.passed[activity.id] ? 'Review again' : 'Check response';
+  };
+}
+function renderLibrary() {
+  const target = main(); if (!target) return;
+  const groups = [];
+  for (const item of catalog.lessons) (groups[item.world] ??= []).push(item);
+  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">PHILOSOPHY · GUIDED LESSONS</div><h1>Guided lessons</h1><p>Practise the reasoning from each lesson with quick checks and a tutor. Your other study tools stay exactly where they are.</p></div><a class="button" href="#">Return to app</a></div>${groups.map(items => `<section class="card"><div class="eyebrow">${escapeHTML(items[0].worldTitle || '')}</div>${items.map(item => { const record = exemplarRecord(progress, item.id); const checked = Object.values(record.passed || {}).filter(Boolean).length; return `<a class="lesson-row" href="#lessons/${encodeURIComponent(item.id)}" style="display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid rgba(128,128,128,.35)"><span>${escapeHTML(item.title)}${item.boss ? ' · challenge' : ''}</span><small class="muted">${record.points || 0} pts · ${checked} checked</small></a>`; }).join('')}</section>`).join('')}`;
+  rendered = true;
+}
 function render() {
-  if (!lesson || location.hash !== '#exemplar') return;
+  if (!lesson) return;
+  const hash = location.hash || '';
+  if (hash !== '#exemplar' && !hash.startsWith('#lessons/')) return;
   const target = main(); if (!target) return;
   const record = exemplarRecord(progress, lesson.id);
-  const passed = lesson.activities.filter(activity => record.passed[activity.id]).length;
-  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">MILESTONE 2 LESSON</div><h1>${escapeHTML(lesson.title)}</h1><p>${escapeHTML(lesson.objective)}</p></div><a class="button" href="#">Return to app</a></div>${lessonCopy()}<section class="card exemplar-review"><p class="muted">${subjectLabel} practice · ${passed}/${lesson.activities.length} responses checked · <strong data-practice-points>${record.points || 0} practice points</strong>. Drafts and revision attempts save with your progress and sync between devices.</p>${lesson.activities.map(activity => { const status = record.passed[activity.id]; const attempts = record.attempts[activity.id] || 0; return `<article class="exemplar-activity" data-response-id="${escapeHTML(activity.responseId)}">${renderActivity(activity, record.responses[activity.id] ?? '')}${activity.hint ? `<details><summary>Hint</summary><p>${escapeHTML(activity.hint)}</p></details>` : ''}${activity.rubric?.length ? `<details><summary>Review criteria</summary><ul>${activity.rubric.map(item => `<li>${escapeHTML(item)}</li>`).join('')}</ul></details>` : ''}<button data-check type="button">${status ? 'Review again' : 'Check response'}</button><output aria-live="polite">${status ? `Passed after ${attempts} attempt${attempts === 1 ? '' : 's'}.` : ''}</output></article>`; }).join('')}</section>${tutorHTML()}`;
+  const recognition = lesson.activities.filter(isRecognition);
+  const reflections = lesson.activities.filter(activity => !isRecognition(activity));
+  const passed = recognition.filter(activity => record.passed[activity.id]).length;
+  const back = catalog ? '<a class="button" href="#lessons">← All lessons</a>' : '<a class="button" href="#">Return to app</a>';
+  const recognitionHTML = recognition.length ? `<section class="card exemplar-review"><div class="eyebrow">QUICK CHECKS</div><p class="muted">Recognition first · ${passed}/${recognition.length} passed · <strong data-practice-points>${record.points || 0} practice points</strong>. The lesson stays above; check as often as you like.</p>${recognition.map(activity => activityHTML(activity, record)).join('')}</section>` : '';
+  const reflectionHTML = reflections.length ? `<section class="card exemplar-review"><div class="eyebrow">OPTIONAL · IN YOUR OWN WORDS</div><p class="muted">Not required and not timed. If you draw a blank, open <em>Show the passage</em> or re-read the lesson above — that is the point, not a penalty.</p>${reflections.map(activity => activityHTML(activity, record)).join('')}</section>` : '';
+  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">${catalog ? 'GUIDED LESSON' : 'MILESTONE 2 LESSON'}</div><h1>${escapeHTML(lesson.title)}</h1><p>${escapeHTML(lesson.objective)}</p></div>${back}</div>${lessonCopy()}${recognitionHTML}${reflectionHTML}${tutorHTML()}`;
   target.querySelectorAll('[data-response-id]').forEach(node => {
     const activity = lesson.activities.find(item => item.responseId === node.dataset.responseId);
-    const save = () => { setExemplarResponse(progress, lesson.id, activity.id, responseFor(activity, node)); persist(); };
-    node.querySelectorAll('input,textarea').forEach(input => input.addEventListener('input', save));
-    node.querySelector('[data-check]').onclick = () => {
-      save();
-      const prior = record.passed[activity.id], priorAttempts = record.attempts[activity.id] || 0;
-      const current = recordExemplarAttempt(progress, lesson.id, activity.id, gradeActivity(activity, record.responses[activity.id]));
-      const grants = [];
-      if (current.passed[activity.id]) {
-        if (activity.type === 'short-answer') { const xp = awardPoints(record, 'reflect:' + activity.id, 20); if (xp) grants.push(['reflect:' + activity.id, xp]); }
-        if (!prior && priorAttempts > 0) { const xp = awardPoints(record, 'review:' + activity.id, 5); if (xp) grants.push(['review:' + activity.id, xp]); }
-        if (lesson.activities.every(item => record.passed[item.id])) { const xp = awardPoints(record, 'complete', 30); if (xp) grants.push(['complete', xp]); }
-      }
-      persist();
-      for (const [key, xp] of grants) window.LearningSync?.award?.(key, xp);
-      const points = target.querySelector('[data-practice-points]');
-      if (points) points.textContent = `${record.points || 0} practice points`;
-      const attempts = current.attempts[activity.id];
-      node.querySelector('output').textContent = current.passed[activity.id] ? `Passed after ${attempts} attempt${attempts === 1 ? '' : 's'}.${grants.length ? ' +' + grants.reduce((sum, [, xp]) => sum + xp, 0) + ' practice points.' : ''}` : 'Keep working. Revise your response and try again.';
-      node.querySelector('[data-check]').textContent = current.passed[activity.id] ? 'Review again' : 'Check response';
-    };
+    bindActivity(node, activity, record, target);
   });
   const form = target.querySelector('[data-tutor-form]');
   if (form) form.onsubmit = event => { event.preventDefault(); sendTutor(); };
@@ -148,12 +174,30 @@ async function sendTutor() {
     document.querySelector('[data-tutor-status]').textContent = 'Tutor unavailable right now. Your question is saved — try again shortly.';
   } finally { sending = false; }
 }
+async function loadLesson(id) {
+  const response = await fetch(`content/lessons/${subject}/${encodeURIComponent(id)}.json`);
+  if (!response.ok) return null;
+  return normalize(await response.json());
+}
+function handleHash() {
+  const hash = location.hash || '';
+  if (catalog && hash.startsWith('#lessons')) {
+    if (hash === '#lessons') { lesson = undefined; renderLibrary(); return; }
+    const id = decodeURIComponent(hash.slice('#lessons/'.length));
+    loadLesson(id).then(next => { if (next) { lesson = next; render(); } });
+    return;
+  }
+  if (hash === '#exemplar') { lesson = exemplar; render(); return; }
+  if (rendered) { rendered = false; window.LearningSync?.refresh?.(); }
+}
 async function start() {
   await window.LearningSync?.whenReady?.();
-  const response = await fetch(`content/exemplars/${subject}.json`);
-  if (!response.ok) return;
-  const raw = await response.json();
-  lesson = { ...raw, activities: raw.activities.map(activity => ({ ...activity, responseId: `${raw.id}:${activity.id}` })) };
+  const [catalogResponse, exemplarResponse] = await Promise.all([
+    fetch(`content/lessons/${subject}/index.json`).catch(() => null),
+    fetch(`content/exemplars/${subject}.json`),
+  ]);
+  catalog = catalogResponse?.ok ? await catalogResponse.json() : null;
+  exemplar = exemplarResponse.ok ? normalize(await exemplarResponse.json()) : null;
   const state = liveState();
   progress = sanitizeExemplarProgress(state ? state.exemplars : fromLegacy());
   tutor = sanitizeTutor(state ? state.tutor : readLocal(legacyTutorKey));
@@ -172,20 +216,23 @@ async function start() {
     localStorage.removeItem(legacyReviewKey);
   }
   const host = document.querySelector('.top-tools,.header-tools,.tools,header');
-  if (host && !host.querySelector('[data-exemplar-link]')) { const link = document.createElement('a'); link.href = '#exemplar'; link.dataset.exemplarLink = ''; link.className = 'button'; link.textContent = lesson.lesson ? 'Start lesson' : 'Review exemplar'; host.append(link); }
-  addEventListener('hashchange', () => {
-    if (location.hash === '#exemplar') setTimeout(render, 50);
-    else if (rendered) { rendered = false; window.LearningSync?.refresh?.(); }
-  });
+  if (host && !host.querySelector('[data-exemplar-link]')) {
+    const link = document.createElement('a'); link.href = catalog ? '#lessons' : '#exemplar'; link.dataset.exemplarLink = ''; link.className = 'button';
+    link.textContent = catalog ? 'Guided lessons' : (exemplar?.lesson ? 'Start lesson' : 'Review exemplar');
+    host.append(link);
+  }
+  addEventListener('hashchange', handleHash);
   addEventListener('learning-sync:applied', () => {
+    const hash = location.hash || '';
+    if (hash !== '#exemplar' && !hash.startsWith('#lessons')) return;
     const live = liveState();
     if (live) {
       progress = sanitizeExemplarProgress(live.exemplars || {});
       // Keep an in-flight tutor exchange from being replaced mid-request.
       if (!sending) tutor = sanitizeTutor(live.tutor || {});
     }
-    if (location.hash === '#exemplar') setTimeout(render, 0);
+    handleHash();
   });
-  setTimeout(render, 250);
+  setTimeout(handleHash, 250);
 }
 start().catch(() => {});

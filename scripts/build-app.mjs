@@ -17,6 +17,9 @@ const exemplarSubject = { 'grammar-reader': 'english', 'history-atlas': 'history
 if (!exemplarSubject) throw Error('Unknown exemplar subject for '+config.vars.APP_ID);
 fs.mkdirSync('dist/content/exemplars', { recursive: true });
 fs.copyFileSync(`../../content/exemplars/${exemplarSubject === 'english' ? 'english-sentence' : exemplarSubject === 'history' ? 'history-cities' : 'philosophy-reasons'}.json`, `dist/content/exemplars/${exemplarSubject}.json`);
+if (fs.existsSync(`../../content/lessons/${exemplarSubject}`)) {
+  fs.cpSync(`../../content/lessons/${exemplarSubject}`, `dist/content/lessons/${exemplarSubject}`, { recursive: true });
+}
 const reviewTag = `<script type="module" src="/exemplar-review.js" data-subject="${exemplarSubject}"></script>`;
 const builtHTML = fs.readFileSync('dist/index.html','utf8');
 fs.writeFileSync('dist/index.html', /<\/head>/i.test(builtHTML) ? builtHTML.replace(/<\/head>/i, reviewTag + '</head>') : /<body/i.test(builtHTML) ? builtHTML.replace(/<body/i, reviewTag + '<body') : builtHTML.replace(/<!doctype html>/i, match => match + reviewTag));

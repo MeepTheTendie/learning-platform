@@ -162,5 +162,32 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
     assert.deepEqual(pairingErrors, []);
     console.log('PASS legacy pairing');
     await pairing.close();
+
+    // Philosophy guided lesson library: all 13 lessons, recognition-first, synced.
+    const f3 = JSON.parse(fs.readFileSync('content/lessons/philosophy/philosophy-f3.json', 'utf8'));
+    const libContexts = await Promise.all([browser.newContext(), browser.newContext()]);
+    for (const context of libContexts) await context.addInitScript(() => localStorage.setItem('learning-cloud-key-v1', 'a'.repeat(64)));
+    const [libA, libB] = await Promise.all(libContexts.map(context => context.newPage()));
+    const libErrors = [];
+    for (const page of [libA, libB]) page.on('pageerror', error => libErrors.push(error.message));
+    const libUrl = 'http://127.0.0.1:19003/';
+    await libA.goto(libUrl + '#lessons');
+    await libA.waitForSelector('a[href^="#lessons/"]');
+    assert.equal(await libA.locator('a[href^="#lessons/"]').count(), 13, 'philosophy library lists 13 lessons');
+    await libA.locator('a[href="#lessons/philosophy-f3"]').click();
+    await libA.waitForSelector('[data-response-id]');
+    const libFirst = libA.locator('[data-response-id]').first();
+    await libFirst.locator(`input[value="${f3.activities[0].answer}"]`).check();
+    await libFirst.locator('[data-check]').click();
+    await libA.waitForFunction(() => Object.values(JSON.parse(localStorage.getItem('philosophy-scholar-v1') || '{}').exemplars?.['philosophy-f3']?.passed || {}).some(Boolean), null, { timeout: 10000 });
+    await libA.waitForFunction(() => (document.querySelector('[data-learning-sync] summary')?.textContent || '').startsWith('Saved'), null, { timeout: 15000 });
+    // The written reflection is optional and carries a no-penalty passage.
+    assert.equal(await libA.locator('[data-response-id="philosophy-f3:f3-q5"] .activity-context').count(), 1, 'reflection shows a passage');
+    await libB.goto(libUrl + '#lessons/philosophy-f3');
+    await libB.waitForSelector('[data-response-id]');
+    await libB.waitForFunction(() => Object.values(JSON.parse(localStorage.getItem('philosophy-scholar-v1') || '{}').exemplars?.['philosophy-f3']?.passed || {}).some(Boolean), null, { timeout: 15000 });
+    assert.deepEqual(libErrors, []);
+    console.log('PASS philosophy lesson library');
+    await Promise.all(libContexts.map(context => context.close()));
   } finally { await browser.close(); server.kill('SIGTERM'); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

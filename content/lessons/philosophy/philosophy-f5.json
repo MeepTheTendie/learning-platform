@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "id": "philosophy-f5",
+  "subject": "philosophy",
+  "title": "Validity and soundness",
+  "objective": "Test the inference without confusing it with the truth of its premises.",
+  "lesson": {
+    "opening": "The next distinction applies to deductive arguments. In ordinary language, valid may mean acceptable. Here it has a precise technical meaning concerning possible combinations of truth and falsity.",
+    "sections": [
+      {
+        "heading": "A valid structure is not enough",
+        "body": "A deductive argument is valid when there is no possible case in which all its premises are true and its conclusion false. To test validity, temporarily grant the premises—even strange ones—and ask whether the conclusion must then follow. You are examining a relationship, not endorsing a worldview.\n\nAll whales are birds. All birds have wings. Therefore all whales have wings. The argument has a valid form, although a premise is false. Soundness requires both validity and true premises. This example is not sound. By contrast, a conclusion that happens to be true does not rescue an invalid inference used to reach it.\n\nConsider “If the alarm is active, the light is on; the light is on; so the alarm is active.” The light might be on for a maintenance test. The inference affirms the consequent: if P then Q; Q; therefore P. Compare the valid form modus ponens: if P then Q; P; therefore Q.\n\nThe truth of premises and the validity of inference need different kinds of work. Evidence about how a device functions may establish a premise. A countermodel—a possible assignment with true premises and a false conclusion—can refute the proposed deductive entailment. Once you have one, more favorable examples do not repair that form."
+      },
+      {
+        "heading": "Reconstructing the argument",
+        "body": "Let P mean membership in A and Q mean being insured. The proposed inference is P → Q, Q, therefore P. Setting P false and Q true makes both premises true but the conclusion false. That is enough to show invalidity."
+      },
+      {
+        "heading": "A serious objection",
+        "body": "The author might add “Only collection A manuscripts are insured.” That would change the argument by adding Q → P. A successful repair must acknowledge the new premise and provide grounds for it."
+      }
+    ]
+  },
+  "sources": [
+    "apps/philosophy/public/content/curriculum.json#f5"
+  ],
+  "activities": [
+    {
+      "id": "f5-q0",
+      "type": "choice",
+      "prompt": "Why does the manuscript conclusion fail to follow?",
+      "responseId": "philosophy-f5:f5-q0",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "Insurance might also cover manuscripts outside collection A.",
+        "Insurance never exists.",
+        "The conclusion is necessarily false."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "f5-q2",
+      "type": "sequence",
+      "prompt": "Arrange a valid modus ponens inference.",
+      "responseId": "philosophy-f5:f5-q2",
+      "items": [
+        "If the seal is intact, the container is unopened.",
+        "The seal is intact.",
+        "Therefore the container is unopened."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "f5-q3",
+      "type": "choice",
+      "prompt": "All cats are reptiles. All reptiles are cold-blooded. Therefore all cats are cold-blooded. This is…",
+      "responseId": "philosophy-f5:f5-q3",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "Valid but unsound.",
+        "Invalid because the conclusion is false.",
+        "Sound because it is orderly."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "f5-q4",
+      "type": "choice",
+      "prompt": "Which added premise repairs the manuscript inference?",
+      "responseId": "philosophy-f5:f5-q4",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "All manuscripts are interesting.",
+        "Only collection A manuscripts are insured.",
+        "Collection A is large."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "f5-q6",
+      "type": "choice",
+      "prompt": "Which follows from an argument’s soundness?",
+      "responseId": "philosophy-f5:f5-q6",
+      "hint": "Mastery check",
+      "choices": [
+        "Its conclusion is true.",
+        "Its premises may all be false.",
+        "It is invalid."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "f5-q7",
+      "type": "choice",
+      "prompt": "A single true-premise/false-conclusion countermodel establishes…",
+      "responseId": "philosophy-f5:f5-q7",
+      "hint": "Mastery check",
+      "choices": [
+        "Invalidity.",
+        "That every premise is false.",
+        "Soundness."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "f5-q5",
+      "type": "short-answer",
+      "prompt": "Construct an invalid argument with a true conclusion. Explain why the conclusion’s truth does not make the inference valid.",
+      "responseId": "philosophy-f5:f5-q5",
+      "instructions": "Explain in your own words",
+      "context": "If a manuscript is in collection A, then it is insured. This manuscript is insured. Therefore it is in collection A.",
+      "rubric": [
+        "My conclusion is true.",
+        "I show a possible case where premises hold but the conclusion fails, using the same structure.",
+        "I distinguish actual truth from entailment."
+      ]
+    }
+  ]
+}

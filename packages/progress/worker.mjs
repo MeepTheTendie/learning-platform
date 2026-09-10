@@ -35,16 +35,22 @@ function tutorMessages(raw){
     return {role,content};
   });
 }
-async function tutorMaterial(request,env){
+async function tutorMaterial(request,env,lessonId){
   const subject=TUTOR_LESSON[env.APP_ID];
   if(!subject)return null;
-  try{
-    const response=await env.ASSETS.fetch(new Request(new URL(`/content/exemplars/${subject}.json`,request.url)));
-    if(!response.ok)return null;
-    const lesson=await response.json();
-    const material=[lesson.title,lesson.objective,lesson.lesson?.opening,...(lesson.lesson?.sections||[]).map(section=>`${section.heading}: ${section.body}`),...lesson.activities.map(activity=>activity.prompt)].filter(Boolean).join('\n').slice(0,TUTOR_MAX_MATERIAL);
-    return {title:lesson.title,material};
-  }catch{return null;}
+  const candidates=[];
+  if(typeof lessonId==='string'&&/^[a-z0-9-]{1,120}$/i.test(lessonId))candidates.push(`/content/lessons/${subject}/${lessonId}.json`);
+  candidates.push(`/content/exemplars/${subject}.json`);
+  for(const path of candidates){
+    try{
+      const response=await env.ASSETS.fetch(new Request(new URL(path,request.url)));
+      if(!response.ok)continue;
+      const lesson=await response.json();
+      const material=[lesson.title,lesson.objective,lesson.lesson?.opening,...(lesson.lesson?.sections||[]).map(section=>`${section.heading}: ${section.body}`),...lesson.activities.map(activity=>activity.prompt)].filter(Boolean).join('\n').slice(0,TUTOR_MAX_MATERIAL);
+      return {title:lesson.title,material};
+    }catch{}
+  }
+  return null;
 }
 function tutorSystem(lesson){
   return `You are a patient Socratic tutor inside a study app, helping with the lesson "${lesson.title}". Use only the lesson material below and keep the learner thinking.\n\nLesson material:\n${lesson.material}\n\nRules: stay on this lesson; never invent facts outside it; keep replies under 120 words; ask one short question back when it helps; encourage the learner's own reasoning; do not claim to grade work or give an official answer key. If asked about something outside the lesson, say you can only help with this lesson.`;
@@ -63,7 +69,7 @@ async function tutor(request,env,url){
   try{
     const body=await readBody(request);
     const messages=tutorMessages(body?.messages);
-    const lesson=await tutorMaterial(request,env);
+    const lesson=await tutorMaterial(request,env,body?.lessonId);
     if(!lesson)return json({error:'lesson_unavailable'},503);
     const limit=Number(env.TUTOR_DAILY_LIMIT)||40;
     const used=await bumpTutorUsage(env);

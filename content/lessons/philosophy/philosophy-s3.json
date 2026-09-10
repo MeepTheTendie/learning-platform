@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "id": "philosophy-s3",
+  "subject": "philosophy",
+  "title": "Apology: the duty to philosophize",
+  "objective": "Reconstruct a claim of obligation before accepting or contesting it.",
+  "lesson": {
+    "opening": "TEXTUAL CONTEXT: In Apology 29c–30b, Socrates imagines being acquitted on condition that he stops examining others. He frames his activity as a divine duty and a service directed toward care for the soul.",
+    "sections": [
+      {
+        "heading": "Competing authorities",
+        "body": "The argument is not merely “I enjoy philosophy, so I will continue.” The portrayed Socrates claims an obligation whose authority outweighs a hypothetical order to stop. Whether that higher authority is justified is a central question for a critic, not something a reader must accept to understand the argument.\n\nA charitable reconstruction distinguishes two lines of support: obedience to a divine command, and the value of examining virtue rather than prioritizing wealth and reputation. They may reinforce one another in the speech without being interchangeable. Rejecting one reason does not automatically answer the other.\n\nThe English word soul can carry later associations. In this reading, attend to the text’s concern with ethical improvement before importing a complete later theology. The lesson does not require accepting a metaphysical doctrine about souls.\n\nA personal claim of exceptional duty can be mistaken. Ask what grounds the claim, whether it permits accountability, and whether the purported service actually benefits others. These questions target the argument without reducing it to either heroic individualism or automatic obedience."
+      },
+      {
+        "heading": "Reconstructing the argument",
+        "body": "Reconstruction: If a divine duty to examine takes priority over an order to stop, and this activity is such a duty, then he should continue. The argument’s structure does not establish the truth of its priority or divine-duty premises."
+      },
+      {
+        "heading": "A serious objection",
+        "body": "A serious objection asks how a citizen or jury could distinguish a genuine higher duty from a confident mistake. The argument requires more than the strength of the speaker’s conviction."
+      }
+    ]
+  },
+  "sources": [
+    "apps/philosophy/public/content/curriculum.json#s3"
+  ],
+  "activities": [
+    {
+      "id": "s3-q0",
+      "type": "choice",
+      "prompt": "Which reason appears explicitly in the passage?",
+      "responseId": "philosophy-s3:s3-q0",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "Obedience to God rather than the imagined order to stop.",
+        "A wish to become wealthy.",
+        "A claim that no human duty ever matters."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "s3-q2",
+      "type": "choice",
+      "prompt": "Which claim is an assumption needing defense rather than a result of mapping?",
+      "responseId": "philosophy-s3:s3-q2",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "This examination really is divinely required.",
+        "A conclusion is represented in the map.",
+        "The passage has an author."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "s3-q3",
+      "type": "choice",
+      "prompt": "A researcher claims conscience requires challenging an institutional rule. What is the relevant next question?",
+      "responseId": "philosophy-s3:s3-q3",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "What grounds that duty, and how does it bear on this rule?",
+        "Is the researcher charismatic?",
+        "Must every rule be either perfect or worthless?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "s3-q4",
+      "type": "choice",
+      "prompt": "Which objection directly targets the duty premise?",
+      "responseId": "philosophy-s3:s3-q4",
+      "hint": "Choose the best analysis",
+      "choices": [
+        "How do we know that this activity is divinely required rather than personally preferred?",
+        "The speech is old.",
+        "The speaker is not wealthy."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "s3-q6",
+      "type": "choice",
+      "prompt": "Does a valid reconstruction prove the divine-duty premise true?",
+      "responseId": "philosophy-s3:s3-q6",
+      "hint": "Mastery check",
+      "choices": [
+        "Yes.",
+        "No."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "s3-q7",
+      "type": "choice",
+      "prompt": "What is a mistake when criticizing this passage?",
+      "responseId": "philosophy-s3:s3-q7",
+      "hint": "Mastery check",
+      "choices": [
+        "Questioning the source of the duty.",
+        "Treating “I enjoy it” as the whole argument and ignoring the stated obligation.",
+        "Distinguishing civic and divine authority."
+      ],
+      "answer": 1
+    },
+    {
+      "id": "s3-q5",
+      "type": "short-answer",
+      "prompt": "Explain Socrates’ refusal in this passage, then identify one premise you would need to investigate before endorsing it.",
+      "responseId": "philosophy-s3:s3-q5",
+      "instructions": "Explain in your own words",
+      "context": "Men of Athens, I honour and love you; but I shall obey God rather than you, and while I have life and strength I shall never cease from the practice and teaching of philosophy, exhorting any one whom I meet and saying to him after my manner: You, my friend,—a citizen of the great and mighty and wise city of Athens,—are you not ashamed of heaping up the greatest amount of money and honour and reputation, and caring so little about wisdom and truth and the greatest improvement of the soul, which you never regard or heed at all?",
+      "rubric": [
+        "I distinguish obligation from personal preference.",
+        "I state a premise actually relevant to the passage.",
+        "I keep my judgment separate from my reconstruction."
+      ]
+    }
+  ]
+}
