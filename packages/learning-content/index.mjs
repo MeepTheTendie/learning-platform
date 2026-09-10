@@ -42,7 +42,20 @@ export function validateLesson(raw) {
     }
     return result;
   });
-  return { version: 1, id, subject, title: text(raw.title, `${id}.title`, 300), objective: text(raw.objective, `${id}.objective`, 1000), sources: Array.isArray(raw.sources) ? raw.sources.map((source, i) => text(source, `${id}.sources[${i}]`, 1000)) : [], activities: normalized };
+  let lesson;
+  if (raw.lesson !== undefined) {
+    if (!raw.lesson || typeof raw.lesson !== 'object' || Array.isArray(raw.lesson)) throw new Error(`${id}.lesson is invalid`);
+    const sections = raw.lesson.sections;
+    if (!Array.isArray(sections) || sections.length < 1 || sections.length > 12) throw new Error(`${id}.lesson.sections is invalid`);
+    lesson = {
+      opening: text(raw.lesson.opening, `${id}.lesson.opening`, 2000),
+      sections: sections.map((section, index) => {
+        if (!section || typeof section !== 'object' || Array.isArray(section)) throw new Error(`${id}.lesson.sections[${index}] is invalid`);
+        return { heading: text(section.heading, `${id}.lesson.sections[${index}].heading`, 300), body: text(section.body, `${id}.lesson.sections[${index}].body`, 4000) };
+      })
+    };
+  }
+  return { version: 1, id, subject, title: text(raw.title, `${id}.title`, 300), objective: text(raw.objective, `${id}.objective`, 1000), ...(lesson ? { lesson } : {}), sources: Array.isArray(raw.sources) ? raw.sources.map((source, i) => text(source, `${id}.sources[${i}]`, 1000)) : [], activities: normalized };
 }
 
 export function gradeActivity(activity, response) {

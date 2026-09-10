@@ -12,6 +12,10 @@ const writeMeta = value => localStorage.setItem(metaKey, JSON.stringify(value));
 let lesson, answers = read(), review = readMeta();
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
 const main = () => document.querySelector('main, #main');
+function lessonCopy() {
+  if (!lesson.lesson) return '';
+  return `<section class="card lesson-copy"><p>${escapeHTML(lesson.lesson.opening)}</p>${lesson.lesson.sections.map(section => `<div><h2>${escapeHTML(section.heading)}</h2><p>${escapeHTML(section.body)}</p></div>`).join('')}</section>`;
+}
 function responseFor(activity, node) {
   if (activity.type === 'choice') return node.querySelector('input:checked')?.value ?? '';
   if (activity.type === 'sequence') return (node.querySelector('[data-sequence]')?.value || '').split(',').map(value => Number(value.trim()) - 1).filter(Number.isInteger);
@@ -21,7 +25,7 @@ function render() {
   if (!lesson || location.hash !== '#exemplar') return;
   const target = main(); if (!target) return;
   const passed = lesson.activities.filter(activity => review[activity.responseId]?.passed).length;
-  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">MILESTONE 2 EXEMPLAR</div><h1>${escapeHTML(lesson.title)}</h1><p>${escapeHTML(lesson.objective)}</p></div><a class="button" href="#">Return to app</a></div><section class="card exemplar-review"><p class="muted">${subjectLabel} review · ${passed}/${lesson.activities.length} responses checked. Drafts and revision attempts save on this device.</p>${lesson.activities.map(activity => { const status = review[activity.responseId]; return `<article class="exemplar-activity" data-response-id="${escapeHTML(activity.responseId)}">${renderActivity(activity, answers[activity.responseId] || '')}${activity.hint ? `<details><summary>Hint</summary><p>${escapeHTML(activity.hint)}</p></details>` : ''}${activity.rubric?.length ? `<details><summary>Review criteria</summary><ul>${activity.rubric.map(item => `<li>${escapeHTML(item)}</li>`).join('')}</ul></details>` : ''}<button data-check type="button">${status?.passed ? 'Review again' : 'Check response'}</button><output aria-live="polite">${status?.passed ? `Passed after ${status.attempts} attempt${status.attempts === 1 ? '' : 's'}.` : ''}</output></article>`; }).join('')}</section>`;
+  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">MILESTONE 2 LESSON</div><h1>${escapeHTML(lesson.title)}</h1><p>${escapeHTML(lesson.objective)}</p></div><a class="button" href="#">Return to app</a></div>${lessonCopy()}<section class="card exemplar-review"><p class="muted">${subjectLabel} practice · ${passed}/${lesson.activities.length} responses checked. Drafts and revision attempts save on this device.</p>${lesson.activities.map(activity => { const status = review[activity.responseId]; return `<article class="exemplar-activity" data-response-id="${escapeHTML(activity.responseId)}">${renderActivity(activity, answers[activity.responseId] || '')}${activity.hint ? `<details><summary>Hint</summary><p>${escapeHTML(activity.hint)}</p></details>` : ''}${activity.rubric?.length ? `<details><summary>Review criteria</summary><ul>${activity.rubric.map(item => `<li>${escapeHTML(item)}</li>`).join('')}</ul></details>` : ''}<button data-check type="button">${status?.passed ? 'Review again' : 'Check response'}</button><output aria-live="polite">${status?.passed ? `Passed after ${status.attempts} attempt${status.attempts === 1 ? '' : 's'}.` : ''}</output></article>`; }).join('')}</section>`;
   target.querySelectorAll('[data-response-id]').forEach(node => {
     const activity = lesson.activities.find(item => item.responseId === node.dataset.responseId);
     const save = () => { answers[activity.responseId] = responseFor(activity, node); write(answers); };
@@ -35,7 +39,7 @@ async function start() {
   const raw = await response.json();
   lesson = { ...raw, activities: raw.activities.map(activity => ({ ...activity, responseId: `${raw.id}:${activity.id}` })) };
   const host = document.querySelector('.top-tools,.header-tools,.tools,header');
-  if (host && !host.querySelector('[data-exemplar-link]')) { const link = document.createElement('a'); link.href = '#exemplar'; link.dataset.exemplarLink = ''; link.className = 'button'; link.textContent = 'Review exemplar'; host.append(link); }
+  if (host && !host.querySelector('[data-exemplar-link]')) { const link = document.createElement('a'); link.href = '#exemplar'; link.dataset.exemplarLink = ''; link.className = 'button'; link.textContent = lesson.lesson ? 'Start lesson' : 'Review exemplar'; host.append(link); }
   addEventListener('hashchange', () => setTimeout(render, 50));
   setTimeout(render, 250);
 }

@@ -4,6 +4,23 @@
   "subject": "english",
   "title": "The sentence: subject, action, and meaning",
   "objective": "Identify the complete subject and predicate, then explain how a sentence makes its meaning clear.",
+  "lesson": {
+    "opening": "A complete sentence makes a claim. The subject names what the sentence is about, and the predicate says what that subject does, is, or experiences.",
+    "sections": [
+      {
+        "heading": "Find the subject",
+        "body": "Ask who or what the sentence is about. In “Patient effort removes mountains,” the complete subject is “Patient effort.” The adjective patient belongs with the noun effort."
+      },
+      {
+        "heading": "Find the predicate",
+        "body": "The predicate includes the verb and the words that complete its meaning. “Removes mountains” tells what patient effort does, so it is the complete predicate."
+      },
+      {
+        "heading": "Repair a fragment",
+        "body": "A fragment may suggest a scene without making a complete claim. “After the long climb” needs a subject and a predicate: “After the long climb, the hikers rested.”"
+      }
+    ]
+  },
   "sources": ["apps/english/public/index.html#the-sentence"],
   "activities": [
     {
