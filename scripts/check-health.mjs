@@ -18,7 +18,7 @@ for (const app of apps) {
   for (const route of ['/', '/api/progress']) {
     let status = 0, location = '';
     try {
-      const response = await fetch(origin + route, { redirect: 'manual' });
+      const response = await fetch(origin + route, { redirect: 'manual', signal: AbortSignal.timeout(15000) });
       status = response.status;
       location = response.headers.get('location') || '';
     } catch (error) {

@@ -56,6 +56,12 @@ export function sanitizeExemplarProgress(raw) {
         if (typeof record.passed[activityId] === 'boolean') entry.passed[activityId] = record.passed[activityId];
       }
     }
+    if (Number.isFinite(record.points)) entry.points = Math.max(0, Math.min(1000000, Math.floor(record.points)));
+    if (isObject(record.awarded)) {
+      const awarded = {};
+      for (const key of Object.keys(record.awarded)) if (safeKey(key) && record.awarded[key] === true) awarded[key] = true;
+      entry.awarded = awarded;
+    }
     if (Number.isFinite(record.updatedAt)) entry.updatedAt = Math.max(0, record.updatedAt);
     out[lessonId] = entry;
   }

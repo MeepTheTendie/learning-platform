@@ -124,11 +124,35 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
         assert.deepEqual(state.exemplars[lesson.id].responses[sequence.id], sequence.answer, `${app} sequence stored 0-based`);
       }
 
+      // Passing the reflection awards practice points, and native XP where the app has it.
+      const reflection = lesson.activities.find(activity => activity.type === 'short-answer');
+      const reflectionNode = b.locator(`[data-response-id="${lesson.id}:${reflection.id}"]`);
+      await reflectionNode.locator('textarea').fill('This reflection explains the idea in my own words with a concrete example and clear reasoning.');
+      await reflectionNode.locator('[data-check]').click();
+      await b.waitForFunction(({ storageKey, lessonId }) => (JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.points || 0) >= 20, { storageKey: key, lessonId: lesson.id }, { timeout: 10000 });
+      if (app !== 'history') {
+        await b.waitForFunction(storageKey => Object.keys(JSON.parse(localStorage.getItem(storageKey) || '{}').awards || {}).some(name => name.startsWith('reflect:')), key, { timeout: 10000 });
+      }
+      console.log('PASS exemplar points', app);
+
       await b.setViewportSize({ width: 390, height: 844 });
       assert.equal(await b.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${app} mobile overflow`);
       assert.deepEqual(errors, [], `${app} browser errors`);
       console.log('PASS exemplar', app);
       await Promise.all(contexts.map(context => context.close()));
     }
+
+    // A legacy pairing link stores the shared key and enables sync.
+    const pairing = await browser.newContext();
+    const paired = await pairing.newPage();
+    const pairingErrors = [];
+    paired.on('pageerror', error => pairingErrors.push(error.message));
+    await paired.goto('http://127.0.0.1:19002/#sync=' + 'a'.repeat(64));
+    await paired.waitForFunction(() => localStorage.getItem('learning-cloud-key-v1') === 'a'.repeat(64), null, { timeout: 10000 });
+    await paired.waitForSelector('[data-learning-sync] summary');
+    await paired.waitForFunction(() => (document.querySelector('[data-learning-sync] summary')?.textContent || '').startsWith('Saved'), null, { timeout: 15000 });
+    assert.deepEqual(pairingErrors, []);
+    console.log('PASS legacy pairing');
+    await pairing.close();
   } finally { await browser.close(); server.kill('SIGTERM'); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

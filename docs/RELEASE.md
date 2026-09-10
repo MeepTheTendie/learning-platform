@@ -36,9 +36,9 @@ npm run preview -- english     # or history / philosophy
 
 The script refuses production Worker names and the production database id. Previews are isolated from real learner progress.
 
-## Production cutover (gated)
+## Production cutover (performed 2026-09-10)
 
-Production migration requires an explicit decision from the owner. Do not run these steps until then.
+Production was cut over to the monorepo build while keeping the legacy pairing auth (Cloudflare Access stays on the previews). Use these steps for any future cutover or redeploy.
 
 1. Confirm `npm run check` and `npm run test:browser` pass on the exact commit to release.
 2. Refresh the production backup immediately before cutover: `npm run backup`.
@@ -46,7 +46,7 @@ Production migration requires an explicit decision from the owner. Do not run th
 4. Review live provenance and confirm the current production data, URLs and History illustrations are preserved.
 5. Apply any new D1 migrations to production, for example: `npx wrangler d1 execute learning-progress-sync --remote --file=apps/english/migrations/0002_tutor.sql`.
 6. Deploy production with the app's `deploy` script, which checks the `SYNC_KEY_HASH` secret before building.
-7. Sign in on two devices and confirm progress appears on both.
+7. Verify with `npm run health -- production`, then sign in on two devices and confirm progress appears on both.
 
 ### Rollback
 

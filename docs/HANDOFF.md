@@ -100,13 +100,27 @@ Owner direction: written responses broke flow, so lessons are now mostly multipl
 - All three exemplars were rewritten to 5 choice activities plus 1 short reflection (History keeps one sequence).
 
 Deployed previews from this commit (Cloudflare Access, `learning-platform-preview` database):
-- English: `c80bf1d0-871b-4888-a8b1-6c8bd0020745`
-- History: `c2e8477d-622b-4948-8590-316ebb9b2b5b`
-- Philosophy: `c5189e7f-b578-4526-8bd2-4b4f4336d6a2`
+- English: `f99d5774-489c-4556-ab51-0a97c73cc468`
+- History: `7ce5a33d-de57-4062-80e9-3c5fcbb2e445`
+- Philosophy: `534aab9f-69f6-4a6d-aa18-47ca551822ea`
 
 The `0002_tutor.sql` migration was applied to the preview D1 database. The tutor route was exercised against the real `@cf/meta/llama-3.1-8b-instruct-fp8` model with a local `wrangler dev` run: it returned a grounded reply and counted usage (`remaining: 39`).
 
+## Production cutover — 2026-09-10
+
+The owner approved shipping everything to production. Production was cut over in place; it keeps the original legacy pairing auth (Cloudflare Access remains on the previews only).
+
+Before deploying: refreshed the production D1 export to `~/Projects/learning-platform-private/backups/learning-progress-sync-20260910-161015.sql` (sha256 `a35275f83412dff2912beca057c7140394e93121b3ac40e345b6ecbe6f1f61a1`), verified it with `npm run restore-drill` (integrity ok; Grammar 12, History 15, Philosophy 1), and applied `0002_tutor.sql` to production D1.
+
+Production versions:
+- grammar-reader: `d098399c-09b5-431d-a8af-6fa84230b6fc`
+- history-atlas: `614f4456-a9c6-4e02-b7b3-a4c4aa07a2b7`
+- philosophy-scholar: `318a6abe-c84f-47a0-990c-230aec5076b7`
+
+Verified after deploy: `npm run health -- production` passes (shell 200, anonymous progress 401), the served HTML includes the new sync client and exemplar review, and production D1 rows are unchanged (revisions 12/15/1).
+
+Also this turn: the new sync client restored the legacy pairing control ("Copy pairing link" plus `#sync=<key>` handling), and shared practice points now award for the lesson reflection, tutor exchanges, and revisiting a previously missed activity. English and Philosophy mirror those awards into their native XP; History shows them in the lesson.
+
 Remaining, owner-gated:
-1. Exemplar content review before curriculum expansion (Milestone 2): confirm the multiple-choice mix and tutor behavior on the previews.
-2. Production cutover: refresh backup, `npm run restore-drill`, review live provenance, then deploy. See `docs/RELEASE.md`.
-3. Paid AI overage remains disabled; enabling it needs a new provider/spending agreement.
+1. Exemplar content review before curriculum expansion (Milestone 2): confirm the multiple-choice mix, tutor behavior, and practice points.
+2. Paid AI overage remains disabled; enabling it needs a new provider/spending agreement.

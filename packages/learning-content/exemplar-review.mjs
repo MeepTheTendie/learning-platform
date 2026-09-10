@@ -56,6 +56,13 @@ function persist() {
   localStorage.setItem(legacyReviewKey, JSON.stringify(review));
   localStorage.setItem(legacyTutorKey, JSON.stringify(tutor));
 }
+function awardPoints(record, key, xp) {
+  record.awarded ??= {};
+  if (record.awarded[key]) return 0;
+  record.awarded[key] = true;
+  record.points = (record.points || 0) + xp;
+  return xp;
+}
 function lessonCopy() {
   if (!lesson.lesson) return '';
   return `<section class="card lesson-copy"><p>${escapeHTML(lesson.lesson.opening)}</p>${lesson.lesson.sections.map(section => `<div><h2>${escapeHTML(section.heading)}</h2><p>${escapeHTML(section.body)}</p></div>`).join('')}</section>`;
@@ -74,12 +81,29 @@ function render() {
   const target = main(); if (!target) return;
   const record = exemplarRecord(progress, lesson.id);
   const passed = lesson.activities.filter(activity => record.passed[activity.id]).length;
-  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">MILESTONE 2 LESSON</div><h1>${escapeHTML(lesson.title)}</h1><p>${escapeHTML(lesson.objective)}</p></div><a class="button" href="#">Return to app</a></div>${lessonCopy()}<section class="card exemplar-review"><p class="muted">${subjectLabel} practice · ${passed}/${lesson.activities.length} responses checked. Drafts and revision attempts save with your progress and sync between devices.</p>${lesson.activities.map(activity => { const status = record.passed[activity.id]; const attempts = record.attempts[activity.id] || 0; return `<article class="exemplar-activity" data-response-id="${escapeHTML(activity.responseId)}">${renderActivity(activity, record.responses[activity.id] ?? '')}${activity.hint ? `<details><summary>Hint</summary><p>${escapeHTML(activity.hint)}</p></details>` : ''}${activity.rubric?.length ? `<details><summary>Review criteria</summary><ul>${activity.rubric.map(item => `<li>${escapeHTML(item)}</li>`).join('')}</ul></details>` : ''}<button data-check type="button">${status ? 'Review again' : 'Check response'}</button><output aria-live="polite">${status ? `Passed after ${attempts} attempt${attempts === 1 ? '' : 's'}.` : ''}</output></article>`; }).join('')}</section>${tutorHTML()}`;
+  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">MILESTONE 2 LESSON</div><h1>${escapeHTML(lesson.title)}</h1><p>${escapeHTML(lesson.objective)}</p></div><a class="button" href="#">Return to app</a></div>${lessonCopy()}<section class="card exemplar-review"><p class="muted">${subjectLabel} practice · ${passed}/${lesson.activities.length} responses checked · <strong data-practice-points>${record.points || 0} practice points</strong>. Drafts and revision attempts save with your progress and sync between devices.</p>${lesson.activities.map(activity => { const status = record.passed[activity.id]; const attempts = record.attempts[activity.id] || 0; return `<article class="exemplar-activity" data-response-id="${escapeHTML(activity.responseId)}">${renderActivity(activity, record.responses[activity.id] ?? '')}${activity.hint ? `<details><summary>Hint</summary><p>${escapeHTML(activity.hint)}</p></details>` : ''}${activity.rubric?.length ? `<details><summary>Review criteria</summary><ul>${activity.rubric.map(item => `<li>${escapeHTML(item)}</li>`).join('')}</ul></details>` : ''}<button data-check type="button">${status ? 'Review again' : 'Check response'}</button><output aria-live="polite">${status ? `Passed after ${attempts} attempt${attempts === 1 ? '' : 's'}.` : ''}</output></article>`; }).join('')}</section>${tutorHTML()}`;
   target.querySelectorAll('[data-response-id]').forEach(node => {
     const activity = lesson.activities.find(item => item.responseId === node.dataset.responseId);
     const save = () => { setExemplarResponse(progress, lesson.id, activity.id, responseFor(activity, node)); persist(); };
     node.querySelectorAll('input,textarea').forEach(input => input.addEventListener('input', save));
-    node.querySelector('[data-check]').onclick = () => { save(); const current = recordExemplarAttempt(progress, lesson.id, activity.id, gradeActivity(activity, record.responses[activity.id])); persist(); const attempts = current.attempts[activity.id]; node.querySelector('output').textContent = current.passed[activity.id] ? `Passed after ${attempts} attempt${attempts === 1 ? '' : 's'}.` : 'Keep working. Revise your response and try again.'; node.querySelector('[data-check]').textContent = current.passed[activity.id] ? 'Review again' : 'Check response'; };
+    node.querySelector('[data-check]').onclick = () => {
+      save();
+      const prior = record.passed[activity.id], priorAttempts = record.attempts[activity.id] || 0;
+      const current = recordExemplarAttempt(progress, lesson.id, activity.id, gradeActivity(activity, record.responses[activity.id]));
+      const grants = [];
+      if (current.passed[activity.id]) {
+        if (activity.type === 'short-answer') { const xp = awardPoints(record, 'reflect:' + activity.id, 20); if (xp) grants.push(['reflect:' + activity.id, xp]); }
+        if (!prior && priorAttempts > 0) { const xp = awardPoints(record, 'review:' + activity.id, 5); if (xp) grants.push(['review:' + activity.id, xp]); }
+        if (lesson.activities.every(item => record.passed[item.id])) { const xp = awardPoints(record, 'complete', 30); if (xp) grants.push(['complete', xp]); }
+      }
+      persist();
+      for (const [key, xp] of grants) window.LearningSync?.award?.(key, xp);
+      const points = target.querySelector('[data-practice-points]');
+      if (points) points.textContent = `${record.points || 0} practice points`;
+      const attempts = current.attempts[activity.id];
+      node.querySelector('output').textContent = current.passed[activity.id] ? `Passed after ${attempts} attempt${attempts === 1 ? '' : 's'}.${grants.length ? ' +' + grants.reduce((sum, [, xp]) => sum + xp, 0) + ' practice points.' : ''}` : 'Keep working. Revise your response and try again.';
+      node.querySelector('[data-check]').textContent = current.passed[activity.id] ? 'Review again' : 'Check response';
+    };
   });
   const form = target.querySelector('[data-tutor-form]');
   if (form) form.onsubmit = event => { event.preventDefault(); sendTutor(); };
@@ -113,7 +137,11 @@ async function sendTutor() {
     const data = await response.json();
     if (typeof data.reply !== 'string' || !data.reply.trim()) throw Error('empty');
     appendTutorMessage(tutor, lesson.id, 'assistant', data.reply.trim());
+    const record = exemplarRecord(progress, lesson.id);
+    const replyCount = tutorThread(tutor, lesson.id).filter(message => message.role === 'assistant').length;
+    const tutorGrant = replyCount <= 6 ? awardPoints(record, 'tutor:' + replyCount, replyCount === 1 ? 10 : 2) : 0;
     persist();
+    if (tutorGrant) window.LearningSync?.award?.('tutor:' + replyCount, tutorGrant);
     render();
     document.querySelector('[data-tutor-status]').textContent = Number.isFinite(data.remaining) ? `${data.remaining} tutor ${data.remaining === 1 ? 'reply' : 'replies'} left today.` : '';
   } catch {

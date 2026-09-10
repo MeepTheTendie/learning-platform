@@ -51,6 +51,15 @@ test('a genuine same-answer conflict is reported without losing the local edit',
   assert.deepEqual(conflicts, ['/lesson/responses/a']);
 });
 
+test('exemplar sanitization preserves awarded points and drops unsafe award keys', () => {
+  const raw = JSON.parse('{"lesson":{"points":45,"awarded":{"reflect:a":true,"__proto__":true,"bad":false},"responses":{}}}');
+  const clean = sanitizeExemplarProgress(raw);
+  assert.equal(clean.lesson.points, 45);
+  assert.equal(clean.lesson.awarded['reflect:a'], true);
+  assert.equal(Object.hasOwn(clean.lesson.awarded, '__proto__'), false);
+  assert.equal(clean.lesson.awarded.bad, undefined);
+});
+
 test('exemplarRecord is idempotent for an existing lesson', () => {
   const progress = {};
   const first = exemplarRecord(progress, 'lesson');

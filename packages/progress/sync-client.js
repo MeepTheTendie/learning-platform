@@ -16,6 +16,13 @@
   // A fresh browser's app defaults must not overwrite the cloud on first load.
   let initialBase;
   const legacyKey = () => document.cookie.split('; ').find(v => v.startsWith('learning_sync_key='))?.slice(18) || localStorage.getItem('learning-cloud-key-v1') || '';
+  // Legacy pairing: a private link carries the shared key to a new device.
+  const paired = location.hash.match(/^#sync=([a-f0-9]{64})$/i)?.[1];
+  if (paired) {
+    document.cookie = 'learning_sync_key=' + paired + '; Domain=history-atlas.workers.dev; Path=/; Max-Age=31536000; Secure; SameSite=Lax';
+    localStorage.setItem('learning-cloud-key-v1', paired);
+    history.replaceState(null, '', location.pathname + location.search);
+  }
   function status(text) { lastStatus = text; if (label) label.textContent = text; }
   function queue(delay = 400) { clearTimeout(timer); timer = setTimeout(sync, delay); }
   function editing() { return document.activeElement?.matches('textarea,input,[contenteditable="true"],select'); }
@@ -78,6 +85,8 @@
     // Re-render the app from its own in-memory state, e.g. after a shared
     // route (the exemplar review) hands the page back.
     refresh() { if (adapter) adapter.apply(copy(adapter.read())); },
+    // Let shared lesson modules grant the app's native progress (one-time).
+    award(key, xp) { return adapter?.award?.(key, xp); },
   };
   async function request(method, body, syncId) {
     const response = await fetch('/api/progress', {
@@ -146,6 +155,16 @@
       const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = app + '-sync-recovery.json'; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
     };
     panel.append(backupButton); box.append(panel);
+    if (mode === 'legacy' && legacyKey()) {
+      const pair = document.createElement('button'); pair.type = 'button'; pair.textContent = 'Copy pairing link';
+      pair.onclick = () => {
+        const link = location.origin + location.pathname + '#sync=' + legacyKey();
+        const done = () => status('Pairing link copied — keep it private');
+        const failed = () => prompt('Copy this private pairing link', link);
+        if (navigator.clipboard?.writeText) navigator.clipboard.writeText(link).then(done, failed); else failed();
+      };
+      panel.append(pair);
+    }
     // Keep the widget outside <main> so views that replace the main content
     // (the exemplar review) cannot destroy it.
     const main = document.querySelector('main, #main');
