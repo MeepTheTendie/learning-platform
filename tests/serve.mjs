@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {DatabaseSync} from 'node:sqlite';
 const root=new URL('../apps/',import.meta.url).pathname.replace(/\/$/,'');
-for(const [i,app] of ['history','english','philosophy','geography'].entries()) {
+for(const [i,app] of ['history','english','philosophy','geography','hub'].entries()) {
  const config=JSON.parse(fs.readFileSync(`${root}/${app}/wrangler.jsonc`));
  const worker=(await import(`${root}/${app}/src/worker.mjs`)).default;
  const db=new DatabaseSync(':memory:');for(const file of fs.readdirSync(`${root}/${app}/migrations`).sort())db.exec(fs.readFileSync(`${root}/${app}/migrations/${file}`,'utf8'));

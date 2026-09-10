@@ -32,12 +32,12 @@ function streak() {
   return count;
 }
 function logFormHTML() {
-  return `<form id="log-form"><div class="grid"><div class="form-row"><label for="log-date">Date</label><input id="log-date" name="date" type="date" value="${today()}" required></div><div class="form-row"><label for="log-source">Source</label><input id="log-source" name="source" placeholder="Khan Academy, Biblingo, a book…" required></div><div class="form-row"><label for="log-subject">Subject</label><input id="log-subject" name="subject" placeholder="Math, Greek, …" required></div><div class="form-row"><label for="log-minutes">Minutes</label><input id="log-minutes" name="minutes" type="number" min="1" max="1440" required></div></div><div class="form-row"><label for="log-note">What did you do?</label><textarea id="log-note" name="note" rows="2" placeholder="Optional note"></textarea></div><button class="primary" type="submit">Log session</button></form>`;
+  return `<form id="log-form"><div class="grid"><div class="form-row"><label for="log-date">Date</label><input id="log-date" name="date" type="date" value="${today()}" required></div><div class="form-row"><label for="log-source">Source</label><input id="log-source" name="source" placeholder="Khan Academy, Biblingo, a book…" required></div><div class="form-row"><label for="log-subject">Subject</label><input id="log-subject" name="subject" placeholder="Math, Greek, …" required></div><div class="form-row"><label for="log-minutes">Minutes <span class="muted">(optional)</span></label><input id="log-minutes" name="minutes" type="number" min="0" max="1440" placeholder="Leave blank if you didn't track it"></div></div><div class="form-row"><label for="log-note">What did you do?</label><textarea id="log-note" name="note" rows="2" placeholder="Optional note"></textarea></div><button class="primary" type="submit">Log session</button></form>`;
 }
 function logSummaryHTML() {
   const total = state.logs.reduce((sum, log) => sum + log.minutes, 0);
   const recent = [...state.logs].reverse().slice(0, 12);
-  return `<div class="totals"><div><div class="n">${state.logs.length}</div><div class="muted">sessions logged</div></div><div><div class="n">${Math.round(total / 60 * 10) / 10}</div><div class="muted">hours</div></div><div><div class="n">${streak()}</div><div class="muted">day streak</div></div></div>${recent.length ? `<div style="margin-top:16px">${recent.map(log => `<div class="log-entry"><div><strong>${escapeHTML(log.subject || 'Learning')}</strong> <span class="meta">· ${escapeHTML(log.source)}</span>${log.note ? `<div class="meta">${escapeHTML(log.note)}</div>` : ''}</div><div class="meta">${escapeHTML(log.date)} · ${log.minutes} min</div></div>`).join('')}</div>` : '<p class="muted" style="margin-top:14px">Nothing logged yet. Add a session above.</p>'}`;
+  return `<div class="totals"><div><div class="n">${state.logs.length}</div><div class="muted">sessions logged</div></div><div><div class="n">${Math.round(total / 60 * 10) / 10}</div><div class="muted">hours</div></div><div><div class="n">${streak()}</div><div class="muted">day streak</div></div></div>${recent.length ? `<div style="margin-top:16px">${recent.map(log => `<div class="log-entry"><div><strong>${escapeHTML(log.subject || 'Learning')}</strong> <span class="meta">· ${escapeHTML(log.source)}</span>${log.note ? `<div class="meta">${escapeHTML(log.note)}</div>` : ''}</div><div class="meta">${escapeHTML(log.date)} · ${log.minutes ? log.minutes + ' min' : 'no time logged'}</div></div>`).join('')}</div>` : '<p class="muted" style="margin-top:14px">Nothing logged yet. Add a session above.</p>'}`;
 }
 async function loadSubjects() {
   const target = $('#subjects'); if (!target) return;
@@ -64,7 +64,9 @@ function bindForm() {
 function render() {
   appearance();
   const main = $('#main'); if (!main) return;
-  main.innerHTML = `<section><div class="eyebrow">ALL YOUR LEARNING</div><h1>Your learning, in one place.</h1><p class="muted">Progress from the apps on this platform updates automatically. Log anything else — a course, a book, an app — by hand.</p></section><section class="card"><div class="eyebrow">LOG A SESSION</div>${logFormHTML()}</section><section id="subjects"></section><section class="card"><div class="eyebrow">YOUR LOG</div>${logSummaryHTML()}</section>`;
+  const paired = !!localStorage.getItem(KEY_NAME);
+  const banner = paired ? '' : '<section class="card"><div class="eyebrow">NOT PAIRED</div><p class="muted">This device is not paired, so subject progress cannot load and your log will not sync. Open your Learning Hub pairing link once to connect it.</p></section>';
+  main.innerHTML = `${banner}<section><div class="eyebrow">ALL YOUR LEARNING</div><h1>Your learning, in one place.</h1><p class="muted">Progress from the apps on this platform updates automatically. Log anything else — a course, a book, an app — by hand.</p></section><section class="card"><div class="eyebrow">LOG A SESSION</div>${logFormHTML()}</section><section id="subjects"></section><section class="card"><div class="eyebrow">YOUR LOG</div>${logSummaryHTML()}</section>`;
   bindForm();
   loadSubjects();
 }

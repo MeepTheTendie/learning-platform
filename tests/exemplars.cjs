@@ -210,5 +210,25 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       console.log('PASS lesson library', app);
       await Promise.all(contexts.map(context => context.close()));
     }
+
+    // Learning Hub: a manually logged session saves and syncs between devices.
+    const hubContexts = await Promise.all([browser.newContext(), browser.newContext()]);
+    for (const context of hubContexts) await context.addInitScript(() => localStorage.setItem('learning-cloud-key-v1-learning-hub', 'a'.repeat(64)));
+    const [hubA, hubB] = await Promise.all(hubContexts.map(context => context.newPage()));
+    const hubErrors = [];
+    for (const page of [hubA, hubB]) page.on('pageerror', error => hubErrors.push(error.message));
+    const hubUrl = 'http://127.0.0.1:19005/';
+    await hubA.goto(hubUrl);
+    await hubA.waitForSelector('#log-form');
+    await hubA.fill('#log-source', 'Khan Academy');
+    await hubA.fill('#log-subject', 'Math — Arithmetic');
+    await hubA.click('#log-form button[type=submit]');
+    await hubA.waitForFunction(() => document.querySelector('.log-entry')?.textContent.includes('Math — Arithmetic'), null, { timeout: 10000 });
+    await hubA.waitForFunction(() => (document.querySelector('[data-learning-sync] summary')?.textContent || '').startsWith('Saved'), null, { timeout: 15000 });
+    await hubB.goto(hubUrl);
+    await hubB.waitForFunction(() => document.querySelector('.log-entry')?.textContent.includes('Math — Arithmetic'), null, { timeout: 15000 });
+    assert.deepEqual(hubErrors, []);
+    console.log('PASS learning hub logging');
+    await Promise.all(hubContexts.map(context => context.close()));
   } finally { await browser.close(); server.kill('SIGTERM'); }
 })().catch(error => { console.error(error); process.exitCode = 1; });
