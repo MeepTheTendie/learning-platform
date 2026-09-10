@@ -12,7 +12,7 @@ const { spawn } = require('node:child_process');
   await ready;
   const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_BIN || (require('fs').existsSync('/usr/bin/chromium') ? '/usr/bin/chromium' : undefined), headless: true, args: ['--no-sandbox'] });
   try {
-    for (const [app, port, title, activityCount] of [['english', 19002, 'The sentence', 3], ['history', 19001, 'Rivers, cities', 4], ['philosophy', 19003, 'What makes a reason', 3]]) {
+    for (const [app, port, title, activityCount] of [['english', 19002, 'The sentence', 3], ['history', 19001, 'Rivers, cities', 4], ['philosophy', 19003, 'What makes a reason', 4]]) {
       const page = await browser.newPage();
       const errors = [];
       page.on('pageerror', error => errors.push(error.message));

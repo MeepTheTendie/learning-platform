@@ -4,6 +4,27 @@
   "subject": "philosophy",
   "title": "What makes a reason good?",
   "objective": "Distinguish a conclusion from its reasons and reconstruct an argument fairly before objecting to it.",
+  "lesson": {
+    "opening": "A good objection starts by understanding an argument on its own terms. Separate the conclusion from its reasons, make hidden assumptions visible, and then test the steps that connect them.",
+    "sections": [
+      {
+        "heading": "Find the conclusion",
+        "body": "The conclusion is the claim an argument wants you to accept. Premises are the reasons offered in its support. Words such as therefore, so, and this shows can signal the conclusion, but the role of each sentence matters more than the signal word."
+      },
+      {
+        "heading": "Reconstruct fairly",
+        "body": "Put the argument into premise–conclusion form using the strongest reasonable version of each claim. A fair reconstruction makes disagreement clearer because it avoids attacking a weaker version of the view."
+      },
+      {
+        "heading": "Expose assumptions",
+        "body": "Arguments often rely on a bridge that is not stated. Ask what must be true for the premises to support the conclusion. Naming that assumption gives you a precise point to examine."
+      },
+      {
+        "heading": "Object with a test",
+        "body": "A counterexample challenges whether a general claim always holds. A direct objection can challenge a premise or the connection between premises and conclusion. Explain exactly which step is under pressure."
+      }
+    ]
+  },
   "sources": ["apps/philosophy/public/content/curriculum.json#f1", "https://iep.utm.edu/argument/"],
   "activities": [
     {
@@ -27,6 +48,13 @@
       "prompt": "Give a counterexample that challenges your reconstructed argument without merely disagreeing with its conclusion.",
       "instructions": "Explain which premise or hidden assumption the counterexample puts under pressure.",
       "rubric": ["gives a relevant case", "connects it to a premise or assumption"]
+    },
+    {
+      "id": "direct-objection",
+      "type": "short-answer",
+      "prompt": "Write one direct objection to your reconstructed argument and identify the exact premise or inference it challenges.",
+      "instructions": "State the objection precisely, then explain why it matters for the conclusion.",
+      "rubric": ["targets a specific step", "explains the consequence"]
     }
   ]
 }
