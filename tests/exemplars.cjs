@@ -192,11 +192,17 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       await node.locator('[data-check]').click();
       await passed(libA);
       await saved(libA);
+      // The lesson can be marked complete, and that state syncs.
+      await libA.locator('[data-complete-card] [data-complete-toggle]').click();
+      await libA.waitForFunction(({ storageKey, lessonId }) => JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.completed === true, { storageKey: key, lessonId: lesson.id }, { timeout: 10000 });
+      assert.ok((await libA.locator('[data-complete-card]').textContent()).includes('Lesson complete'), `${app} shows lesson completion`);
+      await saved(libA);
       const reflection = lesson.activities.find(activity => activity.type === 'short-answer');
       assert.equal(await libA.locator(`[data-response-id="${lesson.id}:${reflection.id}"] .activity-context`).count(), 1, `${app} reflection shows a passage`);
       await libB.goto(url + `#lessons/${sample}`);
       await libB.waitForSelector('[data-response-id]');
       await passed(libB);
+      await libB.waitForFunction(({ storageKey, lessonId }) => JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.completed === true, { storageKey: key, lessonId: lesson.id }, { timeout: 15000 });
       assert.deepEqual(errors, []);
       console.log('PASS lesson library', app);
       await Promise.all(contexts.map(context => context.close()));

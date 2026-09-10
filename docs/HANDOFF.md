@@ -183,3 +183,13 @@ Deployed:
 - Verified: `npm run health` passes for preview and production; all existing apps unchanged.
 
 Remaining: Geography shares the `learning-progress-sync` database (separate `geography-atlas` row). The owner pairs Geography once per device using the links in the private file.
+
+## Lesson completion — 2026-09-10
+
+Owner reported finishing a Geography lesson with no way to mark it complete. Added to the shared lesson view:
+
+- A **Lesson status** card with a **Mark lesson complete / Mark as not complete** toggle.
+- Automatic completion when every quick check passes.
+- Completion state is stored in the canonical synced record (`exemplars[lessonId].completed`), so it syncs and survives reloads; the guided-lessons list shows a ✓ and "completed" per finished lesson.
+
+Deployed to all four previews and all four production apps this turn (completion is shared code). Verified with the browser tests, which now assert the toggle, persistence and cross-device sync. Production health passes.

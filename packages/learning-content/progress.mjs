@@ -57,6 +57,7 @@ export function sanitizeExemplarProgress(raw) {
       }
     }
     if (Number.isFinite(record.points)) entry.points = Math.max(0, Math.min(1000000, Math.floor(record.points)));
+    if (record.completed === true) entry.completed = true;
     if (isObject(record.awarded)) {
       const awarded = {};
       for (const key of Object.keys(record.awarded)) if (safeKey(key) && record.awarded[key] === true) awarded[key] = true;

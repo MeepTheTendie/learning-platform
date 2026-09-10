@@ -100,6 +100,8 @@ function bindActivity(node, activity, record, target) {
     }
     persist();
     for (const [key, xp] of grants) window.LearningSync?.award?.(key, xp);
+    const recognition = lesson.activities.filter(isRecognition);
+    if (recognition.length && recognition.every(item => record.passed[item.id]) && record.completed !== true) { record.completed = true; persist(); bindCompletion(target, record); }
     const points = target.querySelector('[data-practice-points]');
     if (points) points.textContent = `${record.points || 0} practice points`;
     const attempts = current.attempts[activity.id];
@@ -107,11 +109,21 @@ function bindActivity(node, activity, record, target) {
     node.querySelector('[data-check]').textContent = current.passed[activity.id] ? 'Review again' : 'Check response';
   };
 }
+function completionHTML(record) {
+  const complete = record.completed === true;
+  return `<div class="eyebrow">LESSON STATUS</div>${complete ? '<p><strong>✓ Lesson complete.</strong> Revisit any time — nothing is graded.</p><button data-complete-toggle type="button">Mark as not complete</button>' : '<p class="muted">Pass every quick check to complete this lesson, or mark it done yourself.</p><button data-complete-toggle type="button">Mark lesson complete</button>'}`;
+}
+function bindCompletion(target, record) {
+  const card = target.querySelector('[data-complete-card]');
+  if (!card) return;
+  card.innerHTML = completionHTML(record);
+  card.querySelector('[data-complete-toggle]').onclick = () => { record.completed = record.completed !== true; persist(); bindCompletion(target, record); };
+}
 function renderLibrary() {
   const target = main(); if (!target) return;
   const groups = [];
   for (const item of catalog.lessons) (groups[item.world] ??= []).push(item);
-  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">PHILOSOPHY · GUIDED LESSONS</div><h1>Guided lessons</h1><p>Practise the reasoning from each lesson with quick checks and a tutor. Your other study tools stay exactly where they are.</p></div><a class="button" href="#">Return to app</a></div>${groups.map(items => `<section class="card"><div class="eyebrow">${escapeHTML(items[0].worldTitle || '')}</div>${items.map(item => { const record = exemplarRecord(progress, item.id); const checked = Object.values(record.passed || {}).filter(Boolean).length; return `<a class="lesson-row" href="#lessons/${encodeURIComponent(item.id)}" style="display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid rgba(128,128,128,.35)"><span>${escapeHTML(item.title)}${item.boss ? ' · challenge' : ''}</span><small class="muted">${record.points || 0} pts · ${checked} checked</small></a>`; }).join('')}</section>`).join('')}`;
+  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">PHILOSOPHY · GUIDED LESSONS</div><h1>Guided lessons</h1><p>Practise the reasoning from each lesson with quick checks and a tutor. Your other study tools stay exactly where they are.</p></div><a class="button" href="#">Return to app</a></div>${groups.map(items => `<section class="card"><div class="eyebrow">${escapeHTML(items[0].worldTitle || '')}</div>${items.map(item => { const record = exemplarRecord(progress, item.id); const checked = Object.values(record.passed || {}).filter(Boolean).length; const done = record.completed === true; return `<a class="lesson-row" href="#lessons/${encodeURIComponent(item.id)}" style="display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid rgba(128,128,128,.35)"><span>${done ? '✓ ' : ''}${escapeHTML(item.title)}${item.boss ? ' · challenge' : ''}</span><small class="muted">${done ? 'completed · ' : ''}${record.points || 0} pts · ${checked} checked</small></a>`; }).join('')}</section>`).join('')}`;
   rendered = true;
 }
 function render() {
@@ -123,14 +135,17 @@ function render() {
   const recognition = lesson.activities.filter(isRecognition);
   const reflections = lesson.activities.filter(activity => !isRecognition(activity));
   const passed = recognition.filter(activity => record.passed[activity.id]).length;
+  if (recognition.length && recognition.every(activity => record.passed[activity.id]) && record.completed !== true) { record.completed = true; persist(); }
   const back = catalog ? '<a class="button" href="#lessons">← All lessons</a>' : '<a class="button" href="#">Return to app</a>';
   const recognitionHTML = recognition.length ? `<section class="card exemplar-review"><div class="eyebrow">QUICK CHECKS</div><p class="muted">Recognition first · ${passed}/${recognition.length} passed · <strong data-practice-points>${record.points || 0} practice points</strong>. The lesson stays above; check as often as you like.</p>${recognition.map(activity => activityHTML(activity, record)).join('')}</section>` : '';
   const reflectionHTML = reflections.length ? `<section class="card exemplar-review"><div class="eyebrow">OPTIONAL · IN YOUR OWN WORDS</div><p class="muted">Not required and not timed. If you draw a blank, open <em>Show the passage</em> or re-read the lesson above — that is the point, not a penalty.</p>${reflections.map(activity => activityHTML(activity, record)).join('')}</section>` : '';
-  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">${catalog ? 'GUIDED LESSON' : 'MILESTONE 2 LESSON'}</div><h1>${escapeHTML(lesson.title)}</h1><p>${escapeHTML(lesson.objective)}</p></div>${back}</div>${lessonCopy()}${recognitionHTML}${reflectionHTML}${tutorHTML()}`;
+  const completionCard = '<section class="card exemplar-complete" data-complete-card></section>';
+  target.innerHTML = `<div class="page-heading"><div><div class="eyebrow">${catalog ? 'GUIDED LESSON' : 'MILESTONE 2 LESSON'}</div><h1>${escapeHTML(lesson.title)}</h1><p>${escapeHTML(lesson.objective)}</p></div>${back}</div>${lessonCopy()}${recognitionHTML}${completionCard}${reflectionHTML}${tutorHTML()}`;
   target.querySelectorAll('[data-response-id]').forEach(node => {
     const activity = lesson.activities.find(item => item.responseId === node.dataset.responseId);
     bindActivity(node, activity, record, target);
   });
+  bindCompletion(target, record);
   const form = target.querySelector('[data-tutor-form]');
   if (form) form.onsubmit = event => { event.preventDefault(); sendTutor(); };
   const tutorInput = target.querySelector('[data-tutor-input]');

@@ -60,6 +60,11 @@ test('exemplar sanitization preserves awarded points and drops unsafe award keys
   assert.equal(clean.lesson.awarded.bad, undefined);
 });
 
+test('exemplar sanitization preserves lesson completion only when boolean', () => {
+  assert.equal(sanitizeExemplarProgress({ lesson: { completed: true, responses: {} } }).lesson.completed, true);
+  assert.equal(sanitizeExemplarProgress({ lesson: { completed: 'yes', responses: {} } }).lesson.completed, undefined);
+});
+
 test('exemplarRecord is idempotent for an existing lesson', () => {
   const progress = {};
   const first = exemplarRecord(progress, 'lesson');
