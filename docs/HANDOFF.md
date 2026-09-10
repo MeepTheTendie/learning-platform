@@ -124,3 +124,22 @@ Also this turn: the new sync client restored the legacy pairing control ("Copy p
 Remaining, owner-gated:
 1. Exemplar content review before curriculum expansion (Milestone 2): confirm the multiple-choice mix, tutor behavior, and practice points.
 2. Paid AI overage remains disabled; enabling it needs a new provider/spending agreement.
+
+## Philosophy guided lessons and recognition-first — 2026-09-10
+
+Owner feedback: at the end of a History unit, the free-response prompts "blanked" because the source text is dense and recall after days is hard. The design now expects forgetting rather than treating it as failure.
+
+- `scripts/build-philosophy-lessons.mjs` converts all 13 authored Philosophy lessons into the shared lesson contract under `content/lessons/philosophy/` (choice-heavy with one written reflection each); `tests/content.test.mjs` validates every one.
+- The shared review surface gained a guided lesson library (`#lessons` / `#lessons/<id>`) and the tutor now grounds on the specific lesson file. English and History keep their single exemplar.
+- Lessons render **recognition-first**: quick checks first, then an explicitly optional "in your own words" section. Completion is based on the recognition activities only.
+- Written prompts now carry an optional, no-penalty "Show the passage" (source context at recall). History's unit prompts were relabeled optional and gained a "Re-read a passage from this unit" button.
+- Owner chose recognition-first and source-context-at-recall; chunking dense text and fuller spaced review remain open.
+
+Deployed this turn:
+- Previews: English `4988264e-05b9-4295-a681-a1277d0541e0`, History `a5a1d62e-1c47-4407-adee-2922cff82ff9`, Philosophy `01676c4c-384b-4e9a-bb17-4b6e77cdc2e1`.
+- Production: grammar-reader `4e92e0b4-0db5-4444-9b2d-50c9cff87ef0`, history-atlas `928f8d31-205a-44b2-901f-f249a184260f`, philosophy-scholar `6e8f14a9-fc85-4949-9110-427234088c6e`.
+- Verified: production health passes and `content/lessons/philosophy/index.json` serves all 13 lessons.
+
+Remaining, owner-gated:
+1. Continue content expansion (History and English) in the same recognition-first format.
+2. Paid AI overage remains disabled.
