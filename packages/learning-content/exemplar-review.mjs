@@ -215,12 +215,17 @@ async function start() {
     localStorage.removeItem(legacyAnswersKey);
     localStorage.removeItem(legacyReviewKey);
   }
-  const host = document.querySelector('.top-tools,.header-tools,.tools,header');
+  const host = document.querySelector('.top-tools,.header-tools,.tools') || document.querySelector('header');
   if (host && !host.querySelector('[data-exemplar-link]')) {
     const link = document.createElement('a'); link.href = catalog ? '#lessons' : '#exemplar'; link.dataset.exemplarLink = ''; link.className = 'button';
     link.textContent = catalog ? 'Guided lessons' : (exemplar?.lesson ? 'Start lesson' : 'Review exemplar');
     host.append(link);
   }
+  // Keep the app header from overflowing on small screens now that it carries
+  // the guided-lessons link.
+  const style = document.createElement('style');
+  style.textContent = '@media (max-width: 720px){header,.topbar{height:auto;min-height:70px;flex-wrap:wrap;row-gap:6px;column-gap:10px;padding-top:8px;padding-bottom:8px}}';
+  document.head.append(style);
   addEventListener('hashchange', handleHash);
   addEventListener('learning-sync:applied', () => {
     const hash = location.hash || '';
