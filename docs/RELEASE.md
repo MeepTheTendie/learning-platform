@@ -12,6 +12,8 @@ This is the runbook for building, validating, deploying, backing up and restorin
 
 Previews use Cloudflare Access (owner-email only) and the separate `learning-platform-preview` D1 database. Production still uses the legacy pairing key and the `learning-progress-sync` database.
 
+Account resources (all intentional): six Workers — production `grammar-reader`, `history-atlas`, `philosophy-scholar`; previews `learning-english-preview`, `learning-history-preview`, `learning-philosophy-preview` — and two D1 databases, `learning-progress-sync` and `learning-platform-preview`. The previews are the staging environment and should be kept.
+
 ## Prerequisites
 
 - Node 22.16 or later.
