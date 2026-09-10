@@ -15,7 +15,7 @@ Approved by the user on 2026-09-09. Deliver in three milestones with tested comm
 - [x] Test cross-device edits, offline recovery, and isolated migration/rollback rehearsal. Live two-device sign-in acceptance is waived for this milestone by the user; retain the production gate for any real migration.
 
 ## Milestone 2 — interactive learning
-- [ ] Shared validated content format and exercise components.
+- [x] Shared validated content format and exercise components (first version; app integration follows exemplar review).
 - [ ] One complete English chapter: inline grammar, editing, writing, hints and revisions.
 - [ ] One History unit: chronology, causal reasoning, evidence and source comparison.
 - [ ] One Philosophy lesson: argument reconstruction, objections and counterexamples.

@@ -40,3 +40,6 @@ Stable sync operation IDs, English and Philosophy reading positions, and the iso
 - Philosophy version: `0cf679f7-f36c-4411-a746-72dd650bce25`
 
 The deploy output confirmed each preview was built from the local `dist/` assets and bound to `learning-platform-preview`; no production Worker or D1 binding was targeted. The remaining production-gated actions are a fresh backup immediately before cutover, final live provenance review, and an explicit decision to migrate production.
+
+## Milestone 2 started
+The shared content contract and first exercise renderer are in `packages/learning-content`. Reviewable exemplars are in `content/exemplars/` for English sentence structure, History early cities, and Philosophy argument reconstruction. They validate in `tests/content.test.mjs` and are intentionally not wired into the live curriculum until content direction is approved.

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "philosophy-reasons-exemplar",
+  "subject": "philosophy",
+  "title": "What makes a reason good?",
+  "objective": "Distinguish a conclusion from its reasons and reconstruct an argument fairly before objecting to it.",
+  "sources": ["apps/philosophy/public/content/curriculum.json#f1", "https://iep.utm.edu/argument/"],
+  "activities": [
+    {
+      "id": "argument-parts",
+      "type": "choice",
+      "prompt": "In an argument, what is the claim that the reasons are offered to support?",
+      "choices": ["The conclusion", "The example", "The source", "The objection"],
+      "answer": 0,
+      "hint": "It is the proposition the speaker wants you to accept."
+    },
+    {
+      "id": "reconstruct-reason",
+      "type": "short-answer",
+      "prompt": "Reconstruct one everyday argument in premise–conclusion form, then state one assumption it relies on.",
+      "instructions": "Be fair to the argument before you criticize it.",
+      "rubric": ["identifies premises", "identifies a conclusion", "names an assumption"]
+    },
+    {
+      "id": "counterexample",
+      "type": "short-answer",
+      "prompt": "Give a counterexample that challenges your reconstructed argument without merely disagreeing with its conclusion.",
+      "instructions": "Explain which premise or hidden assumption the counterexample puts under pressure.",
+      "rubric": ["gives a relevant case", "connects it to a premise or assumption"]
+    }
+  ]
+}

@@ -6,6 +6,7 @@ Three independent Cloudflare apps with shared progress code and build tooling.
 - `apps/history`: history-atlas, including restored book illustrations
 - `apps/philosophy`: philosophy-scholar
 - `packages/progress`: shared Worker, browser sync and merge logic
+- `packages/learning-content`: validated lesson contract and exercise renderer
 - `scripts/build-app.mjs`: common asset packaging
 - `docs/`: approved plan, audit and current handoff
 
@@ -24,3 +25,7 @@ Run `npm run test:browser` for two isolated browser profiles per subject against
 `npm run preview -- english` (or `history` / `philosophy`) builds and deploys that subject using its preview config. Add `--dry-run` to check packaging. The script refuses production Worker names and shared production database IDs. Preview uses the separate `learning-platform-preview` database and owner-only Cloudflare Access.
 
 Preview URLs: `https://learning-{english,history,philosophy}-preview.history-atlas.workers.dev/`. Sign in with the account owner's email. These previews have separate progress from production; do not treat test marks there as migrated production progress.
+
+## Milestone 2 content review
+
+The first reviewable lesson exemplars are in `content/exemplars/`. They use the shared contract in `packages/learning-content`; each activity has a stable response ID, prompt, response shape, and optional rubric. They are drafts for review and do not replace the existing app curriculum until approved.

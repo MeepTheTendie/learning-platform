@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "id": "history-cities-exemplar",
+  "subject": "history",
+  "title": "Rivers, cities, and the first states",
+  "objective": "Connect settlement, surplus, specialized work, records, and authority while separating evidence from inference.",
+  "sources": ["apps/history/public/course.js#cities", "apps/history/public/sources/myers.html"],
+  "activities": [
+    {
+      "id": "river-comparison",
+      "type": "short-answer",
+      "prompt": "Compare one advantage and one constraint of the Nile and Tigris–Euphrates settings.",
+      "instructions": "Use a concrete environmental feature and explain how it could affect organized work.",
+      "rubric": ["uses evidence", "explains a consequence", "compares both settings"]
+    },
+    {
+      "id": "institutional-sequence",
+      "type": "sequence",
+      "prompt": "Arrange this account from material condition to political consequence.",
+      "items": ["record keeping", "agricultural surplus", "coordinated labor", "specialized work"],
+      "answer": [1, 3, 2, 0],
+      "instructions": "Treat this as a reasoned model, not a claim that every city followed one automatic path."
+    },
+    {
+      "id": "evidence-boundary",
+      "type": "short-answer",
+      "prompt": "Which link in your account is an inference rather than a directly observed fact, and what evidence could test it?",
+      "instructions": "Name the inference and propose one kind of surviving evidence.",
+      "rubric": ["labels an inference", "proposes testable evidence"]
+    }
+  ]
+}

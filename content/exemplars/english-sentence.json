@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "id": "english-sentence-exemplar",
+  "subject": "english",
+  "title": "The sentence: subject, action, and meaning",
+  "objective": "Identify the complete subject and predicate, then explain how a sentence makes its meaning clear.",
+  "sources": ["apps/english/public/index.html#the-sentence"],
+  "activities": [
+    {
+      "id": "identify-subject",
+      "type": "choice",
+      "prompt": "In “Patient effort removes mountains,” which words form the complete subject?",
+      "choices": ["Patient effort", "removes mountains", "effort removes", "mountains"],
+      "answer": 0,
+      "hint": "Ask who or what the sentence is about."
+    },
+    {
+      "id": "explain-predicate",
+      "type": "short-answer",
+      "prompt": "Explain what the predicate adds to the subject in the example sentence.",
+      "instructions": "Write one or two sentences using the words subject and predicate.",
+      "rubric": ["names the predicate", "explains the action or claim"]
+    },
+    {
+      "id": "repair-fragment",
+      "type": "edit",
+      "prompt": "Turn this fragment into a complete sentence: “After the long climb.”",
+      "source": "After the long climb.",
+      "instructions": "Add a subject and a predicate while keeping the original idea.",
+      "rubric": ["has a subject", "has a predicate", "keeps the meaning"]
+    }
+  ]
+}
