@@ -1,9 +1,9 @@
 export const KEY='philosophy-scholar-v1';
 export const today=(date=new Date())=>`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
-export const fresh=()=>({app:'philosophy-scholar',version:1,current:'f1',lessons:{},xp:0,awards:{},mastery:{},reviews:{},reviewLog:[],notes:[],bookmarks:[],revisit:[],daily:{},settings:{theme:'light',font:21,scholar:false},debates:{},noteDraft:{text:'',lesson:'f1',type:'note'},readingPositions:{},exemplars:{}});
+export const fresh=()=>({app:'philosophy-scholar',version:1,current:'f1',lessons:{},xp:0,awards:{},mastery:{},reviews:{},reviewLog:[],notes:[],bookmarks:[],revisit:[],daily:{},settings:{theme:'light',font:21,scholar:false},debates:{},noteDraft:{text:'',lesson:'f1',type:'note'},readingPositions:{},exemplars:{},tutor:{}});
 const obj=x=>x&&typeof x==='object'&&!Array.isArray(x);
 const safeKey=k=>!['__proto__','constructor','prototype'].includes(k);
-const cleanExemplars=raw=>{const out={};if(!obj(raw))return out;for(const [id,record] of Object.entries(raw)){if(!safeKey(id)||id.length>=200||!obj(record))continue;out[id]=JSON.parse(JSON.stringify(record),(key,value)=>safeKey(key)?value:undefined)}return out};
+const cleanMap=raw=>{const out={};if(!obj(raw))return out;for(const [id,record] of Object.entries(raw)){if(!safeKey(id)||id.length>=200||!obj(record))continue;out[id]=JSON.parse(JSON.stringify(record),(key,value)=>safeKey(key)?value:undefined)}return out};
 const bounded=(x,max=100000)=>typeof x==='string'?x.slice(0,max):'';
 export function validate(raw,ids){
  if(!obj(raw)||raw.app!=='philosophy-scholar'||raw.version!==1)throw Error('Choose a Philosophy Scholar version 1 JSON backup.');
@@ -23,7 +23,8 @@ export function validate(raw,ids){
  s.reviews=Object.fromEntries(Object.entries(s.reviews).filter(([id,r])=>ids.includes(id)&&Number.isFinite(r.due)&&Number.isFinite(r.interval)).map(([id,r])=>[id,{due:r.due,interval:Math.max(1,Math.min(365,r.interval)),count:Math.max(0,Math.floor(r.count)||0)}]));
  s.daily=Object.fromEntries(Object.entries(s.daily).filter(([d])=>/^\d{4}-\d{2}-\d{2}$/.test(d)).map(([d,v])=>[d,{xp:Math.max(0,Number(v.xp)||0),seconds:Math.max(0,Number(v.seconds)||0),lessons:Array.isArray(v.lessons)?v.lessons.filter(id=>ids.includes(id)):[],readings:Array.isArray(v.readings)?v.readings.filter(id=>ids.includes(id)):[],words:Math.max(0,Number(v.words)||0)}]));
  s.mastery=Object.fromEntries(Object.entries(s.mastery).filter(([,v])=>Number.isFinite(v.correct)&&Number.isFinite(v.total)).map(([k,v])=>[k,{correct:Math.max(0,v.correct),total:Math.max(v.correct,v.total,0),updated:Number(v.updated)||0}]));
- s.exemplars=cleanExemplars(raw.exemplars);
+ s.exemplars=cleanMap(raw.exemplars);
+ s.tutor=cleanMap(raw.tutor);
  return s;
 }
 export function createStore(ids,storage=localStorage){let state=fresh(),error=null;

@@ -12,7 +12,13 @@
   ],
   "vars": {
     "APP_ID": "grammar-reader",
-    "STORAGE_KEY": "grammar-room-v1"
+    "STORAGE_KEY": "grammar-room-v1",
+    "TUTOR_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8",
+    "TUTOR_DAILY_LIMIT": "40",
+    "TUTOR_ENABLED": "true"
+  },
+  "ai": {
+    "binding": "AI"
   },
   "observability": {
     "enabled": true,

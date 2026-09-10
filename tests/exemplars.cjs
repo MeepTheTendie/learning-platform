@@ -36,7 +36,7 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       for (const page of [a, b]) page.on('pageerror', error => errors.push(error.message));
       const url = `http://127.0.0.1:${port}/`;
       const readState = page => page.evaluate(storageKey => JSON.parse(localStorage.getItem(storageKey)), key);
-      const saved = page => page.waitForFunction(() => document.querySelector('[data-learning-sync] summary')?.textContent === 'Saved', null, { timeout: 15000 });
+      const saved = page => page.waitForFunction(() => (document.querySelector('[data-learning-sync] summary')?.textContent || '').startsWith('Saved'), null, { timeout: 15000 });
 
       await a.goto(url + '#exemplar');
       await a.waitForSelector('[data-response-id]');
@@ -73,21 +73,44 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       // Independent lesson edits made offline and online merge on reconnect.
       if (app === 'english') {
         const [, second, third] = lesson.activities;
-        const offline = 'Offline answer written on the second device with concrete evidence.';
-        const online = 'Answer written on the first device while the second was offline.';
+        const fill = activity => activity.type === 'choice' ? '0' : activity.type === 'sequence' ? activity.answer.map(value => value + 1).join(', ') : `Independent answer for ${activity.id} with enough words to pass.`;
+        const expected = activity => activity.type === 'sequence' ? activity.answer : fill(activity);
+        const setActivity = async (page, activity, value) => {
+          const node = page.locator(`[data-response-id="${lesson.id}:${activity.id}"]`);
+          if (activity.type === 'choice') await node.locator(`input[value="${value}"]`).check();
+          else if (activity.type === 'sequence') await node.locator('[data-sequence]').fill(value);
+          else await node.locator('textarea').fill(value);
+        };
+        const secondValue = fill(second), thirdValue = fill(third);
         await contexts[1].setOffline(true);
-        await b.locator(`[data-response-id="${lesson.id}:${second.id}"] textarea`).fill(offline);
-        await a.locator(`[data-response-id="${lesson.id}:${third.id}"] textarea`).fill(online);
+        await setActivity(b, second, secondValue);
+        await setActivity(a, third, thirdValue);
         await saved(a);
         await contexts[1].setOffline(false);
         await b.evaluate(() => LearningSync.syncNow());
-        await b.waitForFunction(({ storageKey, lessonId, second, third, offline, online }) => {
-          const state = JSON.parse(localStorage.getItem(storageKey) || '{}');
-          const responses = state.exemplars?.[lessonId]?.responses || {};
-          return responses[second] === offline && responses[third] === online;
-        }, { storageKey: key, lessonId: lesson.id, second: second.id, third: third.id, offline, online }, { timeout: 15000 });
+        await b.waitForFunction(({ storageKey, lessonId, second, secondValue, third, thirdValue }) => {
+          const responses = JSON.parse(localStorage.getItem(storageKey) || '{}').exemplars?.[lessonId]?.responses || {};
+          return JSON.stringify(responses[second]) === secondValue && JSON.stringify(responses[third]) === thirdValue;
+        }, { storageKey: key, lessonId: lesson.id, second: second.id, secondValue: JSON.stringify(expected(second)), third: third.id, thirdValue: JSON.stringify(expected(third)) }, { timeout: 15000 });
         console.log('PASS exemplar offline merge', app);
       }
+
+      // The grounded tutor saves the exchange in canonical state and syncs it.
+      await b.locator('[data-tutor-input]').fill('Why does the subject matter here?');
+      await b.locator('[data-tutor-form] button[type=submit]').click();
+      await b.waitForFunction(({ storageKey, lessonId }) => {
+        const messages = JSON.parse(localStorage.getItem(storageKey) || '{}').tutor?.[lessonId]?.messages || [];
+        return messages.some(message => message.role === 'assistant' && /what makes you say that/i.test(message.content));
+      }, { storageKey: key, lessonId: lesson.id }, { timeout: 15000 });
+      await saved(b);
+      const tutorThread = (await readState(b)).tutor[lesson.id].messages;
+      assert.ok(tutorThread.some(message => message.role === 'user' && /subject matter/.test(message.content)), `${app} tutor saved the question`);
+      await a.evaluate(() => LearningSync.syncNow());
+      await a.waitForFunction(({ storageKey, lessonId }) => {
+        const messages = JSON.parse(localStorage.getItem(storageKey) || '{}').tutor?.[lessonId]?.messages || [];
+        return messages.some(message => message.role === 'assistant');
+      }, { storageKey: key, lessonId: lesson.id }, { timeout: 15000 });
+      console.log('PASS exemplar tutor', app);
 
       // Sequence answers round-trip 1-based input to a 0-based stored answer.
       const sequence = lesson.activities.find(activity => activity.type === 'sequence');

@@ -16,7 +16,13 @@
     "AUTH_MODE": "access",
     "ACCESS_ISSUER": "https://meep-learning.cloudflareaccess.com",
     "ACCESS_AUD": "3daa311318c0dc5e77b5cefe48c7791af010302a122dbf047e5600ca8b0a8a3b",
-    "OWNER_EMAIL": "wesleympennock@gmail.com"
+    "OWNER_EMAIL": "wesleympennock@gmail.com",
+    "TUTOR_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8",
+    "TUTOR_DAILY_LIMIT": "40",
+    "TUTOR_ENABLED": "true"
+  },
+  "ai": {
+    "binding": "AI"
   },
   "observability": {
     "enabled": true,

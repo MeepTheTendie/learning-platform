@@ -24432,7 +24432,7 @@ across the page break; the transcriber omitted duplicate note.]</li>
 </template>
 <script src="daily-reading.js"></script>
 <script>
-const $=s=>document.querySelector(s),key='grammar-room-v1';let state;try{state=JSON.parse(localStorage.getItem(key))||{}}catch{state={}}state.wins ||= [];state.days ||= [];state.notes ||= {};state.done ||= [];state.saved ||= [];state.positions ||= {};state.exemplars ||= {};let tab='read',sections=[],anchors=new Map(),current=0,group='Opening pages';
+const $=s=>document.querySelector(s),key='grammar-room-v1';let state;try{state=JSON.parse(localStorage.getItem(key))||{}}catch{state={}}state.wins ||= [];state.days ||= [];state.notes ||= {};state.done ||= [];state.saved ||= [];state.positions ||= {};state.exemplars ||= {};state.tutor ||= {};let tab='read',sections=[],anchors=new Map(),current=0,group='Opening pages';
 function save(){try{localStorage.setItem(key,JSON.stringify(state));window.LearningSync?.changed();const status=$('#status');if(status)status.textContent='Saved on this device'}catch{$('#status')&&($('#status').textContent='Browser storage unavailable. Export your notebook to keep your writing.')}}
 const book=$('#book').content;
 function titleCase(t){return t.replace(/\s+/g,' ').trim().toLowerCase().replace(/(^|[\s—])\p{L}/gu,c=>c.toUpperCase())}

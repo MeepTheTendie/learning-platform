@@ -25,7 +25,7 @@ Approved by the user on 2026-09-09. Deliver in three milestones with tested comm
 - [x] Preserve useful existing exercises and book illustrations (verified; features listed in RELEASE.md).
 
 ## Milestone 3 — feedback and hardening
-- [ ] Optional grounded AI feedback with explicit provider/spending agreement before paid calls.
+- [x] Optional grounded AI feedback with explicit provider/spending agreement before paid calls (Cloudflare Workers AI free tier, grounded tutor, per-day cap; paid overage still requires a new agreement).
 - [x] Continue learning and mistake-based review, reusing existing features where useful (existing spaced review, practice and self-assessment kept; see RELEASE.md).
 - [x] Monitoring, automated backup, restoration drill and release documentation.
 

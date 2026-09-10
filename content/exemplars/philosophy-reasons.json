@@ -36,25 +36,43 @@
       "hint": "It is the proposition the speaker wants you to accept."
     },
     {
-      "id": "reconstruct-reason",
-      "type": "short-answer",
-      "prompt": "Reconstruct one everyday argument in premise–conclusion form, then state one assumption it relies on.",
-      "instructions": "Be fair to the argument before you criticize it.",
-      "rubric": ["identifies premises", "identifies a conclusion", "names an assumption"]
+      "id": "identify-premise",
+      "type": "choice",
+      "prompt": "Which sentence states a reason offered in support of a conclusion?",
+      "choices": ["The pavement is wet, so it rained.", "It rained, so the pavement is wet.", "It rained and the pavement is wet.", "The pavement is wet."],
+      "answer": 0,
+      "hint": "The reason is the evidence; the conclusion is what it is meant to establish."
     },
     {
-      "id": "counterexample",
-      "type": "short-answer",
-      "prompt": "Give a counterexample that challenges your reconstructed argument without merely disagreeing with its conclusion.",
-      "instructions": "Explain which premise or hidden assumption the counterexample puts under pressure.",
-      "rubric": ["gives a relevant case", "connects it to a premise or assumption"]
+      "id": "hidden-assumption",
+      "type": "choice",
+      "prompt": "What is a hidden assumption in an argument?",
+      "choices": ["A bridge that must be true for the premises to support the conclusion", "A fact that everyone already accepts", "The conclusion restated in different words", "The strongest objection to the argument"],
+      "answer": 0,
+      "hint": "Ask what is left unstated between the reasons and the conclusion."
     },
     {
-      "id": "direct-objection",
+      "id": "counterexample-role",
+      "type": "choice",
+      "prompt": "What does a counterexample test?",
+      "choices": ["Whether a general claim always holds", "Whether the speaker is sincere", "Whether the conclusion is popular", "Whether the argument is long enough"],
+      "answer": 0,
+      "hint": "A single relevant case can challenge a universal claim."
+    },
+    {
+      "id": "fair-reconstruction",
+      "type": "choice",
+      "prompt": "Why reconstruct an argument in its strongest reasonable form before objecting?",
+      "choices": ["So the disagreement targets the real view, not a weaker version", "So you can avoid stating your own view", "So the argument becomes impossible to criticize", "So you can agree with it immediately"],
+      "answer": 0,
+      "hint": "Charity in reconstruction makes criticism more accurate."
+    },
+    {
+      "id": "reflect-reason",
       "type": "short-answer",
-      "prompt": "Write one direct objection to your reconstructed argument and identify the exact premise or inference it challenges.",
-      "instructions": "State the objection precisely, then explain why it matters for the conclusion.",
-      "rubric": ["targets a specific step", "explains the consequence"]
+      "prompt": "In your own words, explain what makes a reason support a conclusion, using one example.",
+      "instructions": "State the reason and the conclusion, then say what has to be true for the reason to work.",
+      "rubric": ["states a reason", "states a conclusion", "explains the link"]
     }
   ]
 }

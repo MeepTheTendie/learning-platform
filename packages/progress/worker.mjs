@@ -22,6 +22,62 @@ export async function readBody(request) {
 }
 const snapshot=row=>row?{revision:Number(row.revision),state:JSON.parse(row.state_json),updatedAt:Number(row.updated_at)}:{revision:0,state:null,updatedAt:null};
 async function current(env){return snapshot(await env.PROGRESS_DB.prepare('SELECT revision,state_json,updated_at FROM progress WHERE app_id = ?').bind(env.APP_ID).first());}
+const TUTOR_LESSON={'grammar-reader':'english','history-atlas':'history','philosophy-scholar':'philosophy'};
+const TUTOR_MAX_MESSAGES=20, TUTOR_MAX_CHARS=4000, TUTOR_MAX_TOTAL=20000, TUTOR_MAX_MATERIAL=6000;
+function tutorMessages(raw){
+  if(!Array.isArray(raw)||raw.length<1||raw.length>TUTOR_MAX_MESSAGES)throw {status:400,error:'invalid_messages'};
+  let total=0;
+  return raw.map(message=>{
+    const role=message?.role, content=typeof message?.content==='string'?message.content.trim():'';
+    if(role!=='user'&&role!=='assistant')throw {status:400,error:'invalid_messages'};
+    if(!content||content.length>TUTOR_MAX_CHARS)throw {status:400,error:'invalid_messages'};
+    total+=content.length; if(total>TUTOR_MAX_TOTAL)throw {status:400,error:'invalid_messages'};
+    return {role,content};
+  });
+}
+async function tutorMaterial(request,env){
+  const subject=TUTOR_LESSON[env.APP_ID];
+  if(!subject)return null;
+  try{
+    const response=await env.ASSETS.fetch(new Request(new URL(`/content/exemplars/${subject}.json`,request.url)));
+    if(!response.ok)return null;
+    const lesson=await response.json();
+    const material=[lesson.title,lesson.objective,lesson.lesson?.opening,...(lesson.lesson?.sections||[]).map(section=>`${section.heading}: ${section.body}`),...lesson.activities.map(activity=>activity.prompt)].filter(Boolean).join('\n').slice(0,TUTOR_MAX_MATERIAL);
+    return {title:lesson.title,material};
+  }catch{return null;}
+}
+function tutorSystem(lesson){
+  return `You are a patient Socratic tutor inside a study app, helping with the lesson "${lesson.title}". Use only the lesson material below and keep the learner thinking.\n\nLesson material:\n${lesson.material}\n\nRules: stay on this lesson; never invent facts outside it; keep replies under 120 words; ask one short question back when it helps; encourage the learner's own reasoning; do not claim to grade work or give an official answer key. If asked about something outside the lesson, say you can only help with this lesson.`;
+}
+async function bumpTutorUsage(env){
+  const day=new Date().toISOString().slice(0,10);
+  const row=await env.PROGRESS_DB.prepare('INSERT INTO tutor_usage (app_id,day,messages) VALUES (?,?,1) ON CONFLICT(app_id,day) DO UPDATE SET messages=messages+1 RETURNING messages').bind(env.APP_ID,day).first();
+  return Number(row?.messages)||0;
+}
+async function tutor(request,env,url){
+  if(request.method!=='POST')return json({error:'method'},405);
+  if(!await authorized(request,env))return json({error:'unauthorized'},401);
+  if(request.headers.get('origin')&&request.headers.get('origin')!==url.origin)return json({error:'origin'},403);
+  if(env.TUTOR_ENABLED==='false')return json({error:'tutor_disabled'},503);
+  if(!env.AI)return json({error:'ai_unavailable'},503);
+  try{
+    const body=await readBody(request);
+    const messages=tutorMessages(body?.messages);
+    const lesson=await tutorMaterial(request,env);
+    if(!lesson)return json({error:'lesson_unavailable'},503);
+    const limit=Number(env.TUTOR_DAILY_LIMIT)||40;
+    const used=await bumpTutorUsage(env);
+    if(used>limit)return json({error:'daily_limit',limit},429);
+    const result=await env.AI.run(env.TUTOR_MODEL||'@cf/meta/llama-3.1-8b-instruct-fp8',{messages:[{role:'system',content:tutorSystem(lesson)},...messages],max_tokens:400,temperature:0.4});
+    const reply=typeof result?.response==='string'?result.response.trim():'';
+    if(!reply)return json({error:'empty_response'},502);
+    return json({reply,remaining:Math.max(0,limit-used)});
+  }catch(error){
+    if(error?.status)return json({error:error.error},error.status);
+    console.error(JSON.stringify({event:'tutor_failure',app:env.APP_ID}));
+    return json({error:'tutor_unavailable'},503);
+  }
+}
 export default {
  async fetch(request,env) {
   const url=new URL(request.url);
@@ -31,6 +87,7 @@ export default {
     copy.headers.set('cache-control','no-store');return copy;
   }
   if(!url.pathname.startsWith('/api/'))return env.ASSETS.fetch(request);
+  if(url.pathname==='/api/tutor')return tutor(request,env,url);
   // Legacy beacons do not carry a revision. Never allow them to overwrite a
   // newer snapshot; old tabs retain their local copy until refreshed.
   if(url.pathname==='/api/progress-beacon')return json({error:'refresh_required'},409);

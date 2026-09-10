@@ -6,8 +6,8 @@ const root=new URL('../apps/',import.meta.url).pathname.replace(/\/$/,'');
 for(const [i,app] of ['history','english','philosophy'].entries()) {
  const config=JSON.parse(fs.readFileSync(`${root}/${app}/wrangler.jsonc`));
  const worker=(await import(`${root}/${app}/src/worker.mjs`)).default;
- const db=new DatabaseSync(':memory:');db.exec(fs.readFileSync(`${root}/${app}/migrations/0001_progress.sql`,'utf8'));
- const env={...config.vars,SYNC_KEY_HASH:Buffer.from(await crypto.subtle.digest('SHA-256',new TextEncoder().encode('a'.repeat(64)))).toString('hex'),PROGRESS_DB:{prepare(sql){return {bind(...params){return {async first(){return db.prepare(sql).get(...params)||null;}}}}}},ASSETS:{async fetch(request){
+ const db=new DatabaseSync(':memory:');for(const file of fs.readdirSync(`${root}/${app}/migrations`).sort())db.exec(fs.readFileSync(`${root}/${app}/migrations/${file}`,'utf8'));
+ const env={...config.vars,SYNC_KEY_HASH:Buffer.from(await crypto.subtle.digest('SHA-256',new TextEncoder().encode('a'.repeat(64)))).toString('hex'),PROGRESS_DB:{prepare(sql){return {bind(...params){return {async first(){return db.prepare(sql).get(...params)||null;}}}}}},AI:{async run(){return {response:'Good question — what makes you say that?'}}},ASSETS:{async fetch(request){
   const pathname=decodeURIComponent(new URL(request.url).pathname);
   const file=path.resolve(`${root}/${app}/dist`,'.'+(pathname==='/'?'/index.html':pathname));
   if(!file.startsWith(`${root}/${app}/dist/`)||!fs.existsSync(file)||!fs.statSync(file).isFile())return new Response('Not found',{status:404});

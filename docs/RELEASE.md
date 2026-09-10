@@ -44,8 +44,9 @@ Production migration requires an explicit decision from the owner. Do not run th
 2. Refresh the production backup immediately before cutover: `npm run backup`.
 3. Verify the backup: `npm run restore-drill`.
 4. Review live provenance and confirm the current production data, URLs and History illustrations are preserved.
-5. Deploy production with the app's `deploy` script, which checks the `SYNC_KEY_HASH` secret before building.
-6. Sign in on two devices and confirm progress appears on both.
+5. Apply any new D1 migrations to production, for example: `npx wrangler d1 execute learning-progress-sync --remote --file=apps/english/migrations/0002_tutor.sql`.
+6. Deploy production with the app's `deploy` script, which checks the `SYNC_KEY_HASH` secret before building.
+7. Sign in on two devices and confirm progress appears on both.
 
 ### Rollback
 
@@ -87,4 +88,10 @@ Exemplar lesson answers, attempts and completion now live in each app's canonica
 
 ## Paid AI feedback
 
-Grounded AI feedback is optional and remains gated: no provider is configured and no paid calls are made until the owner agrees on a provider and spending limit.
+The grounded tutor runs on Cloudflare Workers AI with a daily cap. Configure it per Worker:
+
+- `TUTOR_ENABLED` — `true` to allow requests, `false` to disable immediately (returns 503).
+- `TUTOR_MODEL` — Workers AI model id (default `@cf/meta/llama-3.1-8b-instruct-fp8`).
+- `TUTOR_DAILY_LIMIT` — maximum tutor messages per app per UTC day (default `40`).
+
+Requests are authenticated like progress sync and grounded only in the lesson's own content. Usage is counted in the `tutor_usage` table. Paid overage stays disabled until a new provider/spending agreement is made; if the free allowance is exhausted, raise the cap deliberately or set `TUTOR_ENABLED` to `false`.

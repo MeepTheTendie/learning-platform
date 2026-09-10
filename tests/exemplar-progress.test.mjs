@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { exemplarRecord, recordExemplarAttempt, sanitizeExemplarProgress, setExemplarResponse } from '../packages/learning-content/progress.mjs';
+import { appendTutorMessage, sanitizeTutor, tutorRequestMessages, tutorThread } from '../packages/learning-content/tutor.mjs';
 import { mergeChanges } from '../packages/progress/sync-merge.js';
 
 test('exemplar progress records responses, attempts and passes', () => {
@@ -55,4 +56,19 @@ test('exemplarRecord is idempotent for an existing lesson', () => {
   const first = exemplarRecord(progress, 'lesson');
   first.responses.a = 'x';
   assert.equal(exemplarRecord(progress, 'lesson').responses.a, 'x');
+});
+
+test('tutor threads append, bound and sanitize conversations', () => {
+  const tutor = {};
+  appendTutorMessage(tutor, 'lesson', 'user', 'Why?');
+  appendTutorMessage(tutor, 'lesson', 'assistant', 'Because.');
+  assert.deepEqual(tutorThread(tutor, 'lesson').map(message => message.role), ['user', 'assistant']);
+  assert.deepEqual(tutorRequestMessages(tutor, 'lesson'), [{ role: 'user', content: 'Why?' }, { role: 'assistant', content: 'Because.' }]);
+  for (let i = 0; i < 60; i++) appendTutorMessage(tutor, 'lesson', 'user', 'x' + i);
+  assert.equal(tutorThread(tutor, 'lesson').length, 40);
+  const dirty = JSON.parse('{"__proto__":{"bad":true},"lesson":{"messages":[{"role":"tool","content":"x"},{"role":"user","content":"hi"},{"role":"assistant","content":""}]}}');
+  const clean = sanitizeTutor(dirty);
+  assert.equal(Object.hasOwn(clean, '__proto__'), false);
+  assert.equal({}.bad, undefined);
+  assert.deepEqual(clean.lesson.messages.map(message => message.role), ['user']);
 });

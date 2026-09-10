@@ -88,7 +88,16 @@ Exemplar progress is now part of each app's canonical synced state. Changes made
 - The shared renderer now round-trips sequence answers (1-based input, 0-based storage).
 - Milestone 3 operations: `npm run backup`, `npm run restore-drill`, `npm run health`, and `docs/RELEASE.md`.
 
-Validation: `npm run check` (14 unit tests plus builds/dry runs) and `npm run test:browser` (all three apps: cross-device state, offline merge, exemplar migration, exemplar cross-device sync, sequence round-trip, mobile) pass. `npm run health -- preview` returns 302 to Access for all six checks.
+Validation: `npm run check` (17 unit tests plus builds/dry runs) and `npm run test:browser` (all three apps: cross-device state, offline merge, exemplar migration, exemplar cross-device sync, sequence round-trip, mobile, tutor send/sync) pass. `npm run health -- preview` returns 302 to Access for all six checks.
+
+## Grounded tutor and lesson rebalance — 2026-09-10
+
+Owner direction: written responses broke flow, so lessons are now mostly multiple choice with one short reflection; and a back-and-forth tutor was requested. Owner agreed to Cloudflare Workers AI on the free tier with a hard daily cap, and to syncing tutor conversations.
+
+- `packages/progress/worker.mjs` adds `POST /api/tutor`: authenticated like progress sync, grounded only in the lesson's own content, capped per app per UTC day via the new `tutor_usage` table (`migrations/0002_tutor.sql`), with `TUTOR_ENABLED`, `TUTOR_MODEL` and `TUTOR_DAILY_LIMIT` vars and an `AI` binding in all six Worker configs.
+- `packages/learning-content/tutor.mjs` defines and bounds the `state.tutor` shape; `exemplar-review.mjs` renders the chat, keeps the typed draft across re-renders, and saves each exchange into canonical synced state.
+- English, History and Philosophy schemas carry `tutor` alongside `exemplars`; conversations are bounded to 40 messages per lesson.
+- All three exemplars were rewritten to 5 choice activities plus 1 short reflection (History keeps one sequence).
 
 Deployed previews from this commit (Cloudflare Access, `learning-platform-preview` database):
 - English: `79951b84-3ebd-4842-804e-08fa9a6bdc4a`
@@ -96,6 +105,6 @@ Deployed previews from this commit (Cloudflare Access, `learning-platform-previe
 - Philosophy: `493ab422-8fc3-4e96-9ff3-bc7f5b50fd2b`
 
 Remaining, owner-gated:
-1. Exemplar content review before curriculum expansion (Milestone 2).
+1. Exemplar content review before curriculum expansion (Milestone 2): confirm the multiple-choice mix and tutor behavior on the previews.
 2. Production cutover: refresh backup, `npm run restore-drill`, review live provenance, then deploy. See `docs/RELEASE.md`.
-3. Optional paid AI feedback: needs an agreed provider and spending limit before any calls.
+3. Paid AI overage remains disabled; enabling it needs a new provider/spending agreement.

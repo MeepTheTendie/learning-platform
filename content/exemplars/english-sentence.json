@@ -32,19 +32,43 @@
       "hint": "Ask who or what the sentence is about."
     },
     {
-      "id": "explain-predicate",
-      "type": "short-answer",
-      "prompt": "Explain what the predicate adds to the subject in the example sentence.",
-      "instructions": "Write one or two sentences using the words subject and predicate.",
-      "rubric": ["names the predicate", "explains the action or claim"]
+      "id": "identify-predicate",
+      "type": "choice",
+      "prompt": "In the same sentence, which words form the complete predicate?",
+      "choices": ["Patient effort", "removes mountains", "effort removes", "mountains"],
+      "answer": 1,
+      "hint": "The predicate says what the subject does."
+    },
+    {
+      "id": "spot-fragment",
+      "type": "choice",
+      "prompt": "Which of these is a fragment rather than a complete sentence?",
+      "choices": ["After the long climb.", "The hikers rested.", "Patient effort removes mountains.", "The trail was steep."],
+      "answer": 0,
+      "hint": "A fragment is missing a subject, a predicate, or a complete claim."
     },
     {
       "id": "repair-fragment",
-      "type": "edit",
-      "prompt": "Turn this fragment into a complete sentence: “After the long climb.”",
-      "source": "After the long climb.",
-      "instructions": "Add a subject and a predicate while keeping the original idea.",
-      "rubric": ["has a subject", "has a predicate", "keeps the meaning"]
+      "type": "choice",
+      "prompt": "Which revision turns “After the long climb.” into a complete sentence?",
+      "choices": ["After the long climb, the hikers rested.", "After the long climb.", "The long climb after.", "Climbing after the long."],
+      "answer": 0,
+      "hint": "Add who did something and what they did."
+    },
+    {
+      "id": "subject-predicate-pair",
+      "type": "choice",
+      "prompt": "Which sentence has both a subject and a predicate?",
+      "choices": ["The river carved the valley.", "The river in the valley.", "Carved the valley below.", "In the wide valley."],
+      "answer": 0,
+      "hint": "Look for someone or something doing or being something."
+    },
+    {
+      "id": "reflect-sentence",
+      "type": "short-answer",
+      "prompt": "In your own words, explain how you can tell a complete sentence from a fragment.",
+      "instructions": "Use the words subject and predicate, and give one short example.",
+      "rubric": ["mentions a subject", "mentions a predicate", "gives an example"]
     }
   ]
 }
