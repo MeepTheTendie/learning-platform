@@ -1,0 +1,47 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('node:path');
+const root=path.resolve(__dirname,'../public'),data=JSON.parse(fs.readFileSync(path.join(root,'content/curriculum.json'))),KEY='philosophy-scholar-v1';
+const remote=process.argv[2]||process.env.SCHOLAR_URL;const base=remote||'http://127.0.0.1:8088/';
+(async()=>{const browser=await chromium.launch({executablePath:process.env.CHROMIUM_BIN || '/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+const context=await browser.newContext({viewport:{width:1440,height:1050},acceptDownloads:true});const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(base);await page.getByRole('heading',{name:'A little wiser, every time.'}).waitFor();await page.screenshot({path:'/tmp/philosophy-dashboard.png',fullPage:true});console.log('Dashboard loaded');
+if(!remote){const icon=await context.newPage();const svg=fs.readFileSync(path.join(root,'assets/icon.svg'),'utf8');for(const size of [192,512]){await icon.setViewportSize({width:size,height:size});await icon.setContent(`<style>body{margin:0}svg{width:100vw;height:100vh}</style>${svg}`);await icon.screenshot({path:path.join(root,`assets/icon-${size}.png`),omitBackground:true})}await icon.close()}
+await page.goto(base+'#lesson/s1');await page.getByRole('heading',{name:'Build the foundation first.'}).waitFor();
+const getState=()=>page.evaluate(k=>JSON.parse(localStorage.getItem(k)),KEY);
+async function solve(q,wrong=false){const box=page.locator(`[data-question="${q.id}"]`);await box.waitFor();
+if(q.type==='choice')await box.locator(`input[value="${wrong?(q.answer+1)%q.options.length:q.answer}"]`).check();
+if(q.type==='match')for(let i=0;i<q.pairs.length;i++)await box.locator(`[data-match="${i}"]`).selectOption(String(i));
+if(q.type==='map')for(let i=0;i<q.answer.length;i++){await box.locator(`[data-map="${i}"]`).selectOption(String(q.answer[i]));await box.locator(`[data-target="${i}"]`).selectOption(String(q.targets[i]))}
+if(q.type==='order'){for(let target=0;target<q.items.length;target++){let items=await box.locator('.order-list li span').allTextContents();let current=items.indexOf(q.items[target]);while(current>target){await box.locator(`[data-move="${current},-1"]`).click();current--;}}}
+if(q.type==='write'){await box.locator('textarea').fill(q.model+' I distinguish the reasoning from my personal agreement and identify the assumptions that would require further defense.');await box.locator('summary').click();for(const cb of await box.locator('[data-rubric]').all())await cb.check()}
+await box.locator('[data-check]').click();if(!wrong)await box.getByText('Complete ✓',{exact:true}).waitFor();}
+async function finish(l){await page.goto(base+'#lesson/'+l.id);await page.locator('#next-stage').click();
+for(let stage=1;stage<=6;stage++){const ids={1:[0],2:[1,2],3:[3],4:[4],5:[5],6:[6,7]}[stage];for(const i of ids)await solve(l.questions[i]);await page.locator('#next-stage').click()}
+await page.getByText(l.boss?'CHALLENGE PASSED':'A STEP IN YOUR EDUCATION',{exact:true}).waitFor();console.log('Completed',l.id,l.title)}
+// Save and resume a wrong attempt without resetting mastery or granting XP.
+const f1=data.lessons[0];await page.goto(base+'#lesson/f1');await page.locator('#next-stage').click();await solve(f1.questions[0],true);const before=(await getState()).xp;await page.reload();await page.locator(`[data-question="${f1.questions[0].id}"] .wrong`).waitFor();assert.equal((await getState()).xp,before);await solve(f1.questions[0]);await page.locator('#next-stage').click();
+for(let stage=2;stage<=6;stage++){for(const i of {2:[1,2],3:[3],4:[4],5:[5],6:[6,7]}[stage])await solve(f1.questions[i]);await page.locator('#next-stage').click()}
+assert.equal((await getState()).lessons.f1.complete,true);
+// All remaining lessons and both bosses through the real controls.
+for(const l of data.lessons.slice(1))await finish(l);
+let s=await getState();assert.equal(Object.values(s.lessons).filter(l=>l.complete).length,13);assert.equal(s.lessons.b0.complete,true);assert.equal(s.lessons.b1.complete,true);assert.equal(s.daily[Object.keys(s.daily)[0]].readings.length,13);
+const xp=s.xp;await page.goto(base+'#lesson/f1');await page.locator('#revisit-lesson').click();await page.locator('#next-stage').click();await page.locator('#next-stage').click();assert.equal((await getState()).xp,xp);
+// A corrected boss run with poor independent accuracy must not unlock the next world.
+const beforeBoss=await getState(),failedBoss=JSON.parse(JSON.stringify(beforeBoss));failedBoss.lessons.b0.complete=false;failedBoss.lessons.b0.stage=6;for(const a of Object.values(failedBoss.lessons.b0.answers))a.firstCorrect=false;
+async function importState(value){await page.goto(base+'#settings');await page.locator('#import-file').setInputFiles({name:'test-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(value))});await page.locator('#confirm-import').click()}
+await importState(failedBoss);await page.goto(base+'#lesson/b0');await page.locator('#next-stage').click();await page.locator('#retry-boss').waitFor();assert.equal((await getState()).lessons.b0.complete,false);await page.locator('#retry-boss').click();assert.deepEqual((await getState()).lessons.b0.answers,{});assert.equal((await getState()).xp,beforeBoss.xp);await importState(beforeBoss);
+// Notes must remain inert text, and retain their source context.
+await page.goto(base+'#notes');await page.locator('#note-text').fill('<img src=x onerror=alert(1)> My philosophical question');await page.locator('#save-note').click();assert.equal(await page.locator('[data-note-entry] img').count(),0);await page.reload();await page.getByText('<img src=x onerror=alert(1)> My philosophical question',{exact:true}).waitFor();
+// Debate evaluates the rubric, not a stance or keyword string.
+await page.goto(base+'#debate');await page.locator('#debate-defense').fill('I reconstruct the argument as depending on a genuine civic obligation. I question whether residence alone establishes consent, while accepting that wrongdoing should not be answered with wrongdoing.');await page.locator('#debate-next').click();await page.locator('#debate-reply').fill('An objection worries that resistance would damage cooperation. My reply requires public reasons tied to serious injustice, rather than treating any personal disagreement as sufficient grounds to disregard obligations.');for(const c of await page.locator('[data-debate-rubric]').all())await c.check();await page.locator('#debate-save').click();assert.equal((await getState()).debates.socrates.assessment,4);
+// Schedule a due review through a realistic imported state, then answer it.
+s=await getState();s.reviews.f1.due=Date.now()-1000;await page.goto(base+'#settings');await page.locator('#import-file').setInputFiles({name:'due.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(s))});await page.locator('#confirm-import').click();await page.goto(base+'#review');await page.locator('#start-review').click();await solve(data.lessons[0].review[0]);await page.locator('#next-review').click();assert.equal((await getState()).reviews.f1.interval,3);
+// Export/import is round-tripped with explicit replacement confirmation.
+await page.goto(base+'#settings');const downloadPromise=page.waitForEvent('download');await page.locator('#export-progress').click();const download=await downloadPromise;await download.saveAs('/tmp/philosophy-backup.json');const backup=JSON.parse(fs.readFileSync('/tmp/philosophy-backup.json','utf8'));assert.ok(backup.notes.length>=2);
+await page.locator('#import-file').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{"version":99}')});assert.equal(await page.locator('#import-dialog').isVisible(),false);
+await page.locator('#import-file').setInputFiles('/tmp/philosophy-backup.json');await page.locator('#confirm-import').click();assert.equal((await getState()).xp,backup.xp);
+await page.setViewportSize({width:390,height:844});for(const route of ['home','worlds','lesson/f3/revisit','read/s3','glossary','notes','timeline','settings','debate']){await page.goto(base+'#'+route);await page.waitForTimeout(80);assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'Overflow '+route)}await page.goto(base+'#home');await page.screenshot({path:'/tmp/philosophy-mobile.png',fullPage:true});
+await page.locator('#theme').click();assert.equal((await getState()).settings.theme,'dark');await page.reload();await page.waitForFunction(()=>document.body.classList.contains('dark'));assert.equal(await page.locator('body').evaluate(el=>el.classList.contains('dark')),true);
+// Service worker and content continue to load without network.
+await page.evaluate(()=>navigator.serviceWorker.ready);await page.reload();await page.waitForFunction(()=>!!navigator.serviceWorker.controller);await context.setOffline(true);await page.reload();await page.getByRole('heading',{name:'A little wiser, every time.'}).waitFor();await page.goto(base+'#read/s3');await page.locator('.reading blockquote').waitFor();await context.setOffline(false);
+assert.deepEqual(errors,[]);console.log('PASS: 13 completions, 104 exercises, gating, persistence, XP deduplication, debate, review, export/import, mobile, dark mode, offline.');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});

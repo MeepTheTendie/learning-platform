@@ -1,0 +1,360 @@
+{
+  "glossary": [
+    {
+      "term": "epistemology",
+      "plain": "The study of knowledge and justified belief.",
+      "precise": "Investigates what knowledge is, its sources and limits, and the standards for rational belief.",
+      "example": "Does testimony give me a reason to believe this?",
+      "thinkers": [
+        "Socrates",
+        "Plato"
+      ],
+      "related": [
+        "argument",
+        "induction"
+      ]
+    },
+    {
+      "term": "metaphysics",
+      "plain": "Inquiry into reality’s basic structure.",
+      "precise": "Studies such issues as existence, identity, causation, possibility, and the kinds of things there are.",
+      "example": "Is a person the same person after a complete change of memories?",
+      "thinkers": [
+        "Plato",
+        "Aristotle"
+      ],
+      "related": [
+        "ontology",
+        "assumption"
+      ]
+    },
+    {
+      "term": "ethics",
+      "plain": "Inquiry into how to live and act.",
+      "precise": "Studies right action, value, virtue, and reasons governing conduct; it includes disagreement about their foundations.",
+      "example": "Can preventing harm justify breaking a promise?",
+      "thinkers": [
+        "Socrates",
+        "Confucius"
+      ],
+      "related": [
+        "argument",
+        "counterexample"
+      ]
+    },
+    {
+      "term": "argument",
+      "plain": "Reasons offered in support of a claim.",
+      "precise": "A set of claims in which some function as premises offered to support a conclusion.",
+      "example": "The bridge is closed; closed bridges must not be crossed; so do not cross it.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "premise",
+        "conclusion"
+      ]
+    },
+    {
+      "term": "premise",
+      "plain": "A claim used as a reason.",
+      "precise": "A proposition offered as support for a conclusion within a particular inference.",
+      "example": "Every item here is insured.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "conclusion",
+        "argument"
+      ]
+    },
+    {
+      "term": "conclusion",
+      "plain": "The claim an argument supports.",
+      "precise": "A proposition whose acceptance is being supported by the premises; it may become a premise in a further argument.",
+      "example": "Therefore this item is insured.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "premise",
+        "argument"
+      ]
+    },
+    {
+      "term": "ambiguity",
+      "plain": "More than one relevant meaning.",
+      "precise": "A word, sentence, or structure admits distinct readings that may alter an argument’s content or force.",
+      "example": "“Public access” might mean unlimited access or regulated access.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "argument",
+        "assumption"
+      ]
+    },
+    {
+      "term": "assumption",
+      "plain": "A claim taken for granted in reasoning.",
+      "precise": "An explicit or implicit commitment on which an inference or interpretation depends.",
+      "example": "“It is cheaper, so buy it” assumes the purchase serves a need.",
+      "thinkers": [
+        "Socrates"
+      ],
+      "related": [
+        "premise",
+        "counterexample"
+      ]
+    },
+    {
+      "term": "deduction",
+      "plain": "Reasoning intended to guarantee its conclusion.",
+      "precise": "In this introductory classification, an argument presents its conclusion as necessarily following if its premises are true.",
+      "example": "All A are B; x is A; therefore x is B.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "validity",
+        "soundness"
+      ]
+    },
+    {
+      "term": "induction",
+      "plain": "Reasoning beyond a guarantee.",
+      "precise": "A form of defeasible reasoning that supports rather than entails its conclusion, often using observed cases or probabilities.",
+      "example": "A representative sample suggests the next item will probably work.",
+      "thinkers": [
+        "Hume"
+      ],
+      "related": [
+        "deduction",
+        "argument"
+      ]
+    },
+    {
+      "term": "validity",
+      "plain": "No true-premise, false-conclusion case is possible.",
+      "precise": "Deductive entailment: under every interpretation or possible case relevant to the inference, truth of all premises requires truth of the conclusion.",
+      "example": "If P then Q; P; therefore Q.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "soundness",
+        "counterexample"
+      ]
+    },
+    {
+      "term": "soundness",
+      "plain": "Validity together with true premises.",
+      "precise": "A sound deductive argument has a valid inference and every premise is true. Its conclusion must therefore be true.",
+      "example": "An argument can be valid yet unsound because a premise is false.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "validity",
+        "premise"
+      ]
+    },
+    {
+      "term": "contradiction",
+      "plain": "A claim and its denial in the same respect.",
+      "precise": "In classical logic, P and not-P cannot both be true under the same interpretation. Disagreement between people alone is not a contradiction within one position.",
+      "example": "This door is open now, and this same door is not open now, in the same sense.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "validity",
+        "ambiguity"
+      ]
+    },
+    {
+      "term": "counterexample",
+      "plain": "A case that defeats a general claim.",
+      "precise": "A case within a claim’s scope that lacks the property the claim attributes to every such case; for validity, a case with true premises and a false conclusion.",
+      "example": "A nonsquare rectangle defeats “all rectangles are squares.”",
+      "thinkers": [
+        "Socrates",
+        "Plato"
+      ],
+      "related": [
+        "necessary condition",
+        "sufficient condition"
+      ]
+    },
+    {
+      "term": "necessary condition",
+      "plain": "Something required for something else.",
+      "precise": "A is necessary for B if B cannot obtain without A: B implies A.",
+      "example": "Being rectangular is necessary for being square.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "sufficient condition"
+      ]
+    },
+    {
+      "term": "sufficient condition",
+      "plain": "Something that guarantees something else.",
+      "precise": "A is sufficient for B if A cannot obtain without B: A implies B.",
+      "example": "Being square is sufficient for being rectangular.",
+      "thinkers": [
+        "Aristotle"
+      ],
+      "related": [
+        "necessary condition"
+      ]
+    },
+    {
+      "term": "thought experiment",
+      "plain": "An imagined case used to investigate a question.",
+      "precise": "A deliberately specified hypothetical situation that tests a concept, inference, or principle; its relevance and possibility may be contested.",
+      "example": "Imagine an action that keeps a promise but predictably causes grave harm.",
+      "thinkers": [
+        "Plato"
+      ],
+      "related": [
+        "counterexample"
+      ]
+    },
+    {
+      "term": "elenchus",
+      "plain": "Examination through questions and answers.",
+      "precise": "A family of Socratic examinations that expose tensions among a respondent’s commitments. Its aims and logical reach are disputed.",
+      "example": "Ask for a definition, secure further commitments, then test their consistency.",
+      "thinkers": [
+        "Socrates"
+      ],
+      "related": [
+        "contradiction",
+        "argument"
+      ]
+    },
+    {
+      "term": "intellectual humility",
+      "plain": "Recognizing the limits of what one knows.",
+      "precise": "A willingness to calibrate claims to evidence and to revise them, without concluding that knowledge is impossible.",
+      "example": "Distinguish expertise at a craft from expertise about every moral question.",
+      "thinkers": [
+        "Socrates"
+      ],
+      "related": [
+        "epistemology"
+      ]
+    },
+    {
+      "term": "justice",
+      "plain": "A central concept concerning what is due or right.",
+      "precise": "Different theories relate justice to rights, distribution, virtue, law, relationships, or institutions. No single definition is assumed here.",
+      "example": "Does a legal conviction make escaping punishment unjust?",
+      "thinkers": [
+        "Socrates",
+        "Plato"
+      ],
+      "related": [
+        "ethics",
+        "argument"
+      ]
+    },
+    {
+      "term": "ontology",
+      "plain": "Inquiry into what exists.",
+      "precise": "A branch of metaphysics concerned with categories of being and ontological commitment.",
+      "example": "Do numbers exist independently of us?",
+      "thinkers": [
+        "Plato"
+      ],
+      "related": [
+        "metaphysics"
+      ]
+    }
+  ],
+  "worlds": [
+    {
+      "id": 0,
+      "title": "How Philosophy Works",
+      "subtitle": "The tools of careful inquiry",
+      "color": "green",
+      "boss": "b0",
+      "description": "Learn to find reasons, map support, and test a claim without confusing understanding with agreement."
+    },
+    {
+      "id": 1,
+      "title": "Socrates",
+      "subtitle": "An examined life · Athens, 5th century BCE",
+      "color": "purple",
+      "boss": "b1",
+      "description": "Read Plato’s portrait critically. Reconstruct Socratic questioning, intellectual humility, and the obligations of justice."
+    }
+  ],
+  "roadmap": [
+    "Plato · Forms, knowledge, justice, soul, Republic & selected dialogues",
+    "Ancient worlds · Pre-Socratics, Confucius, early Indian thought",
+    "Classical Greece · Aristotle",
+    "Chinese foundations · Mencius, Xunzi, Daoism, Mohism, Legalism",
+    "Indian foundations · Buddhism, Jainism, Nyāya, Sāṃkhya, Vedānta",
+    "Hellenistic & Roman · Epicureans, Stoics, Skeptics, Cicero",
+    "Late antiquity · Plotinus, Augustine, Boethius",
+    "Medieval worlds · Jewish, Christian & Islamic philosophy",
+    "Early modern · Descartes, Hobbes, Spinoza, Locke, Leibniz",
+    "Enlightenment · Hume, Rousseau, Kant, Smith",
+    "19th century · Hegel, Mill, Kierkegaard, Marx, Nietzsche, pragmatism",
+    "20th century · Analytic, continental & non-Western traditions",
+    "Contemporary & advanced comparative study"
+  ],
+  "thinkers": [
+    {
+      "id": "confucius",
+      "name": "Confucius",
+      "start": -551,
+      "end": -479,
+      "dateLabel": "551–479 BCE · traditional dates",
+      "region": "Lu, present-day Shandong, China",
+      "tradition": "Early Confucian thought",
+      "works": "Analects (a composite record transmitted by followers)",
+      "ideas": "Ethical cultivation, ritual practice, humane conduct",
+      "source": "confucius"
+    },
+    {
+      "id": "buddha",
+      "name": "The Buddha",
+      "start": -480,
+      "end": -400,
+      "dateLabel": "c. 480–400 BCE · illustrative scholarly estimate; chronology disputed",
+      "region": "Northeastern Indian subcontinent",
+      "tradition": "Early Buddhist thought",
+      "works": "Discourses transmitted in early Buddhist collections",
+      "ideas": "Suffering, impermanence, the path of liberation",
+      "source": "buddha"
+    },
+    {
+      "id": "socrates",
+      "name": "Socrates",
+      "start": -469,
+      "end": -399,
+      "dateLabel": "c. 469–399 BCE",
+      "region": "Athens, Greek world",
+      "tradition": "Classical Greek philosophy",
+      "works": "No surviving authored writings; portrayed by Plato, Xenophon, Aristophanes",
+      "ideas": "Ethical examination, questions about virtue and knowledge",
+      "source": "socrates"
+    },
+    {
+      "id": "plato",
+      "name": "Plato",
+      "start": -428,
+      "end": -348,
+      "dateLabel": "c. 428/427–348/347 BCE",
+      "region": "Athens, Greek world",
+      "tradition": "Classical Greek philosophy",
+      "works": "Apology, Crito, Republic, Theaetetus and other dialogues",
+      "ideas": "Justice, knowledge, forms, the soul; dialogue-specific positions require care",
+      "source": "plato"
+    }
+  ]
+}
