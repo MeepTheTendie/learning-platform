@@ -14,7 +14,7 @@
     "check": "npm run test:auth && npm run check --workspaces",
     "test:auth": "node --test tests/access.test.mjs tests/migration.test.mjs tests/content.test.mjs",
     "preview": "node scripts/preview.mjs",
-    "test:browser": "npm run build && node tests/run-browser.mjs"
+    "test:browser": "npm run build && node tests/run-browser.mjs && node tests/exemplars.cjs"
   },
   "devDependencies": {
     "playwright": "1.63.0",

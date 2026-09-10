@@ -42,4 +42,11 @@ Stable sync operation IDs, English and Philosophy reading positions, and the iso
 The deploy output confirmed each preview was built from the local `dist/` assets and bound to `learning-platform-preview`; no production Worker or D1 binding was targeted. The remaining production-gated actions are a fresh backup immediately before cutover, final live provenance review, and an explicit decision to migrate production.
 
 ## Milestone 2 started
-The shared content contract and first exercise renderer are in `packages/learning-content`. Reviewable exemplars are in `content/exemplars/` for English sentence structure, History early cities, and Philosophy argument reconstruction. They validate in `tests/content.test.mjs` and are intentionally not wired into the live curriculum until content direction is approved.
+The shared content contract and first exercise renderer are in `packages/learning-content`. Reviewable exemplars are in `content/exemplars/` for English sentence structure, History early cities, and Philosophy argument reconstruction. They validate in `tests/content.test.mjs` and appear in a separate review surface; they do not replace the live curriculum until content direction is approved.
+
+The review surface is now wired into each preview build behind a `Review exemplar` link. It loads the subject exemplar, renders three activities, saves draft responses locally, and provides a first self-check. `tests/exemplars.cjs` covers all three interfaces; existing curriculum routes remain unchanged.
+
+Latest preview versions with the review surface:
+- English: `c8edaab8-b37a-4be1-ae5c-2e51c220ced5`
+- History: `c53eccf4-9391-4a16-a670-60ebcc48adb0`
+- Philosophy: `9cfc880d-b0f6-4612-9cd5-38c7f730b6c5`
