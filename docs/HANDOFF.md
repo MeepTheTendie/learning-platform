@@ -162,8 +162,8 @@ Security:
 Naming: the preview Workers keep their `-preview` names deliberately. Renaming a Worker changes its `workers.dev` hostname, and the new hostname would not be covered by the existing Access application (which I cannot reconfigure with the current credentials), so a rename would drop the Access sign-in and make the previews unusable. The `-preview` suffix already marks them as non-production.
 
 Deployed this turn:
-- Previews: English `fcd05dbf-9e81-4a08-8e73-dad151090c80`, History `871afeb5-be14-4da5-a430-719a37f232b5`, Philosophy `ad80ef3a-6853-49b5-999e-6add8d2cadee`.
-- Production: grammar-reader `5e62b2dd-7ad7-467e-a3e0-2372d6d2f830`, history-atlas `c4e682fd-9c85-4ea7-8376-5cf7e5573634`, philosophy-scholar `44c41839-1f74-449a-9d7c-d683c88477e0`.
-- Verified: production health passes and each app serves its lesson set (English 10, History 16, Philosophy 13).
+- Previews: English `775fec4d-9d52-41fa-88ac-5f407b0cd767`, History `2ab0bc29-64ec-4cad-af33-e3ce8144c91b`, Philosophy `633f35cb-49f8-4138-a661-9e886717fe02`.
+- Production: grammar-reader `c559178f-3335-42d6-bb6d-bc0cfec015fe`, history-atlas `51037097-fbb6-445c-9bd5-fc9ae5c53eb4`, philosophy-scholar `4fdbbdf3-8a77-441b-8fb0-5e513e5cc02f`.
+- Verified: production health passes and each app serves its lesson set (English 10, History 16, Philosophy 13). The app header wraps on small screens now that it carries the guided-lessons link.
 
 Remaining: full English book conversion (~111 sections) remains an ongoing content effort; paid AI overage stays off.
