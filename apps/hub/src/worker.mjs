@@ -12,17 +12,28 @@ const json = (data, status = 200) => new Response(JSON.stringify(data), { status
 
 async function summarize(env, { id, label }) {
   const row = await env.PROGRESS_DB.prepare('SELECT revision,state_json,updated_at FROM progress WHERE app_id = ?').bind(id).first();
-  if (!row) return { app: id, label, lessonsCompleted: 0, points: 0, activitiesPassed: 0, updatedAt: null };
+  if (!row) return { app: id, label, completed: 0, unit: 'lessons completed', points: 0, updatedAt: null };
   let state = {};
   try { state = JSON.parse(row.state_json); } catch {}
   const exemplars = state.exemplars && typeof state.exemplars === 'object' ? state.exemplars : {};
-  let lessonsCompleted = 0, points = 0, activitiesPassed = 0;
+  let exemplarLessons = 0, exemplarPoints = 0;
   for (const record of Object.values(exemplars)) {
-    if (record && record.completed === true) lessonsCompleted++;
-    if (record && Number.isFinite(record.points)) points += record.points;
-    if (record && record.passed && typeof record.passed === 'object') activitiesPassed += Object.values(record.passed).filter(Boolean).length;
+    if (record && record.completed === true) exemplarLessons++;
+    if (record && Number.isFinite(record.points)) exemplarPoints += record.points;
   }
-  return { app: id, label, lessonsCompleted, points, activitiesPassed, updatedAt: Number(row.updated_at) || null };
+  let completed = exemplarLessons, unit = 'lessons completed', points = exemplarPoints;
+  if (id === 'grammar-reader') {
+    const done = Array.isArray(state.done) ? state.done.length : 0;
+    const wins = Array.isArray(state.wins) ? state.wins.length : 0;
+    const awards = state.awards && typeof state.awards === 'object' ? Object.values(state.awards).reduce((sum, value) => sum + (Number(value) || 0), 0) : 0;
+    completed = done; unit = 'sections read'; points = done * 10 + wins * 25 + awards + exemplarPoints;
+  } else if (id === 'history-atlas') {
+    completed = Array.isArray(state.done) ? state.done.length : 0; unit = 'passages read';
+  } else if (id === 'philosophy-scholar') {
+    const lessons = state.lessons && typeof state.lessons === 'object' ? Object.values(state.lessons).filter(lesson => lesson && lesson.complete).length : 0;
+    completed = lessons; unit = 'lessons completed'; points = (Number(state.xp) || 0) + exemplarPoints;
+  }
+  return { app: id, label, completed, unit, points, exemplarLessons, updatedAt: Number(row.updated_at) || null };
 }
 
 async function hub(request, env) {

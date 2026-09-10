@@ -49,7 +49,7 @@ async function loadSubjects() {
     if (response.ok) data = await response.json();
   } catch {}
   if (!data) { target.innerHTML = '<section class="card"><div class="eyebrow">YOUR SUBJECTS</div><p class="muted">Subject progress is unavailable right now. Pair this device and try again.</p></section>'; return; }
-  target.innerHTML = `<section class="card"><div class="eyebrow">YOUR SUBJECTS</div><div class="cards">${data.apps.map(app => `<div class="subject"><h3>${escapeHTML(app.label)}</h3><div class="stat">${app.lessonsCompleted}</div><div class="sub">lessons completed · ${app.points} pts</div><div class="sub">${app.updatedAt ? 'last active ' + new Date(app.updatedAt).toLocaleDateString() : 'no activity yet'}</div></div>`).join('')}</div></section>`;
+  target.innerHTML = `<section class="card"><div class="eyebrow">YOUR SUBJECTS</div><div class="cards">${data.apps.map(app => `<div class="subject"><h3>${escapeHTML(app.label)}</h3><div class="stat">${app.completed}</div><div class="sub">${escapeHTML(app.unit || '')}${app.points ? ' · ' + app.points + ' pts' : ''}</div><div class="sub">${app.updatedAt ? 'last active ' + new Date(app.updatedAt).toLocaleDateString() : 'no activity yet'}</div></div>`).join('')}</div></section>`;
 }
 function bindForm() {
   const form = $('#log-form'); if (!form) return;

@@ -7,8 +7,8 @@ function setup() {
   const db = new DatabaseSync(':memory:');
   db.exec('CREATE TABLE progress (app_id TEXT PRIMARY KEY, revision INTEGER NOT NULL DEFAULT 0, state_json TEXT NOT NULL, updated_at INTEGER NOT NULL)');
   const insert = db.prepare('INSERT INTO progress VALUES (?,?,?,?)');
-  insert.run('grammar-reader', 3, JSON.stringify({ exemplars: { 'english-nouns': { completed: true, points: 30, passed: { a: true, b: true } } } }), 1000);
-  insert.run('geography-atlas', 1, JSON.stringify({ exemplars: { 'geography-locate': { completed: false, points: 20, passed: { x: true } } } }), 2000);
+  insert.run('grammar-reader', 3, JSON.stringify({ done: [1, 2, 3], wins: [], awards: {}, exemplars: { 'english-nouns': { completed: true, points: 30 } } }), 1000);
+  insert.run('geography-atlas', 1, JSON.stringify({ exemplars: { 'geography-locate': { completed: false, points: 20 } } }), 2000);
   const key = 'a'.repeat(64);
   const env = { APP_ID: 'learning-hub', STORAGE_KEY: 'learning-hub-v1', SYNC_KEY_HASH: '', PROGRESS_DB: { prepare(sql) { return { bind(...params) { return { async first() { return db.prepare(sql).get(...params) || null; } }; } }; } } };
   return { db, key, env };
@@ -30,12 +30,12 @@ test('hub aggregates subject progress from the shared database', async () => {
   assert.equal(data.apps.length, 4);
   const english = data.apps.find(app => app.app === 'grammar-reader');
   assert.equal(english.label, 'English');
-  assert.equal(english.lessonsCompleted, 1);
-  assert.equal(english.points, 30);
-  assert.equal(english.activitiesPassed, 2);
+  assert.equal(english.completed, 3);
+  assert.equal(english.unit, 'sections read');
+  assert.equal(english.points, 60);
   assert.equal(english.updatedAt, 1000);
   const geography = data.apps.find(app => app.app === 'geography-atlas');
-  assert.equal(geography.lessonsCompleted, 0);
+  assert.equal(geography.completed, 0);
   assert.equal(geography.points, 20);
   c.db.close();
 });
