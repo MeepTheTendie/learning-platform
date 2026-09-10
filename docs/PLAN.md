@@ -19,6 +19,7 @@ Approved by the user on 2026-09-09. Deliver in three milestones with tested comm
 - [x] One complete English chapter: inline grammar, editing, writing, hints and revisions (reviewable preview lesson).
 - [x] One History unit: chronology, causal reasoning, evidence and source comparison (reviewable preview unit).
 - [x] One Philosophy lesson: argument reconstruction, objections and counterexamples (reviewable preview lesson).
+- [ ] Integrate exemplar lesson drafts, attempts, and completion into each app's canonical synced progress state.
 - [ ] User review of exemplars before expansion; agree concrete content coverage rather than assuming every book exercise is already scoped.
 - [ ] Preserve useful existing exercises and book illustrations.
 

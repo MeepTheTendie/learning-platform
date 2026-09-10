@@ -22,7 +22,7 @@ User wants the approved learning-app work continued, with economical token use. 
 ## Remaining milestone 1 work
 1. Live owner sign-in / two-device acceptance is waived by the user for this milestone. Previews remain available at https://learning-{english,history,philosophy}-preview.history-atlas.workers.dev/ . No production cutover yet.
 2. Refresh the production cloud backup immediately before any real cutover, verify full live asset/Worker provenance, and preserve current production data, URLs and latest illustrations.
-3. Keep real account-authenticated migration gated until the user elects to cut over. Then milestone 2 exemplar lessons for user review; optional paid AI remains gated on provider/spending agreement.
+3. Keep real account-authenticated migration gated until the user elects to cut over. Optional paid AI remains gated on provider/spending agreement.
 
 Cloudflare Codex duplicate login was addressed separately: config disables plugin duplicate `cloudflare-api`, keeps authenticated `cloudflare`. Do not redo OAuth unnecessarily.
 
@@ -41,12 +41,37 @@ Stable sync operation IDs, English and Philosophy reading positions, and the iso
 
 The deploy output confirmed each preview was built from the local `dist/` assets and bound to `learning-platform-preview`; no production Worker or D1 binding was targeted. The remaining production-gated actions are a fresh backup immediately before cutover, final live provenance review, and an explicit decision to migrate production.
 
-## Milestone 2 started
+## Milestone 2 current state
 The shared content contract and first exercise renderer are in `packages/learning-content`. Reviewable exemplars are in `content/exemplars/` for English sentence structure, History early cities, and Philosophy argument reconstruction. They validate in `tests/content.test.mjs` and appear in a separate review surface; they do not replace the live curriculum until content direction is approved.
 
-The review surface is now wired into each preview build behind a `Review exemplar` link. It loads the subject exemplar, renders three activities, saves draft responses locally, and provides a first self-check. `tests/exemplars.cjs` covers all three interfaces; existing curriculum routes remain unchanged.
+The review surface is now wired into each preview build behind a `Start lesson`/`Review exemplar` link. It loads the subject lesson, renders teaching sections and activities, saves draft responses locally, and provides hints, rubrics, attempt counts, revision checks, and self-checks. English has 3 activities, History 4, and Philosophy 4. `tests/exemplars.cjs` covers all three interfaces; existing curriculum routes remain unchanged.
+
+The three first lessons are complete as reviewable preview content:
+- English: subject, predicate, fragment repair, editing, and written explanation.
+- History: river settings, chronology, causal reasoning, evidence/inference boundaries, and source comparison.
+- Philosophy: conclusions and premises, fair reconstruction, hidden assumptions, objections, and counterexamples.
+
+The review surface currently stores answers and attempt metadata in separate browser-local keys (`learning-exemplar-v1-*`). It is **not yet part of each app's canonical synced state**. This is the next engineering task: add a validated exemplar-progress field to each app adapter/state schema, migrate existing local drafts without overwriting current progress, call the existing `LearningSync` path on changes, and test cross-device lesson answers plus offline merge.
+
+Do not replace existing curriculum routes or production data while doing that work. Keep content and preview deployments isolated.
 
 Latest preview versions with the review surface:
 - English: `8fe6008e-89f4-4665-8fd9-81874c9aa34b`
 - History: `82d0c968-4536-4c6a-942b-551b80f34a27`
 - Philosophy: `a1a86117-5443-4556-aebe-1fceab8b344f`
+
+## Takeover checkpoint
+
+Latest commits, newest first:
+- `ecb99b1` marks the first subject lessons complete in the plan.
+- `d39ec76` records the Philosophy preview deployment.
+- `2cbcda0` adds the complete Philosophy lesson.
+- `68f0b36` records the History preview deployment.
+- `e926b96` adds the complete History unit.
+- `aa4341a` records the shared lesson preview versions.
+- `1040820` adds the complete English lesson chapter.
+- `7366c9f` finishes the exemplar review flow and attempt tracking.
+
+Checks currently passing: `npm run test:auth`, `npm run test:browser`, and the earlier full `npm run check`. Before handing off new code, rerun `npm run check` and `npm run test:browser`, then deploy only the affected preview with `npm run preview -- <subject>`.
+
+The next model should inspect the three app state validators and `packages/progress/sync-client.js`, then implement synced exemplar progress. Do not begin paid AI feedback, production migration, or broad curriculum expansion yet.
