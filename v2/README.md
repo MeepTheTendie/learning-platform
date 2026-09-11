@@ -37,6 +37,22 @@ npm run check      # validate + render + test
 The framing lint (`src/framing-lint.ts`) bans present-day pedagogical and moralising
 vocabulary from authored text. It never runs on quoted primary sources.
 
+## Study features
+
+Each unit page carries, all stored in one synced state object:
+
+- **Completion** — marks the unit done and schedules its first spaced review.
+- **Bookmarks** — a per-unit star; bookmarked units are listed on the index.
+- **Notes** — a synced text area per unit (debounced).
+- **Spaced review** — completing a unit schedules it; the index lists what is due;
+  "Mark reviewed" doubles the interval (1, 2, 4 … up to 180 days).
+- **Tutor** — a grounded chat answered by Cloudflare Workers AI from the unit's own
+  spine and sources (`POST /api/tutor`, capped per day, material served from
+  `dist/tutor/<subject>/<unit>.json`).
+
+Across devices the sets (completions, bookmarks) merge by union; notes, conversations,
+and review schedules merge by timestamp.
+
 ## Deploy
 
 The app is a Cloudflare Worker (`worker.mjs`) that serves the rendered `dist/` through

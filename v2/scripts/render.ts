@@ -40,17 +40,34 @@ button.check.done{border-color:var(--ok);color:var(--ok)}
 .interpretation{border-left:3px solid var(--gold)}
 li.done>a{color:var(--ok)}
 footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);margin-top:44px;padding-top:16px}
+.chat{max-height:300px;overflow:auto;margin-bottom:10px}
+.chat p{margin:8px 0;padding:9px 12px;border-radius:9px;background:var(--bg);border:1px solid var(--line);font-weight:400;white-space:pre-wrap}
+.chat .you{border-color:var(--accent)}.chat .tutor{border-color:var(--gold)}
+#chat-input{min-height:70px}
+.due-list,.mark-list{margin:6px 0;padding-left:18px}
 `;
 
 const syncScript = `
 (function(){
   var KEY='sourcebook-state', AUTH_KEY='sourcebook-key';
-  function read(){try{return JSON.parse(localStorage.getItem(KEY))||{complete:{}}}catch(e){return{complete:{}}}}
+  function blank(){return {complete:{},bookmarks:{},notes:{},review:{},tutor:{}}}
+  function read(){try{var s=JSON.parse(localStorage.getItem(KEY));return (s&&typeof s==='object')?s:blank()}catch(e){return blank()}}
   function write(s){try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
-  var state=read(), busy=false;
+  var state=read();
+  ['complete','bookmarks','notes','review','tutor'].forEach(function(k){if(!state[k]||typeof state[k]!=='object')state[k]={}});
+  var busy=false;
   var paired=(function(){var m=location.hash.match(/^#sync=([a-f0-9]{64})$/i);if(m){try{localStorage.setItem(AUTH_KEY,m[1])}catch(e){}history.replaceState(null,'',location.pathname+location.search);return m[1];}try{return localStorage.getItem(AUTH_KEY)||''}catch(e){return''}})();
   function equal(a,b){return JSON.stringify(a)===JSON.stringify(b)}
-  function merge(a,b){var c={complete:{}};var x=(a&&a.complete)||{}, y=(b&&b.complete)||{};for(var k in x)c.complete[k]=x[k];for(var k2 in y)c.complete[k2]=y[k2];return c}
+  function newer(a,b){if(!a)return b;if(!b)return a;return ((a.at||0)>=(b.at||0))?a:b}
+  function merge(a,b){
+    a=a||blank();b=b||blank();var out=blank();var k;
+    for(k in a.complete)out.complete[k]=true;for(k in b.complete)out.complete[k]=true;
+    for(k in a.bookmarks)out.bookmarks[k]=true;for(k in b.bookmarks)out.bookmarks[k]=true;
+    for(k in a.notes)out.notes[k]=a.notes[k];for(k in b.notes)out.notes[k]=newer(a.notes[k],b.notes[k]);
+    for(k in a.tutor)out.tutor[k]=a.tutor[k];for(k in b.tutor)out.tutor[k]=newer(a.tutor[k],b.tutor[k]);
+    for(k in a.review)out.review[k]=a.review[k];for(k in b.review)out.review[k]=newer(a.review[k],b.review[k]);
+    return out;
+  }
   function changed(){window.dispatchEvent(new CustomEvent('sourcebook:changed'))}
   function status(t){var el=document.getElementById('sync-status');if(el)el.textContent=t}
   function sync(){
@@ -73,9 +90,25 @@ const syncScript = `
       }
     }).then(function(){status(paired?'Saved to cloud':'Local only — not paired')}).catch(function(){status('Saved on this device')}).then(function(){busy=false});
   }
+  function touch(){write(state);changed();status('Saving…');sync()}
+  function schedule(id,quality){
+    var now=Date.now(), r=state.review[id]||{reps:0,interval:0};
+    if(quality<1){r.reps=0;r.interval=0}else{r.reps=(r.reps||0)+1;r.interval=r.interval?Math.min(r.interval*2,180):1}
+    r.last=now; r.next=now+(r.interval||0)*86400000; r.at=now; state.review[id]=r;
+  }
   window.SourcebookSync={
-    isComplete:function(id){return !!(state.complete&&state.complete[id])},
-    toggle:function(id){state.complete=state.complete||{};if(state.complete[id])delete state.complete[id];else state.complete[id]=true;write(state);changed();status('Saving…');sync()},
+    isComplete:function(id){return !!state.complete[id]},
+    toggleComplete:function(id){if(state.complete[id]){delete state.complete[id];delete state.review[id]}else{state.complete[id]=true;schedule(id,1)}touch()},
+    isBookmarked:function(id){return !!state.bookmarks[id]},
+    toggleBookmark:function(id){if(state.bookmarks[id])delete state.bookmarks[id];else state.bookmarks[id]=true;touch()},
+    getNote:function(id){var n=state.notes[id];return (n&&typeof n.text==='string')?n.text:''},
+    setNote:function(id,text){state.notes[id]={text:text,at:Date.now()};touch()},
+    getTutor:function(id){var t=state.tutor[id];return (t&&t.messages)?t.messages:[]},
+    setTutor:function(id,messages){state.tutor[id]={messages:messages,at:Date.now()};touch()},
+    dueUnits:function(){var now=Date.now(),out=[];for(var id in state.review){var r=state.review[id];if(r&&r.next&&r.next<=now)out.push(id)}return out},
+    reviewInfo:function(id){return state.review[id]||null},
+    markReviewed:function(id){schedule(id,1);touch()},
+    askTutor:function(subject,unitId,messages){var headers={'Content-Type':'application/json'};if(paired)headers.Authorization='Bearer '+paired;return fetch('/api/tutor',{method:'POST',headers:headers,body:JSON.stringify({subject:subject,unitId:unitId,messages:messages})}).then(function(res){return res.json().then(function(data){if(!res.ok)throw new Error((data&&data.error)||'tutor_unavailable');return data})})},
     sync:sync, changed:changed
   };
   addEventListener('online',sync);
@@ -116,6 +149,7 @@ function renderUnit(subject: string, dir: string, unit: Unit): string {
   const interpretationsHtml = unit.interpretations.length ? `<h2>How historians read this</h2>${unit.interpretations.map(interpretation => `<section class="source interpretation"><div class="head"><strong>${esc(interpretation.historian)}</strong>, <em>${esc(interpretation.work)}</em> (${esc(interpretation.year)})</div><p>${esc(interpretation.claim)}</p><p class="meta">${esc(interpretation.note)}</p></section>`).join('')}` : '';
 
   const script = `
+const unitId=${JSON.stringify(unit.id)}, subject=${JSON.stringify(subject)};
 document.querySelectorAll('[data-kind="choice"]').forEach(box=>{
   const answer=Number(box.dataset.answer);
   box.querySelectorAll('.choice').forEach(btn=>btn.addEventListener('click',()=>{
@@ -132,13 +166,45 @@ document.querySelectorAll('[data-kind="response"]').forEach(box=>{
     box.querySelector('.rubric').classList.add('show');
   });
 });
-const btn=document.querySelector('[data-complete]');
-const paint=()=>{const d=SourcebookSync.isComplete(btn.dataset.complete);btn.textContent=d?'✓ Unit complete':'Mark unit complete';btn.classList.toggle('done',d);};
-btn.addEventListener('click',()=>SourcebookSync.toggle(btn.dataset.complete));
-addEventListener('sourcebook:changed',paint);paint();`;
+const cbtn=document.querySelector('[data-complete]');
+const bbtn=document.querySelector('[data-bookmark]');
+const rstatus=document.querySelector('#review-status');
+const note=document.querySelector('#note');
+const chat=document.querySelector('#chat');
+const chatInput=document.querySelector('#chat-input');
+const chatStatus=document.querySelector('#chat-status');
+const esc=v=>String(v).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const paintComplete=()=>{const d=SourcebookSync.isComplete(unitId);cbtn.textContent=d?'✓ Unit complete':'Mark unit complete';cbtn.classList.toggle('done',d);};
+const paintBookmark=()=>{const d=SourcebookSync.isBookmarked(unitId);bbtn.textContent=d?'★ Bookmarked':'☆ Bookmark';bbtn.classList.toggle('done',d);};
+const paintReview=()=>{const r=SourcebookSync.reviewInfo(unitId);if(!r){rstatus.textContent='Complete the unit to add it to review.';return;}rstatus.textContent='Reviews: '+r.reps+' · next due '+new Date(r.next).toLocaleDateString();};
+const paintChat=()=>{const msgs=SourcebookSync.getTutor(unitId);chat.innerHTML=msgs.map(m=>'<p class="'+(m.role==='user'?'you':'tutor')+'">'+esc(m.content)+'</p>').join('');chat.scrollTop=chat.scrollHeight;};
+cbtn.addEventListener('click',()=>SourcebookSync.toggleComplete(unitId));
+bbtn.addEventListener('click',()=>SourcebookSync.toggleBookmark(unitId));
+document.querySelector('#review-btn').addEventListener('click',()=>{SourcebookSync.markReviewed(unitId);paintReview();});
+note.value=SourcebookSync.getNote(unitId);
+let noteTimer;note.addEventListener('input',()=>{clearTimeout(noteTimer);noteTimer=setTimeout(()=>SourcebookSync.setNote(unitId,note.value),700);});
+document.querySelector('#chat-send').addEventListener('click',()=>{
+  const text=chatInput.value.trim();if(!text)return;
+  const msgs=SourcebookSync.getTutor(unitId).concat([{role:'user',content:text}]);
+  SourcebookSync.setTutor(unitId,msgs);chatInput.value='';paintChat();chatStatus.textContent='Thinking…';
+  SourcebookSync.askTutor(subject,unitId,msgs).then(data=>{SourcebookSync.setTutor(unitId,msgs.concat([{role:'assistant',content:data.reply}]));paintChat();chatStatus.textContent=(data.remaining!==undefined)?('Replies left today: '+data.remaining):'';}).catch(err=>{chatStatus.textContent=err.message==='daily_limit'?'Daily limit reached.':err.message==='tutor_disabled'?'The tutor is switched off.':'Tutor unavailable — try again later.';});
+});
+addEventListener('sourcebook:changed',()=>{paintComplete();paintBookmark();paintReview();paintChat();});
+paintComplete();paintBookmark();paintReview();paintChat();`;
 
   const meta = [unit.period, unit.region].filter(Boolean).map(esc).join(' · ');
-  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button></div><footer>Primary sources only. Nothing here is modern commentary. <span id="sync-status" class="meta"></span></footer>`;
+  const tools = `<section class="activity"><h3>Notes</h3><textarea id="note" placeholder="Your notes for this unit…"></textarea></section>
+<section class="activity"><h3>Spaced review</h3><p class="meta" id="review-status"></p><button class="check" id="review-btn">Mark reviewed</button></section>
+<section class="activity"><h3>Ask the tutor</h3><div id="chat" class="chat"></div><textarea id="chat-input" placeholder="Ask a question about this unit…"></textarea><button class="check" id="chat-send">Send</button><div class="meta" id="chat-status"></div></section>`;
+  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button> <button class="check" data-bookmark>☆ Bookmark</button></div>${tools}<footer>Primary sources only. Nothing here is modern commentary. <span id="sync-status" class="meta"></span></footer>`;
+
+  const spineText = fs.readFileSync(path.join(dir, unit.spine), 'utf8');
+  const sourceTexts = unit.sources.map(source => `${source.title} — ${source.author}\n${source.context}\n${fs.readFileSync(path.join(dir, source.file), 'utf8')}`).join('\n\n');
+  const material = `UNIT: ${unit.title} (${[unit.period, unit.region].filter(Boolean).join(', ')})\n\n${spineText}\n\nSOURCES\n${sourceTexts}`.slice(0, 8000);
+  const tutorOut = path.join(outDir, 'tutor', subject, `${unit.id}.json`);
+  fs.mkdirSync(path.dirname(tutorOut), { recursive: true });
+  fs.writeFileSync(tutorOut, JSON.stringify({ title: unit.title, material }));
+
   const out = path.join(outDir, subject, `${unit.id}.html`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, layout(`${unit.title} — Sources`, body, script));
@@ -160,6 +226,15 @@ for (const subject of subjects) {
   }
   lists.push(`<h2>${esc(subject.split('-').map(word => word[0].toUpperCase() + word.slice(1)).join(' '))}</h2><ul>${entries.join('')}</ul>`);
 }
-const indexScript = `const mark=()=>document.querySelectorAll('[data-unit]').forEach(li=>{const done=SourcebookSync.isComplete(li.dataset.unit);li.classList.toggle('done',done);const a=li.querySelector('a');if(a)a.textContent=(done?'✓ ':'')+a.dataset.title;});document.querySelectorAll('[data-unit] a').forEach(a=>{a.dataset.title=a.textContent});addEventListener('sourcebook:changed',mark);mark();`;
-fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">Taught from the period's own documents. <span id="sync-status"></span></p>${lists.join('')}`, indexScript));
+const indexScript = `document.querySelectorAll('[data-unit] a').forEach(a=>{a.dataset.title=a.textContent});
+const unitLink=id=>{const a=document.querySelector('[data-unit="'+id+'"] a');return a?('<a href="'+a.getAttribute('href')+'">'+(a.dataset.title||id)+'</a>'):id};
+const mark=()=>{
+  document.querySelectorAll('[data-unit]').forEach(li=>{const done=SourcebookSync.isComplete(li.dataset.unit);li.classList.toggle('done',done);const a=li.querySelector('a');if(a)a.textContent=(done?'✓ ':'')+a.dataset.title;});
+  const due=SourcebookSync.dueUnits();
+  document.querySelector('#due').innerHTML=due.length?due.map(id=>'<li>'+unitLink(id)+'</li>').join(''):'<li class="meta">Nothing due. Complete a unit to schedule its first review.</li>';
+  const marks=[];document.querySelectorAll('[data-unit]').forEach(li=>{if(SourcebookSync.isBookmarked(li.dataset.unit))marks.push(li.dataset.unit)});
+  document.querySelector('#marks').innerHTML=marks.length?marks.map(id=>'<li>'+unitLink(id)+'</li>').join(''):'<li class="meta">No bookmarks yet.</li>';
+};
+addEventListener('sourcebook:changed',mark);mark();`;
+fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">Taught from the period's own documents. <span id="sync-status"></span></p><section class="activity"><h3>Due for review</h3><ul class="due-list" id="due"></ul></section><section class="activity"><h3>Bookmarks</h3><ul class="mark-list" id="marks"></ul></section>${lists.join('')}`, indexScript));
 console.log('Rendered to dist/.');
