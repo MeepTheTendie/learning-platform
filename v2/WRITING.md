@@ -1,8 +1,10 @@
 # How to write a history lesson
 
-Derived from the assigned texts and lectures of seven Yale history courses:
-HIST 210 (Freedman), 202 and 276 (Merriman), 116 (Freeman), 119 (Blight),
-234 (Snowden), 251 (Wrightson). The point is to write history, not to preface it.
+Derived from the assigned texts and lectures of seven Yale history courses
+(HIST 210 Freedman; 202 and 276 Merriman; 116 Freeman; 119 Blight; 234 Snowden;
+251 Wrightson) and from the sources Harvard's History department recommends for
+writing history (Patrick Rael's Bowdoin guide; the Harvard Library History
+research guide). The point is to write history, not to preface it.
 
 ## The model: three tiers, kept distinct
 
@@ -44,8 +46,39 @@ confuse the two.
    they were not the only actors. Look for the ordinary people in the record.
 9. **Density through structure.** Run-in topic headings, a clean chronology, and
    sentences that each carry a fact, a cause, or a consequence. Nothing padded.
-10. **The sources do the talking.** Where a document exists, quote it and ask what
+10. **Name the kind of source.** A law code, a chronicle, a letter, a memoir, a
+    later narrative, a statistic, a map: each answers different questions. Say
+    which one the reader is looking at before asking what it means.
+11. **The sources do the talking.** Where a document exists, quote it and ask what
     it assumes, rather than summarizing it away.
+
+## How to read a source: the questions to ask
+
+Harvard's History department recommends Patrick Rael's guide (Bowdoin, 2004),
+which gives a method worth building into every source's questions. Rael's acronym
+is **PAPER**:
+
+- **P**urpose — Who made this, and why? What was at stake for them?
+- **A**rgument — What is it trying to do, for whom, and by what strategy?
+- **P**resuppositions — What does it take for granted, including values the
+  author would not have thought to state?
+- **E**pistemology — What can this source actually let us know, and how sure can
+  we be? What does it reveal without meaning to?
+- **R**elate — How does it compare with other sources and with later accounts?
+
+Two distinctions from the same guide, to use in the questions:
+
+- **Reliable vs. credible.** A source may be dependable on verifiable details yet
+  not credible overall, if its tone shows a stake in the outcome.
+- **Neutral vs. objective.** Almost no text is neutral — people rarely write
+  without a purpose — and no author is free of the values of their time. The
+  credible source names its stake rather than pretending to none.
+
+The Harvard Library's History research guide adds a working taxonomy of source
+types (personal writings, speeches, oral history, news, archives and manuscripts,
+government documents, statistics, maps, images, film, and later scholarship).
+Know which type you are reading before you interpret it.
+
 
 ## Anti-patterns (these fail the framing lint)
 
