@@ -21,3 +21,17 @@
 **215.** If a doctor has treated a gentleman for a severe wound with a bronze lancet and has cured the man, or has opened an abscess of the eye for a gentleman with the bronze lancet and has cured the eye of the gentleman, he shall take ten shekels of silver.
 
 **218.** If the doctor has treated a gentleman for a severe wound with a lancet of bronze and has caused the gentleman to die, or has opened an abscess of the eye for a gentleman with the bronze lancet and has caused the loss of the gentleman's eye, one shall cut off his hands.
+
+**53.** If a man has neglected to strengthen his bank of the canal, has not strengthened his bank, a breach has opened out itself in his bank, and the waters have carried away the meadow, the man in whose bank the breach has been opened shall render back the corn which he has caused to be lost.
+
+**54.** If he is not able to render back the corn, one shall give him and his goods for money, and the people of the meadow whose corn the water has carried away shall share it.
+
+**229.** If a builder has built a house for a man and has not made strong his work, and the house he built has fallen, and he has caused the death of the owner of the house, that builder shall be put to death.
+
+**230.** If he has caused the son of the owner of the house to die, one shall put to death the son of that builder.
+
+**231.** If he has caused the slave of the owner of the house to die, he shall give slave for slave to the owner of the house.
+
+**250.** If a wild bull in his charge has gored a man and caused him to die, that case has no remedy.
+
+**251.** If the ox has pushed a man, by pushing has made known his vice, and he has not blunted his horn, has not shut up his ox, and that ox has gored a man of gentle birth and caused him to die, he shall pay half a mina of silver.

@@ -96,6 +96,14 @@
       "year": "1950",
       "claim": "Childe argued that the first cities marked a distinct 'urban revolution' — a second great change in human society, after farming, marked by dense settlement, specialized crafts, writing, and the state.",
       "note": "Later archaeologists debate how sharply this change can be dated, and whether 'revolution' is the right word for a process that took centuries. The label is an argument, not a fact."
+    },
+    {
+      "id": "algaze-uruk-world-system",
+      "historian": "Guillermo Algaze",
+      "work": "The Uruk World System",
+      "year": "1993",
+      "claim": "Algaze argued that Uruk's far-flung colonies and trading posts were not scattered settlements but a deliberate system for controlling the timber, metal, and routes that the treeless southern plain lacked.",
+      "note": "Others read the same outposts as the work of merchants and settlers acting without a central plan. The surviving evidence — Uruk-style goods and enclaves far from home — can support both readings, which is the point."
     }
   ],
   "activities": [
@@ -138,6 +146,30 @@
       "choices": ["A divine scattering of languages", "A flood", "A famine", "A war"],
       "answer": 0,
       "feedback": "In the story, the builders are scattered and their speech confounded, so they stop building."
+    },
+    {
+      "id": "canal-law",
+      "type": "choice",
+      "prompt": "Law 53 punishes a man who lets his canal bank collapse and flood a neighbour's field. What does the law assume about the state?",
+      "choices": ["That it must settle disputes over water", "That canals were private and unregulated", "That flooding was nobody's fault", "That farmers did not need canals"],
+      "answer": 0,
+      "feedback": "The state claims the right to rule on the canals that every field depends on — and to order a man and his goods sold to repay the damage."
+    },
+    {
+      "id": "first-author",
+      "type": "choice",
+      "prompt": "Who is the earliest author known by name?",
+      "choices": ["Enheduanna", "Hammurabi", "Herodotus", "Sargon"],
+      "answer": 0,
+      "feedback": "Enheduanna, daughter of Sargon and priestess at Ur, wrote hymns to Inanna around 2300 BCE."
+    },
+    {
+      "id": "standard-of-ur",
+      "type": "choice",
+      "prompt": "What does the Standard of Ur show on its two sides?",
+      "choices": ["An army with prisoners and a banquet", "A map of the city", "A list of laws", "A temple plan"],
+      "answer": 0,
+      "feedback": "War on one side, peace on the other — the same object shows the two faces of the city's power."
     },
     {
       "id": "reflect-authority",
