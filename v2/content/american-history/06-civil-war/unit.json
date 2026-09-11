@@ -1,0 +1,206 @@
+{
+  "id": "06-civil-war",
+  "title": "The Civil War",
+  "period": "1861–1865",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "emancipation-proclamation",
+      "title": "The Emancipation Proclamation",
+      "author": "Abraham Lincoln",
+      "date": "January 1, 1863",
+      "citation": "Emancipation Proclamation, January 1, 1863. The Avalon Project, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/19th_century/emancipa.asp",
+      "file": "sources/emancipation-proclamation.md",
+      "context": "Issued under the president's war powers. It declares free the enslaved people in the states still in rebellion and authorizes their enlistment, while leaving the border states and the occupied parts of Louisiana and Virginia untouched.",
+      "questions": [
+        "Whom does the proclamation name as free, and whom does it leave out?",
+        "On what authority does Lincoln say he is acting, and what does that reveal about his purpose?",
+        "What does the proclamation say about the military service of the people it declares free?"
+      ]
+    },
+    {
+      "id": "gettysburg-address",
+      "title": "The Gettysburg Address",
+      "author": "Abraham Lincoln",
+      "date": "November 19, 1863",
+      "citation": "Gettysburg Address, November 19, 1863. The Avalon Project, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/19th_century/gettyb.asp",
+      "file": "sources/gettysburg-address.md",
+      "context": "Delivered at the dedication of the Soldiers' National Cemetery, four and a half months after the battle. Lincoln recasts the war as a test of whether a nation founded on the proposition of equality can long survive.",
+      "questions": [
+        "What does Lincoln say the soldiers died for, and how does that differ from the war's original purpose?",
+        "The address speaks of a 'new birth of freedom.' What might that phrase mean in late 1863?",
+        "What does Lincoln ask of the living, and why does he say their words cannot hallow the ground?"
+      ]
+    },
+    {
+      "id": "gooding-letter",
+      "title": "Corporal James Henry Gooding to President Lincoln",
+      "author": "James Henry Gooding",
+      "date": "September 28, 1863",
+      "citation": "Corporal James Henry Gooding to Abraham Lincoln, 28 Sept. 1863, Letters Received, series 360, Colored Troops Division, Adjutant General's Office, Record Group 94, National Archives. Transcribed by the Freedmen and Southern Society Project, University of Maryland.",
+      "license": "Public domain",
+      "url": "http://www.freedmen.umd.edu/gooding.htm",
+      "file": "sources/gooding-letter.md",
+      "context": "Corporal Gooding of the 54th Massachusetts, a free black soldier, wrote from Morris Island, South Carolina, to protest the lower pay black soldiers received and to claim the rights of a soldier. Spelling is as in the manuscript.",
+      "questions": [
+        "What distinction does Gooding draw between soldiers and laborers?",
+        "What does Gooding appeal to in asking for equal pay, and what does that appeal assume about the nation?",
+        "What does the letter reveal about how black soldiers understood their own service?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "mcpherson-second-revolution",
+      "historian": "James M. McPherson",
+      "work": "Battle Cry of Freedom: The Civil War Era",
+      "year": "1988",
+      "claim": "McPherson argues that the Civil War was a 'Second American Revolution': the destruction of slavery and the remaking of the Constitution that followed were not incidental to the conflict but its central result, and slavery was the fundamental cause of the war.",
+      "note": "Gary W. Gallagher and others argue that most Union soldiers fought to restore the Union rather than to end slavery, and that emancipation was a means to that end. How far the North as a whole embraced emancipation is still contested."
+    },
+    {
+      "id": "faust-republic-of-suffering",
+      "historian": "Drew Gilpin Faust",
+      "work": "This Republic of Suffering: Death and the American Civil War",
+      "year": "2008",
+      "claim": "Faust argues that the war's roughly 620,000 to 750,000 deaths produced a 'work of death' — the practices of burying, identifying, mourning, and memorializing the fallen — that changed how Americans understood the nation's obligation to its citizens and the meaning of sacrifice.",
+      "note": "Historians disagree about how new these practices were and whether the shared experience of death crossed sectional lines; some argue the 'republic of suffering' explains the war's meaning more than its outcome."
+    }
+  ],
+  "activities": [
+    {
+      "id": "secession-trigger",
+      "type": "choice",
+      "prompt": "What did the Republican platform of 1860 pledge about slavery?",
+      "choices": [
+        "To bar slavery from the federal territories",
+        "To abolish slavery in the states",
+        "To protect slavery in the territories",
+        "To end the slave trade only"
+      ],
+      "answer": 0,
+      "feedback": "The Republicans opposed the extension of slavery into the territories but promised not to touch it in the states where it already existed."
+    },
+    {
+      "id": "fort-sumter",
+      "type": "choice",
+      "prompt": "What happened at Fort Sumter in April 1861?",
+      "choices": [
+        "The federal garrison surrendered after a Confederate bombardment",
+        "The Confederates surrendered to Lincoln",
+        "A peace treaty was signed",
+        "The fort was abandoned without a fight"
+      ],
+      "answer": 0,
+      "feedback": "Confederate batteries fired on the fort on 12 April; Major Anderson surrendered after thirty-four hours, and Lincoln called for 75,000 militia."
+    },
+    {
+      "id": "border-states",
+      "type": "choice",
+      "prompt": "Which four slave states remained in the Union?",
+      "choices": [
+        "Delaware, Maryland, Kentucky, and Missouri",
+        "Virginia, Tennessee, and North Carolina",
+        "South Carolina and Georgia",
+        "Texas and Arkansas"
+      ],
+      "answer": 0,
+      "feedback": "All four were divided, and Lincoln held them by patronage, arrest, and military occupation."
+    },
+    {
+      "id": "antietam-effect",
+      "type": "choice",
+      "prompt": "What did the drawn battle at Antietam allow Lincoln to do?",
+      "choices": [
+        "Issue the preliminary Emancipation Proclamation",
+        "End the blockade",
+        "Draft a Confederate constitution",
+        "Remove Grant from command"
+      ],
+      "answer": 0,
+      "feedback": "Because Lee withdrew, Lincoln could present the battle as a victory and issue the preliminary proclamation on 22 September 1862."
+    },
+    {
+      "id": "emancipation-scope",
+      "type": "choice",
+      "prompt": "Whom did the Emancipation Proclamation declare free?",
+      "choices": [
+        "Enslaved people in the states still in rebellion",
+        "Enslaved people everywhere in the United States",
+        "Enslaved people in the border states",
+        "Enslaved people in the federal territories"
+      ],
+      "answer": 0,
+      "feedback": "It named the rebelling states one by one and left the border slave states and occupied areas untouched; it rested on military necessity."
+    },
+    {
+      "id": "usct-pay",
+      "type": "choice",
+      "prompt": "What did Corporal Gooding's letter protest?",
+      "choices": [
+        "That black soldiers were paid less than white soldiers",
+        "That black soldiers were not allowed to fight",
+        "That the war had already ended",
+        "That he had been denied a promotion"
+      ],
+      "answer": 0,
+      "feedback": "Black soldiers received $10 a month with $3 deducted for clothing while white privates received $13; Congress equalized pay, retroactively, in June 1864."
+    },
+    {
+      "id": "vicksburg-effect",
+      "type": "choice",
+      "prompt": "What did the fall of Vicksburg in July 1863 give the Union?",
+      "choices": [
+        "Control of the whole Mississippi River",
+        "The capture of Richmond",
+        "The end of the blockade",
+        "An alliance with Britain"
+      ],
+      "answer": 0,
+      "feedback": "With Port Hudson a few days later, the Mississippi was open, and the Confederacy was cut in two."
+    },
+    {
+      "id": "sherman-purpose",
+      "type": "choice",
+      "prompt": "What was the purpose of Sherman's March to the Sea?",
+      "choices": [
+        "To break the South's ability and will to keep fighting",
+        "To capture Jefferson Davis",
+        "To free the enslaved people of Georgia",
+        "To find winter quarters"
+      ],
+      "answer": 0,
+      "feedback": "Sherman cut his supply lines and destroyed railroads, factories, and stores to undermine the South's capacity and morale, an early example of total war."
+    },
+    {
+      "id": "election-1864",
+      "type": "choice",
+      "prompt": "What did Lincoln's re-election in 1864 mean for the war?",
+      "choices": [
+        "The war would continue to unconditional victory",
+        "The South would be allowed to secede",
+        "Emancipation would be reversed",
+        "McClellan would take command of the army"
+      ],
+      "answer": 0,
+      "feedback": "Lincoln defeated McClellan on a platform that rejected a negotiated peace, and the House passed the Thirteenth Amendment on 31 January 1865."
+    },
+    {
+      "id": "reflect-emancipation",
+      "type": "short-answer",
+      "prompt": "How did the Emancipation Proclamation change what the Union was fighting for, and what did it leave unchanged? Use the text of the proclamation.",
+      "context": "I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free... And I further declare and make known, that such persons of suitable condition, will be received into the armed service of the United States... And upon this act, sincerely believed to be an act of justice, warranted by the Constitution, upon military necessity, I invoke the considerate judgment of mankind, and the gracious favor of Almighty God.",
+      "rubric": [
+        "refers to the text of the proclamation",
+        "explains what the proclamation changed about the war's purpose",
+        "notes what it left unchanged, such as the border states or the basis in military necessity"
+      ]
+    }
+  ]
+}

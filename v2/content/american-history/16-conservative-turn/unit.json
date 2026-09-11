@@ -1,0 +1,193 @@
+{
+  "id": "16-conservative-turn",
+  "title": "The conservative turn and after",
+  "period": "c. 1975 to the present",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "reagan-inaugural",
+      "title": "Inaugural Address",
+      "author": "Ronald Reagan, President of the United States",
+      "date": "20 January 1981",
+      "citation": "Ronald Reagan, Inaugural Address, 20 January 1981, Public Papers of the Presidents of the United States: Ronald Reagan, 1981 (Washington: Government Printing Office, 1982). Text from the Ronald Reagan Presidential Library and Museum, National Archives.",
+      "license": "Public domain",
+      "url": "https://www.reaganlibrary.gov/archives/speech/inaugural-address-1981",
+      "file": "sources/reagan-inaugural.md",
+      "context": "Delivered on 20 January 1981, the day the Iran hostages were released, Reagan's first inaugural blamed inflation and deficits on the growth of the federal government and announced that 'government is not the solution to our problem; government is the problem.'",
+      "questions": [
+        "Reagan says government 'is the problem.' What does he propose to do about it, and what does he leave untouched?",
+        "How does Reagan describe the economy's troubles, and whom does he treat as the victims?",
+        "What does the speech assume about the relationship between the federal government and the states?"
+      ]
+    },
+    {
+      "id": "patriot-act",
+      "title": "USA PATRIOT Act (selected sections)",
+      "author": "The Congress of the United States",
+      "date": "26 October 2001",
+      "citation": "Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism (USA PATRIOT ACT) Act of 2001, Pub. L. 107-56, 115 Stat. 272, 26 October 2001. Sections 1, 102, 213, 215, and 802. Text from the U.S. Government Publishing Office.",
+      "license": "Public domain",
+      "url": "https://www.congress.gov/107/plaws/publ56/PLAW-107publ56.htm",
+      "file": "sources/patriot-act.md",
+      "context": "Signed into law on 26 October 2001, six weeks after the September 11 attacks, the Act expanded surveillance and search powers. Section 215 let the FBI obtain business records with a secret court order; Section 213 authorized delayed-notice searches; Section 802 defined domestic terrorism.",
+      "questions": [
+        "Section 215 lets a judge issue an order for 'any tangible things' without the target's knowledge. What does the law assume about the balance between investigation and privacy?",
+        "How does Section 102 answer the concern that Arab and Muslim Americans would be targeted?",
+        "What kind of conduct does Section 802 define as domestic terrorism, and what might that definition reach?"
+      ]
+    },
+    {
+      "id": "bush-september-20",
+      "title": "Address to a Joint Session of Congress and the American People",
+      "author": "George W. Bush, President of the United States",
+      "date": "20 September 2001",
+      "citation": "George W. Bush, Address to a Joint Session of Congress and the American People, 20 September 2001, Public Papers of the Presidents of the United States: George W. Bush, 2001, Book II (Washington: Government Printing Office, 2002). Text from the George W. Bush White House archives, National Archives.",
+      "license": "Public domain",
+      "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2001/09/20010920-8.html",
+      "file": "sources/bush-september-20.md",
+      "context": "Bush addressed a joint session of Congress nine days after the September 11 attacks. He identified al Qaeda and Osama bin Laden, demanded that the Taliban surrender them, announced a global 'war on terror,' and created the Office of Homeland Security.",
+      "questions": [
+        "Bush describes al Qaeda as heirs to 'fascism, and Nazism, and totalitarianism.' What does that comparison do in the speech?",
+        "What does 'either you are with us, or you are with the terrorists' ask of other nations?",
+        "How does Bush describe the war's length and methods, and how does that differ from the Gulf War of 1991?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "perlstein-invisible-bridge",
+      "historian": "Rick Perlstein",
+      "work": "The Invisible Bridge: The Fall of Nixon and the Rise of Reagan",
+      "year": "2014",
+      "claim": "In The Invisible Bridge and the volumes around it, Perlstein argues that the conservative ascendancy was not a sudden reaction to the crises of the 1970s but the work of a long movement culture — organizers, direct mail, think tanks, and its own media — built since Goldwater's 1964 defeat, which turned Reagan from a failed 1976 primary challenger into the 1980 nominee.",
+      "note": "Sean Wilentz and others stress that stagflation, deindustrialization, and the breakup of the New Deal coalition gave the movement its opening, so the same evidence supports a structural-crisis reading as well as a long-movement one. Perlstein's volumes are a narrative argument, not a settled verdict."
+    },
+    {
+      "id": "wilentz-age-of-reagan",
+      "historian": "Sean Wilentz",
+      "work": "The Age of Reagan: A History, 1974–2008",
+      "year": "2008",
+      "claim": "In The Age of Reagan, Wilentz argues that Reagan's presidency was a genuine turning point — a 'Reagan revolution' that cut taxes, deregulated, rebuilt the military, and realigned both parties around market economics and a confrontational Cold War posture, forcing Democrats to accommodate it.",
+      "note": "Perlstein and others reply that the revolution was partial and its roots earlier: the welfare state survived, and Democrats won the popular vote in five of six presidential elections from 1992 to 2012. The debate is whether the turn was a realignment or a swing within a durable two-party contest."
+    }
+  ],
+  "activities": [
+    {
+      "id": "stagflation-definition",
+      "type": "choice",
+      "prompt": "The term 'stagflation' describes which combination?",
+      "choices": [
+        "Rising prices together with high unemployment",
+        "Falling prices with rapid growth",
+        "High growth with low inflation",
+        "Balanced budgets with rising wages"
+      ],
+      "answer": 0,
+      "feedback": "Stagflation — stagnant growth and inflation at once — baffled the Keynesian tools of the 1970s, which assumed the two moved in opposite directions."
+    },
+    {
+      "id": "reagan-government-line",
+      "type": "choice",
+      "prompt": "In his first inaugural address, Reagan summed up his view of the federal government with which line?",
+      "choices": [
+        "'Government is not the solution to our problem; government is the problem.'",
+        "'Ask not what your country can do for you.'",
+        "'The only thing we have to fear is fear itself.'",
+        "'I have a dream.'"
+      ],
+      "answer": 0,
+      "feedback": "Reagan's 1981 address blamed inflation and deficits on the growth of government and promised to 'curb the size and influence of the Federal establishment.'"
+    },
+    {
+      "id": "patco-1981",
+      "type": "choice",
+      "prompt": "What did Reagan do when the air-traffic controllers' union struck in August 1981?",
+      "choices": [
+        "He fired more than 11,000 controllers and decertified the union",
+        "He granted the union's wage demands",
+        "He asked Congress to raise their pay",
+        "He ordered binding arbitration"
+      ],
+      "answer": 0,
+      "feedback": "Reagan's dismissal of the PATCO strikers signaled that the postwar accommodation with organized labor was over."
+    },
+    {
+      "id": "moral-majority",
+      "type": "choice",
+      "prompt": "Which organization did Jerry Falwell found in 1979 to mobilize evangelical voters?",
+      "choices": [
+        "The Moral Majority",
+        "The Heritage Foundation",
+        "The American Civil Liberties Union",
+        "The National Organization for Women"
+      ],
+      "answer": 0,
+      "feedback": "The Moral Majority helped make white evangelicals a reliable Republican constituency by 1980."
+    },
+    {
+      "id": "bush-v-gore-holding",
+      "type": "choice",
+      "prompt": "What did the Supreme Court decide in Bush v. Gore (2000)?",
+      "choices": [
+        "It stopped the Florida recount, leaving Bush ahead",
+        "It ordered a new national election",
+        "It declared the electoral college unconstitutional",
+        "It awarded Florida to Gore"
+      ],
+      "answer": 0,
+      "feedback": "The 5–4 decision of 12 December 2000 halted the recount; Bush carried Florida by 537 votes and won 271 electoral votes to 266."
+    },
+    {
+      "id": "patriot-215",
+      "type": "choice",
+      "prompt": "Under Section 215 of the USA PATRIOT Act, the FBI could obtain 'any tangible things' by…",
+      "choices": [
+        "A secret order from a special court, without notifying the target",
+        "A public trial by jury",
+        "A vote of Congress",
+        "A request to the state governor"
+      ],
+      "answer": 0,
+      "feedback": "Section 215 let a judge of the Foreign Intelligence Surveillance Court issue an ex parte order, and the law barred the recipient from disclosing it."
+    },
+    {
+      "id": "lehman-2008",
+      "type": "choice",
+      "prompt": "Which event in September 2008 turned the housing downturn into a global financial panic?",
+      "choices": [
+        "The bankruptcy of Lehman Brothers",
+        "The election of Barack Obama",
+        "The passage of NAFTA",
+        "The collapse of the Soviet Union"
+      ],
+      "answer": 0,
+      "feedback": "Lehman Brothers filed for bankruptcy on 15 September 2008, the largest in American history; credit markets froze and the government rescued AIG the next day."
+    },
+    {
+      "id": "tea-party-origins",
+      "type": "choice",
+      "prompt": "The Tea Party movement of 2009–2010 arose chiefly in response to…",
+      "choices": [
+        "The bank bailouts and the Affordable Care Act",
+        "The invasion of Iraq",
+        "The North American Free Trade Agreement",
+        "The impeachment of Bill Clinton"
+      ],
+      "answer": 0,
+      "feedback": "The movement took its name from the Boston tax revolt of 1773 and demanded lower taxes and smaller government; its energy helped Republicans win 63 House seats in 2010."
+    },
+    {
+      "id": "reflect-two-crises",
+      "type": "short-answer",
+      "prompt": "Reagan's 1981 inaugural and Bush's 2001 address to Congress both describe a nation in crisis and a government that must change. Compare what each speech assumes about the source of the crisis and the proper role of the federal government.",
+      "context": "Reagan (1981): 'In this present crisis, government is not the solution to our problem; government is the problem.' Bush (2001): 'We will come together to give law enforcement the additional tools it needs to track down terror here at home. We will come together to strengthen our intelligence capabilities to know the plans of terrorists before they act, and find them before they strike.'",
+      "rubric": [
+        "refers to both speeches",
+        "states what each assumes about the federal government's role",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}

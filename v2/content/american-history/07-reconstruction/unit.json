@@ -1,0 +1,209 @@
+{
+  "id": "07-reconstruction",
+  "title": "Reconstruction",
+  "period": "1865–1877",
+  "region": "The United States, especially the South",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "fourteenth-amendment",
+      "title": "Amendment XIV to the Constitution of the United States",
+      "author": "The Congress of the United States",
+      "date": "Passed June 13, 1866; ratified July 9, 1868",
+      "citation": "Transcript of the Fourteenth Amendment to the Constitution of the United States, passed by Congress June 13, 1866, ratified July 9, 1868. National Archives, Milestone Documents.",
+      "license": "Public domain",
+      "url": "https://www.archives.gov/milestone-documents/14th-amendment",
+      "file": "sources/fourteenth-amendment.md",
+      "context": "The longest of the Reconstruction amendments, drafted by the Joint Committee on Reconstruction and sent to the states in June 1866. Section 1 defined national and state citizenship and barred states from abridging privileges or immunities, from depriving any person of due process, and from denying any person equal protection of the laws.",
+      "questions": [
+        "Section 1 protects 'persons,' not only citizens. Which people within a state's jurisdiction might that word be meant to reach?",
+        "Section 2 reduces a state's representation if it denies the vote to adult male citizens. Why choose that penalty instead of directly guaranteeing the vote?",
+        "Sections 3 and 4 deal with former Confederates and the war debt. What do they show about what Congress meant Reconstruction to settle?",
+        "The amendment says Congress 'shall have power to enforce' its provisions. Who might decide how far that power reaches?"
+      ]
+    },
+    {
+      "id": "elliott-civil-rights",
+      "title": "The Civil Rights' Bell",
+      "author": "Robert Brown Elliott",
+      "date": "January 6, 1874",
+      "citation": "Robert Brown Elliott, 'The Civil Rights' Bell,' in Alice Moore Dunbar, ed., Masterpieces of Negro Eloquence (New York: The Bookery Publishing Company, 1914), pp. 67–77. Project Gutenberg eBook 22240.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/22240",
+      "file": "sources/elliott-civil-rights.md",
+      "context": "Elliott, a South Carolina Republican and one of the first black members of Congress, spoke for the civil rights bill that became the Civil Rights Act of 1875. He argues that the war amendments gave Congress power to protect civil rights, and that the Supreme Court's recent Slaughter-House decision does not bar the bill.",
+      "questions": [
+        "Elliott says the amendments 'invest Congress with the power to protect the citizen in his civil and political rights.' How does he tie that claim to the equal protection clause?",
+        "Whom is Elliott trying to persuade, and what does he assume his audience already accepts?",
+        "Elliott calls civil rights the 'cap-stone' and says political status is already 'settled.' What does that distinction assume about what the Fifteenth Amendment had and had not done?",
+        "He quotes the Book of Ruth at the close. What does the comparison ask his hearers to feel, and what does it leave out?"
+      ]
+    },
+    {
+      "id": "klan-prescript",
+      "title": "Revised and Amended Prescript of the Order of the * * *",
+      "author": "Order of the * * *, attributed to George Washington Gordon",
+      "date": "1868",
+      "citation": "Revised and Amended Prescript of the Order of the * * * (1868), attributed to George Washington Gordon. Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Revised_and_Amended_Prescript_of_the_Order_of_the_*_*_*",
+      "file": "sources/klan-prescript.md",
+      "context": "The Klan's own governing text, revised in 1868. It presents the Order as an institution of 'Chivalry, Humanity, Mercy, and Patriotism,' then requires members to oppose 'negro equality' and to favor 'a white man's government,' and binds them to secrecy on pain of death.",
+      "questions": [
+        "The Prescript calls the Order an institution of 'Chivalry, Humanity, Mercy, and Patriotism.' What do its interrogatories reveal about its actual purposes?",
+        "The oath binds members to secrecy and threatens 'the extreme penalty of the law' for betrayal. Why would an organization claiming to uphold the law need such a rule?",
+        "The document names the Loyal League, the Grand Army of the Republic, and the Radical party as enemies. What does that list show about whom the Klan saw as its opponents?",
+        "What can this source tell us about the Klan's intentions, and what can it not tell us about what its members actually did?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "foner-unfinished-revolution",
+      "historian": "Eric Foner",
+      "work": "Reconstruction: America's Unfinished Revolution, 1863–1877",
+      "year": "1988",
+      "claim": "Foner reads Reconstruction as a genuine democratic revolution driven from below, in which freedpeople claimed citizenship and built schools, churches, and political organizations. It failed because the North's commitment faded, the courts narrowed the amendments, and the planter class retook the state governments by violence — above all because land was never redistributed, leaving freedpeople economically dependent.",
+      "note": "This is the modern standard account but not the last word. Some historians reply that the word 'failure' hides real gains, since the amendments survived and later became the basis of civil rights law; others argue that Foner overstates Northern radicalism and the unity of black politics. The older Dunning School, which read Reconstruction as vindictive misrule, is now rejected."
+    },
+    {
+      "id": "blight-race-and-reunion",
+      "historian": "David W. Blight",
+      "work": "Race and Reunion: The Civil War in American Memory",
+      "year": "2001",
+      "claim": "Blight argues that two memories of the war competed after 1865: an emancipationist memory, kept alive largely by black Americans, that made the destruction of slavery the war's meaning, and a reconciliationist memory that honored the courage of both armies. By the 1880s and 1890s the reconciliationist and Lost Cause versions had won, and reunion was bought at the price of black rights and of forgetting emancipation.",
+      "note": "Critics reply that Blight understates the persistence of sectional and partisan conflict and that public memory was never uniform; black communities, Union veterans, and their allies kept an emancipationist tradition alive. The dating of the reconciliationist triumph is also debated."
+    }
+  ],
+  "activities": [
+    {
+      "id": "black-codes",
+      "type": "choice",
+      "prompt": "What did the Black Codes passed by Southern states in 1865–66 chiefly aim to do?",
+      "choices": [
+        "Bind freedpeople to plantation labor and limit their rights",
+        "Grant freedpeople the vote",
+        "Divide plantations into forty-acre farms",
+        "Bar former Confederates from public office"
+      ],
+      "answer": 0,
+      "feedback": "The codes used vagrancy and apprenticeship laws and labor contracts to keep black workers on the land and out of court, and they denied them rights that white citizens held."
+    },
+    {
+      "id": "fourteenth-section-one",
+      "type": "choice",
+      "prompt": "Section 1 of the Fourteenth Amendment declares that no state shall…",
+      "choices": [
+        "Deny any person the equal protection of the laws",
+        "Abolish slavery except as punishment for crime",
+        "Bar denial of the vote on account of race",
+        "Seat the Southern delegations in Congress"
+      ],
+      "answer": 0,
+      "feedback": "Section 1 also made all persons born or naturalized in the United States citizens and barred states from abridging privileges or immunities or depriving persons of due process."
+    },
+    {
+      "id": "forty-acres",
+      "type": "choice",
+      "prompt": "The Freedmen's Bureau's early settlement of freedpeople on 'forty acres' largely collapsed because…",
+      "choices": [
+        "President Johnson pardoned former owners and restored their land",
+        "Congress repealed the Thirteenth Amendment",
+        "The Bureau ran out of land west of the Mississippi",
+        "The Supreme Court ordered the plots sold at auction"
+      ],
+      "answer": 0,
+      "feedback": "Sherman's Special Field Orders No. 15 and the Bureau's Circular 13 set land aside, but Johnson's amnesty and pardon policy returned most of it to pardoned Confederates in late 1865."
+    },
+    {
+      "id": "enforcement-acts",
+      "type": "choice",
+      "prompt": "What did the Enforcement Acts of 1870–71 and the Ku Klux Klan Act of 1871 authorize?",
+      "choices": [
+        "Federal prosecution of those who used violence to prevent black voting",
+        "The removal of President Johnson from office",
+        "The creation of the Freedmen's Bureau",
+        "The withdrawal of federal troops from the South"
+      ],
+      "answer": 0,
+      "feedback": "The acts made it a federal crime to interfere with voting or to conspire to deprive citizens of rights, and in 1871 Grant suspended habeas corpus in parts of South Carolina and federal prosecutors won convictions."
+    },
+    {
+      "id": "cruikshank",
+      "type": "choice",
+      "prompt": "In United States v. Cruikshank (1876), the Supreme Court held that…",
+      "choices": [
+        "The Fourteenth Amendment reached state action, not private violence",
+        "The Fifteenth Amendment guaranteed the vote to all men",
+        "The Civil Rights Act of 1875 was constitutional",
+        "Military reconstruction was unlawful"
+      ],
+      "answer": 0,
+      "feedback": "The Court overturned the convictions of the men who carried out the Colfax massacre, ruling that the amendments did not give Congress general power to punish private citizens for violence."
+    },
+    {
+      "id": "convict-lease",
+      "type": "choice",
+      "prompt": "Under the convict-lease system, Southern states…",
+      "choices": [
+        "Leased prisoners, most of them black, to plantations, mines, and railroads",
+        "Freed all prisoners convicted before 1865",
+        "Paid prisoners a fixed daily wage",
+        "Abolished imprisonment for debt"
+      ],
+      "answer": 0,
+      "feedback": "The Thirteenth Amendment's exception for punishment of crime let states sentence black men on flimsy charges and lease their labor, a system that outlasted Reconstruction by decades."
+    },
+    {
+      "id": "panic-1873",
+      "type": "choice",
+      "prompt": "The Panic of 1873 began with…",
+      "choices": [
+        "The failure of Jay Cooke & Company and a railroad financing crisis",
+        "The impeachment of Andrew Johnson",
+        "The passage of the Fifteenth Amendment",
+        "The Colfax massacre in Louisiana"
+      ],
+      "answer": 0,
+      "feedback": "Jay Cooke's bank failed on September 18, 1873, the stock exchange closed, and a depression followed that lasted until 1879, turning Northern attention to currency and jobs."
+    },
+    {
+      "id": "compromise-1877",
+      "type": "choice",
+      "prompt": "What did the Compromise of 1877 involve?",
+      "choices": [
+        "Hayes became president and federal troops were withdrawn from the South",
+        "Tilden became president in exchange for ending the tariff",
+        "The South agreed to ratify the Fifteenth Amendment",
+        "Congress agreed to keep troops in the South for twenty more years"
+      ],
+      "answer": 0,
+      "feedback": "After an Electoral Commission awarded the disputed returns to Hayes, the last federal troops left the statehouses of South Carolina and Louisiana, and white Democratic governments took power."
+    },
+    {
+      "id": "lost-cause",
+      "type": "choice",
+      "prompt": "The 'Lost Cause' account of the war held that…",
+      "choices": [
+        "The Confederacy fought for states' rights and honor, not slavery, and Reconstruction was misrule",
+        "Slavery caused the war and should be abolished everywhere",
+        "Black soldiers had won the war for the Union",
+        "The South should be punished for secession"
+      ],
+      "answer": 0,
+      "feedback": "The Lost Cause, promoted by writers and later by veterans' and memorial groups, recast the Confederacy as noble and Reconstruction as a time of corruption and 'negro rule,' a story that shaped textbooks and film for generations."
+    },
+    {
+      "id": "two-claims",
+      "type": "short-answer",
+      "prompt": "Elliott and the Klan Prescript both describe what the war and the amendments mean. Compare what each text says the government should protect, and what each assumes about who belongs to the political community.",
+      "context": "Elliott (1874): 'The Constitution of a free government ought always to be construed in favor of human rights. Indeed, the thirteenth, fourteenth, and fifteenth amendments, in positive words, invest Congress with the power to protect the citizen in his civil and political rights.' Klan Prescript (1868): 'Are you opposed to negro equality, both social and political? … Are you in favor of a white man's government in this country?'",
+      "rubric": [
+        "refers to both texts",
+        "states what each assumes about who holds rights",
+        "uses a specific phrase or clause from each"
+      ]
+    }
+  ]
+}

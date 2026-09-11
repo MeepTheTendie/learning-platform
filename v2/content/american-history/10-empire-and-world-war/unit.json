@@ -1,0 +1,209 @@
+{
+  "id": "10-empire-and-world-war",
+  "title": "America as a world power",
+  "period": "c. 1898–1920",
+  "region": "The United States and the world",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "anti-imperialist-platform",
+      "title": "Platform of the American Anti-Imperialist League",
+      "author": "The American Anti-Imperialist League",
+      "date": "October 1899",
+      "citation": "Platform of the American Anti-Imperialist League, adopted at the national conference, Chicago, October 1899. Text in Speeches, Correspondence and Political Papers of Carl Schurz, vol. 6, ed. Frederic Bancroft (New York: G. P. Putnam's Sons, 1913), p. 77, note 1. Internet Modern History Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/1899antiimp.html",
+      "file": "sources/anti-imperialist-platform.md",
+      "context": "The American Anti-Imperialist League was founded in Boston in 1898, after the United States took Cuba, Puerto Rico, and the Philippines. Its members included Andrew Carnegie, William James, Mark Twain, and Carl Schurz. This platform, adopted in Chicago in October 1899, argued against the annexation of the Philippines and against the war being fought there.",
+      "questions": [
+        "The platform says governments derive their just powers from 'the consent of the governed.' Which peoples does it say are being denied that consent, and where?",
+        "The League calls the war in the Philippines a betrayal of American institutions 'at home.' What does it assume about the connection between empire abroad and liberty at home?",
+        "The platform quotes Lincoln on governing another man without his consent. What does the League leave out of its own account of who counts as a self-governing people?",
+        "The document was written by opponents who lost the vote. What can it tell us, and what can it not tell us, about how most Americans felt?"
+      ]
+    },
+    {
+      "id": "platt-amendment",
+      "title": "The Platt Amendment",
+      "author": "United States Congress",
+      "date": "2 March 1901",
+      "citation": "Platt Amendment, an amendment to the Army Appropriations Act of 2 March 1901, 31 Stat. 895. Text via Wikisource, United States Statutes at Large. Public domain (U.S. government work).",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Platt_Amendment",
+      "file": "sources/platt-amendment.md",
+      "context": "Named for Senator Orville Platt, this amendment to the Army Appropriations Act of March 2, 1901 set the conditions under which the United States would end its military occupation of Cuba. Cuba had to accept it before the Americans withdrew, and its terms, including the right of intervention, remained in force until 1934.",
+      "questions": [
+        "Article III lets the United States intervene in Cuba 'for the preservation of Cuban independence.' Who decides when that condition is met?",
+        "The amendment leaves Cuba formally independent. What powers does it take from the Cuban government, and what does it keep?",
+        "Article VII provides for naval stations. What does that suggest about the purpose of the amendment beyond Cuba's own affairs?",
+        "Compare the preamble, which promises to 'leave the government and control of the island to its people,' with the articles that follow. How well do they match?"
+      ]
+    },
+    {
+      "id": "fourteen-points",
+      "title": "President Woodrow Wilson's Fourteen Points",
+      "author": "Woodrow Wilson",
+      "date": "8 January 1918",
+      "citation": "Woodrow Wilson, address to a joint session of Congress, 8 January 1918. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain (U.S. government work).",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/20th_century/wilson14.asp",
+      "file": "sources/fourteen-points.md",
+      "context": "Wilson delivered this address to a joint session of Congress on January 8, 1918, ten months before the armistice, setting out his terms for a lasting peace. The last point proposed 'a general association of nations,' which became the League of Nations. The Allies had their own secret treaties and did not accept every point.",
+      "questions": [
+        "Point V calls for colonial claims to be adjusted with the interests of the populations concerned given 'equal weight' with the claims of the governing power. What would that mean in practice for the Philippines or Puerto Rico?",
+        "Which points are about territory, and which are about rules for the conduct of nations? Why does Wilson put the League last?",
+        "The address says 'the day of conquest and aggrandizement is gone by.' How does that claim sit beside the American annexations of 1898 and after?",
+        "Wilson says the programme is 'the only possible programme.' What does that leave for the Allies or for Germany to negotiate?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "williams-open-door",
+      "historian": "William Appleman Williams",
+      "work": "The Tragedy of American Diplomacy",
+      "year": "1959",
+      "claim": "Williams argued that American expansion after 1890 was driven by the 'Open Door' — the belief that the nation's prosperity required access to foreign markets and raw materials. The war with Spain and the taking of the Philippines, on this reading, were not a momentary fit of war fever but a response to the depression of the 1890s and to the sense that the frontier and the home market were closing.",
+      "note": "Ernest R. May, in American Imperialism: A Speculative Essay (1968), questioned the economic thesis: business opinion was divided and often opposed annexation, and strategic ideas and the diplomatic crisis with Spain did more to produce the war. How much economics explains is still argued."
+    },
+    {
+      "id": "cooper-league-fight",
+      "historian": "John Milton Cooper Jr.",
+      "work": "Breaking the Heart of the World: Woodrow Wilson and the Fight for the League of Nations",
+      "year": "2001",
+      "claim": "Cooper argued that the Senate's rejection of the Treaty of Versailles was not foreordained. Wilson could have accepted mild reservations and won ratification, but his refusal to compromise, his collapse after a stroke in October 1919, and his demand for a 'solemn referendum' turned a winnable fight into a defeat. Cooper places much of the responsibility on Wilson himself.",
+      "note": "Thomas J. Knock, in To End All Wars: Woodrow Wilson and the Quest for a New World Order (1992), stresses the broad popular and progressive support for the League and argues that Wilson's program was more coherent and more widely backed than Cooper allows. Others emphasize Henry Cabot Lodge's determination to defeat the treaty."
+    }
+  ],
+  "activities": [
+    {
+      "id": "maine-1898",
+      "type": "choice",
+      "prompt": "What happened to the USS Maine in February 1898?",
+      "choices": [
+        "It exploded in Havana harbour and 266 men died",
+        "It was sunk by the Spanish fleet at Manila Bay",
+        "It ran aground off Cuba with no deaths",
+        "It was sold to Spain before the war"
+      ],
+      "answer": 0,
+      "feedback": "The Maine blew up on February 15, 1898; the cause was never settled, and 'Remember the Maine' helped carry the country to war."
+    },
+    {
+      "id": "treaty-of-paris",
+      "type": "choice",
+      "prompt": "Under the Treaty of Paris of December 1898, Spain ceded which territories to the United States?",
+      "choices": [
+        "Puerto Rico, Guam, and the Philippines",
+        "Cuba, Mexico, and Panama",
+        "Hawaii, Samoa, and Wake Island",
+        "Alaska and the Virgin Islands"
+      ],
+      "answer": 0,
+      "feedback": "Spain gave up Cuba, which became nominally independent, and ceded Puerto Rico, Guam, and the Philippines; the United States paid $20 million for the Philippines."
+    },
+    {
+      "id": "platt-meaning",
+      "type": "choice",
+      "prompt": "What did the Platt Amendment of 1901 give the United States?",
+      "choices": [
+        "The right to intervene in Cuba and lease naval stations there",
+        "Ownership of the Panama Canal Zone",
+        "A permanent colony in the Philippines",
+        "Control of the Hawaiian islands"
+      ],
+      "answer": 0,
+      "feedback": "Article III allowed intervention 'for the preservation of Cuban independence,' and Article VII required Cuba to lease land for naval stations such as Guantánamo Bay."
+    },
+    {
+      "id": "anti-imperialist-argument",
+      "type": "choice",
+      "prompt": "On what ground did the American Anti-Imperialist League chiefly oppose the annexation of the Philippines?",
+      "choices": [
+        "That a self-governing state cannot rule an unwilling people",
+        "That the islands were not profitable",
+        "That the United States should ally with Spain instead",
+        "That the Filipinos were already an American territory"
+      ],
+      "answer": 0,
+      "feedback": "The platform insisted that 'governments derive their just powers from the consent of the governed' and that the subjugation of any people was 'criminal aggression.'"
+    },
+    {
+      "id": "philippine-war",
+      "type": "choice",
+      "prompt": "How did the Philippine-American War differ from the short war of 1898?",
+      "choices": [
+        "It became a long guerrilla war with heavy civilian deaths",
+        "It lasted only a few weeks",
+        "It was fought entirely at sea",
+        "It ended in a Filipino victory"
+      ],
+      "answer": 0,
+      "feedback": "After the Filipino army was beaten in open battle, the fighting became a guerrilla war that lasted more than three years; civilian deaths are estimated in the hundreds of thousands."
+    },
+    {
+      "id": "panama-1903",
+      "type": "choice",
+      "prompt": "How did the United States acquire the canal zone in Panama?",
+      "choices": [
+        "It supported Panama's independence from Colombia and then signed a treaty",
+        "It bought the zone from Colombia after a fair auction",
+        "It won the territory from Spain in 1898",
+        "It leased the zone from France for ninety-nine years"
+      ],
+      "answer": 0,
+      "feedback": "When Colombia refused to ratify a treaty, the United States backed Panama's November 1903 independence and signed the Hay-Bunau-Varilla Treaty days later."
+    },
+    {
+      "id": "roosevelt-corollary",
+      "type": "choice",
+      "prompt": "What did the Roosevelt Corollary of 1904 add to the Monroe Doctrine?",
+      "choices": [
+        "The United States would intervene in Latin America to prevent European intervention",
+        "The United States would give up all interest in the Caribbean",
+        "European powers could collect debts by force",
+        "The United States would annex all of South America"
+      ],
+      "answer": 0,
+      "feedback": "Roosevelt declared that disorder or default in a Latin American state would bring American intervention rather than European action — the 'big stick.'"
+    },
+    {
+      "id": "zimmermann",
+      "type": "choice",
+      "prompt": "What did the Zimmermann telegram of 1917 propose?",
+      "choices": [
+        "That Mexico ally with Germany and recover Texas, New Mexico, and Arizona",
+        "That Germany end unrestricted submarine warfare",
+        "That the United States mediate a peace",
+        "That Britain lift its blockade of Germany"
+      ],
+      "answer": 0,
+      "feedback": "British intelligence decoded the German offer, and Wilson released it on March 1, 1917; it helped turn opinion toward war."
+    },
+    {
+      "id": "fourteenth-point",
+      "type": "choice",
+      "prompt": "What did the fourteenth of Wilson's Fourteen Points propose?",
+      "choices": [
+        "A general association of nations to guarantee independence and territory",
+        "The immediate independence of the Philippines",
+        "A return to secret diplomacy",
+        "The partition of Germany among the Allies"
+      ],
+      "answer": 0,
+      "feedback": "Point XIV called for 'a general association of nations' to guarantee the political independence and territorial integrity of great and small states alike; it became the League of Nations."
+    },
+    {
+      "id": "reflect-empire-and-consent",
+      "type": "short-answer",
+      "prompt": "The Anti-Imperialist League and the framers of the Platt Amendment disagreed about whether the United States should govern other peoples. Using the two documents, explain what each assumes about self-government and about America's role in the world.",
+      "context": "Anti-Imperialist League (1899): 'We maintain that governments derive their just powers from the consent of the governed. We insist that the subjugation of any people is \"criminal aggression.\"' — Platt Amendment (1901), Article III: 'That the government of Cuba consents that the United States may exercise the right to intervene for the preservation of Cuban independence, the maintenance of a government adequate for the protection of life, property, and individual liberty.'",
+      "rubric": [
+        "refers to both documents",
+        "states what each assumes about consent and self-government",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}

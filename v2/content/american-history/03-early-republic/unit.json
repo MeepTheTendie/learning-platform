@@ -1,0 +1,206 @@
+{
+  "id": "03-early-republic",
+  "title": "The early republic",
+  "period": "c. 1789–1820",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "washington-farewell",
+      "title": "Washington's Farewell Address",
+      "author": "George Washington",
+      "date": "19 September 1796",
+      "citation": "George Washington, Farewell Address, published in the American Daily Advertiser (Philadelphia), 19 September 1796. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/washing.asp",
+      "file": "sources/washington-farewell.md",
+      "context": "Published in September 1796 as Washington declined a third term, the address warns against sectional parties and permanent foreign alliances. These passages come from the sections on union, the spirit of party, morality, and foreign policy.",
+      "questions": [
+        "Washington warns that parties founded on 'geographical discriminations' are especially dangerous. What does he fear will happen to the Union?",
+        "He calls the 'spirit of party' a fire 'not to be quenched.' Does he allow that parties have any use, and where?",
+        "What does Washington ask the country to do about 'permanent alliances,' and what does he say about the engagements already made?"
+      ]
+    },
+    {
+      "id": "ky-va-resolutions",
+      "title": "The Kentucky and Virginia Resolutions",
+      "author": "Thomas Jefferson and James Madison, for the legislatures of Kentucky and Virginia",
+      "date": "1798",
+      "citation": "The Kentucky Resolutions of 1798, drafted by Thomas Jefferson, from Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, via Wikisource; the Virginia Resolutions of 1798, drafted by James Madison, from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/virres.asp",
+      "file": "sources/ky-va-resolutions.md",
+      "context": "Written secretly by Jefferson for Kentucky and by Madison for Virginia in response to the Alien and Sedition Acts, the resolutions set out the compact theory of the Union and the claim that the states may judge federal overreach.",
+      "questions": [
+        "Kentucky says the general government 'was not made the exclusive or final judge' of its own powers. Who does Kentucky say should judge, and by what reasoning?",
+        "Virginia says the states are 'in duty bound, to interpose.' What does interpose mean here, and what would it look like in practice?",
+        "Both resolutions insist on attachment to the Union while denying the federal government the last word. How do they try to hold both positions at once?"
+      ]
+    },
+    {
+      "id": "marbury-madison",
+      "title": "Marbury v. Madison",
+      "author": "John Marshall, Chief Justice of the United States",
+      "date": "1803",
+      "citation": "Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803), opinion of the Court by Chief Justice John Marshall. Text from the Legal Information Institute, Cornell Law School. Public domain (U.S. government work).",
+      "license": "Public domain",
+      "url": "https://www.law.cornell.edu/supremecourt/text/5/137",
+      "file": "sources/marbury-madison.md",
+      "context": "William Marbury sued Secretary of State James Madison for a commission Adams had signed but not delivered. Chief Justice Marshall found that Marbury had a right to it but held that the Court could not issue the writ, and in doing so asserted judicial review.",
+      "questions": [
+        "Marshall says Marbury was appointed and had a legal right. Why, then, did the Court not order Madison to deliver the commission?",
+        "Marshall asks what purpose a written constitution serves if its limits can be ignored. How does he answer his own question?",
+        "What does the decision leave to the executive, and what does it claim for the courts? Where does Marshall draw that line?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "ellis-founding-brothers",
+      "historian": "Joseph J. Ellis",
+      "work": "Founding Brothers: The Revolutionary Generation",
+      "year": "2000",
+      "claim": "Ellis argued that the founding generation held the fragile republic together through personal trust and a shared revolutionary memory. The deals that resolved the crises of the 1790s, from the capital bargain of 1790 to the transfer of power in 1801, depended on relationships among a small group of men who knew and needed one another.",
+      "note": "Critics reply that Ellis overstates the role of elite friendship and understates popular politics, sectional interest, and slavery. Other historians give more weight to structural factors, such as the Constitution's separation of powers, than to personal bonds."
+    },
+    {
+      "id": "wood-empire-of-liberty",
+      "historian": "Gordon S. Wood",
+      "work": "Empire of Liberty: A History of the Early Republic, 1789–1815",
+      "year": "2009",
+      "claim": "Wood argued that the early republic was defined by the democratization of American society. The fierce party conflict of the 1790s was not a distraction from the Revolution but its continuation, as ordinary citizens claimed a voice in politics and the Federalist vision of a deferential, hierarchical order gave way.",
+      "note": "Historians of slavery and of Native America argue that Wood's account of expanding democracy leaves out the people excluded from it and understates how much of the period's conflict turned on slavery and dispossession. Joyce Appleby locates the change more in a liberal market culture than in democratization alone."
+    }
+  ],
+  "activities": [
+    {
+      "id": "hamilton-assumption",
+      "type": "choice",
+      "prompt": "What did Hamilton's proposal to assume the state debts mean?",
+      "choices": [
+        "The federal government would take over and pay the states' war debts",
+        "The states would take over the federal debt",
+        "The debts would be cancelled outright",
+        "Foreign lenders would forgive the loans"
+      ],
+      "answer": 0,
+      "feedback": "Assumption folded the states' war debts into the national debt, so that the credit of the United States rested on the whole Union. Virginia, which had already paid much of its debt, objected."
+    },
+    {
+      "id": "necessary-proper",
+      "type": "choice",
+      "prompt": "Hamilton and Jefferson disagreed over the Bank of the United States mainly because…",
+      "choices": [
+        "They read the Constitution's implied powers differently",
+        "They disagreed about the bank's interest rate",
+        "Jefferson wanted the bank located in New York",
+        "Hamilton opposed all banks"
+      ],
+      "answer": 0,
+      "feedback": "Hamilton read the 'necessary and proper' clause as granting implied powers; Jefferson and Madison read it strictly and said the Tenth Amendment reserved undelegated powers to the states."
+    },
+    {
+      "id": "whiskey-rebellion",
+      "type": "choice",
+      "prompt": "What did the Whiskey Rebellion of 1794 test?",
+      "choices": [
+        "Whether the federal government could enforce its laws",
+        "Whether the army could defeat Britain",
+        "Whether the Bank could issue currency",
+        "Whether states could nullify treaties"
+      ],
+      "answer": 0,
+      "feedback": "Washington led roughly 12,950 militia west, and the resistance collapsed without a battle. The episode showed that the new government would enforce its own tax laws."
+    },
+    {
+      "id": "alien-sedition",
+      "type": "choice",
+      "prompt": "The Sedition Act of 1798 made it a crime to…",
+      "choices": [
+        "Publish false and malicious attacks on the government",
+        "Immigrate from France",
+        "Refuse to serve in the militia",
+        "Criticize the state governments"
+      ],
+      "answer": 0,
+      "feedback": "The act punished 'false, scandalous, and malicious' writings against the government or the president and was enforced almost entirely against Republican newspapermen."
+    },
+    {
+      "id": "ky-va-theory",
+      "type": "choice",
+      "prompt": "The Kentucky and Virginia Resolutions argued that…",
+      "choices": [
+        "The states, as parties to the compact, could judge federal overreach",
+        "The Supreme Court should decide all constitutional questions",
+        "Congress had unlimited power to define crimes",
+        "The president could deport citizens at will"
+      ],
+      "answer": 0,
+      "feedback": "Jefferson and Madison set out the compact theory: the states created the federal government, so they could judge when it exceeded its delegated powers. No other legislature endorsed the claim at the time."
+    },
+    {
+      "id": "election-1800",
+      "type": "choice",
+      "prompt": "Why did the election of 1800 go to the House of Representatives?",
+      "choices": [
+        "Jefferson and Burr received equal electoral votes",
+        "No candidate received any electoral votes",
+        "The Senate rejected the results",
+        "The president refused to certify them"
+      ],
+      "answer": 0,
+      "feedback": "Jefferson and Burr tied at 73 votes each. The House took thirty-six ballots before choosing Jefferson, and the Twelfth Amendment separated the ballots for president and vice president."
+    },
+    {
+      "id": "marbury-holding",
+      "type": "choice",
+      "prompt": "In Marbury v. Madison, what did the Court actually do?",
+      "choices": [
+        "It struck down part of the Judiciary Act and declined to issue the writ",
+        "It ordered Madison to deliver the commission",
+        "It upheld the Sedition Act",
+        "It removed Jefferson from office"
+      ],
+      "answer": 0,
+      "feedback": "Marshall found that Marbury had a right but that the section of the Judiciary Act granting the Court original jurisdiction was unconstitutional. The Court gave up a small case and claimed judicial review."
+    },
+    {
+      "id": "louisiana",
+      "type": "choice",
+      "prompt": "Why did Napoleon offer to sell all of Louisiana in 1803?",
+      "choices": [
+        "His North American plans had collapsed after the failure in Saint-Domingue",
+        "He wanted an alliance with Britain",
+        "Spain had asked him to sell it",
+        "He needed money to buy Florida"
+      ],
+      "answer": 0,
+      "feedback": "The failure to reconquer Saint-Domingue ended Napoleon's hopes for an American empire, and he sold Louisiana for about $15 million, doubling the size of the United States."
+    },
+    {
+      "id": "monroe-doctrine",
+      "type": "choice",
+      "prompt": "The Monroe Doctrine of 1823 declared that…",
+      "choices": [
+        "The Americas were closed to further European colonization",
+        "The United States would join the Holy Alliance",
+        "European powers could settle the Pacific coast",
+        "The United States would aid Spanish reconquest"
+      ],
+      "answer": 0,
+      "feedback": "Monroe warned that any attempt to extend European political systems to the Western Hemisphere would be seen as dangerous to American peace and safety. The British navy made the warning credible."
+    },
+    {
+      "id": "sources-on-authority",
+      "type": "short-answer",
+      "prompt": "Washington, the Kentucky and Virginia Resolutions, and Marshall each faced a claim about who should decide what the law means. Compare how each source treats resistance to federal authority.",
+      "context": "Washington (1796): 'Let me now take a more comprehensive view, and warn you in the most solemn manner against the baneful effects of the spirit of party generally.' Kentucky (1798): 'whensoever the general government assumes undelegated powers, its acts are unauthoritative, void, and of no force.' Marshall (1803): 'It is emphatically the province and duty of the judicial department to say what the law is.'",
+      "rubric": [
+        "refers to all three sources",
+        "states what each source claims about who decides",
+        "uses a specific phrase or idea from at least two of the texts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "12-world-war-two",
+  "title": "The Second World War",
+  "period": "c. 1941–1945",
+  "region": "The United States and the world",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "atlantic-charter",
+      "title": "The Atlantic Charter",
+      "author": "Franklin D. Roosevelt and Winston S. Churchill",
+      "date": "14 August 1941",
+      "citation": "Joint declaration of the President of the United States and the Prime Minister of the United Kingdom, 14 August 1941. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/wwii/atlantic.asp",
+      "file": "sources/atlantic-charter.md",
+      "context": "Issued after Roosevelt and Churchill met aboard warships at Placentia Bay, Newfoundland, in August 1941, while the United States was still neutral. The eight points stated common aims for the postwar world but bound no one in law.",
+      "questions": [
+        "The charter speaks of 'the right of all peoples to choose the form of government under which they will live.' What does that promise assume about the empires of the signatories?",
+        "Which of the eight points commit the signatories to anything enforceable, and which are statements of hope?",
+        "Roosevelt signed this while the United States was still neutral. What could a statement of aims do that a treaty could not?"
+      ]
+    },
+    {
+      "id": "executive-order-9066",
+      "title": "Executive Order 9066",
+      "author": "Franklin D. Roosevelt, President of the United States",
+      "date": "19 February 1942",
+      "citation": "Executive Order 9066, 19 February 1942; General Records of the United States Government, Record Group 11, National Archives. Text from the National Archives, Milestone Documents.",
+      "license": "Public domain (U.S. government work)",
+      "url": "https://www.archives.gov/milestone-documents/executive-order-9066",
+      "file": "sources/executive-order-9066.md",
+      "context": "Signed by President Roosevelt on 19 February 1942, the order authorized military commanders to designate areas from which any person could be excluded. It named no ethnic group, but it was used to remove and confine about 120,000 people of Japanese descent, nearly 70,000 of them American citizens.",
+      "questions": [
+        "The order names no ethnic group. By what language, then, did it authorize what followed?",
+        "The order directs the secretary of war to provide 'transportation, food, shelter, and other accommodations.' What does that provision assume about the people being excluded?",
+        "What powers does the order give to military commanders, and what check on those powers does it name?"
+      ]
+    },
+    {
+      "id": "day-of-infamy",
+      "title": "Address to Congress Requesting a Declaration of War",
+      "author": "Franklin D. Roosevelt, President of the United States",
+      "date": "8 December 1941",
+      "citation": "Franklin D. Roosevelt, address to a joint session of Congress, Washington, D.C., 8 December 1941. Text from Wikisource, 'Pearl Harbor speech.' The speech is a work of the United States government and in the public domain.",
+      "license": "Public domain (U.S. government work)",
+      "url": "https://en.wikisource.org/wiki/Pearl_Harbor_speech",
+      "file": "sources/day-of-infamy.md",
+      "context": "Delivered to a joint session of Congress the day after the attack on Pearl Harbor, the speech asked for a declaration of war against Japan. Congress voted almost unanimously, with Representative Jeannette Rankin of Montana casting the only dissent.",
+      "questions": [
+        "Roosevelt lists attacks on Malaya, Hong Kong, Guam, the Philippines, Wake, and Midway. What does the list ask the listener to conclude?",
+        "He calls the attack 'deliberately planned many days or even weeks ago.' What evidence does he offer, and what does he not offer?",
+        "The speech says 'The facts of yesterday and today speak for themselves.' What work is that sentence doing?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "kennedy-freedom-from-fear",
+      "historian": "David M. Kennedy",
+      "work": "Freedom from Fear: The American People in Depression and War, 1929–1945",
+      "year": "1999",
+      "claim": "Kennedy argued that the Depression and the war together built a lasting national-security state and made the United States the world's greatest power. He stressed that Americans experienced the war at a distance, through casualty lists and production quotas, and that the mobilization of industry, not the battlefield, was the decisive American achievement.",
+      "note": "Aaron L. Friedberg, in In the Shadow of the Garrison State (2000), questioned how permanent the change was, noting that demobilization after 1945 was rapid and that the lasting security apparatus was built chiefly during the Cold War. Others point to wartime strikes, inflation, and racial violence as evidence that the home front was less unified than Kennedy's account suggests."
+    },
+    {
+      "id": "frank-downfall",
+      "historian": "Richard B. Frank",
+      "work": "Downfall: The End of the Imperial Japanese Empire",
+      "year": "1999",
+      "claim": "Frank argued that Japan's leaders were not close to surrender in the summer of 1945, and that the atomic bombings, together with the Soviet declaration of war, forced the surrender before the planned invasion of Kyushu, which he judged would have cost far more lives on both sides.",
+      "note": "Gar Alperovitz, in The Decision to Use the Atomic Bomb (1995), argued that Japan was already seeking terms and that the bomb was used in part to end the war before the Soviet Union could claim a share of the occupation. Tsuyoshi Hasegawa, in Racing the Enemy (2005), argued that Soviet entry was the decisive factor. The dispute turns on how to read Japanese diplomatic and military records."
+    }
+  ],
+  "activities": [
+    {
+      "id": "pearl-harbor-date",
+      "type": "choice",
+      "prompt": "On what date did Japan attack the United States Pacific Fleet at Pearl Harbor?",
+      "choices": [
+        "7 December 1941",
+        "8 December 1941",
+        "1 September 1939",
+        "6 June 1944"
+      ],
+      "answer": 0,
+      "feedback": "The attack came on Sunday, 7 December 1941; Roosevelt addressed Congress the next day."
+    },
+    {
+      "id": "lend-lease",
+      "type": "choice",
+      "prompt": "What did the Lend-Lease Act of March 1941 authorize?",
+      "choices": [
+        "The president to lend or lease war material to countries whose defense he judged vital to the United States",
+        "An immediate declaration of war on Germany",
+        "The drafting of men between twenty-one and thirty-five",
+        "A ban on selling arms to any belligerent"
+      ],
+      "answer": 0,
+      "feedback": "Lend-Lease moved about $50 billion in goods to the Allies before the United States entered the war."
+    },
+    {
+      "id": "atlantic-charter-kind",
+      "type": "choice",
+      "prompt": "The Atlantic Charter of August 1941 was…",
+      "choices": [
+        "A joint statement of war aims by Roosevelt and Churchill",
+        "A formal treaty ratified by the Senate",
+        "A declaration of war against Germany",
+        "An agreement to divide Europe after the war"
+      ],
+      "answer": 0,
+      "feedback": "It was a statement of principles, not a treaty, and it committed no one in law."
+    },
+    {
+      "id": "executive-order-9066",
+      "type": "choice",
+      "prompt": "Executive Order 9066, signed on 19 February 1942, authorized…",
+      "choices": [
+        "The secretary of war and military commanders to exclude persons from designated military areas",
+        "The immediate deportation of all Japanese nationals",
+        "The creation of the Fair Employment Practices Committee",
+        "The confinement of German and Italian Americans only"
+      ],
+      "answer": 0,
+      "feedback": "The order named no ethnic group, but it was applied almost entirely to people of Japanese descent on the West Coast."
+    },
+    {
+      "id": "double-v",
+      "type": "choice",
+      "prompt": "The 'Double V' campaign stood for…",
+      "choices": [
+        "Victory over fascism abroad and racism at home",
+        "Victory in Europe and in the Pacific",
+        "Victory for Roosevelt and the Democratic Party",
+        "Victory for labor and for management"
+      ],
+      "answer": 0,
+      "feedback": "The Pittsburgh Courier launched the campaign in 1942, after a reader asked what the war meant for Black Americans."
+    },
+    {
+      "id": "tuskegee-airmen",
+      "type": "choice",
+      "prompt": "The Tuskegee Airmen were…",
+      "choices": [
+        "Black pilots who flew with the 99th Pursuit Squadron and the 332nd Fighter Group",
+        "A unit of Japanese American soldiers in Italy",
+        "The first women to fly military aircraft",
+        "A group of code talkers in the Pacific"
+      ],
+      "answer": 0,
+      "feedback": "Trained at Tuskegee Institute in Alabama, they served in segregated units and the 332nd won a reputation for protecting bombers."
+    },
+    {
+      "id": "d-day",
+      "type": "choice",
+      "prompt": "Operation Overlord, launched on 6 June 1944, was…",
+      "choices": [
+        "The Allied invasion of Normandy",
+        "The German invasion of the Soviet Union",
+        "The Allied landing in North Africa",
+        "The American invasion of Okinawa"
+      ],
+      "answer": 0,
+      "feedback": "About 156,000 troops landed on five beaches in Normandy under Eisenhower's supreme command."
+    },
+    {
+      "id": "midway-turning-point",
+      "type": "choice",
+      "prompt": "What made the Battle of Midway in June 1942 a turning point in the Pacific?",
+      "choices": [
+        "American carriers sank four Japanese fleet carriers",
+        "The Japanese captured the Philippines",
+        "The United States recaptured Guam",
+        "Japan agreed to an armistice"
+      ],
+      "answer": 0,
+      "feedback": "Forewarned by code-breaking, the Americans sank Akagi, Kaga, Soryu, and Hiryu, killing Japan's trained carrier aviators."
+    },
+    {
+      "id": "manhattan-project",
+      "type": "choice",
+      "prompt": "The Manhattan Project was…",
+      "choices": [
+        "The secret American program to build an atomic bomb",
+        "The plan to invade France",
+        "The code name for Lend-Lease",
+        "The Allied bombing campaign against Germany"
+      ],
+      "answer": 0,
+      "feedback": "Directed by General Leslie Groves with J. Robert Oppenheimer at Los Alamos, it tested the first nuclear device at Trinity on 16 July 1945."
+    },
+    {
+      "id": "reflect-war-aims-and-rights",
+      "type": "short-answer",
+      "prompt": "Using the Atlantic Charter and Executive Order 9066, explain how the war both expanded America's stated aims abroad and narrowed the rights of some Americans at home. What does each document take for granted?",
+      "context": "Atlantic Charter (1941): 'they wish to see sovereign rights and self government restored to those who have been forcibly deprived of them.' Executive Order 9066 (1942): 'I hereby authorize and direct the Secretary of War ... to prescribe military areas ... from which any or all persons may be excluded.'",
+      "rubric": [
+        "refers to both documents",
+        "states what each assumes about who is entitled to rights",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}

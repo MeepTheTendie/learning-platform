@@ -1,0 +1,193 @@
+{
+  "id": "02-revolution-and-constitution",
+  "title": "Revolution and the Constitution",
+  "period": "c. 1763–1789",
+  "region": "British North America and the United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "declaration-of-independence",
+      "title": "The Declaration of Independence",
+      "author": "Thomas Jefferson and the Continental Congress",
+      "date": "July 4, 1776",
+      "citation": "Documents Illustrative of the Formation of the Union of the American States, selected and arranged by Charles C. Tansill (Washington: Government Printing Office, 1927), House Document No. 398. Avalon Project, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/declare.asp",
+      "file": "sources/declaration-of-independence.md",
+      "context": "Adopted by the Continental Congress on 4 July 1776. The Declaration first states a general theory of rights and consent, then lists the king's offences. Grievances are abridged here; omissions are marked.",
+      "questions": [
+        "Which of the grievances concern taxation, and which concern the machinery of government?",
+        "What does the Declaration assume about who may judge when a government has become destructive?",
+        "Jefferson's draft condemned the slave trade; the Congress removed that paragraph. What does the omission show about the signers?"
+      ]
+    },
+    {
+      "id": "constitution",
+      "title": "The Constitution of the United States (selected)",
+      "author": "The Federal Convention",
+      "date": "September 17, 1787 (Bill of Rights ratified 1791)",
+      "citation": "The Constitution of the United States, in Documents Illustrative of the Formation of the Union of the American States, ed. Charles C. Tansill (Washington: Government Printing Office, 1927). Avalon Project, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/usconst.asp",
+      "file": "sources/constitution.md",
+      "context": "The frame of government signed at Philadelphia on 17 September 1787, with the first ten amendments added in 1791. Passages are selected from the whole; the three-fifths clause is quoted as written.",
+      "questions": [
+        "How does Article I, Section 8 divide power between Congress and the states?",
+        "What does the three-fifths clause count, and what does it leave uncounted?",
+        "Which parts of the Bill of Rights answer complaints the colonists had made against Britain?"
+      ]
+    },
+    {
+      "id": "federalist-10",
+      "title": "Federalist No. 10",
+      "author": "James Madison, writing as Publius",
+      "date": "November 23, 1787",
+      "citation": "The Federalist Papers, No. 10, New York Packet, 23 November 1787. Avalon Project, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/fed10.asp",
+      "file": "sources/federalist-10.md",
+      "context": "One of eighty-five essays by Hamilton, Madison, and Jay urging ratification of the Constitution. Madison argues that a large republic can control the effects of faction better than a small one.",
+      "questions": [
+        "What does Madison mean by faction, and why does he say its causes cannot be removed?",
+        "Why does Madison prefer a republic to a pure democracy?",
+        "What does he assume about property and the sources of political division?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "beard-economic",
+      "historian": "Charles A. Beard",
+      "work": "An Economic Interpretation of the Constitution of the United States",
+      "year": "1913",
+      "claim": "Beard argued that the framers were not disinterested patriots but men whose personal financial interests — public securities, land, shipping, and manufacturing — would be served by the stronger national government the Constitution created.",
+      "note": "His evidence was incomplete and his method crude by later standards. Historians after the 1950s showed that the delegates' holdings were varied and that many men with the same economic stake opposed ratification, but Beard's question — who benefits from a frame of government? — remains central."
+    },
+    {
+      "id": "bailyn-ideological",
+      "historian": "Bernard Bailyn",
+      "work": "The Ideological Origins of the American Revolution",
+      "year": "1967",
+      "claim": "Bailyn argued that the Revolution was driven by a coherent body of ideas the colonists had absorbed from English radical Whig writers — ideas about liberty, power, and corruption — and that these ideas, not merely economic grievance, explain why the colonists resisted and then rebelled.",
+      "note": "Later historians ask how widely those ideas were shared beyond the men who wrote the pamphlets, and how far class, region, and religion shaped them. Gordon S. Wood's The Radicalism of the American Revolution (1992) extends the argument, claiming the Revolution transformed American society itself."
+    }
+  ],
+  "activities": [
+    {
+      "id": "no-taxation",
+      "type": "choice",
+      "prompt": "What did the colonists mean by \"no taxation without representation\"?",
+      "choices": [
+        "Parliament could not tax them because they elected no members to it",
+        "The colonies should pay no taxes of any kind",
+        "Only colonial governors could levy taxes",
+        "Taxes had to be paid in gold rather than paper"
+      ],
+      "answer": 0,
+      "feedback": "The objection was to the authority that laid the tax, not its size: the colonists had no seats in Parliament."
+    },
+    {
+      "id": "stamp-act-first",
+      "type": "choice",
+      "prompt": "The Stamp Act of 1765 was significant because it was…",
+      "choices": [
+        "the first direct tax Parliament laid on the colonies",
+        "the first tax the colonies had ever paid",
+        "a tax passed by the colonial assemblies",
+        "a duty on imported tea"
+      ],
+      "answer": 0,
+      "feedback": "Earlier charges came through customs duties on trade; the Stamp Act taxed printed paper directly."
+    },
+    {
+      "id": "tea-party-cause",
+      "type": "choice",
+      "prompt": "The Boston Tea Party of December 1773 was a response to…",
+      "choices": [
+        "the Tea Act, which let the East India Company sell tea through its own agents",
+        "the closing of Boston harbour",
+        "the Quartering Act",
+        "the Declaratory Act"
+      ],
+      "answer": 0,
+      "feedback": "The company could undersell colonial merchants, and the colonists read the cheap tea as a trap to make them accept the tax."
+    },
+    {
+      "id": "intolerable-response",
+      "type": "choice",
+      "prompt": "The Coercive (Intolerable) Acts of 1774 were passed to…",
+      "choices": [
+        "punish Massachusetts and tighten control after the Boston Tea Party",
+        "raise revenue for the Seven Years' War",
+        "grant the colonies seats in Parliament",
+        "end the slave trade"
+      ],
+      "answer": 0,
+      "feedback": "The Boston Port Act and the Massachusetts Government Act were aimed at one colony and alarmed the rest."
+    },
+    {
+      "id": "saratoga-france",
+      "type": "choice",
+      "prompt": "What convinced France to sign an alliance with the United States in 1778?",
+      "choices": [
+        "The American victory at Saratoga",
+        "The capture of New York",
+        "The Treaty of Paris",
+        "The Boston Tea Party"
+      ],
+      "answer": 0,
+      "feedback": "Burgoyne's surrender at Saratoga showed France that the Americans could win."
+    },
+    {
+      "id": "articles-weakness",
+      "type": "choice",
+      "prompt": "The chief weakness of the Articles of Confederation was that Congress could not…",
+      "choices": [
+        "levy taxes or regulate commerce",
+        "declare war",
+        "make treaties",
+        "run a post office"
+      ],
+      "answer": 0,
+      "feedback": "Congress could only requisition money from the states, which often refused, and it had no power over trade among them."
+    },
+    {
+      "id": "shays-cause",
+      "type": "choice",
+      "prompt": "Shays's Rebellion of 1786–87 began when western Massachusetts farmers…",
+      "choices": [
+        "shut down courts to stop foreclosures on debt-ridden farms",
+        "attacked British forts on the frontier",
+        "demanded independence from Britain",
+        "refused to pay the Stamp Act"
+      ],
+      "answer": 0,
+      "feedback": "Many of the farmers were war veterans losing their land to debt suits and state taxes."
+    },
+    {
+      "id": "three-fifths",
+      "type": "choice",
+      "prompt": "Under the three-fifths clause, enslaved people were…",
+      "choices": [
+        "counted as three-fifths of a person for representation and direct taxes",
+        "given three-fifths of a vote each",
+        "freed after three-fifths of a term",
+        "excluded from the census entirely"
+      ],
+      "answer": 0,
+      "feedback": "The clause gave southern states extra seats in the House and extra electoral votes without giving the enslaved any rights."
+    },
+    {
+      "id": "authority-compare",
+      "type": "short-answer",
+      "prompt": "Compare what the Declaration of Independence and Federalist No. 10 assume about human nature and the source of political authority. What does each take for granted?",
+      "context": "Declaration: \"We hold these truths to be self-evident: That all men are created equal… that, to secure these rights, governments are instituted among men, deriving their just powers from the consent of the governed.\" Federalist No. 10: \"The latent causes of faction are thus sown in the nature of man… the most common and durable source of factions has been the various and unequal distribution of property.\"",
+      "rubric": [
+        "refers to both documents",
+        "states what each assumes about human nature or authority",
+        "uses a specific phrase or idea from each passage"
+      ]
+    }
+  ]
+}

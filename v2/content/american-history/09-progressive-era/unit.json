@@ -1,0 +1,193 @@
+{
+  "id": "09-progressive-era",
+  "title": "The Progressive Era",
+  "period": "c. 1890–1917",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "sinclair-jungle",
+      "title": "The Jungle (the killing beds)",
+      "author": "Upton Sinclair",
+      "date": "1906",
+      "citation": "Upton Sinclair, The Jungle (New York: Doubleday, Page & Company, 1906), Chapter III. Project Gutenberg eBook 140.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/140",
+      "file": "sources/sinclair-jungle.md",
+      "context": "Sinclair, a young socialist, spent weeks in the Chicago packing houses and serialized The Jungle in the Appeal to Reason in 1905 before it appeared as a book in February 1906. This passage describes the beef killing beds, where each worker made two or three cuts as the carcasses moved past.",
+      "questions": [
+        "Sinclair calls the work 'highly specialized labor.' What does that specialization cost the worker who does it?",
+        "How does the passage make the reader see the animals and the men in the same terms?",
+        "The men work 'literally upon the run.' What does the speed of the line decide about their hours and their safety?"
+      ]
+    },
+    {
+      "id": "addams-hull-house",
+      "title": "Twenty Years at Hull-House (immigrants and their children)",
+      "author": "Jane Addams",
+      "date": "1910",
+      "citation": "Jane Addams, Twenty Years at Hull-House (New York: Macmillan, 1910), Chapter XI. Project Gutenberg eBook 1325.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1325",
+      "file": "sources/addams-hull-house.md",
+      "context": "Addams opened Hull House in Chicago in 1889 and published Twenty Years at Hull-House in 1910. She describes the settlement's work with immigrant families and what she took to be the differences between the first and second generations in the city.",
+      "questions": [
+        "Addams writes that the second generation 'consider their relations a \"bad lot.\"' What does she think the city has done to them?",
+        "What does the phrase 'a better type of Americans' assume about the immigrants she is describing?",
+        "The passage calls South Italians 'the pathetic stupidity of agricultural people crowded into city tenements.' Is Addams describing the people or the city that put them there?"
+      ]
+    },
+    {
+      "id": "progressive-platform-1912",
+      "title": "The Progressive Party Platform ('A Covenant with the People')",
+      "author": "The Progressive Party, national convention, Chicago",
+      "date": "August 1912",
+      "citation": "Progressive Party, 'A Covenant With the People,' platform adopted at Chicago, August 1912. Text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/1912_Progressive_Party_Platform",
+      "file": "sources/progressive-platform-1912.md",
+      "context": "The Progressive Party, formed by Theodore Roosevelt's supporters after they walked out of the Republican convention, adopted this platform at Chicago in August 1912. It calls for political reforms, equal suffrage, and a broad program of labor and welfare legislation.",
+      "questions": [
+        "The platform says both old parties have become 'the tools of corrupt interests.' What does it promise to put in their place?",
+        "Which demands in the platform would change who votes, and which would change what work is like?",
+        "The platform calls for 'the prohibition of child labor' and 'equal suffrage' but says nothing about Black Southerners. What does the silence suggest?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "wiebe-search-for-order",
+      "historian": "Robert H. Wiebe",
+      "work": "The Search for Order, 1877–1920",
+      "year": "1967",
+      "claim": "Wiebe argued that Progressivism was the work of a new middle class — professionals, managers, and social scientists — who tried to bring order to a society that had outgrown its old local institutions. Regulation, bureaucracy, and national organization were not attacks on the new economy but the means of mastering it.",
+      "note": "Richard Hofstadter, in The Age of Reform (1955), had described the reformers as old-stock provincials reacting with status anxiety to a world they were losing. Wiebe's professionals and Hofstadter's displaced provincials are different people, and historians still argue over which account fits the evidence better."
+    },
+    {
+      "id": "painter-armageddon",
+      "historian": "Nell Irvin Painter",
+      "work": "Standing at Armageddon: The United States, 1877–1919",
+      "year": "1987",
+      "claim": "Painter placed Black Americans and working people at the center of the period and argued that the years from 1877 to 1919 were an 'armageddon' of economic and racial conflict. Progressive reform, she showed, was largely a white middle-class project: at the moment reformers won new protections for workers and women, they allowed or encouraged the disfranchisement, segregation, and terrorizing of Black Southerners.",
+      "note": "Other historians treat the era's racial exclusions as a tragic inconsistency in a genuine reform movement, or stress the Black reformers who worked within it, such as W. E. B. Du Bois and the NAACP. Painter's point is that the exclusion was not an accident but a condition of the movement's success."
+    }
+  ],
+  "activities": [
+    {
+      "id": "muckraker-name",
+      "type": "choice",
+      "prompt": "The word 'muckraker' was first used against the investigative journalists by…",
+      "choices": [
+        "Theodore Roosevelt, in a 1906 speech",
+        "Ida Tarbell, in McClure's",
+        "Upton Sinclair, in The Jungle",
+        "Woodrow Wilson, in his inaugural address"
+      ],
+      "answer": 0,
+      "feedback": "Roosevelt compared the reporters to the 'Man with the Muck-rake' in Bunyan's Pilgrim's Progress, who raked the filth but would not look up; the journalists adopted the label."
+    },
+    {
+      "id": "tarbell-standard-oil",
+      "type": "choice",
+      "prompt": "Ida Tarbell is best known for a series of articles and a book exposing…",
+      "choices": [
+        "The Standard Oil Company",
+        "The Pullman Palace Car Company",
+        "Tammany Hall",
+        "The Chicago meatpacking plants"
+      ],
+      "answer": 0,
+      "feedback": "Tarbell's History of the Standard Oil Company ran in McClure's from 1902 and appeared as a book in 1904; she built the case from court records and rebate schedules."
+    },
+    {
+      "id": "hull-house",
+      "type": "choice",
+      "prompt": "Hull House, opened in Chicago in 1889, was founded by…",
+      "choices": [
+        "Jane Addams and Ellen Gates Starr",
+        "Lillian Wald and Florence Kelley",
+        "Ida B. Wells-Barnett and Mary Church Terrell",
+        "Carrie Chapman Catt and Alice Paul"
+      ],
+      "answer": 0,
+      "feedback": "Addams and Starr opened Hull House on Halsted Street in September 1889, modeling it on Toynbee Hall in London."
+    },
+    {
+      "id": "seventeenth-amendment",
+      "type": "choice",
+      "prompt": "The Seventeenth Amendment (1913) provided for…",
+      "choices": [
+        "The direct election of United States senators",
+        "A federal income tax",
+        "Woman suffrage",
+        "The prohibition of alcohol"
+      ],
+      "answer": 0,
+      "feedback": "Before the amendment, state legislatures chose senators; the amendment transferred the choice to the voters."
+    },
+    {
+      "id": "initiative-referendum-recall",
+      "type": "choice",
+      "prompt": "The initiative, referendum, and recall were…",
+      "choices": [
+        "Devices to give voters more direct control over law and officials",
+        "Methods of breaking up the trusts",
+        "New federal courts created by the Progressive Party",
+        "Tactics of the American Federation of Labor"
+      ],
+      "answer": 0,
+      "feedback": "The initiative let voters propose laws, the referendum let them approve or reject them, and the recall let them remove officials before their terms ended."
+    },
+    {
+      "id": "federal-reserve",
+      "type": "choice",
+      "prompt": "The Federal Reserve Act of 1913 created…",
+      "choices": [
+        "A central banking system with regional reserve banks",
+        "A federal income tax",
+        "A national child labor law",
+        "A federal department of labor"
+      ],
+      "answer": 0,
+      "feedback": "The act established the Federal Reserve System to issue currency and lend to banks in a panic, a compromise between private control and public oversight."
+    },
+    {
+      "id": "nineteenth-amendment",
+      "type": "choice",
+      "prompt": "The Nineteenth Amendment, ratified in 1920, provided that…",
+      "choices": [
+        "The right to vote could not be denied on account of sex",
+        "The sale of alcohol was prohibited",
+        "Senators would be elected directly",
+        "Congress could levy an income tax"
+      ],
+      "answer": 0,
+      "feedback": "It completed the suffrage campaign begun at Seneca Falls in 1848; Tennessee's ratification on 18 August 1920 put it in the Constitution."
+    },
+    {
+      "id": "child-labor-law",
+      "type": "choice",
+      "prompt": "What happened to the Keating-Owen Child Labor Act of 1916?",
+      "choices": [
+        "The Supreme Court struck it down in 1918",
+        "It ended child labor nationwide",
+        "It was vetoed by President Wilson",
+        "It was repealed by the states"
+      ],
+      "answer": 0,
+      "feedback": "In Hammer v. Dagenhart (1918) the Court held that Congress could not use its power over interstate commerce to regulate child labor; a national law waited until 1938."
+    },
+    {
+      "id": "reflect-progress-limits",
+      "type": "short-answer",
+      "prompt": "The 1912 Progressive platform promises to end child labor, to set minimum wages for women, and to win equal suffrage. Using the platform and Addams's account of Hull-House, explain what these reformers hoped to fix and which people their programs did not include.",
+      "context": "Progressive Party platform (1912): 'The prohibition of child labor; Minimum wage standards for working women, to provide a \"living wage\" in all industrial occupations ... We favor the organization of the workers, men and women, as a means of protecting their interests and of promoting their progress.' — Jane Addams, Twenty Years at Hull-House (1910): 'The second generation of city poor too often have no holiday clothes and consider their relations a \"bad lot.\" ... One thing seemed clear in regard to entertaining immigrants; to preserve and keep whatever of value their past life contained and to bring them in contact with a better type of Americans.'",
+      "rubric": [
+        "refers to both the platform and Addams",
+        "states what the reformers hoped to fix",
+        "names a group the programs did not include or treated as a problem"
+      ]
+    }
+  ]
+}

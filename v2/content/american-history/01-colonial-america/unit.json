@@ -1,0 +1,196 @@
+{
+  "id": "01-colonial-america",
+  "title": "Colonial America",
+  "period": "c. 1607–1763",
+  "region": "British North America",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "mayflower-compact",
+      "title": "The Mayflower Compact, with William Bradford's account",
+      "author": "The settlers at New Plymouth; William Bradford",
+      "date": "11 November 1620",
+      "citation": "Agreement Between the Settlers at New Plymouth (1620), in Francis Newton Thorpe, ed., The Federal and State Constitutions, Colonial Charters, and Other Organic Laws, vol. 3 (Washington: Government Printing Office, 1909); and William Bradford, Bradford's History of the Plymouth Settlement, 1608-1650, ed. Harold Paget (New York: E. P. Dutton, 1909). The Avalon Project, Yale Law School, and Project Gutenberg eBook 69871.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/17th_century/mayflower.asp",
+      "file": "sources/mayflower-compact.md",
+      "context": "Signed by forty-one adult men aboard the Mayflower before they went ashore at Cape Cod. William Bradford, a signer, later explained that the patent was for Virginia, not New England, so the settlers agreed to frame their own government and promised it submission and obedience.",
+      "questions": [
+        "Who is said to grant the authority of the government the signers create?",
+        "What does the compact promise about the laws that will be made, and who is bound by them?",
+        "The signers call themselves loyal subjects of King James. How does that sit with an agreement to make their own laws?"
+      ]
+    },
+    {
+      "id": "winthrop-model",
+      "title": "A Model of Christian Charity (excerpts)",
+      "author": "John Winthrop",
+      "date": "1630",
+      "citation": "John Winthrop, 'A Modell of Christian Charity' (1630), in Collections of the Massachusetts Historical Society, 3rd series, vol. 7 (Boston, 1838), pp. 31-48. Hanover Historical Texts Collection.",
+      "license": "Public domain",
+      "url": "https://history.hanover.edu/texts/winthmod.html",
+      "file": "sources/winthrop-model.md",
+      "context": "Written on board the Arbella as Winthrop sailed to Massachusetts Bay. The sermon explains why God allows some to be rich and some poor, and warns that the colonists have entered a covenant whose terms the world will watch them keep.",
+      "questions": [
+        "How does Winthrop explain the existence of rich and poor, and what obligation does he say each owes the other?",
+        "Why does Winthrop call the colony 'a citty upon a hill'? Is the image a promise or a warning?",
+        "What does the sermon assume about the relationship between the community and the individual?"
+      ]
+    },
+    {
+      "id": "smith-virginia",
+      "title": "The Generall Historie of Virginia (excerpts)",
+      "author": "John Smith",
+      "date": "1624",
+      "citation": "John Smith, The Generall Historie of Virginia, New-England, and the Summer Isles (1624), reprinted in The Travels of Captaine John Smith, vol. 1 (Glasgow: James MacLehose and Sons, 1907). Project Gutenberg eBook 56347.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/56347",
+      "file": "sources/smith-virginia.md",
+      "context": "Smith's account of the first landing at Jamestown in May 1607 and of his rule as president, including the law that gave the colony its labour discipline: 'he that will not worke shall not eate.' Smith wrote years later, and the narrative serves his own reputation.",
+      "questions": [
+        "What does Smith say the colonists did in their first weeks, and who did the work?",
+        "What does the law 'he that will not worke shall not eate' assume about the colony's economy and about who deserves food?",
+        "Smith wrote this account after leaving Virginia. What in the passage suggests he is defending his own authority?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "morgan-slavery-freedom",
+      "historian": "Edmund S. Morgan",
+      "work": "American Slavery, American Freedom: The Ordeal of Colonial Virginia",
+      "year": "1975",
+      "claim": "Morgan argued that Bacon's Rebellion (1676) exposed the danger of a laboring class united across lines of colour, and that Virginia's planters responded by replacing white indentured servants with enslaved Africans, dividing the workforce by race and building a society of freedom for whites on a foundation of slavery.",
+      "note": "The chronology is contested: the shift to African slavery began before 1676 and was driven in part by the falling price of enslaved people and the rising cost of English servants. Historians such as Anthony S. Parent and Kathleen M. Brown emphasize earlier legal and cultural changes, but Morgan's link between freedom and slavery remains the starting point of the debate."
+    },
+    {
+      "id": "miller-new-england-mind",
+      "historian": "Perry Miller",
+      "work": "The New England Mind: The Seventeenth Century",
+      "year": "1939",
+      "claim": "Miller argued that Puritanism was a coherent intellectual system, an 'Augustinian strain of piety' organized around the covenant, and that this system, carried from England, shaped New England's churches, politics, and schools before declining as the first generation's zeal faded.",
+      "note": "Later historians question the 'declension' story and the idea that Puritanism was a single unified system. David D. Hall and others stress the diversity of popular religion, the role of the laity, and the degree to which Puritan ideas changed as they were practiced in America."
+    }
+  ],
+  "activities": [
+    {
+      "id": "jamestown-founder",
+      "type": "choice",
+      "prompt": "Jamestown was founded in 1607 by…",
+      "choices": [
+        "The Virginia Company of London",
+        "The Pilgrims of Plymouth",
+        "The Massachusetts Bay Company",
+        "The Dutch West India Company"
+      ],
+      "answer": 0,
+      "feedback": "The Virginia Company of London, a joint-stock venture, sent the first settlers to Jamestown in 1607."
+    },
+    {
+      "id": "mayflower-purpose",
+      "type": "choice",
+      "prompt": "The Mayflower Compact was written mainly because…",
+      "choices": [
+        "The settlers' patent was for Virginia, not New England, so they needed a government of their own",
+        "The king ordered the settlers to elect a governor",
+        "The settlers intended to declare independence from England",
+        "The Dutch demanded a written treaty"
+      ],
+      "answer": 0,
+      "feedback": "Without an acknowledged authority, the mixed company of Separatists and 'strangers' might have fallen into quarrels, so the signers covenanted to make their own laws."
+    },
+    {
+      "id": "city-upon-hill",
+      "type": "choice",
+      "prompt": "In Winthrop's sermon, the 'citty upon a hill' was…",
+      "choices": [
+        "A warning that the world would judge the colony's covenant with God",
+        "A promise that the colony would grow wealthy",
+        "A description of Boston's harbour",
+        "A plan for a fortified town"
+      ],
+      "answer": 0,
+      "feedback": "Winthrop wrote that 'the eies of all people are uppon us,' and that breaking the covenant would make the colony 'a story and a by-word through the world.'"
+    },
+    {
+      "id": "chesapeake-crop",
+      "type": "choice",
+      "prompt": "Which crop dominated the Chesapeake economy?",
+      "choices": ["Tobacco", "Rice", "Wheat", "Indigo"],
+      "answer": 0,
+      "feedback": "Tobacco, first cured for market by John Rolfe around 1612, was the Chesapeake's staple export. Rice and indigo belonged to the Carolina low country."
+    },
+    {
+      "id": "headright",
+      "type": "choice",
+      "prompt": "The headright system gave a planter fifty acres of land for…",
+      "choices": [
+        "Each servant he brought to the colony",
+        "Each church he helped build",
+        "Each year he paid taxes",
+        "Each vote he cast in the assembly"
+      ],
+      "answer": 0,
+      "feedback": "The headright granted fifty acres for the planter's own passage and another fifty for each servant imported, tying land to bound labour."
+    },
+    {
+      "id": "bacons-rebellion",
+      "type": "choice",
+      "prompt": "Bacon's Rebellion in 1676 began as a conflict over…",
+      "choices": [
+        "Frontier warfare with Native peoples and the governor's refusal to authorize it",
+        "Religious freedom for Catholics",
+        "The price of tobacco in London",
+        "The right to elect the governor"
+      ],
+      "answer": 0,
+      "feedback": "Nathaniel Bacon raised an army after Governor Berkeley refused to authorize a campaign against the Susquehannock and other Native peoples, then marched on Jamestown."
+    },
+    {
+      "id": "salem-evidence",
+      "type": "choice",
+      "prompt": "What kind of evidence helped convict the accused at Salem in 1692?",
+      "choices": [
+        "Spectral evidence — testimony that the accused's spirit tormented a victim",
+        "Written confessions signed by the accused",
+        "Physical wounds on the accusers",
+        "Contracts with the devil produced in court"
+      ],
+      "answer": 0,
+      "feedback": "The courts admitted spectral evidence, and the panic eased only after the clergy, including Increase Mather, condemned it."
+    },
+    {
+      "id": "great-awakening-preacher",
+      "type": "choice",
+      "prompt": "Which preacher toured the colonies in 1739–1740 and helped spread the Great Awakening?",
+      "choices": ["George Whitefield", "John Winthrop", "Cotton Mather", "William Bradford"],
+      "answer": 0,
+      "feedback": "Whitefield, an English itinerant, preached from Georgia to New England to crowds of thousands. Jonathan Edwards was a leading revival minister but did not tour the colonies."
+    },
+    {
+      "id": "treaty-paris",
+      "type": "choice",
+      "prompt": "The Treaty of Paris of 1763 gave Britain…",
+      "choices": [
+        "Canada and French territory east of the Mississippi",
+        "Florida only",
+        "Louisiana and Cuba",
+        "Nothing, because the war ended in a draw"
+      ],
+      "answer": 0,
+      "feedback": "France ceded Canada and its territory east of the Mississippi; Spain traded Florida to Britain and received Cuba in return."
+    },
+    {
+      "id": "compare-authority",
+      "type": "short-answer",
+      "prompt": "The Mayflower Compact and Winthrop's sermon both describe a community bound by agreement. What does each assume about the source of authority, and what does each assume the community is for?",
+      "context": "Mayflower Compact: 'We ... do by these Presents, solemnly and mutually, in the Presence of God and one another, covenant and combine ourselves together into a civil Body Politick ... unto which we promise all due Submission and Obedience.' Winthrop: 'We are entered into Covenant with Him for this worke ... For wee must consider that wee shall be as a citty upon a hill. The eies of all people are uppon us.'",
+      "rubric": [
+        "refers to both the Mayflower Compact and the Winthrop sermon",
+        "states what each treats as the source of authority",
+        "uses a specific phrase from each passage"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Brown v. Board of Education of Topeka — Opinion of the Court
+
+*Decided 17 May 1954. Excerpts from the opinion delivered by Chief Justice Earl Warren. Bracketed marks `[...]` indicate omitted passages; the bracketed "[retard]" and "racial[ly]" appear in the original report.*
+
+MR. CHIEF JUSTICE WARREN delivered the opinion of the Court.
+
+These cases come to us from the States of Kansas, South Carolina, Virginia, and Delaware.
+
+In each of the cases, minors of the Negro race, through their legal representatives, seek the aid of the courts in obtaining admission to the public schools of their community on a nonsegregated basis. In each instance, they had been denied admission to schools attended by white children under laws requiring or permitting segregation according to race. This segregation was alleged to deprive the plaintiffs of the equal protection of the laws under the Fourteenth Amendment. In each of the cases other than the Delaware case, a three-judge federal district court denied relief to the plaintiffs on the so-called "separate but equal" doctrine announced by this Court in Plessy v. Ferguson, 163 U.S. 537. Under that doctrine, equality of treatment is accorded when the races are provided substantially equal facilities, even though these facilities be separate. [...]
+
+Reargument was largely devoted to the circumstances surrounding the adoption of the Fourteenth Amendment in 1868. It covered exhaustively consideration of the Amendment in Congress, ratification by the states, then-existing practices in racial segregation, and the views of proponents and opponents of the Amendment. This discussion and our own investigation convince us that, although these sources cast some light, it is not enough to resolve the problem with which we are faced. At best, they are inconclusive. [...]
+
+In the first cases in this Court construing the Fourteenth Amendment, decided shortly after its adoption, the Court interpreted it as proscribing all state-imposed discriminations against the Negro race. The doctrine of "separate but equal" did not make its appearance in this Court until 1896 in the case of Plessy v. Ferguson, supra, involving not education but transportation. [...]
+
+In the instant cases, that question is directly presented. Here, unlike Sweatt v. Painter, there are findings below that the Negro and white schools involved have been equalized, or are being equalized, with respect to buildings, curricula, qualifications and salaries of teachers, and other "tangible" factors. Our decision, therefore, cannot turn on merely a comparison of these tangible factors in the Negro and white schools involved in each of the cases. We must look instead to the effect of segregation itself on public education.
+
+In approaching this problem, we cannot turn the clock back to 1868, when the Amendment was adopted, or even to 1896, when Plessy v. Ferguson was written. We must consider public education in the light of its full development and its present place in American life throughout the Nation. Only in this way can it be determined if segregation in public schools deprives these plaintiffs of the equal protection of the laws.
+
+Today, education is perhaps the most important function of state and local governments. Compulsory school attendance laws and the great expenditures for education both demonstrate our recognition of the importance of education to our democratic society. It is required in the performance of our most basic public responsibilities, even service in the armed forces. It is the very foundation of good citizenship. Today it is a principal instrument in awakening the child to cultural values, in preparing him for later professional training, and in helping him to adjust normally to his environment. In these days, it is doubtful that any child may reasonably be expected to succeed in life if he is denied the opportunity of an education. Such an opportunity, where the state has undertaken to provide it, is a right which must be made available to all on equal terms.
+
+We come then to the question presented: Does segregation of children in public schools solely on the basis of race, even though the physical facilities and other "tangible" factors may be equal, deprive the children of the minority group of equal educational opportunities? We believe that it does. [...]
+
+To separate them from others of similar age and qualifications solely because of their race generates a feeling of inferiority as to their status in the community that may affect their hearts and minds in a way unlikely ever to be undone. The effect of this separation on their educational opportunities was well stated by a finding in the Kansas case by a court which nevertheless felt compelled to rule against the Negro plaintiffs:
+
+Segregation of white and colored children in public schools has a detrimental effect upon the colored children. The impact is greater when it has the sanction of the law, for the policy of separating the races is usually interpreted as denoting the inferiority of the negro group. A sense of inferiority affects the motivation of a child to learn. Segregation with the sanction of law, therefore, has a tendency to [retard] the educational and mental development of negro children and to deprive them of some of the benefits they would receive in a racial[ly] integrated school system.
+
+[...] We conclude that, in the field of public education, the doctrine of "separate but equal" has no place. Separate educational facilities are inherently unequal. Therefore, we hold that the plaintiffs and others similarly situated for whom the actions have been brought are, by reason of the segregation complained of, deprived of the equal protection of the laws guaranteed by the Fourteenth Amendment. [...]
+
+Because these are class actions, and because of the great variety of local conditions, the formulation of decrees in these cases presents problems of considerable complexity. [...] In order that we may have the full assistance of the parties in formulating decrees, the cases will be restored to the docket, and the parties are requested to present further argument on the questions relating to the decrees.
+
+It is so ordered.

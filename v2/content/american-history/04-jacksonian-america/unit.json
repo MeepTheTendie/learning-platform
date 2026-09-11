@@ -1,0 +1,206 @@
+{
+  "id": "04-jacksonian-america",
+  "title": "Jacksonian America and westward expansion",
+  "period": "c. 1820–1848",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "jackson-bank-veto",
+      "title": "Veto Message Regarding the Bank of the United States",
+      "author": "Andrew Jackson",
+      "date": "10 July 1832",
+      "citation": "From A Compilation of the Messages and Papers of the Presidents, prepared under the direction of the Joint Committee on Printing (New York: Bureau of National Literature, 1897). Avalon Project, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/19th_century/ajveto01.asp",
+      "file": "sources/jackson-bank-veto.md",
+      "context": "Jackson sent this message to the Senate on 10 July 1832, rejecting the bill to recharter the Second Bank of the United States. He read the Bank as a monopoly granted at the public's expense and used the veto as an appeal to ordinary voters.",
+      "questions": [
+        "Whom does Jackson name as the people he is defending, and whom does he set them against?",
+        "What does Jackson assume about the Bank's effect on elections and on the government?",
+        "Jackson appeals both to the Constitution and to the rights of the states. How does he use each?"
+      ]
+    },
+    {
+      "id": "declaration-of-sentiments",
+      "title": "Declaration of Sentiments",
+      "author": "Elizabeth Cady Stanton and the Seneca Falls Convention",
+      "date": "19–20 July 1848",
+      "citation": "From Elizabeth Cady Stanton, Susan B. Anthony, and Matilda Joslyn Gage, History of Woman Suffrage, vol. 1 (Rochester, N.Y.: Fowler and Wells, 1889), pp. 70–71. Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Declaration_of_Sentiments",
+      "file": "sources/declaration-of-sentiments.md",
+      "context": "The Seneca Falls convention of 19–20 July 1848 issued this declaration, modeled sentence by sentence on the Declaration of Independence. Sixty-eight women and thirty-two men signed it.",
+      "questions": [
+        "The document lists grievances rather than describing a government. What does each grievance assume about a married woman's legal standing?",
+        "Which single grievance is the most radical, and why?",
+        "The authors borrow the language of the Declaration of Independence. What does that borrowing claim for women?"
+      ]
+    },
+    {
+      "id": "douglass-covey",
+      "title": "Narrative of the Life of Frederick Douglass, an American Slave, Chapter X",
+      "author": "Frederick Douglass",
+      "date": "1845",
+      "citation": "Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself (Boston: Anti-Slavery Office, 1845), Chapter X. Project Gutenberg eBook 23.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/23",
+      "file": "sources/douglass-covey.md",
+      "context": "Douglass published his Narrative in 1845. In Chapter X he describes the August 1833 beating by the overseer Edward Covey and the fight in which he at last resisted.",
+      "questions": [
+        "What does Douglass say changed in him after the fight, and what does he say did not change?",
+        "Douglass calls the fight the 'turning-point.' What can one episode tell a historian, and what can it not?",
+        "Covey does not send Douglass to the whipping-post. What reason does Douglass give, and what does it reveal about Covey's interests?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "schlesinger-age-of-jackson",
+      "historian": "Arthur M. Schlesinger Jr.",
+      "work": "The Age of Jackson",
+      "year": "1945",
+      "claim": "Schlesinger argued that Jacksonian democracy was a struggle of the laboring and producing classes — farmers, mechanics, and workers — against the business and monied interest, so that the politics of the era turned on class conflict.",
+      "note": "Critics such as Bray Hammond and Lee Benson replied that the Bank War was a quarrel among rival business groups rather than a class war, and that Jackson's following was not chiefly the laboring poor. Whether class or something else drove the era is still argued."
+    },
+    {
+      "id": "howe-what-hath-god-wrought",
+      "historian": "Daniel Walker Howe",
+      "work": "What Hath God Wrought: The Transformation of America, 1815–1848",
+      "year": "2007",
+      "claim": "Howe argues that the market and communications revolutions were the central changes of the era, that the Whigs rather than the Democrats were the party of that modernization, and that the period's democratic expansion was real but bounded by race, slavery, and removal.",
+      "note": "Sean Wilentz, in The Rise of American Democracy (2005), puts more weight on a popular democratic upsurge from below and treats Jacksonian politics as a genuine widening of self-government. Howe and Wilentz read the same elections to different ends."
+    }
+  ],
+  "activities": [
+    {
+      "id": "cotton-gin-effect",
+      "type": "choice",
+      "prompt": "Eli Whitney's cotton gin (1793) mattered most because it…",
+      "choices": [
+        "Made short-staple cotton profitable to clean and helped slavery spread west",
+        "Ended slavery in the Upper South",
+        "Replaced the steamboat on southern rivers",
+        "Gave enslaved workers the vote"
+      ],
+      "answer": 0,
+      "feedback": "The gin made cleaning short-staple cotton fast enough to pay, and the crop carried slavery into Alabama, Mississippi, Louisiana, and Texas."
+    },
+    {
+      "id": "missouri-line",
+      "type": "choice",
+      "prompt": "The Missouri Compromise of 1820 drew a line at 36°30′ in order to…",
+      "choices": [
+        "Divide free and slave territory in the Louisiana Purchase",
+        "Set the border with Mexico",
+        "Fix the tariff on imported cloth",
+        "End the domestic slave trade"
+      ],
+      "answer": 0,
+      "feedback": "Maine entered free and Missouri slave, and the line of 36°30′ separated free from slave territory in the old Louisiana Purchase."
+    },
+    {
+      "id": "veto-address",
+      "type": "choice",
+      "prompt": "In his Bank veto, Jackson said the law had a right to complain of injustice to which group?",
+      "choices": [
+        "The farmers, mechanics, and laborers",
+        "The stockholders of the Bank",
+        "Foreign governments",
+        "The Supreme Court"
+      ],
+      "answer": 0,
+      "feedback": "Jackson set 'the humble members of society—the farmers, mechanics, and laborers' against a privileged order of the rich and powerful."
+    },
+    {
+      "id": "calhoun-nullification",
+      "type": "choice",
+      "prompt": "In the nullification crisis, John C. Calhoun argued that…",
+      "choices": [
+        "A state could declare a federal law void within its borders",
+        "The president could ignore Supreme Court rulings",
+        "Congress alone could interpret the Constitution",
+        "Slavery was unconstitutional everywhere"
+      ],
+      "answer": 0,
+      "feedback": "Calhoun's South Carolina Exposition and Protest claimed a state could nullify a federal law, a defense of the minority section and, behind it, of slavery."
+    },
+    {
+      "id": "worcester-ruling",
+      "type": "choice",
+      "prompt": "In Worcester v. Georgia (1832), the Supreme Court held that…",
+      "choices": [
+        "Georgia's laws had no force in Cherokee country",
+        "The Cherokee were citizens of Georgia",
+        "Indian removal was unconstitutional",
+        "The Cherokee must move west at once"
+      ],
+      "answer": 0,
+      "feedback": "Chief Justice Marshall ruled that dealings with Native nations belonged to the federal government, not the states; the ruling was not enforced and removal went ahead."
+    },
+    {
+      "id": "trail-of-tears",
+      "type": "choice",
+      "prompt": "The Trail of Tears refers to…",
+      "choices": [
+        "The forced removal of the Cherokee in 1838–39, on which about 4,000 died",
+        "A route used by the forty-niners to California",
+        "The march of the army to Mexico City",
+        "The path of the Erie Canal"
+      ],
+      "answer": 0,
+      "feedback": "The United States Army gathered some 16,000 Cherokee and removed them west in 1838–39; about 4,000 died on the march."
+    },
+    {
+      "id": "seneca-falls-model",
+      "type": "choice",
+      "prompt": "The Declaration of Sentiments, issued at Seneca Falls in 1848, was modeled on…",
+      "choices": [
+        "The Declaration of Independence",
+        "The Constitution",
+        "The Bank veto message",
+        "The Cherokee Phoenix"
+      ],
+      "answer": 0,
+      "feedback": "It rewrote the Declaration of Independence's sentences so that 'all men and women are created equal' and added a list of grievances against the laws."
+    },
+    {
+      "id": "osullivan-manifest",
+      "type": "choice",
+      "prompt": "John L. O'Sullivan coined the phrase 'manifest destiny' in 1845 to argue that…",
+      "choices": [
+        "The United States was fated to expand across the continent",
+        "Slavery should be abolished at once",
+        "Women should have the vote",
+        "The Bank should be rechartered"
+      ],
+      "answer": 0,
+      "feedback": "O'Sullivan wrote of the nation's 'manifest destiny to overspread and to possess the whole of the continent,' a claim that rested on dispossession and war."
+    },
+    {
+      "id": "douglass-turning-point",
+      "type": "choice",
+      "prompt": "In the passage from his Narrative, Douglass calls the fight with Covey…",
+      "choices": [
+        "The turning-point that revived his sense of his own manhood",
+        "A defeat that broke his spirit",
+        "A legal case he took to court",
+        "The day he escaped to the North"
+      ],
+      "answer": 0,
+      "feedback": "Douglass writes that the fight 'revived within me a sense of my own manhood' and resolved him that he would never again be a slave in fact."
+    },
+    {
+      "id": "reflect-who-counts",
+      "type": "short-answer",
+      "prompt": "Jackson's Bank veto and the Declaration of Sentiments each define who belongs to the political nation. Compare what each source claims and what each leaves out.",
+      "context": "Jackson: 'the humble members of society—the farmers, mechanics, and laborers—who have neither the time nor the means of securing like favors to themselves, have a right to complain of the injustice of their Government.' — Declaration of Sentiments: 'we insist that they have immediate admission to all the rights and privileges which belong to them as citizens of these United States.'",
+      "rubric": [
+        "refers to both sources",
+        "states whom each source treats as a full member of the political nation",
+        "uses a specific detail or quotation from each"
+      ]
+    }
+  ]
+}

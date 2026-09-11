@@ -1,0 +1,201 @@
+{
+  "id": "11-twenties-and-depression",
+  "title": "The Twenties and the Great Depression",
+  "period": "c. 1920–1939",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "johnson-reed-act",
+      "title": "An Act to limit the immigration of aliens into the United States (The Immigration Act of 1924, or Johnson-Reed Act)",
+      "author": "The Congress of the United States",
+      "date": "26 May 1924",
+      "citation": "Immigration Act of 1924, 43 Stat. 153, ch. 190 (68th Congress, 1st Session). Text from the United States Statutes at Large, Volume 43, U.S. Government Publishing Office (govinfo.gov).",
+      "license": "Public domain",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-43/pdf/STATUTE-43-Pg153-2.pdf",
+      "file": "sources/johnson-reed-act.md",
+      "context": "Signed on 26 May 1924, the Johnson-Reed Act set the first permanent numerical limits on immigration to the United States. It calculated quotas by nationality from the census of 1890 and barred aliens ineligible to citizenship. The excerpts below are from the enrolled text.",
+      "questions": [
+        "The law uses the census of 1890 as its base year. Why would that choice matter for immigrants from Italy or Poland?",
+        "Section 11(d) says the count of inhabitants excludes 'the descendants of slave immigrants' and 'the descendants of American aborigines.' What work does that exclusion do?",
+        "What does Section 13(c) mean by an 'alien ineligible to citizenship,' and whom would it keep out?"
+      ]
+    },
+    {
+      "id": "fdr-first-inaugural",
+      "title": "First Inaugural Address",
+      "author": "Franklin D. Roosevelt",
+      "date": "4 March 1933",
+      "citation": "Franklin D. Roosevelt, First Inaugural Address, delivered on the East Portico of the United States Capitol, 4 March 1933. Text via Wikisource; the speech is a work of the United States federal government.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Franklin_D._Roosevelt%27s_First_Inaugural_Address",
+      "file": "sources/fdr-first-inaugural.md",
+      "context": "Roosevelt delivered this address at the Capitol on 4 March 1933, as banks closed across the country. He had defeated Herbert Hoover the previous November, and he would launch the Hundred Days two days later. The speech is a work of the United States federal government.",
+      "questions": [
+        "Roosevelt says the 'money changers have fled from their high seats in the temple of our civilization.' Who are the money changers, and what does the image ask the audience to believe?",
+        "What does Roosevelt promise to do if Congress does not act, and what does that suggest about his view of executive power?",
+        "The speech was delivered in March 1933. Which of its promises are specific, and which are general?"
+      ]
+    },
+    {
+      "id": "social-security-act",
+      "title": "The Social Security Act (selected provisions)",
+      "author": "The Congress of the United States",
+      "date": "14 August 1935",
+      "citation": "Social Security Act, 49 Stat. 620, Pub. L. 74-271 (74th Congress, 1st Session, 1935). Text via Wikisource, Acts of the 74th United States Congress, Session 1, Chapter 531.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Social_Security_Act",
+      "file": "sources/social-security-act.md",
+      "context": "Signed on 14 August 1935, the Social Security Act created old-age insurance, unemployment insurance, and federal grants for old-age assistance, dependent children, and the blind. The excerpts below include the old-age benefit formula, the payroll tax, and the definition of covered employment.",
+      "questions": [
+        "The Act defines 'employment' by listing what it excludes. Which kinds of workers are left out, and who did that work?",
+        "Where does the money for old-age benefits come from, according to Title VIII?",
+        "The law sets benefits at a fraction of wages and caps the monthly payment at $85. What does that formula assume about who was expected to receive a pension?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "schlesinger-age-of-roosevelt",
+      "historian": "Arthur M. Schlesinger Jr.",
+      "work": "The Age of Roosevelt",
+      "year": "1957–1960",
+      "claim": "Schlesinger argued that the New Deal was a pragmatic middle way that preserved both capitalism and constitutional government. By regulating finance, recognizing labor, and making the federal government a permanent guarantor of welfare, he wrote, Roosevelt answered the Depression without turning to fascism or socialism and gave American reform a durable shape.",
+      "note": "Economic historians have been more skeptical. Milton Friedman and Anna Schwartz, in A Monetary History of the United States (1963), argued that the New Deal's monetary and regulatory choices prolonged the slump and that full recovery waited on wartime spending. Schlesinger's portrait of a coherent New Deal is also challenged by those who see improvisation rather than a plan."
+    },
+    {
+      "id": "katznelson-affirmative-action",
+      "historian": "Ira Katznelson",
+      "work": "When Affirmative Action Was White: An Untold History of Racial Inequality in Twentieth-Century America",
+      "year": "2005",
+      "claim": "Katznelson argued that the New Deal and the GI Bill were built with Southern Democrats to exclude black Americans. Social Security omitted farm and domestic workers, the Wagner Act left most black southern labor uncovered, and local administration let states discriminate, so the new welfare state built a white middle class while leaving black Americans out.",
+      "note": "Other historians, including William E. Leuchtenburg in Franklin D. Roosevelt and the New Deal (1963), stress that black Americans gained from the WPA and other programs and that the exclusions were a political price Roosevelt paid for Southern votes. The disagreement is over how deliberate the exclusion was and how much it explains later racial inequality."
+    }
+  ],
+  "activities": [
+    {
+      "id": "palmer-raids",
+      "type": "choice",
+      "prompt": "The Palmer raids of 1919–1920 targeted…",
+      "choices": [
+        "Suspected radical immigrants and anarchists",
+        "Southern segregationists",
+        "Wall Street bankers",
+        "Prohibition bootleggers"
+      ],
+      "answer": 0,
+      "feedback": "Attorney General A. Mitchell Palmer's raids arrested thousands of suspected radicals, many without warrants, and deported 249 people aboard the Buford."
+    },
+    {
+      "id": "quota-base-year",
+      "type": "choice",
+      "prompt": "The Immigration Act of 1924 based its national quotas on the census of…",
+      "choices": ["1890", "1910", "1920", "1929"],
+      "answer": 0,
+      "feedback": "The 1890 base year predated mass immigration from southern and eastern Europe, so the quotas favored immigrants from Britain, Germany, and Scandinavia."
+    },
+    {
+      "id": "prohibition-repeal",
+      "type": "choice",
+      "prompt": "Prohibition was repealed in 1933 by…",
+      "choices": [
+        "The Twenty-first Amendment",
+        "The Volstead Act",
+        "The Eighteenth Amendment",
+        "The Wagner Act"
+      ],
+      "answer": 0,
+      "feedback": "The Twenty-first Amendment, ratified in December 1933, ended Prohibition; it is the only amendment approved by state conventions rather than state legislatures."
+    },
+    {
+      "id": "harlem-new-negro",
+      "type": "choice",
+      "prompt": "Alain Locke's 1925 anthology gave a name to…",
+      "choices": [
+        "The 'New Negro'",
+        "The 'Lost Generation'",
+        "The 'New Deal'",
+        "The 'New South'"
+      ],
+      "answer": 0,
+      "feedback": "The New Negro announced a generation of black writers and artists, and the decade produced Langston Hughes, Zora Neale Hurston, and the jazz of Louis Armstrong and Duke Ellington."
+    },
+    {
+      "id": "scopes-bryan",
+      "type": "choice",
+      "prompt": "In the Scopes trial, William Jennings Bryan argued for…",
+      "choices": [
+        "A literal reading of the Bible against the teaching of evolution",
+        "Free speech for schoolteachers",
+        "The separation of church and state",
+        "The admission of scientific testimony"
+      ],
+      "answer": 0,
+      "feedback": "Bryan prosecuted John T. Scopes under Tennessee's Butler Act; Clarence Darrow defended him, and the trial became a contest over authority in the public schools."
+    },
+    {
+      "id": "black-tuesday",
+      "type": "choice",
+      "prompt": "On 'Black Tuesday,' 29 October 1929, the stock market…",
+      "choices": [
+        "Fell about 12 percent on record trading volume",
+        "Rallied to a new high",
+        "Was closed by the government",
+        "Rose for the first time that month"
+      ],
+      "answer": 0,
+      "feedback": "Some 16 million shares changed hands and the market fell sharply again, after losses on Black Thursday and Black Monday."
+    },
+    {
+      "id": "monetary-cause",
+      "type": "choice",
+      "prompt": "The argument that the Federal Reserve's failure to act turned a recession into the Great Depression is most associated with…",
+      "choices": [
+        "Milton Friedman and Anna Schwartz",
+        "Arthur M. Schlesinger Jr.",
+        "Ira Katznelson",
+        "John Kenneth Galbraith"
+      ],
+      "answer": 0,
+      "feedback": "Friedman and Schwartz's A Monetary History of the United States (1963) blamed the Federal Reserve for letting the money supply fall by about a third between 1929 and 1933."
+    },
+    {
+      "id": "social-security-created",
+      "type": "choice",
+      "prompt": "Which of these was created by the Social Security Act of 1935?",
+      "choices": [
+        "Old-age insurance funded by a payroll tax",
+        "The National Recovery Administration",
+        "The Civilian Conservation Corps",
+        "The Reconstruction Finance Corporation"
+      ],
+      "answer": 0,
+      "feedback": "The Act created old-age insurance, unemployment insurance, and grants for old-age assistance, dependent children, and the blind."
+    },
+    {
+      "id": "wagner-rights",
+      "type": "choice",
+      "prompt": "The Wagner Act of 1935 gave workers…",
+      "choices": [
+        "The right to organize and bargain collectively",
+        "A guaranteed minimum wage",
+        "Unemployment insurance",
+        "The right to a company union"
+      ],
+      "answer": 0,
+      "feedback": "The National Labor Relations Act protected private-sector organizing and created the National Labor Relations Board to enforce it."
+    },
+    {
+      "id": "reflect-new-deal-limits",
+      "type": "short-answer",
+      "prompt": "Roosevelt promised in 1933 to put people to work. Using the First Inaugural and the Social Security Act, explain how the New Deal's programs both helped and left out working Americans.",
+      "context": "FDR (1933): 'Our greatest primary task is to put people to work. This is no unsolvable problem if we face it wisely and courageously.' Social Security Act (1935): 'The term employment means any service, of whatever nature, performed within the United States ... except— (1) Agricultural labor; (2) Domestic service in a private home.'",
+      "rubric": [
+        "refers to both sources",
+        "explains who was included and who was excluded",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}

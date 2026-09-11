@@ -1,0 +1,193 @@
+{
+  "id": "05-slavery-and-the-coming-of-war",
+  "title": "Slavery and the coming of the Civil War",
+  "period": "c. 1820–1860",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "douglass-narrative",
+      "title": "Narrative of the Life of Frederick Douglass, an American Slave (selections)",
+      "author": "Frederick Douglass",
+      "date": "1845",
+      "citation": "Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself (Boston: Anti-Slavery Office, 1845). Text from Project Gutenberg eBook 23.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/23",
+      "file": "sources/douglass-narrative.md",
+      "context": "Douglass published this account seven years after escaping slavery in Maryland, while he was an agent of the Massachusetts Anti-Slavery Society. He named his former owners and his route, which put him at risk of being seized and returned to slavery.",
+      "questions": [
+        "Douglass was not allowed to know his own birthday. What does that detail reveal about the system he describes?",
+        "He writes that Northerners mistook slave songs for evidence of contentment. Why does he call that a greater mistake?",
+        "What does the fight with Covey show about how enslaved people resisted, and why did it matter to Douglass?"
+      ]
+    },
+    {
+      "id": "fugitive-slave-act",
+      "title": "The Fugitive Slave Act of 1850 (selections)",
+      "author": "Congress of the United States",
+      "date": "September 18, 1850",
+      "citation": "Fugitive Slave Act, 9 Stat. 462 (1850), sections 5–8. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/19th_century/fugitive.asp",
+      "file": "sources/fugitive-slave-act.md",
+      "context": "One of the measures of the Compromise of 1850, this law put the recovery of fugitives in federal hands. It was passed as a concession to the South and required ordinary citizens to help enforce it.",
+      "questions": [
+        "Section 6 says the alleged fugitive's testimony shall not be admitted and that the commissioner's certificate is conclusive. What kind of hearing does that create?",
+        "Section 7 punishes anyone who harbors or helps a fugitive. Whom does the law treat as the criminal?",
+        "Section 8 sets a commissioner's fee of ten dollars for granting removal and five for refusing. What might that difference encourage?"
+      ]
+    },
+    {
+      "id": "lincoln-house-divided",
+      "title": "\"A House Divided\": Speech at Springfield (selections)",
+      "author": "Abraham Lincoln",
+      "date": "June 16, 1858",
+      "citation": "Abraham Lincoln, speech at Springfield, Illinois, June 16, 1858, accepting the Republican nomination for United States Senator. Text from the Collected Works of Abraham Lincoln, edited by Roy P. Basler, via the National Park Service.",
+      "license": "Public domain",
+      "url": "https://www.nps.gov/liho/learn/historyculture/housedivided.htm",
+      "file": "sources/lincoln-house-divided.md",
+      "context": "Lincoln spoke in Springfield after the Illinois Republicans nominated him for the Senate. He argued that the country could not remain half slave and half free, and accused a combination of leaders of working to spread slavery.",
+      "questions": [
+        "Lincoln says the government cannot endure permanently half slave and half free. What does he predict will happen, and why?",
+        "He links the Nebraska doctrine and the Dred Scott decision as machinery. What is he accusing his opponents of doing?",
+        "Lincoln says we shall not fail. What does that confidence assume about the conflict, and how does it compare with the secessionists' view?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "genovese-paternalism",
+      "historian": "Eugene D. Genovese",
+      "work": "Roll, Jordan, Roll: The World the Slaves Made",
+      "year": "1974",
+      "claim": "Genovese argued that Southern slavery was a system of paternalism: an unequal but reciprocal set of duties and obligations between master and enslaved, within which enslaved people built their own religion, culture, and moral world and bent the system toward their own ends.",
+      "note": "The claim is contested. Kenneth M. Stampp and others had described slavery as a coercive labor system held together by force, and critics argued that Genovese's language of reciprocity softened the whip and the slave market; later scholars stressed the autonomy of enslaved resistance over negotiation."
+    },
+    {
+      "id": "mcpherson-irrepressible",
+      "historian": "James M. McPherson",
+      "work": "Battle Cry of Freedom: The Civil War Era",
+      "year": "1988",
+      "claim": "McPherson argued that the Civil War was an irrepressible conflict: the free-labor North and the slave-labor South had become incompatible societies, and the crises from 1846 onward were failed attempts to hold together what could not be held.",
+      "note": "A rival school, the blundering generation historians James G. Randall (1940) and Avery Craven (1942), argued that the war was avoidable and produced by fanaticism and political miscalculation. McPherson's book was in part an answer to them, and the debate continues."
+    }
+  ],
+  "activities": [
+    {
+      "id": "cotton-gin",
+      "type": "choice",
+      "prompt": "What did Eli Whitney's cotton gin make profitable across the interior South?",
+      "choices": [
+        "Short-staple upland cotton",
+        "Rice in the Carolina lowlands",
+        "Tobacco in Virginia",
+        "Sugar in Louisiana"
+      ],
+      "answer": 0,
+      "feedback": "The gin cleaned the sticky seeds out of short-staple cotton quickly, opening the interior to the cotton kingdom."
+    },
+    {
+      "id": "domestic-trade",
+      "type": "choice",
+      "prompt": "The domestic slave trade between 1790 and 1860 moved roughly how many enslaved people from the Upper South to the Deep South?",
+      "choices": [
+        "About one million",
+        "About ten thousand",
+        "About one hundred",
+        "About fifty million"
+      ],
+      "answer": 0,
+      "feedback": "Historians estimate about one million people were moved south and west, the largest forced migration in American history."
+    },
+    {
+      "id": "nat-turner",
+      "type": "choice",
+      "prompt": "What followed Nat Turner's rebellion in Virginia in 1831?",
+      "choices": [
+        "The legislature tightened the slave codes instead of emancipating",
+        "Virginia abolished slavery immediately",
+        "The federal government freed all enslaved people",
+        "The rebellion spread to every Southern state"
+      ],
+      "answer": 0,
+      "feedback": "Virginia debated gradual emancipation in 1831–32 and rejected it, then restricted teaching enslaved people to read and tightened the codes."
+    },
+    {
+      "id": "garrison-liberator",
+      "type": "choice",
+      "prompt": "William Lloyd Garrison's The Liberator, first published on 1 January 1831, called for…",
+      "choices": [
+        "Immediate emancipation and the end of slavery",
+        "Gradual emancipation with compensation",
+        "Sending free Black Americans to Africa",
+        "Restoring the Atlantic slave trade"
+      ],
+      "answer": 0,
+      "feedback": "Garrison rejected gradualism and colonization, demanded immediate abolition, and attacked the Constitution as a covenant with slavery."
+    },
+    {
+      "id": "fugitive-fee",
+      "type": "choice",
+      "prompt": "Under the Fugitive Slave Act of 1850, a federal commissioner received…",
+      "choices": [
+        "Ten dollars for granting removal and five for refusing",
+        "Five dollars for granting removal and ten for refusing",
+        "No fee in either case",
+        "A fixed salary regardless of the ruling"
+      ],
+      "answer": 0,
+      "feedback": "The larger fee for granting the certificate was widely seen as a bounty on returning people to slavery."
+    },
+    {
+      "id": "uncle-toms-cabin",
+      "type": "choice",
+      "prompt": "What was the effect of Uncle Tom's Cabin when it appeared as a book in 1852?",
+      "choices": [
+        "It sold hundreds of thousands of copies and made slavery vivid to Northern readers",
+        "It was banned throughout the North",
+        "It persuaded the South to abolish slavery",
+        "It had almost no readers"
+      ],
+      "answer": 0,
+      "feedback": "It sold 300,000 copies in the United States in its first year and more than two million worldwide within five years."
+    },
+    {
+      "id": "dred-scott",
+      "type": "choice",
+      "prompt": "In Dred Scott v. Sandford (1857), Chief Justice Taney ruled that…",
+      "choices": [
+        "Black people were not citizens and Congress could not bar slavery in the territories",
+        "Slavery was unconstitutional everywhere",
+        "Dred Scott was free and slavery was barred north of 36°30′",
+        "The territories could decide the question by popular vote"
+      ],
+      "answer": 0,
+      "feedback": "Taney held that Black people, enslaved or free, were not citizens and that the Missouri Compromise had always been unconstitutional."
+    },
+    {
+      "id": "secession-cause",
+      "type": "choice",
+      "prompt": "South Carolina's declaration of secession in December 1860 gave as its central grievance…",
+      "choices": [
+        "Northern refusal to enforce the Fugitive Slave Act and the election of an antislavery president",
+        "A tariff on imported goods",
+        "The admission of California as a free state",
+        "The abolition of slavery in the border states"
+      ],
+      "answer": 0,
+      "feedback": "The declaration named slavery directly: it charged that the North had failed to return fugitives and had elected a president hostile to slavery."
+    },
+    {
+      "id": "reflect-causes",
+      "type": "short-answer",
+      "prompt": "Using the secession declaration and Lincoln's speech, explain whether the coming of the war is better described as a conflict over slavery or over states' rights.",
+      "context": "South Carolina, December 1860: \"A geographical line has been drawn across the Union, and all the States north of that line have united in the election of a man to the high office of President of the United States, whose opinions and purposes are hostile to slavery.\" Lincoln, June 1858: \"I believe this government cannot endure, permanently half slave and half free.\"",
+      "rubric": [
+        "refers to both the secession declaration and Lincoln's speech",
+        "takes a position on slavery versus states' rights",
+        "uses a specific phrase or detail from the documents"
+      ]
+    }
+  ]
+}

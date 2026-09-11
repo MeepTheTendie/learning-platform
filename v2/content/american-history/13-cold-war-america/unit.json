@@ -1,0 +1,209 @@
+{
+  "id": "13-cold-war-america",
+  "title": "Cold War America and the affluent society",
+  "period": "c. 1945–1960",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "truman-doctrine",
+      "title": "Address before a Joint Session of Congress (the Truman Doctrine)",
+      "author": "Harry S. Truman, President of the United States",
+      "date": "12 March 1947",
+      "citation": "Harry S. Truman, address before a joint session of Congress, 12 March 1947. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/20th_century/trudoc.asp",
+      "file": "sources/truman-doctrine.md",
+      "context": "Truman asked Congress for $400 million in aid for Greece and Turkey, whose governments faced communist insurgencies and Soviet pressure. The speech announced what became known as the Truman Doctrine and committed the United States to supporting 'free peoples' against subjugation.",
+      "questions": [
+        "What does Truman mean by 'alternative ways of life,' and how does he describe each?",
+        "The speech asks for aid to Greece and Turkey. What kind of help does Truman say the United States will give?",
+        "Truman says the 'seeds of totalitarian regimes are nurtured by misery and want.' What does that assume about the causes of support for communism?",
+        "What does the speech leave unsaid about the limits of the commitment it announces?"
+      ]
+    },
+    {
+      "id": "brown-board",
+      "title": "Brown v. Board of Education of Topeka: Opinion of the Court",
+      "author": "Chief Justice Earl Warren, Supreme Court of the United States",
+      "date": "17 May 1954",
+      "citation": "Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), opinion of the Court by Chief Justice Earl Warren. Text via Wikisource, United States Reports, Volume 347.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Brown_v._Board_of_Education_of_Topeka_(347_U.S._483)/Opinion_of_the_Court",
+      "file": "sources/brown-board.md",
+      "context": "The Court unanimously held that racial segregation in public schools violated the equal protection clause of the Fourteenth Amendment. The opinion rested on the effect of segregation on children rather than on a comparison of buildings and teachers, and it overturned the 'separate but equal' doctrine of Plessy v. Ferguson.",
+      "questions": [
+        "The Court says the history of the Fourteenth Amendment is 'inconclusive.' Why does that matter for how it decides the case?",
+        "On what grounds does the Court rest its conclusion that separate schools are unequal?",
+        "The opinion quotes a finding from the Kansas case. How does that finding support the decision, and what does it assume?",
+        "What does the Court leave for a later decision when it restores the cases to the docket?"
+      ]
+    },
+    {
+      "id": "eisenhower-farewell",
+      "title": "Farewell Address to the Nation (the military-industrial complex speech)",
+      "author": "Dwight D. Eisenhower, President of the United States",
+      "date": "17 January 1961",
+      "citation": "Dwight D. Eisenhower, farewell address to the nation, 17 January 1961. Public Papers of the Presidents, Dwight D. Eisenhower, 1960, pp. 1035–1040. Text from the Avalon Project, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/20th_century/eisenhower001.asp",
+      "file": "sources/eisenhower-farewell.md",
+      "context": "Eisenhower, a former general, warned in his last televised address of the growing power of what he called the military-industrial complex. He also described the Cold War as a prolonged struggle and warned that public policy could become captive to a scientific-technological elite.",
+      "questions": [
+        "Eisenhower says the combination of a military establishment and an arms industry is 'new in the American experience.' What does he say has changed?",
+        "He warns against 'unwarranted influence.' Who or what might exercise that influence, and through what means?",
+        "What does he ask of ordinary citizens, and what does that assume about how power is checked?",
+        "The warning comes from the president who built much of the defense establishment. How does that affect how you read the speech?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "gaddis-post-revisionism",
+      "historian": "John Lewis Gaddis",
+      "work": "The Cold War: A New History",
+      "year": "2005",
+      "claim": "Gaddis argued that the Cold War grew from a security dilemma rather than a single aggressor: each superpower, acting from fear of the other, took steps that confirmed the other's worst expectations. He also argued that the conflict was, for all its dangers, a 'long peace' among the great powers, and that it ended when one side lost faith in its own system.",
+      "note": "Revisionist historians such as William Appleman Williams, in The Tragedy of American Diplomacy (1959), had argued that American economic expansion and the drive for open markets caused the conflict. Critics of Gaddis reply that his account underplays ideology and the agency of people in Asia, Africa, and Latin America, where the Cold War was anything but a long peace."
+    },
+    {
+      "id": "may-domestic-containment",
+      "historian": "Elaine Tyler May",
+      "work": "Homeward Bound: American Families in the Cold War Era",
+      "year": "1988",
+      "claim": "May argued that the postwar suburban family was a political instrument. In a climate of nuclear fear, she wrote, Americans practiced 'domestic containment,' channeling anxiety about communism and sexual disorder into early marriage, large families, and the single-earner home, so that the private household became a Cold War defense.",
+      "note": "Other historians, including Joanne Meyerowitz and Stephanie Coontz, have argued that this model overstates conformity: many women worked for wages, and the ideal of the full-time homemaker was contested from the start. May's account remains influential, but it describes an ideal as much as an average."
+    }
+  ],
+  "activities": [
+    {
+      "id": "truman-aid",
+      "type": "choice",
+      "prompt": "In March 1947, Truman asked Congress for $400 million in aid for which two countries?",
+      "choices": [
+        "Greece and Turkey",
+        "France and Italy",
+        "China and Korea",
+        "Iran and Egypt"
+      ],
+      "answer": 0,
+      "feedback": "Truman asked for aid to Greece and Turkey, whose governments faced communist insurgencies and Soviet pressure; the request became known as the Truman Doctrine."
+    },
+    {
+      "id": "marshall-plan",
+      "type": "choice",
+      "prompt": "The Marshall Plan of 1948 sent about $13 billion chiefly to…",
+      "choices": [
+        "Rebuild the economies of Western Europe",
+        "Fund the Korean War",
+        "Build the hydrogen bomb",
+        "Support the Chinese Nationalists"
+      ],
+      "answer": 0,
+      "feedback": "The program was meant to restore European production and trade, and its authors believed that prosperity would reduce the appeal of communism."
+    },
+    {
+      "id": "berlin-airlift",
+      "type": "choice",
+      "prompt": "How did the United States and its allies answer the Soviet blockade of West Berlin in 1948?",
+      "choices": [
+        "They supplied the city by air for nearly a year",
+        "They sent troops through the blockade",
+        "They withdrew from the city",
+        "They bombed Soviet supply lines"
+      ],
+      "answer": 0,
+      "feedback": "The Berlin Airlift flew some 277,000 flights and carried 2.3 million tons of food and coal between June 1948 and May 1949."
+    },
+    {
+      "id": "nsc-68",
+      "type": "choice",
+      "prompt": "NSC-68 (1950) recommended that the United States…",
+      "choices": [
+        "Undergo a large and permanent military buildup",
+        "Cut defense spending after the war",
+        "Recognize the People's Republic of China",
+        "Abandon the North Atlantic Treaty"
+      ],
+      "answer": 0,
+      "feedback": "Drafted under Paul Nitze, NSC-68 described a Soviet drive for world authority and called for a permanent expansion of American military power."
+    },
+    {
+      "id": "korea-end",
+      "type": "choice",
+      "prompt": "The Korean War ended in 1953 with…",
+      "choices": [
+        "An armistice that left Korea divided near the 38th parallel",
+        "A united Korea under the South",
+        "The reunification of Korea under the North",
+        "A peace treaty and the withdrawal of all foreign troops"
+      ],
+      "answer": 0,
+      "feedback": "The armistice of 27 July 1953 stopped the fighting and left the peninsula divided near where it had begun; no peace treaty followed."
+    },
+    {
+      "id": "mccarthy-fall",
+      "type": "choice",
+      "prompt": "Senator Joseph McCarthy's influence collapsed after…",
+      "choices": [
+        "The televised Army–McCarthy hearings and his censure by the Senate",
+        "His election as president",
+        "The Supreme Court upheld the Smith Act",
+        "The fall of China"
+      ],
+      "answer": 0,
+      "feedback": "The 1954 hearings exposed his methods to a national television audience, and the Senate censured him that December."
+    },
+    {
+      "id": "gi-bill",
+      "type": "choice",
+      "prompt": "The GI Bill of 1944 provided returning veterans with…",
+      "choices": [
+        "Money for education and training and low-interest loans",
+        "Guaranteed jobs in defense plants",
+        "Free land in the West",
+        "Immediate pensions for life"
+      ],
+      "answer": 0,
+      "feedback": "The Servicemen's Readjustment Act offered college or training money, loans for homes and farms, and a year of unemployment pay; nearly eight million veterans used its education and training benefits."
+    },
+    {
+      "id": "brown-holding",
+      "type": "choice",
+      "prompt": "In Brown v. Board of Education (1954), the Supreme Court held that…",
+      "choices": [
+        "Racial segregation in public schools violates the equal protection clause",
+        "Segregation is lawful if facilities are equal",
+        "The Fourteenth Amendment does not apply to schools",
+        "States may choose whether to segregate"
+      ],
+      "answer": 0,
+      "feedback": "A unanimous Court, in an opinion by Chief Justice Earl Warren, held that separate educational facilities are inherently unequal."
+    },
+    {
+      "id": "montgomery",
+      "type": "choice",
+      "prompt": "The Montgomery bus boycott was ended in part by…",
+      "choices": [
+        "The Supreme Court's decision in Browder v. Gayle",
+        "A federal law desegregating buses",
+        "An executive order by Eisenhower",
+        "A settlement that kept segregated seating"
+      ],
+      "answer": 0,
+      "feedback": "The boycott lasted 381 days, from December 1955 to December 1956, and ended after the Supreme Court upheld a ruling that struck down bus segregation."
+    },
+    {
+      "id": "reflect-prosperity-fear",
+      "type": "short-answer",
+      "prompt": "Truman and Eisenhower each described a permanent American role in the world. Using both sources, explain how each connected national security to American life, and what each assumed about its costs.",
+      "context": "Truman (1947): 'I believe that it must be the policy of the United States to support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures.' — Eisenhower (1961): 'This conjunction of an immense military establishment and a large arms industry is new in the American experience. ... The potential for the disastrous rise of misplaced power exists and will persist.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each assumes about security and its costs",
+        "uses a specific phrase or figure from each text"
+      ]
+    }
+  ]
+}

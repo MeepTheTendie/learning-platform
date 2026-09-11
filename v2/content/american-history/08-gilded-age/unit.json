@@ -1,0 +1,207 @@
+{
+  "id": "08-gilded-age",
+  "title": "The Gilded Age and industrialization",
+  "period": "c. 1877–1900",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "gospel-of-wealth",
+      "title": "Wealth (The Gospel of Wealth)",
+      "author": "Andrew Carnegie",
+      "date": "June 1889",
+      "citation": "Andrew Carnegie, 'Wealth,' North American Review 148, no. 391 (June 1889): 653–664. Text via Wikisource; also in the Internet Modern History Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/The_Gospel_of_Wealth",
+      "file": "sources/gospel-of-wealth.md",
+      "context": "Carnegie's essay 'Wealth' appeared in the North American Review in June 1889 and became known as 'The Gospel of Wealth.' Carnegie, who emigrated from Scotland and built a steel fortune, argued that competition and concentrated wealth were beneficial and that the rich held their surplus as a trust for the community.",
+      "questions": [
+        "What does Carnegie mean when he calls the rich the 'trustee' of their surplus wealth, and to whom is the trust owed?",
+        "Carnegie writes that the law of competition 'insures the survival of the fittest in every department.' What does that phrase assume about people who fail?",
+        "Which passages describe the age as progress, and which reveal what that progress cost?"
+      ]
+    },
+    {
+      "id": "omaha-platform",
+      "title": "The Omaha Platform of the People's Party",
+      "author": "The People's Party (Populists), Omaha national convention",
+      "date": "4 July 1892",
+      "citation": "People's Party, 'National People's Party Platform,' adopted at Omaha, 4 July 1892. Text via Wikisource; source: History Matters, George Mason University.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Omaha_Platform",
+      "file": "sources/omaha-platform.md",
+      "context": "The People's Party, formed from the farmers' alliances, met at Omaha in July 1892 and adopted this platform on the anniversary of the Declaration of Independence. It demanded a government-issued currency, a graduated income tax, free silver, and government ownership of the railroads and the telegraph.",
+      "questions": [
+        "The platform says the country is dividing into 'tramps and millionaires.' Whom does it treat as the producers, and whom as the parasites?",
+        "What does the platform mean by 'free silver,' and why would farmers want it?",
+        "The platform demands 'the further restriction of undesirable emigration.' How does that demand sit beside its attack on concentrated wealth?",
+        "What does the platform assume about the proper role of government in the economy?"
+      ]
+    },
+    {
+      "id": "plessy-ferguson",
+      "title": "Plessy v. Ferguson (majority opinion)",
+      "author": "Justice Henry Billings Brown, Supreme Court of the United States",
+      "date": "18 May 1896",
+      "citation": "Plessy v. Ferguson, 163 U.S. 537 (1896). Opinion of the Court by Justice Henry Billings Brown. Text via Wikisource, United States Reports, Volume 163.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Plessy_v._Ferguson/Opinion_of_the_Court",
+      "file": "sources/plessy-ferguson.md",
+      "context": "Homer Plessy, of mixed descent, was arrested in 1892 for sitting in a whites-only railway car in Louisiana. In 1896 the Supreme Court upheld the state's separate-car law. Justice Henry Billings Brown wrote the majority opinion; Justice John Marshall Harlan dissented.",
+      "questions": [
+        "The Court says the law does not 'necessarily imply the inferiority' of either race. What would it mean for a law to imply inferiority?",
+        "On what does the majority rest its claim that segregation is 'reasonable'?",
+        "What does Justice Harlan mean by calling the Constitution 'color-blind,' and how does the majority answer him?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "hofstadter-age-of-reform",
+      "historian": "Richard Hofstadter",
+      "work": "The Age of Reform: From Bryan to F.D.R.",
+      "year": "1955",
+      "claim": "Hofstadter argued that Populism was less a movement of economic grievance than a revolt of status. Farmers who felt their old standing slipping, he wrote, turned to a nostalgic producerist myth and to a politics that shaded into nativism and antisemitism, looking backward to a rural America that was passing.",
+      "note": "Lawrence Goodwyn answered in The Populist Moment (1978) that Hofstadter misread the movement. Goodwyn showed that the Alliances built a genuine cooperative culture and a serious program — the sub-treasury and a flexible currency — and argued that their defeat, not their psychology, is the central fact. The debate over how democratic and how tolerant Populism was is unresolved."
+    },
+    {
+      "id": "woodward-strange-career",
+      "historian": "C. Vann Woodward",
+      "work": "The Strange Career of Jim Crow",
+      "year": "1955",
+      "claim": "Woodward argued that segregation was not an inevitable legacy of slavery but a late invention. In the first decades after emancipation, he showed, Black and white Southerners often shared railway cars, streetcars, and public facilities, and the rigid color line was built chiefly in the 1890s and 1900s, when disenfranchisement and the law of Plessy v. Ferguson hardened it.",
+      "note": "Critics, including Howard N. Rabinowitz, replied that segregation existed earlier in schools, hospitals, and poor relief, so the 'late' chronology fits some settings better than others. Woodward's larger point — that the color line was made by people and could be unmade — has outlasted the dispute."
+    }
+  ],
+  "activities": [
+    {
+      "id": "gilded-age-name",
+      "type": "choice",
+      "prompt": "The label 'the Gilded Age' comes from…",
+      "choices": [
+        "A novel by Mark Twain and Charles Dudley Warner",
+        "A speech by William Jennings Bryan",
+        "A Supreme Court opinion",
+        "A Carnegie Steel advertisement"
+      ],
+      "answer": 0,
+      "feedback": "Twain and Warner's 1873 novel The Gilded Age: A Tale of To-Day gave the era its name, suggesting a thin gold surface over base metal."
+    },
+    {
+      "id": "standard-oil-share",
+      "type": "choice",
+      "prompt": "By 1880 John D. Rockefeller's Standard Oil controlled roughly what share of the nation's oil refining?",
+      "choices": [
+        "About ninety percent",
+        "About ten percent",
+        "About half",
+        "About one-third"
+      ],
+      "answer": 0,
+      "feedback": "Standard Oil refined about a quarter of the nation's oil by 1872 and perhaps ninety percent by 1880, using consolidation and secret railroad rebates."
+    },
+    {
+      "id": "carnegie-costs",
+      "type": "choice",
+      "prompt": "Carnegie Steel cut its costs chiefly by…",
+      "choices": [
+        "Integrating every stage of production from ore to finished steel",
+        "Paying the highest wages in the industry",
+        "Refusing to use the Bessemer converter",
+        "Selling only to foreign markets"
+      ],
+      "answer": 0,
+      "feedback": "Carnegie owned ore fields, coke ovens, furnaces, mills, and the ships and railroads that moved the ore, so his costs fell below his rivals'."
+    },
+    {
+      "id": "promontory-1869",
+      "type": "choice",
+      "prompt": "The first transcontinental railroad was joined in 1869 at…",
+      "choices": [
+        "Promontory Summit, Utah",
+        "Omaha, Nebraska",
+        "Sacramento, California",
+        "Chicago, Illinois"
+      ],
+      "answer": 0,
+      "feedback": "The Union Pacific and the Central Pacific met at Promontory Summit, Utah, on 10 May 1869."
+    },
+    {
+      "id": "knights-vs-afl",
+      "type": "choice",
+      "prompt": "How did the American Federation of Labor differ from the Knights of Labor?",
+      "choices": [
+        "It organized skilled workers by craft rather than all workers together",
+        "It admitted every worker regardless of trade",
+        "It opposed the use of strikes",
+        "It was founded before the Civil War"
+      ],
+      "answer": 0,
+      "feedback": "The AFL, founded in 1886 under Samuel Gompers, organized skilled trades and concentrated on wages, hours, and bargaining; the Knights had tried to unite all workers."
+    },
+    {
+      "id": "haymarket-1886",
+      "type": "choice",
+      "prompt": "What happened at Haymarket Square in Chicago in May 1886?",
+      "choices": [
+        "A bomb was thrown at a labor rally and eight anarchists were later convicted",
+        "A union won the eight-hour day",
+        "The army broke the Great Railroad Strike",
+        "Carnegie sold his steel company"
+      ],
+      "answer": 0,
+      "feedback": "After the bombing, eight anarchists were tried amid intense prejudice; four were hanged in 1887, and Governor Altgeld pardoned the survivors in 1893."
+    },
+    {
+      "id": "pullman-1894",
+      "type": "choice",
+      "prompt": "How did the federal government end the Pullman boycott of 1894?",
+      "choices": [
+        "It obtained an injunction and sent troops to Chicago",
+        "It recognized the American Railway Union",
+        "It seized the Pullman company",
+        "It cut railroad freight rates"
+      ],
+      "answer": 0,
+      "feedback": "A federal court enjoined the boycott, President Cleveland sent troops over the governor's protest, and the Supreme Court upheld the injunction in In re Debs (1895)."
+    },
+    {
+      "id": "plessy-holding",
+      "type": "choice",
+      "prompt": "In Plessy v. Ferguson (1896), the Supreme Court held that…",
+      "choices": [
+        "State laws requiring separate railway cars did not violate the Fourteenth Amendment",
+        "Segregation was unconstitutional everywhere",
+        "The Fifteenth Amendment protected the vote",
+        "Railroads could not discriminate at all"
+      ],
+      "answer": 0,
+      "feedback": "The Court upheld Louisiana's separate-car law, reasoning that enforced separation did not necessarily imply inferiority; the phrase 'separate but equal' entered the law."
+    },
+    {
+      "id": "omaha-demands",
+      "type": "choice",
+      "prompt": "Which of these did the Omaha Platform of 1892 demand?",
+      "choices": [
+        "Government ownership of the railroads and the telegraph",
+        "The repeal of the income tax",
+        "A firm commitment to the gold standard",
+        "An end to the eight-hour day"
+      ],
+      "answer": 0,
+      "feedback": "The Populist platform called for government ownership of railroads and telegraphs, a graduated income tax, free silver, postal savings banks, and the secret ballot."
+    },
+    {
+      "id": "reflect-progress-inequality",
+      "type": "short-answer",
+      "prompt": "Carnegie and the Populists describe the same economy in opposite terms. Using the Carnegie and Omaha Platform sources, explain what each assumes about wealth and about who benefits from industrial progress.",
+      "context": "Carnegie (1889): 'We accept and welcome ... great inequality of environment, the concentration of business ... in the hands of a few ... as being not only beneficial, but essential for the future progress of the race.' Omaha Platform (1892): 'The fruits of the toil of millions are boldly stolen to build up colossal fortunes for a few ... From the same prolific womb of governmental injustice we breed the two great classes—tramps and millionaires.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each assumes about how wealth is created and shared",
+        "uses a specific phrase or figure from each text"
+      ]
+    }
+  ]
+}

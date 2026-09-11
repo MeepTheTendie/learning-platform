@@ -1,0 +1,206 @@
+{
+  "id": "15-sixties-and-vietnam",
+  "title": "The sixties, Vietnam, and upheaval",
+  "period": "c. 1960–1975",
+  "region": "The United States",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "great-society",
+      "title": "Remarks at the University of Michigan (the Great Society speech)",
+      "author": "Lyndon B. Johnson",
+      "date": "22 May 1964",
+      "citation": "Lyndon B. Johnson, 'Remarks at the University of Michigan,' Ann Arbor, 22 May 1964, Public Papers of the Presidents of the United States: Lyndon B. Johnson, 1963–64, Book I. Text via the American Presidency Project.",
+      "license": "Public domain",
+      "url": "https://www.presidency.ucsb.edu/documents/remarks-the-university-michigan",
+      "file": "sources/great-society.md",
+      "context": "Johnson delivered this commencement address at the University of Michigan a year after taking office. He named the 'Great Society' and promised to end poverty and racial injustice; Congress went on to create Medicare, Medicaid, and the War on Poverty.",
+      "questions": [
+        "Johnson calls the Great Society 'a challenge constantly renewed' rather than 'a finished work.' What does that assume about how government solves problems?",
+        "Which of the problems he names — cities, the countryside, the classroom — does he treat as most urgent, and what does each promise cost?",
+        "The speech asks the graduates to 'join in the battle.' What kind of appeal is this, and what does it leave unsaid?"
+      ]
+    },
+    {
+      "id": "gulf-of-tonkin",
+      "title": "Gulf of Tonkin Resolution (H.J. Res. 1145)",
+      "author": "United States Congress",
+      "date": "7 August 1964 (approved 10 August 1964)",
+      "citation": "Joint Resolution of Congress, H.J. Res. 1145, 78 Stat. 384, approved 10 August 1964. Text via Wikisource, United States Statutes at Large.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Gulf_of_Tonkin_Resolution",
+      "file": "sources/gulf-of-tonkin.md",
+      "context": "Passed after reported attacks on U.S. destroyers in the Gulf of Tonkin, this joint resolution authorized the President to use armed force in southeast Asia. It passed the House 416 to 0 and the Senate 88 to 2; only Senators Wayne Morse and Ernest Gruening voted no.",
+      "questions": [
+        "The resolution's preamble states that the United States has 'no territorial, military or political ambitions in that area.' How does that claim sit beside the powers the resolution grants?",
+        "What does Section 3 say must happen before the resolution expires, and who decides?",
+        "The resolution passed almost unanimously. What does near-unanimity tell us about what Congress believed it was voting for?"
+      ]
+    },
+    {
+      "id": "pentagon-papers",
+      "title": "The Pentagon Papers on the Gulf of Tonkin",
+      "author": "United States Department of Defense",
+      "date": "Completed 1967; published 1971",
+      "citation": "United States – Vietnam Relations, 1945–1967: A Study Prepared by the Department of Defense (the Pentagon Papers), Part IV. C. 2. b. Declassified and published in 1971. Text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/United_States_%E2%80%93_Vietnam_Relations,_1945%E2%80%931967:_A_Study_Prepared_by_the_Department_of_Defense/IV._C._2._b._July_%E2%80%93_October_1964",
+      "file": "sources/pentagon-papers.md",
+      "context": "This classified internal history, commissioned by Secretary of Defense Robert McNamara and completed in 1967, was leaked to the New York Times by Daniel Ellsberg and published in 1971. Its account of the Gulf of Tonkin stresses that escalation had been planned months before the incident.",
+      "questions": [
+        "The study says the reprisal 'represented the carrying out of recommendations ... subsequently placed on the shelf.' What does that imply about the relationship between the incident and the decision to escalate?",
+        "The authors write that 'the obvious convenience' of the incident fed suspicion. Why would the appearance of convenience matter even if the attack was real?",
+        "This is a government history written by participants. What can it establish, and what might it be unable to see about its own decisions?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "halberstam-best-brightest",
+      "historian": "David Halberstam",
+      "work": "The Best and the Brightest",
+      "year": "1972",
+      "claim": "Halberstam argued that the men who led the United States into Vietnam — McNamara, Bundy, Rusk, and the rest — were the ablest of their generation, and that precisely their brilliance, their confidence in rational analysis, and their fear of appearing soft produced the chain of small decisions that trapped the country in a war it could not win.",
+      "note": "George C. Herring and other historians reply that the commitment owed less to personality than to the structure of the Cold War and to a 'credibility' imperative that made each retreat seem more dangerous than the next step forward. The debate over how much to blame individuals, and how much the system, is unresolved."
+    },
+    {
+      "id": "perlstein-nixonland",
+      "historian": "Rick Perlstein",
+      "work": "Nixonland: The Rise of a President and the Fracturing of America",
+      "year": "2008",
+      "claim": "Perlstein argued that the upheavals of the 1960s split the country into two imagined nations, and that Richard Nixon built a durable new majority by speaking to the resentment of those who felt the turmoil was being imposed on them, turning polarization itself into a governing strategy.",
+      "note": "Critics contend that Perlstein overstates Nixon's authorship of the backlash, which had deeper roots in suburban growth, the decline of organized labor, and white resistance to civil rights. Whether the sixties fractured a consensus or exposed fractures that were already there remains contested."
+    }
+  ],
+  "activities": [
+    {
+      "id": "great-society-programs",
+      "type": "choice",
+      "prompt": "Which pair of programs did Congress create in 1965 as part of the Great Society?",
+      "choices": [
+        "Medicare and Medicaid",
+        "Social Security and the CCC",
+        "The TVA and the WPA",
+        "The Federal Reserve and the FDIC"
+      ],
+      "answer": 0,
+      "feedback": "Medicare paid for hospital care for the elderly and Medicaid for the poor; both were added to the Social Security Act in 1965."
+    },
+    {
+      "id": "feminine-mystique",
+      "type": "choice",
+      "prompt": "Which 1963 book helped launch the women's movement by describing 'the problem that has no name'?",
+      "choices": [
+        "The Feminine Mystique",
+        "Unsafe at Any Speed",
+        "The Other America",
+        "The Power Elite"
+      ],
+      "answer": 0,
+      "feedback": "Betty Friedan's The Feminine Mystique (1963) described the dissatisfaction of educated suburban housewives and is often credited with helping to revive feminism."
+    },
+    {
+      "id": "tonkin-authority",
+      "type": "choice",
+      "prompt": "What did the Gulf of Tonkin Resolution of August 1964 authorize?",
+      "choices": [
+        "The President to take all necessary measures, including armed force, in southeast Asia",
+        "A formal declaration of war against North Vietnam",
+        "The immediate bombing of Hanoi and Haiphong",
+        "The withdrawal of all American advisers from South Vietnam"
+      ],
+      "answer": 0,
+      "feedback": "The resolution was not a declaration of war. It approved the President's determination to take 'all necessary steps, including the use of armed force,' and passed the Senate 88 to 2."
+    },
+    {
+      "id": "tet-effect",
+      "type": "choice",
+      "prompt": "Why did the Tet Offensive of early 1968 damage the Johnson administration even though it failed as a military offensive?",
+      "choices": [
+        "It showed that official claims of progress were not credible",
+        "It captured the South Vietnamese capital",
+        "It brought China into the war",
+        "It permanently ended the bombing of North Vietnam"
+      ],
+      "answer": 0,
+      "feedback": "Tet did not topple the Saigon government, but the scale of the attack contradicted the administration's optimistic reports and widened the credibility gap."
+    },
+    {
+      "id": "warren-court-counsel",
+      "type": "choice",
+      "prompt": "Which Warren Court decision required the states to provide a lawyer to a defendant who could not afford one?",
+      "choices": [
+        "Gideon v. Wainwright",
+        "Brown v. Board of Education",
+        "Plessy v. Ferguson",
+        "Marbury v. Madison"
+      ],
+      "answer": 0,
+      "feedback": "Gideon v. Wainwright (1963) required the states to appoint counsel for indigent defendants in felony cases."
+    },
+    {
+      "id": "chicago-1968",
+      "type": "choice",
+      "prompt": "What happened at the Democratic National Convention in Chicago in August 1968?",
+      "choices": [
+        "Police fought antiwar demonstrators in the streets while the party nominated Hubert Humphrey",
+        "The party nominated Robert Kennedy",
+        "The convention unanimously endorsed the war",
+        "The party nominated George Wallace"
+      ],
+      "answer": 0,
+      "feedback": "Humphrey won the nomination, but televised clashes between police and demonstrators — and the chant 'the whole world is watching' — came to stand for a party and a country divided."
+    },
+    {
+      "id": "kent-state",
+      "type": "choice",
+      "prompt": "What happened at Kent State University on 4 May 1970?",
+      "choices": [
+        "National Guardsmen shot and killed four students during a protest against the invasion of Cambodia",
+        "Students burned the ROTC building and were arrested without violence",
+        "The campus was closed after a bombing",
+        "Federal troops occupied the campus at the governor's request"
+      ],
+      "answer": 0,
+      "feedback": "Ohio National Guardsmen fired on demonstrators protesting the expansion of the war into Cambodia; four students were killed and nine wounded. Ten days later two students were killed at Jackson State."
+    },
+    {
+      "id": "nixon-resignation",
+      "type": "choice",
+      "prompt": "How did Richard Nixon's presidency end?",
+      "choices": [
+        "He resigned in August 1974 rather than face certain impeachment over Watergate",
+        "He was impeached by the House and removed by the Senate",
+        "He lost the election of 1972",
+        "He was acquitted in a Senate trial"
+      ],
+      "answer": 0,
+      "feedback": "After the Supreme Court ordered him to release the tapes and the House Judiciary Committee approved articles of impeachment, Nixon resigned on 9 August 1974."
+    },
+    {
+      "id": "fall-of-saigon",
+      "type": "choice",
+      "prompt": "What happened in Vietnam in April 1975?",
+      "choices": [
+        "North Vietnamese forces captured Saigon and the last Americans were evacuated",
+        "The Paris Peace Accords were signed",
+        "The United States began Operation Rolling Thunder",
+        "South Vietnam held nationwide elections"
+      ],
+      "answer": 0,
+      "feedback": "Two years after the Paris accords, North Vietnamese troops entered Saigon on 30 April 1975; the city was later renamed Ho Chi Minh City."
+    },
+    {
+      "id": "reflect-promise-and-distrust",
+      "type": "short-answer",
+      "prompt": "The Great Society speech and the Pentagon Papers describe the same administration in very different terms. Using both sources, explain how the promise of 1964 gave way to the distrust of the later 1960s.",
+      "context": "Johnson (May 1964): 'The Great Society rests on abundance and liberty for all. It demands an end to poverty and racial injustice, to which we are totally committed in our time.' The Pentagon Papers (1967): 'The obvious convenience and the ways in which it was exploited have been at the root of much of the suspicion with which critics of Administration policy have viewed the incident.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each source assumes about the administration's aims",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,166 @@
 
 Every source and its license, generated from the unit files.
 
+## 01-colonial-america — Colonial America
+
+c. 1607–1763 · British North America
+
+- **The Mayflower Compact, with William Bradford's account** — The settlers at New Plymouth; William Bradford, 11 November 1620. Public domain. Agreement Between the Settlers at New Plymouth (1620), in Francis Newton Thorpe, ed., The Federal and State Constitutions, Colonial Charters, and Other Organic Laws, vol. 3 (Washington: Government Printing Office, 1909); and William Bradford, Bradford's History of the Plymouth Settlement, 1608-1650, ed. Harold Paget (New York: E. P. Dutton, 1909). The Avalon Project, Yale Law School, and Project Gutenberg eBook 69871.
+- **A Model of Christian Charity (excerpts)** — John Winthrop, 1630. Public domain. John Winthrop, 'A Modell of Christian Charity' (1630), in Collections of the Massachusetts Historical Society, 3rd series, vol. 7 (Boston, 1838), pp. 31-48. Hanover Historical Texts Collection.
+- **The Generall Historie of Virginia (excerpts)** — John Smith, 1624. Public domain. John Smith, The Generall Historie of Virginia, New-England, and the Summer Isles (1624), reprinted in The Travels of Captaine John Smith, vol. 1 (Glasgow: James MacLehose and Sons, 1907). Project Gutenberg eBook 56347.
+- interpretation: Edmund S. Morgan, *American Slavery, American Freedom: The Ordeal of Colonial Virginia* (1975)
+- interpretation: Perry Miller, *The New England Mind: The Seventeenth Century* (1939)
+
+## 02-revolution-and-constitution — Revolution and the Constitution
+
+c. 1763–1789 · British North America and the United States
+
+- **The Declaration of Independence** — Thomas Jefferson and the Continental Congress, July 4, 1776. Public domain. Documents Illustrative of the Formation of the Union of the American States, selected and arranged by Charles C. Tansill (Washington: Government Printing Office, 1927), House Document No. 398. Avalon Project, Yale Law School.
+- **The Constitution of the United States (selected)** — The Federal Convention, September 17, 1787 (Bill of Rights ratified 1791). Public domain. The Constitution of the United States, in Documents Illustrative of the Formation of the Union of the American States, ed. Charles C. Tansill (Washington: Government Printing Office, 1927). Avalon Project, Yale Law School.
+- **Federalist No. 10** — James Madison, writing as Publius, November 23, 1787. Public domain. The Federalist Papers, No. 10, New York Packet, 23 November 1787. Avalon Project, Yale Law School.
+- interpretation: Charles A. Beard, *An Economic Interpretation of the Constitution of the United States* (1913)
+- interpretation: Bernard Bailyn, *The Ideological Origins of the American Revolution* (1967)
+
+## 03-early-republic — The early republic
+
+c. 1789–1820 · The United States
+
+- **Washington's Farewell Address** — George Washington, 19 September 1796. Public domain. George Washington, Farewell Address, published in the American Daily Advertiser (Philadelphia), 19 September 1796. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
+- **The Kentucky and Virginia Resolutions** — Thomas Jefferson and James Madison, for the legislatures of Kentucky and Virginia, 1798. Public domain. The Kentucky Resolutions of 1798, drafted by Thomas Jefferson, from Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, via Wikisource; the Virginia Resolutions of 1798, drafted by James Madison, from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
+- **Marbury v. Madison** — John Marshall, Chief Justice of the United States, 1803. Public domain. Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803), opinion of the Court by Chief Justice John Marshall. Text from the Legal Information Institute, Cornell Law School. Public domain (U.S. government work).
+- interpretation: Joseph J. Ellis, *Founding Brothers: The Revolutionary Generation* (2000)
+- interpretation: Gordon S. Wood, *Empire of Liberty: A History of the Early Republic, 1789–1815* (2009)
+
+## 04-jacksonian-america — Jacksonian America and westward expansion
+
+c. 1820–1848 · The United States
+
+- **Veto Message Regarding the Bank of the United States** — Andrew Jackson, 10 July 1832. Public domain. From A Compilation of the Messages and Papers of the Presidents, prepared under the direction of the Joint Committee on Printing (New York: Bureau of National Literature, 1897). Avalon Project, Yale Law School.
+- **Declaration of Sentiments** — Elizabeth Cady Stanton and the Seneca Falls Convention, 19–20 July 1848. Public domain. From Elizabeth Cady Stanton, Susan B. Anthony, and Matilda Joslyn Gage, History of Woman Suffrage, vol. 1 (Rochester, N.Y.: Fowler and Wells, 1889), pp. 70–71. Wikisource.
+- **Narrative of the Life of Frederick Douglass, an American Slave, Chapter X** — Frederick Douglass, 1845. Public domain. Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself (Boston: Anti-Slavery Office, 1845), Chapter X. Project Gutenberg eBook 23.
+- interpretation: Arthur M. Schlesinger Jr., *The Age of Jackson* (1945)
+- interpretation: Daniel Walker Howe, *What Hath God Wrought: The Transformation of America, 1815–1848* (2007)
+
+## 05-slavery-and-the-coming-of-war — Slavery and the coming of the Civil War
+
+c. 1820–1860 · The United States
+
+- **Narrative of the Life of Frederick Douglass, an American Slave (selections)** — Frederick Douglass, 1845. Public domain. Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself (Boston: Anti-Slavery Office, 1845). Text from Project Gutenberg eBook 23.
+- **The Fugitive Slave Act of 1850 (selections)** — Congress of the United States, September 18, 1850. Public domain. Fugitive Slave Act, 9 Stat. 462 (1850), sections 5–8. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.
+- **"A House Divided": Speech at Springfield (selections)** — Abraham Lincoln, June 16, 1858. Public domain. Abraham Lincoln, speech at Springfield, Illinois, June 16, 1858, accepting the Republican nomination for United States Senator. Text from the Collected Works of Abraham Lincoln, edited by Roy P. Basler, via the National Park Service.
+- interpretation: Eugene D. Genovese, *Roll, Jordan, Roll: The World the Slaves Made* (1974)
+- interpretation: James M. McPherson, *Battle Cry of Freedom: The Civil War Era* (1988)
+
+## 06-civil-war — The Civil War
+
+1861–1865 · The United States
+
+- **The Emancipation Proclamation** — Abraham Lincoln, January 1, 1863. Public domain. Emancipation Proclamation, January 1, 1863. The Avalon Project, Yale Law School.
+- **The Gettysburg Address** — Abraham Lincoln, November 19, 1863. Public domain. Gettysburg Address, November 19, 1863. The Avalon Project, Yale Law School.
+- **Corporal James Henry Gooding to President Lincoln** — James Henry Gooding, September 28, 1863. Public domain. Corporal James Henry Gooding to Abraham Lincoln, 28 Sept. 1863, Letters Received, series 360, Colored Troops Division, Adjutant General's Office, Record Group 94, National Archives. Transcribed by the Freedmen and Southern Society Project, University of Maryland.
+- interpretation: James M. McPherson, *Battle Cry of Freedom: The Civil War Era* (1988)
+- interpretation: Drew Gilpin Faust, *This Republic of Suffering: Death and the American Civil War* (2008)
+
+## 07-reconstruction — Reconstruction
+
+1865–1877 · The United States, especially the South
+
+- **Amendment XIV to the Constitution of the United States** — The Congress of the United States, Passed June 13, 1866; ratified July 9, 1868. Public domain. Transcript of the Fourteenth Amendment to the Constitution of the United States, passed by Congress June 13, 1866, ratified July 9, 1868. National Archives, Milestone Documents.
+- **The Civil Rights' Bell** — Robert Brown Elliott, January 6, 1874. Public domain. Robert Brown Elliott, 'The Civil Rights' Bell,' in Alice Moore Dunbar, ed., Masterpieces of Negro Eloquence (New York: The Bookery Publishing Company, 1914), pp. 67–77. Project Gutenberg eBook 22240.
+- **Revised and Amended Prescript of the Order of the * * *** — Order of the * * *, attributed to George Washington Gordon, 1868. Public domain. Revised and Amended Prescript of the Order of the * * * (1868), attributed to George Washington Gordon. Wikisource.
+- interpretation: Eric Foner, *Reconstruction: America's Unfinished Revolution, 1863–1877* (1988)
+- interpretation: David W. Blight, *Race and Reunion: The Civil War in American Memory* (2001)
+
+## 08-gilded-age — The Gilded Age and industrialization
+
+c. 1877–1900 · The United States
+
+- **Wealth (The Gospel of Wealth)** — Andrew Carnegie, June 1889. Public domain. Andrew Carnegie, 'Wealth,' North American Review 148, no. 391 (June 1889): 653–664. Text via Wikisource; also in the Internet Modern History Sourcebook, Fordham University.
+- **The Omaha Platform of the People's Party** — The People's Party (Populists), Omaha national convention, 4 July 1892. Public domain. People's Party, 'National People's Party Platform,' adopted at Omaha, 4 July 1892. Text via Wikisource; source: History Matters, George Mason University.
+- **Plessy v. Ferguson (majority opinion)** — Justice Henry Billings Brown, Supreme Court of the United States, 18 May 1896. Public domain. Plessy v. Ferguson, 163 U.S. 537 (1896). Opinion of the Court by Justice Henry Billings Brown. Text via Wikisource, United States Reports, Volume 163.
+- interpretation: Richard Hofstadter, *The Age of Reform: From Bryan to F.D.R.* (1955)
+- interpretation: C. Vann Woodward, *The Strange Career of Jim Crow* (1955)
+
+## 09-progressive-era — The Progressive Era
+
+c. 1890–1917 · The United States
+
+- **The Jungle (the killing beds)** — Upton Sinclair, 1906. Public domain. Upton Sinclair, The Jungle (New York: Doubleday, Page & Company, 1906), Chapter III. Project Gutenberg eBook 140.
+- **Twenty Years at Hull-House (immigrants and their children)** — Jane Addams, 1910. Public domain. Jane Addams, Twenty Years at Hull-House (New York: Macmillan, 1910), Chapter XI. Project Gutenberg eBook 1325.
+- **The Progressive Party Platform ('A Covenant with the People')** — The Progressive Party, national convention, Chicago, August 1912. Public domain. Progressive Party, 'A Covenant With the People,' platform adopted at Chicago, August 1912. Text via Wikisource.
+- interpretation: Robert H. Wiebe, *The Search for Order, 1877–1920* (1967)
+- interpretation: Nell Irvin Painter, *Standing at Armageddon: The United States, 1877–1919* (1987)
+
+## 10-empire-and-world-war — America as a world power
+
+c. 1898–1920 · The United States and the world
+
+- **Platform of the American Anti-Imperialist League** — The American Anti-Imperialist League, October 1899. Public domain. Platform of the American Anti-Imperialist League, adopted at the national conference, Chicago, October 1899. Text in Speeches, Correspondence and Political Papers of Carl Schurz, vol. 6, ed. Frederic Bancroft (New York: G. P. Putnam's Sons, 1913), p. 77, note 1. Internet Modern History Sourcebook, Fordham University.
+- **The Platt Amendment** — United States Congress, 2 March 1901. Public domain. Platt Amendment, an amendment to the Army Appropriations Act of 2 March 1901, 31 Stat. 895. Text via Wikisource, United States Statutes at Large. Public domain (U.S. government work).
+- **President Woodrow Wilson's Fourteen Points** — Woodrow Wilson, 8 January 1918. Public domain. Woodrow Wilson, address to a joint session of Congress, 8 January 1918. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain (U.S. government work).
+- interpretation: William Appleman Williams, *The Tragedy of American Diplomacy* (1959)
+- interpretation: John Milton Cooper Jr., *Breaking the Heart of the World: Woodrow Wilson and the Fight for the League of Nations* (2001)
+
+## 11-twenties-and-depression — The Twenties and the Great Depression
+
+c. 1920–1939 · The United States
+
+- **An Act to limit the immigration of aliens into the United States (The Immigration Act of 1924, or Johnson-Reed Act)** — The Congress of the United States, 26 May 1924. Public domain. Immigration Act of 1924, 43 Stat. 153, ch. 190 (68th Congress, 1st Session). Text from the United States Statutes at Large, Volume 43, U.S. Government Publishing Office (govinfo.gov).
+- **First Inaugural Address** — Franklin D. Roosevelt, 4 March 1933. Public domain. Franklin D. Roosevelt, First Inaugural Address, delivered on the East Portico of the United States Capitol, 4 March 1933. Text via Wikisource; the speech is a work of the United States federal government.
+- **The Social Security Act (selected provisions)** — The Congress of the United States, 14 August 1935. Public domain. Social Security Act, 49 Stat. 620, Pub. L. 74-271 (74th Congress, 1st Session, 1935). Text via Wikisource, Acts of the 74th United States Congress, Session 1, Chapter 531.
+- interpretation: Arthur M. Schlesinger Jr., *The Age of Roosevelt* (1957–1960)
+- interpretation: Ira Katznelson, *When Affirmative Action Was White: An Untold History of Racial Inequality in Twentieth-Century America* (2005)
+
+## 12-world-war-two — The Second World War
+
+c. 1941–1945 · The United States and the world
+
+- **The Atlantic Charter** — Franklin D. Roosevelt and Winston S. Churchill, 14 August 1941. Public domain. Joint declaration of the President of the United States and the Prime Minister of the United Kingdom, 14 August 1941. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.
+- **Executive Order 9066** — Franklin D. Roosevelt, President of the United States, 19 February 1942. Public domain (U.S. government work). Executive Order 9066, 19 February 1942; General Records of the United States Government, Record Group 11, National Archives. Text from the National Archives, Milestone Documents.
+- **Address to Congress Requesting a Declaration of War** — Franklin D. Roosevelt, President of the United States, 8 December 1941. Public domain (U.S. government work). Franklin D. Roosevelt, address to a joint session of Congress, Washington, D.C., 8 December 1941. Text from Wikisource, 'Pearl Harbor speech.' The speech is a work of the United States government and in the public domain.
+- interpretation: David M. Kennedy, *Freedom from Fear: The American People in Depression and War, 1929–1945* (1999)
+- interpretation: Richard B. Frank, *Downfall: The End of the Imperial Japanese Empire* (1999)
+
+## 13-cold-war-america — Cold War America and the affluent society
+
+c. 1945–1960 · The United States
+
+- **Address before a Joint Session of Congress (the Truman Doctrine)** — Harry S. Truman, President of the United States, 12 March 1947. Public domain. Harry S. Truman, address before a joint session of Congress, 12 March 1947. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.
+- **Brown v. Board of Education of Topeka: Opinion of the Court** — Chief Justice Earl Warren, Supreme Court of the United States, 17 May 1954. Public domain. Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), opinion of the Court by Chief Justice Earl Warren. Text via Wikisource, United States Reports, Volume 347.
+- **Farewell Address to the Nation (the military-industrial complex speech)** — Dwight D. Eisenhower, President of the United States, 17 January 1961. Public domain. Dwight D. Eisenhower, farewell address to the nation, 17 January 1961. Public Papers of the Presidents, Dwight D. Eisenhower, 1960, pp. 1035–1040. Text from the Avalon Project, Yale Law School.
+- interpretation: John Lewis Gaddis, *The Cold War: A New History* (2005)
+- interpretation: Elaine Tyler May, *Homeward Bound: American Families in the Cold War Era* (1988)
+
+## 14-civil-rights — The Civil Rights Movement
+
+c. 1954–1968 · The United States, especially the South
+
+- **Brown v. Board of Education of Topeka — Opinion of the Court** — The Supreme Court of the United States (Chief Justice Earl Warren), May 17, 1954. Public domain. Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), opinion of the Court delivered by Chief Justice Earl Warren. Wikisource.
+- **Civil Rights Act of 1964 (selected provisions)** — The Congress of the United States, Signed July 2, 1964. Public domain. Civil Rights Act of 1964, Pub. L. 88-352, 78 Stat. 241, enrolled act signed July 2, 1964. National Archives, Milestone Documents.
+- **Voting Rights Act of 1965 (selected provisions)** — The Congress of the United States, Signed August 6, 1965. Public domain. Voting Rights Act of 1965, Pub. L. 89-110, 79 Stat. 437, enrolled act signed August 6, 1965. National Archives, Milestone Documents.
+- interpretation: Taylor Branch, *Parting the Waters: America in the King Years, 1953–1963* (1988)
+- interpretation: Peniel E. Joseph, *Waiting 'Til the Midnight Hour: A Narrative History of Black Power in America* (2006)
+
+## 15-sixties-and-vietnam — The sixties, Vietnam, and upheaval
+
+c. 1960–1975 · The United States
+
+- **Remarks at the University of Michigan (the Great Society speech)** — Lyndon B. Johnson, 22 May 1964. Public domain. Lyndon B. Johnson, 'Remarks at the University of Michigan,' Ann Arbor, 22 May 1964, Public Papers of the Presidents of the United States: Lyndon B. Johnson, 1963–64, Book I. Text via the American Presidency Project.
+- **Gulf of Tonkin Resolution (H.J. Res. 1145)** — United States Congress, 7 August 1964 (approved 10 August 1964). Public domain. Joint Resolution of Congress, H.J. Res. 1145, 78 Stat. 384, approved 10 August 1964. Text via Wikisource, United States Statutes at Large.
+- **The Pentagon Papers on the Gulf of Tonkin** — United States Department of Defense, Completed 1967; published 1971. Public domain. United States – Vietnam Relations, 1945–1967: A Study Prepared by the Department of Defense (the Pentagon Papers), Part IV. C. 2. b. Declassified and published in 1971. Text via Wikisource.
+- interpretation: David Halberstam, *The Best and the Brightest* (1972)
+- interpretation: Rick Perlstein, *Nixonland: The Rise of a President and the Fracturing of America* (2008)
+
+## 16-conservative-turn — The conservative turn and after
+
+c. 1975 to the present · The United States
+
+- **Inaugural Address** — Ronald Reagan, President of the United States, 20 January 1981. Public domain. Ronald Reagan, Inaugural Address, 20 January 1981, Public Papers of the Presidents of the United States: Ronald Reagan, 1981 (Washington: Government Printing Office, 1982). Text from the Ronald Reagan Presidential Library and Museum, National Archives.
+- **USA PATRIOT Act (selected sections)** — The Congress of the United States, 26 October 2001. Public domain. Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism (USA PATRIOT ACT) Act of 2001, Pub. L. 107-56, 115 Stat. 272, 26 October 2001. Sections 1, 102, 213, 215, and 802. Text from the U.S. Government Publishing Office.
+- **Address to a Joint Session of Congress and the American People** — George W. Bush, President of the United States, 20 September 2001. Public domain. George W. Bush, Address to a Joint Session of Congress and the American People, 20 September 2001, Public Papers of the Presidents of the United States: George W. Bush, 2001, Book II (Washington: Government Printing Office, 2002). Text from the George W. Bush White House archives, National Archives.
+- interpretation: Rick Perlstein, *The Invisible Bridge: The Fall of Nixon and the Rise of Reagan* (2014)
+- interpretation: Sean Wilentz, *The Age of Reagan: A History, 1974–2008* (2008)
+
 ## 01-sentence-structure — The sentence: subject and predicate
 
 English grammar

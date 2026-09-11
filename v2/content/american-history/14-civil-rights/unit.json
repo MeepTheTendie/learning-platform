@@ -1,0 +1,209 @@
+{
+  "id": "14-civil-rights",
+  "title": "The Civil Rights Movement",
+  "period": "c. 1954–1968",
+  "region": "The United States, especially the South",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "brown-board",
+      "title": "Brown v. Board of Education of Topeka — Opinion of the Court",
+      "author": "The Supreme Court of the United States (Chief Justice Earl Warren)",
+      "date": "May 17, 1954",
+      "citation": "Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), opinion of the Court delivered by Chief Justice Earl Warren. Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Brown_v._Board_of_Education_of_Topeka_(347_U.S._483)/Opinion_of_the_Court",
+      "file": "sources/brown-board.md",
+      "context": "The unanimous opinion that overturned Plessy v. Ferguson in public education. Warren called the history of the Fourteenth Amendment 'at best, inconclusive' and rested the ruling on the place of public education in American life and on the effects of segregation on children.",
+      "questions": [
+        "Warren calls the history of the Fourteenth Amendment 'at best, inconclusive.' What does he use instead to decide the case?",
+        "The Court orders further argument on the remedy rather than setting a timetable. What does that delay make possible?",
+        "The opinion quotes a lower court's finding about the psychological effects of segregation. What kind of evidence is that, and how much weight should it carry?",
+        "Who is the 'child' the opinion describes, and what does it assume about a state's duty once it provides public schools?"
+      ]
+    },
+    {
+      "id": "civil-rights-act-1964",
+      "title": "Civil Rights Act of 1964 (selected provisions)",
+      "author": "The Congress of the United States",
+      "date": "Signed July 2, 1964",
+      "citation": "Civil Rights Act of 1964, Pub. L. 88-352, 78 Stat. 241, enrolled act signed July 2, 1964. National Archives, Milestone Documents.",
+      "license": "Public domain",
+      "url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+      "file": "sources/civil-rights-act-1964.md",
+      "context": "The most sweeping civil rights statute since Reconstruction. Title II opened places of public accommodation, Title VI conditioned federal funds on nondiscrimination, and Title VII barred discrimination in hiring and pay and created the Equal Employment Opportunity Commission.",
+      "questions": [
+        "Title II rests on the commerce power and on state action. Why does the act need those hooks rather than simply forbidding discrimination?",
+        "Section 201(b) lists which establishments are covered. Who is left out, and what does the list show about the limits of the law?",
+        "Title VII names 'sex' as well as race. How did that word get into the bill, and what does its presence change?",
+        "The act reaches discrimination by covered establishments. Does it reach housing or private clubs? Where does it draw the line?"
+      ]
+    },
+    {
+      "id": "voting-rights-act-1965",
+      "title": "Voting Rights Act of 1965 (selected provisions)",
+      "author": "The Congress of the United States",
+      "date": "Signed August 6, 1965",
+      "citation": "Voting Rights Act of 1965, Pub. L. 89-110, 79 Stat. 437, enrolled act signed August 6, 1965. National Archives, Milestone Documents.",
+      "license": "Public domain",
+      "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+      "file": "sources/voting-rights-act-1965.md",
+      "context": "The act that finally enforced the Fifteenth Amendment, ninety-five years after its ratification. It suspended literacy tests in covered jurisdictions, provided for federal examiners to register voters, and required covered places to obtain 'preclearance' before changing any voting rule.",
+      "questions": [
+        "Section 4(b) covers a jurisdiction by a formula rather than by naming it. What are the two conditions, and what does a formula let Congress claim?",
+        "Section 5 requires 'preclearance.' Who decides whether a new voting rule may take effect, and what must be shown?",
+        "Congress says the poll tax 'precludes persons of limited means from voting.' Why frame a voting rule as an economic barrier rather than only a racial one?",
+        "The act suspends 'tests or devices' in covered places but not everywhere. What does that selective reach assume about where the problem lies?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "branch-king-years",
+      "historian": "Taylor Branch",
+      "work": "Parting the Waters: America in the King Years, 1953–1963",
+      "year": "1988",
+      "claim": "Branch reads the years around Martin Luther King Jr. as a moral and political drama in which the black church and local protest were carried onto the national stage. For Branch the movement's force came from the meeting of religious faith, grassroots courage, and federal politics, and King is the hinge on which the story turns.",
+      "note": "Critics reply that this frame overstates a single leader and the national stage. Aldon D. Morris (The Origins of the Civil Rights Movement, 1984) and Charles M. Payne (I've Got the Light of Freedom, 1995) locate the engine in local institutions and in thousands of organizers, many of them women, whose work preceded and outlasted King's campaigns."
+    },
+    {
+      "id": "joseph-black-power",
+      "historian": "Peniel E. Joseph",
+      "work": "Waiting 'Til the Midnight Hour: A Narrative History of Black Power in America",
+      "year": "2006",
+      "claim": "Joseph argues that Black Power was not a rejection of the civil rights movement but its radical continuation. In his account the slogan belonged to a longer international tradition of black self-determination and to local organizing, and it has been caricatured as mere separatism by those who tell the story as a fall from integration.",
+      "note": "Other historians treat the mid-1960s as a sharper break, pointing to SNCC's and CORE's turn from nonviolence and integration and to the movement's real fragmentation. Jacquelyn Dowd Hall ('The Long Civil Rights Movement and the Political Uses of the Past,' 2005) argues that the 1954–65 frame narrows the struggle by confining it to the South and to legal rights."
+    }
+  ],
+  "activities": [
+    {
+      "id": "brown-holding",
+      "type": "choice",
+      "prompt": "In Brown v. Board of Education (1954), the Supreme Court held that…",
+      "choices": [
+        "Segregation of children in public schools solely by race denies the equal protection of the laws",
+        "States may segregate schools if the buildings and teachers are equal",
+        "The Fourteenth Amendment does not apply to public schools",
+        "Desegregation must be completed within one year"
+      ],
+      "answer": 0,
+      "feedback": "The Court found that separate educational facilities are inherently unequal and rejected the 'separate but equal' rule of Plessy v. Ferguson in public education."
+    },
+    {
+      "id": "emmett-till",
+      "type": "choice",
+      "prompt": "Why did the murder of Emmett Till in 1955 become a turning point?",
+      "choices": [
+        "His mother held an open-casket funeral and the acquittal of his accused killers was widely reported",
+        "It led to the immediate passage of a federal anti-lynching law",
+        "It ended the Montgomery bus boycott",
+        "It persuaded the Supreme Court to hear Brown v. Board of Education"
+      ],
+      "answer": 0,
+      "feedback": "Mamie Till-Mobley's decision to display her son's body, and the all-white jury's acquittal of Roy Bryant and J. W. Milam, brought the violence of the Delta into national view."
+    },
+    {
+      "id": "montgomery-boycott",
+      "type": "choice",
+      "prompt": "What did the Montgomery bus boycott achieve?",
+      "choices": [
+        "A federal court ruling that bus segregation was unconstitutional",
+        "A federal anti-lynching statute",
+        "The desegregation of Little Rock Central High School",
+        "The founding of the NAACP"
+      ],
+      "answer": 0,
+      "feedback": "After 381 days, Browder v. Gayle (1956) struck down Alabama's bus segregation laws, and the boycott ended on 20 December 1956."
+    },
+    {
+      "id": "little-rock",
+      "type": "choice",
+      "prompt": "When Governor Orval Faubus used the National Guard to block nine black students from Central High School in 1957, President Eisenhower…",
+      "choices": [
+        "Federalized the Guard and sent army troops to escort the students",
+        "Ordered the students to stay home for their own safety",
+        "Left the matter entirely to the state of Arkansas",
+        "Closed the school rather than integrate it"
+      ],
+      "answer": 0,
+      "feedback": "Eisenhower federalized the Arkansas National Guard on 24 September 1957 and sent about a thousand paratroopers of the 101st Airborne Division to Little Rock."
+    },
+    {
+      "id": "greensboro-sit-in",
+      "type": "choice",
+      "prompt": "The Greensboro sit-in of February 1960 began when…",
+      "choices": [
+        "Four black college students sat down at a segregated Woolworth's lunch counter",
+        "A federal court ordered lunch counters desegregated",
+        "SNCC was founded in Raleigh, North Carolina",
+        "Martin Luther King Jr. led a march on Washington"
+      ],
+      "answer": 0,
+      "feedback": "The four freshmen from North Carolina A&T — Ezell Blair Jr., David Richmond, Franklin McCain, and Joseph McNeil — started a protest that spread to more than fifty cities within weeks."
+    },
+    {
+      "id": "freedom-rides",
+      "type": "choice",
+      "prompt": "The Freedom Rides of 1961 set out to test…",
+      "choices": [
+        "A Supreme Court ruling against segregation in interstate bus travel",
+        "The constitutionality of the poll tax",
+        "School desegregation in Prince Edward County",
+        "The Fair Housing Act"
+      ],
+      "answer": 0,
+      "feedback": "CORE's riders traveled from Washington, D.C., into the Deep South to test Boynton v. Virginia (1960); attacks in Anniston, Birmingham, and Montgomery pushed the Kennedy administration to petition the Interstate Commerce Commission, which banned segregation in interstate terminals."
+    },
+    {
+      "id": "title-seven",
+      "type": "choice",
+      "prompt": "Title VII of the Civil Rights Act of 1964 made it unlawful to discriminate in employment on the basis of…",
+      "choices": [
+        "Race, color, religion, sex, or national origin",
+        "Race only",
+        "Race, color, and national origin only",
+        "Political party affiliation"
+      ],
+      "answer": 0,
+      "feedback": "Title VII covered race, color, religion, sex, and national origin, and created the Equal Employment Opportunity Commission. The word 'sex' was added by an amendment in the House."
+    },
+    {
+      "id": "section-five",
+      "type": "choice",
+      "prompt": "What did Section 5 of the Voting Rights Act of 1965 require?",
+      "choices": [
+        "Covered jurisdictions to obtain federal approval before changing voting laws",
+        "All states to abolish the poll tax within one year",
+        "The President to appoint a federal registrar in every county",
+        "States to submit all election results to Congress"
+      ],
+      "answer": 0,
+      "feedback": "Section 5 required 'preclearance': a covered state or county had to show that a new voting rule had neither the purpose nor the effect of denying the vote on account of race or color."
+    },
+    {
+      "id": "black-power",
+      "type": "choice",
+      "prompt": "The slogan 'Black Power' entered national politics in June 1966 when…",
+      "choices": [
+        "Stokely Carmichael used it during the March Against Fear in Mississippi",
+        "Malcolm X founded the Organization of Afro-American Unity",
+        "The Black Panther Party was founded in Oakland",
+        "Martin Luther King Jr. marched in Chicago"
+      ],
+      "answer": 0,
+      "feedback": "Carmichael, then chairman of SNCC, called for Black Power after James Meredith was shot during his one-man march through Mississippi; the phrase quickly became the center of a bitter debate within the movement."
+    },
+    {
+      "id": "two-claims",
+      "type": "short-answer",
+      "prompt": "Brown and the Southern Manifesto disagree about who has the authority to say what the Constitution means. Compare what each text assumes about the source of that authority and about the role of the courts.",
+      "context": "Brown (1954): 'We conclude that, in the field of public education, the doctrine of \"separate but equal\" has no place. Separate educational facilities are inherently unequal.' Southern Manifesto (1956): 'We regard the decisions of the Supreme Court in the school cases as a clear abuse of judicial power. … We pledge ourselves to use all lawful means to bring about a reversal of this decision which is contrary to the Constitution.'",
+      "rubric": [
+        "refers to both texts",
+        "states what each assumes about who decides constitutional meaning",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}
