@@ -42,10 +42,53 @@ li.done>a{color:var(--ok)}
 footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);margin-top:44px;padding-top:16px}
 `;
 
+const syncScript = `
+(function(){
+  var KEY='sourcebook-state', AUTH_KEY='sourcebook-key';
+  function read(){try{return JSON.parse(localStorage.getItem(KEY))||{complete:{}}}catch(e){return{complete:{}}}}
+  function write(s){try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
+  var state=read(), busy=false;
+  var paired=(function(){var m=location.hash.match(/^#sync=([a-f0-9]{64})$/i);if(m){try{localStorage.setItem(AUTH_KEY,m[1])}catch(e){}history.replaceState(null,'',location.pathname+location.search);return m[1];}try{return localStorage.getItem(AUTH_KEY)||''}catch(e){return''}})();
+  function equal(a,b){return JSON.stringify(a)===JSON.stringify(b)}
+  function merge(a,b){var c={complete:{}};var x=(a&&a.complete)||{}, y=(b&&b.complete)||{};for(var k in x)c.complete[k]=x[k];for(var k2 in y)c.complete[k2]=y[k2];return c}
+  function changed(){window.dispatchEvent(new CustomEvent('sourcebook:changed'))}
+  function status(t){var el=document.getElementById('sync-status');if(el)el.textContent=t}
+  function sync(){
+    if(busy)return; busy=true;
+    var headers={}; if(paired)headers.Authorization='Bearer '+paired;
+    fetch('/api/progress',{headers:headers,cache:'no-store'}).then(function(res){
+      if(res.status===401||res.status===403){status(paired?'Sign in again to sync':'Local only — not paired');busy=false;return null}
+      if(!res.ok)throw new Error('offline');
+      return res.json();
+    }).then(function(remote){
+      if(!remote)return;
+      var merged=merge(state,remote.state);
+      state=merged; write(state); changed();
+      if(!remote.state||!equal(merged,remote.state)){
+        return fetch('/api/progress',{method:'PUT',headers:Object.assign({},headers,{'Content-Type':'application/json'}),body:JSON.stringify({revision:remote.revision,state:merged,syncId:crypto.randomUUID()})}).then(function(put){
+          if(put.status===409){busy=false;status('Retrying…');setTimeout(sync,700);return;}
+          if(!put.ok)throw new Error('offline');
+          return put.json();
+        });
+      }
+    }).then(function(){status(paired?'Saved to cloud':'Local only — not paired')}).catch(function(){status('Saved on this device')}).then(function(){busy=false});
+  }
+  window.SourcebookSync={
+    isComplete:function(id){return !!(state.complete&&state.complete[id])},
+    toggle:function(id){state.complete=state.complete||{};if(state.complete[id])delete state.complete[id];else state.complete[id]=true;write(state);changed();status('Saving…');sync()},
+    sync:sync, changed:changed
+  };
+  addEventListener('online',sync);
+  addEventListener('focus',sync);
+  addEventListener('storage',function(e){if(e.key===KEY){state=read();changed()}});
+  sync();
+})();
+`;
+
 const layout = (title: string, body: string, script = '') => `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title><style>${style}</style></head>
-<body><div class="shell">${body}</div>${script ? `<script>${script}</script>` : ''}</body></html>`;
+<body><div class="shell">${body}</div><script>${syncScript}</script>${script ? `<script>${script}</script>` : ''}</body></html>`;
 
 function renderUnit(subject: string, dir: string, unit: Unit): string {
   const spineHtml = marked.parse(fs.readFileSync(path.join(dir, unit.spine), 'utf8')) as string;
@@ -89,13 +132,13 @@ document.querySelectorAll('[data-kind="response"]').forEach(box=>{
     box.querySelector('.rubric').classList.add('show');
   });
 });
-const ck='sourcebook-complete';
-const rc=()=>{try{return JSON.parse(localStorage.getItem(ck))||{}}catch{return{}}};
-const paint=btn=>{const d=rc()[btn.dataset.complete]===true;btn.textContent=d?'✓ Unit complete':'Mark unit complete';btn.classList.toggle('done',d);};
-document.querySelectorAll('[data-complete]').forEach(btn=>{btn.addEventListener('click',()=>{const v=rc();v[btn.dataset.complete]=!v[btn.dataset.complete];localStorage.setItem(ck,JSON.stringify(v));paint(btn);});paint(btn);});`;
+const btn=document.querySelector('[data-complete]');
+const paint=()=>{const d=SourcebookSync.isComplete(btn.dataset.complete);btn.textContent=d?'✓ Unit complete':'Mark unit complete';btn.classList.toggle('done',d);};
+btn.addEventListener('click',()=>SourcebookSync.toggle(btn.dataset.complete));
+addEventListener('sourcebook:changed',paint);paint();`;
 
   const meta = [unit.period, unit.region].filter(Boolean).map(esc).join(' · ');
-  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button></div><footer>Primary sources only. Nothing here is modern commentary.</footer>`;
+  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button></div><footer>Primary sources only. Nothing here is modern commentary. <span id="sync-status" class="meta"></span></footer>`;
   const out = path.join(outDir, subject, `${unit.id}.html`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, layout(`${unit.title} — Sources`, body, script));
@@ -117,6 +160,6 @@ for (const subject of subjects) {
   }
   lists.push(`<h2>${esc(subject.split('-').map(word => word[0].toUpperCase() + word.slice(1)).join(' '))}</h2><ul>${entries.join('')}</ul>`);
 }
-const indexScript = `const ck='sourcebook-complete';const rc=()=>{try{return JSON.parse(localStorage.getItem(ck))||{}}catch{return{}}};const c=rc();document.querySelectorAll('[data-unit]').forEach(li=>{if(c[li.dataset.unit]===true){li.classList.add('done');const a=li.querySelector('a');if(a)a.insertAdjacentHTML('afterbegin','✓ ');}});`;
-fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">Taught from the period's own documents.</p>${lists.join('')}`, indexScript));
+const indexScript = `const mark=()=>document.querySelectorAll('[data-unit]').forEach(li=>{const done=SourcebookSync.isComplete(li.dataset.unit);li.classList.toggle('done',done);const a=li.querySelector('a');if(a)a.textContent=(done?'✓ ':'')+a.dataset.title;});document.querySelectorAll('[data-unit] a').forEach(a=>{a.dataset.title=a.textContent});addEventListener('sourcebook:changed',mark);mark();`;
+fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">Taught from the period's own documents. <span id="sync-status"></span></p>${lists.join('')}`, indexScript));
 console.log('Rendered to dist/.');
