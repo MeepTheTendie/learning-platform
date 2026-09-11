@@ -67,7 +67,7 @@ Not every cell is equally common or equally easy. The perfect progressive passiv
 - **1762** — Robert Lowth's *A Short Introduction to English Grammar* sets out the "Indefinite" and "Definite" times of the verb and the rule for *shall* and *will*.
 - **1795** — Lindley Murray's *English Grammar* classifies six tenses and explains the present perfect against the imperfect.
 - **1818** — William Cobbett's *A Grammar of the English Language* argues that English has only three times and that the extra distinctions "only tend to bewilder."
-- **1892–1898** — Henry Sweet's *A New English Grammar* distinguishes the "indefinite" tenses from the "definite" (progressive) forms and describes their aspectual meaning.
+- **1891–1898** — Henry Sweet's *A New English Grammar* distinguishes the "indefinite" tenses from the "definite" (progressive) forms and describes their aspectual meaning.
 - **1909–1949** — Otto Jespersen's *A Modern English Grammar on Historical Principles* treats tense and aspect historically; his *The Philosophy of Grammar* (1924) argues that English has only two tenses.
 - **1926** — H. W. Fowler's *A Dictionary of Modern English Usage* comments on *shall* and *will*, on the perfect, and on disputed points of idiom.
 - **1985** — Quirk, Greenbaum, Leech and Svartvik, *A Comprehensive Grammar of the English Language*, describe tense and aspect in English and retain a future-tense category.

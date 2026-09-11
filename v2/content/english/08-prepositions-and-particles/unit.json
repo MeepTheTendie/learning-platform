@@ -4,7 +4,32 @@
   "period": "English grammar",
   "region": "",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/jespersen-portrait.jpg",
+      "caption": "Otto Jespersen (1860-1943), Danish linguist who described the stranded preposition as an inherited Germanic pattern rather than a fault.",
+      "credit": "Laurberg & Gad",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Otto_Jespersen_1919_21.jpg"
+    },
+    {
+      "id": "lowth-engraving",
+      "file": "assets/lowth-engraving.jpg",
+      "caption": "Robert Lowth (1710-1787), Bishop of London, who recorded that English is 'strongly inclined' to place a preposition after its object.",
+      "credit": "After Robert Edge Pine",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Lowth,_after_RE_Pine.jpg"
+    },
+    {
+      "id": "fowler-modern-english-usage",
+      "file": "assets/fowler-modern-english-usage.jpg",
+      "caption": "H. W. Fowler's A Dictionary of Modern English Usage (1926), which called the ban on a final preposition a 'modern superstition'.",
+      "credit": "JohnArmagh",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:FowlersModernEnglishUsage.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-prepositions",

@@ -4,7 +4,32 @@
   "period": "c. 1945 to the present",
   "region": "The world",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/cold-war-europe-1959.jpg",
+      "caption": "Map of the division of Europe into the Eastern and Western blocs in 1959, showing NATO and Warsaw Pact states.",
+      "credit": "Pawelgil",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mapa_podzia%C5%82u_Europy_na_blok_wschodni_i_zachodni_w_1959.jpg"
+    },
+    {
+      "id": "berlin-wall-1961",
+      "file": "assets/berlin-wall-1961.jpg",
+      "caption": "East German construction workers building the Berlin Wall in November 1961.",
+      "credit": "National Archives",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_Wall_1961-11-20.jpg"
+    },
+    {
+      "id": "cuba-missile-map-1962",
+      "file": "assets/cuba-missile-map-1962.jpg",
+      "caption": "American intelligence map of surface-to-air missile activity in Cuba, 5 September 1962.",
+      "credit": "Central Intelligence Agency",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1962_Cuba_Missiles_(30848755396).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "truman-doctrine",

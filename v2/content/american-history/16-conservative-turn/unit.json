@@ -4,7 +4,32 @@
   "period": "c. 1975 to the present",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/election-1980.jpg",
+      "caption": "The electoral college map of the 1980 presidential election, in which Ronald Reagan defeated Jimmy Carter in a landslide.",
+      "credit": "SteveSims~commonswiki",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:ElectoralCollege1980.svg"
+    },
+    {
+      "id": "inf-treaty",
+      "file": "assets/inf-treaty.jpg",
+      "caption": "President Ronald Reagan and Soviet leader Mikhail Gorbachev sign the Intermediate-Range Nuclear Forces Treaty at the White House on 8 December 1987.",
+      "credit": "White House Photographic Office",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Gorbachev_signing_(cropped).jpg"
+    },
+    {
+      "id": "berlin-wall",
+      "file": "assets/berlin-wall.jpg",
+      "caption": "Berliners gather at the Berlin Wall in November 1989, the month the barrier was opened and the Cold War division of Europe began to end.",
+      "credit": "Raphaël Thiémard",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Berlin_1989,_Fall_der_Mauer,_Chute_du_mur_01.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "reagan-inaugural",

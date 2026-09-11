@@ -4,7 +4,32 @@
   "period": "c. 1920–1939",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/migrant-mother.jpg",
+      "caption": "Dorothea Lange's 1936 photograph of Florence Owens Thompson and her children at a pea-pickers' camp in Nipomo, California, became the emblem of the Great Depression.",
+      "credit": "Dorothea Lange",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Lange-MigrantMother02.jpg"
+    },
+    {
+      "id": "dust-bowl",
+      "file": "assets/dust-bowl.jpg",
+      "caption": "A dust storm approaches a farm on the Texas Panhandle, photographed by Arthur Rothstein for the Farm Security Administration.",
+      "credit": "Arthur Rothstein",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Dust_bowl,_Texas_Panhandle,_TX_fsa.8b27276_edit.jpg"
+    },
+    {
+      "id": "prohibition",
+      "file": "assets/prohibition.jpg",
+      "caption": "New York City police pour seized liquor into a sewer during Prohibition, under the eye of Deputy Police Commissioner John A. Leach.",
+      "credit": "Library of Congress",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:5_Prohibition_Disposal(9).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "johnson-reed-act",

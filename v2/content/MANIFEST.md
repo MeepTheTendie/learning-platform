@@ -9,6 +9,9 @@ c. 1607–1763 · British North America
 - **The Mayflower Compact, with William Bradford's account** — The settlers at New Plymouth; William Bradford, 11 November 1620. Public domain. Agreement Between the Settlers at New Plymouth (1620), in Francis Newton Thorpe, ed., The Federal and State Constitutions, Colonial Charters, and Other Organic Laws, vol. 3 (Washington: Government Printing Office, 1909); and William Bradford, Bradford's History of the Plymouth Settlement, 1608-1650, ed. Harold Paget (New York: E. P. Dutton, 1909). The Avalon Project, Yale Law School, and Project Gutenberg eBook 69871.
 - **A Model of Christian Charity (excerpts)** — John Winthrop, 1630. Public domain. John Winthrop, 'A Modell of Christian Charity' (1630), in Collections of the Massachusetts Historical Society, 3rd series, vol. 7 (Boston, 1838), pp. 31-48. Hanover Historical Texts Collection.
 - **The Generall Historie of Virginia (excerpts)** — John Smith, 1624. Public domain. John Smith, The Generall Historie of Virginia, New-England, and the Summer Isles (1624), reprinted in The Travels of Captaine John Smith, vol. 1 (Glasgow: James MacLehose and Sons, 1907). Project Gutenberg eBook 56347.
+- image: assets/mitchell-map.jpg — John Mitchell (Public domain)
+- image: assets/join-or-die.jpg — Benjamin Franklin (Public domain)
+- image: assets/mayflower-compact.jpg — Jean Leon Gerome Ferris (Public domain)
 - interpretation: Edmund S. Morgan, *American Slavery, American Freedom: The Ordeal of Colonial Virginia* (1975)
 - interpretation: Perry Miller, *The New England Mind: The Seventeenth Century* (1939)
 
@@ -19,6 +22,9 @@ c. 1763–1789 · British North America and the United States
 - **The Declaration of Independence** — Thomas Jefferson and the Continental Congress, July 4, 1776. Public domain. Documents Illustrative of the Formation of the Union of the American States, selected and arranged by Charles C. Tansill (Washington: Government Printing Office, 1927), House Document No. 398. Avalon Project, Yale Law School.
 - **The Constitution of the United States (selected)** — The Federal Convention, September 17, 1787 (Bill of Rights ratified 1791). Public domain. The Constitution of the United States, in Documents Illustrative of the Formation of the Union of the American States, ed. Charles C. Tansill (Washington: Government Printing Office, 1927). Avalon Project, Yale Law School.
 - **Federalist No. 10** — James Madison, writing as Publius, November 23, 1787. Public domain. The Federalist Papers, No. 10, New York Packet, 23 November 1787. Avalon Project, Yale Law School.
+- image: assets/treaty-paris-1783-map.jpg — John Cary (Public domain)
+- image: assets/declaration-of-independence.jpg — John Trumbull (Public domain)
+- image: assets/constitution-page-1.jpg — Constitutional Convention (Public domain)
 - interpretation: Charles A. Beard, *An Economic Interpretation of the Constitution of the United States* (1913)
 - interpretation: Bernard Bailyn, *The Ideological Origins of the American Revolution* (1967)
 
@@ -29,6 +35,9 @@ c. 1789–1820 · The United States
 - **Washington's Farewell Address** — George Washington, 19 September 1796. Public domain. George Washington, Farewell Address, published in the American Daily Advertiser (Philadelphia), 19 September 1796. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
 - **The Kentucky and Virginia Resolutions** — Thomas Jefferson and James Madison, for the legislatures of Kentucky and Virginia, 1798. Public domain. The Kentucky Resolutions of 1798, drafted by Thomas Jefferson, from Jonathan Elliot, ed., The Debates in the Several State Conventions on the Adoption of the Federal Constitution, via Wikisource; the Virginia Resolutions of 1798, drafted by James Madison, from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
 - **Marbury v. Madison** — John Marshall, Chief Justice of the United States, 1803. Public domain. Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803), opinion of the Court by Chief Justice John Marshall. Text from the Legal Information Institute, Cornell Law School. Public domain (U.S. government work).
+- image: assets/louisiana-purchase-map.jpg — BioKnowlogy (Public domain)
+- image: assets/george-washington.jpg — Gilbert Stuart (Public domain)
+- image: assets/battle-of-new-orleans.jpg — Dennis Malone Carter (Public domain)
 - interpretation: Joseph J. Ellis, *Founding Brothers: The Revolutionary Generation* (2000)
 - interpretation: Gordon S. Wood, *Empire of Liberty: A History of the Early Republic, 1789–1815* (2009)
 
@@ -39,6 +48,9 @@ c. 1820–1848 · The United States
 - **Veto Message Regarding the Bank of the United States** — Andrew Jackson, 10 July 1832. Public domain. From A Compilation of the Messages and Papers of the Presidents, prepared under the direction of the Joint Committee on Printing (New York: Bureau of National Literature, 1897). Avalon Project, Yale Law School.
 - **Declaration of Sentiments** — Elizabeth Cady Stanton and the Seneca Falls Convention, 19–20 July 1848. Public domain. From Elizabeth Cady Stanton, Susan B. Anthony, and Matilda Joslyn Gage, History of Woman Suffrage, vol. 1 (Rochester, N.Y.: Fowler and Wells, 1889), pp. 70–71. Wikisource.
 - **Narrative of the Life of Frederick Douglass, an American Slave, Chapter X** — Frederick Douglass, 1845. Public domain. Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself (Boston: Anti-Slavery Office, 1845), Chapter X. Project Gutenberg eBook 23.
+- image: assets/trail-of-tears-map.jpg — Nikater (Public domain)
+- image: assets/american-progress.jpg — John Gast (Public domain)
+- image: assets/andrew-jackson.jpg — Thomas Sully (Public domain)
 - interpretation: Arthur M. Schlesinger Jr., *The Age of Jackson* (1945)
 - interpretation: Daniel Walker Howe, *What Hath God Wrought: The Transformation of America, 1815–1848* (2007)
 
@@ -49,6 +61,9 @@ c. 1820–1860 · The United States
 - **Narrative of the Life of Frederick Douglass, an American Slave (selections)** — Frederick Douglass, 1845. Public domain. Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave. Written by Himself (Boston: Anti-Slavery Office, 1845). Text from Project Gutenberg eBook 23.
 - **The Fugitive Slave Act of 1850 (selections)** — Congress of the United States, September 18, 1850. Public domain. Fugitive Slave Act, 9 Stat. 462 (1850), sections 5–8. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.
 - **"A House Divided": Speech at Springfield (selections)** — Abraham Lincoln, June 16, 1858. Public domain. Abraham Lincoln, speech at Springfield, Illinois, June 16, 1858, accepting the Republican nomination for United States Senator. Text from the Collected Works of Abraham Lincoln, edited by Roy P. Basler, via the National Park Service.
+- image: assets/free-and-slave-states-map.jpg — Norman B. Leventhal Map Center at the Boston Public Library (Public domain)
+- image: assets/frederick-douglass.jpg — Library of Congress (Public domain)
+- image: assets/uncle-toms-cabin.jpg — Harriet Beecher Stowe (Public domain)
 - interpretation: Eugene D. Genovese, *Roll, Jordan, Roll: The World the Slaves Made* (1974)
 - interpretation: James M. McPherson, *Battle Cry of Freedom: The Civil War Era* (1988)
 
@@ -59,6 +74,9 @@ c. 1820–1860 · The United States
 - **The Emancipation Proclamation** — Abraham Lincoln, January 1, 1863. Public domain. Emancipation Proclamation, January 1, 1863. The Avalon Project, Yale Law School.
 - **The Gettysburg Address** — Abraham Lincoln, November 19, 1863. Public domain. Gettysburg Address, November 19, 1863. The Avalon Project, Yale Law School.
 - **Corporal James Henry Gooding to President Lincoln** — James Henry Gooding, September 28, 1863. Public domain. Corporal James Henry Gooding to Abraham Lincoln, 28 Sept. 1863, Letters Received, series 360, Colored Troops Division, Adjutant General's Office, Record Group 94, National Archives. Transcribed by the Freedmen and Southern Society Project, University of Maryland.
+- image: assets/civil-war-map.jpg — M. W. Tooker (Public domain)
+- image: assets/abraham-lincoln-1863.jpg — Alexander Gardner (Public domain)
+- image: assets/antietam-confederate-dead.jpg — Alexander Gardner (CC0)
 - interpretation: James M. McPherson, *Battle Cry of Freedom: The Civil War Era* (1988)
 - interpretation: Drew Gilpin Faust, *This Republic of Suffering: Death and the American Civil War* (2008)
 
@@ -69,6 +87,9 @@ c. 1820–1860 · The United States
 - **Amendment XIV to the Constitution of the United States** — The Congress of the United States, Passed June 13, 1866; ratified July 9, 1868. Public domain. Transcript of the Fourteenth Amendment to the Constitution of the United States, passed by Congress June 13, 1866, ratified July 9, 1868. National Archives, Milestone Documents.
 - **The Civil Rights' Bell** — Robert Brown Elliott, January 6, 1874. Public domain. Robert Brown Elliott, 'The Civil Rights' Bell,' in Alice Moore Dunbar, ed., Masterpieces of Negro Eloquence (New York: The Bookery Publishing Company, 1914), pp. 67–77. Project Gutenberg eBook 22240.
 - **Revised and Amended Prescript of the Order of the * * *** — Order of the * * *, attributed to George Washington Gordon, 1868. Public domain. Revised and Amended Prescript of the Order of the * * * (1868), attributed to George Washington Gordon. Wikisource.
+- image: assets/united-states-1867-map.jpg — Golbez (CC BY 2.5)
+- image: assets/first-black-senators.jpg — Currier and Ives (Public domain)
+- image: assets/freedmens-bureau-school.jpg — James E. Taylor (Public domain)
 - interpretation: Eric Foner, *Reconstruction: America's Unfinished Revolution, 1863–1877* (1988)
 - interpretation: David W. Blight, *Race and Reunion: The Civil War in American Memory* (2001)
 
@@ -79,6 +100,9 @@ c. 1877–1900 · The United States
 - **Wealth (The Gospel of Wealth)** — Andrew Carnegie, June 1889. Public domain. Andrew Carnegie, 'Wealth,' North American Review 148, no. 391 (June 1889): 653–664. Text via Wikisource; also in the Internet Modern History Sourcebook, Fordham University.
 - **The Omaha Platform of the People's Party** — The People's Party (Populists), Omaha national convention, 4 July 1892. Public domain. People's Party, 'National People's Party Platform,' adopted at Omaha, 4 July 1892. Text via Wikisource; source: History Matters, George Mason University.
 - **Plessy v. Ferguson (majority opinion)** — Justice Henry Billings Brown, Supreme Court of the United States, 18 May 1896. Public domain. Plessy v. Ferguson, 163 U.S. 537 (1896). Opinion of the Court by Justice Henry Billings Brown. Text via Wikisource, United States Reports, Volume 163.
+- image: assets/railroad-map-1890.jpg — Henry Gannett (Public domain)
+- image: assets/bandits-roost.jpg — Jacob Riis (Public domain)
+- image: assets/andrew-carnegie.jpg — Theodore C. Marceau (Public domain)
 - interpretation: Richard Hofstadter, *The Age of Reform: From Bryan to F.D.R.* (1955)
 - interpretation: C. Vann Woodward, *The Strange Career of Jim Crow* (1955)
 
@@ -89,6 +113,9 @@ c. 1890–1917 · The United States
 - **The Jungle (the killing beds)** — Upton Sinclair, 1906. Public domain. Upton Sinclair, The Jungle (New York: Doubleday, Page & Company, 1906), Chapter III. Project Gutenberg eBook 140.
 - **Twenty Years at Hull-House (immigrants and their children)** — Jane Addams, 1910. Public domain. Jane Addams, Twenty Years at Hull-House (New York: Macmillan, 1910), Chapter XI. Project Gutenberg eBook 1325.
 - **The Progressive Party Platform ('A Covenant with the People')** — The Progressive Party, national convention, Chicago, August 1912. Public domain. Progressive Party, 'A Covenant With the People,' platform adopted at Chicago, August 1912. Text via Wikisource.
+- image: assets/suffrage-map.jpg — National American Woman Suffrage Association (Public domain)
+- image: assets/child-labor.jpg — Lewis W. Hine (Public domain)
+- image: assets/tenement.jpg — Jacob Riis (Public domain)
 - interpretation: Robert H. Wiebe, *The Search for Order, 1877–1920* (1967)
 - interpretation: Nell Irvin Painter, *Standing at Armageddon: The United States, 1877–1919* (1987)
 
@@ -99,6 +126,9 @@ c. 1898–1920 · The United States and the world
 - **Platform of the American Anti-Imperialist League** — The American Anti-Imperialist League, October 1899. Public domain. Platform of the American Anti-Imperialist League, adopted at the national conference, Chicago, October 1899. Text in Speeches, Correspondence and Political Papers of Carl Schurz, vol. 6, ed. Frederic Bancroft (New York: G. P. Putnam's Sons, 1913), p. 77, note 1. Internet Modern History Sourcebook, Fordham University.
 - **The Platt Amendment** — United States Congress, 2 March 1901. Public domain. Platt Amendment, an amendment to the Army Appropriations Act of 2 March 1901, 31 Stat. 895. Text via Wikisource, United States Statutes at Large. Public domain (U.S. government work).
 - **President Woodrow Wilson's Fourteen Points** — Woodrow Wilson, 8 January 1918. Public domain. Woodrow Wilson, address to a joint session of Congress, 8 January 1918. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain (U.S. government work).
+- image: assets/alliances-1914.jpg — historicair, Fluteflute, and Bibi Saint-Pol (CC BY-SA 2.5)
+- image: assets/maine-wreck.jpg — Strohmeyer & Wyman / Underwood & Underwood (Public domain)
+- image: assets/uncle-sam.jpg — James Montgomery Flagg (Public domain)
 - interpretation: William Appleman Williams, *The Tragedy of American Diplomacy* (1959)
 - interpretation: John Milton Cooper Jr., *Breaking the Heart of the World: Woodrow Wilson and the Fight for the League of Nations* (2001)
 
@@ -109,6 +139,9 @@ c. 1920–1939 · The United States
 - **An Act to limit the immigration of aliens into the United States (The Immigration Act of 1924, or Johnson-Reed Act)** — The Congress of the United States, 26 May 1924. Public domain. Immigration Act of 1924, 43 Stat. 153, ch. 190 (68th Congress, 1st Session). Text from the United States Statutes at Large, Volume 43, U.S. Government Publishing Office (govinfo.gov).
 - **First Inaugural Address** — Franklin D. Roosevelt, 4 March 1933. Public domain. Franklin D. Roosevelt, First Inaugural Address, delivered on the East Portico of the United States Capitol, 4 March 1933. Text via Wikisource; the speech is a work of the United States federal government.
 - **The Social Security Act (selected provisions)** — The Congress of the United States, 14 August 1935. Public domain. Social Security Act, 49 Stat. 620, Pub. L. 74-271 (74th Congress, 1st Session, 1935). Text via Wikisource, Acts of the 74th United States Congress, Session 1, Chapter 531.
+- image: assets/migrant-mother.jpg — Dorothea Lange (Public domain)
+- image: assets/dust-bowl.jpg — Arthur Rothstein (Public domain)
+- image: assets/prohibition.jpg — Library of Congress (Public domain)
 - interpretation: Arthur M. Schlesinger Jr., *The Age of Roosevelt* (1957–1960)
 - interpretation: Ira Katznelson, *When Affirmative Action Was White: An Untold History of Racial Inequality in Twentieth-Century America* (2005)
 
@@ -119,6 +152,9 @@ c. 1941–1945 · The United States and the world
 - **The Atlantic Charter** — Franklin D. Roosevelt and Winston S. Churchill, 14 August 1941. Public domain. Joint declaration of the President of the United States and the Prime Minister of the United Kingdom, 14 August 1941. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.
 - **Executive Order 9066** — Franklin D. Roosevelt, President of the United States, 19 February 1942. Public domain (U.S. government work). Executive Order 9066, 19 February 1942; General Records of the United States Government, Record Group 11, National Archives. Text from the National Archives, Milestone Documents.
 - **Address to Congress Requesting a Declaration of War** — Franklin D. Roosevelt, President of the United States, 8 December 1941. Public domain (U.S. government work). Franklin D. Roosevelt, address to a joint session of Congress, Washington, D.C., 8 December 1941. Text from Wikisource, 'Pearl Harbor speech.' The speech is a work of the United States government and in the public domain.
+- image: assets/europe-map.jpg — M. Chapin Jr. (Public domain)
+- image: assets/rosie.jpg — J. Howard Miller (Public domain)
+- image: assets/iwo-jima.jpg — Joe Rosenthal (Public domain)
 - interpretation: David M. Kennedy, *Freedom from Fear: The American People in Depression and War, 1929–1945* (1999)
 - interpretation: Richard B. Frank, *Downfall: The End of the Imperial Japanese Empire* (1999)
 
@@ -129,6 +165,9 @@ c. 1945–1960 · The United States
 - **Address before a Joint Session of Congress (the Truman Doctrine)** — Harry S. Truman, President of the United States, 12 March 1947. Public domain. Harry S. Truman, address before a joint session of Congress, 12 March 1947. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School.
 - **Brown v. Board of Education of Topeka: Opinion of the Court** — Chief Justice Earl Warren, Supreme Court of the United States, 17 May 1954. Public domain. Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), opinion of the Court by Chief Justice Earl Warren. Text via Wikisource, United States Reports, Volume 347.
 - **Farewell Address to the Nation (the military-industrial complex speech)** — Dwight D. Eisenhower, President of the United States, 17 January 1961. Public domain. Dwight D. Eisenhower, farewell address to the nation, 17 January 1961. Public Papers of the Presidents, Dwight D. Eisenhower, 1960, pp. 1035–1040. Text from the Avalon Project, Yale Law School.
+- image: assets/cold-war-map.jpg — San Jose (CC BY-SA 3.0)
+- image: assets/berlin-airlift.jpg — U.S. Air Force (Public domain)
+- image: assets/kitchen-debate.jpg — Thomas J. O'Halloran (Public domain)
 - interpretation: John Lewis Gaddis, *The Cold War: A New History* (2005)
 - interpretation: Elaine Tyler May, *Homeward Bound: American Families in the Cold War Era* (1988)
 
@@ -139,6 +178,9 @@ c. 1954–1968 · The United States, especially the South
 - **Brown v. Board of Education of Topeka — Opinion of the Court** — The Supreme Court of the United States (Chief Justice Earl Warren), May 17, 1954. Public domain. Brown v. Board of Education of Topeka, 347 U.S. 483 (1954), opinion of the Court delivered by Chief Justice Earl Warren. Wikisource.
 - **Civil Rights Act of 1964 (selected provisions)** — The Congress of the United States, Signed July 2, 1964. Public domain. Civil Rights Act of 1964, Pub. L. 88-352, 78 Stat. 241, enrolled act signed July 2, 1964. National Archives, Milestone Documents.
 - **Voting Rights Act of 1965 (selected provisions)** — The Congress of the United States, Signed August 6, 1965. Public domain. Voting Rights Act of 1965, Pub. L. 89-110, 79 Stat. 437, enrolled act signed August 6, 1965. National Archives, Milestone Documents.
+- image: assets/march-on-washington.jpg — Warren K. Leffler (Public domain)
+- image: assets/little-rock.jpg — Ira Wilmer Counts Jr. (Public domain)
+- image: assets/rosa-parks.jpg — Associated Press (Public domain)
 - interpretation: Taylor Branch, *Parting the Waters: America in the King Years, 1953–1963* (1988)
 - interpretation: Peniel E. Joseph, *Waiting 'Til the Midnight Hour: A Narrative History of Black Power in America* (2006)
 
@@ -149,6 +191,9 @@ c. 1960–1975 · The United States
 - **Remarks at the University of Michigan (the Great Society speech)** — Lyndon B. Johnson, 22 May 1964. Public domain. Lyndon B. Johnson, 'Remarks at the University of Michigan,' Ann Arbor, 22 May 1964, Public Papers of the Presidents of the United States: Lyndon B. Johnson, 1963–64, Book I. Text via the American Presidency Project.
 - **Gulf of Tonkin Resolution (H.J. Res. 1145)** — United States Congress, 7 August 1964 (approved 10 August 1964). Public domain. Joint Resolution of Congress, H.J. Res. 1145, 78 Stat. 384, approved 10 August 1964. Text via Wikisource, United States Statutes at Large.
 - **The Pentagon Papers on the Gulf of Tonkin** — United States Department of Defense, Completed 1967; published 1971. Public domain. United States – Vietnam Relations, 1945–1967: A Study Prepared by the Department of Defense (the Pentagon Papers), Part IV. C. 2. b. Declassified and published in 1971. Text via Wikisource.
+- image: assets/tet-map.jpg — United States Military Academy, West Point (Public domain)
+- image: assets/apollo-11.jpg — Neil A. Armstrong (Public domain)
+- image: assets/woodstock.jpg — Mark Goff (Public domain)
 - interpretation: David Halberstam, *The Best and the Brightest* (1972)
 - interpretation: Rick Perlstein, *Nixonland: The Rise of a President and the Fracturing of America* (2008)
 
@@ -159,6 +204,9 @@ c. 1975 to the present · The United States
 - **Inaugural Address** — Ronald Reagan, President of the United States, 20 January 1981. Public domain. Ronald Reagan, Inaugural Address, 20 January 1981, Public Papers of the Presidents of the United States: Ronald Reagan, 1981 (Washington: Government Printing Office, 1982). Text from the Ronald Reagan Presidential Library and Museum, National Archives.
 - **USA PATRIOT Act (selected sections)** — The Congress of the United States, 26 October 2001. Public domain. Uniting and Strengthening America by Providing Appropriate Tools Required to Intercept and Obstruct Terrorism (USA PATRIOT ACT) Act of 2001, Pub. L. 107-56, 115 Stat. 272, 26 October 2001. Sections 1, 102, 213, 215, and 802. Text from the U.S. Government Publishing Office.
 - **Address to a Joint Session of Congress and the American People** — George W. Bush, President of the United States, 20 September 2001. Public domain. George W. Bush, Address to a Joint Session of Congress and the American People, 20 September 2001, Public Papers of the Presidents of the United States: George W. Bush, 2001, Book II (Washington: Government Printing Office, 2002). Text from the George W. Bush White House archives, National Archives.
+- image: assets/election-1980.jpg — SteveSims~commonswiki (Public domain)
+- image: assets/inf-treaty.jpg — White House Photographic Office (Public domain)
+- image: assets/berlin-wall.jpg — Raphaël Thiémard (CC BY-SA 2.0)
 - interpretation: Rick Perlstein, *The Invisible Bridge: The Fall of Nixon and the Rise of Reagan* (2014)
 - interpretation: Sean Wilentz, *The Age of Reagan: A History, 1974–2008* (2008)
 
@@ -169,6 +217,9 @@ English grammar
 - **From A Short Introduction to English Grammar** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: A. Millar and R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
 - **From English Grammar, Adapted to the Different Classes of Learners** — Lindley Murray, 1795; this edition 1826. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners, with an Appendix (Philadelphia: Marot & Walter, 1826). First published 1795. Internet Archive, englishgrammarad00murrrich.
 - **From A New English Grammar, Logical and Historical** — Henry Sweet, 1891. Public domain. Henry Sweet, A New English Grammar, Logical and Historical, Part I: Introduction, Phonology, and Accidence (Oxford: Clarendon Press, 1891). Internet Archive, newenglishgramma01sweeuoft.
+- image: assets/sentencediagram.jpg — Nathan M. Swan (CC0)
+- image: assets/lowth-portrait.jpg — Robert Edge Pine (Public domain)
+- image: assets/existential-clauses2.jpg — Snježana Kordić (CC BY 3.0)
 - interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
 - interpretation: Geoffrey K. Pullum, *The Cambridge Grammar of the English Language (with Rodney Huddleston)* (2002)
 
@@ -179,6 +230,9 @@ English grammar
 - **Of the Article, the Substantive, Number, and the Possessive Case** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, 1762). Text from Project Gutenberg eBook 72554.
 - **Of the Articles, Substantives, Number, and Case** — Lindley Murray, 1795; this edition 1826. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (York, 1795; London, 1826). Text from the Internet Archive scan of the 1826 edition.
 - **Collectives; and Number, 6: Nouns of Multitude** — H. W. Fowler, 1926. Public domain. H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926), entries 'Collectives' and 'Number, 6. Nouns of multitude.' Text from the Internet Archive scan of the 1926 first edition.
+- image: assets/murray-portrait.jpg — Asher Brown Durand (after E. Westoby) (CC0)
+- image: assets/lowth-portrait.jpg — Robert Edge Pine (Public domain)
+- image: assets/fowler-frontispiece.jpg — H. W. Fowler (Public domain)
 - interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles, Vol. II: Syntax (First Volume)* (1914)
 - interpretation: Steven Pinker, *Words and Rules: The Ingredients of Language* (1999)
 
@@ -189,6 +243,9 @@ English grammar
 - **Of pronouns, case, and comparison** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
 - **The personal pronouns as shifters** — Otto Jespersen, 1922. Public domain. Otto Jespersen, Language: Its Nature, Development and Origin (London: George Allen & Unwin Ltd., 1922). Project Gutenberg eBook 53038.
 - **Case, the self-pronouns, and who and whom** — George Lyman Kittredge and Frank Edgar Farley, 1913. Public domain. George Lyman Kittredge and Frank Edgar Farley, An Advanced English Grammar with Exercises (Boston: Ginn and Company, 1913). Project Gutenberg eBook 45814.
+- image: assets/english-pronouns.jpg — JustVixo (CC BY-SA 4.0)
+- image: assets/jespersen-portrait.jpg — Laurberg & Gad (Public domain)
+- image: assets/george-lyman-kittredge.jpg — Houghton Mifflin Company (Public domain)
 - interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
 - interpretation: Dennis Baron, *Grammar and Gender* (1986)
 
@@ -199,6 +256,9 @@ English grammar
 - **On the times of the verb, and on irregular verbs** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, 1762), from the sections on the Verb and on Irregular Verbs. Project Gutenberg eBook 72554.
 - **Of the Tenses** — Lindley Murray, 1795. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (first published York, 1795), Section 5, 'Of the Tenses'; text from the 1819 Hanover, N.H. printing. Internet Archive.
 - **Tenses and the definite forms** — Henry Sweet, 1898. Public domain. Henry Sweet, A New English Grammar, Logical and Historical, Part II: Syntax (Oxford: Clarendon Press, 1898), sections 2163-2224. Internet Archive.
+- image: assets/sweet-portrait.jpg — Wikimedia Commons (Public domain)
+- image: assets/cobbett-portrait.jpg — Francesco Bartolozzi (after J. R. Smith) (Public domain)
+- image: assets/murray-engraving.jpg — Dean (after E. Westoby) (Public domain)
 - interpretation: Otto Jespersen, *The Philosophy of Grammar* (1924)
 - interpretation: William Cobbett, *A Grammar of the English Language, in a Series of Letters* (1818)
 
@@ -209,6 +269,9 @@ English grammar
 - **Of verbs, modes, and auxiliaries** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar (London: J. Hughs, 1762). Project Gutenberg eBook 72554.
 - **Of active, passive, and neuter verbs** — Lindley Murray, 1829. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (London: J. B. Baldwin, 1829), Chapter VI. Internet Archive.
 - **On compound passives, split infinitives, and prepositions at the end** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), sections 25-26 and the section on relatives. Project Gutenberg eBook 75439.
+- image: assets/fowler-modern-english-usage.jpg — JohnArmagh (CC BY-SA 3.0)
+- image: assets/lowth-portrait.jpg — Robert Edge Pine (Public domain)
+- image: assets/murray-engraving.jpg — Dean (after E. Westoby) (Public domain)
 - interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
 - interpretation: Otto Jespersen, *The Philosophy of Grammar* (1924)
 
@@ -219,8 +282,11 @@ English grammar
 - **On the auxiliary verbs** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: with Critical Notes (London: J. Hughs for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.
 - **On the potential mood** — Lindley Murray, 1795. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (York, 1795; New York: Collins and Perkins, 1810). Internet Archive copy of the 1810 edition.
 - **On auxiliary verbs** — William Cobbett, 1818. Public domain. William Cobbett, A Grammar of the English Language, in a Series of Letters (London, 1818; Internet Archive copy of the 1819 edition).
-- interpretation: Henry Sweet, *A New English Grammar, Logical and Historical* (1892)
-- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1931)
+- image: assets/cobbett-portrait.jpg — Francesco Bartolozzi (after J. R. Smith) (Public domain)
+- image: assets/jespersen-portrait.jpg — Laurberg & Gad (Public domain)
+- image: assets/sweet-portrait.jpg — Wikimedia Commons (Public domain)
+- interpretation: Henry Sweet, *A New English Grammar, Logical and Historical* (1891)
+- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
 
 ## 07-adjectives-and-adverbs — Adjectives and adverbs
 
@@ -229,6 +295,9 @@ English grammar
 - **On adjectives and adverbs** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
 - **Adjectives and adverbs: definition, and the disputes of the grammarians** — Goold Brown, 1851. Public domain. Goold Brown, The Grammar of English Grammars, 6th ed., revised by Samuel U. Berrian (New York: Samuel S. and William Wood, 1851). Project Gutenberg eBook 11615.
 - **Comparatives, superlatives, and unique** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), chapters 'Syntax' and 'Vocabulary.' Project Gutenberg eBook 75439.
+- image: assets/lowth-portrait.jpg — Robert Edge Pine (Public domain)
+- image: assets/goold-brown-portrait.jpg — The National Cyclopaedia of American Biography (Public domain)
+- image: assets/fowler-frontispiece.jpg — H. W. Fowler (Public domain)
 - interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
 - interpretation: H. W. Fowler, *A Dictionary of Modern English Usage* (1926)
 
@@ -239,6 +308,9 @@ English grammar
 - **Of prepositions, their government, and the idiom of placing them last** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
 - **Prepositions: idiom, different from, and the preposition at the end** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), chapter 'Prepositions'. Project Gutenberg eBook 75439.
 - **In and into, between and among, and the history of a rule** — Goold Brown, 1851. Public domain. Goold Brown, The Grammar of English Grammars, 6th ed., revised by Samuel U. Berrian (New York: Samuel S. and William Wood, 1851). Project Gutenberg eBook 11615.
+- image: assets/jespersen-portrait.jpg — Laurberg & Gad (Public domain)
+- image: assets/lowth-engraving.jpg — After Robert Edge Pine (Public domain)
+- image: assets/fowler-modern-english-usage.jpg — JohnArmagh (CC BY-SA 3.0)
 - interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
 - interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
 
@@ -249,6 +321,9 @@ English grammar
 - **Of conjunctions** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: A. Millar and R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
 - **On conjunctions, the semicolon, and parallelism** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924). Project Gutenberg eBook 75439.
 - **Of conjunctions and conjunctive adverbs** — Goold Brown, 1851. Public domain. Goold Brown, The Grammar of English Grammars, with an Introduction, Historical and Critical (New York: Samuel S. & William Wood, 1851). Project Gutenberg eBook 11615.
+- image: assets/goold-brown-portrait.jpg — The National Cyclopaedia of American Biography (Public domain)
+- image: assets/lowth-corner.jpg — John Corner (Public domain)
+- image: assets/fowler-frontispiece.jpg — H. W. Fowler (Public domain)
 - interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
 - interpretation: Geoffrey K. Pullum, *The Cambridge Grammar of the English Language (with Rodney Huddleston)* (2002)
 
@@ -259,6 +334,9 @@ English grammar
 - **Of relatives, and the omission of the relative** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar (London, 1762). Project Gutenberg eBook 72554.
 - **Defining and non-defining relative clauses; 'that' and 'which'** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), section on relatives. Project Gutenberg eBook 75439.
 - **Clauses, complexes, and the kinds of sub-clause** — Henry Sweet, 1891. Public domain. Henry Sweet, A New English Grammar, Logical and Historical, Part I (Oxford: Clarendon Press, 1891), section 'Relations between Sentences'. Internet Archive, newenglishgramma01sweeuoft.
+- image: assets/sweet-portrait.jpg — Wikimedia Commons (Public domain)
+- image: assets/lowth-wales.jpg — Thomas Cook (Public domain)
+- image: assets/jespersen-portrait.jpg — Laurberg & Gad (Public domain)
 - interpretation: H. W. Fowler, *The King's English* (1906)
 - interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
 
@@ -269,6 +347,9 @@ English grammar
 - **On punctuation** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: with Critical Notes (London: J. Hughs for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.
 - **Points and marks** — William Cobbett, 1818. Public domain. William Cobbett, A Grammar of the English Language, in a Series of Letters (London, 1818; Internet Archive copy of the 1819 edition).
 - **The stops** — H. W. Fowler, 1926. Public domain. H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926; Internet Archive copy of the 1927 printing).
+- image: assets/cobbett-portrait.jpg — Francesco Bartolozzi (after J. R. Smith) (Public domain)
+- image: assets/cobbett-engraving.jpg — Cassell's Illustrated History of England (Public domain)
+- image: assets/fowler-frontispiece.jpg — H. W. Fowler (Public domain)
 - interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
 - interpretation: H. W. Fowler, *A Dictionary of Modern English Usage* (1926)
 
@@ -279,6 +360,9 @@ English grammar
 - **Of concord, and the agreement of words** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.
 - **Rules of syntax: concord and the agreement of words** — Lindley Murray, 1795; this edition 1826. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (first published York, 1795; Philadelphia: Marot & Walter, 1826). Text from the Internet Archive scan of the 1826 edition, englishgrammarad00murrrich.
 - **Four disputed usages** — H. W. Fowler, 1926. Public domain. H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926), entries 'affect, effect', 'lay & lie', 'less', and 'who & whom'. Text from the Internet Archive scan of the 1927 printing, dictionaryofmode013872mbp.
+- image: assets/murray-portrait.jpg — Asher Brown Durand (after E. Westoby) (CC0)
+- image: assets/murray-engraving.jpg — Dean (after E. Westoby) (Public domain)
+- image: assets/jespersen-portrait.jpg — Laurberg & Gad (Public domain)
 - interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
 - interpretation: Geoffrey K. Pullum, *The Cambridge Grammar of the English Language (with Rodney Huddleston)* (2002)
 
@@ -629,6 +713,9 @@ c. 1750–1900 CE · Britain, Europe, and the wider world
 - **Industrial Manchester** — Friedrich Engels, 1844 (English edition 1892). Public domain. From Friedrich Engels, The Condition of the Working-Class in England in 1844 (London: Swan Sonnenschein & Co., 1892), pp. 45, 48–53. Internet Modern History Sourcebook, Fordham University.
 - **The Philosophy of Manufactures** — Andrew Ure, 1835. Public domain. From Andrew Ure, The Philosophy of Manufactures (London: Chas. Knight, 1835), pp. 5–8, 14–15, 20–21, 23, 29–31. Internet Modern History Sourcebook, Fordham University.
 - **Women Miners in the English Coal Pits** — Parliamentary commissioners and witnesses (Great Britain), 1842. Public domain. From Great Britain, Parliamentary Papers, 1842, Vol. XVI, pp. 24, 196; Vol. XV, p. 84; and Vol. XVII, p. 108. Internet Modern History Sourcebook, Fordham University.
+- image: assets/rain-steam-and-speed.jpg — J. M. W. Turner (Public domain)
+- image: assets/coalbrookdale-by-night.jpg — Philip James de Loutherbourg (Public domain)
+- image: assets/powerloom-weaving-1835.jpg — T. Allom (illustrator); J. Tingle (engraver) (Public domain)
 - interpretation: Robert C. Allen, *The British Industrial Revolution in Global Perspective* (2009)
 - interpretation: E. P. Thompson, *The Making of the English Working Class* (1963)
 
@@ -639,6 +726,9 @@ c. 1815–1871 · Europe
 - **On Nationality** — Giuseppe Mazzini, 1852. Public domain. Giuseppe Mazzini, 'Europe: Its Condition and Prospects' (1852), in Essays: Selected from the Writings, Literary, Political and Religious of Joseph Mazzini, ed. William Clark (London: Walter Scott, 1880), pp. 266, 277–78, 291–92, via the Internet Modern History Sourcebook (Fordham University). Public domain.
 - **Documents of German unification, 1848–1871** — Johann Gustav Droysen, Friedrich Wilhelm IV, Otto von Bismarck, Helmuth von Moltke, and Wilhelm I, 1848–1871. Public domain. From James Harvey Robinson, ed., Readings in European History, 2 vols. (Boston: Ginn and Co., 1904–1905), II:571–575, and Otto von Bismarck, The Man and the Statesman (New York, 1899), II:48–51, via the Internet Modern History Sourcebook (Fordham University). Public domain.
 - **Cavour and the program of Italian unification** — Count Camillo di Cavour, 1846–1858. Public domain. The Program of Count Cavour (1846) and Speech to the Piedmont Chamber of Deputies (1858), from D. Zanichelli, ed., The Writings of Count Cavour (Bologna, 1892), II:4–50, and The Annual Register ... for the Year 1858 (London, 1859), pp. 186–188, via the Internet Modern History Sourcebook (Fordham University). Public domain.
+- image: assets/europe-1815-map.jpg — Alexander Altenhof (CC BY-SA 4.0)
+- image: assets/proclamation-german-empire.jpg — Anton von Werner (Public domain)
+- image: assets/garibaldi-1866.jpg — Fratelli Alinari (Public domain)
 - interpretation: Eric Hobsbawm, *Nations and Nationalism since 1780: Programme, Myth, Reality* (1990)
 - interpretation: Benedict Anderson, *Imagined Communities: Reflections on the Origin and Spread of Nationalism* (1983)
 
@@ -649,6 +739,9 @@ c. 1830–1914 · Africa, Asia, and the imperial powers
 - **General Act of the Berlin Conference on West Africa** — The Berlin Conference of 1884–85 (fourteen signatory states), 26 February 1885. Public domain. General Act of the Conference at Berlin of the Plenipotentiaries ... dealing with Africa, Berlin, 26 February 1885. English text via the 'World and Japan' Database, National Graduate Institute for Policy Studies (GRIPS) and the University of Tokyo. Public domain.
 - **The White Man's Burden** — Rudyard Kipling, 1899. Public domain. Rudyard Kipling, 'The White Man's Burden,' in The Five Nations (1903). Wikisource. Public domain.
 - **The benefits and burdens of British rule in India (London speech)** — Dadabhai Naoroji, 1871. Public domain. Dadabhai Naoroji, Essays, Speeches, Addresses and Writings (Bombay: Caxton Printing Works, 1887), pp. 131–136; text via the Internet Modern History Sourcebook (Fordham University) and Hanover College. Public domain.
+- image: assets/scramble-for-africa-1880-1913.jpg — davidjl123 / Somebody500 (CC BY-SA 4.0)
+- image: assets/rhodes-colossus-punch-1892.jpg — Edward Linley Sambourne (Public domain)
+- image: assets/berlin-conference-1884.jpg — Adalbert von Roessler (Public domain)
 - interpretation: J. A. Hobson, *Imperialism: A Study* (1902)
 - interpretation: Ronald Robinson and John Gallagher, *The Imperialism of Free Trade* (1953)
 
@@ -659,6 +752,9 @@ c. 1914–1918 · Europe and the wider world
 - **The Austro-Hungarian Ultimatum to Serbia** — The Imperial and Royal Government of Austria-Hungary, 22–23 July 1914. Public domain. Austro-Hungarian ultimatum delivered at Belgrade, 23 July 1914. English translation in the World War I Document Archive, Brigham Young University, from the Austro-Hungarian Red Book (1914).
 - **War Message to Congress** — Woodrow Wilson, President of the United States, 2 April 1917. Public domain. Woodrow Wilson, War Messages, 65th Cong., 1st Sess. Senate Doc. No. 5, Serial No. 7264 (Washington, D.C., 1917), pp. 3–8. Text via Wikisource.
 - **Dulce et Decorum est; Anthem for Doomed Youth** — Wilfred Owen, written 1917–1918; published 1920. Public domain. Wilfred Owen, 'Dulce et Decorum est' and 'Anthem for Doomed Youth,' in Poems by Wilfred Owen (London: Chatto & Windus, 1920). Text via Wikisource.
+- image: assets/europe-alliances-1914.jpg — historicair; Fluteflute; Bibi Saint-Pol (CC BY-SA 2.5)
+- image: assets/kitchener-poster.jpg — Alfred Leete (Public domain)
+- image: assets/somme-royal-irish-rifles.jpg — Royal Engineers No 1 Printing Company (Public domain)
 - interpretation: Fritz Fischer, *Germany's Aims in the First World War* (1961)
 - interpretation: Christopher Clark, *The Sleepwalkers: How Europe Went to War in 1914* (2012)
 
@@ -669,6 +765,9 @@ c. 1905–1939 · Russia and the Soviet Union
 - **The Tasks of the Proletariat in the Present Revolution (the April Theses)** — V. I. Lenin, 7 April 1917. Public domain. V. I. Lenin, 'The Tasks of the Proletariat in the Present Revolution,' Pravda No. 26, 7 April 1917; in Collected Works, Vol. 24 (Moscow: Progress Publishers, 1964), pp. 19–26. Translated by Isaacs Bernard. Marxists Internet Archive.
 - **Constitution of the Russian Socialist Federative Soviet Republic (selected articles)** — The Fifth All-Russian Congress of Soviets, 10 July 1918. Public domain. Constitution of the Russian Socialist Federative Soviet Republic (1918), Articles 1–23 and 64–65, English translation, Marxists Internet Archive.
 - **Dizzy With Success: Concerning Questions of the Collective-Farm Movement** — Joseph Stalin, 2 March 1930. Public domain. J. V. Stalin, 'Dizzy With Success,' Pravda No. 60, 2 March 1930; in Works, Vol. 12 (Moscow: Foreign Languages Publishing House, 1955), pp. 197–205. Marxists Internet Archive.
+- image: assets/soviet-union-map-1936.jpg — Soviet Russia Today (Public domain)
+- image: assets/july-days-petrograd-1917.jpg — Viktor Bulla (Public domain)
+- image: assets/five-year-plan-poster-1930.jpg — Griffel Vladislav (Public domain)
 - interpretation: Richard Pipes, *The Russian Revolution* (1990)
 - interpretation: Sheila Fitzpatrick, *The Russian Revolution* (1982)
 
@@ -679,6 +778,9 @@ c. 1919–1939 CE · Europe
 - **The Treaty of Versailles: the League Covenant, disarmament, and war guilt (selected articles)** — The Allied and Associated Powers and Germany, 28 June 1919. Public domain. Treaty of Peace with Germany (Treaty of Versailles), signed 28 June 1919. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
 - **The Doctrine of Fascism** — Benito Mussolini (with Giovanni Gentile), 1932. Public domain. Benito Mussolini, 'The Doctrine of Fascism', Enciclopedia Italiana (1932), English translation reproduced by the Internet Modern History Sourcebook, Fordham University. Public domain.
 - **The Nuremberg Laws: the Reich Citizenship Law and its First Regulation** — The German Reichstag and the German Government, 15 September and 14 November 1935. Public domain. Reich Citizenship Law of 15 September 1935 and First Regulation of 14 November 1935, translated in Nazi Conspiracy and Aggression, Vol. IV (Office of the United States Chief Counsel for Prosecution of Axis Criminality, U.S. Government Printing Office, 1946), documents 1416-PS and 1417-PS. Public domain.
+- image: assets/europe-map-1919.jpg — London Geographical Institute (Public domain)
+- image: assets/nuremberg-rally-lichtdom.jpg — German Federal Archives (Bundesarchiv) (CC BY-SA 3.0 de)
+- image: assets/mussolini-portrait.jpg — Narodowe Archiwum Cyfrowe (Public domain)
 - interpretation: A. J. P. Taylor, *The Origins of the Second World War* (1961)
 - interpretation: Hannah Arendt, *The Origins of Totalitarianism* (1951)
 
@@ -689,6 +791,9 @@ c. 1939–1945 · Europe, Asia, and the world
 - **Treaty of Nonaggression Between Germany and the Union of Soviet Socialist Republics, with Secret Additional Protocol** — Joachim von Ribbentrop and Vyacheslav Molotov, for Germany and the Soviet Union, 23 August 1939. Public domain. Nazi-Soviet Relations, 1939–1941: Documents from the Archives of the German Foreign Office, via the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
 - **The Wannsee Protocol (Minutes of the Wannsee Conference)** — Adolf Eichmann (recorder), for Reinhard Heydrich, 20 January 1942. Public domain. English translation of Document No. NG-2586 (Nuremberg Government series of the Nuremberg documents), Office of the Chief Counsel for War Crimes; reprinted in John Mendelsohn, ed., The Holocaust: Selected Documents in Eighteen Volumes, Vol. 11 (Garland, 1982), pp. 18–32, via German History in Documents and Images (GHDI).
 - **Charter of the United Nations (Preamble and Articles 1–2)** — The United Nations Conference on International Organization, 26 June 1945. Public domain. Charter of the United Nations, signed at San Francisco, 26 June 1945, via the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
+- image: assets/second-world-war-map-1942.jpg — Sr.Zanahoria (CC BY 3.0)
+- image: assets/d-day-omaha-beach-1944.jpg — Robert F. Sargent, U.S. Coast Guard (Public domain)
+- image: assets/warsaw-ghetto-uprising-1943.jpg — Stroop Report; U.S. National Archives (Public domain)
 - interpretation: Raul Hilberg, *The Destruction of the European Jews* (1961)
 - interpretation: Christopher R. Browning, *Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland* (1992)
 
@@ -699,6 +804,9 @@ c. 1945 to the present · The world
 - **Address before a joint session of Congress (the Truman Doctrine)** — Harry S. Truman, 12 March 1947. Public domain. Avalon Project, Yale Law School, 'Truman Doctrine'; text of President Harry S. Truman's address to a joint session of Congress, 12 March 1947.
 - **Universal Declaration of Human Rights** — United Nations General Assembly, 10 December 1948. Public domain. UN General Assembly Resolution 217A (III), adopted at Paris, 10 December 1948; text via Wikisource.
 - **A Tryst with Destiny** — Jawaharlal Nehru, 14 August 1947. Public domain. Speech in the Constituent Assembly on the eve of independence; Constituent Assembly Debates, Government of India (1950); text via Wikisource.
+- image: assets/cold-war-europe-1959.jpg — Pawelgil (CC BY-SA 4.0)
+- image: assets/berlin-wall-1961.jpg — National Archives (Public domain)
+- image: assets/cuba-missile-map-1962.jpg — Central Intelligence Agency (Public domain)
 - interpretation: John Lewis Gaddis, *The Cold War: A New History* (2005)
 - interpretation: Odd Arne Westad, *The Global Cold War: Third World Interventions and the Making of Our Times* (2005)
 

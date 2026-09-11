@@ -4,7 +4,32 @@
   "period": "c. 1905–1939",
   "region": "Russia and the Soviet Union",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/soviet-union-map-1936.jpg",
+      "caption": "Map of the Union of Soviet Socialist Republics published in 1936, showing the union republics and major industrial centres.",
+      "credit": "Soviet Russia Today",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1936_map_of_The_Union_of_Soviet_Socialist_Republics.jpg"
+    },
+    {
+      "id": "july-days-petrograd-1917",
+      "file": "assets/july-days-petrograd-1917.jpg",
+      "caption": "Riot on Nevsky Prospekt in Petrograd, 4 July 1917, during the July Days demonstrations against the Provisional Government.",
+      "credit": "Viktor Bulla",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:19170704_Riot_on_Nevsky_prosp_Petrograd.jpg"
+    },
+    {
+      "id": "five-year-plan-poster-1930",
+      "file": "assets/five-year-plan-poster-1930.jpg",
+      "caption": "Soviet poster by Vladislav Griffel (1930) calling on workers to fulfil the Five-Year Plan for rapid industrialisation.",
+      "credit": "Griffel Vladislav",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Five-year_plan_USSR_by_Griffel_Vladislav_1930.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lenin-april-theses",

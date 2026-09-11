@@ -4,7 +4,32 @@
   "period": "c. 1890–1917",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/suffrage-map.jpg",
+      "caption": "A 1918 woman suffrage flier showing the states that had granted women the vote and the 198 electoral votes they controlled.",
+      "credit": "National American Woman Suffrage Association",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Flier-_Woman_Suffrage_is_Here!-These_States_control_198_Electoral_Votes,_1918.jpg"
+    },
+    {
+      "id": "child-labor",
+      "file": "assets/child-labor.jpg",
+      "caption": "A young girl tends a spinning frame in a North Pownal, Vermont, cotton mill, photographed by Lewis Hine for the National Child Labor Committee.",
+      "credit": "Lewis W. Hine",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Child_Labor_at_Cotton_Mill_North_Pownal_Vermont_by_Lewis_Hine.jpeg"
+    },
+    {
+      "id": "tenement",
+      "file": "assets/tenement.jpg",
+      "caption": "Lodgers crowd a Bayard Street tenement in New York City in a photograph by Jacob Riis published in How the Other Half Lives.",
+      "credit": "Jacob Riis",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Jacob_Riis,_Lodgers_in_a_Crowded_Bayard_Street_Tenement.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "sinclair-jungle",

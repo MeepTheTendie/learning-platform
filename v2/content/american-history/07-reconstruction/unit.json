@@ -4,7 +4,32 @@
   "period": "1865–1877",
   "region": "The United States, especially the South",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/united-states-1867-map.jpg",
+      "caption": "A map of the United States in 1867, the year Congress divided the former Confederacy into five military districts and required new state constitutions with Black male suffrage.",
+      "credit": "Golbez",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:United_States_1867-03-1867-10.png"
+    },
+    {
+      "id": "first-black-senators",
+      "file": "assets/first-black-senators.jpg",
+      "caption": "Currier and Ives's 1872 lithograph of the first Black members of Congress, including Senator Hiram Revels and Representatives Joseph Rainey and Robert Brown Elliott.",
+      "credit": "Currier and Ives",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:First_Colored_Senator_and_Representatives.png"
+    },
+    {
+      "id": "freedmens-bureau-school",
+      "file": "assets/freedmens-bureau-school.jpg",
+      "caption": "A sketch by James E. Taylor of a Freedmen's Bureau schoolroom in Richmond, Virginia, where formerly enslaved people learned to read and write.",
+      "credit": "James E. Taylor",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Misses_Cooke%27s_school_room,_Freedman%27s_Bureau,_Richmond,_Va._-_from_a_sketch_by_Jas._E._Taylor._LCCN98510871.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "fourteenth-amendment",

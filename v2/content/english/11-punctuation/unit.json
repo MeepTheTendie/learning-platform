@@ -3,7 +3,32 @@
   "title": "Punctuation and its grammar",
   "period": "English grammar",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/cobbett-portrait.jpg",
+      "caption": "William Cobbett (1763-1835), engraved by Francesco Bartolozzi after J. R. Smith; his 1818 grammar treated punctuation as a matter of taste.",
+      "credit": "Francesco Bartolozzi (after J. R. Smith)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:William_Cobbett,_PA06868.jpg"
+    },
+    {
+      "id": "cobbett-engraving",
+      "file": "assets/cobbett-engraving.jpg",
+      "caption": "William Cobbett, from Cassell's Illustrated History of England (1885); his Grammar of the English Language appeared in a series of letters.",
+      "credit": "Cassell's Illustrated History of England",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CobbettEngraving.jpg"
+    },
+    {
+      "id": "fowler-frontispiece",
+      "file": "assets/fowler-frontispiece.jpg",
+      "caption": "H. W. Fowler (1858-1933), whose 1926 dictionary organised the comma by grammatical function and warned against separating inseparables.",
+      "credit": "H. W. Fowler",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FowlersModernEnglishUsageFrontispiece.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-punctuation",

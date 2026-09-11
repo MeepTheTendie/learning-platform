@@ -4,7 +4,32 @@
   "period": "c. 1954–1968",
   "region": "The United States, especially the South",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/march-on-washington.jpg",
+      "caption": "A quarter of a million people gather at the Lincoln Memorial for the March on Washington for Jobs and Freedom on 28 August 1963.",
+      "credit": "Warren K. Leffler",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Civil_rights_march_on_Washington,_D.C._from_Lincoln.jpg"
+    },
+    {
+      "id": "elizabeth-eckford",
+      "file": "assets/little-rock.jpg",
+      "caption": "Elizabeth Eckford walks through a jeering crowd to enter Little Rock Central High School in September 1957, photographed by Will Counts.",
+      "credit": "Ira Wilmer Counts Jr.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Elizabeth_Eckford.jpg"
+    },
+    {
+      "id": "rosa-parks",
+      "file": "assets/rosa-parks.jpg",
+      "caption": "Rosa Parks, whose refusal to give up her seat in December 1955 set off the 381-day Montgomery bus boycott.",
+      "credit": "Associated Press",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1955.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "brown-board",

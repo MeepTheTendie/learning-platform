@@ -109,8 +109,8 @@
 - **1844** — Samuel Morse sends "What hath God wrought"; James K. Polk is elected on an expansionist platform.
 - **1845** — Texas is annexed; O'Sullivan writes of "manifest destiny"; Douglass publishes his *Narrative*.
 - **1846** — The Oregon Treaty sets the 49th parallel; the Mexican-American War begins; the Wilmot Proviso is introduced.
-- **2 February 1848** — The Treaty of Guadalupe Hidalgo cedes the Mexican Cession.
 - **24 January 1848** — Gold is found at Sutter's Mill.
+- **2 February 1848** — The Treaty of Guadalupe Hidalgo cedes the Mexican Cession.
 - **19–20 July 1848** — The Seneca Falls convention issues the *Declaration of Sentiments*.
 - **1849** — The forty-niners rush to California; the Free Soil Party contests the election.
 

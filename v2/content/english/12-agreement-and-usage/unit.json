@@ -4,7 +4,32 @@
   "period": "English grammar",
   "region": "",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/murray-portrait.jpg",
+      "caption": "Lindley Murray (1745-1826), whose English Grammar (1795) was the most widely used school grammar in the English-speaking world.",
+      "credit": "Asher Brown Durand (after E. Westoby)",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lindley_Murray_MET_DP837784.jpg"
+    },
+    {
+      "id": "murray-engraving",
+      "file": "assets/murray-engraving.jpg",
+      "caption": "Lindley Murray, engraved by Dean after a painting by E. Westoby, from an autographed portrait held at the University of Pennsylvania.",
+      "credit": "Dean (after E. Westoby)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Lindley_Murray.jpg"
+    },
+    {
+      "id": "jespersen-portrait",
+      "file": "assets/jespersen-portrait.jpg",
+      "caption": "Otto Jespersen (1860-1943), who argued that concord often follows the sense of the subject rather than its grammatical form.",
+      "credit": "Laurberg & Gad",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Otto_Jespersen_1919_21.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-agreement",

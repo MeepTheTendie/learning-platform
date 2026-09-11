@@ -4,7 +4,32 @@
   "period": "c. 1830–1914",
   "region": "Africa, Asia, and the imperial powers",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/scramble-for-africa-1880-1913.jpg",
+      "caption": "Map of Africa showing the partition of the continent between 1880 and 1913, when European powers claimed almost its whole territory.",
+      "credit": "davidjl123 / Somebody500",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Scramble-for-Africa-1880-1913.png"
+    },
+    {
+      "id": "rhodes-colossus-punch-1892",
+      "file": "assets/rhodes-colossus-punch-1892.jpg",
+      "caption": "Edward Linley Sambourne's Punch cartoon 'The Rhodes Colossus' (1892) shows Cecil Rhodes straddling Africa from Cairo to Cape Town, an emblem of British imperial ambition.",
+      "credit": "Edward Linley Sambourne",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Rhodes_Colossus_Punch_1892.jpg"
+    },
+    {
+      "id": "berlin-conference-1884",
+      "file": "assets/berlin-conference-1884.jpg",
+      "caption": "The Berlin Conference of 1884–85, drawn by Adalbert von Roessler: European states set rules for the partition of Africa, with no African ruler present.",
+      "credit": "Adalbert von Roessler",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kongokonferenz.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "berlin-act",

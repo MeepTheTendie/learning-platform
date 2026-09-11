@@ -3,7 +3,32 @@
   "title": "Modal verbs",
   "period": "English grammar",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/cobbett-portrait.jpg",
+      "caption": "William Cobbett (1763–1835), who explained do, have, and be as helpers and dismissed elaborate schemes of mood as fanciful.",
+      "credit": "Francesco Bartolozzi (after J. R. Smith)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:William_Cobbett,_PA06868.jpg"
+    },
+    {
+      "id": "jespersen-portrait",
+      "file": "assets/jespersen-portrait.jpg",
+      "caption": "Otto Jespersen (1860–1943), who held that shall and will are modal verbs rather than a true future tense.",
+      "credit": "Laurberg & Gad",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Otto_Jespersen_1919_21.jpg"
+    },
+    {
+      "id": "sweet-portrait",
+      "file": "assets/sweet-portrait.jpg",
+      "caption": "Henry Sweet (1845–1912), who grouped can, may, must, shall, will, and ought as anomalous verbs descended from Old English.",
+      "credit": "Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sweet_Henry.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-auxiliaries",
@@ -59,7 +84,7 @@
       "id": "sweet-anomalous",
       "historian": "Henry Sweet",
       "work": "A New English Grammar, Logical and Historical",
-      "year": "1892",
+      "year": "1891",
       "claim": "Sweet classified can, may, must, shall, will, and ought as 'anomalous verbs,' descended from Old English preterite-present verbs. In his account the class is defined by form rather than meaning: its members have only finite present and preterite forms, take no third-person -s, and attach not directly, which is why they have no infinitive and no participle.",
       "note": "Later descriptions treat the class as less tidy. Dare, need, and used to sit on the boundary between modal and ordinary verb, and be able to, have to, and be allowed to supply the very forms the anomalous verbs lack. Sweet's historical label is also contested; Jespersen preferred 'perfecto-present' for the same group."
     },
@@ -67,7 +92,7 @@
       "id": "jespersen-future",
       "historian": "Otto Jespersen",
       "work": "A Modern English Grammar on Historical Principles",
-      "year": "1909–1931",
+      "year": "1909–1949",
       "claim": "Jespersen argued that English has only two tenses proper, the present and the preterit, and that shall and will are modal verbs rather than a true future tense. In his account will keeps its meaning of volition, and schemes that label would have written a 'future perfect in the past' are artificial constructions imposed on the language.",
       "note": "Descriptively, will has become a conventional future marker in many contexts, and its volitional meaning is often bleached, as in weather predictions. Many grammarians therefore treat will and shall as a future tense or future marker, and the Cambridge Grammar lists them among the modal auxiliaries while still recognising their future use."
     }

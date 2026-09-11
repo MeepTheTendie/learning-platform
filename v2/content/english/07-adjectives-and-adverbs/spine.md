@@ -42,7 +42,7 @@
 
 ## Absolute adjectives
 
-**The argument from logic.** — An **absolute** adjective names a property that cannot, in strict logic, hold in degrees. *Unique* means "the only one of its kind"; *perfect* means "complete, with nothing lacking"; *dead*, *square*, *infinite*, *empty*, and *pregnant* are similarly all-or-nothing. On that reasoning, *very unique*, *more perfect*, *almost dead*, and *rather square* are odd, and the nineteenth- and twentieth-century handbooks treated them as faults. H. W. Fowler, in *A Dictionary of Modern English Usage* (1926), argued that *unique* should not be qualified by *more*, *most*, *quite*, or *very*, because it means "one of a kind."
+**The argument from logic.** — An **absolute** adjective names a property that cannot, in strict logic, hold in degrees. *Unique* means "the only one of its kind"; *perfect* means "complete, with nothing lacking"; *dead*, *square*, *infinite*, *empty*, and *pregnant* are similarly all-or-nothing. On that reasoning, *very unique*, *more perfect*, *almost dead*, and *rather square* are odd, and the nineteenth- and twentieth-century handbooks treated them as faults. H. W. Fowler, in *A Dictionary of Modern English Usage* (1926), argued that *unique* should not be qualified by *more*, *most*, *very*, *somewhat*, or *rather*, because it means "one of a kind."
 
 **The argument from use.** — Usage does not obey the logic. Many absolute adjectives have a second, weaker sense that admits degrees. *Unique* is commonly used to mean "unusual," and so *very unique* appears. *Perfect* can mean "as good as possible," and so *more perfect* is defensible; the phrase *a more perfect Union* stands in the preamble to the United States Constitution of 1787. *Empty* can be compared when it means "nearly empty" (*the emptiest room in the house*), and *dead* is compared in the jocular *deader than a doornail*. The practical rule is to ask which sense is meant, and to avoid *very unique* in careful formal prose because it invites the objection, not because the syntax forbids it.
 
@@ -109,7 +109,7 @@
 - **1795** — Lindley Murray's *English Grammar* codifies the adjective, the degrees of comparison, and the classes of adverbs for a century of schoolroom use.
 - **1818** — William Cobbett's *A Grammar of the English Language* mocks the elaborate schemes of grammar and insists that the learner attend to usage.
 - **1892** — Henry Sweet's *A New English Grammar* treats adjectives and adverbs by their function in the sentence rather than by meaning alone.
-- **1909–1931** — Otto Jespersen's *A Modern English Grammar on Historical Principles* describes the adjective and adverb boundary, the flat adverbs, and the history of comparison.
+- **1909–1949** — Otto Jespersen's *A Modern English Grammar on Historical Principles* describes the adjective and adverb boundary, the flat adverbs, and the history of comparison.
 - **1926** — H. W. Fowler's *A Dictionary of Modern English Usage* contains the article "Split Infinitive" and the long article "Position of Adverbs."
 - **1985** — Quirk, Greenbaum, Leech, and Svartvik's *A Comprehensive Grammar of the English Language* states the zone order for premodifying adjectives and the classes of adverbials.
 - **2002** — Huddleston and Pullum's *The Cambridge Grammar of the English Language* describes adjectives and adverbs by their functions and treats the split infinitive as unproblematic.

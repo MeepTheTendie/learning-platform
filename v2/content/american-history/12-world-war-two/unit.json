@@ -4,7 +4,32 @@
   "period": "c. 1941–1945",
   "region": "The United States and the world",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/europe-map.jpg",
+      "caption": "A 1944 map of Germany and its neighbors drawn by Robert M. Chapin Jr. for Time, showing the Allied advances closing on the Reich.",
+      "credit": "M. Chapin Jr.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1944_Chapin_Map_of_Germany_during_World_War_II_for_TIME_Magazine.jpg"
+    },
+    {
+      "id": "rosie",
+      "file": "assets/rosie.jpg",
+      "caption": "J. Howard Miller's 1943 We Can Do It! poster, made for Westinghouse, became the iconic image of women war workers.",
+      "credit": "J. Howard Miller",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:We_Can_Do_It!_NARA_535413.jpg"
+    },
+    {
+      "id": "iwo-jima",
+      "file": "assets/iwo-jima.jpg",
+      "caption": "Marines raise the flag on Mount Suribachi at Iwo Jima on 23 February 1945, in Joe Rosenthal's photograph.",
+      "credit": "Joe Rosenthal",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Raising_the_Flag_on_Iwo_Jima,_by_Joe_Rosenthal.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "atlantic-charter",

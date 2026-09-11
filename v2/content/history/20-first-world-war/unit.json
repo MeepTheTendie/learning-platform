@@ -4,7 +4,32 @@
   "period": "c. 1914–1918",
   "region": "Europe and the wider world",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/europe-alliances-1914.jpg",
+      "caption": "Europe on the eve of war in 1914, showing the Triple Alliance and the Triple Entente; the alliance system turned a Balkan quarrel into a continental war.",
+      "credit": "historicair; Fluteflute; Bibi Saint-Pol",
+      "license": "CC BY-SA 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_Europe_alliances_1914-en.svg"
+    },
+    {
+      "id": "kitchener-poster",
+      "file": "assets/kitchener-poster.jpg",
+      "caption": "Alfred Leete's 1914 recruitment poster of Lord Kitchener, one of the best-known images urging British men to enlist.",
+      "credit": "Alfred Leete",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kitchener_poster_by_Alfred_Leete.jpg"
+    },
+    {
+      "id": "somme-royal-irish-rifles",
+      "file": "assets/somme-royal-irish-rifles.jpg",
+      "caption": "Royal Irish Rifles in a trench on the first day of the Battle of the Somme, 1 July 1916, the bloodiest day in British military history.",
+      "credit": "Royal Engineers No 1 Printing Company",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Royal_Irish_Rifles_ration_party_Somme_July_1916.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "austrian-ultimatum",

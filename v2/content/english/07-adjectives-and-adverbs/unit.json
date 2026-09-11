@@ -4,7 +4,32 @@
   "period": "English grammar",
   "region": "",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/lowth-portrait.jpg",
+      "caption": "Robert Lowth (1710-1787), Bishop of London, whose 1762 Short Introduction set out the adjective and the adverb as distinct parts of speech.",
+      "credit": "Robert Edge Pine",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Lowth_portrait.jpg"
+    },
+    {
+      "id": "goold-brown-portrait",
+      "file": "assets/goold-brown-portrait.jpg",
+      "caption": "Goold Brown (1791-1857), American grammarian whose 1851 Grammar of English Grammars surveyed the competing definitions of the adjective and the adverb.",
+      "credit": "The National Cyclopaedia of American Biography",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Goold_Brown_(1791%E2%80%931857).png"
+    },
+    {
+      "id": "fowler-frontispiece",
+      "file": "assets/fowler-frontispiece.jpg",
+      "caption": "H. W. Fowler (1858-1933), co-author of The King's English, whose later dictionary entry condemned 'very unique'.",
+      "credit": "H. W. Fowler",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FowlersModernEnglishUsageFrontispiece.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-adjectives",

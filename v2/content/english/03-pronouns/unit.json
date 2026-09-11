@@ -4,7 +4,32 @@
   "period": "English grammar",
   "region": "",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/english-pronouns.jpg",
+      "caption": "A table of English personal pronouns in the singular and plural, showing the forms that change with case.",
+      "credit": "JustVixo",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:English_Pronouns.png"
+    },
+    {
+      "id": "jespersen-portrait",
+      "file": "assets/jespersen-portrait.jpg",
+      "caption": "Otto Jespersen (1860–1943), who described the personal pronouns as shifters whose reference changes with the speaker.",
+      "credit": "Laurberg & Gad",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Otto_Jespersen_1919_21.jpg"
+    },
+    {
+      "id": "kittredge-portrait",
+      "file": "assets/george-lyman-kittredge.jpg",
+      "caption": "George Lyman Kittredge (1860–1941), co-author of An Advanced English Grammar with Exercises (1913), which taught case by grammatical function.",
+      "credit": "Houghton Mifflin Company",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:George_Lyman_Kittredge_(page_74_crop).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-pronouns",

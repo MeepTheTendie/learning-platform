@@ -4,7 +4,32 @@
   "period": "c. 1898–1920",
   "region": "The United States and the world",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/alliances-1914.jpg",
+      "caption": "European alliances on the eve of the First World War: the Triple Entente and the Central Powers.",
+      "credit": "historicair, Fluteflute, and Bibi Saint-Pol",
+      "license": "CC BY-SA 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_Europe_alliances_1914-en.svg"
+    },
+    {
+      "id": "maine-wreck",
+      "file": "assets/maine-wreck.jpg",
+      "caption": "The wreck of the USS Maine in Havana Harbor in 1898; its destruction helped push the United States into war with Spain.",
+      "credit": "Strohmeyer & Wyman / Underwood & Underwood",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Maine_Wreck_(1898).jpg"
+    },
+    {
+      "id": "uncle-sam",
+      "file": "assets/uncle-sam.jpg",
+      "caption": "James Montgomery Flagg's 1917 recruiting poster, with its stern Uncle Sam, became the best-known image of American mobilization in the First World War.",
+      "credit": "James Montgomery Flagg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:I_want_you_-_James_Montgomery_Flagg._LCCN93509735.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "anti-imperialist-platform",

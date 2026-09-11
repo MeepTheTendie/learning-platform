@@ -4,7 +4,32 @@
   "period": "c. 1820–1848",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/trail-of-tears-map.jpg",
+      "caption": "A map of the routes of the forced removal of the Cherokee, Muscogee, Seminole, Chickasaw, and Choctaw nations from the southeastern United States in the 1830s.",
+      "credit": "Nikater",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Trails_of_Tears_en.png"
+    },
+    {
+      "id": "american-progress",
+      "file": "assets/american-progress.jpg",
+      "caption": "John Gast's 1872 painting 'American Progress,' an allegory of westward expansion in which a floating Columbia leads settlers, railroads, and telegraph lines across the continent.",
+      "credit": "John Gast",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:American_Progress_(John_Gast_painting).jpg"
+    },
+    {
+      "id": "andrew-jackson",
+      "file": "assets/andrew-jackson.jpg",
+      "caption": "Thomas Sully's portrait of Andrew Jackson, whose presidency gave the era its name and its argument over the 'common man.'",
+      "credit": "Thomas Sully",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Andrew_Jackson_National_Gallery_of_Art_Portrait_(3x4_close_cropped).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "jackson-bank-veto",

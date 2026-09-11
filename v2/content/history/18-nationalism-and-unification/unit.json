@@ -4,7 +4,32 @@
   "period": "c. 1815–1871",
   "region": "Europe",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/europe-1815-map.jpg",
+      "caption": "Europe after the Congress of Vienna in 1815: the great powers restored dynasties and redrew borders without consulting the peoples they ruled.",
+      "credit": "Alexander Altenhof",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Europe_1815_map_en.png"
+    },
+    {
+      "id": "proclamation-german-empire",
+      "file": "assets/proclamation-german-empire.jpg",
+      "caption": "Anton von Werner's painting of the proclamation of the German Empire in the Hall of Mirrors at Versailles on 18 January 1871, with Wilhelm I at the centre.",
+      "credit": "Anton von Werner",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Anton_von_Werner_-_Kaiserproklamation_in_Versailles_1871.jpg"
+    },
+    {
+      "id": "garibaldi-1866",
+      "file": "assets/garibaldi-1866.jpg",
+      "caption": "Giuseppe Garibaldi photographed in 1866; his Expedition of the Thousand in 1860 helped make the Kingdom of Italy, proclaimed in 1861.",
+      "credit": "Fratelli Alinari",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Garibaldi_(1866).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "mazzini-nationality",

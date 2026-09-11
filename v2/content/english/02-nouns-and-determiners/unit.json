@@ -3,7 +3,32 @@
   "title": "Nouns, number, and determiners",
   "period": "English grammar",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/murray-portrait.jpg",
+      "caption": "Lindley Murray (1745–1826), whose English Grammar (1795) taught the article, the noun, and the possessive case to generations of schoolchildren.",
+      "credit": "Asher Brown Durand (after E. Westoby)",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lindley_Murray_MET_DP837784.jpg"
+    },
+    {
+      "id": "lowth-portrait",
+      "file": "assets/lowth-portrait.jpg",
+      "caption": "Robert Lowth (1710–1787), whose 1762 grammar set out the rules for the article and distinguished proper from common nouns.",
+      "credit": "Robert Edge Pine",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Lowth_portrait.jpg"
+    },
+    {
+      "id": "fowler-frontispiece",
+      "file": "assets/fowler-frontispiece.jpg",
+      "caption": "The frontispiece of H. W. Fowler's A Dictionary of Modern English Usage (1926), which classified nouns of multitude and their agreement.",
+      "credit": "H. W. Fowler",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FowlersModernEnglishUsageFrontispiece.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-grammar",

@@ -4,7 +4,32 @@
   "period": "c. 1877–1900",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/railroad-map-1890.jpg",
+      "caption": "A map of the railroad systems of the United States in 1890, the network that created a single national market in the Gilded Age.",
+      "credit": "Henry Gannett",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:372._Railroad_systems_of_the_United_States-_1890._Julius_Bien_%26_Co._Lith.,_N.Y._(1898)_(IA_dr_372-railroad-systems-of-the-united-states-1890-julius-bien-co-lith-1873060).jpg"
+    },
+    {
+      "id": "bandits-roost",
+      "file": "assets/bandits-roost.jpg",
+      "caption": "Jacob Riis's 1888 photograph 'Bandits' Roost' of a Mulberry Street alley in New York City, published in How the Other Half Lives (1890).",
+      "credit": "Jacob Riis",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Bandits_Roost,_59_and_a_half_Mulberry_Street_-_Original.jpg"
+    },
+    {
+      "id": "andrew-carnegie",
+      "file": "assets/andrew-carnegie.jpg",
+      "caption": "Andrew Carnegie, the Scottish-born steel magnate whose 1889 essay 'Wealth' argued that the rich held their surplus as trust funds for the community.",
+      "credit": "Theodore C. Marceau",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Andrew_Carnegie,_three-quarter_length_portrait,_seated,_facing_slightly_left,_1913.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "gospel-of-wealth",

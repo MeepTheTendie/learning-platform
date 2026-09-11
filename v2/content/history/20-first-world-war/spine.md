@@ -86,7 +86,7 @@
 
 **The spring offensive.** — With Russia out, Ludendorff launched a series of attacks in France in March 1918, aiming to split the British and French before American troops arrived in strength. Operation Michael broke the British line and advanced up to forty miles, the greatest German gain since 1914, but it outran its supplies, and the Allies appointed a single commander, Ferdinand Foch, to coordinate the defence. By July the German attacks had spent themselves.
 
-**The hundred days.** — On 8 August 1918 the British, Canadian, and Australian forces attacked at Amiens with massed tanks and artillery; Ludendorff called it "the black day of the German Army." From then until November the Allies advanced steadily. The German army was short of reserves and food, its allies were collapsing — Bulgaria signed an armistice on 29 September, the Ottomans on 30 October, Austria-Hungary on 3 November — and the home front was in revolt. On 4 November sailors at Kiel mutinied rather than sail for a last battle; the revolt spread, and on 9 November the kaiser abdicated and a republic was proclaimed.
+**The hundred days.** — On 8 August 1918 the British, Canadian, and Australian forces attacked at Amiens with massed tanks and artillery; Ludendorff called it "the black day of the German Army." From then until November the Allies advanced steadily. The German army was short of reserves and food, its allies were collapsing — Bulgaria signed an armistice on 29 September, the Ottomans on 30 October, Austria-Hungary on 3 November — and the home front was in revolt. On 3 November sailors at Kiel mutinied rather than sail for a last battle; the revolt spread, and on 9 November the kaiser abdicated and a republic was proclaimed.
 
 **The armistice.** — At 5 a.m. on 11 November 1918, in a railway carriage in the forest of Compiègne, German and Allied representatives signed an armistice that took effect at 11 a.m. The fighting stopped. The terms left Germany disarmed and the blockade in place until a peace treaty was signed.
 
@@ -112,7 +112,7 @@
 - **3 March 1918** — Treaty of Brest-Litovsk takes Russia out of the war.
 - **21 March 1918** — Germany begins its spring offensive.
 - **8 August 1918** — Battle of Amiens, the "black day" of the German army.
-- **4–9 November 1918** — Mutiny at Kiel; the kaiser abdicates; a republic is proclaimed.
+- **3–9 November 1918** — Mutiny at Kiel; the kaiser abdicates; a republic is proclaimed.
 - **11 November 1918** — The armistice takes effect at 11 a.m.
 - **28 June 1919** — The Treaty of Versailles is signed.
 

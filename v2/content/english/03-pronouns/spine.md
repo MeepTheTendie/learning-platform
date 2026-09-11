@@ -72,7 +72,7 @@ The test is to expand the contraction: if *it is*, *who is*, *they are*, or *you
 - **1795** — Lindley Murray, *English Grammar*, makes pronoun-antecedent agreement a rule: "in gender and number."
 - **1818** — William Cobbett, *A Grammar of the English Language*, explains the case after *than* and *as*.
 - **1850** — An Act of Parliament rules that the masculine gender includes females in legal language.
-- **1892** — Henry Sweet, *A New English Grammar*, treats usage rather than correctness as the standard.
+- **1891** — Henry Sweet, *A New English Grammar*, treats usage rather than correctness as the standard.
 - **1913** — Kittredge and Farley, *An Advanced English Grammar*, teach case by function and warn against *myself* for *me*.
 - **1924** — Otto Jespersen, *The Philosophy of Grammar*, describes the decay of case and the drift from *whom* to *who*.
 - **1926** — H. W. Fowler, *A Dictionary of Modern English Usage*, defends *whose* for things.

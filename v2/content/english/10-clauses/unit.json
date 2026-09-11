@@ -3,7 +3,32 @@
   "title": "Clauses: main and subordinate",
   "period": "English grammar",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/sweet-portrait.jpg",
+      "caption": "Henry Sweet (1845-1912), whose New English Grammar (1891) separated principal clauses from co-clauses and sub-clauses.",
+      "credit": "Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sweet_Henry.jpg"
+    },
+    {
+      "id": "lowth-wales",
+      "file": "assets/lowth-wales.jpg",
+      "caption": "Robert Lowth (1710-1787), from the Welsh Portrait Collection at the National Library of Wales; his grammar objected to the omission of the relative pronoun.",
+      "credit": "Thomas Cook",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Robert_Lowth,_D.D_(4673788).jpg"
+    },
+    {
+      "id": "jespersen-portrait",
+      "file": "assets/jespersen-portrait.jpg",
+      "caption": "Otto Jespersen (1860-1943), who treated the omitted relative in 'contact clauses' as normal English, not a careless ellipsis.",
+      "credit": "Laurberg & Gad",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Otto_Jespersen_1919_21.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-relatives",

@@ -72,7 +72,7 @@
 
 ## Chronology
 
-- **1793** — Eli Whitney patents the cotton gin; the cotton kingdom begins to spread.
+- **1793** — Eli Whitney builds the cotton gin; the cotton kingdom begins to spread.
 - **1808** — The Atlantic slave trade is banned by federal law; the domestic trade grows in its place.
 - **1816–17** — The American Colonization Society is founded to send free Black Americans to Africa.
 - **1820** — The Missouri Compromise admits Missouri as a slave state and bars slavery north of 36°30′.

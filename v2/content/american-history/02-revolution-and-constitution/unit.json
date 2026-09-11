@@ -4,7 +4,32 @@
   "period": "c. 1763–1789",
   "region": "British North America and the United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/treaty-paris-1783-map.jpg",
+      "caption": "John Cary's 1783 map of the United States, drawn to the boundaries established by the Treaty of Paris that ended the Revolutionary War.",
+      "credit": "John Cary",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:An_accurate_map_of_the_United_States_of_America,_with_part_of_the_surrounding_provinces_agreeable_to_the_Treaty_of_Peace_of_1783,_LOC_gm71005488.jpg"
+    },
+    {
+      "id": "declaration-of-independence",
+      "file": "assets/declaration-of-independence.jpg",
+      "caption": "John Trumbull's painting of the Continental Congress presenting the Declaration of Independence to John Hancock on 4 July 1776.",
+      "credit": "John Trumbull",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Declaration_of_Independence_(1819),_by_John_Trumbull.jpg"
+    },
+    {
+      "id": "constitution-page-1",
+      "file": "assets/constitution-page-1.jpg",
+      "caption": "The first page of the United States Constitution, signed at Philadelphia in 1787, opening with 'We the People of the United States.'",
+      "credit": "Constitutional Convention",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Constitution_of_the_United_States_-_DPLA_-_9ca804144bd5965e992ae3528bc3c6a3_(page_1).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "declaration-of-independence",

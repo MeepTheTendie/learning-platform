@@ -3,7 +3,32 @@
   "title": "Verbs: mood, voice, and auxiliaries",
   "period": "English grammar",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/fowler-modern-english-usage.jpg",
+      "caption": "H. W. Fowler's A Dictionary of Modern English Usage (1926), which condemned the compound passive and called the ban on split infinitives a superstition.",
+      "credit": "JohnArmagh",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:FowlersModernEnglishUsage.jpg"
+    },
+    {
+      "id": "lowth-portrait",
+      "file": "assets/lowth-portrait.jpg",
+      "caption": "Robert Lowth (1710–1787), whose grammar defined the indicative, imperative, and subjunctive moods and listed the English auxiliaries.",
+      "credit": "Robert Edge Pine",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Lowth_portrait.jpg"
+    },
+    {
+      "id": "murray-engraving",
+      "file": "assets/murray-engraving.jpg",
+      "caption": "Lindley Murray, whose school grammar defined active, passive, and neuter verbs and defended the English passive.",
+      "credit": "Dean (after E. Westoby)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Lindley_Murray.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-moods",

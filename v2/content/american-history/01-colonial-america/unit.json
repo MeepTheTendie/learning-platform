@@ -4,7 +4,32 @@
   "period": "c. 1607–1763",
   "region": "British North America",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/mitchell-map.jpg",
+      "caption": "John Mitchell's 1755 map of the British and French dominions in North America, the cartographic basis for the boundaries Britain claimed after the French and Indian War.",
+      "credit": "John Mitchell",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Mitchell_Map-06full2.jpg"
+    },
+    {
+      "id": "join-or-die",
+      "file": "assets/join-or-die.jpg",
+      "caption": "Benjamin Franklin's 1754 woodcut of a snake cut into eight pieces, captioned 'Join, or Die,' urging the colonies to unite during the French and Indian War.",
+      "credit": "Benjamin Franklin",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Franklin_-_Join_or_Die.jpg"
+    },
+    {
+      "id": "mayflower-compact",
+      "file": "assets/mayflower-compact.jpg",
+      "caption": "Jean Leon Gerome Ferris's painting of the signing of the Mayflower Compact aboard ship in 1620, when forty-one men agreed to frame their own laws.",
+      "credit": "Jean Leon Gerome Ferris",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Mayflower_Compact_1620_cph.3g07155.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "mayflower-compact",

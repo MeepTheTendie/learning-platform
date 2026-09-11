@@ -4,7 +4,32 @@
   "period": "c. 1919–1939 CE",
   "region": "Europe",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/europe-map-1919.jpg",
+      "caption": "Political map of Europe in 1919, after the treaties of Brest-Litovsk and Versailles, published by the London Geographical Institute.",
+      "credit": "London Geographical Institute",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Europe_map_1919.jpg"
+    },
+    {
+      "id": "nuremberg-rally-lichtdom",
+      "file": "assets/nuremberg-rally-lichtdom.jpg",
+      "caption": "The 'cathedral of light' over the Zeppelin Field at the Nuremberg Party Rally, staged by the Nazi regime in the 1930s.",
+      "credit": "German Federal Archives (Bundesarchiv)",
+      "license": "CC BY-SA 3.0 de",
+      "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1982-1130-502,_N%C3%BCrnberg,_Reichsparteitag,_Lichtdom.jpg"
+    },
+    {
+      "id": "mussolini-portrait",
+      "file": "assets/mussolini-portrait.jpg",
+      "caption": "Benito Mussolini, who became dictator of Fascist Italy after 1925, in an official portrait of the 1930s.",
+      "credit": "Narodowe Archiwum Cyfrowe",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Benito_Mussolini_portrait_as_dictator.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "treaty-versailles",

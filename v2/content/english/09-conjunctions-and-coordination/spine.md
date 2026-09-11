@@ -14,7 +14,7 @@
 
 ## Coordinating conjunctions
 
-**The seven.** — The coordinating conjunctions are conventionally listed as *for, and, nor, but, or, yet, so*, remembered by the mnemonic **FANBOYS**. The list is a teaching device of the twentieth century, not a canon handed down by the grammarians: Lowth grouped *for*, *and*, and *or* as copulatives and *but*, *or*, *than*, *although*, and *unless* as disjunctives, with no seven-word set anywhere in view. The list is nevertheless useful, because these are the words that behave alike in the one test that matters: they join two independent clauses without making either one dependent.
+**The seven.** — The coordinating conjunctions are conventionally listed as *for, and, nor, but, or, yet, so*, remembered by the mnemonic **FANBOYS**. The list is a teaching device of the twentieth century, not a canon handed down by the grammarians: Lowth grouped *and*, *if*, *as*, and *because* as copulatives and *or*, *but*, *than*, *although*, and *unless* as disjunctives, with no seven-word set anywhere in view. The list is nevertheless useful, because these are the words that behave alike in the one test that matters: they join two independent clauses without making either one dependent.
 
 **What each one means.** — *And* adds. *Or* offers an alternative. *But* marks a contrast. *Nor* adds a second negative after a first. *For* gives a reason, and belongs to a formal, slightly literary register. *Yet* marks a contrast or a concession. *So* gives a result. The meanings overlap, and the choice is often rhetorical rather than logical: *He is old but strong* and *He is old yet strong* say almost the same thing, with *yet* sounding more deliberate.
 

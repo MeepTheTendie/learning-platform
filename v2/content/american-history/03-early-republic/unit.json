@@ -4,7 +4,32 @@
   "period": "c. 1789–1820",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/louisiana-purchase-map.jpg",
+      "caption": "A map of the Louisiana Purchase of 1803, the 828,000 square miles France sold to the United States, doubling the size of the country.",
+      "credit": "BioKnowlogy",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Geography_028_-_Map_of_the_Louisiana_Purchase_-_1803.jpg"
+    },
+    {
+      "id": "george-washington",
+      "file": "assets/george-washington.jpg",
+      "caption": "Gilbert Stuart's portrait of George Washington, painted during his presidency and one of the most widely reproduced images of him.",
+      "credit": "Gilbert Stuart",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+    },
+    {
+      "id": "battle-of-new-orleans",
+      "file": "assets/battle-of-new-orleans.jpg",
+      "caption": "Dennis Malone Carter's 1856 painting of Andrew Jackson leading American troops at the Battle of New Orleans on 8 January 1815.",
+      "credit": "Dennis Malone Carter",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Battle_of_New_Orleans_by_Dennis_Malone_Carter,_1856.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "washington-farewell",

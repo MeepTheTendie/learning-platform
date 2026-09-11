@@ -4,7 +4,32 @@
   "period": "c. 1960–1975",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/tet-map.jpg",
+      "caption": "A map of the Tet Offensive of early 1968, when North Vietnamese and Viet Cong forces attacked cities across South Vietnam.",
+      "credit": "United States Military Academy, West Point",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Tet_Offensive_map.png"
+    },
+    {
+      "id": "apollo-11",
+      "file": "assets/apollo-11.jpg",
+      "caption": "Buzz Aldrin stands on the surface of the Moon in July 1969, photographed by Neil Armstrong during the Apollo 11 mission.",
+      "credit": "Neil A. Armstrong",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11.jpg"
+    },
+    {
+      "id": "woodstock",
+      "file": "assets/woodstock.jpg",
+      "caption": "The crowd at the Woodstock Music and Art Fair in Bethel, New York, in August 1969.",
+      "credit": "Mark Goff",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Woodstock_August_15,_1969.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "great-society",

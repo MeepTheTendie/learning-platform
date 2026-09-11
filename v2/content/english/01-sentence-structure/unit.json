@@ -3,7 +3,32 @@
   "title": "The sentence: subject and predicate",
   "period": "English grammar",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/sentencediagram.jpg",
+      "caption": "A Reed–Kellogg diagram, the nineteenth-century schoolroom method for displaying the subject and predicate of a sentence.",
+      "credit": "Nathan M. Swan",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sentencediagram.jpg"
+    },
+    {
+      "id": "lowth-portrait",
+      "file": "assets/lowth-portrait.jpg",
+      "caption": "Robert Lowth (1710–1787), Bishop of London, whose 1762 Short Introduction defined the simple sentence and its principal parts.",
+      "credit": "Robert Edge Pine",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Lowth_portrait.jpg"
+    },
+    {
+      "id": "existential-clauses",
+      "file": "assets/existential-clauses2.jpg",
+      "caption": "A diagram of existential clauses in English, the 'there is' construction that puts a dummy word in the subject position.",
+      "credit": "Snježana Kordić",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Existential_clauses2.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-sentence",

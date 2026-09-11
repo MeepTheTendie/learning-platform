@@ -4,7 +4,32 @@
   "period": "c. 1945–1960",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/cold-war-map.jpg",
+      "caption": "A map of Cold War military alliances in Europe, dividing the continent between NATO members and the Warsaw Pact.",
+      "credit": "San Jose",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cold_war_europe_military_alliances_map_en.png"
+    },
+    {
+      "id": "berlin-airlift",
+      "file": "assets/berlin-airlift.jpg",
+      "caption": "A C-54 transport lands at Tempelhof Airport in 1948 during the Berlin Airlift, which supplied West Berlin through the Soviet blockade.",
+      "credit": "U.S. Air Force",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Tempelhof_1948.jpg"
+    },
+    {
+      "id": "kitchen-debate",
+      "file": "assets/kitchen-debate.jpg",
+      "caption": "Vice President Richard Nixon and Soviet Premier Nikita Khrushchev argue at the American National Exhibition in Moscow in 1959, the Kitchen Debate.",
+      "credit": "Thomas J. O'Halloran",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kitchen_debate.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "truman-doctrine",

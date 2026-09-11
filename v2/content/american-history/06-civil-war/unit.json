@@ -4,7 +4,32 @@
   "period": "1861–1865",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/civil-war-map.jpg",
+      "caption": "M. W. Tooker's map of the Civil War, 1861-1865, showing the principal campaigns and battles and the line dividing the Union from the Confederacy.",
+      "credit": "M. W. Tooker",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Civil_War,_1861-1865_LOC_99447218.jpg"
+    },
+    {
+      "id": "abraham-lincoln-1863",
+      "file": "assets/abraham-lincoln-1863.jpg",
+      "caption": "Alexander Gardner's photograph of Abraham Lincoln, made in November 1863, the month he delivered the Gettysburg Address.",
+      "credit": "Alexander Gardner",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_November_1863.jpg"
+    },
+    {
+      "id": "antietam-confederate-dead",
+      "file": "assets/antietam-confederate-dead.jpg",
+      "caption": "Alexander Gardner's photograph of a dead Confederate soldier on the battlefield at Antietam, Maryland, in September 1862.",
+      "credit": "Alexander Gardner",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Confederate_Soldier_-on_the_Battlefield_at_Antietam-_MET_DP274793.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "emancipation-proclamation",

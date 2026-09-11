@@ -4,7 +4,32 @@
   "period": "c. 1939–1945",
   "region": "Europe, Asia, and the world",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/second-world-war-map-1942.jpg",
+      "caption": "Historical flag map of Europe in 1942, showing the Axis and Allied states during the Second World War.",
+      "credit": "Sr.Zanahoria",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:World_War_II_1942.jpg"
+    },
+    {
+      "id": "d-day-omaha-beach-1944",
+      "file": "assets/d-day-omaha-beach-1944.jpg",
+      "caption": "U.S. troops of the 1st Infantry Division wading ashore from a landing craft onto Omaha Beach, Normandy, on the morning of 6 June 1944.",
+      "credit": "Robert F. Sargent, U.S. Coast Guard",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg"
+    },
+    {
+      "id": "warsaw-ghetto-uprising-1943",
+      "file": "assets/warsaw-ghetto-uprising-1943.jpg",
+      "caption": "From the Stroop Report: Jews removed from hiding during the suppression of the Warsaw Ghetto Uprising, April–May 1943.",
+      "credit": "Stroop Report; U.S. National Archives",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Stroop_Report_-_Warsaw_Ghetto_Uprising_06b.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "nazi-soviet-pact",

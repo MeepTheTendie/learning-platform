@@ -4,7 +4,32 @@
   "period": "English grammar",
   "region": "",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/sweet-portrait.jpg",
+      "caption": "Henry Sweet (1845–1912), whose New English Grammar (1891–98) described the definite tenses formed with be and the present participle.",
+      "credit": "Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sweet_Henry.jpg"
+    },
+    {
+      "id": "cobbett-portrait",
+      "file": "assets/cobbett-portrait.jpg",
+      "caption": "William Cobbett (1763–1835), who argued in his 1818 grammar that there are only three times: present, past, and future.",
+      "credit": "Francesco Bartolozzi (after J. R. Smith)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:William_Cobbett,_PA06868.jpg"
+    },
+    {
+      "id": "murray-engraving",
+      "file": "assets/murray-engraving.jpg",
+      "caption": "Lindley Murray, engraved by Dean after a painting by E. Westoby; his grammar set out six tenses and the rule for the perfect and the imperfect.",
+      "credit": "Dean (after E. Westoby)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Lindley_Murray.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "lowth-grammar",

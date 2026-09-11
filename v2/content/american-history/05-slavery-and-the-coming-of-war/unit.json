@@ -4,7 +4,32 @@
   "period": "c. 1820–1860",
   "region": "The United States",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/free-and-slave-states-map.jpg",
+      "caption": "An 1856 map using color to show the free states, the slave states, and the western territories whose fate on slavery was still undecided, with the Missouri Compromise line marked.",
+      "credit": "Norman B. Leventhal Map Center at the Boston Public Library",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_of_the_United_States,_showing_by_colors_the_area_of_freedom_and_slavery,_and_the_territories_whose_destiny_is_yet_to_be_decided,_exhibiting_also_the_Missouri_compromise_line,_and_the_routes_of_(4578788503).jpg"
+    },
+    {
+      "id": "frederick-douglass",
+      "file": "assets/frederick-douglass.jpg",
+      "caption": "A photograph of Frederick Douglass, the escaped slave, author, and orator whose 1845 Narrative and newspaper the North Star made him the leading Black voice against slavery.",
+      "credit": "Library of Congress",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Frederick_Douglass,_head-and-shoulders_portrait,_facing_right,_ca_1850-1860.jpg"
+    },
+    {
+      "id": "uncle-toms-cabin",
+      "file": "assets/uncle-toms-cabin.jpg",
+      "caption": "The first edition of Harriet Beecher Stowe's Uncle Tom's Cabin (1852), which sold 300,000 copies in the United States in its first year.",
+      "credit": "Harriet Beecher Stowe",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Uncle_Toms_Cabin_1st_edition_Womens_Museum.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "douglass-narrative",

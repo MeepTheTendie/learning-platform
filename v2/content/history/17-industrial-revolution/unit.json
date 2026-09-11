@@ -4,7 +4,32 @@
   "period": "c. 1750–1900 CE",
   "region": "Britain, Europe, and the wider world",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/rain-steam-and-speed.jpg",
+      "caption": "J. M. W. Turner's 'Rain, Steam and Speed – The Great Western Railway' (1844) shows a locomotive crossing the Maidenhead Railway Bridge as railways transformed travel in Britain.",
+      "credit": "J. M. W. Turner",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Turner_-_Rain,_Steam_and_Speed_-_National_Gallery_file.jpg"
+    },
+    {
+      "id": "coalbrookdale-by-night",
+      "file": "assets/coalbrookdale-by-night.jpg",
+      "caption": "Philip James de Loutherbourg's painting of the ironworks at Coalbrookdale, Shropshire, by night (1801) captures the new industrial landscape of furnaces and forges.",
+      "credit": "Philip James de Loutherbourg",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Philipp_Jakob_Loutherbourg_d._J._002.jpg"
+    },
+    {
+      "id": "powerloom-weaving-1835",
+      "file": "assets/powerloom-weaving-1835.jpg",
+      "caption": "Power-loom weaving in 1835, engraved by J. Tingle after T. Allom for Edward Baines's history of the cotton manufacture; the power loom moved weaving from the cottage into the factory.",
+      "credit": "T. Allom (illustrator); J. Tingle (engraver)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Powerloom_weaving_in_1835.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "engels-manchester",
