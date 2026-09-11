@@ -94,14 +94,15 @@ const rc=()=>{try{return JSON.parse(localStorage.getItem(ck))||{}}catch{return{}
 const paint=btn=>{const d=rc()[btn.dataset.complete]===true;btn.textContent=d?'✓ Unit complete':'Mark unit complete';btn.classList.toggle('done',d);};
 document.querySelectorAll('[data-complete]').forEach(btn=>{btn.addEventListener('click',()=>{const v=rc();v[btn.dataset.complete]=!v[btn.dataset.complete];localStorage.setItem(ck,JSON.stringify(v));paint(btn);});paint(btn);});`;
 
-  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1><div class="meta">${esc(unit.period)} · ${esc(unit.region)}</div>${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button></div><footer>Primary sources only. Nothing here is modern commentary.</footer>`;
+  const meta = [unit.period, unit.region].filter(Boolean).map(esc).join(' · ');
+  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button></div><footer>Primary sources only. Nothing here is modern commentary.</footer>`;
   const out = path.join(outDir, subject, `${unit.id}.html`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, layout(`${unit.title} — Sources`, body, script));
   return `<li data-unit="${esc(unit.id)}"><a href="${subject}/${unit.id}.html">${esc(unit.title)}</a> <span class="meta">${esc(unit.period)}</span></li>`;
 }
 
-const subjects = ['history'];
+const subjects = fs.readdirSync(contentDir).filter(name => fs.statSync(path.join(contentDir, name)).isDirectory()).sort();
 const lists: string[] = [];
 for (const subject of subjects) {
   const subjectDir = path.join(contentDir, subject);
@@ -117,5 +118,5 @@ for (const subject of subjects) {
   lists.push(`<h2>${esc(subject[0].toUpperCase() + subject.slice(1))}</h2><ul>${entries.join('')}</ul>`);
 }
 const indexScript = `const ck='sourcebook-complete';const rc=()=>{try{return JSON.parse(localStorage.getItem(ck))||{}}catch{return{}}};const c=rc();document.querySelectorAll('[data-unit]').forEach(li=>{if(c[li.dataset.unit]===true){li.classList.add('done');const a=li.querySelector('a');if(a)a.insertAdjacentHTML('afterbegin','✓ ');}});`;
-fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">History, taught from the period's own documents.</p>${lists.join('')}`, indexScript));
+fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">Taught from the period's own documents.</p>${lists.join('')}`, indexScript));
 console.log('Rendered to dist/.');

@@ -8,12 +8,18 @@ import { lintFraming } from '../src/framing-lint.ts';
 const contentDir = path.resolve(new URL('../content', import.meta.url).pathname);
 
 function units() {
-  const subjectDir = path.join(contentDir, 'history');
-  return fs.readdirSync(subjectDir).filter(name => fs.statSync(path.join(subjectDir, name)).isDirectory()).sort()
-    .map(name => ({ dir: path.join(subjectDir, name), unit: UnitSchema.parse(JSON.parse(fs.readFileSync(path.join(subjectDir, name, 'unit.json'), 'utf8'))) }));
+  const subjects = fs.readdirSync(contentDir).filter(name => fs.statSync(path.join(contentDir, name)).isDirectory()).sort();
+  const all: { dir: string; unit: ReturnType<typeof UnitSchema.parse> }[] = [];
+  for (const subject of subjects) {
+    const subjectDir = path.join(contentDir, subject);
+    for (const name of fs.readdirSync(subjectDir).filter(entry => fs.statSync(path.join(subjectDir, entry)).isDirectory()).sort()) {
+      all.push({ dir: path.join(subjectDir, name), unit: UnitSchema.parse(JSON.parse(fs.readFileSync(path.join(subjectDir, name, 'unit.json'), 'utf8'))) });
+    }
+  }
+  return all;
 }
 
-test('every history unit satisfies the schema', () => {
+test('every unit satisfies the schema', () => {
   const all = units();
   assert.ok(all.length >= 1);
   for (const { unit } of all) assert.ok(unit.sources.length >= 1);

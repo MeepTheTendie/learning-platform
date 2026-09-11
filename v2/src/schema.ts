@@ -60,8 +60,8 @@ export const InterpretationSchema = z.object({
 export const UnitSchema = z.object({
   id: z.string().regex(/^[0-9]{2}-[a-z0-9-]+$/),
   title: z.string().min(3),
-  period: z.string().min(3),
-  region: z.string().min(3),
+  period: z.string().default(''),
+  region: z.string().default(''),
   spine: z.string().regex(/^spine\.md$/),
   images: z.array(ImageSchema).default([]),
   sources: z.array(SourceSchema).min(1),

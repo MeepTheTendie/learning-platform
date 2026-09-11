@@ -5,7 +5,7 @@ import { lintFraming } from '../src/framing-lint.ts';
 
 const root = path.resolve(new URL('..', import.meta.url).pathname);
 const contentDir = path.join(root, 'content');
-const subjects = ['history'];
+const subjects = fs.readdirSync(contentDir).filter(name => fs.statSync(path.join(contentDir, name)).isDirectory()).sort();
 const errors: string[] = [];
 const manifest: string[] = ['# Content manifest', '', 'Every source and its license, generated from the unit files.', ''];
 
@@ -31,7 +31,7 @@ for (const subject of subjects) {
     }
     for (const term of lintFraming(unit.title)) errors.push(`${unit.id}/unit.json title: framing term "${term}"`);
 
-    manifest.push(`## ${unit.id} — ${unit.title}`, '', `${unit.period} · ${unit.region}`, '');
+    manifest.push(`## ${unit.id} — ${unit.title}`, '', [unit.period, unit.region].filter(Boolean).join(' · '), '');
     for (const source of unit.sources) {
       const sourcePath = path.join(dir, source.file);
       if (!fs.existsSync(sourcePath)) errors.push(`${unit.id}/${source.file}: missing file`);
