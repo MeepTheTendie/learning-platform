@@ -1,0 +1,205 @@
+{
+  "id": "10-regions-of-the-world",
+  "title": "The regions of the world",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "strabo-geography",
+      "title": "The inhabited world and its continents",
+      "author": "Strabo of Amasia",
+      "date": "c. 20 CE",
+      "citation": "The Geography of Strabo, translated by H. C. Hamilton and W. Falconer (London: Henry G. Bohn, 1854–1857), Book II, Chapter 5, section 26. Text via the Perseus Digital Library.",
+      "license": "Public domain",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0239:book=2:chapter=5:section=26",
+      "file": "sources/strabo-geography.md",
+      "context": "Strabo, a Greek geographer writing under Augustus and Tiberius, set out to describe the whole inhabited world. Here he divides it into three continents and begins his survey with Europe, arguing that climate and landscape shape the character of its peoples.",
+      "questions": [
+        "Which three continents does Strabo name, and what does he say borders each of them?",
+        "Why does Strabo begin his description with Europe, and what does he claim Europe is especially good for?",
+        "Strabo links climate to character — peace in mild lands, bravery in sterile ones. What does that argument assume, and what does it leave out?"
+      ]
+    },
+    {
+      "id": "periplus-erythraean",
+      "title": "The markets of the Erythraean Sea",
+      "author": "An unknown Greek merchant",
+      "date": "c. 1st century CE",
+      "citation": "The Periplus of the Erythraean Sea, translated and annotated by Wilfred H. Schoff (New York: Longmans, Green, and Co., 1912), sections 4, 6, 49, and 64. Text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Periplus_of_the_Erythraean_Sea",
+      "file": "sources/periplus-erythraean.md",
+      "context": "A merchant's handbook for the sea route from Egypt to India, listing the ports, the goods each traded, and the winds that carried ships. It describes Adulis on the Red Sea, Barygaza in India, and a land called This, from which silk came.",
+      "questions": [
+        "What goods does the Periplus say were imported into Adulis, and what was exported from it?",
+        "The author names the season for sailing and the winds that favour the voyage. What kind of knowledge is this, and who needed it?",
+        "The Periplus lists goods from Egypt, Arabia, India, and a land it calls This. What does the list show about how these regions depended on one another?"
+      ]
+    },
+    {
+      "id": "tordesillas",
+      "title": "The line of Tordesillas",
+      "author": "Ferdinand and Isabella of Spain and John II of Portugal",
+      "date": "7 June 1494",
+      "citation": "Treaty between Spain and Portugal concluded at Tordesillas, 7 June 1494, translated in Frances Gardiner Davenport, European Treaties Bearing on the History of the United States to 1648 (Washington: Carnegie Institution of Washington, 1917). Text via the Avalon Project.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/15th_century/mod001.asp",
+      "file": "sources/tordesillas.md",
+      "context": "Spain and Portugal agreed to draw a straight line from pole to pole 370 leagues west of the Cape Verde Islands, giving Portugal the lands to the east and Spain those to the west. The treaty then orders a joint survey to fix the line at sea.",
+      "questions": [
+        "Where exactly was the line to be drawn, and who was to get the lands on each side of it?",
+        "How were the two parties to agree on the line's position, and what did they plan to build where it crossed land?",
+        "The line was drawn through ocean that neither party had surveyed. What does the treaty assume about the right to divide lands its authors had not seen?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "mackinder-heartland",
+      "historian": "Halford J. Mackinder",
+      "work": "The Geographical Pivot of History",
+      "year": "1904",
+      "claim": "Mackinder argued that the interior of Eurasia — the 'Heartland' — was the pivot of world power, because it was closed to sea power and open to the movement of armies by horse and later by rail. In his view the physical map, not culture or wealth, decided which regions mattered, and whoever held the Heartland could dominate the 'World-Island.'",
+      "note": "The prediction failed: no power ruling the Heartland achieved world domination, and air power, missiles, and trade networks reduced the importance of the land pivot. Mackinder himself revised the thesis in 1919 and 1943, and most geographers now treat it as a period piece rather than a law."
+    },
+    {
+      "id": "lewis-wigen-myth",
+      "historian": "Martin W. Lewis and Kären Wigen",
+      "work": "The Myth of Continents: A Critique of Metageography",
+      "year": "1997",
+      "claim": "Lewis and Wigen argue that the division of the world into continents and macro-regions is a cultural construction rather than a natural fact. Europe and Asia form one continuous landmass whose boundary is arbitrary, and the spatial framework people absorb from maps — 'metageography' — quietly shapes how they rank and imagine the world.",
+      "note": "Critics answer that some divisions are physically grounded — oceans, tectonic plates, climate zones — and that no description can avoid regionalising. Lewis and Wigen agree that coarse divisions are useful; their target is the way cultural borders are mistaken for natural ones."
+    }
+  ],
+  "activities": [
+    {
+      "id": "europe-asia-line",
+      "type": "choice",
+      "prompt": "The boundary between Europe and Asia is usually drawn along…",
+      "choices": [
+        "The Ural Mountains, the Ural River, and the Caspian Sea",
+        "The Alps and the Rhine",
+        "The Pyrenees and the Danube",
+        "The Caucasus and the Black Sea alone"
+      ],
+      "answer": 0,
+      "feedback": "The Ural line was proposed by Philip Johan von Strahlenberg in 1730 and has been the common convention since."
+    },
+    {
+      "id": "continents-convention",
+      "type": "choice",
+      "prompt": "Why do geographers disagree about how many continents there are?",
+      "choices": [
+        "The land is continuous, so the divisions are conventions rather than natural facts",
+        "They cannot agree on the measurement of the oceans",
+        "Some continents have no permanent population",
+        "The continents change shape every year"
+      ],
+      "answer": 0,
+      "feedback": "Different traditions count four, five, six, or seven. Lewis and Wigen argue the continent is a cultural object, not a natural one."
+    },
+    {
+      "id": "tordesillas-divide",
+      "type": "choice",
+      "prompt": "What did the Treaty of Tordesillas divide?",
+      "choices": [
+        "The lands and seas to be claimed by Spain and Portugal",
+        "The border between France and Spain",
+        "The Mediterranean between Europe and Africa",
+        "The trade of the Baltic Sea"
+      ],
+      "answer": 0,
+      "feedback": "A line from pole to pole, 370 leagues west of the Cape Verde Islands, gave Portugal the east and Spain the west."
+    },
+    {
+      "id": "periplus-purpose",
+      "type": "choice",
+      "prompt": "The Periplus of the Erythraean Sea is mainly a list of…",
+      "choices": [
+        "Ports and the goods imported and exported at each",
+        "Laws of the Roman Empire",
+        "Stories of the gods of Egypt",
+        "Maps of the Nile's source"
+      ],
+      "answer": 0,
+      "feedback": "It is a merchant's handbook: where to sail, when, and what to buy and sell at each market-town."
+    },
+    {
+      "id": "colorado-compact",
+      "type": "choice",
+      "prompt": "Why does the Colorado River no longer reliably reach the sea?",
+      "choices": [
+        "The 1922 compact divided more water than the river carries, and the water is now almost all taken",
+        "The river changed its course to the Atlantic",
+        "A dam in Canada blocks it",
+        "The desert absorbs the entire flow"
+      ],
+      "answer": 0,
+      "feedback": "The compact was written when the river ran above its long-term average, so the promises exceed the supply."
+    },
+    {
+      "id": "aral-cause",
+      "type": "choice",
+      "prompt": "What caused the Aral Sea to shrink?",
+      "choices": [
+        "Soviet irrigation for cotton diverted the rivers that fed it",
+        "An earthquake opened a channel to the ocean",
+        "A long drought in the Arctic",
+        "The sea was drained to build a city"
+      ],
+      "answer": 0,
+      "feedback": "From the 1960s the Amu Darya and Syr Darya were sent to the cotton fields, and the sea lost about 90 per cent of its volume."
+    },
+    {
+      "id": "berlin-borders",
+      "type": "choice",
+      "prompt": "What did the Berlin Conference of 1884–85 do?",
+      "choices": [
+        "Set rules by which European powers divided Africa, producing many straight-line borders",
+        "End slavery throughout Africa",
+        "Unite the African kingdoms into one state",
+        "Draw the boundary between Europe and Asia"
+      ],
+      "answer": 0,
+      "feedback": "The borders cut through kingdoms, language areas, and grazing lands, and the independent states later kept them."
+    },
+    {
+      "id": "mackinder-claim",
+      "type": "choice",
+      "prompt": "Mackinder's 'Geographical Pivot of History' argued that world power turned on…",
+      "choices": [
+        "The interior of Eurasia, the Heartland, closed to sea power",
+        "Control of the Atlantic sea lanes",
+        "The wealth of the tropical colonies",
+        "The invention of the steam engine"
+      ],
+      "answer": 0,
+      "feedback": "Mackinder held that the physical map decided which regions mattered. Later events and technologies undercut the claim."
+    },
+    {
+      "id": "lewis-wigen-claim",
+      "type": "choice",
+      "prompt": "Lewis and Wigen's The Myth of Continents argues that continents are…",
+      "choices": [
+        "Cultural constructions, not natural objects",
+        "Fixed by tectonic plates",
+        "The same in every tradition",
+        "Defined only by climate"
+      ],
+      "answer": 0,
+      "feedback": "They call the spatial framework we absorb from maps 'metageography' and warn that it smuggles cultural hierarchy into geography."
+    },
+    {
+      "id": "reflect-region-making",
+      "type": "short-answer",
+      "prompt": "Strabo describes Europe as a continent whose climate and landscape shape its peoples. The Periplus lists what merchants carried from one coast to another. Compare what each source treats as the thing that makes a region, and what each takes for granted.",
+      "context": "Strabo: 'We will commence with Europe, both because its figure is more varied, and also because it is the quarter most favourable to the mental and social ennoblement of man.' — Periplus: 'There are imported into these places, undressed cloth made in Egypt for the Berbers ... Likewise from the district of Ariaca across this sea, there are imported Indian iron, and steel, and Indian cotton cloth.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each treats as the defining feature of a region",
+        "uses a specific detail from each passage"
+      ]
+    }
+  ]
+}

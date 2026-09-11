@@ -1,0 +1,205 @@
+{
+  "id": "07-population-and-migration",
+  "title": "Population and migration",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "malthus-population",
+      "title": "An Essay on the Principle of Population (excerpt)",
+      "author": "Thomas Robert Malthus",
+      "date": "1798",
+      "citation": "An Essay on the Principle of Population, as it Affects the Future Improvement of Society (London: J. Johnson, 1798), Chapters 1, 2, and 4. Project Gutenberg eBook 4239.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/4239",
+      "file": "sources/malthus-population.md",
+      "context": "Malthus published the first, anonymous edition in 1798 as an argument against the perfectibility of society. The passages below give his two postulates, his two ratios, and the checks he said kept population and food together.",
+      "questions": [
+        "What two postulates does Malthus begin from, and why does he think they cannot change?",
+        "How does the American example function in his argument, and what does he assume about it?",
+        "What does Malthus mean by a positive check and a preventive check, and what does he say they resolve into?"
+      ]
+    },
+    {
+      "id": "welton-census",
+      "title": "On the inaccuracies which probably exist in the census returns of ages",
+      "author": "Thomas A. Welton, F.S.S.",
+      "date": "1876",
+      "citation": "On the Inaccuracies which Probably Exist in the Census Returns of Ages (Liverpool: T. Brakell, 1876). Project Gutenberg eBook 67037.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/67037",
+      "file": "sources/welton-census.md",
+      "context": "Welton, a Fellow of the Statistical Society, tested whether the ages recorded in the 1851 and 1861 censuses of England and Wales were consistent. He found emigration and age misreporting large enough to distort the figures.",
+      "questions": [
+        "What made Welton distrust the census returns of ages?",
+        "How does emigration appear in his comparison of the 1851 and 1861 counts?",
+        "What does the Irish table of round-number ages suggest about how people answered the enumerator?"
+      ]
+    },
+    {
+      "id": "antin-exodus",
+      "title": "The exodus from Polotzk",
+      "author": "Mary Antin",
+      "date": "1912, describing the 1890s",
+      "citation": "The Promised Land (Boston: Houghton Mifflin, 1912), Chapter VIII, 'The Exodus.' Project Gutenberg eBook 20885.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/20885",
+      "file": "sources/antin-exodus.md",
+      "context": "Antin's family left Russian Poland for Boston in the 1890s; her father went first and sent for the rest. The passage describes the weeks after the steamer ticket reached the family in Polotzk.",
+      "questions": [
+        "What does the passage show about how news and letters linked Polotzk to America?",
+        "Which details suggest the journey was expensive, risky, and widely discussed?",
+        "What does the story of Hayye Dvoshe's son suggest about the information families had?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "boserup-agricultural-intensification",
+      "historian": "Ester Boserup",
+      "work": "The Conditions of Agricultural Growth: The Economics of Agrarian Change under Population Pressure",
+      "year": "1965",
+      "claim": "Boserup argued that population growth is a cause, not merely a consequence, of agricultural change: as land grows scarce, farmers shorten fallows and adopt more intensive methods, so rising numbers can spur higher output rather than famine.",
+      "note": "Malthusians reply that intensification has limits and costs, and that where institutions fail, population pressure can still produce hunger and land degradation. The two arguments describe different mechanisms, and both can be observed."
+    },
+    {
+      "id": "zelinsky-mobility-transition",
+      "historian": "Wilbur Zelinsky",
+      "work": "The Hypothesis of the Mobility Transition",
+      "year": "1971",
+      "claim": "Zelinsky argued that migration follows the demographic transition in a predictable sequence: as a society changes, it moves from little mobility through mass rural-to-urban movement and emigration toward low internal movement and high circulation, so fertility, mortality, and mobility shift together.",
+      "note": "Critics say the sequence fits Europe and its settler societies better than much of Africa and Asia, where movement is often circular and state restrictions, not development, shape it. The model is a hypothesis, not a settled law."
+    }
+  ],
+  "activities": [
+    {
+      "id": "demographic-equation",
+      "type": "choice",
+      "prompt": "Which equation gives the change in a country's population over a year?",
+      "choices": [
+        "Births minus deaths plus net migration",
+        "Births plus deaths minus migration",
+        "The census count divided by area",
+        "The number of households times average size"
+      ],
+      "answer": 0,
+      "feedback": "Population change is births minus deaths, plus the number who arrive, minus the number who leave."
+    },
+    {
+      "id": "census-purpose",
+      "type": "choice",
+      "prompt": "Why did the United States require a census every ten years from 1790?",
+      "choices": [
+        "To apportion seats in the House of Representatives",
+        "To register voters for the Senate",
+        "To count church members",
+        "To set income tax rates"
+      ],
+      "answer": 0,
+      "feedback": "The Constitution ties representation to a decennial count of the population, which is why the census is political as well as statistical."
+    },
+    {
+      "id": "replacement-fertility",
+      "type": "choice",
+      "prompt": "What total fertility rate is usually taken as replacement level?",
+      "choices": [
+        "About 2.1 children per woman",
+        "About 1.0 children per woman",
+        "About 4.0 children per woman",
+        "About 6.0 children per woman"
+      ],
+      "answer": 0,
+      "feedback": "About 2.1 allows for children who die before reaching childbearing age. Rates below it shrink a population over time."
+    },
+    {
+      "id": "transition-order",
+      "type": "choice",
+      "prompt": "In the demographic transition, which rate usually falls first?",
+      "choices": [
+        "The death rate",
+        "The birth rate",
+        "Both at once",
+        "Neither; the population stays stable"
+      ],
+      "answer": 0,
+      "feedback": "Death rates fall first while birth rates remain high, and that gap is what drives rapid growth in stage two."
+    },
+    {
+      "id": "pyramid-shape",
+      "type": "choice",
+      "prompt": "A population pyramid with a very wide base and a narrow top most likely belongs to a country with…",
+      "choices": [
+        "High birth rates and few old people",
+        "Low birth rates and many old people",
+        "A workforce recovering from war",
+        "Mostly elderly migrants"
+      ],
+      "answer": 0,
+      "feedback": "A wide base means many children; a narrow top means few elderly. Niger's pyramid has that shape."
+    },
+    {
+      "id": "malthus-ratios",
+      "type": "choice",
+      "prompt": "Malthus argued that population tends to increase…",
+      "choices": [
+        "Geometrically, while food increases arithmetically",
+        "Arithmetically, while food increases geometrically",
+        "At exactly the same rate as food",
+        "Only when food is abundant"
+      ],
+      "answer": 0,
+      "feedback": "For Malthus population doubles (1, 2, 4, 8) while food is said to rise by equal increments (1, 2, 3, 4)."
+    },
+    {
+      "id": "boserup-argument",
+      "type": "choice",
+      "prompt": "Ester Boserup argued that population growth…",
+      "choices": [
+        "Can drive farmers to intensify production",
+        "Always leads to famine",
+        "Has no effect on farming",
+        "Is caused by agricultural surplus"
+      ],
+      "answer": 0,
+      "feedback": "Boserup reversed Malthus: scarcity of land pushes farmers to shorten fallows, irrigate, and crop more often."
+    },
+    {
+      "id": "refugee-definition",
+      "type": "choice",
+      "prompt": "Under the 1951 Refugee Convention, a refugee is a person who…",
+      "choices": [
+        "Has crossed a border and fears persecution at home",
+        "Has moved within their own country",
+        "Leaves to find higher wages",
+        "Is displaced by a flood"
+      ],
+      "answer": 0,
+      "feedback": "The Convention covers people outside their country with a well-founded fear of persecution; those displaced inside it are internally displaced persons."
+    },
+    {
+      "id": "ravenstein-distance",
+      "type": "choice",
+      "prompt": "Ravenstein's studies of migration found that most migrants…",
+      "choices": [
+        "Move only a short distance",
+        "Cross an ocean",
+        "Are elderly",
+        "Move permanently to another continent"
+      ],
+      "answer": 0,
+      "feedback": "Ravenstein observed stepwise, short-distance movement, counter-streams, and a predominance of young adults."
+    },
+    {
+      "id": "compare-counting",
+      "type": "short-answer",
+      "prompt": "Welton's census study and Antin's memoir both describe migration, but they are different kinds of source. Compare what each reveals about migration and what each cannot show.",
+      "context": "Welton: 'partly owing to the effect of emigration, the ratios of increase at particular ages are very diversified.' — Antin: 'Before sunset the news was all over Polotzk that Hannah Hayye had received a steamer ticket for America. Then they began to come.'",
+      "rubric": [
+        "refers to both sources",
+        "identifies what each source can and cannot show",
+        "uses a specific detail from each text"
+      ]
+    }
+  ]
+}

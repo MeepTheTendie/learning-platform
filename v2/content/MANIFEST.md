@@ -2,6 +2,107 @@
 
 Every source and its license, generated from the unit files.
 
+## 01-maps-and-projections — Maps and projections
+
+From Ptolemy to Web Mercator · The whole earth
+
+- **Geography and chorography (Book I)** — Claudius Ptolemy, c. 150 CE. Public domain. Geography of Claudius Ptolemy, translated by Edward Luther Stevenson (New York: New York Public Library, 1932), Book I.1, I.11–12. Text via ToposText.
+- **Maps and map-making before Mercator** — Charles P. Daly, 1880. Public domain. Charles P. Daly, 'Maps and Map-Making Before Mercator,' Popular Science Monthly, vol. 16 (February 1880), an address to the American Geographical Society. Wikisource.
+- **A plan of the Bay of Rio de Janeiro** — James Cook, December 1768. Public domain. Captain Cook's Journal During His First Voyage Round the World, edited by W. J. L. Wharton (London: Elliot Stock, 1893), entry for December 1768. Project Gutenberg eBook 8106.
+- interpretation: J. B. Harley, *Deconstructing the Map* (1989)
+- interpretation: Mark Monmonier, *How to Lie with Maps* (1991)
+
+## 02-latitude-longitude-time — Latitude, longitude, and time
+
+c. 150 BCE–1923 CE · The whole earth
+
+- **Of latitude and longitude** — Antonio Pigafetta, c. 1524, describing the voyage of 1519–1522. Public domain. Antonio Pigafetta, 'Treatise of Navigation,' in The First Voyage Round the World, by Magellan, translated by Lord Stanley of Alderley (London: Hakluyt Society, 1874). Text via Wikisource.
+- **On the longitude, and the trial of the watch** — John Harrison, 1767. Public domain. John Harrison, Remarks on a Pamphlet Lately published by the Rev. Mr. Maskelyne, Under the Authority of the Board of Longitude (London: W. Sandby, 1767), second edition. Project Gutenberg eBook 37321.
+- **Final Act of the International Meridian Conference** — International Meridian Conference, Washington, D.C., October 1884. Public domain. International Conference Held at Washington for the Purpose of Fixing a Prime Meridian and a Universal Day. October, 1884. Protocols of the Proceedings (Washington, D.C., 1884). Project Gutenberg eBook 17759.
+- interpretation: Dava Sobel, *Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time* (1995)
+- interpretation: William J. H. Andrewes, *The Quest for Longitude: The Proceedings of the Longitude Symposium, Harvard University, November 4–6, 1993* (1996)
+
+## 03-tectonics-and-landforms — Plate tectonics and landforms
+
+Deep time (c. 4.6 billion years) · The whole earth
+
+- **The displacement theory** — Alfred Wegener, 1915; English translation 1924. Public domain. Alfred Wegener, The Origin of Continents and Oceans, translated by J. G. A. Skerl (London: Methuen, 1924), Chapter I. Wikisource.
+- **The great earthquake at Concepcion** — Charles Darwin, 1845 (event of 20 February 1835). Public domain. Charles Darwin, The Voyage of the Beagle, second edition (1845), Chapter XII. Project Gutenberg eBook 944.
+- **Seafloor spreading and the recycling of oceanic crust** — W. Jacquelyne Kious and Robert I. Tilling, U.S. Geological Survey, 1996. Public domain (U.S. Government work). W. J. Kious and R. I. Tilling, This Dynamic Earth: The Story of Plate Tectonics (U.S. Geological Survey, 1996), chapter 'Developing the theory.'
+- interpretation: Naomi Oreskes, *The Rejection of Continental Drift: Theory and Method in American Earth Science* (1999)
+- interpretation: J. Tuzo Wilson, *A New Class of Faults and their Bearing on Continental Drift* (1965)
+
+## 04-climate-and-weather — Climate and weather
+
+The whole earth
+
+- **An essay on the winds and the currents of the ocean** — William Ferrel, 1856. Public domain. William Ferrel, 'An Essay on the Winds and the Currents of the Ocean,' Nashville Journal of Medicine and Surgery (1856). Text via Wikisource.
+- **Weather journal at Fort Mandan and a note on the Missouri plains** — Meriwether Lewis and William Clark, December 1804 and May 1805. Public domain. The Journals of Lewis and Clark, 1804-1806, edited by Reuben Gold Thwaites (New York: Dodd, Mead, 1904-05). Project Gutenberg eBook 8419.
+- **The lands of the arid region of the United States** — John Wesley Powell, 1878-79. Public domain (U.S. Government work). John Wesley Powell, Report on the Lands of the Arid Region of the United States, 2nd ed. (Washington: Government Printing Office, 1879). Project Gutenberg eBook 69995.
+- interpretation: Gilbert Walker, *Correlation in Seasonal Variations of Weather* (1923)
+- interpretation: James Hansen, *Global warming in the twenty-first century: An alternative scenario* (2000)
+
+## 05-biomes-and-vegetation — Biomes and vegetation
+
+The whole earth
+
+- **The llanos, or steppes** — Alexander von Humboldt and Aimé Bonpland, 1800, published 1851. Public domain. Personal Narrative of Travels to the Equinoctial Regions of America, During the Years 1799–1804, Vol. 2, translated by Thomasina Ross (London: Henry G. Bohn, 1851), Chapter 17. Project Gutenberg eBook 7014.
+- **The pampas and the grazing of the plains** — Charles Darwin, 1833, published 1845. Public domain. Journal of Researches into the Natural History and Geology of the Countries Visited During the Voyage of H.M.S. Beagle, 2nd ed. (London: John Murray, 1845), Chapter VII, 'Buenos Ayres and St. Fe.' Project Gutenberg eBook 944.
+- **Plows to the plains, and the dust** — Russell Lord (U.S. Soil Conservation Service), 1938. Public domain. To Hold This Soil, U.S. Department of Agriculture, Miscellaneous Publication No. 321 (Washington: Government Printing Office, 1938), pp. 63–77.
+- interpretation: Frederic E. Clements, *Plant Succession: An Analysis of the Development of Vegetation* (1916)
+- interpretation: Donald Worster, *Dust Bowl: The Southern Plains in the 1930s* (1979)
+
+## 06-water-rivers-and-oceans — Water, rivers, and oceans
+
+The whole earth
+
+- **The canyon and the river** — John Wesley Powell, 1895 (expedition of 1869). Public domain. John Wesley Powell, Canyons of the Colorado (Meadville, Pa.: Flood & Vincent, 1895), Chapters VII, X, and XI. Project Gutenberg eBook 8082.
+- **The Colorado River Compact** — The States of Arizona, California, Colorado, Nevada, New Mexico, Utah, and Wyoming, 24 November 1922. Public domain. Certified text of the Colorado River Compact, signed at Santa Fe, New Mexico, 24 November 1922, in Governor's Message on the Colorado River Compact (Phoenix: State of Arizona, 1922). Internet Archive.
+- **There is a river in the ocean** — Matthew Fontaine Maury, 1855. Public domain. Matthew Fontaine Maury, The Physical Geography of the Sea (New York: Harper & Brothers, 1855), Chapter I, 'The Gulf Stream.' Wikisource transcription of the third edition.
+- interpretation: Luna B. Leopold, *Fluvial Processes in Geomorphology* (1964)
+- interpretation: Karl A. Wittfogel, *Oriental Despotism: A Comparative Study of Total Power* (1957)
+
+## 07-population-and-migration — Population and migration
+
+The whole earth
+
+- **An Essay on the Principle of Population (excerpt)** — Thomas Robert Malthus, 1798. Public domain. An Essay on the Principle of Population, as it Affects the Future Improvement of Society (London: J. Johnson, 1798), Chapters 1, 2, and 4. Project Gutenberg eBook 4239.
+- **On the inaccuracies which probably exist in the census returns of ages** — Thomas A. Welton, F.S.S., 1876. Public domain. On the Inaccuracies which Probably Exist in the Census Returns of Ages (Liverpool: T. Brakell, 1876). Project Gutenberg eBook 67037.
+- **The exodus from Polotzk** — Mary Antin, 1912, describing the 1890s. Public domain. The Promised Land (Boston: Houghton Mifflin, 1912), Chapter VIII, 'The Exodus.' Project Gutenberg eBook 20885.
+- interpretation: Ester Boserup, *The Conditions of Agricultural Growth: The Economics of Agrarian Change under Population Pressure* (1965)
+- interpretation: Wilbur Zelinsky, *The Hypothesis of the Mobility Transition* (1971)
+
+## 08-cities-and-urbanization — Cities and urbanization
+
+The whole earth
+
+- **Royal Ordinances Concerning the Laying Out of New Towns** — Philip II of Spain, translated by Zelia Nuttall, 1573; Nuttall translation 1921. Public domain. Zelia Nuttall, 'Royal Ordinances Concerning the Laying Out of New Towns,' The Hispanic American Historical Review, Vol. 4, No. 4 (1921), pp. 743-753. Internet Archive.
+- **Manchester: the separation of the classes** — Friedrich Engels, 1845; Florence Kelley translation 1892. Public domain. Friedrich Engels, The Condition of the Working-Class in England in 1844, translated by Florence Kelley Wischnewetzky (London: Swan Sonnenschein, 1892), Chapter 5. Project Gutenberg eBook 17306.
+- **Baghdad under the Abbasids** — Yakut (Yaqut al-Hamawi), in an English anthology, describing Baghdad c. 1000 CE; anthology 1912. Public domain. William Stearns Davis, ed., Readings in Ancient History: Illustrative Extracts from the Sources, Vol. II: Rome and the West (Boston: Allyn and Bacon, 1912-13), pp. 365-367. Internet Medieval Sourcebook, Fordham University.
+- interpretation: Ernest W. Burgess, *The Growth of the City: An Introduction to a Research Project* (1925)
+- interpretation: Saskia Sassen, *The Global City: New York, London, Tokyo* (1991)
+
+## 09-agriculture-resources-and-trade — Agriculture, resources, and trade
+
+The whole earth
+
+- **The isolated state and its concentric rings** — Johann Heinrich von Thünen, 1826; this edition 1910. Public domain. Der isolierte Staat in Beziehung auf Landwirtschaft und Nationalökonomie, Part I, §§1–3, edited by Heinrich Waentig (Jena: Gustav Fischer, 1910). German text from the Internet Archive; the English rendering in the source file was supplied for this reader.
+- **Human labour in unison with the steam-engine** — R. Rickards and Leonard Horner, Inspectors of Factories, 1834. Public domain. Reports of the Inspectors of Factories to Her Majesty's Principal Secretary of State for the Home Department, presented 11 August 1834 (London: House of Commons, 1834). Digitized by the Bavarian State Library, Internet Archive.
+- **Non-interference with trade and the distribution of food** — The Indian Famine Commission (President: General E. Strachey), 1880. Public domain. Report of the Indian Famine Commission, 1880, Part I (London: Her Majesty's Stationery Office, 1880), Chapter II, §§44–46, and the statement of instructions, §7. Internet Archive.
+- interpretation: Johann Heinrich von Thünen, *Der isolierte Staat (The Isolated State)* (1826)
+- interpretation: Alfred Weber, *Über den Standort der Industrien (Theory of the Location of Industries)* (1909)
+- interpretation: Amartya Sen, *Poverty and Famines: An Essay on Entitlement and Deprivation* (1981)
+
+## 10-regions-of-the-world — The regions of the world
+
+The whole earth
+
+- **The inhabited world and its continents** — Strabo of Amasia, c. 20 CE. Public domain. The Geography of Strabo, translated by H. C. Hamilton and W. Falconer (London: Henry G. Bohn, 1854–1857), Book II, Chapter 5, section 26. Text via the Perseus Digital Library.
+- **The markets of the Erythraean Sea** — An unknown Greek merchant, c. 1st century CE. Public domain. The Periplus of the Erythraean Sea, translated and annotated by Wilfred H. Schoff (New York: Longmans, Green, and Co., 1912), sections 4, 6, 49, and 64. Text via Wikisource.
+- **The line of Tordesillas** — Ferdinand and Isabella of Spain and John II of Portugal, 7 June 1494. Public domain. Treaty between Spain and Portugal concluded at Tordesillas, 7 June 1494, translated in Frances Gardiner Davenport, European Treaties Bearing on the History of the United States to 1648 (Washington: Carnegie Institution of Washington, 1917). Text via the Avalon Project.
+- interpretation: Halford J. Mackinder, *The Geographical Pivot of History* (1904)
+- interpretation: Martin W. Lewis and Kären Wigen, *The Myth of Continents: A Critique of Metageography* (1997)
+
 ## 01-first-cities — The first cities
 
 c. 3500–1750 BCE · Mesopotamia (Sumer, Akkad, Babylonia)

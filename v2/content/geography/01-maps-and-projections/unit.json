@@ -1,0 +1,193 @@
+{
+  "id": "01-maps-and-projections",
+  "title": "Maps and projections",
+  "period": "From Ptolemy to Web Mercator",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "ptolemy-geography",
+      "title": "Geography and chorography (Book I)",
+      "author": "Claudius Ptolemy",
+      "date": "c. 150 CE",
+      "citation": "Geography of Claudius Ptolemy, translated by Edward Luther Stevenson (New York: New York Public Library, 1932), Book I.1, I.11–12. Text via ToposText.",
+      "license": "Public domain",
+      "url": "https://topostext.org/work/209",
+      "file": "sources/ptolemy-geography.md",
+      "context": "Ptolemy's Geography opens with a definition of the subject and a defence of a world map built from coordinates rather than from travellers' tales. He then argues with his predecessor Marinos about how long the known world really is.",
+      "questions": [
+        "What does Ptolemy say distinguishes geography from chorography?",
+        "How does Ptolemy decide which distances to trust, and which to distrust?",
+        "Ptolemy corrects Marinos by cutting a distance roughly in half. What reasons does he give, and how certain can he be?"
+      ]
+    },
+    {
+      "id": "daly-maps-before-mercator",
+      "title": "Maps and map-making before Mercator",
+      "author": "Charles P. Daly",
+      "date": "1880",
+      "citation": "Charles P. Daly, 'Maps and Map-Making Before Mercator,' Popular Science Monthly, vol. 16 (February 1880), an address to the American Geographical Society. Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_16/February_1880/Maps_and_Map-Making_Before_Mercator",
+      "file": "sources/daly-maps-before-mercator.md",
+      "context": "A nineteenth-century judge and geographer surveys the long effort to put a round earth on a flat sheet. He credits Hipparchus with the first graticule and explains why Mercator's chart of 1569 changed navigation.",
+      "questions": [
+        "What does Daly say Eratosthenes and Hipparchus each contributed to mapping?",
+        "Why does Daly call Mercator the father of modern cartography?",
+        "Daly praises Mercator's projection. What does he not mention about its distortions?"
+      ]
+    },
+    {
+      "id": "cook-rio-chart",
+      "title": "A plan of the Bay of Rio de Janeiro",
+      "author": "James Cook",
+      "date": "December 1768",
+      "citation": "Captain Cook's Journal During His First Voyage Round the World, edited by W. J. L. Wharton (London: Elliot Stock, 1893), entry for December 1768. Project Gutenberg eBook 8106.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/8106",
+      "file": "sources/cook-rio-chart.md",
+      "context": "Before he explored the Pacific, Cook was a marine surveyor. Watched by Portuguese authorities at Rio de Janeiro, he sketched the bay from the deck of his ship and noted where his plan rested on the pilot's word rather than his own measurement.",
+      "questions": [
+        "What circumstances limited Cook's survey, and how does he say so?",
+        "Which parts of the plan does Cook admit are not his own observation?",
+        "Cook calls the bay a river 'improper.' What does his correction show about how he read a chart?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "harley-map-as-text",
+      "historian": "J. B. Harley",
+      "work": "Deconstructing the Map",
+      "year": "1989",
+      "claim": "Harley argued that maps are not neutral records of fact but texts that carry and reproduce power. Reading a map, he held, means attending to what it silences — the places and peoples left off the sheet — as much as to what it shows.",
+      "note": "Critics reply that Harley imported literary theory into a practical craft and sometimes read politics into decisions that were merely technical. His central claim, that a map has a point of view, is now widely accepted."
+    },
+    {
+      "id": "monmonier-necessary-distortion",
+      "historian": "Mark Monmonier",
+      "work": "How to Lie with Maps",
+      "year": "1991",
+      "claim": "Monmonier argued that distortion is not an occasional abuse but a requirement of mapping: because a map must reduce, generalise, and choose, it cannot avoid shaping the truth. The honest mapmaker states scale, projection, source, and date.",
+      "note": "His title is often misread as an accusation. Monmonier's point is that the choices are unavoidable and often inadvertent, not that cartographers set out to deceive; a reader who does not know the choices cannot judge the map."
+    }
+  ],
+  "activities": [
+    {
+      "id": "scale-meaning",
+      "type": "choice",
+      "prompt": "A map is drawn at a scale of 1:50,000. What does that mean?",
+      "choices": [
+        "One unit on the map stands for 50,000 of the same units on the ground",
+        "The map is 50,000 times larger than the ground",
+        "One centimetre on the map stands for 50,000 kilometres",
+        "The map covers exactly 50,000 square kilometres"
+      ],
+      "answer": 0,
+      "feedback": "A scale of 1:50,000 means one centimetre on the paper stands for 50,000 centimetres — half a kilometre — on the ground."
+    },
+    {
+      "id": "large-scale",
+      "type": "choice",
+      "prompt": "Which of these is a large-scale map?",
+      "choices": [
+        "A city plan at 1:1,250",
+        "A world map at 1:100,000,000",
+        "A continental map at 1:5,000,000",
+        "A road atlas at 1:250,000"
+      ],
+      "answer": 0,
+      "feedback": "A large-scale map covers a small area in detail, because the fraction is large. 1:1,250 is larger than 1:250,000."
+    },
+    {
+      "id": "mercator-purpose",
+      "type": "choice",
+      "prompt": "Why did Mercator's projection suit navigators?",
+      "choices": [
+        "A constant compass bearing appears as a straight line",
+        "It shows every country's true area",
+        "It shows the poles without distortion",
+        "It keeps every distance correct"
+      ],
+      "answer": 0,
+      "feedback": "On Mercator's chart a rhumb line — a course at a constant compass bearing — is a straight line, so a navigator can lay out a course with a ruler."
+    },
+    {
+      "id": "mercator-land",
+      "type": "choice",
+      "prompt": "What does Mercator's projection exaggerate?",
+      "choices": [
+        "The size of high-latitude regions",
+        "The size of the tropics",
+        "The length of the equator",
+        "The shape of Africa"
+      ],
+      "answer": 0,
+      "feedback": "Parallels are spaced farther apart toward the poles, so Greenland appears larger than Africa although Africa is about fourteen times its size."
+    },
+    {
+      "id": "equal-area-property",
+      "type": "choice",
+      "prompt": "An equal-area projection keeps which property correct?",
+      "choices": [
+        "The relative size of areas",
+        "Local shapes and angles",
+        "Every distance on the map",
+        "Every compass bearing"
+      ],
+      "answer": 0,
+      "feedback": "Equal-area maps preserve the relative size of countries, at the cost of distorting shape; conformal maps do the opposite."
+    },
+    {
+      "id": "peters-objection",
+      "type": "choice",
+      "prompt": "What did cartographers object to in the Peters projection?",
+      "choices": [
+        "It was the older Gall projection, renamed and presented as new",
+        "It was the first equal-area world map",
+        "It had never been drawn before",
+        "It preserved shape perfectly"
+      ],
+      "answer": 0,
+      "feedback": "James Gall published the same projection in 1855; Arno Peters promoted it in 1974 as his own invention and as the only fair world map."
+    },
+    {
+      "id": "snow-map",
+      "type": "choice",
+      "prompt": "What pattern did John Snow's 1854 map make visible?",
+      "choices": [
+        "Cholera deaths clustered around the Broad Street water pump",
+        "The route of the Thames through London",
+        "The boundaries of London parishes",
+        "The distribution of rainfall over Soho"
+      ],
+      "answer": 0,
+      "feedback": "Snow marked each death with a bar and saw them cluster around one pump, which supported his argument that cholera spread through water."
+    },
+    {
+      "id": "harley-claim",
+      "type": "choice",
+      "prompt": "J. B. Harley's 'Deconstructing the Map' argued that maps…",
+      "choices": [
+        "Carry and reproduce power and have silences",
+        "Are neutral records of fact",
+        "Should avoid using symbols",
+        "Are useful only at sea"
+      ],
+      "answer": 0,
+      "feedback": "Harley treated maps as texts tied to authority and urged readers to ask what a map leaves off as well as what it shows."
+    },
+    {
+      "id": "reflect-purpose",
+      "type": "short-answer",
+      "prompt": "Ptolemy wrote that geography shows 'the known earth as one and continuous,' while Cook admitted his plan of Rio 'hath no pretensions to accuracy.' Compare what each mapmaker thought a map was for, and what each was willing to leave uncertain.",
+      "context": "Ptolemy: 'it is the distinctive property of geography to show the known earth as one and continuous.' — Cook: 'This Plan hath no pretensions to accuracy, yet it will give a very good idea of the place, differing not much from the truth in what is Essential.'",
+      "rubric": [
+        "refers to both sources",
+        "states a purpose for each map",
+        "uses a specific phrase from the passages"
+      ]
+    }
+  ]
+}

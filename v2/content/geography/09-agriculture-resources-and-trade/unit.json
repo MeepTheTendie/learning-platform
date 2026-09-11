@@ -1,0 +1,213 @@
+{
+  "id": "09-agriculture-resources-and-trade",
+  "title": "Agriculture, resources, and trade",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "von-thunen-isolated-state",
+      "title": "The isolated state and its concentric rings",
+      "author": "Johann Heinrich von Thünen",
+      "date": "1826; this edition 1910",
+      "citation": "Der isolierte Staat in Beziehung auf Landwirtschaft und Nationalökonomie, Part I, §§1–3, edited by Heinrich Waentig (Jena: Gustav Fischer, 1910). German text from the Internet Archive; the English rendering in the source file was supplied for this reader.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/derisoliertestaa00thuoft",
+      "file": "sources/von-thunen-isolated-state.md",
+      "context": "Von Thünen owned an estate at Tellow in Mecklenburg and wrote to isolate the effect of distance from a market. He imagined a uniform plain with a single city, no river, and no outside trade, then asked what each farm would grow.",
+      "questions": [
+        "What does von Thünen assume about the plain, the city, and the roads between them?",
+        "Why does he say that fresh milk cannot be brought to the city from a distance?",
+        "What does he mean by 'concentric circles,' and what single cause produces them?"
+      ]
+    },
+    {
+      "id": "factory-inspectors-1834",
+      "title": "Human labour in unison with the steam-engine",
+      "author": "R. Rickards and Leonard Horner, Inspectors of Factories",
+      "date": "1834",
+      "citation": "Reports of the Inspectors of Factories to Her Majesty's Principal Secretary of State for the Home Department, presented 11 August 1834 (London: House of Commons, 1834). Digitized by the Bavarian State Library, Internet Archive.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/10213324bsb",
+      "file": "sources/factory-inspectors-1834.md",
+      "context": "Two inspectors report on the Factory Act of 1833. Horner records what mill-owners said about children's hours and wages; Rickards argues that labour working alongside steam power needs legal protection.",
+      "questions": [
+        "What do the mill-owners say will happen to the wages of children if their hours are shortened?",
+        "How does Rickards compare an adult worker with a child in a mill?",
+        "What does Rickards mean by calling steam 'a power that needs neither food nor rest'?"
+      ]
+    },
+    {
+      "id": "indian-famine-commission-1880",
+      "title": "Non-interference with trade and the distribution of food",
+      "author": "The Indian Famine Commission (President: General E. Strachey)",
+      "date": "1880",
+      "citation": "Report of the Indian Famine Commission, 1880, Part I (London: Her Majesty's Stationery Office, 1880), Chapter II, §§44–46, and the statement of instructions, §7. Internet Archive.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/dli.ernet.17292",
+      "file": "sources/indian-famine-commission-1880.md",
+      "context": "The Commission was appointed after the Indian famine of 1876–78. It reviews earlier famines and the argument over whether the government should leave the grain trade alone or import food itself.",
+      "questions": [
+        "What did the Governor of Bombay believe unassisted trade could do?",
+        "How many people does the report say died in Guntur, and out of what population?",
+        "What does the report say about railways and the distribution of food supplies?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "von-thunen-location-rent",
+      "historian": "Johann Heinrich von Thünen",
+      "work": "Der isolierte Staat (The Isolated State)",
+      "year": "1826",
+      "claim": "Von Thünen argued that the use of land is decided by its distance from the market. Because transport costs rise with distance, farms near a town grow perishable and heavy crops while distant farms grow grain and raise cattle, producing concentric rings of cultivation. The surplus a farm earns over its costs, which he called land rent, falls steadily with distance.",
+      "note": "Later geographers kept the model but questioned its assumptions. Refrigeration, railways, and cheap shipping let perishable goods travel far; a second market, a river, or a subsidy distorts the rings; and behavioural critics such as Allan Pred argued that farmers copy neighbours rather than calculate rents. The rings remain a clear statement of distance as a force, not a description of every landscape."
+    },
+    {
+      "id": "weber-least-cost",
+      "historian": "Alfred Weber",
+      "work": "Über den Standort der Industrien (Theory of the Location of Industries)",
+      "year": "1909",
+      "claim": "Weber argued that an industry chooses the place that minimizes its total costs — above all transport, labour, and the savings from clustering with other firms. Whether a factory loses or gains weight in manufacture decides whether it sits near the raw material or near the market. Copper smelting, which sheds most of the ore's weight, belongs at the mine; bottling, which adds weight, belongs near the buyer.",
+      "note": "Later economists kept the framework but questioned its assumptions. Firms are not perfectly informed, do not always minimize cost, and are often fixed in place by history, habit, and policy; August Lösch and Walter Isard extended the mathematics, and behavioural critics stressed that real choices are often satisficing rather than optimal. Weber's emphasis on weight and distance still explains much about where heavy industry sits."
+    },
+    {
+      "id": "sen-entitlement",
+      "historian": "Amartya Sen",
+      "work": "Poverty and Famines: An Essay on Entitlement and Deprivation",
+      "year": "1981",
+      "claim": "Sen argued that famines are usually caused not by an absolute shortage of food but by a collapse in people's entitlements — their ability to command food through wages, prices, trade, or transfers. In the Bengal famine of 1943, food availability per head was not far below normal, yet millions died because rural labourers' wages fell while food prices rose.",
+      "note": "The argument is contested. Mark Tauger and Cormac Ó Gráda have argued that food availability did fall in Bengal in 1943, through cyclone damage and rice disease, and that supply and entitlement cannot be cleanly separated. Most scholars now accept that both matter, while Sen's emphasis on distribution remains central."
+    }
+  ],
+  "activities": [
+    {
+      "id": "neolithic-hearth",
+      "type": "choice",
+      "prompt": "Where did the earliest known farming of wheat and barley appear?",
+      "choices": [
+        "The hill country of the Levant",
+        "The Amazon basin",
+        "The Nile delta",
+        "The island of New Guinea"
+      ],
+      "answer": 0,
+      "feedback": "Emmer, einkorn, barley, sheep, and goats were domesticated in the Levant by about 9500 BCE."
+    },
+    {
+      "id": "norfolk-rotation",
+      "type": "choice",
+      "prompt": "What did the Norfolk four-course rotation add to English farming?",
+      "choices": [
+        "Turnips and clover that fed animals and restored the soil",
+        "Flooded rice paddies",
+        "Slash-and-burn clearing",
+        "Long irrigation canals"
+      ],
+      "answer": 0,
+      "feedback": "Townshend's rotation of wheat, turnips, barley, and clover ended the bare fallow and fed livestock through winter."
+    },
+    {
+      "id": "von-thunen-cause",
+      "type": "choice",
+      "prompt": "In von Thünen's model, what produces the concentric rings of cultivation?",
+      "choices": [
+        "The cost of transporting crops to market",
+        "The different soils of the plain",
+        "The direction of the prevailing wind",
+        "The size of the farms"
+      ],
+      "answer": 0,
+      "feedback": "He assumed a uniform soil, so distance and transport cost alone decide which crop is grown where."
+    },
+    {
+      "id": "von-thunen-nearest",
+      "type": "choice",
+      "prompt": "In von Thünen's model, what lies in the ring nearest the city?",
+      "choices": [
+        "Market gardens and dairy",
+        "Cattle ranching",
+        "Forest for fuel",
+        "Grain grown in fallow"
+      ],
+      "answer": 0,
+      "feedback": "Perishable and heavy products — milk and fresh vegetables — cannot bear a long journey, so they are grown closest to town."
+    },
+    {
+      "id": "boserup-intensification",
+      "type": "choice",
+      "prompt": "Ester Boserup argued that agricultural intensification is driven by…",
+      "choices": [
+        "Rising population and shrinking land",
+        "Falling population",
+        "The invention of the tractor",
+        "Government subsidies"
+      ],
+      "answer": 0,
+      "feedback": "Boserup reversed Malthus: population pressure is what forces farmers to intensify production."
+    },
+    {
+      "id": "green-revolution-borlaug",
+      "type": "choice",
+      "prompt": "The dwarf wheat varieties of the Green Revolution were developed by…",
+      "choices": [
+        "Norman Borlaug",
+        "Amartya Sen",
+        "Alfred Weber",
+        "Ester Boserup"
+      ],
+      "answer": 0,
+      "feedback": "Borlaug bred short, stiff wheats in Mexico that responded to fertilizer and water; he won the Nobel Peace Prize in 1970."
+    },
+    {
+      "id": "sen-famine-cause",
+      "type": "choice",
+      "prompt": "Amartya Sen's account of the Bengal famine of 1943 emphasizes…",
+      "choices": [
+        "A collapse in people's ability to command food",
+        "A total absence of food in Bengal",
+        "The failure of the monsoon alone",
+        "An invasion of locusts"
+      ],
+      "answer": 0,
+      "feedback": "Sen argued that food availability was not far below normal but that wages, prices, and access collapsed for the poor."
+    },
+    {
+      "id": "weber-weight-losing",
+      "type": "choice",
+      "prompt": "In Alfred Weber's theory, a weight-losing industry such as copper smelting tends to locate…",
+      "choices": [
+        "Near the raw material",
+        "Near the market",
+        "At the port of export",
+        "Wherever labour is cheapest, regardless of distance"
+      ],
+      "answer": 0,
+      "feedback": "Smelting sheds most of the ore's weight, so it is cheaper to move the metal than the rock; the plant sits near the mine."
+    },
+    {
+      "id": "containerization-effect",
+      "type": "choice",
+      "prompt": "The shipping container lowered the cost of trade chiefly by…",
+      "choices": [
+        "Cutting the cost of loading and unloading cargo",
+        "Making ships travel faster",
+        "Removing the need for ports",
+        "Ending tariffs"
+      ],
+      "answer": 0,
+      "feedback": "Standard boxes moved from truck to ship to truck without unpacking, so freight costs collapsed."
+    },
+    {
+      "id": "distance-and-distribution",
+      "type": "short-answer",
+      "prompt": "Von Thünen explains where crops are grown by distance to market; the Famine Commission describes food moving to a district in need. Compare what each source assumes about how food reaches people.",
+      "context": "Von Thünen: 'From this cause alone there will now form around the city fairly sharply separated concentric circles, in which these or those crops make up the chief product.' — Famine Commission: 'the reduction of cost of transport obtained by these means being of primary importance in the distribution of food supplies.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each assumes about distance and food",
+        "uses a specific detail from each passage"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "08-cities-and-urbanization",
+  "title": "Cities and urbanization",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "laws-of-the-indies",
+      "title": "Royal Ordinances Concerning the Laying Out of New Towns",
+      "author": "Philip II of Spain, translated by Zelia Nuttall",
+      "date": "1573; Nuttall translation 1921",
+      "citation": "Zelia Nuttall, 'Royal Ordinances Concerning the Laying Out of New Towns,' The Hispanic American Historical Review, Vol. 4, No. 4 (1921), pp. 743-753. Internet Archive.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/jstor-2505686",
+      "file": "sources/laws-of-the-indies.md",
+      "context": "Ordinances 111-122 from the town-planning decree of Philip II, issued in 1573 and translated by Zelia Nuttall in 1921. They set out how a new Spanish town in the Americas was to be sited and laid out.",
+      "questions": [
+        "What qualities does the ordinance say to look for in a town site, and what is the site to avoid?",
+        "Where is the main plaza placed in a coastal town, and where in an inland town?",
+        "Which activities are pushed to the edge of the plan, and for what reason?",
+        "These ordinances were issued for new towns in the Americas. Who is doing the planning, and who is not mentioned?"
+      ]
+    },
+    {
+      "id": "engels-manchester",
+      "title": "Manchester: the separation of the classes",
+      "author": "Friedrich Engels",
+      "date": "1845; Florence Kelley translation 1892",
+      "citation": "Friedrich Engels, The Condition of the Working-Class in England in 1844, translated by Florence Kelley Wischnewetzky (London: Swan Sonnenschein, 1892), Chapter 5. Project Gutenberg eBook 17306.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/17306",
+      "file": "sources/engels-manchester.md",
+      "context": "From Chapter 5 of Engels's study of the English working class, based on his time in Manchester. He describes how the commercial core, the workers' districts, and the middle-class suburbs were arranged.",
+      "questions": [
+        "How does Engels say the working-people's quarters are kept apart from the rest of Manchester?",
+        "What occupies the centre of Manchester, and what is it like at night?",
+        "Where do the wealthy live, and how does Engels describe their route to business?",
+        "Engels wrote as a mill owner's son who knew the city well. What might that lead him to stress?"
+      ]
+    },
+    {
+      "id": "yakut-baghdad",
+      "title": "Baghdad under the Abbasids",
+      "author": "Yakut (Yaqut al-Hamawi), in an English anthology",
+      "date": "describing Baghdad c. 1000 CE; anthology 1912",
+      "citation": "William Stearns Davis, ed., Readings in Ancient History: Illustrative Extracts from the Sources, Vol. II: Rome and the West (Boston: Allyn and Bacon, 1912-13), pp. 365-367. Internet Medieval Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/halsall/source/1000baghdad.asp",
+      "file": "sources/yakut-baghdad.md",
+      "context": "A description of Baghdad at the height of the Abbasid caliphate, compiled as a geographical dictionary and printed in an English source anthology of 1912. It presents the city at its most prosperous.",
+      "questions": [
+        "How does the account describe the shape of Baghdad and its quarters?",
+        "What does it claim about water, sweeping, and lighting?",
+        "The account gives the population as 'over two millions'. What should make a reader cautious about that figure?",
+        "This text reached English readers through a 1912 anthology. What kind of source is it, and what can it not tell us?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "burgess-concentric-zones",
+      "historian": "Ernest W. Burgess",
+      "work": "The Growth of the City: An Introduction to a Research Project",
+      "year": "1925",
+      "claim": "Burgess argued that a city grows outward from its centre in a series of concentric zones, beginning with the central business district and passing through a zone of transition and workers' housing to a commuter zone, as each ring is invaded by the one inside it.",
+      "note": "The model was drawn from Chicago in the 1920s. Hoyt's sector model (1939) and Harris and Ullman's multiple-nuclei model (1945) both challenged the ring pattern, and later geographers showed that it fits few cities outside North America."
+    },
+    {
+      "id": "sassen-global-city",
+      "historian": "Saskia Sassen",
+      "work": "The Global City: New York, London, Tokyo",
+      "year": "1991",
+      "claim": "Sassen argued that a handful of cities became the command points of a dispersed world economy, concentrating finance and the specialized producer services that support it, and producing a sharper split between high-paid professionals and low-paid service workers.",
+      "note": "Critics say the idea imposes a single hierarchy on very different cities, overstates the break with earlier port and industrial cities, and neglects cities that command regions rather than the whole economy. The ranking of world cities remains contested."
+    }
+  ],
+  "activities": [
+    {
+      "id": "site-situation",
+      "type": "choice",
+      "prompt": "A city's 'situation' refers to...",
+      "choices": [
+        "Its position in relation to the surrounding region and routes",
+        "The exact ground it stands on",
+        "Its rank by population",
+        "Its climate zone"
+      ],
+      "answer": 0,
+      "feedback": "Site is the ground itself - slope, water, defensibility; situation is where that ground sits in a wider region of routes and resources."
+    },
+    {
+      "id": "fall-line",
+      "type": "choice",
+      "prompt": "Why did many cities grow along a river's fall line?",
+      "choices": [
+        "Boats stopped and water power began where rivers left hard rock for the coastal plain",
+        "The soil there was always the most fertile",
+        "The climate there was cooler",
+        "The rivers were too shallow to cross"
+      ],
+      "answer": 0,
+      "feedback": "A fall line is a break-of-bulk point: goods changed from boats to roads or rail, and mills used the drop in the river."
+    },
+    {
+      "id": "burgess-zones",
+      "type": "choice",
+      "prompt": "Burgess's concentric-zone model placed which area at the centre?",
+      "choices": [
+        "The central business district, which he called the Loop",
+        "The commuter zone",
+        "The zone of workingmen's homes",
+        "The residential zone"
+      ],
+      "answer": 0,
+      "feedback": "Burgess saw growth as expansion outward from the central business district, with each ring invaded by the next."
+    },
+    {
+      "id": "hoyt-sector",
+      "type": "choice",
+      "prompt": "What did Hoyt's sector model add to Burgess's rings?",
+      "choices": [
+        "Residential growth in wedges along transport routes and high ground",
+        "That cities have no centre",
+        "That all land uses are mixed together",
+        "That cities never grow outward"
+      ],
+      "answer": 0,
+      "feedback": "Hoyt studied 142 American cities and found high-rent districts pushing outward in sectors rather than rings."
+    },
+    {
+      "id": "christaller-assumptions",
+      "type": "choice",
+      "prompt": "Christaller's central place theory assumes...",
+      "choices": [
+        "A flat plain with an evenly spread population and equal transport in all directions",
+        "A mountainous coast with uneven settlement",
+        "A single factory town",
+        "A city enclosed by walls"
+      ],
+      "answer": 0,
+      "feedback": "The hexagons are a logical result of the assumptions; real terrain, uneven population, and history bend the pattern."
+    },
+    {
+      "id": "latin-plaza",
+      "type": "choice",
+      "prompt": "The Ordinances of Philip II in 1573 required a new colonial town to have...",
+      "choices": [
+        "A rectangular central plaza with the church and council house on it",
+        "A pattern of dead-end streets",
+        "A separate quarter for each religion",
+        "No public buildings"
+      ],
+      "answer": 0,
+      "feedback": "The grid and the plaza came first; slaughterhouses, tanneries, and fisheries were sent where their filth could be carried away."
+    },
+    {
+      "id": "medina-core",
+      "type": "choice",
+      "prompt": "In the medina of Fez or Cairo, the core of the city was...",
+      "choices": [
+        "The Friday mosque and the market, with houses facing inward to courtyards",
+        "A monumental civic square",
+        "A railway station",
+        "A factory district"
+      ],
+      "answer": 0,
+      "feedback": "Houses turn their backs to the street and face an inner courtyard, and the plan has no European-style central square."
+    },
+    {
+      "id": "redlining",
+      "type": "choice",
+      "prompt": "In the United States, 'redlining' meant...",
+      "choices": [
+        "Grading neighbourhoods and refusing mortgages and insurance to Black and immigrant districts",
+        "Painting traffic lanes red",
+        "Building factories from red brick",
+        "Drawing city boundaries in red ink"
+      ],
+      "answer": 0,
+      "feedback": "The Home Owners' Loan Corporation's security maps helped fix a racial geography of investment that outlasted the maps."
+    },
+    {
+      "id": "global-city",
+      "type": "choice",
+      "prompt": "Sassen's 'global city' thesis holds that a few cities...",
+      "choices": [
+        "Became command points for finance and producer services in a dispersed economy",
+        "Are the largest by population",
+        "Have the oldest universities",
+        "Produce the most manufactured goods"
+      ],
+      "answer": 0,
+      "feedback": "For Sassen the key is command and coordination rather than size, and the thesis is contested."
+    },
+    {
+      "id": "compare-plans",
+      "type": "short-answer",
+      "prompt": "The Ordinances of 1573 and Engels describe two ways of ordering a city. Compare what each assumes about where different people and activities belong, and what each leaves out.",
+      "context": "Ordinances of 1573: 'The main plaza whence a beginning is to be made, if the town is situated on the seacoast, should be made at the landing place of the port. If the town lies inland, the main plaza should be in the middle of the town.' - Engels, 1845: 'The town itself is peculiarly built, so that a person may live in it for years, and go in and out daily without coming into contact with a working-people's quarter or even with workers.'",
+      "rubric": [
+        "refers to both passages",
+        "states what each text assumes about where people and activities belong",
+        "uses a specific detail from each text"
+      ]
+    }
+  ]
+}

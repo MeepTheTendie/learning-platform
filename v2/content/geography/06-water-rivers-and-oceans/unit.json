@@ -1,0 +1,200 @@
+{
+  "id": "06-water-rivers-and-oceans",
+  "title": "Water, rivers, and oceans",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "powell-colorado",
+      "title": "The canyon and the river",
+      "author": "John Wesley Powell",
+      "date": "1895 (expedition of 1869)",
+      "citation": "John Wesley Powell, Canyons of the Colorado (Meadville, Pa.: Flood & Vincent, 1895), Chapters VII, X, and XI. Project Gutenberg eBook 8082.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/8082",
+      "file": "sources/powell-colorado.md",
+      "context": "Powell led the first expedition down the Colorado through the Grand Canyon in 1869 and later wrote this account. He describes running rapids, the shapes of river waves, and the relief of emerging from the canyon.",
+      "questions": [
+        "Powell distinguishes the waves of a river from the waves of the sea. What is the difference he draws, and why does it matter for a boat?",
+        "What does he do when he cannot see a clear channel through a rapid, and what does that show about how the river was explored?",
+        "The account was written years after the journey. Which details look like a diary, and which look like a story told for readers?"
+      ]
+    },
+    {
+      "id": "colorado-compact",
+      "title": "The Colorado River Compact",
+      "author": "The States of Arizona, California, Colorado, Nevada, New Mexico, Utah, and Wyoming",
+      "date": "24 November 1922",
+      "citation": "Certified text of the Colorado River Compact, signed at Santa Fe, New Mexico, 24 November 1922, in Governor's Message on the Colorado River Compact (Phoenix: State of Arizona, 1922). Internet Archive.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/governorsmessage00arizrich",
+      "file": "sources/colorado-compact.md",
+      "context": "Seven western states and Herbert Hoover negotiated this compact to divide the Colorado. It defines the river basin, apportions water between an upper and a lower division, and ranks domestic and agricultural use above navigation and power.",
+      "questions": [
+        "How does the compact define the 'Colorado River Basin,' and why is a drainage definition rather than a state line important?",
+        "Article III fixes an amount of water in acre feet. What happens when a river delivers less than the document assumes?",
+        "Which uses of water does the compact place first, and which does it make 'subservient'?"
+      ]
+    },
+    {
+      "id": "maury-sea",
+      "title": "There is a river in the ocean",
+      "author": "Matthew Fontaine Maury",
+      "date": "1855",
+      "citation": "Matthew Fontaine Maury, The Physical Geography of the Sea (New York: Harper & Brothers, 1855), Chapter I, 'The Gulf Stream.' Wikisource transcription of the third edition.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Physical_Geography_Of_The_Sea_1855/1",
+      "file": "sources/maury-sea.md",
+      "context": "Maury, a United States Navy officer, wrote one of the first textbooks of oceanography. Here he describes the Gulf Stream as a river in the sea, argues about its cause, and rejects the idea that the trade winds alone drive ocean currents.",
+      "questions": [
+        "What makes Maury call the Gulf Stream 'a river in the ocean,' and where does the comparison break down?",
+        "How does Maury use the saltiness of the Gulf Stream against the old theory that the Mississippi produced it?",
+        "Maury reasons from ships' observations and floating bottles. What can such evidence show, and what can it not?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "leopold-fluvial",
+      "historian": "Luna B. Leopold",
+      "work": "Fluvial Processes in Geomorphology",
+      "year": "1964",
+      "claim": "Leopold argued, with M. Gordon Wolman and John P. Miller, that a river channel is a self-adjusting system in dynamic equilibrium: its width, depth, slope, and velocity adjust to the water and sediment delivered from upstream, so a change in one part of the system produces compensating changes elsewhere.",
+      "note": "An earlier view, associated with William Morris Davis (1899), treated rivers as passing once through a cycle of youth, maturity, and old age. Leopold's equilibrium model displaced it, but how closely real rivers approach balance, and how quickly they adjust to a dam or a changed climate, is still disputed."
+    },
+    {
+      "id": "wittfogel-hydraulic",
+      "historian": "Karl A. Wittfogel",
+      "work": "Oriental Despotism: A Comparative Study of Total Power",
+      "year": "1957",
+      "claim": "Wittfogel argued that in dry regions the need to build and maintain large irrigation systems gave rise to centralized, coercive 'hydraulic' states, in which control of water was the foundation of political power.",
+      "note": "The archaeologist Robert McC. Adams argued in Heartland of Cities (1981) that Mesopotamian irrigation was often small-scale and locally managed, and other critics say Wittfogel read modern centralized states back into the ancient record. The hydraulic hypothesis is now usually treated as too simple."
+    }
+  ],
+  "activities": [
+    {
+      "id": "water-budget",
+      "type": "choice",
+      "prompt": "Most of the fresh water on Earth is…",
+      "choices": [
+        "Liquid in rivers and lakes",
+        "Frozen in ice sheets and glaciers",
+        "Vapour in the atmosphere",
+        "In the oceans"
+      ],
+      "answer": 1,
+      "feedback": "About 68.7 per cent of fresh water is ice. The oceans hold 96.5 per cent of all water, but that water is salt."
+    },
+    {
+      "id": "drainage-basin",
+      "type": "choice",
+      "prompt": "A drainage basin is…",
+      "choices": [
+        "The land area that drains to a river, bounded by divides",
+        "The deepest channel of a river",
+        "A reservoir built by people",
+        "The place where a river enters the sea"
+      ],
+      "answer": 0,
+      "feedback": "Basins are bounded by ridges, not political lines, and they nest from small streams up to continents."
+    },
+    {
+      "id": "oxbow",
+      "type": "choice",
+      "prompt": "An oxbow lake forms when…",
+      "choices": [
+        "A dam blocks a valley",
+        "A glacier melts back",
+        "A meander loop is cut off from the river",
+        "A volcano erupts"
+      ],
+      "answer": 2,
+      "feedback": "The river cuts through the neck of a meander and abandons the loop, which is sealed off as a lake."
+    },
+    {
+      "id": "delta",
+      "type": "choice",
+      "prompt": "A river builds a delta chiefly because…",
+      "choices": [
+        "It slows and drops its sediment where it meets standing water",
+        "It speeds up as it reaches the coast",
+        "The tide carries its load out to sea",
+        "Waves push sediment upstream"
+      ],
+      "answer": 0,
+      "feedback": "The sudden loss of velocity makes the river dump its load in a fan; a delta shrinks when dams trap that sediment upstream."
+    },
+    {
+      "id": "floodplain",
+      "type": "choice",
+      "prompt": "The flat land beside a river that is covered when the river floods is called the…",
+      "choices": ["floodplain", "delta", "watershed", "aquifer"],
+      "answer": 0,
+      "feedback": "The floodplain is built of alluvium dropped by floods, and it is often the most fertile land nearby."
+    },
+    {
+      "id": "ogallala",
+      "type": "choice",
+      "prompt": "The Ogallala aquifer is being depleted mainly because…",
+      "choices": [
+        "It has never held water",
+        "Rivers no longer flow over it",
+        "The sea has flooded it with salt",
+        "Pumping for irrigation far exceeds recharge"
+      ],
+      "answer": 3,
+      "feedback": "Recharge in the dry High Plains is about a centimetre a year, while pumping has lowered the water table by tens of metres."
+    },
+    {
+      "id": "gulf-stream",
+      "type": "choice",
+      "prompt": "The Gulf Stream is…",
+      "choices": [
+        "A tide in the Pacific",
+        "A warm surface current in the North Atlantic",
+        "A deep cold current off Antarctica",
+        "A wind-raised wave"
+      ],
+      "answer": 1,
+      "feedback": "Maury called it 'a river in the ocean'; it carries warm water north-east and moderates north-western Europe."
+    },
+    {
+      "id": "tides",
+      "type": "choice",
+      "prompt": "Tides are caused mainly by…",
+      "choices": [
+        "The gravitational pull of the Moon and the Sun",
+        "Steady winds",
+        "The rotation of the ocean floor",
+        "Undersea earthquakes"
+      ],
+      "answer": 0,
+      "feedback": "The Sun and Moon raise the water, and the Earth's rotation gives most coasts two high and two low tides a day."
+    },
+    {
+      "id": "glacier-mass-balance",
+      "type": "choice",
+      "prompt": "A glacier retreats when…",
+      "choices": [
+        "Snowfall exceeds melting",
+        "It reaches the sea",
+        "Ablation exceeds accumulation",
+        "Its ice becomes denser"
+      ],
+      "answer": 2,
+      "feedback": "Mass balance decides: when the ablation zone loses more than the accumulation zone gains, the glacier shrinks."
+    },
+    {
+      "id": "compare-moving-water",
+      "type": "short-answer",
+      "prompt": "Powell and Maury both describe water in motion. Compare what each notices about how water behaves, and what each source can and cannot show.",
+      "context": "Powell (1895): 'The waters plunge down ten or twenty feet to the foot of a fall, spring up again in a great wave, then down and up in a series of billows that gradually disappear in the more quiet waters below.' Maury (1855): 'There is a river in the ocean. In the severest of droughts it never fails, and in the mightiest floods it never overflows. Its banks and its bottom are of cold water, while its current is of warm.'",
+      "rubric": [
+        "refers to both passages",
+        "contrasts what Powell and Maury each observe",
+        "uses a specific phrase or figure from each text"
+      ]
+    }
+  ]
+}

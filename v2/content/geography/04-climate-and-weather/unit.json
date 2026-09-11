@@ -1,0 +1,200 @@
+{
+  "id": "04-climate-and-weather",
+  "title": "Climate and weather",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "ferrel-winds-currents",
+      "title": "An essay on the winds and the currents of the ocean",
+      "author": "William Ferrel",
+      "date": "1856",
+      "citation": "William Ferrel, 'An Essay on the Winds and the Currents of the Ocean,' Nashville Journal of Medicine and Surgery (1856). Text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/An_essay_on_the_winds_and_the_currents_of_the_ocean",
+      "file": "sources/ferrel-winds-currents.md",
+      "context": "Ferrel, a self-taught American meteorologist, wrote this essay to correct the accepted theory of the trade winds. He argues that a fourth force, the effect of the atmosphere's east-west motion combined with the earth's rotation, accounts for the pressure belts and the passage-winds that George Hadley's theory could not explain.",
+      "questions": [
+        "Ferrel says Hadley's theory accounts for the trade winds but not for other phenomena. Which observations does he list, and why do they matter?",
+        "What is the 'fourth force' Ferrel adds, and how does it differ from the first three?",
+        "Ferrel says the ocean's motion depends on the temperature difference between the equator and the poles. What does he calculate about the level of the sea?"
+      ]
+    },
+    {
+      "id": "lewis-clark-weather",
+      "title": "Weather journal at Fort Mandan and a note on the Missouri plains",
+      "author": "Meriwether Lewis and William Clark",
+      "date": "December 1804 and May 1805",
+      "citation": "The Journals of Lewis and Clark, 1804-1806, edited by Reuben Gold Thwaites (New York: Dodd, Mead, 1904-05). Project Gutenberg eBook 8419.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/8419",
+      "file": "sources/lewis-clark-weather.md",
+      "context": "Clark kept a daily weather record at Fort Mandan, in present-day North Dakota, through the winter of 1804-05, noting temperature, wind, and the freezing of the Missouri. The second excerpt, from Lewis in May 1805, offers a theory of where the rain of the plains comes from.",
+      "questions": [
+        "What instruments and measurements does Clark record, and what can a modern reader infer from them?",
+        "The men suffer frostbite at temperatures Clark reports. What does the journal show about how the expedition met the cold?",
+        "Lewis argues that the plains receive almost no rain in summer, autumn, and winter. What evidence does he offer, and how does his reasoning compare with Powell's decades later?"
+      ]
+    },
+    {
+      "id": "powell-arid-region",
+      "title": "The lands of the arid region of the United States",
+      "author": "John Wesley Powell",
+      "date": "1878-79",
+      "citation": "John Wesley Powell, Report on the Lands of the Arid Region of the United States, 2nd ed. (Washington: Government Printing Office, 1879). Project Gutenberg eBook 69995.",
+      "license": "Public domain (U.S. Government work)",
+      "url": "https://www.gutenberg.org/ebooks/69995",
+      "file": "sources/powell-arid-region.md",
+      "context": "Powell's report argued that the western United States needed irrigation and cooperative settlement because it receives too little rain for farming. In these excerpts he defines the arid and sub-humid regions and rejects the claim that cultivation or railroads increase rainfall.",
+      "questions": [
+        "Powell sets the threshold for dependable farming at about 20 inches of rain a year. What does he say happens below that figure?",
+        "Powell lists the great natural causes of rainfall and then dismisses the effects of human activity. What reasons does he give?",
+        "Powell notes that rain-gauge records are brief and scattered. How does that shape the confidence of his conclusions?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "walker-southern-oscillation",
+      "historian": "Gilbert Walker",
+      "work": "Correlation in Seasonal Variations of Weather",
+      "year": "1923",
+      "claim": "Walker argued from decades of pressure and rainfall records that the weather of distant regions is linked by a slow see-saw of atmospheric pressure between the eastern Pacific and the Indian Ocean, which he named the Southern Oscillation, and that the pattern might be used to forecast the Indian monsoon.",
+      "note": "Walker found a statistical pattern but no mechanism. Jacob Bjerknes showed in the 1960s that the oscillation is coupled to equatorial Pacific sea-surface temperatures, so the cause lies in the ocean-atmosphere system and not in the pressure pattern alone."
+    },
+    {
+      "id": "hansen-attribution",
+      "historian": "James Hansen",
+      "work": "Global warming in the twenty-first century: An alternative scenario",
+      "year": "2000",
+      "claim": "Hansen argued that the observed warming is driven mainly by rising greenhouse gases, that sulphate aerosols have masked part of it, and that cutting emissions of methane, soot, and other short-lived gases could slow the change and buy time to reduce carbon dioxide.",
+      "note": "Critics dispute the scenario's assumptions about future emissions and the strength of aerosol cooling, and estimates of climate sensitivity remain a range. The disagreement is over how fast and how much, not whether greenhouse gases warm the planet."
+    }
+  ],
+  "activities": [
+    {
+      "id": "weather-vs-climate",
+      "type": "choice",
+      "prompt": "What is the main difference between weather and climate?",
+      "choices": [
+        "Climate is the statistics of weather over decades; weather is the state at a moment",
+        "Weather happens only on land; climate only over the sea",
+        "Climate changes daily; weather changes over centuries",
+        "They are two words for the same thing"
+      ],
+      "answer": 0,
+      "feedback": "The World Meteorological Organization uses a thirty-year interval for climate normals; a climate is a distribution of weathers."
+    },
+    {
+      "id": "equator-hot",
+      "type": "choice",
+      "prompt": "Why is the equator hotter than the poles?",
+      "choices": [
+        "The sun's rays strike at a higher angle and are concentrated on a smaller area",
+        "The equator is closer to the sun",
+        "The poles are farther from the sun in winter only",
+        "The equator has more volcanoes"
+      ],
+      "answer": 0,
+      "feedback": "Distance to the sun is nearly the same; the angle of the rays and the thickness of atmosphere they cross make the difference."
+    },
+    {
+      "id": "deserts-30",
+      "type": "choice",
+      "prompt": "Why do many of the world's great deserts lie near 30 degrees latitude?",
+      "choices": [
+        "Air that rose at the equator sinks there and warms and dries",
+        "Cold ocean currents warm the air",
+        "Mountains block all rain",
+        "The trade winds carry rain away from the tropics"
+      ],
+      "answer": 0,
+      "feedback": "The descending branch of the Hadley cell, the horse latitudes, brings dry warming air."
+    },
+    {
+      "id": "coriolis-direction",
+      "type": "choice",
+      "prompt": "In the northern hemisphere, the Coriolis effect deflects moving air and water...",
+      "choices": [
+        "to the right of their path",
+        "to the left of their path",
+        "straight up",
+        "only at the equator"
+      ],
+      "answer": 0,
+      "feedback": "Coriolis deflection is to the right in the north and to the left in the south, and it vanishes at the equator."
+    },
+    {
+      "id": "greenhouse",
+      "type": "choice",
+      "prompt": "What does the natural greenhouse effect do?",
+      "choices": [
+        "It keeps the surface warmer by absorbing and re-radiating infrared",
+        "It blocks sunlight from reaching the ground",
+        "It creates the ozone layer",
+        "It causes the seasons"
+      ],
+      "answer": 0,
+      "feedback": "Without it the average surface temperature would be about minus 18 degrees Celsius instead of about 15."
+    },
+    {
+      "id": "thermohaline",
+      "type": "choice",
+      "prompt": "The thermohaline circulation is driven mainly by...",
+      "choices": [
+        "Differences in water density from temperature and salinity",
+        "The moon's gravity",
+        "Seasonal monsoons",
+        "The earth's magnetic field"
+      ],
+      "answer": 0,
+      "feedback": "Cold, salty water sinks at high latitudes and the circuit completes over roughly a thousand years."
+    },
+    {
+      "id": "orographic",
+      "type": "choice",
+      "prompt": "Rain that falls because air is forced up a mountain slope is called...",
+      "choices": [
+        "Relief or orographic rain",
+        "Convectional rain",
+        "Frontal rain",
+        "Cyclonic rain"
+      ],
+      "answer": 0,
+      "feedback": "The windward slope is wet and the leeward side lies in a rain shadow; Mawsynram and the Atacama are extremes."
+    },
+    {
+      "id": "koppen-letter",
+      "type": "choice",
+      "prompt": "In Koppen's classification, which letter marks the tropical climates?",
+      "choices": ["A", "B", "C", "E"],
+      "answer": 0,
+      "feedback": "A is tropical, B dry, C temperate, D continental, and E polar."
+    },
+    {
+      "id": "enso",
+      "type": "choice",
+      "prompt": "What did Gilbert Walker identify as the Southern Oscillation?",
+      "choices": [
+        "A see-saw of pressure between the eastern Pacific and the Indian Ocean region",
+        "A current in the North Atlantic",
+        "The seasonal melting of Himalayan snow",
+        "The reversal of the trade winds over Africa"
+      ],
+      "answer": 0,
+      "feedback": "Walker found the pressure link statistically; Jacob Bjerknes later tied it to equatorial Pacific sea-surface temperatures."
+    },
+    {
+      "id": "compare-sources",
+      "type": "short-answer",
+      "prompt": "Ferrel and Powell each explain part of the climate system. Compare what kind of claim each makes and what each can and cannot show.",
+      "context": "Ferrel (1856): 'There are four principal forces which must be taken into account in a correct theory of the winds.' Powell (1878): 'The operations of man on the surface of the earth are so trivial that the conditions which they produce are of minute effect, and in presence of the grand effects of nature escape discernment.'",
+      "rubric": [
+        "refers to both sources",
+        "distinguishes a physical theory from a judgement about human influence",
+        "uses a specific phrase from the texts"
+      ]
+    }
+  ]
+}

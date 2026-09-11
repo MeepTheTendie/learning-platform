@@ -1,0 +1,205 @@
+{
+  "id": "05-biomes-and-vegetation",
+  "title": "Biomes and vegetation",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "humboldt-llanos",
+      "title": "The llanos, or steppes",
+      "author": "Alexander von Humboldt and Aimé Bonpland",
+      "date": "1800, published 1851",
+      "citation": "Personal Narrative of Travels to the Equinoctial Regions of America, During the Years 1799–1804, Vol. 2, translated by Thomasina Ross (London: Henry G. Bohn, 1851), Chapter 17. Project Gutenberg eBook 7014.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/7014",
+      "file": "sources/humboldt-llanos.md",
+      "context": "Humboldt and Bonpland crossed the Venezuelan llanos in March 1800. He describes the treeless plains, their seasonal change from green pasture to cracked desert, and compares them with the steppes of Asia and the pampas of Argentina.",
+      "questions": [
+        "What does Humboldt say the llanos look like in the rainy season, and in the drought?",
+        "Which other parts of the world does he compare with the llanos, and on what grounds?",
+        "Humboldt is a naturalist writing for European readers. What does that purpose lead him to notice?"
+      ]
+    },
+    {
+      "id": "darwin-pampas",
+      "title": "The pampas and the grazing of the plains",
+      "author": "Charles Darwin",
+      "date": "1833, published 1845",
+      "citation": "Journal of Researches into the Natural History and Geology of the Countries Visited During the Voyage of H.M.S. Beagle, 2nd ed. (London: John Murray, 1845), Chapter VII, 'Buenos Ayres and St. Fe.' Project Gutenberg eBook 944.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/944",
+      "file": "sources/darwin-pampas.md",
+      "context": "Darwin crossed the pampas of Argentina in 1833. He records how grazing cattle changed the grass, how two European plants spread across whole districts, and how horses, cattle, and sheep had altered the plains since 1535.",
+      "questions": [
+        "What change does Darwin see in the plain after crossing the Salado, and to what does he attribute it?",
+        "How did the cardoon and fennel spread, and what happened to the plants already there?",
+        "Darwin guesses at causes he cannot yet test. Where does he say he is unsure?"
+      ]
+    },
+    {
+      "id": "lord-hold-this-soil",
+      "title": "Plows to the plains, and the dust",
+      "author": "Russell Lord (U.S. Soil Conservation Service)",
+      "date": "1938",
+      "citation": "To Hold This Soil, U.S. Department of Agriculture, Miscellaneous Publication No. 321 (Washington: Government Printing Office, 1938), pp. 63–77.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/toholdthissoil321lord",
+      "file": "sources/lord-hold-this-soil.md",
+      "context": "A Soil Conservation Service bulletin published during the Dust Bowl. Lord describes the ploughing of the High Plains, the belief that breaking the sod would bring rain, and the dust storms that followed.",
+      "questions": [
+        "What did settlers and farm leaders believe ploughing would do to the rainfall?",
+        "How does Ben Hibbs answer the question 'Who did it?', and how far back does he trace the dust?",
+        "This bulletin was written by a government agency during the crisis. What is it trying to persuade its readers to do?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "clements-climax",
+      "historian": "Frederic E. Clements",
+      "work": "Plant Succession: An Analysis of the Development of Vegetation",
+      "year": "1916",
+      "claim": "Clements argued that vegetation develops through a predictable sequence of stages toward a stable 'climax formation' fixed by climate, and that a biome behaves almost like a single organism. On this view the climate of a region determines the vegetation that belongs there.",
+      "note": "Henry Gleason argued in 1917 and 1926 that a plant association is not an organism but a loose assemblage of species, each responding independently to its own conditions. Most ecologists now accept Gleason's view and treat a climax as one possible state among several."
+    },
+    {
+      "id": "worster-dust-bowl",
+      "historian": "Donald Worster",
+      "work": "Dust Bowl: The Southern Plains in the 1930s",
+      "year": "1979",
+      "claim": "Worster argued that the Dust Bowl was a human-made disaster: a profit-driven, expansionist agricultural culture ploughed grassland that should never have been broken, and the drought only exposed the damage. In his reading the storm was the bill for treating land as a commodity.",
+      "note": "Other scholars stress the severity and length of the 1930s drought and the part played by federal land policy, and treat the disaster as a meeting of culture and climate. How much was made by people and how much by the weather remains contested."
+    }
+  ],
+  "activities": [
+    {
+      "id": "tropic-two-climates",
+      "type": "choice",
+      "prompt": "The Sahara and the Arakan coast of Myanmar lie on the same line of latitude. Why do they have such different rainfall?",
+      "choices": [
+        "Rising air near the equator and sinking air near 30° create wet and dry belts",
+        "The Arakan coast is much closer to the sun",
+        "The Sahara stands at a much higher altitude",
+        "Myanmar has far more rivers"
+      ],
+      "answer": 0,
+      "feedback": "Latitude fixes the sun angle; the circulation of the atmosphere — rising air near the equator, sinking air around 30° — decides the rain."
+    },
+    {
+      "id": "biome-definition",
+      "type": "choice",
+      "prompt": "A biome is best defined as…",
+      "choices": [
+        "A large region of vegetation and animal life shaped by climate and soil",
+        "A single species of plant",
+        "A country's political boundary",
+        "One layer of the rainforest"
+      ],
+      "answer": 0,
+      "feedback": "Biomes track climate and soil and recur, with different species, on different continents."
+    },
+    {
+      "id": "rainforest-layers",
+      "type": "choice",
+      "prompt": "Which list gives the layers of a tropical rainforest from top to bottom?",
+      "choices": [
+        "Emergents, canopy, understory, shrub layer, forest floor",
+        "Forest floor, canopy, shrub layer, emergents, understory",
+        "Canopy, forest floor, emergents, understory, shrub layer",
+        "Shrub layer, emergents, canopy, forest floor, understory"
+      ],
+      "answer": 0,
+      "feedback": "The emergents push above the canopy; most leaves and fruit are in the canopy; the floor is dark and its litter breaks down quickly."
+    },
+    {
+      "id": "savanna-fire",
+      "type": "choice",
+      "prompt": "Why do savannas stay open grassland rather than becoming forest?",
+      "choices": [
+        "Dry-season fires and grazing kill young trees",
+        "The soil is too wet for trees",
+        "The rainfall is too heavy",
+        "Trees cannot grow in the tropics"
+      ],
+      "answer": 0,
+      "feedback": "Fire and grazing are architects of the savanna; mature trees survive with thick bark or by resprouting."
+    },
+    {
+      "id": "laterite",
+      "type": "choice",
+      "prompt": "Tropical rainforest soils are often poor in nutrients because…",
+      "choices": [
+        "Heavy rain leaches them, so most nutrients are held in the living plants",
+        "The soil is permanently frozen",
+        "The plants do not need nutrients",
+        "Volcanic ash removes them"
+      ],
+      "answer": 0,
+      "feedback": "Laterite is deeply weathered and leached; the nutrient capital sits in the biomass and is recycled quickly."
+    },
+    {
+      "id": "soil-match",
+      "type": "choice",
+      "prompt": "Which soil belongs with the boreal forest?",
+      "choices": [
+        "Podzol",
+        "Chernozem",
+        "Laterite",
+        "Terra preta"
+      ],
+      "answer": 0,
+      "feedback": "Acid conifer litter and heavy rain leach podzol to a bleached, ash-grey layer. Chernozem is grassland soil."
+    },
+    {
+      "id": "biodiversity-gradient",
+      "type": "choice",
+      "prompt": "The number of species generally…",
+      "choices": [
+        "Falls from the equator toward the poles",
+        "Rises from the equator toward the poles",
+        "Is the same everywhere",
+        "Is highest in the tundra"
+      ],
+      "answer": 0,
+      "feedback": "Tropical rainforest covers about six or seven per cent of the land but may hold half of all species."
+    },
+    {
+      "id": "dust-bowl-cause",
+      "type": "choice",
+      "prompt": "According to Russell Lord's 1938 bulletin, what made the Plains vulnerable to dust storms?",
+      "choices": [
+        "Ploughing up the native grass on land too dry to farm safely",
+        "Too many trees shading the crops",
+        "A sudden fall in temperature",
+        "The draining of the oceans"
+      ],
+      "answer": 0,
+      "feedback": "Lord describes the ploughing of the short-grass plains and the belief that breaking the sod would bring rain."
+    },
+    {
+      "id": "chaparral-climate",
+      "type": "choice",
+      "prompt": "The five Mediterranean-climate shrublands are found on…",
+      "choices": [
+        "The western edges of continents between about 30° and 40° latitude",
+        "The equator, in the wettest places",
+        "The polar circles",
+        "The eastern edges of continents in the tropics"
+      ],
+      "answer": 0,
+      "feedback": "Wet, mild winters and hot, dry summers on west coasts produce chaparral, maquis, fynbos, matorral, and kwongan."
+    },
+    {
+      "id": "compare-grasslands",
+      "type": "short-answer",
+      "prompt": "Humboldt describes the llanos and Darwin describes the pampas. Compare what each notices about grassland and what each says people or animals have done to it.",
+      "context": "Humboldt: 'The Llanos and the Pampas of South America are really steppes. They are covered with beautiful verdure in the rainy season, but in the time of great drought they assume the aspect of a desert.' — Darwin: 'The countless herds of horses, cattle, and sheep, not only have altered the whole aspect of the vegetation, but they have almost banished the guanaco, deer and ostrich.'",
+      "rubric": [
+        "refers to both passages",
+        "contrasts what Humboldt and Darwin each notice",
+        "uses a specific detail from each text"
+      ]
+    }
+  ]
+}

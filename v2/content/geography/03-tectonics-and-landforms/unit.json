@@ -1,0 +1,176 @@
+{
+  "id": "03-tectonics-and-landforms",
+  "title": "Plate tectonics and landforms",
+  "period": "Deep time (c. 4.6 billion years)",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "wegener-displacement",
+      "title": "The displacement theory",
+      "author": "Alfred Wegener",
+      "date": "1915; English translation 1924",
+      "citation": "Alfred Wegener, The Origin of Continents and Oceans, translated by J. G. A. Skerl (London: Methuen, 1924), Chapter I. Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/The_Origin_of_Continents_and_Oceans/Chapter_1",
+      "file": "sources/wegener-displacement.md",
+      "context": "Wegener rewrote this book through several editions. In the opening chapter he states the displacement theory, points to the matching coastlines of Brazil and Africa, and gives his own account of how the idea came to him in 1910 and 1911.",
+      "questions": [
+        "Wegener begins with the fit of Brazil and Africa. What kind of evidence is that, and how does it differ from the fossil evidence he mentions later?",
+        "Where in the excerpt does Wegener date the first public statement of his theory, and why might a scientist record that?",
+        "Wegener writes that the blocks drifted 'like floating icebergs.' What does that image assume about the material beneath the continents?"
+      ]
+    },
+    {
+      "id": "darwin-concepcion",
+      "title": "The great earthquake at Concepcion",
+      "author": "Charles Darwin",
+      "date": "1845 (event of 20 February 1835)",
+      "citation": "Charles Darwin, The Voyage of the Beagle, second edition (1845), Chapter XII. Project Gutenberg eBook 944.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/944",
+      "file": "sources/darwin-concepcion.md",
+      "context": "Darwin was on the coast of Chile during the earthquake of 20 February 1835, while the Beagle surveyed the shore. His published journal mixes eyewitness description with a geological argument that the land had been permanently raised.",
+      "questions": [
+        "Darwin measures the wave at 23 feet and a cannon moved at four tons. What do those figures let a reader check?",
+        "The land rose two or three feet at Concepcion and ten feet at S. Maria. Why does Darwin call the elevation the most remarkable effect of the earthquake?",
+        "The townspeople blamed the earthquake on witchcraft. What does Darwin think their belief shows about how they understood cause and effect?"
+      ]
+    },
+    {
+      "id": "hess-seafloor",
+      "title": "Seafloor spreading and the recycling of oceanic crust",
+      "author": "W. Jacquelyne Kious and Robert I. Tilling, U.S. Geological Survey",
+      "date": "1996",
+      "citation": "W. J. Kious and R. I. Tilling, This Dynamic Earth: The Story of Plate Tectonics (U.S. Geological Survey, 1996), chapter 'Developing the theory.'",
+      "license": "Public domain (U.S. Government work)",
+      "url": "https://pubs.usgs.gov/gip/dynamic/developing.html",
+      "file": "sources/hess-seafloor.md",
+      "context": "A U.S. Geological Survey synthesis written for general readers. The passage explains the magnetic striping of the ocean floor and the seafloor-spreading hypothesis of Harry H. Hess and Robert S. Dietz, and the drilling that confirmed it.",
+      "questions": [
+        "What are the three lines of evidence the passage says supported seafloor spreading?",
+        "Why does the passage describe the ocean floor as a 'tape recording'?",
+        "What did the Glomar Challenger drilling add that the magnetic stripes alone could not show?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "oreskes-rejection",
+      "historian": "Naomi Oreskes",
+      "work": "The Rejection of Continental Drift: Theory and Method in American Earth Science",
+      "year": "1999",
+      "claim": "Oreskes argued that American earth scientists rejected continental drift for decades not because the evidence was weak but because of their methodological commitments — above all the assumption of fixed continents and permanent ocean basins, and a demand for a physical mechanism. The rejection was bound up with scientific practice and authority, not simply with the data.",
+      "note": "Some historians and geologists reply that the absence of a viable mechanism was a legitimate objection, and that a theory should not be accepted on fit alone. The debate is about how much the rejection reflected evidence and how much the standards of the field."
+    },
+    {
+      "id": "wilson-transform-faults",
+      "historian": "J. Tuzo Wilson",
+      "work": "A New Class of Faults and their Bearing on Continental Drift",
+      "year": "1965",
+      "claim": "Wilson argued that the offsets along the mid-ocean ridges are not simple breaks but a new class of faults, later called transform faults, along which the two sides slide past each other. The movement runs opposite in sense to the apparent offset, and the faults end at the ridge — a prediction that matched the magnetic and seismic evidence and helped confirm sea-floor spreading.",
+      "note": "The concept was quickly accepted and became central to plate tectonics. Priority is contested: Fred Vine and Drummond Matthews had already used ridge offsets in 1963, and confirmation came from several independent lines rather than from any single paper."
+    }
+  ],
+  "activities": [
+    {
+      "id": "earth-layers",
+      "type": "choice",
+      "prompt": "Which layer of the earth lies directly beneath the crust?",
+      "choices": ["The mantle", "The outer core", "The inner core", "The atmosphere"],
+      "answer": 0,
+      "feedback": "The crust sits on the mantle, a shell of hot silicate rock about 2,900 kilometres deep."
+    },
+    {
+      "id": "wegener-rejected",
+      "type": "choice",
+      "prompt": "Why was Wegener's theory of continental drift rejected for decades?",
+      "choices": [
+        "He could not supply a mechanism strong enough to move continents",
+        "He had no fossil evidence",
+        "He refused to publish his results",
+        "His measurements of the Atlantic were shown to be false"
+      ],
+      "answer": 0,
+      "feedback": "The fossil and rock evidence was strong; the problem was that tidal drag and the earth's spin were far too weak to move continents through solid rock."
+    },
+    {
+      "id": "seafloor-spreading",
+      "type": "choice",
+      "prompt": "Where does new ocean floor form?",
+      "choices": ["At mid-ocean ridges", "At trenches", "At transform faults", "In the middle of deep ocean basins"],
+      "answer": 0,
+      "feedback": "Magma rises at the ridge crest and freezes into new crust, which then spreads away on either side."
+    },
+    {
+      "id": "magnetic-stripes",
+      "type": "choice",
+      "prompt": "The symmetrical stripes of magnetised rock on either side of a mid-ocean ridge record…",
+      "choices": ["Reversals of the earth's magnetic field", "The rise and fall of the tides", "The composition of seawater", "The age of the moon"],
+      "answer": 0,
+      "feedback": "As new crust forms it locks in the field of the day, so each reversal of the field writes a new stripe."
+    },
+    {
+      "id": "trench-boundary",
+      "type": "choice",
+      "prompt": "A deep ocean trench is most characteristic of which kind of plate boundary?",
+      "choices": ["Convergent", "Divergent", "Transform", "Intraplate"],
+      "answer": 0,
+      "feedback": "Trenches mark subduction zones, where one plate is forced down beneath another."
+    },
+    {
+      "id": "himalaya-formation",
+      "type": "choice",
+      "prompt": "The Himalaya were formed by…",
+      "choices": [
+        "The collision of two continents",
+        "The subduction of an ocean plate beneath an island arc",
+        "Movement along a transform fault",
+        "A hot spot under a moving plate"
+      ],
+      "answer": 0,
+      "feedback": "India drove into Asia beginning about 50 million years ago, crumpling and thickening the crust into fold mountains."
+    },
+    {
+      "id": "richter-energy",
+      "type": "choice",
+      "prompt": "On the Richter scale, each whole number increase means roughly how much more energy is released?",
+      "choices": ["About 31 times", "About 2 times", "About 10 times", "About 100 times"],
+      "answer": 0,
+      "feedback": "Amplitude rises tenfold per unit, and energy by about a factor of 31."
+    },
+    {
+      "id": "ring-of-fire",
+      "type": "choice",
+      "prompt": "The Ring of Fire is a belt of volcanoes and earthquakes around which ocean?",
+      "choices": ["The Pacific", "The Atlantic", "The Indian", "The Arctic"],
+      "answer": 0,
+      "feedback": "About 75 per cent of active volcanoes and 90 per cent of earthquakes lie around the Pacific, where slabs are subducting."
+    },
+    {
+      "id": "hawaiian-chain",
+      "type": "choice",
+      "prompt": "The Hawaiian–Emperor chain of volcanoes is used as evidence that…",
+      "choices": [
+        "A plate moved over a fixed hot spot",
+        "The ocean floor does not move",
+        "The moon causes eruptions",
+        "Volcanoes are scattered at random"
+      ],
+      "answer": 0,
+      "feedback": "The volcanoes grow older to the northwest, recording the motion of the Pacific plate over a hot spot."
+    },
+    {
+      "id": "three-kinds-of-evidence",
+      "type": "short-answer",
+      "prompt": "Wegener, Darwin, and the USGS synthesis each offer evidence about the earth's crust. Compare what kind of claim each source makes and what it can and cannot show.",
+      "context": "Wegener (1924): 'He who examines the opposite coasts of the South Atlantic Ocean must be somewhat struck by the similarity of the shapes of the coast-lines of Brazil and Africa.' Darwin (1845): 'The most remarkable effect of this earthquake was the permanent elevation of the land.' Kious and Tilling (1996): 'the seafloor spreading hypothesis quickly gained converts and represented another major advance in the development of the plate-tectonics theory.'",
+      "rubric": [
+        "refers to all three sources",
+        "distinguishes eyewitness observation from an argument and from a later synthesis",
+        "uses a specific phrase or figure from the texts"
+      ]
+    }
+  ]
+}

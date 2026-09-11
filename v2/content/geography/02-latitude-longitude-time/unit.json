@@ -1,0 +1,206 @@
+{
+  "id": "02-latitude-longitude-time",
+  "title": "Latitude, longitude, and time",
+  "period": "c. 150 BCE–1923 CE",
+  "region": "The whole earth",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "pigafetta-navigation",
+      "title": "Of latitude and longitude",
+      "author": "Antonio Pigafetta",
+      "date": "c. 1524, describing the voyage of 1519–1522",
+      "citation": "Antonio Pigafetta, 'Treatise of Navigation,' in The First Voyage Round the World, by Magellan, translated by Lord Stanley of Alderley (London: Hakluyt Society, 1874). Text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/The_First_Voyage_Round_the_World/Pigafetta%27s_Treatise_of_Navigation",
+      "file": "sources/pigafetta-navigation.md",
+      "context": "Pigafetta sailed with Magellan and wrote an account of the voyage, including a short treatise on how a pilot found latitude by the pole star and the sun, and the methods then proposed for longitude. He wrote in the 1520s, before the sextant or the chronometer existed.",
+      "questions": [
+        "Pigafetta says the pole star 'is not precisely on the point corresponding to the axis of the earth.' Why does that matter to a navigator?",
+        "In the rules for the sun's altitude, what two things must the navigator know besides the observed altitude?",
+        "Pigafetta writes that pilots 'content themselves with knowing the latitude.' What does that tell us about the state of navigation when he wrote?"
+      ]
+    },
+    {
+      "id": "harrison-remarks",
+      "title": "On the longitude, and the trial of the watch",
+      "author": "John Harrison",
+      "date": "1767",
+      "citation": "John Harrison, Remarks on a Pamphlet Lately published by the Rev. Mr. Maskelyne, Under the Authority of the Board of Longitude (London: W. Sandby, 1767), second edition. Project Gutenberg eBook 37321.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/37321",
+      "file": "sources/harrison-remarks.md",
+      "context": "Harrison published this pamphlet during his long dispute with the Board of Longitude. He explains how a timekeeper yields longitude, then accuses the Astronomer Royal, Nevil Maskelyne, of conducting the trial of the watch unfairly.",
+      "questions": [
+        "According to Harrison, how many minutes of time correspond to one degree of longitude, and why?",
+        "Harrison says a watch need not keep the same time as the earth. What must it do instead?",
+        "Harrison's pamphlet is an argument, not a report. Where does he move from explaining the method to attacking a person, and what does that shift reveal?"
+      ]
+    },
+    {
+      "id": "meridian-conference-1884",
+      "title": "Final Act of the International Meridian Conference",
+      "author": "International Meridian Conference, Washington, D.C.",
+      "date": "October 1884",
+      "citation": "International Conference Held at Washington for the Purpose of Fixing a Prime Meridian and a Universal Day. October, 1884. Protocols of the Proceedings (Washington, D.C., 1884). Project Gutenberg eBook 17759.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/17759",
+      "file": "sources/meridian-conference-1884.md",
+      "context": "Delegates from twenty-five nations met in Washington to choose a single prime meridian and a universal day. The final resolutions record the choice of Greenwich, the counting of longitude to 180 degrees, and the votes, including the one dissent and the two abstentions.",
+      "questions": [
+        "Resolution II was carried 22 to 1. Who voted against, and who abstained, and what might each have wanted instead?",
+        "Resolution V fixes the universal day at mean midnight on the initial meridian. Why does the choice of midnight rather than noon matter?",
+        "The conference could propose but not compel. What in the wording of the resolutions shows that its decisions were recommendations?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "sobel-lone-genius",
+      "historian": "Dava Sobel",
+      "work": "Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time",
+      "year": "1995",
+      "claim": "Sobel argues that the longitude problem was solved by one man of genius, the clockmaker John Harrison, and that the scientific establishment, above all the Astronomer Royal Nevil Maskelyne, who favoured the lunar-distance method, withheld the reward out of jealousy and self-interest.",
+      "note": "Historians of science, including William J. H. Andrewes, caution that the lunar method was practical and widely used, and that the Board of Longitude also had to weigh cost, reproducibility, and the terms of the Act. Sobel's account is compelling but turns a technical and institutional dispute into a contest between a hero and villains."
+    },
+    {
+      "id": "andrewes-collective-quest",
+      "historian": "William J. H. Andrewes",
+      "work": "The Quest for Longitude: The Proceedings of the Longitude Symposium, Harvard University, November 4–6, 1993",
+      "year": "1996",
+      "claim": "Andrewes and the contributors argue that longitude was not solved by a single invention but by a long collective effort: better astronomy, improved tables, the sextant, the lunar-distance method, and the marine chronometer each played a part, and the Board of Longitude acted as a patron of that broad programme.",
+      "note": "Some contributors still treat Harrison's watch as the decisive breakthrough, and Sobel's popular account has kept the single-genius story alive. The dispute is less about the facts of the trials than about how credit should be divided."
+    }
+  ],
+  "activities": [
+    {
+      "id": "what-is-longitude",
+      "type": "choice",
+      "prompt": "Longitude measures a place's position…",
+      "choices": [
+        "East or west of a chosen meridian",
+        "North or south of the equator",
+        "Above or below sea level",
+        "Along the earth's orbit around the sun"
+      ],
+      "answer": 0,
+      "feedback": "Latitude is measured north or south of the equator; longitude is measured east or west of a chosen meridian."
+    },
+    {
+      "id": "why-longitude-hard",
+      "type": "choice",
+      "prompt": "Why was longitude harder to find at sea than latitude?",
+      "choices": [
+        "It required knowing the time at a reference place",
+        "It could only be measured on land",
+        "The stars do not move in the southern hemisphere",
+        "It changed every year"
+      ],
+      "answer": 0,
+      "feedback": "Latitude can be read from the sky alone; longitude is a difference of time, so it needs a clock or a celestial clock and a known reference."
+    },
+    {
+      "id": "tilt-seasons",
+      "type": "choice",
+      "prompt": "What does the 23.44° tilt of the earth's axis produce?",
+      "choices": [
+        "The tropics, the polar circles, and the seasons",
+        "The length of the day at the equator only",
+        "The direction of the magnetic compass",
+        "The twelve months of the calendar"
+      ],
+      "answer": 0,
+      "feedback": "The tilt fixes the tropics at 23.44° and the polar circles at 66.56°, and it is the cause of the seasons."
+    },
+    {
+      "id": "pigafetta-pole-star",
+      "type": "choice",
+      "prompt": "How did Pigafetta correct the altitude of the pole star?",
+      "choices": [
+        "By observing where the Guard stars stood",
+        "By measuring the height of the moon",
+        "By reading a clock set at Seville",
+        "By counting the ship's speed with a log"
+      ],
+      "answer": 0,
+      "feedback": "The pole star circles the pole, so its height above or below the pole was judged from the position of the Guard stars and added or subtracted."
+    },
+    {
+      "id": "longitude-act",
+      "type": "choice",
+      "prompt": "What did the Longitude Act of 1714 offer?",
+      "choices": [
+        "A reward of up to £20,000 for a method accurate to half a degree",
+        "A pension to any clockmaker in London",
+        "A prize for the fastest crossing of the Atlantic",
+        "A grant to build a new observatory at Paris"
+      ],
+      "answer": 0,
+      "feedback": "The Act graded the reward by accuracy: £10,000 for one degree, £15,000 for two-thirds, and £20,000 for half a degree."
+    },
+    {
+      "id": "h4-jamaica",
+      "type": "choice",
+      "prompt": "On its 1761 voyage to Jamaica, Harrison's watch H4…",
+      "choices": [
+        "Kept time to about five seconds over eighty-one days",
+        "Stopped after three weeks at sea",
+        "Was confiscated at Portsmouth",
+        "Failed to predict the ship's arrival"
+      ],
+      "answer": 0,
+      "feedback": "H4 lost only about five seconds on the passage to Kingston, an error of roughly one nautical mile in longitude."
+    },
+    {
+      "id": "greenwich-vote",
+      "type": "choice",
+      "prompt": "What did the 1884 International Meridian Conference decide?",
+      "choices": [
+        "To adopt Greenwich as the prime meridian, by 22 votes to 1",
+        "To keep every nation's own prime meridian",
+        "To move the prime meridian to Washington",
+        "To abolish longitude east of the equator"
+      ],
+      "answer": 0,
+      "feedback": "Resolution II chose the meridian of Greenwich; San Domingo voted against and Brazil and France abstained."
+    },
+    {
+      "id": "date-line-bends",
+      "type": "choice",
+      "prompt": "Why does the International Date Line bend away from 180°?",
+      "choices": [
+        "To keep whole countries and island groups on the same date",
+        "Because the ocean currents push it east",
+        "Because the earth's axis is tilted",
+        "To follow the line of the equator"
+      ],
+      "answer": 0,
+      "feedback": "A straight line at 180° would split Siberia, the Aleutians, and Kiribati, so the line is bent around them."
+    },
+    {
+      "id": "zones-political",
+      "type": "choice",
+      "prompt": "Why do some countries keep a time zone that does not match their longitude?",
+      "choices": [
+        "Zones are drawn for political and commercial convenience",
+        "The earth rotates at different speeds in different places",
+        "Their longitude cannot be measured",
+        "The sun rises at the same hour everywhere"
+      ],
+      "answer": 0,
+      "feedback": "China spans some sixty degrees of longitude but keeps one zone; Spain keeps Central European Time though the prime meridian passes through it."
+    },
+    {
+      "id": "reflect-time-and-longitude",
+      "type": "short-answer",
+      "prompt": "Using the passage below, explain in your own words why finding longitude at sea depended on time, and why that made it harder than finding latitude.",
+      "context": "Harrison: 'for every Degree of Longitude we sail Westward, it will be Noon with us four Minutes the later, and for every Degree Eastward four Minutes the sooner… if therefore, at any Time when such Observation is made, a Time-Keeper tells us at the same Moment what o'Clock it is at the Place we sailed from, our Longitude is clearly discovered.'",
+      "rubric": [
+        "explains that longitude is a difference in time between the ship and a reference place",
+        "uses the specific figure of four minutes per degree from the passage",
+        "contrasts this with latitude, which can be read from the sky alone"
+      ]
+    }
+  ]
+}
