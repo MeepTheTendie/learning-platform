@@ -1,0 +1,196 @@
+{
+  "id": "14-states-and-empires",
+  "title": "States, parliaments, and imperial rivalry",
+  "period": "c. 1600–1763 CE",
+  "region": "Europe and the Atlantic empires",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "hobbes-leviathan",
+      "title": "Leviathan, Chapter XVII: Of the Causes, Generation, and Definition of a Commonwealth",
+      "author": "Thomas Hobbes",
+      "date": "1651",
+      "citation": "Thomas Hobbes, Leviathan, or the Matter, Forme, and Power of a Common-Wealth Ecclesiasticall and Civill (1651), Chapter XVII. Project Gutenberg eBook 3207.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/3207",
+      "file": "sources/hobbes-leviathan.md",
+      "context": "Hobbes wrote during the English civil war, and Leviathan argues that only an undivided sovereign power can keep people from the war of all against all. This is the chapter in which he defines the commonwealth and the sovereign.",
+      "questions": [
+        "What does Hobbes mean when he says covenants 'without the Sword, are but Words'?",
+        "What does the text assume people give up, and what do they receive in return?",
+        "Hobbes wrote while the king was at war with Parliament. What might he be arguing against?",
+        "Why might a Parliament that had just executed a king read this argument with suspicion?"
+      ]
+    },
+    {
+      "id": "english-bill-of-rights",
+      "title": "An Act Declaring the Rights and Liberties of the Subject and Settling the Succession of the Crown (the Bill of Rights)",
+      "author": "Parliament of England",
+      "date": "1689",
+      "citation": "English Bill of Rights, 1689, in The Avalon Project: Documents in Law, History and Diplomacy, Lillian Goldman Law Library, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/17th_century/england.asp",
+      "file": "sources/english-bill-of-rights.md",
+      "context": "Enacted after James II fled and William and Mary took the throne, the Bill of Rights recites the grievances of 1688 and enacts the Declaration of Right as law. It limits the crown but leaves the franchise to the propertied.",
+      "questions": [
+        "Which powers does the act deny the crown, and which does it leave untouched?",
+        "Who is said to be represented by the Lords and Commons, and who is not mentioned?",
+        "The act calls the rights 'ancient.' Why might that word matter politically?",
+        "What does the act assume about the relationship between Parliament and the king?"
+      ]
+    },
+    {
+      "id": "treaty-of-paris-1763",
+      "title": "Definitive Treaty of Peace and Friendship, concluded at Paris, 10 February 1763",
+      "author": "Great Britain, France, and Spain",
+      "date": "1763",
+      "citation": "Definitive Treaty of Peace and Friendship between Great Britain, France, and Spain, concluded at Paris, 10 February 1763. The Avalon Project, Lillian Goldman Law Library, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/paris763.asp",
+      "file": "sources/treaty-of-paris-1763.md",
+      "context": "The treaty ended the Seven Years' War and transferred Canada and Florida to Britain. Its articles are a diplomatic instrument: they name territory, religion, and trade, and they say nothing about the people already living there.",
+      "questions": [
+        "What does Article IV transfer, and what does it promise the inhabitants?",
+        "Where does the treaty draw the boundary in North America, and why draw it along a river?",
+        "What does Article XI do in the East Indies, and what does that suggest about what the war was fought over?",
+        "The treaty never mentions the enslaved people in the ceded islands. What does that silence reveal?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "brewer-fiscal-military",
+      "historian": "John Brewer",
+      "work": "The Sinews of Power: War, Money and the English State, 1688–1783",
+      "year": "1989",
+      "claim": "Brewer argued that Britain's rise after 1688 rested on a 'fiscal-military state' — a set of institutions, including the treasury, the excise, the navy boards, and the funded debt, built to extract revenue and borrow for war, which let Britain fight on a scale its population could not otherwise support.",
+      "note": "The label has since been applied to other states and is contested: some historians argue that France and Prussia also built powerful war machines, and that Britain's advantage lay in cheap credit and political consent rather than in the size of its government."
+    },
+    {
+      "id": "beik-absolutism-elites",
+      "historian": "William Beik",
+      "work": "Absolutism and Society in Seventeenth-Century France: State Power and Provincial Aristocracy in Languedoc",
+      "year": "1985",
+      "claim": "Beik argued that Louis XIV's absolutism worked not by crushing the nobility but by enlisting it, buying the cooperation of provincial elites with offices, pensions, and tax privileges so that royal power and aristocratic power advanced together.",
+      "note": "Other historians stress coercion and the system's limits — the intendants, the tax exemptions that starved the treasury, and the revolts that followed new taxes. The claim is an argument about how to read the same institutions, not a settled fact."
+    }
+  ],
+  "activities": [
+    {
+      "id": "excise-definition",
+      "type": "choice",
+      "prompt": "What was an excise?",
+      "choices": [
+        "A tax on goods produced and sold inside the country",
+        "A tax on land owned by nobles",
+        "A one-time payment to the crown",
+        "A duty paid only by foreign merchants"
+      ],
+      "answer": 0,
+      "feedback": "The English excise fell on beer, malt, salt, candles, and soap, and could be pledged to lenders — which is why it made borrowing cheap."
+    },
+    {
+      "id": "intendant-commission",
+      "type": "choice",
+      "prompt": "What distinguished a French intendant from an old office-holder?",
+      "choices": [
+        "He held a revocable royal commission rather than a purchased, inheritable post",
+        "He was elected by the provincial estates",
+        "He owned his office as property",
+        "He answered only to the Parlement of Paris"
+      ],
+      "answer": 0,
+      "feedback": "An intendant was sent from the centre and served at the king's pleasure, unlike venal office-holders who owned their posts."
+    },
+    {
+      "id": "charles-execution",
+      "type": "choice",
+      "prompt": "What happened to Charles I in January 1649?",
+      "choices": [
+        "He was executed by his own subjects",
+        "He abdicated in favour of his son",
+        "He fled to France",
+        "He was restored to the throne"
+      ],
+      "answer": 0,
+      "feedback": "Charles I was executed before the Banqueting House on 30 January 1649, the first sitting king in Europe to be publicly killed by his subjects."
+    },
+    {
+      "id": "bill-of-rights-power",
+      "type": "choice",
+      "prompt": "Which power did the Bill of Rights (1689) deny the crown?",
+      "choices": [
+        "Suspending or dispensing with laws without Parliament",
+        "Commanding the army in wartime",
+        "Calling new elections",
+        "Appointing judges"
+      ],
+      "answer": 0,
+      "feedback": "The Bill declared illegal the pretended power of suspending or dispensing with laws by royal authority without Parliament's consent."
+    },
+    {
+      "id": "bank-of-england",
+      "type": "choice",
+      "prompt": "Why was the Bank of England chartered in 1694?",
+      "choices": [
+        "To lend the crown money for war and manage the public debt",
+        "To regulate colonial trade",
+        "To collect the taille in France",
+        "To issue passports to merchants"
+      ],
+      "answer": 0,
+      "feedback": "The Bank lent the crown £1.2 million and was given the right to issue notes and manage the funded debt."
+    },
+    {
+      "id": "table-of-ranks",
+      "type": "choice",
+      "prompt": "What did the Table of Ranks (1722) allow?",
+      "choices": [
+        "Non-nobles to reach noble status through state service",
+        "Peasants to buy their freedom",
+        "Nobles to avoid all service",
+        "Merchants to elect the tsar"
+      ],
+      "answer": 0,
+      "feedback": "The Table of Ranks graded military, civil, and court service into fourteen ranks, opening noble status to those who served."
+    },
+    {
+      "id": "paris-territories",
+      "type": "choice",
+      "prompt": "Which territories did Britain gain by the Treaty of Paris in 1763?",
+      "choices": [
+        "Canada, Florida, and the eastern Mississippi valley",
+        "Spain and its American empire",
+        "The Dutch Republic",
+        "Silesia and Saxony"
+      ],
+      "answer": 0,
+      "feedback": "France ceded Canada and Spain ceded Florida; France also surrendered its Indian factories except for trading posts."
+    },
+    {
+      "id": "asiento",
+      "type": "choice",
+      "prompt": "The asiento was…",
+      "choices": [
+        "A contract to supply enslaved Africans to the Spanish colonies",
+        "A Dutch joint-stock charter",
+        "A French land tax",
+        "A treaty ending the slave trade"
+      ],
+      "answer": 0,
+      "feedback": "The asiento was the contract to supply enslaved people to the Spanish colonies; Britain won it at Utrecht in 1713."
+    },
+    {
+      "id": "authority-compared",
+      "type": "short-answer",
+      "prompt": "The English Bill of Rights and Hobbes's Leviathan offer opposed accounts of where political authority comes from. Compare what each text assumes about the source of a ruler's power, and what limits each places on it.",
+      "context": "Hobbes: 'The only way to erect such a Common Power ... is, to conferre all their power and strength upon one Man, or upon one Assembly of men ... This is the Generation of that great LEVIATHAN, or rather ... of that Mortall God, to which wee owe under the Immortall God, our peace and defence.' — Bill of Rights (1689): 'That the pretended power of suspending the laws or the execution of laws by regal authority without consent of Parliament is illegal.'",
+      "rubric": [
+        "refers to both texts",
+        "states what each assumes about the source of authority",
+        "uses a specific phrase from at least one text"
+      ]
+    }
+  ]
+}

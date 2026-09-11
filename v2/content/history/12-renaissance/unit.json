@@ -1,0 +1,188 @@
+{
+  "id": "12-renaissance",
+  "title": "Learning, printing, and oceanic expansion",
+  "period": "c. 1400–1600 CE",
+  "region": "Italy · the Atlantic · the Indian Ocean",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "machiavelli-prince",
+      "title": "The Prince, chapter XVIII: how princes should keep faith",
+      "author": "Niccolò Machiavelli",
+      "date": "Written 1513; first printed 1532",
+      "citation": "The Prince, translated by W. K. Marriott (1908). Project Gutenberg eBook 1232.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1232",
+      "file": "sources/machiavelli-prince.md",
+      "context": "Machiavelli wrote The Prince in 1513, after the Medici returned to Florence and he lost his post in the chancery. It was not printed until 1532, five years after his death. Here he asks whether a prince is bound to keep his word.",
+      "questions": [
+        "What does Machiavelli assume about how most people judge a prince?",
+        "Why does he say a prince must be both a fox and a lion?",
+        "Does Machiavelli describe what princes do, or advise what they ought to do? How can you tell?"
+      ]
+    },
+    {
+      "id": "columbus-santangel",
+      "title": "Letter to Luis de Santangel on the first voyage",
+      "author": "Christopher Columbus",
+      "date": "1493",
+      "citation": "Select Letters of Christopher Columbus, translated by Richard Henry Major (Hakluyt Society, 1870). Project Gutenberg eBook 77820.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/77820",
+      "file": "sources/columbus-santangel.md",
+      "context": "Columbus wrote this letter in February 1493, on the return leg of his first voyage, to Luis de Santangel, an official who had helped secure the backing of the crown. It was printed and read across Europe.",
+      "questions": [
+        "What does Columbus say he took possession of, and in whose name?",
+        "How does he describe the people he met, and what does he say they could be made to do?",
+        "The letter names gold, spices, cotton, mastic, and slaves as things he can supply. What does that list tell you about the purpose of the voyage?"
+      ]
+    },
+    {
+      "id": "las-casas-destruction",
+      "title": "A Brief Account of the Destruction of the Indies (selections)",
+      "author": "Bartolomé de las Casas",
+      "date": "1552",
+      "citation": "A Brief Account of the Destruction of the Indies (Seville, 1552), English translation retaining archaic spelling. Project Gutenberg eBook 20321.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/20321",
+      "file": "sources/las-casas-destruction.md",
+      "context": "Las Casas was a Spanish priest who had held an encomienda in Cuba and gave it up. He wrote this account for the crown, cataloguing the violence of the conquest; it was printed at Seville in 1552.",
+      "questions": [
+        "Las Casas describes the islanders as 'innocently simple.' What does that description assume about them, and what does it leave out?",
+        "He gives a figure of three million dead on Hispaniola. What kind of evidence would be needed to check such a number?",
+        "Las Casas was an eyewitness to some of what he reports and repeats other accounts. Where in this passage does he claim to have seen things himself?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "eisenstein-print",
+      "historian": "Elizabeth Eisenstein",
+      "work": "The Printing Press as an Agent of Change",
+      "year": "1979",
+      "claim": "Eisenstein argued that the press was a communications revolution: because a printed text was identical in every copy and available in quantity, a scholar could cite a page that a colleague in another city could turn to, and knowledge could accumulate as it could not when every manuscript differed.",
+      "note": "Adrian Johns, in The Nature of the Book (1998), answered that early printed books were not automatically trusted. Confidence in them was built slowly by printers, censors, and readers, so the press was less a sudden break than a gradual change."
+    },
+    {
+      "id": "crosby-columbian-exchange",
+      "historian": "Alfred W. Crosby",
+      "work": "The Columbian Exchange",
+      "year": "1972",
+      "claim": "Crosby argued that the decisive consequence of 1492 was biological. The transfer of crops, animals, and above all diseases between the two hemispheres remade diets and landscapes, and the epidemics that followed killed most of the people they reached.",
+      "note": "Matthew Restall, in Seven Myths of the Spanish Conquest (2003), argued that the story of a few Europeans defeating vast empires is a myth, and that conquest was long, incomplete, and carried on indigenous backs. The two arguments can reinforce each other or pull apart."
+    }
+  ],
+  "activities": [
+    {
+      "id": "studia-humanitatis",
+      "type": "choice",
+      "prompt": "The humanists called their course of study the studia humanitatis. Which subjects did it include?",
+      "choices": [
+        "Grammar, rhetoric, poetry, history, and moral philosophy",
+        "Law, medicine, theology, and canon law",
+        "Arithmetic, geometry, music, and astronomy",
+        "Navigation, gunnery, and bookkeeping"
+      ],
+      "answer": 0,
+      "feedback": "The studia humanitatis were the studies of humanity: the skills of reading, writing, and judging well, drawn from Greek and Latin authors."
+    },
+    {
+      "id": "petrarch-interval",
+      "type": "choice",
+      "prompt": "What did Petrarch's picture of a bright antiquity and a long decline produce?",
+      "choices": [
+        "The idea of a rebirth, or Renaissance",
+        "The doctrine of papal supremacy",
+        "The theory of the just war",
+        "The practice of printing"
+      ],
+      "answer": 0,
+      "feedback": "Petrarch saw his own age as separated from Rome by centuries he thought dark; the word Renaissance came from that story about the past."
+    },
+    {
+      "id": "gutenberg-system",
+      "type": "choice",
+      "prompt": "What did Gutenberg combine to make printing work at commercial speed?",
+      "choices": [
+        "Movable metal type, oil-based ink, a screw press, and paper",
+        "Woodblock carving, papyrus, and a water wheel",
+        "Copperplate engraving, vellum, and a treadle",
+        "Lithography, steam power, and steel rollers"
+      ],
+      "answer": 0,
+      "feedback": "The invention was a system: cast letters of uniform height, an ink that stuck to metal, a press adapted from wine and oil presses, and a steady supply of paper."
+    },
+    {
+      "id": "first-bestsellers",
+      "type": "choice",
+      "prompt": "The first best-sellers printed in Europe were mostly…",
+      "choices": [
+        "Bibles, psalters, grammars, and printed indulgences",
+        "Greek and Roman classics",
+        "Scientific treatises",
+        "News pamphlets"
+      ],
+      "answer": 0,
+      "feedback": "Printers made their money on religious and practical books before humanist editions and news-sheets became common."
+    },
+    {
+      "id": "gama-route",
+      "type": "choice",
+      "prompt": "What was new about Vasco da Gama's arrival at Calicut in 1498?",
+      "choices": [
+        "A sea route new to Europeans, in a sea long known to its own traders",
+        "The first contact between India and the wider world",
+        "The discovery of an uninhabited coast",
+        "The first use of the monsoon winds"
+      ],
+      "answer": 0,
+      "feedback": "Calicut had traded with the Red Sea, the Persian Gulf, and China for centuries. The Cape route was new to the Europeans, not to anyone else."
+    },
+    {
+      "id": "encomienda",
+      "type": "choice",
+      "prompt": "Under the encomienda, what did the Spanish crown grant to a settler?",
+      "choices": [
+        "A right to exact tribute and labour from a group of indigenous people",
+        "Ownership of a fixed area of land",
+        "A monopoly on the spice trade",
+        "The right to hold public office in Spain"
+      ],
+      "answer": 0,
+      "feedback": "The grant was worded as protection and instruction in Christianity, but in practice it became forced labour, and the people of Hispaniola collapsed within a generation."
+    },
+    {
+      "id": "tordesillas",
+      "type": "choice",
+      "prompt": "What did the treaty of Tordesillas (1494) do?",
+      "choices": [
+        "It drew a meridian dividing the non-European world between Spain and Portugal",
+        "It ended the Hundred Years' War",
+        "It fixed the border between France and Spain",
+        "It abolished the transatlantic slave trade"
+      ],
+      "answer": 0,
+      "feedback": "The line ran 370 leagues west of the Cape Verde islands and gave Portugal its claim to Brazil. No one asked the people who lived there."
+    },
+    {
+      "id": "disease",
+      "type": "choice",
+      "prompt": "Which factor killed the largest number of people in the Americas after 1492?",
+      "choices": ["Epidemic disease", "Steel weapons", "Horses", "Firearms"],
+      "answer": 0,
+      "feedback": "Smallpox, measles, and influenza ran ahead of the invaders and killed rulers and emptied towns; the fighting was only part of the story."
+    },
+    {
+      "id": "compare-columbus-las-casas",
+      "type": "short-answer",
+      "prompt": "Columbus and Las Casas both describe the peoples of the Caribbean. Compare what each source takes for granted and what each is trying to accomplish.",
+      "context": "Columbus, writing in 1493: 'they are guileless, and so liberal of all they have that no one would believe it who had not seen it… their Highnesses may see that I shall give them all the gold they require… slaves, as many of these idolators as their Highnesses shall command to be shipped.' Las Casas, writing in 1552: 'The Spaniards first assaulted the innocent Sheep… like most cruel Tygers, Wolves and Lions hunger-starv'd… that of Three Millions of Persons, which lived in Hispaniola itself, there is at present but the inconsiderable remnant of scarce Three Hundred.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each author takes for granted",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}

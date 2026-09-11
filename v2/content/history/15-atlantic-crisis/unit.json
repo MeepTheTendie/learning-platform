@@ -1,0 +1,209 @@
+{
+  "id": "15-atlantic-crisis",
+  "title": "Enlightenment and the Atlantic crisis",
+  "period": "c. 1650–1789 CE",
+  "region": "Europe and British North America",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "locke-second-treatise",
+      "title": "Of the state of nature and the dissolution of government",
+      "author": "John Locke",
+      "date": "1690",
+      "citation": "Second Treatise of Government (1690), chapters II, IX, and XIX. Project Gutenberg eBook 7370.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/7370",
+      "file": "sources/locke-second-treatise.md",
+      "context": "Locke published the Two Treatises anonymously after the Revolution of 1688. The passages below set out his account of natural freedom and equality, the reason people leave the state of nature, and the conditions under which they may resist a government that betrays its trust.",
+      "questions": [
+        "What does Locke mean by property, and why does he treat its preservation as the purpose of government?",
+        "On what conditions does Locke say a people may resist, and what has to happen before they act?",
+        "Locke writes that people are naturally equal. Whom did he count as people, and what does the text leave out?",
+        "This is a work of political theory, not a report of events. What can it show, and what can it not?"
+      ]
+    },
+    {
+      "id": "stamp-act-resolutions",
+      "title": "Resolutions of the Stamp Act Congress",
+      "author": "The Stamp Act Congress",
+      "date": "October 19, 1765",
+      "citation": "Resolutions of the Congress of October 19, 1765. The Avalon Project, Lillian Goldman Law Library, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/resolu65.asp",
+      "file": "sources/stamp-act-resolutions.md",
+      "context": "Delegates from nine colonies met in New York in October 1765 to answer the Stamp Act. Their resolves concede allegiance to the crown and subordination to Parliament, then deny that Parliament can tax the colonies at all.",
+      "questions": [
+        "Which resolves accept Parliament's authority, and which deny it?",
+        "How does the Congress argue that the colonies are not represented in the House of Commons?",
+        "The delegates call their resolves a 'humble opinion.' What does that language assume about the audience they are addressing?",
+        "Is this a statement of principle or a negotiating position? What evidence would settle the question?"
+      ]
+    },
+    {
+      "id": "declaration-1776",
+      "title": "The Declaration of Independence",
+      "author": "The Continental Congress (drafted by Thomas Jefferson)",
+      "date": "July 4, 1776",
+      "citation": "Declaration of Independence, July 4, 1776. Documents Illustrative of the Formation of the Union of the American States, ed. Charles C. Tansill (Government Printing Office, 1927). The Avalon Project, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/declare.asp",
+      "file": "sources/declaration-1776.md",
+      "context": "Congress adopted the Declaration on July 4, 1776, two days after voting for independence. Its preamble states a general theory of rights; the long middle section charges the king with specific acts; the close declares the colonies free states.",
+      "questions": [
+        "Who is the audience for this document, and how can you tell?",
+        "The preamble argues from general principles and the list of charges argues from particular facts. Why would the author use both?",
+        "What does the document blame the king for, and what does it leave out?",
+        "The Declaration speaks of 'the good People of these Colonies.' Who was included in that phrase, and who was not?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "bailyn-ideological-origins",
+      "historian": "Bernard Bailyn",
+      "work": "The Ideological Origins of the American Revolution",
+      "year": "1967",
+      "claim": "Bailyn argued that the colonists acted on a body of inherited 'radical Whig' or country thought, and that they read each British measure as part of a deliberate design against liberty. On this reading the Revolution was a principled response to a perceived constitutional threat, not a mask for economic interest.",
+      "note": "Progressive historians such as Charles Beard had read the founding as a contest of economic groups, and later scholars have questioned how widely the radical Whig vocabulary was shared. The pamphlet evidence supports Bailyn, but pamphlets were written by the literate few."
+    },
+    {
+      "id": "wood-radicalism",
+      "historian": "Gordon S. Wood",
+      "work": "The Radicalism of the American Revolution",
+      "year": "1992",
+      "claim": "Wood argued that the Revolution's radicalism lay in its social results: it dissolved a society of hierarchy, deference, and dependence and replaced it with one organised around equality and the pursuit of interest.",
+      "note": "Critics note that Wood's account concentrates on white men of property. Social historians have asked what the Revolution changed for the enslaved, for women, and for Native nations, and the question remains open."
+    }
+  ],
+  "activities": [
+    {
+      "id": "newton-cosmos",
+      "type": "choice",
+      "prompt": "Newton's Principia (1687) was read by many contemporaries as evidence of…",
+      "choices": [
+        "A rational Creator whose universe ran by law",
+        "The divine right of kings",
+        "The superiority of the French monarchy",
+        "The coming end of the British empire"
+      ],
+      "answer": 0,
+      "feedback": "The orderly cosmos suggested a 'clockmaker' God. Newton himself wrote more on alchemy and biblical chronology than on physics."
+    },
+    {
+      "id": "old-regime-estates",
+      "type": "choice",
+      "prompt": "In pre-revolutionary France, the three estates were…",
+      "choices": [
+        "The clergy, the nobility, and everyone else",
+        "The king, the army, and the peasants",
+        "Merchants, guilds, and serfs",
+        "Catholics, Protestants, and Jews"
+      ],
+      "answer": 0,
+      "feedback": "The first two estates held legal privileges; the third was the vast majority who worked the land and paid the tithe and dues."
+    },
+    {
+      "id": "sovereignty-meaning",
+      "type": "choice",
+      "prompt": "In the political thought of the period, 'sovereignty' meant…",
+      "choices": [
+        "The supreme authority to make law within a territory",
+        "The right of a colony to trade freely",
+        "The power of a church court",
+        "A noble's exemption from taxation"
+      ],
+      "answer": 0,
+      "feedback": "Jurists held that sovereign power had to be single and indivisible, which made a divided empire hard to justify."
+    },
+    {
+      "id": "virtual-representation",
+      "type": "choice",
+      "prompt": "The doctrine of 'virtual representation' held that…",
+      "choices": [
+        "Members of Parliament spoke for the whole realm, not only the places that elected them",
+        "Colonists could vote by proxy in London",
+        "Every adult male had an equal vote",
+        "The king represented the colonies directly"
+      ],
+      "answer": 0,
+      "feedback": "On this theory Massachusetts was represented in Parliament although it elected no one to it — the claim the colonists rejected."
+    },
+    {
+      "id": "stamp-act-novelty",
+      "type": "choice",
+      "prompt": "What made the Stamp Act of 1765 different from earlier British measures?",
+      "choices": [
+        "It was a direct tax on the colonies rather than a regulation of their trade",
+        "It applied only to the king's officials",
+        "It was passed by the colonial assemblies",
+        "It ended slavery in the colonies"
+      ],
+      "answer": 0,
+      "feedback": "It fell on printed documents and so on printers, lawyers, and merchants — the people who shaped colonial opinion."
+    },
+    {
+      "id": "declaratory-act",
+      "type": "choice",
+      "prompt": "When Parliament repealed the Stamp Act in 1766, it also passed the Declaratory Act, which…",
+      "choices": [
+        "Asserted Parliament's power to bind the colonies in all cases whatsoever",
+        "Gave the colonies seats in the House of Commons",
+        "Ended the slave trade",
+        "Withdrew all British troops from America"
+      ],
+      "answer": 0,
+      "feedback": "The repeal removed the tax; the Declaratory Act kept the principle, moving the quarrel from money to sovereignty."
+    },
+    {
+      "id": "paine-common-sense",
+      "type": "choice",
+      "prompt": "What did Thomas Paine's Common Sense (1776) do that earlier colonial writers had avoided?",
+      "choices": [
+        "It attacked monarchy itself and argued for independence in plain prose",
+        "It defended the king against Parliament",
+        "It called for a new monarchy in America",
+        "It proposed reconciliation on any terms"
+      ],
+      "answer": 0,
+      "feedback": "Paine wrote for ordinary readers and sold in the tens of thousands, turning a legal question into a matter of common sense."
+    },
+    {
+      "id": "declaration-purpose",
+      "type": "choice",
+      "prompt": "The Declaration of Independence lists specific charges against the king in order to…",
+      "choices": [
+        "Submit 'facts' to a candid world and justify separation",
+        "Request a seat in Parliament",
+        "Ask the king to repeal the Stamp Act",
+        "Establish a national church"
+      ],
+      "answer": 0,
+      "feedback": "The list is the body of a legal case: the preamble states the theory, the charges supply the evidence."
+    },
+    {
+      "id": "constitution-slavery",
+      "type": "choice",
+      "prompt": "How did the Constitution of 1787 handle slavery?",
+      "choices": [
+        "It counted enslaved people as three-fifths of a person and protected the slave trade for twenty years",
+        "It abolished slavery immediately",
+        "It gave enslaved people the vote",
+        "It said nothing at all about slavery"
+      ],
+      "answer": 0,
+      "feedback": "The convention bargained over apportionment and the slave trade and left the deepest question to later generations."
+    },
+    {
+      "id": "rights-to-institutions",
+      "type": "short-answer",
+      "prompt": "The colonists claimed the rights of Englishmen; Parliament claimed sovereignty over the empire. Using the Stamp Act resolutions and the Declaration, explain how an argument about rights became a conflict over institutions.",
+      "context": "Stamp Act Congress, 1765: 'That it is inseparably essential to the freedom of a people, and the undoubted right of Englishmen, that no taxes be imposed on them, but with their own consent, given personally, or by their representatives.' Declaration of Independence, 1776: 'That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed.'",
+      "rubric": [
+        "refers to both documents",
+        "states the specific institutional claim each side made",
+        "explains why the two claims could not both stand"
+      ]
+    }
+  ]
+}

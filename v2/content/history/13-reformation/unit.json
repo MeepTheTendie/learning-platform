@@ -1,0 +1,161 @@
+{
+  "id": "13-reformation",
+  "title": "Reformation and religious wars",
+  "period": "c. 1517–1648 CE",
+  "region": "Germany · Switzerland · England · France",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "ninety-five-theses",
+      "title": "The Ninety-Five Theses on the Power of Indulgences",
+      "author": "Martin Luther",
+      "date": "1517",
+      "citation": "Translated by C. M. Jacobs in Works of Martin Luther, with Introductions and Notes, Volume I (Philadelphia: A. J. Holman Company, 1915). Project Gutenberg eBook 31604.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/31604",
+      "file": "sources/ninety-five-theses.md",
+      "context": "Luther proposed these propositions for an academic disputation at Wittenberg on the power of indulgences. Written in Latin for theologians, the document is an invitation to debate; it was printed and translated into German within weeks.",
+      "questions": [
+        "Which penalties does Luther say the pope can remit, and which can he not?",
+        "Theses 27 and 28 turn on the jingle of the coin in the money-box. What do they claim the money actually buys?",
+        "What does Luther point to instead of pardons as the true treasure of the church?"
+      ]
+    },
+    {
+      "id": "augsburg-confession",
+      "title": "The Augsburg Confession (selections)",
+      "author": "Philip Melanchthon and the Protestant princes and cities",
+      "date": "1530",
+      "citation": "The Augsburg Confession (1530). Project Gutenberg eBook 275.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/275",
+      "file": "sources/augsburg-confession.md",
+      "context": "Drawn up chiefly by Philip Melanchthon and presented to the Emperor Charles V at the Diet of Augsburg in 1530, the confession states the reformers' faith and, in Article XXVIII, separates the power of the church from the power of the sword.",
+      "questions": [
+        "What does Article IV say a person is justified by, and what does it exclude?",
+        "According to Article XXVIII, what is the power of the keys, and by what means is it exercised?",
+        "Where does the confession say civil authority must be distinguished from ecclesiastical jurisdiction, and who is left to judge a bishop who teaches against the Gospel?"
+      ]
+    },
+    {
+      "id": "peace-of-westphalia",
+      "title": "Treaty of Westphalia (selections)",
+      "author": "The plenipotentiaries of the Holy Roman Emperor and the King of France and their allies",
+      "date": "1648",
+      "citation": "Treaty of Westphalia, concluded at Münster, 24 October 1648. The Avalon Project, Lillian Goldman Law Library, Yale Law School.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/17th_century/westphal.asp",
+      "file": "sources/peace-of-westphalia.md",
+      "context": "The treaties signed at Münster and Osnabrück ended the Thirty Years' War in the Empire. These excerpts give the general amnesty, the restoration of churches and lands to the situation of 1624, the inclusion of the Reformed, and the confirmation of the estates' territorial rights.",
+      "questions": [
+        "The religious settlement restores churches and lands 'as they were in the Year 1624.' Why fix on that year rather than on an earlier or later one?",
+        "Article XLIX names the Reformed alongside the Augsburg confession. What does that inclusion suggest about how many confessions the Empire now recognised?",
+        "Article LXIV confirms the estates in the 'free exercise of Territorial Right.' What does this transfer, and to whom?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "wilson-thirty-years-constitution",
+      "historian": "Peter H. Wilson",
+      "work": "Europe's Tragedy: A History of the Thirty Years War",
+      "year": "2009",
+      "claim": "Wilson argued that the Thirty Years' War is best understood as a constitutional crisis of the Holy Roman Empire and a contest of dynasties, in which confession was one resource among several rather than the single cause of the fighting.",
+      "note": "Geoffrey Parker and others give more weight to religious conviction and to a wider European crisis. The disagreement turns on how the decisions of rulers are to be explained, and both readings can draw on the same treaty record."
+    },
+    {
+      "id": "haigh-english-reformations",
+      "historian": "Christopher Haigh",
+      "work": "English Reformations: Religion, Politics, and Society under the Tudors",
+      "year": "1993",
+      "claim": "Haigh argued that the English Reformation was slow and contested, imposed from above by the crown and its officials on a population that remained largely attached to traditional religion.",
+      "note": "A. G. Dickens had argued the opposite: that England was already turning Protestant and the state ratified a popular movement. The debate turns on how wills, churchwardens' accounts, and recusancy records are read."
+    }
+  ],
+  "activities": [
+    {
+      "id": "indulgence-penalty",
+      "type": "choice",
+      "prompt": "An indulgence, as the church taught it, remitted…",
+      "choices": ["The temporal penalty of sin, not the guilt", "All guilt and eternal punishment", "Only sins committed after baptism", "The obligation to attend Mass"],
+      "answer": 0,
+      "feedback": "The theses turn on this distinction: the pope could remit penalties he had imposed, but guilt was God's to forgive."
+    },
+    {
+      "id": "theses-year",
+      "type": "choice",
+      "prompt": "Luther's Ninety-Five Theses were proposed in…",
+      "choices": ["1517", "1492", "1530", "1555"],
+      "answer": 0,
+      "feedback": "Dated 31 October 1517 at Wittenberg, they were printed and translated into German within weeks."
+    },
+    {
+      "id": "justification-by-faith",
+      "type": "choice",
+      "prompt": "The doctrine of justification by faith held that a sinner is declared righteous…",
+      "choices": ["Freely, for Christ's sake, and received by faith", "By works of charity and penance", "By purchasing an indulgence", "By taking monastic vows"],
+      "answer": 0,
+      "feedback": "Luther called this the article on which the church stands or falls; his opponents joined faith to works of love."
+    },
+    {
+      "id": "printing-effect",
+      "type": "choice",
+      "prompt": "What did the printing press do for the Reformation?",
+      "choices": ["It made cheap argument public and let texts spread far and fast", "It caused the Reformation on its own", "It kept reform confined to Latin scholars", "It replaced preaching entirely"],
+      "answer": 0,
+      "feedback": "The press did not cause the movement, but cheap print carried pamphlets, woodcuts, and German Bibles across Europe."
+    },
+    {
+      "id": "augsburg-presented",
+      "type": "choice",
+      "prompt": "The Augsburg Confession was presented in 1530 to…",
+      "choices": ["The Emperor Charles V", "The pope in Rome", "Henry VIII of England", "Francis I of France"],
+      "answer": 0,
+      "feedback": "Philip Melanchthon drew up the moderate statement, and the Protestant princes and cities presented it at the Diet of Augsburg."
+    },
+    {
+      "id": "english-supremacy",
+      "type": "choice",
+      "prompt": "The Act of Supremacy of 1534 declared…",
+      "choices": ["The king supreme head of the Church of England", "The pope head of the English church", "The Book of Common Prayer law", "The monasteries dissolved"],
+      "answer": 0,
+      "feedback": "Henry VIII's break began with a marriage dispute but changed jurisdiction: the crown, not Rome, governed the English church."
+    },
+    {
+      "id": "st-bartholomew",
+      "type": "choice",
+      "prompt": "The St Bartholomew's Day massacre took place in…",
+      "choices": ["1572", "1517", "1598", "1618"],
+      "answer": 0,
+      "feedback": "In 1572, after the marriage of Henry of Navarre, the killing of Huguenot leaders spread from Paris into the provinces."
+    },
+    {
+      "id": "westphalia-settlement",
+      "type": "choice",
+      "prompt": "The Peace of Westphalia (1648) fixed the religious settlement by reference to…",
+      "choices": ["The situation of 1 January 1624", "The Peace of Augsburg of 1555", "The Edict of Nantes of 1598", "The Council of Trent"],
+      "answer": 0,
+      "feedback": "The 'normative year' of 1624 was the baseline for restoring churches and lands, and the treaty recognised Catholic, Lutheran, and Reformed confessions."
+    },
+    {
+      "id": "trent-response",
+      "type": "choice",
+      "prompt": "The Council of Trent (1545–63) answered the Protestant challenge by…",
+      "choices": ["Fixing Catholic doctrine and reforming abuses", "Abolishing the papacy", "Accepting justification by faith alone", "Ending the use of Latin"],
+      "answer": 0,
+      "feedback": "Trent affirmed Scripture and tradition, seven sacraments, and the real presence, and required bishops to reside and seminaries to train clergy."
+    },
+    {
+      "id": "authority-and-jurisdiction",
+      "type": "short-answer",
+      "prompt": "Both the Ninety-Five Theses and the Augsburg Confession insist the reformers attacked no one's lawful authority. Using both, explain where each draws the line between the church's power and the civil sword, and what each leaves to be judged.",
+      "context": "Luther: 'The pope does not intend to remit, and cannot remit any penalties other than those which he has imposed either by his own authority or by that of the Canons.' Melanchthon: 'There has been great controversy concerning the Power of Bishops, in which some have awkwardly confounded the power of the Church and the power of the sword.' And: 'there belongs to the bishops as bishops … no jurisdiction except to forgive sins, to judge doctrine, to reject doctrines contrary to the Gospel … simply by the Word.'",
+      "rubric": [
+        "refers to both sources",
+        "states the distinction each draws between church power and civil power",
+        "uses a specific phrase or clause from each text"
+      ]
+    }
+  ]
+}

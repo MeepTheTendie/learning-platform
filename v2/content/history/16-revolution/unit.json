@@ -1,0 +1,209 @@
+{
+  "id": "16-revolution",
+  "title": "Revolution, Napoleon, and the settlement of 1815",
+  "period": "c. 1789–1815 CE",
+  "region": "France · Europe · the Atlantic",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "declaration-rights-of-man",
+      "title": "Declaration of the Rights of Man and of the Citizen",
+      "author": "The National Assembly of France",
+      "date": "26 August 1789",
+      "citation": "Translated text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/18th_century/rightsof.asp",
+      "file": "sources/declaration-rights-of-man.md",
+      "context": "Adopted by the National Assembly in August 1789, while the deputies were dismantling the society of orders. It states general principles rather than detailed rules, and it was meant to be read in the light of the constitution it announced.",
+      "questions": [
+        "The Declaration says 'Men are born and remain free and equal in rights.' Which people living in France or its colonies were excluded from that claim in practice?",
+        "Article 6 says law is 'the expression of the general will.' Who was expected to help make that will, and who was not?",
+        "Article 17 makes property 'inviolable and sacred.' What does that protect, and whom does it protect it from?",
+        "Which articles could a later government stretch to justify emergency measures such as the arrest of suspects?"
+      ]
+    },
+    {
+      "id": "gouges-rights-of-woman",
+      "title": "Declaration of the Rights of Woman and the Female Citizen",
+      "author": "Olympe de Gouges",
+      "date": "September 1791",
+      "citation": "Olympe de Gouges, 'Declaration of the Rights of Woman and Female Citizen' (1791), closing address and proposed social contract, via the Internet Modern History Sourcebook (Fordham University). Public domain.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/1791degouge1.asp",
+      "file": "sources/gouges-rights-of-woman.md",
+      "context": "De Gouges addressed this text to the queen and built it on the model of the Declaration of the Rights of Man. The excerpt below is from the closing address and the proposed marriage contract rather than the seventeen articles.",
+      "questions": [
+        "De Gouges asks what women gained from the Revolution. What answer does she give?",
+        "She writes that 'enslaved man has multiplied his strength and needs recourse to yours to break his chains.' What does she accuse free men of doing?",
+        "The marriage contract she proposes makes property communal. What would that change about a married woman's position under the law?",
+        "De Gouges was executed in 1793. What in these passages might have made her dangerous to the revolutionary government?"
+      ]
+    },
+    {
+      "id": "saint-domingue-1801",
+      "title": "Constitution of Saint-Domingue (selected articles)",
+      "author": "The Central Assembly of Saint-Domingue, with Toussaint Louverture",
+      "date": "1801",
+      "citation": "Constitution of Saint-Domingue (1801), English translation via Wikisource, originally published at The Louverture Project. Original document public domain; translation CC BY 2.5.",
+      "license": "Public domain (original); translation CC BY 2.5",
+      "url": "https://en.wikisource.org/wiki/Constitution_of_Saint-Domingue",
+      "file": "sources/saint-domingue-1801.md",
+      "context": "Promulgated in July 1801, after the enslaved people of the colony had risen and France had abolished slavery. Toussaint Louverture governed the whole island and sent this text to France for approval, which Napoleon refused.",
+      "questions": [
+        "Article 3 abolishes slavery. What do Articles 14 to 16 require of the cultivators who were freed?",
+        "Article 28 makes Toussaint governor for life. How does the document justify that concentration of power?",
+        "The constitution calls the colony part of the French Empire while giving it its own laws. What does that claim assume about the relationship between the colony and France?",
+        "Compare Article 1 of the Declaration of the Rights of Man with Article 5 here. How are they alike, and how do they differ?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "furet-political-dynamic",
+      "historian": "François Furet",
+      "work": "Interpreting the French Revolution",
+      "year": "1978",
+      "claim": "Furet argued that the Revolution was not a bourgeois class struggle but a political and ideological event: once the monarchy's authority collapsed, a new idea of an indivisible general will made compromise impossible, and the Terror grew from the Revolution's own politics rather than from the pressure of war.",
+      "note": "The claim is contested. Georges Lefebvre and Albert Soboul had read the Revolution as the rise of the bourgeoisie; critics of Furet reply that foreign war, counter-revolution, and the food and currency crises of 1793 were not incidental to the Terror."
+    },
+    {
+      "id": "james-black-jacobins",
+      "historian": "C. L. R. James",
+      "work": "The Black Jacobins",
+      "year": "1938",
+      "claim": "James placed the Haitian Revolution at the centre of the revolutionary age, arguing that the enslaved people of Saint-Domingue seized the language of rights and acted on their own initiative, and that Toussaint Louverture was a leader of the first rank rather than a follower of events in France.",
+      "note": "Later historians have debated James's emphasis on Toussaint over the mass movement, and how closely events in the colony tracked politics in Paris. His Marxist and anti-colonial reading remains a starting point for the subject."
+    }
+  ],
+  "activities": [
+    {
+      "id": "estates-general-cause",
+      "type": "choice",
+      "prompt": "Why did Louis XVI summon the Estates-General in 1789?",
+      "choices": [
+        "To solve a fiscal crisis the crown could not resolve alone",
+        "To declare war on Austria",
+        "To abolish the monarchy",
+        "To approve the Civil Constitution of the Clergy"
+      ],
+      "answer": 0,
+      "feedback": "The crown needed new taxes that the parlements and the privileged orders would not consent to; the Estates-General was the body that could claim to consent for the nation."
+    },
+    {
+      "id": "national-assembly",
+      "type": "choice",
+      "prompt": "What did the Third Estate do on 17 June 1789?",
+      "choices": [
+        "Declared itself the National Assembly",
+        "Stormed the Bastille",
+        "Voted to execute the king",
+        "Abolished feudal dues"
+      ],
+      "answer": 0,
+      "feedback": "The deputies claimed to represent the nation and invited the other orders to join them; the Bastille fell a month later, on 14 July."
+    },
+    {
+      "id": "bastille",
+      "type": "choice",
+      "prompt": "Why did the fall of the Bastille on 14 July 1789 matter?",
+      "choices": [
+        "It showed the king had no reliable force in Paris and the Assembly had protectors",
+        "It freed hundreds of political prisoners",
+        "It began the war with Austria",
+        "It restored the king's absolute power"
+      ],
+      "answer": 0,
+      "feedback": "The fortress held few prisoners; its importance was political. The crowd and the new National Guard could defend the Assembly, and the king drew back."
+    },
+    {
+      "id": "august-fourth",
+      "type": "choice",
+      "prompt": "What did the decrees of the night of 4 August 1789 abolish?",
+      "choices": [
+        "Feudal dues and the fiscal privileges of orders and provinces",
+        "The monarchy",
+        "The Catholic religion",
+        "The Estates-General"
+      ],
+      "answer": 0,
+      "feedback": "Frightened by rural revolt, the deputies renounced seigneurial dues, tithes, venality of office, and tax privilege."
+    },
+    {
+      "id": "levee-en-masse",
+      "type": "choice",
+      "prompt": "The levée en masse of August 1793 was…",
+      "choices": [
+        "A mass conscription of the able-bodied male population",
+        "A new tax on the nobility",
+        "A royalist uprising in the Vendée",
+        "A treaty with Britain"
+      ],
+      "answer": 0,
+      "feedback": "Facing invasion and civil war, the Convention conscripted the male population to defend the republic."
+    },
+    {
+      "id": "terror-body",
+      "type": "choice",
+      "prompt": "Which body directed the Terror in 1793–94?",
+      "choices": [
+        "The Committee of Public Safety",
+        "The Estates-General",
+        "The Assembly of Notables",
+        "The Congress of Vienna"
+      ],
+      "answer": 0,
+      "feedback": "The Committee, dominated after July 1793 by Robespierre, governed through the Convention and directed the Revolutionary Tribunal and the representatives on mission."
+    },
+    {
+      "id": "code-napoleon-women",
+      "type": "choice",
+      "prompt": "Under the Code Napoléon of 1804, married women…",
+      "choices": [
+        "Were placed under their husbands' legal authority",
+        "Gained the vote",
+        "Could divorce as freely as men",
+        "Were made equal heads of the family"
+      ],
+      "answer": 0,
+      "feedback": "The Code preserved civil equality and property rights but made the wife subordinate to her husband and the father the head of the family."
+    },
+    {
+      "id": "haiti-1801",
+      "type": "choice",
+      "prompt": "What did the Constitution of Saint-Domingue of 1801 declare?",
+      "choices": [
+        "That slavery was forever abolished in the colony",
+        "That the colony would return to Spanish rule",
+        "That women would have the vote",
+        "That the colony would become part of Britain"
+      ],
+      "answer": 0,
+      "feedback": "Article 3 declared that 'there cannot exist slaves on this territory, servitude is therein forever abolished,' while other articles bound the freed cultivators to the plantations."
+    },
+    {
+      "id": "vienna",
+      "type": "choice",
+      "prompt": "The Congress of Vienna of 1814–15 aimed chiefly to…",
+      "choices": [
+        "Restore dynasties and arrange a balance of power among states",
+        "Spread revolutionary republics across Europe",
+        "Abolish the slave trade everywhere",
+        "Divide France among the victors"
+      ],
+      "answer": 0,
+      "feedback": "Metternich, Castlereagh, Alexander I, and Talleyrand restored monarchs, compensated the powers, and created buffer states; France was not dismembered."
+    },
+    {
+      "id": "rights-and-limits",
+      "type": "short-answer",
+      "prompt": "All three sources speak the language of rights. Compare how the Declaration of the Rights of Man, Olympe de Gouges, and the Constitution of Saint-Domingue each define who holds rights, and what each leaves out.",
+      "context": "Declaration of the Rights of Man (1789): 'Men are born and remain free and equal in rights.' Olympe de Gouges (1791): 'Woman, wake up; the tocsin of reason is being heard throughout the whole universe; discover your rights.' Constitution of Saint-Domingue (1801): 'There cannot exist slaves on this territory, servitude is therein forever abolished. All men are born, live and die free and French.'",
+      "rubric": [
+        "refers to all three documents",
+        "states what each text assumes about who holds rights",
+        "uses a specific phrase or article from the texts"
+      ]
+    }
+  ]
+}

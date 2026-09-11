@@ -116,3 +116,53 @@ c. 1200–1500 CE · Eurasia and the Mediterranean
 - interpretation: Janet L. Abu-Lughod, *Before European Hegemony: The World System A.D. 1250–1350* (1989)
 - interpretation: William H. McNeill, *Plagues and Peoples* (1976)
 
+## 12-renaissance — Learning, printing, and oceanic expansion
+
+c. 1400–1600 CE · Italy · the Atlantic · the Indian Ocean
+
+- **The Prince, chapter XVIII: how princes should keep faith** — Niccolò Machiavelli, Written 1513; first printed 1532. Public domain. The Prince, translated by W. K. Marriott (1908). Project Gutenberg eBook 1232.
+- **Letter to Luis de Santangel on the first voyage** — Christopher Columbus, 1493. Public domain. Select Letters of Christopher Columbus, translated by Richard Henry Major (Hakluyt Society, 1870). Project Gutenberg eBook 77820.
+- **A Brief Account of the Destruction of the Indies (selections)** — Bartolomé de las Casas, 1552. Public domain. A Brief Account of the Destruction of the Indies (Seville, 1552), English translation retaining archaic spelling. Project Gutenberg eBook 20321.
+- interpretation: Elizabeth Eisenstein, *The Printing Press as an Agent of Change* (1979)
+- interpretation: Alfred W. Crosby, *The Columbian Exchange* (1972)
+
+## 13-reformation — Reformation and religious wars
+
+c. 1517–1648 CE · Germany · Switzerland · England · France
+
+- **The Ninety-Five Theses on the Power of Indulgences** — Martin Luther, 1517. Public domain. Translated by C. M. Jacobs in Works of Martin Luther, with Introductions and Notes, Volume I (Philadelphia: A. J. Holman Company, 1915). Project Gutenberg eBook 31604.
+- **The Augsburg Confession (selections)** — Philip Melanchthon and the Protestant princes and cities, 1530. Public domain. The Augsburg Confession (1530). Project Gutenberg eBook 275.
+- **Treaty of Westphalia (selections)** — The plenipotentiaries of the Holy Roman Emperor and the King of France and their allies, 1648. Public domain. Treaty of Westphalia, concluded at Münster, 24 October 1648. The Avalon Project, Lillian Goldman Law Library, Yale Law School.
+- interpretation: Peter H. Wilson, *Europe's Tragedy: A History of the Thirty Years War* (2009)
+- interpretation: Christopher Haigh, *English Reformations: Religion, Politics, and Society under the Tudors* (1993)
+
+## 14-states-and-empires — States, parliaments, and imperial rivalry
+
+c. 1600–1763 CE · Europe and the Atlantic empires
+
+- **Leviathan, Chapter XVII: Of the Causes, Generation, and Definition of a Commonwealth** — Thomas Hobbes, 1651. Public domain. Thomas Hobbes, Leviathan, or the Matter, Forme, and Power of a Common-Wealth Ecclesiasticall and Civill (1651), Chapter XVII. Project Gutenberg eBook 3207.
+- **An Act Declaring the Rights and Liberties of the Subject and Settling the Succession of the Crown (the Bill of Rights)** — Parliament of England, 1689. Public domain. English Bill of Rights, 1689, in The Avalon Project: Documents in Law, History and Diplomacy, Lillian Goldman Law Library, Yale Law School.
+- **Definitive Treaty of Peace and Friendship, concluded at Paris, 10 February 1763** — Great Britain, France, and Spain, 1763. Public domain. Definitive Treaty of Peace and Friendship between Great Britain, France, and Spain, concluded at Paris, 10 February 1763. The Avalon Project, Lillian Goldman Law Library, Yale Law School.
+- interpretation: John Brewer, *The Sinews of Power: War, Money and the English State, 1688–1783* (1989)
+- interpretation: William Beik, *Absolutism and Society in Seventeenth-Century France: State Power and Provincial Aristocracy in Languedoc* (1985)
+
+## 15-atlantic-crisis — Enlightenment and the Atlantic crisis
+
+c. 1650–1789 CE · Europe and British North America
+
+- **Of the state of nature and the dissolution of government** — John Locke, 1690. Public domain. Second Treatise of Government (1690), chapters II, IX, and XIX. Project Gutenberg eBook 7370.
+- **Resolutions of the Stamp Act Congress** — The Stamp Act Congress, October 19, 1765. Public domain. Resolutions of the Congress of October 19, 1765. The Avalon Project, Lillian Goldman Law Library, Yale Law School.
+- **The Declaration of Independence** — The Continental Congress (drafted by Thomas Jefferson), July 4, 1776. Public domain. Declaration of Independence, July 4, 1776. Documents Illustrative of the Formation of the Union of the American States, ed. Charles C. Tansill (Government Printing Office, 1927). The Avalon Project, Yale Law School.
+- interpretation: Bernard Bailyn, *The Ideological Origins of the American Revolution* (1967)
+- interpretation: Gordon S. Wood, *The Radicalism of the American Revolution* (1992)
+
+## 16-revolution — Revolution, Napoleon, and the settlement of 1815
+
+c. 1789–1815 CE · France · Europe · the Atlantic
+
+- **Declaration of the Rights of Man and of the Citizen** — The National Assembly of France, 26 August 1789. Public domain. Translated text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
+- **Declaration of the Rights of Woman and the Female Citizen** — Olympe de Gouges, September 1791. Public domain. Olympe de Gouges, 'Declaration of the Rights of Woman and Female Citizen' (1791), closing address and proposed social contract, via the Internet Modern History Sourcebook (Fordham University). Public domain.
+- **Constitution of Saint-Domingue (selected articles)** — The Central Assembly of Saint-Domingue, with Toussaint Louverture, 1801. Public domain (original); translation CC BY 2.5. Constitution of Saint-Domingue (1801), English translation via Wikisource, originally published at The Louverture Project. Original document public domain; translation CC BY 2.5.
+- interpretation: François Furet, *Interpreting the French Revolution* (1978)
+- interpretation: C. L. R. James, *The Black Jacobins* (1938)
+
