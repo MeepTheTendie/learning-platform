@@ -1,0 +1,187 @@
+{
+  "id": "05-narrative-and-the-short-story",
+  "title": "Narrative and the short story",
+  "period": "The nineteenth century",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "poe-cask",
+      "title": "The Cask of Amontillado (selections)",
+      "author": "Edgar Allan Poe",
+      "date": "1846",
+      "citation": "\"The Cask of Amontillado,\" first published in Godey's Lady's Book, November 1846. Text from The Works of Edgar Allan Poe, Volume 2 (Raven Edition), Project Gutenberg eBook 2148.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/2148",
+      "file": "sources/poe-cask.md",
+      "context": "A first-person account of revenge. Montresor lures Fortunato into the family catacombs during carnival and walls him up alive, then tells the story fifty years later. He never names the insult that provoked him.",
+      "questions": [
+        "What does Montresor refuse to tell the reader, and how does that omission affect the story?",
+        "How does Montresor describe his own motives, and what in the text invites the reader to doubt him?",
+        "The story is told long after the murder. What difference does the delay make to what the reader knows and when?"
+      ]
+    },
+    {
+      "id": "chopin-story-of-an-hour",
+      "title": "The Story of an Hour",
+      "author": "Kate Chopin",
+      "date": "1894",
+      "citation": "\"The Story of an Hour,\" first published in Vogue, 6 December 1894. Text from Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/The_Story_of_an_Hour",
+      "file": "sources/chopin-story-of-an-hour.md",
+      "context": "A woman with a heart condition is told that her husband has died in a railway accident. Alone in her room, she discovers a freedom she hardly dares name. The final sentence reverses the meaning of everything before it.",
+      "questions": [
+        "Where does the story first hint that Louise's feeling is not grief, and how does the order of the sentences prepare for it?",
+        "The narration stays inside Louise's mind. What can the reader know that the doctors at the end cannot?",
+        "What does the last line do to the meaning of the hour that has just passed?"
+      ]
+    },
+    {
+      "id": "chekhov-lady-with-dog",
+      "title": "The Lady with the Dog (selections)",
+      "author": "Anton Chekhov",
+      "date": "1899 (this translation 1917)",
+      "citation": "\"The Lady with the Dog,\" translated by Constance Garnett, in The Lady with the Dog and Other Stories (London: Chatto & Windus, 1917). Project Gutenberg eBook 13415.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/13415",
+      "file": "sources/chekhov-lady-with-dog.md",
+      "context": "A married man and a married woman meet at Yalta and begin an affair they expect to be brief. The selections give the story's opening and the late moment when Gurov understands what has happened to him.",
+      "questions": [
+        "What does Gurov tell himself about women at the start, and how does the ending judge that attitude?",
+        "How does Chekhov use the looking-glass to turn the story?",
+        "The story stops before the lovers solve their problem. What does that refusal to resolve ask of the reader?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "forster-story-and-plot",
+      "historian": "E. M. Forster",
+      "work": "Aspects of the Novel",
+      "year": "1927",
+      "claim": "Forster distinguished story from plot by causation rather than mere sequence. A story is a narrative of events in time — 'the king died and then the queen died'; a plot is the same events linked by cause — 'the king died and then the queen died of grief.' Story appeals to curiosity, while plot appeals to memory and intelligence, because the reader must hold earlier details in mind to see why later ones follow.",
+      "note": "The distinction is a critic's useful simplification, not a law. Many stories draw their force from withholding cause altogether, and the Russian Formalists drew a related but different line between the chronological events (fabula) and their arrangement in the telling (sjuzhet)."
+    },
+    {
+      "id": "booth-unreliable-narrator",
+      "historian": "Wayne C. Booth",
+      "work": "The Rhetoric of Fiction",
+      "year": "1961",
+      "claim": "Booth argued that a narrator is reliable when the account agrees with the norms the work as a whole establishes — the values of what he called the 'implied author' — and unreliable when it does not. The reader of an unreliable narration must reconstruct a truth the narrator cannot see.",
+      "note": "Booth's test assumes a stable set of norms inside the work, and later critics asked whether the reader can always locate them; some narrators may be genuinely undecidable rather than simply unreliable. The term has since been applied far more widely than Booth intended."
+    }
+  ],
+  "activities": [
+    {
+      "id": "forster-plot",
+      "type": "choice",
+      "prompt": "In Forster's example, which sentence is a plot rather than a mere story?",
+      "choices": [
+        "The king died and then the queen died",
+        "The king died and then the queen died of grief",
+        "The queen died",
+        "The king died"
+      ],
+      "answer": 1,
+      "feedback": "Adding 'of grief' supplies a cause, and causation is what turns a sequence of events into a plot."
+    },
+    {
+      "id": "first-person-limit",
+      "type": "choice",
+      "prompt": "A first-person narrator can tell the reader only…",
+      "choices": [
+        "what the narrator witnessed, remembers, or claims to know",
+        "what every character is thinking",
+        "what the author knows but the narrator does not",
+        "the full historical record"
+      ],
+      "answer": 0,
+      "feedback": "The limit is the device: because a first-person narrator can be mistaken or dishonest, the reader must judge the account."
+    },
+    {
+      "id": "which-first-person",
+      "type": "choice",
+      "prompt": "Which story in this unit is narrated in the first person?",
+      "choices": [
+        "The Cask of Amontillado",
+        "The Story of an Hour",
+        "The Lady with the Dog",
+        "The Necklace"
+      ],
+      "answer": 0,
+      "feedback": "Montresor tells his own story of revenge; Chopin and Chekhov both use third-person narration."
+    },
+    {
+      "id": "unreliable-montresor",
+      "type": "choice",
+      "prompt": "Montresor's narration is unreliable chiefly because…",
+      "choices": [
+        "he presents a murder as justice and blames his horror on the damp",
+        "he cannot remember the events",
+        "he tells the story out of order",
+        "he is a servant rather than a nobleman"
+      ],
+      "answer": 0,
+      "feedback": "He never names the insult, insists the revenge is just, and calls his own sick heart 'the dampness of the catacombs.'"
+    },
+    {
+      "id": "epiphany-joyce",
+      "type": "choice",
+      "prompt": "The term 'epiphany' for a sudden moment of insight in fiction is associated with…",
+      "choices": ["James Joyce", "Edgar Allan Poe", "Gustav Freytag", "Percy Lubbock"],
+      "answer": 0,
+      "feedback": "Joyce used the word for a sudden spiritual manifestation; his Dubliners stories turn on such moments."
+    },
+    {
+      "id": "oconnor-short-story",
+      "type": "choice",
+      "prompt": "Frank O'Connor argued that the short story is especially suited to…",
+      "choices": [
+        "the isolated individual rather than the social hero of the novel",
+        "long descriptions of landscape",
+        "comic plots with many characters",
+        "the tidy resolution of every conflict"
+      ],
+      "answer": 0,
+      "feedback": "In The Lonely Voice he described the form as the home of 'submerged population groups' and of characters without a place in the larger society."
+    },
+    {
+      "id": "poe-unity",
+      "type": "choice",
+      "prompt": "Poe's principle of the 'unity of effect' holds that a short tale should be…",
+      "choices": [
+        "readable at one sitting and shaped toward a single emotional effect",
+        "as long as a novel",
+        "written without a plot",
+        "told entirely in dialogue"
+      ],
+      "answer": 0,
+      "feedback": "Reviewing Hawthorne, Poe argued that a tale read at one sitting can produce an intensity no longer work can."
+    },
+    {
+      "id": "chopin-irony",
+      "type": "choice",
+      "prompt": "The last line of 'The Story of an Hour' is ironic because…",
+      "choices": [
+        "the doctors name a cause of death that the story has shown to be the opposite of the truth",
+        "Louise had never been ill",
+        "Brently Mallard was killed in the railway accident",
+        "Josephine refuses to let her sister out of the room"
+      ],
+      "answer": 0,
+      "feedback": "The doctors say she died of 'the joy that kills,' but the reader has watched her die at the loss of the freedom she had just recognized."
+    },
+    {
+      "id": "analyze-order",
+      "type": "short-answer",
+      "prompt": "This unit's organizing question is why the order in which we learn things changes their meaning. Using the passage, explain what Poe withholds and how that withholding shapes the reader's judgment of Montresor.",
+      "context": "\"The thousand injuries of Fortunato I had borne as I best could; but when he ventured upon insult, I vowed revenge. ... I must not only punish, but punish with impunity. ... My heart grew sick—on account of the dampness of the catacombs.\" — Edgar Allan Poe, \"The Cask of Amontillado\"",
+      "rubric": [
+        "identifies a specific piece of information Poe withholds, such as the insult or the nature of the wrong",
+        "explains how the delay or omission affects the reader's judgment of Montresor",
+        "uses a phrase from the passage as evidence"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "id": "02-imagery-and-metaphor",
+  "title": "Imagery and metaphor",
+  "period": "English poetry, sixteenth to nineteenth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "donne-valediction",
+      "title": "A Valediction: Forbidding Mourning; and Holy Sonnet 10",
+      "author": "John Donne",
+      "date": "1611 (printed 1633)",
+      "citation": "John Donne, \"A Valediction: Forbidding Mourning\" and Holy Sonnet 10 (\"Death be not proud\"), from Poems (1633). Text from Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/A_Valediction:_Forbidding_Mourning",
+      "file": "sources/donne-valediction.md",
+      "context": "The most famous conceit in English poetry compares two parting lovers to the two legs of a draughtsman's compass. Holy Sonnet 10 personifies Death, grants it power, and then argues it into submission.",
+      "questions": [
+        "What are the tenor and the vehicle of the compass comparison, and where in the stanza does the poem name them?",
+        "In Holy Sonnet 10, what powers does the speaker grant Death, and how does the argument take them away?",
+        "The poem says the two souls 'endure not yet / A breach, but an expansion.' What does the image of beaten gold add to that claim?"
+      ]
+    },
+    {
+      "id": "shakespeare-sonnets",
+      "title": "Sonnets 18, 73, and 116",
+      "author": "William Shakespeare",
+      "date": "1609",
+      "citation": "William Shakespeare, Sonnets 18, 73, and 116, from Shake-speares Sonnets (1609). Text from Project Gutenberg eBook 1041.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1041",
+      "file": "sources/shakespeare-sonnets.md",
+      "context": "Three sonnets that build a whole poem from a single comparison: a summer's day, a year in decline, and love as a fixed star. Sonnet 73 is often read as the clearest English example of sustained metaphor.",
+      "questions": [
+        "Sonnet 18 opens with a simile and then abandons it. Where does the comparison change, and what does the poem claim instead?",
+        "Sonnet 73 presents three images in turn. What is the tenor they share, and what does each vehicle add?",
+        "In Sonnet 116, what is love compared to, and what does the comparison deny about time?"
+      ]
+    },
+    {
+      "id": "whitman-spider",
+      "title": "Selected poems from Leaves of Grass",
+      "author": "Walt Whitman",
+      "date": "1868-1881",
+      "citation": "Walt Whitman, \"A Noiseless Patient Spider,\" \"When I Heard the Learn'd Astronomer,\" \"The Dalliance of the Eagles,\" and \"A Sight in Camp in the Daybreak Gray and Dim,\" from Leaves of Grass (1891-92 edition). Text from Project Gutenberg eBook 1322.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1322",
+      "file": "sources/whitman-spider.md",
+      "context": "Whitman turns a spider's web into a symbol of the soul's search for connection, sets the astronomer's charts against a silent look at the stars, and renders two scenes of watching: eagles in flight, and the faces of the dead in a camp hospital.",
+      "questions": [
+        "How does the second stanza turn the spider into the soul, and what does the poem leave unsaid?",
+        "Why does the speaker in 'When I Heard the Learn'd Astronomer' leave the lecture room?",
+        "Which senses does each poem engage, and which does it leave out?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "richards-tenor-vehicle",
+      "historian": "I. A. Richards",
+      "work": "The Philosophy of Rhetoric",
+      "year": "1936",
+      "claim": "Richards argued that a metaphor is not a substitution of one word for another but a transaction between two terms. He named them tenor (the subject) and vehicle (the image), and held that the vehicle brings with it a whole field of associations that reshapes how the tenor is understood.",
+      "note": "The terms are widely used, but the larger model is contested. Max Black (1955) and later Paul Ricoeur (1975) extended the interaction view, while Donald Davidson (1978) denied that a metaphor has any meaning beyond the literal. The vocabulary of tenor and vehicle survives even among critics who reject Richards's theory."
+    },
+    {
+      "id": "lakoff-johnson-conceptual",
+      "historian": "George Lakoff and Mark Johnson",
+      "work": "Metaphors We Live By",
+      "year": "1980",
+      "claim": "Lakoff and Johnson argued that metaphor is not confined to poetry but structures ordinary thought and language. Conceptual metaphors such as 'argument is war' and 'time is money' generate whole families of everyday expressions, so that figurative language is the visible trace of a metaphor already at work in the mind.",
+      "note": "The claim that thought is pervasively metaphorical is disputed. Donald Davidson (1978) and others hold that metaphor is a matter of use and effect rather than of meaning, and some linguists argue that many of the examples are idioms whose metaphorical origin is no longer active. The dispute is whether metaphor is a figure of speech or a form of cognition."
+    }
+  ],
+  "activities": [
+    {
+      "id": "tenor-vehicle",
+      "type": "choice",
+      "prompt": "In I. A. Richards's terms, what is the vehicle in Donne's compass comparison?",
+      "choices": [
+        "The draughtsman's compasses",
+        "The lovers' parting",
+        "The constancy of love",
+        "The circle the compass draws"
+      ],
+      "answer": 0,
+      "feedback": "The tenor is what is being talked about — the lovers and their parting; the vehicle is the image carried over to it, the two-legged compass."
+    },
+    {
+      "id": "simile-or-metaphor",
+      "type": "choice",
+      "prompt": "Which of these lines uses a simile rather than a metaphor?",
+      "choices": [
+        "Shall I compare thee to a summer's day?",
+        "That time of year thou mayst in me behold",
+        "Love is an ever-fixed mark",
+        "Death be not proud"
+      ],
+      "answer": 0,
+      "feedback": "A simile names the likeness with 'like' or 'as'; Sonnet 18 begins by openly comparing the beloved to a summer's day."
+    },
+    {
+      "id": "conceit-definition",
+      "type": "choice",
+      "prompt": "A Metaphysical conceit is best described as…",
+      "choices": [
+        "An elaborate comparison between two seemingly unrelated things, developed with logical precision",
+        "A short, conventional comparison drawn from nature",
+        "A dead metaphor revived by rhyme",
+        "An allegory with a one-to-one code"
+      ],
+      "answer": 0,
+      "feedback": "The conceit yokes unlike things together and then follows the comparison through with argumentative rigour, as Donne does with the compass."
+    },
+    {
+      "id": "johnson-verdict",
+      "type": "choice",
+      "prompt": "How did Samuel Johnson judge the Metaphysical poets in his Life of Cowley?",
+      "choices": [
+        "He objected that they yoked heterogeneous ideas together by violence",
+        "He praised them as the purest of English lyric poets",
+        "He thought them unlearned and simple",
+        "He declined to discuss them"
+      ],
+      "answer": 0,
+      "feedback": "Johnson coined the label 'Metaphysical' and meant it as a criticism; he called their wit a combination of dissimilar images."
+    },
+    {
+      "id": "sonnet-73-tenor",
+      "type": "choice",
+      "prompt": "In Sonnet 73, what is the tenor shared by the three images of autumn, twilight, and a dying fire?",
+      "choices": [
+        "The speaker's age and approaching death",
+        "The beauty of high summer",
+        "The poet's rival for the beloved",
+        "The passing of a single afternoon"
+      ],
+      "answer": 0,
+      "feedback": "Year, day, and hearth all serve one tenor: the decline of the speaker's life, which the beloved perceives and which makes the love more urgent."
+    },
+    {
+      "id": "personification-apostrophe",
+      "type": "choice",
+      "prompt": "Donne's 'Death be not proud' is chiefly an example of…",
+      "choices": [
+        "Personification and apostrophe",
+        "Simile",
+        "Synecdoche",
+        "Allegory"
+      ],
+      "answer": 0,
+      "feedback": "Death is addressed as a person who can be proud, enslaved, and finally killed — apostrophe (direct address) joined to personification."
+    },
+    {
+      "id": "synecdoche",
+      "type": "choice",
+      "prompt": "Which of these is an example of synecdoche, a part standing for the whole?",
+      "choices": [
+        "'All hands on deck' for the sailors",
+        "'The crown' for the monarchy",
+        "'The pen' for writing",
+        "'The White House' for the presidency"
+      ],
+      "answer": 0,
+      "feedback": "Synecdoche uses a part for the whole; metonymy uses an associated thing. Hands are literally part of the sailors, while the crown is associated with the monarch."
+    },
+    {
+      "id": "dead-metaphor",
+      "type": "choice",
+      "prompt": "Which phrase is a dead or fossilized metaphor?",
+      "choices": [
+        "The mouth of a river",
+        "Bare ruin'd choirs",
+        "Stiff twin compasses",
+        "The star to every wandering bark"
+      ],
+      "answer": 0,
+      "feedback": "The 'mouth' of a river was once a live comparison to a human mouth; long use has worn the comparison away until the phrase reads as literal."
+    },
+    {
+      "id": "metaphor-and-thought",
+      "type": "choice",
+      "prompt": "Lakoff and Johnson's example 'argument is war' is offered as evidence that…",
+      "choices": [
+        "Metaphor structures ordinary thought, not only poetry",
+        "War is the oldest subject of poetry",
+        "All metaphors are dead",
+        "Figures of speech are purely decorative"
+      ],
+      "answer": 0,
+      "feedback": "They argue that everyday expressions such as 'he attacked my position' and 'she defended her claim' are generated by a conceptual metaphor that shapes how argument is understood."
+    },
+    {
+      "id": "reflect-figure-argument",
+      "type": "short-answer",
+      "prompt": "Using the two Donne poems, explain how a figure of speech can carry an argument that a plain statement could not. Name the tenor and the vehicle of at least one comparison.",
+      "context": "Donne: \"If they be two, they are two so / As stiff twin compasses are two; / Thy soul, the fix'd foot, makes no show / To move, but doth, if th' other do.\" — Donne: \"Death be not proud, though some have callèd thee / Mighty and dreadfull, for, thou art not so.\"",
+      "rubric": [
+        "names a tenor and a vehicle from one of the poems",
+        "explains what the comparison adds beyond a literal statement",
+        "uses a specific phrase from the passage"
+      ]
+    }
+  ]
+}

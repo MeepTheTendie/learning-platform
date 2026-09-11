@@ -1,0 +1,192 @@
+{
+  "id": "01-reading-a-poem",
+  "title": "Reading a poem closely",
+  "period": "English poetry, sixteenth to nineteenth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "shakespeare-sonnets",
+      "title": "Three sonnets",
+      "author": "William Shakespeare",
+      "date": "1609",
+      "citation": "Shake-speares Sonnets (London: Thomas Thorpe, 1609), Sonnets XVIII, LXXIII, and CXVI. Text from Shakespeare's Sonnets, Project Gutenberg eBook 1041.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1041",
+      "file": "sources/shakespeare-sonnets.md",
+      "context": "Sonnet 73, the poem read line by line in the spine, is printed here with two neighbours: Sonnet 18 on summer and lasting verse, and Sonnet 116 on constancy. All three address the beloved directly.",
+      "questions": [
+        "Sonnet 73 turns on the word 'choirs.' What does the word denote, and what does it suggest beyond the branches?",
+        "In Sonnet 116 the speaker says love 'is an ever-fixed mark.' What is constancy compared to, and where does the comparison strain?",
+        "Sonnet 18 promises immortality through 'eternal lines.' Who is made immortal, and by what means?"
+      ]
+    },
+    {
+      "id": "dickinson-poems",
+      "title": "Selected poems",
+      "author": "Emily Dickinson",
+      "date": "1890–1896",
+      "citation": "Poems by Emily Dickinson, Three Series, Complete, edited by Mabel Loomis Todd and T. W. Higginson (Boston: Roberts Brothers and Little, Brown, 1890–1896). Project Gutenberg eBook 12242.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/12242",
+      "file": "sources/dickinson-poems.md",
+      "context": "Three poems from the posthumous collections. Two are spoken by the dead; the third describes a snake seen by a watching speaker. The punctuation follows the 1890s editions, which differ from later scholarly texts.",
+      "questions": [
+        "In 'Dying,' who is the speaker, and what can that speaker report that a living witness could not?",
+        "In 'The Chariot,' the ride passes a school, fields, and a house. What does the order of the sights suggest about the journey?",
+        "The snake is never named in the poem. What does the poem gain by calling it 'a narrow fellow'?"
+      ]
+    },
+    {
+      "id": "wordsworth-preface",
+      "title": "From the Preface to Lyrical Ballads",
+      "author": "William Wordsworth",
+      "date": "1800",
+      "citation": "William Wordsworth, Preface to Lyrical Ballads, with Other Poems, 1800, Volume 1 (London: T. N. Longman and O. Rees, 1800). Project Gutenberg eBook 8905.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/8905",
+      "file": "sources/wordsworth-preface.md",
+      "context": "The Preface added to the second edition of Lyrical Ballads sets out Wordsworth's theory of poetry: that it should use the real language of men and arise from emotion recollected in tranquillity.",
+      "questions": [
+        "Wordsworth calls poetry 'the spontaneous overflow of powerful feelings' and also 'emotion recollected in tranquillity.' How can both be true at once?",
+        "Why does Wordsworth prefer the language of 'low and rustic life'? What does he assume about that language?",
+        "What does Wordsworth say a Poet must possess besides 'organic sensibility'?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "brooks-paraphrase",
+      "historian": "Cleanth Brooks",
+      "work": "The Well Wrought Urn: Studies in the Structure of Poetry",
+      "year": "1947",
+      "claim": "Brooks argued that a poem's meaning is inseparable from its form, so that reducing it to a prose statement — what he called the heresy of paraphrase — loses the poem's actual work. The poem's truth, for Brooks, lies in its structure, paradox, and irony, not in a paraphraseable proposition.",
+      "note": "Later critics observed that Brooks could only explain a poem's unity by paraphrasing it himself, and that his method treated poems as free-standing verbal objects with no history, patron, or reader. Historicist and biographical readings of the same poems contest that isolation."
+    },
+    {
+      "id": "vendler-sonnets",
+      "historian": "Helen Vendler",
+      "work": "The Art of Shakespeare's Sonnets",
+      "year": "1997",
+      "claim": "Vendler reads each of Shakespeare's sonnets as a designed structure and a script for a voice, arguing that close attention to word choice, syntax, and the placement of the couplet reveals the poem's inner logic rather than a paraphraseable statement. The sonnets, in her account, are speech acts whose arrangement carries the meaning.",
+      "note": "Textual and new historicist scholars emphasize the 1609 print context, the patronage system, and the sequence's address to a young man and a dark lady, and question whether the poems can be read as self-contained artifacts independent of that setting."
+    }
+  ],
+  "activities": [
+    {
+      "id": "close-reading-first",
+      "type": "choice",
+      "prompt": "What does close reading ask first about a poem?",
+      "choices": [
+        "How the words are arranged and what they do",
+        "What the poet's life was like",
+        "Whether its message is true",
+        "What period it belongs to"
+      ],
+      "answer": 0,
+      "feedback": "Close reading begins with the words on the page and how their arrangement produces meaning, before biography or message."
+    },
+    {
+      "id": "sonnet-form",
+      "type": "choice",
+      "prompt": "How is an English sonnet usually organized?",
+      "choices": [
+        "Three quatrains and a closing couplet",
+        "Two sestets and a couplet",
+        "Four tercets and a quatrain",
+        "A single unrhymed stanza"
+      ],
+      "answer": 0,
+      "feedback": "The English sonnet rhymes ABAB CDCD EFEF GG — three quatrains followed by a couplet."
+    },
+    {
+      "id": "volta-place",
+      "type": "choice",
+      "prompt": "Where does the turn, or volta, usually fall in an English sonnet?",
+      "choices": [
+        "At line 13, where the couplet begins",
+        "At line 9, where the third quatrain begins",
+        "At line 5, where the second quatrain begins",
+        "At line 1, before the images begin"
+      ],
+      "answer": 0,
+      "feedback": "The volta commonly arrives with the closing couplet; in Sonnet 73, 'This thou perceiv'st' marks it."
+    },
+    {
+      "id": "denotation-meaning",
+      "type": "choice",
+      "prompt": "Which of these best describes a word's denotation?",
+      "choices": [
+        "Its dictionary meaning",
+        "The associations it has gathered",
+        "The sound it makes in a line",
+        "Its rhyme with another word"
+      ],
+      "answer": 0,
+      "feedback": "Denotation is the recorded dictionary sense; connotation is the gathered association."
+    },
+    {
+      "id": "speaker-not-poet",
+      "type": "choice",
+      "prompt": "Dickinson's 'I heard a fly buzz when I died' is spoken by someone already dead. What does this show?",
+      "choices": [
+        "The speaker of a lyric is a constructed voice, not the poet",
+        "Dickinson wrote the poem after her death",
+        "The poem is a factual deathbed report",
+        "The poem has no speaker at all"
+      ],
+      "answer": 0,
+      "feedback": "A lyric 'I' is a role the poem builds; it need not match the historical author."
+    },
+    {
+      "id": "enjambment-definition",
+      "type": "choice",
+      "prompt": "What is enjambment?",
+      "choices": [
+        "A sentence running past the end of a line into the next",
+        "A pause in the middle of a line",
+        "A rhyme at the end of a line",
+        "A line with no stressed syllable"
+      ],
+      "answer": 0,
+      "feedback": "In Sonnet 73, 'do hang' runs into 'Upon those boughs,' so the sense is suspended across the break."
+    },
+    {
+      "id": "choirs-three-senses",
+      "type": "choice",
+      "prompt": "In Sonnet 73, 'Bare ruin'd choirs' most richly suggests which three things at once?",
+      "choices": [
+        "Bare branches, church singers, and dissolved monasteries",
+        "A winter storm, a graveyard, and a bell",
+        "A theatre, a court, and a school",
+        "A garden, a river, and a road"
+      ],
+      "answer": 0,
+      "feedback": "The branches where birds sang, the part of a church where singers sat, and the monasteries dissolved under Henry VIII."
+    },
+    {
+      "id": "heresy-of-paraphrase",
+      "type": "choice",
+      "prompt": "Cleanth Brooks's 'heresy of paraphrase' is the error of…",
+      "choices": [
+        "Treating a poem's prose statement as its whole meaning",
+        "Reading a poem aloud",
+        "Comparing a poem with its sources",
+        "Translating a poem into another language"
+      ],
+      "answer": 0,
+      "feedback": "Brooks held that the poem's meaning lives in its form and structure, so a paraphrase loses what the poem does."
+    },
+    {
+      "id": "annotate-quatrain",
+      "type": "short-answer",
+      "prompt": "Annotate the first quatrain of Sonnet 73 (lines 1–4) by asking questions rather than summarizing. Use at least two specific words from the passage.",
+      "context": "That time of year thou mayst in me behold / When yellow leaves, or none, or few, do hang / Upon those boughs which shake against the cold, / Bare ruin'd choirs, where late the sweet birds sang.",
+      "rubric": [
+        "asks at least two questions about specific words",
+        "refers to the passage by line number or quotation",
+        "does not simply paraphrase the quatrain"
+      ]
+    }
+  ]
+}

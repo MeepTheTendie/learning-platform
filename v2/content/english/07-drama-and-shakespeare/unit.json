@@ -1,0 +1,208 @@
+{
+  "id": "07-drama-and-shakespeare",
+  "title": "Drama and Shakespeare",
+  "period": "English drama, sixteenth to seventeenth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "shakespeare-macbeth",
+      "title": "Ambition, the dagger, and \"tomorrow\": scenes from Macbeth",
+      "author": "William Shakespeare",
+      "date": "c. 1606",
+      "citation": "William Shakespeare, The Tragedy of Macbeth (c. 1606), Act I, scenes 3, 5, and 7; Act II, scene 1; and Act V, scene 5. Text from the Project Gutenberg edition (eBook 1533), based on the First Folio (1623).",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1533",
+      "file": "sources/shakespeare-macbeth.md",
+      "context": "Macbeth was written soon after the Gunpowder Plot of 1605 and performed at the court of James I, who traced his ancestry to Banquo. The passages below show the witches' prophecy, Macbeth's asides and soliloquies, and the moment he learns of his wife's death.",
+      "questions": [
+        "Where in these passages does Macbeth speak aside, and what does the audience learn that the other characters do not?",
+        "The dagger speech asks whether the weapon is 'sensible / To feeling as to sight.' What does the stage, unlike the page, have to decide here?",
+        "Lady Macbeth calls on the spirits to 'unsex me here.' What does she want changed, and why?",
+        "In the final speech, Macbeth calls life 'a poor player / That struts and frets his hour upon the stage.' What does the theatre image do at that moment?"
+      ]
+    },
+    {
+      "id": "shakespeare-hamlet",
+      "title": "Delay, conscience, and the play-within-the-play: scenes from Hamlet",
+      "author": "William Shakespeare",
+      "date": "c. 1600–1601",
+      "citation": "William Shakespeare, The Tragedy of Hamlet, Prince of Denmark (c. 1600–1601), Act III, scene 3, and Act V, scene 2. Text from the Project Gutenberg edition (eBook 1524).",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1524",
+      "file": "sources/shakespeare-hamlet.md",
+      "context": "Hamlet's delay is the play's central puzzle. In this scene he spares Claudius at prayer, and Claudius, alone, reveals a conscience that Hamlet never hears. The audience sees both men; neither sees the other.",
+      "questions": [
+        "Why does Hamlet decide not to kill Claudius at this moment?",
+        "What does Claudius's closing couplet reveal that Hamlet does not know?",
+        "What does the audience know at the end of the scene that neither character knows?",
+        "Hamlet says 'The readiness is all.' How does that line answer the problem of delay?"
+      ]
+    },
+    {
+      "id": "aristotle-poetics",
+      "title": "From the Poetics: tragedy, hamartia, and the tragic pleasure",
+      "author": "Aristotle",
+      "date": "c. 335 BCE; this translation 1902",
+      "citation": "Aristotle, Poetics, translated by S. H. Butcher (London: Macmillan, 1902), chapters 6, 13, and 14. Project Gutenberg eBook 1974.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1974",
+      "file": "sources/aristotle-poetics.md",
+      "context": "Butcher's translation of the Poetics was first published in 1895 and revised in 1902. Aristotle defines tragedy, ranks plot above character, and describes the kind of hero whose fall produces pity and fear.",
+      "questions": [
+        "According to chapter 6, which part of tragedy is 'the soul' of the play, and which part comes second?",
+        "What kind of character does chapter 13 say a perfect tragedy requires?",
+        "Does chapter 13 say the hero's misfortune comes from vice? What words does it use instead?",
+        "Why does chapter 14 prefer pity and fear to come from the plot rather than from spectacle?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "bradley-character",
+      "historian": "A. C. Bradley",
+      "work": "Shakespearean Tragedy",
+      "year": "1904",
+      "claim": "Bradley read the four great tragedies as studies in character and treated each hero's downfall as the outworking of a moral nature — a flaw or failure of will — so that the plays can be discussed as if the characters had inner lives and responsibility for what they suffer.",
+      "note": "Later critics rejected the method. L. C. Knights's essay 'How Many Children Had Lady Macbeth?' (1933) mocked character-criticism for ignoring the words on the page, and materialist and historicist critics read the tragedies as products of power and ideology rather than as case studies of persons."
+    },
+    {
+      "id": "greenblatt-negotiation",
+      "historian": "Stephen Greenblatt",
+      "work": "Shakespearean Negotiations",
+      "year": "1988",
+      "claim": "Greenblatt argued that the theatre was a place where a period's social and religious conflicts — exorcism, purgatory, royal power — were staged and negotiated, and that Shakespeare's plays draw their 'social energy' from the institutions and anxieties around them; he read Hamlet's ghost against the Reformation dispute over purgatory.",
+      "note": "Critics of New Historicism reply that it can dissolve the plays into their context and leave little room for Shakespeare's own craft or dissent. The debate is about how far a play is determined by its moment, and how much it makes that moment anew."
+    }
+  ],
+  "activities": [
+    {
+      "id": "play-script-choice",
+      "type": "choice",
+      "prompt": "What does it mean to treat a play as a script for performance rather than a text on a page?",
+      "choices": [
+        "The words are only part of the meaning; staging, casting, and the audience complete it",
+        "The words do not matter and can be changed at will",
+        "The play should never be read privately",
+        "The printed text is the only authoritative version"
+      ],
+      "answer": 0,
+      "feedback": "A performance adds body, voice, timing, and a live audience, so the same script can mean different things on stage."
+    },
+    {
+      "id": "hamartia-definition",
+      "type": "choice",
+      "prompt": "In the Poetics, what is hamartia?",
+      "choices": [
+        "An error or frailty, not vice or depravity",
+        "A fatal disease",
+        "A chorus's final song",
+        "A flaw in the printing of a play"
+      ],
+      "answer": 0,
+      "feedback": "Aristotle says the tragic hero's misfortune comes 'not by vice or depravity, but by some error or frailty.'"
+    },
+    {
+      "id": "verse-prose-switch",
+      "type": "choice",
+      "prompt": "When Shakespeare switches from verse to prose, what does the change usually signal?",
+      "choices": [
+        "A shift of register — comedy, lower status, madness, or informality",
+        "The end of the act",
+        "That the actor has forgotten the lines",
+        "That the scene is a soliloquy"
+      ],
+      "answer": 0,
+      "feedback": "The Porter in Macbeth and Hamlet's feigned madness both speak prose, while the noble and serious passages stay in blank verse."
+    },
+    {
+      "id": "globe-staging",
+      "type": "choice",
+      "prompt": "Which of these describes the Globe playhouse?",
+      "choices": [
+        "An open-air amphitheatre with a thrust stage, daylight performances, and no painted scenery",
+        "A roofed, candlelit hall with painted backdrops",
+        "A court hall used only for private performances",
+        "A stone Roman-style theatre with a raised stage building"
+      ],
+      "answer": 0,
+      "feedback": "The Globe was open to the sky, its stage jutted into the yard, and plays were performed by daylight with words and costume doing the work of scenery."
+    },
+    {
+      "id": "soliloquy-aside",
+      "type": "choice",
+      "prompt": "What is the difference between a soliloquy and an aside?",
+      "choices": [
+        "A soliloquy is spoken alone; an aside is a brief remark the other characters on stage do not hear",
+        "A soliloquy is always in prose; an aside is always in verse",
+        "An aside is spoken alone; a soliloquy is spoken to other characters",
+        "There is no difference"
+      ],
+      "answer": 0,
+      "feedback": "Both let the audience into a character's thoughts; the soliloquy does so at length and alone, the aside in a quick remark within a scene."
+    },
+    {
+      "id": "dramatic-irony",
+      "type": "choice",
+      "prompt": "Which is the clearest example of dramatic irony in the Hamlet scene?",
+      "choices": [
+        "The audience hears Claudius fail to repent while Hamlet spares him, believing he is praying",
+        "Hamlet draws his sword",
+        "Claudius kneels to pray",
+        "Hamlet says 'My mother stays'"
+      ],
+      "answer": 0,
+      "feedback": "The audience knows from Claudius's own soliloquy that his prayer is empty, so Hamlet's reason for sparing him is false."
+    },
+    {
+      "id": "macbeth-ambition",
+      "type": "choice",
+      "prompt": "In Act I, scene 7, what does Macbeth call the only thing driving him toward the murder?",
+      "choices": [
+        "Vaulting ambition",
+        "Love of his wife",
+        "Fear of Banquo",
+        "A promise to the witches"
+      ],
+      "answer": 0,
+      "feedback": "He says he has 'no spur ... but only / Vaulting ambition, which o'erleaps itself / And falls on th' other.'"
+    },
+    {
+      "id": "hamlet-delay",
+      "type": "choice",
+      "prompt": "Why does Hamlet spare Claudius in Act III, scene 3?",
+      "choices": [
+        "He thinks killing him at prayer would send his soul to heaven",
+        "He is afraid of the guards",
+        "He does not recognise Claudius",
+        "He has already forgiven him"
+      ],
+      "answer": 0,
+      "feedback": "Hamlet wants to kill Claudius at a moment that would damn him, so he waits — and the delay helps destroy him."
+    },
+    {
+      "id": "shakespeare-source",
+      "type": "choice",
+      "prompt": "What was Shakespeare's main source for the plot of Macbeth?",
+      "choices": [
+        "Raphael Holinshed's Chronicles of England, Scotland and Ireland",
+        "Aristotle's Poetics",
+        "Saxo Grammaticus's Gesta Danorum",
+        "Plutarch's Lives"
+      ],
+      "answer": 0,
+      "feedback": "Holinshed's chronicle supplied the thane, the prophecy, and the murder; Shakespeare changed Banquo's role and invented the dagger."
+    },
+    {
+      "id": "reflect-stage-vs-page",
+      "type": "short-answer",
+      "prompt": "Choose one speech from the sources — Macbeth's dagger soliloquy, Hamlet's decision at prayer, or Macbeth's 'tomorrow' speech — and explain what a performance can show that the printed text leaves open.",
+      "context": "Macbeth: 'Is this a dagger which I see before me, / The handle toward my hand? Come, let me clutch thee:— / I have thee not, and yet I see thee still.'",
+      "rubric": [
+        "names a specific speech or line",
+        "identifies something the text leaves undecided, such as whether the dagger is present",
+        "explains how an actor, director, or audience would resolve or exploit that choice"
+      ]
+    }
+  ]
+}

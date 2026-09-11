@@ -1,0 +1,205 @@
+{
+  "id": "09-irony-and-satire",
+  "title": "Irony and satire",
+  "period": "English prose and verse, seventeenth to nineteenth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "swift-modest-proposal",
+      "title": "A Modest Proposal (selections)",
+      "author": "Jonathan Swift",
+      "date": "1729",
+      "citation": "Jonathan Swift, A Modest Proposal for preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick (Dublin, 1729). Text from Project Gutenberg eBook 1080.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1080",
+      "file": "sources/swift-modest-proposal.md",
+      "context": "Written in 1729 while Swift was Dean of St Patrick's in Dublin, the pamphlet adopts the voice of a reasonable 'projector' and proposes that the poor sell their infants as food. It was published anonymously, and some readers took it for a serious scheme.",
+      "questions": [
+        "What does the projector claim as his only motive, and what does the reader understand it to be?",
+        "Which real remedies does the speaker reject, and what does that rejection reveal about the pamphlet's target?",
+        "The proposal is written in the calm language of arithmetic and public benefit. Why is that tone more disturbing than open anger would be?"
+      ]
+    },
+    {
+      "id": "pope-rape-of-the-lock",
+      "title": "The Rape of the Lock (selections)",
+      "author": "Alexander Pope",
+      "date": "1714 (first version 1712)",
+      "citation": "Alexander Pope, The Rape of the Lock: An Heroi-Comical Poem, in The Rape of the Lock, and Other Poems (1714). Text from Project Gutenberg eBook 9800.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/9800",
+      "file": "sources/pope-rape-of-the-lock.md",
+      "context": "Pope wrote the poem after Lord Petre cut a lock of Arabella Fermor's hair and the two families quarrelled. The 1714 version adds the 'machinery' of the sylphs. The selections come from Cantos I, II, III, and V.",
+      "questions": [
+        "What does Pope gain by describing a card game and a haircut in the language of epic war?",
+        "The sylphs are called the 'machinery.' What does their presence add to the poem's irony?",
+        "Clarissa's speech in Canto V offers the poem's one piece of plain good sense. Why does Pope have no one applaud her?"
+      ]
+    },
+    {
+      "id": "twain-huckleberry-finn",
+      "title": "Adventures of Huckleberry Finn (selections)",
+      "author": "Mark Twain",
+      "date": "1884",
+      "citation": "Mark Twain, Adventures of Huckleberry Finn (New York: Charles L. Webster and Company, 1885; first published 1884). Text from Project Gutenberg eBook 76.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/76",
+      "file": "sources/twain-huckleberry-finn.md",
+      "context": "Huck narrates his own story in dialect and never signals a joke. In the selections he submits to being 'sivilized,' and later, believing he will be damned for helping Jim escape, he tears up the letter that would return Jim to slavery.",
+      "questions": [
+        "Huck believes he is choosing damnation. What does the reader understand that he does not?",
+        "How does Huck's ungrammatical, matter-of-fact voice make the moral crisis sharper rather than softer?",
+        "A narrator is unreliable when the account disagrees with the norms the book establishes. In what sense is Huck unreliable here — about facts, or about himself?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "booth-stable-irony",
+      "historian": "Wayne C. Booth",
+      "work": "A Rhetoric of Irony",
+      "year": "1974",
+      "claim": "Booth argued that a stable irony invites the reader to reconstruct an intended meaning beneath the literal surface, and that the reconstruction succeeds only within a community that shares the assumptions the irony relies on. The reader is not free to invent any meaning; the author's signals, and the shared norms of the audience, guide the correction.",
+      "note": "Later theorists questioned whether an intended meaning can always be recovered, and whether some ironies are deliberately undecidable rather than stable. Booth's account is a description of how most irony works, not a proof that every ironic text has one recoverable sense."
+    },
+    {
+      "id": "muecke-compass-irony",
+      "historian": "D. C. Muecke",
+      "work": "The Compass of Irony",
+      "year": "1969",
+      "claim": "Muecke described irony as a 'two-storey' phenomenon: an innocent or literal surface concealing a real meaning beneath, with the reader moving between the two levels. He classified its forms — verbal, dramatic, situational, and cosmic — and the attitudes, from playful to bitter, that a writer may take toward the gap.",
+      "note": "Muecke's taxonomy is descriptive; it maps the varieties of irony without explaining how a reader detects them. Booth's work, by contrast, concentrates on the interpretive process and on the signals that let a reader decide that irony is present at all."
+    }
+  ],
+  "activities": [
+    {
+      "id": "verbal-irony",
+      "type": "choice",
+      "prompt": "Verbal irony occurs when a speaker…",
+      "choices": [
+        "says one thing and means the opposite, expecting to be understood",
+        "lies in order to deceive the listener",
+        "reports events out of their chronological order",
+        "uses a metaphor to describe an abstraction"
+      ],
+      "answer": 0,
+      "feedback": "The ironist does not intend to deceive; the ironist intends to be understood, and assumes the audience is in on the joke."
+    },
+    {
+      "id": "dramatic-irony",
+      "type": "choice",
+      "prompt": "In dramatic irony, who knows more than the character does?",
+      "choices": [
+        "the audience or reader",
+        "the character himself",
+        "no one at all",
+        "only the author, and never the reader"
+      ],
+      "answer": 0,
+      "feedback": "In Oedipus Tyrannus the audience knows who the murderer is, and hears the second meaning in Oedipus's vow that he cannot hear."
+    },
+    {
+      "id": "socratic-irony",
+      "type": "choice",
+      "prompt": "Socratic irony is best described as…",
+      "choices": [
+        "feigned ignorance used as a method of questioning",
+        "a savage attack on private vice",
+        "a coincidence that reverses expectation",
+        "praise that is really blame"
+      ],
+      "answer": 0,
+      "feedback": "Socrates claims to know nothing and by questions exposes the contradictions in those who are certain; the ignorance is a method, not a lie."
+    },
+    {
+      "id": "two-modes",
+      "type": "choice",
+      "prompt": "Which pairing matches the two classical modes of satire?",
+      "choices": [
+        "Horatian is gentle and corrective; Juvenalian is savage and punishing",
+        "Horatian is savage and punishing; Juvenalian is gentle and corrective",
+        "Both are gentle; the difference is only of metre",
+        "Both are savage; the difference is only of length"
+      ],
+      "answer": 0,
+      "feedback": "Horace laughs at folly, himself included; Juvenal rages at a corrupt world and aims to expose rather than to correct."
+    },
+    {
+      "id": "swift-target",
+      "type": "choice",
+      "prompt": "Whom does A Modest Proposal finally attack?",
+      "choices": [
+        "the comfortable landlords and politicians who treat the poor as a burden",
+        "the poor themselves",
+        "the French",
+        "the Catholic clergy alone"
+      ],
+      "answer": 0,
+      "feedback": "The projector dismisses every real remedy as visionary because it would cost the comfortable something, and the pamphlet's anger falls on them."
+    },
+    {
+      "id": "pope-machinery",
+      "type": "choice",
+      "prompt": "What is the 'machinery' in The Rape of the Lock?",
+      "choices": [
+        "the supernatural sylphs and gnomes who attend the heroine",
+        "the coach and horses that carry Belinda",
+        "the printing press that produced the poem",
+        "the epic similes in the final canto"
+      ],
+      "answer": 0,
+      "feedback": "Pope borrowed the term from the critics for the part played by deities in an epic, and built his out of the Rosicrucian spirits of the air."
+    },
+    {
+      "id": "austen-opening",
+      "type": "choice",
+      "prompt": "Why is the opening sentence of Pride and Prejudice ironic?",
+      "choices": [
+        "It states as a universal truth a wish held by the neighbourhood's mothers",
+        "It is spoken aloud by Mrs. Bennet",
+        "It contains a factual error about the law",
+        "It praises a man the novel later shows to be poor"
+      ],
+      "answer": 0,
+      "feedback": "The sentence has the form of a general truth and the content of a local wish: it is the mothers who want a rich husband, not the man who wants a wife."
+    },
+    {
+      "id": "twain-unreliable",
+      "type": "choice",
+      "prompt": "In the passage from Huckleberry Finn, Huck is an unreliable narrator because…",
+      "choices": [
+        "his judgment of his own act is the opposite of the book's moral judgment",
+        "he cannot remember the events he describes",
+        "he tells the story out of chronological order",
+        "he is a child and invents the whole episode"
+      ],
+      "answer": 0,
+      "feedback": "Huck believes he is damning himself; the reader knows he is choosing decency. He is unreliable about himself, not about the facts."
+    },
+    {
+      "id": "defoe-failure",
+      "type": "choice",
+      "prompt": "Why is Daniel Defoe's The Shortest Way with the Dissenters (1702) important for the study of irony?",
+      "choices": [
+        "Its irony was not caught, and Defoe was punished for a position he opposed",
+        "It was the first English poem written in heroic couplets",
+        "It was the model for Pope's mock-epic",
+        "It proved that irony never depends on the reader"
+      ],
+      "answer": 0,
+      "feedback": "The pamphlet was read literally by readers on both sides, and Defoe was arrested, pilloried, and imprisoned — evidence that irony is a contract that can fail."
+    },
+    {
+      "id": "analyze-swift",
+      "type": "short-answer",
+      "prompt": "Using the passage, explain how a reader can know that Swift does not mean what the projector says, and what the pamphlet is really attacking.",
+      "context": "\"I have been assured by a very knowing American of my acquaintance in London, that a young healthy child well nursed, is, at a year old, a most delicious nourishing and wholesome food... I profess in the sincerity of my heart, that I have not the least personal interest in endeavouring to promote this necessary work, having no other motive than the publick good of my country... I have no children, by which I can propose to get a single penny; the youngest being nine years old, and my wife past child-bearing.\" — Jonathan Swift, A Modest Proposal (1729)",
+      "rubric": [
+        "identifies a signal of irony, such as the calm tone, the arithmetic, or the profession of disinterest",
+        "explains what the pamphlet really attacks, such as the landlords or the treatment of the poor",
+        "uses a specific phrase from the passage as evidence"
+      ]
+    }
+  ]
+}

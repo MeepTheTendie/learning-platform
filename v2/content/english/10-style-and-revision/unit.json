@@ -1,0 +1,192 @@
+{
+  "id": "10-style-and-revision",
+  "title": "Style and revision",
+  "period": "English prose, nineteenth to early twentieth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "spencer-philosophy-of-style",
+      "title": "The Philosophy of Style (selections)",
+      "author": "Herbert Spencer",
+      "date": "1852",
+      "citation": "\"The Philosophy of Style,\" first published in the Westminster Review, October 1852. Text from The Philosophy of Style, Project Gutenberg eBook 5849.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/5849",
+      "file": "sources/spencer-philosophy-of-style.md",
+      "context": "Spencer argues that language is an apparatus for conveying thought, that the reader has only a limited amount of mental power at each moment, and that style is therefore a matter of economizing the reader's attention rather than decorating an idea.",
+      "questions": [
+        "What does Spencer mean by calling language a 'hindrance to thought' as well as its instrument?",
+        "Why does Spencer think a Saxon word like 'sour' moves the reader faster than a Latin word like 'acid'?",
+        "Spencer says a knowledge of style is useful 'as facilitating revision.' What kind of revision does he seem to have in mind?"
+      ]
+    },
+    {
+      "id": "stevenson-technical-elements",
+      "title": "On Some Technical Elements of Style in Literature (selections)",
+      "author": "Robert Louis Stevenson",
+      "date": "1885",
+      "citation": "First published in the Contemporary Review, April 1885; collected in Essays in the Art of Writing (London: Chatto & Windus, 1905). Project Gutenberg eBook 492.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/492",
+      "file": "sources/stevenson-technical-elements.md",
+      "context": "Stevenson describes the writer's material as the rigid 'blocks' of ordinary speech and treats a sentence as a pattern that is knotted and then solved. He insists that the sound of a sentence and its logic must be made to serve each other.",
+      "questions": [
+        "What does Stevenson gain by calling words 'blocks' rather than, say, colours or notes?",
+        "What is the 'knot or hitch' Stevenson wants in every well-constructed sentence?",
+        "Stevenson says the most 'natural' style is 'the disjointed babble of the chronicler.' What is he arguing against?"
+      ]
+    },
+    {
+      "id": "pater-style",
+      "title": "Style (selections)",
+      "author": "Walter Pater",
+      "date": "1888",
+      "citation": "First published in the Fortnightly Review, December 1888; collected in Appreciations, with an Essay on Style (London: Macmillan, 1889). Project Gutenberg eBook 4037.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/4037",
+      "file": "sources/pater-style.md",
+      "context": "Pater describes Flaubert's search for 'the unique word' and insists that form and idea cannot be separated: a thought exists only by virtue of its form. He also quotes Flaubert's account of how painful and slow the search for the right word could be.",
+      "questions": [
+        "What does Pater mean when he says the idea 'only exists by virtue of the form'?",
+        "Why might the slowness of Flaubert's writing be evidence for the unit's claim that writing is a way of thinking?",
+        "Pater distinguishes 'afterthoughts, retouchings, finish' from the 'original, initiative, generative, sense.' How does that distinction bear on revising?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "strunk-white-elements",
+      "historian": "William Strunk Jr. and E. B. White",
+      "work": "The Elements of Style",
+      "year": "1918; revised 1959",
+      "claim": "Strunk and White argued that good prose is plain and economical: the writer should omit needless words, prefer the active voice and definite, concrete language, and put statements in positive form. Their handbook treats style as a set of decisions a writer can make deliberately, and it became the standard reference for American school and college composition.",
+      "note": "The linguist Geoffrey K. Pullum, in '50 Years of Stupid Grammar Advice' (Chronicle of Higher Education, 2009), argued that several of the book's rules, especially its blanket warning against the passive, are unsupported or contradicted by the authors' own prose. Descriptive linguists add that usage is settled by readers rather than by edict."
+    },
+    {
+      "id": "orwell-politics-english",
+      "historian": "George Orwell",
+      "work": "Politics and the English Language",
+      "year": "1946",
+      "claim": "Orwell argued that vague, pretentious, and dying language both expresses and sustains confused thought. Clear writing, for him, requires concrete images, short words, and the writer's willingness to think through what is meant before reaching for a phrase; he treated style as a matter of honesty as well as craft.",
+      "note": "Critics including Stanley Fish, in How to Write a Sentence (2011), have noted that Orwell's essay uses many of the devices it condemns and that its rules sometimes conflict with one another. The claim that clear prose produces honest politics is asserted rather than demonstrated, and the causal arrow may run the other way."
+    }
+  ],
+  "activities": [
+    {
+      "id": "spencer-economy",
+      "type": "choice",
+      "prompt": "Spencer's 'principle of economy' holds that a style is good when it…",
+      "choices": [
+        "costs the reader the least possible attention",
+        "uses the most elegant and unusual words",
+        "follows the rules of formal grammar",
+        "sounds the most formal and ceremonial"
+      ],
+      "answer": 0,
+      "feedback": "Spencer treats language as an apparatus for conveying thought: whatever effort the words absorb is deducted from the thought, so the aim is the least mental effort for the reader."
+    },
+    {
+      "id": "revision-vs-proofreading",
+      "type": "choice",
+      "prompt": "Which of these is a revision rather than a proofreading change?",
+      "choices": [
+        "Deciding that a paragraph argues the opposite of what you meant",
+        "Fixing a misspelled word",
+        "Adding a missing comma",
+        "Correcting a subject-verb agreement"
+      ],
+      "answer": 0,
+      "feedback": "Proofreading fixes accidents of the surface; revision reconsiders the thought. Realizing that a paragraph says the wrong thing is the second kind of work."
+    },
+    {
+      "id": "active-voice",
+      "type": "choice",
+      "prompt": "Which sentence uses the active voice?",
+      "choices": [
+        "The committee rejected the plan",
+        "The plan was rejected by the committee",
+        "A decision was made by the committee",
+        "It was decided that the plan should be rejected"
+      ],
+      "answer": 0,
+      "feedback": "In the active sentence the actor ('the committee') comes first and does the verb. The others hide the actor behind 'was' and 'there' constructions."
+    },
+    {
+      "id": "stevenson-web",
+      "type": "choice",
+      "prompt": "Stevenson compares a well-made sentence to…",
+      "choices": [
+        "a knot that is tied and then solved",
+        "a straight line from start to finish",
+        "a list of unrelated facts",
+        "a legal contract"
+      ],
+      "answer": 0,
+      "feedback": "For Stevenson the sentence should 'come into a kind of knot, and then, after a moment of suspended meaning, solve and clear itself,' so the reader is led to expect and then to welcome the end."
+    },
+    {
+      "id": "pater-flaubert",
+      "type": "choice",
+      "prompt": "Pater reports that Flaubert searched every phrase for…",
+      "choices": [
+        "the one exact word for the thing",
+        "the longest possible word",
+        "the most familiar cliché",
+        "a rhyme to close the sentence"
+      ],
+      "answer": 0,
+      "feedback": "Pater's Flaubert believed there was 'but one way of expressing one thing,' and gave himself to superhuman labour to find 'the unique word.'"
+    },
+    {
+      "id": "register-meaning",
+      "type": "choice",
+      "prompt": "What does register mean in the study of prose?",
+      "choices": [
+        "The level of formality suited to the occasion",
+        "The number of words in a sentence",
+        "The number of paragraphs on a page",
+        "The author's nationality"
+      ],
+      "answer": 0,
+      "feedback": "Register is the pitch of the language, from a legal brief to a letter to a friend. The fault is register that does not fit what the sentence is doing."
+    },
+    {
+      "id": "parallelism-test",
+      "type": "choice",
+      "prompt": "Which sentence keeps its parallelism intact?",
+      "choices": [
+        "She liked sailing, hiking, and reading",
+        "She liked sailing, hiking, and to read",
+        "She liked to sail, hiking, and reading",
+        "She liked sail, hike, and reading"
+      ],
+      "answer": 0,
+      "feedback": "The three items must share one grammatical form. 'Sailing, hiking, and reading' keeps the contract; the others break it and blur the meaning."
+    },
+    {
+      "id": "cutting-test",
+      "type": "choice",
+      "prompt": "According to the unit, cutting a sentence is a test of…",
+      "choices": [
+        "whether the writer knows what the sentence means",
+        "whether the sentence is grammatically correct",
+        "whether the sentence is long enough",
+        "whether the reader agrees with it"
+      ],
+      "answer": 0,
+      "feedback": "If a sentence can lose words and lose nothing else, those words were not carrying thought. Cutting is a judgment about meaning, which is why it belongs to revision."
+    },
+    {
+      "id": "analyze-economy",
+      "type": "short-answer",
+      "prompt": "This unit's organizing question is how revising a sentence changes the thought it carries. Using the passage, explain Spencer's principle of economy and how a writer might apply it in revision. Give one specific change to a sentence and say what thought that change alters.",
+      "context": "Regarding language as an apparatus of symbols for the conveyance of thought, we may say that, as in a mechanical apparatus, the more simple and the better arranged its parts, the greater will be the effect produced. In either case, whatever force is absorbed by the machine is deducted from the result. A reader or listener has at each moment but a limited amount of mental power available. […] Hence, the more time and attention it takes to receive and understand each sentence, the less time and attention can be given to the contained idea; and the less vividly will that idea be conceived. — Herbert Spencer, \"The Philosophy of Style\"",
+      "rubric": [
+        "explains Spencer's idea that the words absorb effort that would otherwise go to the thought",
+        "gives a specific sentence change, such as turning a passive construction into an active one or cutting an empty phrase",
+        "states how that change alters the thought or where the reader's attention goes"
+      ]
+    }
+  ]
+}

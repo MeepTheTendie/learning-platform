@@ -1,0 +1,195 @@
+{
+  "id": "03-meter-and-form",
+  "title": "Meter and form",
+  "period": "English poetry, sixteenth to nineteenth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "shakespeare-hamlet",
+      "title": "Two soliloquies from Hamlet",
+      "author": "William Shakespeare",
+      "date": "c. 1600–1601",
+      "citation": "William Shakespeare, The Tragedy of Hamlet, Prince of Denmark (c. 1600–1601), Act II, scene 2, and Act III, scene 1, in The Complete Works of William Shakespeare, edited by W. J. Craig (London: Oxford University Press, 1914). Project Gutenberg eBook 1524.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1524",
+      "file": "sources/shakespeare-hamlet.md",
+      "context": "Hamlet's soliloquies are in unrhymed iambic pentameter, the blank verse Shakespeare's company made the standard medium of the public stage. Both passages show the meter bending under the pressure of thought, from regular beats to short broken lines.",
+      "questions": [
+        "Where in these speeches does the meter run most regularly, and where does it break or pause?",
+        "Hamlet ends one line 'To die—to sleep' and another 'For Hecuba?' What do these short lines do to the rhythm?",
+        "Count the stresses in 'To be, or not to be, that is the question.' Does the line end on a stress?"
+      ]
+    },
+    {
+      "id": "tennyson-poems",
+      "title": "Break, Break, Break and The Charge of the Light Brigade",
+      "author": "Alfred, Lord Tennyson",
+      "date": "1842 and 1854–55",
+      "citation": "Alfred, Lord Tennyson, 'Break, Break, Break' (1842), in The Early Poems of Alfred Lord Tennyson, edited by John Churton Collins (London: Methuen, 1900); and 'The Charge of the Light Brigade' (1854; revised 1855), in Maud, and Other Poems (London: Edward Moxon, 1855). Project Gutenberg eBooks 8601 and 56913.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/56913",
+      "file": "sources/tennyson-poems.md",
+      "context": "Tennyson wrote 'The Charge of the Light Brigade' within weeks of the disastrous cavalry charge at Balaclava in 1854. Its falling rhythm, short lines, and refrain are usually heard as the beat of horses and the headlong rush of the brigade.",
+      "questions": [
+        "Read the opening of 'The Charge of the Light Brigade' aloud. Where do the stresses fall, and what does the pattern suggest?",
+        "Which words rhyme, and where does a rhyme fall inside a line rather than at its end?",
+        "What does the refrain 'Rode the six hundred' do each time it returns?"
+      ]
+    },
+    {
+      "id": "whitman-song-of-myself",
+      "title": "Song of Myself, sections 1–2",
+      "author": "Walt Whitman",
+      "date": "1855; this text 1899",
+      "citation": "Walt Whitman, Leaves of Grass (Boston: Small, Maynard & Co., 1899), 'Song of Myself,' sections 1–2. Project Gutenberg eBook 1322.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1322",
+      "file": "sources/whitman-song-of-myself.md",
+      "context": "Whitman's long unrhymed lines broke with the metrical forms of the English tradition. Their rhythm comes from breath, repetition, and the sweep of the sentence rather than from a repeating foot.",
+      "questions": [
+        "How does Whitman divide these lines, and what seems to determine where each one ends?",
+        "Find a phrase that repeats. What does the repetition do to the rhythm?",
+        "Try to scan one of these lines as iambic pentameter. Why does the attempt fail?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "fussell-metrical-contract",
+      "historian": "Paul Fussell",
+      "work": "Poetic Meter and Poetic Form",
+      "year": "1965; revised 1979",
+      "claim": "Fussell argued that meter is not a container for meaning but part of it: because a reader expects a metrical pattern, a poet can make meaning by fulfilling, delaying, or breaking that expectation, and the substitutions that vary a line are expressive choices rather than noise.",
+      "note": "Attridge and other beat theorists reply that the foot-and-substitution vocabulary Fussell uses is a misleading import from Greek, and that English rhythm is better described by beats; the dispute is whether a substitution is an event in the poem or only in its description."
+    },
+    {
+      "id": "attridge-beat-theory",
+      "historian": "Derek Attridge",
+      "work": "The Rhythms of English Poetry",
+      "year": "1982",
+      "claim": "Attridge argued that the traditional foot-and-substitution model misdescribes English verse. Rhythm, on his account, rests on the alternation of beats and offbeats in a stress-timed language, so a line should be described as a sequence of beats rather than a string of Greek feet.",
+      "note": "Traditional prosodists, and generative metricists such as Morris Halle and Samuel Jay Keyser, defend the foot as a useful abstraction and argue that beat theory under-describes the syllable; the disagreement is partly about what a description of verse is for."
+    }
+  ],
+  "activities": [
+    {
+      "id": "what-is-a-foot",
+      "type": "choice",
+      "prompt": "In English verse, what is a 'foot'?",
+      "choices": [
+        "A repeated unit of stressed and unstressed syllables",
+        "A line of exactly ten syllables",
+        "A pause at the end of a line",
+        "A rhyme between two lines"
+      ],
+      "answer": 0,
+      "feedback": "A foot is the small repeated unit of meter — an iamb, trochee, anapest, dactyl, or spondee."
+    },
+    {
+      "id": "name-the-iamb",
+      "type": "choice",
+      "prompt": "Which foot is an unstressed syllable followed by a stressed one?",
+      "choices": ["Iamb", "Trochee", "Dactyl", "Spondee"],
+      "answer": 0,
+      "feedback": "An iamb rises from weak to strong: 'to be,' 'the sun,' 'again.'"
+    },
+    {
+      "id": "sonnet-line-meter",
+      "type": "choice",
+      "prompt": "'Shall I compare thee to a summer's day?' is written in which meter?",
+      "choices": [
+        "Iambic pentameter",
+        "Trochaic tetrameter",
+        "Anapestic tetrameter",
+        "Dactylic hexameter"
+      ],
+      "answer": 0,
+      "feedback": "Five iambs: shall I | compare | thee to | a sum- | mer's day."
+    },
+    {
+      "id": "charge-rhythm",
+      "type": "choice",
+      "prompt": "What does the falling, galloping rhythm of 'The Charge of the Light Brigade' mainly suggest?",
+      "choices": [
+        "The headlong ride of the cavalry",
+        "A calm sea voyage",
+        "A slow funeral procession",
+        "A quiet country walk"
+      ],
+      "answer": 0,
+      "feedback": "The dactyls, anapests, and short refrain lines imitate the horses' gallop and the rush into the valley."
+    },
+    {
+      "id": "define-slant-rhyme",
+      "type": "choice",
+      "prompt": "What is a slant rhyme?",
+      "choices": [
+        "A rhyme that matches some but not all of the sound",
+        "A rhyme at the start of two lines",
+        "A rhyme in a foreign language",
+        "A rhyme that repeats the same word"
+      ],
+      "answer": 0,
+      "feedback": "Slant or near rhyme is imperfect: Dickinson's 'soul'/'all' and Owen's pararhymes are examples."
+    },
+    {
+      "id": "blank-vs-free",
+      "type": "choice",
+      "prompt": "What distinguishes blank verse from free verse?",
+      "choices": [
+        "Blank verse is unrhymed iambic pentameter; free verse has no fixed meter",
+        "Blank verse rhymes; free verse does not",
+        "Blank verse has no meter; free verse is metrical",
+        "They are two names for the same form"
+      ],
+      "answer": 0,
+      "feedback": "Blank verse keeps the iambic pentameter line but drops rhyme; free verse abandons the fixed metrical pattern as well."
+    },
+    {
+      "id": "enjambment-effect",
+      "type": "choice",
+      "prompt": "What does enjambment do?",
+      "choices": [
+        "Runs the sense past the line break",
+        "Ends the sense at the line break",
+        "Adds an extra stress to the line",
+        "Repeats the line as a refrain"
+      ],
+      "answer": 0,
+      "feedback": "Enjambment sets the metrical pause and the syntactic pause in different places, as Milton often does."
+    },
+    {
+      "id": "eye-rhyme-love-prove",
+      "type": "choice",
+      "prompt": "In Marlowe's 'Come live with me and be my love, / And we will all the pleasures prove,' the pair 'love'/'prove' is an example of…",
+      "choices": ["Eye rhyme", "Perfect rhyme", "Internal rhyme", "Feminine rhyme"],
+      "answer": 0,
+      "feedback": "The words look alike but no longer sound alike — an eye rhyme, a fossil of a change in pronunciation."
+    },
+    {
+      "id": "english-sonnet-shape",
+      "type": "choice",
+      "prompt": "How does the English or Shakespearean sonnet arrange its fourteen lines?",
+      "choices": [
+        "Three quatrains and a closing couplet",
+        "An octave and a sestet",
+        "Twelve lines and a two-line refrain",
+        "Seven rhymed couplets"
+      ],
+      "answer": 0,
+      "feedback": "The English sonnet rhymes abab cdcd efef gg; the Petrarchan form instead divides into an octave and a sestet."
+    },
+    {
+      "id": "reflect-meter-and-line",
+      "type": "short-answer",
+      "prompt": "Compare how meter works in Hamlet's 'To be, or not to be' soliloquy and in Whitman's 'Song of Myself.' What does each poet use to organize the line, and what does that organization let each passage do?",
+      "context": "Shakespeare: 'To be, or not to be, that is the question: / Whether 'tis nobler in the mind to suffer' — Whitman: 'I celebrate myself, and sing myself, / And what I assume you shall assume, / For every atom belonging to me as good belongs to you.'",
+      "rubric": [
+        "refers to both passages",
+        "names a device or pattern in each (for example, iambic pentameter and the line break or repetition)",
+        "uses a specific phrase from each passage"
+      ]
+    }
+  ]
+}

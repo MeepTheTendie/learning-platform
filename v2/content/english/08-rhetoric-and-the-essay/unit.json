@@ -1,0 +1,192 @@
+{
+  "id": "08-rhetoric-and-the-essay",
+  "title": "Rhetoric and the essay",
+  "period": "The essay in English, sixteenth to nineteenth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "bacon",
+      "title": "Of Studies and Of Discourse",
+      "author": "Francis Bacon",
+      "date": "1597–1625",
+      "citation": "Francis Bacon, The Essays or Counsels, Civil and Moral (London, 1625), 'Of Studies' and 'Of Discourse'. Text from Project Gutenberg eBook 575.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/575",
+      "file": "sources/bacon.md",
+      "context": "Bacon first published ten essays in 1597 and enlarged the book twice, in 1612 and 1625; these two pieces come from the final edition of fifty-eight. The essays are short, impersonal, and built out of aphorisms.",
+      "questions": [
+        "What three uses does Bacon give for study, and which does he treat as the chief?",
+        "In 'Of Discourse,' what does Bacon say distinguishes discretion of speech from eloquence?",
+        "Bacon's sentences often balance three clauses. Find one and say what the balance adds."
+      ]
+    },
+    {
+      "id": "spectator",
+      "title": "Two Spectator papers: No. 10 and No. 476",
+      "author": "Joseph Addison",
+      "date": "1711–1712",
+      "citation": "Joseph Addison, The Spectator, No. 10 (12 March 1711) and No. 476 (5 September 1712), in The Spectator, ed. Henry Morley, 3 vols. (London, 1891). Text from Project Gutenberg eBook 12030.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/12030",
+      "file": "sources/spectator.md",
+      "context": "Addison and Steele's daily paper ran 555 numbers. No. 10 sets out its program of mixing wit with morality; No. 476 contrasts methodical writing with the free 'wildness' of the essay, naming Montaigne and Seneca as models.",
+      "questions": [
+        "In No. 10, what does Addison say he has brought 'out of Closets and Libraries'?",
+        "In No. 476, which writers does Addison name as patterns of the unmethodical essay?",
+        "How does the figure of Tom Puzzle support Addison's argument about method?",
+        "Who is the paper's intended audience, and how can you tell from No. 10?"
+      ]
+    },
+    {
+      "id": "personal-essay",
+      "title": "The personal essay: Lamb, Emerson, Thoreau",
+      "author": "Charles Lamb, Ralph Waldo Emerson, Henry David Thoreau",
+      "date": "1822–1862",
+      "citation": "Lamb, 'Dream-Children: A Reverie,' in The Works of Charles and Mary Lamb, vol. 2, ed. E. V. Lucas (London: Methuen, 1903), Project Gutenberg eBook 10343; Emerson, 'Self-Reliance,' in Essays: First Series (1841), text from Essays by Ralph Waldo Emerson, ed. Edna H. L. Turpin (New York: Charles E. Merrill, 1907), Project Gutenberg eBook 16643; Thoreau, 'Walking' (Atlantic Monthly, 1862), Project Gutenberg eBook 1022.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/10343",
+      "file": "sources/personal-essay.md",
+      "context": "Three passages from the nineteenth-century personal essay: Lamb's dream of children who were never born, Emerson's argument for trusting one's own thought, and the opening of Thoreau's walk in praise of wildness.",
+      "questions": [
+        "In 'Dream-Children,' who are the children, and when does the reader learn it?",
+        "What does Emerson mean by saying that 'to believe your own thought' is genius?",
+        "How does Thoreau's etymology of 'saunterer' work as an argument for walking?",
+        "Each passage speaks in the first person. How does the 'I' differ from one to the next?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "burke-identification",
+      "historian": "Kenneth Burke",
+      "work": "A Rhetoric of Motives",
+      "year": "1950",
+      "claim": "Burke argues that persuasion works less by formal proof than by identification: a speaker wins an audience by sharing its language, interests, and sense of what is proper, so that the audience comes to see the speaker's cause as its own. He calls this shared substance 'consubstantiality' and treats it as the core of rhetoric.",
+      "note": "Critics ask whether identification is a distinct principle or simply persuasion renamed, and whether Burke's very wide definition leaves anything outside rhetoric. The disagreement is about whether rhetoric is a particular art or a general feature of all language."
+    },
+    {
+      "id": "booth-rhetorical-stance",
+      "historian": "Wayne C. Booth",
+      "work": "The Rhetorical Stance",
+      "year": "1963",
+      "claim": "Booth argues that effective persuasion depends on the writer's finding a balance among the writer's own voice, the audience addressed, and the subject at hand. When the balance fails, a false stance takes over: the pedant's, which forgets the audience; the advertiser's, which forgets the subject; or the entertainer's, which forgets both.",
+      "note": "Reader-response critics, among them Stanley Fish, argue that meaning is produced by interpretive communities rather than controlled by the writer's stance, so the balance Booth describes may be less decisive than he claims. The debate is about how far a writer governs the reader's response."
+    }
+  ],
+  "activities": [
+    {
+      "id": "three-appeals",
+      "type": "choice",
+      "prompt": "Which of Aristotle's three appeals concerns the character of the speaker as it appears in the speech?",
+      "choices": ["Ethos", "Pathos", "Logos", "Kairos"],
+      "answer": 0,
+      "feedback": "Ethos is the speaker's projected character; pathos is the audience's feeling; logos is the argument itself."
+    },
+    {
+      "id": "five-canons",
+      "type": "choice",
+      "prompt": "Which list gives the five canons of rhetoric?",
+      "choices": [
+        "Invention, arrangement, style, memory, delivery",
+        "Ethos, pathos, logos, kairos, decorum",
+        "Grammar, logic, rhetoric, dialectic, poetics",
+        "Exordium, narration, proof, refutation, peroration"
+      ],
+      "answer": 0,
+      "feedback": "The Roman canons run from finding the material to speaking it: invention, arrangement, style, memory, and delivery."
+    },
+    {
+      "id": "montaigne-essai",
+      "type": "choice",
+      "prompt": "What does Montaigne's word 'essai' mean?",
+      "choices": ["An attempt or trial", "A finished system", "A legal argument", "A collection of aphorisms"],
+      "answer": 0,
+      "feedback": "An essai is a trial or attempt, which is why the form is tentative and self-questioning rather than systematic."
+    },
+    {
+      "id": "bacon-montaigne",
+      "type": "choice",
+      "prompt": "Which description fits Bacon's essays better than Montaigne's?",
+      "choices": [
+        "Impersonal, compressed, and instructive",
+        "Digressive, personal, and self-doubting",
+        "Written as a daily newspaper serial",
+        "Composed only in verse"
+      ],
+      "answer": 0,
+      "feedback": "Bacon writes short, impersonal counsels built from aphorisms; Montaigne wanders through his own experience and doubts."
+    },
+    {
+      "id": "spectator-program",
+      "type": "choice",
+      "prompt": "In Spectator No. 10, Addison says his aim is to…",
+      "choices": [
+        "enliven morality with wit and temper wit with morality",
+        "report the day's foreign news",
+        "defend the Church of England",
+        "publish poetry by subscription"
+      ],
+      "answer": 0,
+      "feedback": "Addison states the program plainly: instruction and entertainment are to reinforce each other."
+    },
+    {
+      "id": "addison-method",
+      "type": "choice",
+      "prompt": "In Spectator No. 476, what does Addison compare a methodical discourse to?",
+      "choices": [
+        "A regular plantation whose walks can be surveyed",
+        "A wood full of noble objects in disorder",
+        "A cuttle-fish darkening the water",
+        "A numberless undisciplined militia"
+      ],
+      "answer": 0,
+      "feedback": "The methodical work is the 'regular Plantation'; the wood and the cuttle-fish stand for the unmethodical essay."
+    },
+    {
+      "id": "enthymeme",
+      "type": "choice",
+      "prompt": "An enthymeme persuades by…",
+      "choices": [
+        "leaving a premise for the audience to supply",
+        "quoting an authority in full",
+        "listing statistics",
+        "repeating the conclusion"
+      ],
+      "answer": 0,
+      "feedback": "The rhetorical syllogism omits a premise the audience already holds, so the hearer completes the argument."
+    },
+    {
+      "id": "burke-identification",
+      "type": "choice",
+      "prompt": "Kenneth Burke argued that persuasion works chiefly through…",
+      "choices": [
+        "identification between speaker and audience",
+        "formal logical proof",
+        "emotional manipulation alone",
+        "the authority of the state"
+      ],
+      "answer": 0,
+      "feedback": "Burke locates rhetoric in the sharing of substance and interest between speaker and audience."
+    },
+    {
+      "id": "tricolon",
+      "type": "choice",
+      "prompt": "Bacon's 'Reading maketh a full man; conference a ready man; and writing an exact man' is an example of…",
+      "choices": ["tricolon, three parallel clauses", "a single long periodic sentence", "an enthymeme", "free verse"],
+      "answer": 0,
+      "feedback": "Three balanced clauses of the same shape make the three-part claim feel complete."
+    },
+    {
+      "id": "analyze-passage",
+      "type": "short-answer",
+      "prompt": "Analyze the sentence below for its appeals and its rhythm. What is it doing, and how does its shape help it do that?",
+      "context": "It was said of Socrates, that he brought Philosophy down from Heaven, to inhabit among Men; and I shall be ambitious to have it said of me, that I have brought Philosophy out of Closets and Libraries, Schools and Colleges, to dwell in Clubs and Assemblies, at Tea-tables, and in Coffee-houses.",
+      "rubric": [
+        "names at least one of ethos, pathos, or logos and points to where it appears",
+        "describes the parallel structure or rhythm of the sentence",
+        "connects the sentence's form to its persuasive purpose"
+      ]
+    }
+  ]
+}

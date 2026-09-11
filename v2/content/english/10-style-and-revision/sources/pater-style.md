@@ -1,0 +1,15 @@
+## From "Style"
+
+What, then, did Flaubert understand by beauty, in the art he pursued with so much fervour, with so much self-command? Let us hear a sympathetic commentator:—
+
+Possessed of an absolute belief that there exists but one way of expressing one thing, one word to call it by, one adjective to qualify, one verb to animate it, he gave himself to superhuman labour for the discovery, in every phrase, of that word, that verb, that epithet. In this way, he believed in some mysterious harmony of expression, and when a true word seemed to him to lack euphony still went on seeking another, with invincible patience, certain that he had not yet got hold of the unique word. [...] A thousand preoccupations would beset him at the same moment, always with this desperate certitude fixed in his spirit: Among all the expressions in the world, all forms and turns of expression, there is but one—one form, one mode—to express what I want to say.
+
+The one word for the one thing, the one thought, amid the multitude of words, terms, that might just do: the problem of style was there!—the unique word, phrase, sentence, paragraph, essay, or song, absolutely proper to the single mental presentation or vision within. [...]
+
+There are no beautiful thoughts (he would say) without beautiful forms, and conversely. As it is impossible to extract from a physical body the qualities which really constitute it—colour, extension, and the like—without reducing it to a hollow abstraction, in a word, without destroying it; just so it is impossible to detach the form from the idea, for the idea only exists by virtue of the form. [...]
+
+If Flaubert had not told us, perhaps we should never have guessed how tardy and painful his own procedure really was [...]. "Happy," he cries, in a moment of discouragement at that patient labour, which for him, certainly, was the condition of a great success—
+
+Happy those who have no doubts of themselves! who lengthen out, as the pen runs on, all that flows forth from their brains. As for me, I hesitate, I disappoint myself, turn round upon myself in despite: my taste is augmented in proportion as my natural vigour decreases, and I afflict my soul over some dubious word out of all proportion to the pleasure I get from a whole page of good writing. One would have to live two centuries to attain a true idea of any matter whatever. [...] Art! art! art! bitter deception! phantom that glows with light, only to lead one on to destruction...
+
+Say what you have to say, what you have a will to say, in the simplest, the most direct and exact manner possible, with no surplusage:—there, is the justification of the sentence so fortunately born, "entire, smooth, and round," that it needs no punctuation, and also (that is the point!) of the most elaborate period, if it be right in its elaboration. Here is the office of ornament: here also the purpose of restraint in ornament. [...] Afterthoughts, retouchings, finish, will be of profit only so far as they too really serve to bring out the original, initiative, generative, sense in them.

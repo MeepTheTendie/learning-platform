@@ -1,0 +1,192 @@
+{
+  "id": "06-character-and-the-novel",
+  "title": "Character and the novel",
+  "period": "The novel in English, eighteenth to early twentieth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "austen-pride-prejudice",
+      "title": "Pride and Prejudice, Chapter I",
+      "author": "Jane Austen",
+      "date": "1813",
+      "citation": "Pride and Prejudice (1813), Chapter I. Text from the illustrated George Allen edition (1894), Project Gutenberg eBook 1342.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1342",
+      "file": "sources/austen-pride-prejudice.md",
+      "context": "The opening chapter introduces the Bennets almost entirely through dialogue, then closes with the narrator's direct verdict on both their characters. Its first sentence is the novel's most quoted maxim.",
+      "questions": [
+        "The first sentence is often read as the narrator's own view. What does the second sentence do to it?",
+        "How does the closing sketch of Mr. and Mrs. Bennet differ from what the dialogue has shown?",
+        "Whose words are 'A single man of large fortune; four or five thousand a year' — Mrs. Bennet's or the narrator's, and how can you tell?"
+      ]
+    },
+    {
+      "id": "eliot-middlemarch",
+      "title": "Middlemarch, Prelude and the portrait of Dorothea",
+      "author": "George Eliot",
+      "date": "1871–72",
+      "citation": "Middlemarch (1871–72), Prelude and Chapter I. Project Gutenberg eBook 145.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/145",
+      "file": "sources/eliot-middlemarch.md",
+      "context": "The Prelude compares Dorothea Brooke to Saint Theresa and laments the later-born Theresas who find no epic life. Chapter I then builds Dorothea from her dress, her reading, and her ambition.",
+      "questions": [
+        "What does the narrator mean by calling Dorothea a later-born Theresa?",
+        "How much of Dorothea's character is given through other people's opinions of her?",
+        "Where does the narrator speak in the first person, and what does that do to the reader's relation to Dorothea?"
+      ]
+    },
+    {
+      "id": "woolf-mrs-dalloway",
+      "title": "Mrs. Dalloway, opening",
+      "author": "Virginia Woolf",
+      "date": "1925",
+      "citation": "Mrs. Dalloway (London: Hogarth Press, 1925), opening pages. Project Gutenberg eBook 71865.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/71865",
+      "file": "sources/woolf-mrs-dalloway.md",
+      "context": "Clarissa Dalloway walks through Westminster on a June morning, buying flowers for a party. The narration slips between her present errand, her memories of Bourton, and the passing thought of Scrope Purvis.",
+      "questions": [
+        "Trace where the narration moves from the street into Clarissa's memory and back. What signals the shift?",
+        "The sentence about Scrope Purvis reports his thought about Clarissa. What does that outside view add?",
+        "Which details in this passage could not be known by an observer watching Clarissa cross the street?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "forster-flat-round",
+      "historian": "E. M. Forster",
+      "work": "Aspects of the Novel",
+      "year": "1927",
+      "claim": "Forster distinguished flat characters, built around a single idea and unable to surprise the reader, from round characters, who can surprise the reader in a convincing way. He argued that both are legitimate and that flat characters are often the more memorable.",
+      "note": "The pair is a metaphor rather than a test, and later narrative theory treats flatness as a matter of degree and function. Many of Dickens's most vivid figures are flat by Forster's definition, which shows that the distinction measures a kind of complexity, not literary worth."
+    },
+    {
+      "id": "watt-rise-novel",
+      "historian": "Ian Watt",
+      "work": "The Rise of the Novel",
+      "year": "1957",
+      "claim": "Watt argued that the English novel arose in the eighteenth century with modern individualism and with what he called formal realism: the convention of presenting particular individuals in ordinary time and place. Defoe, Richardson, and Fielding are his central cases.",
+      "note": "The thesis has been contested. Later critics point to earlier prose fiction, to women writers and readers, and to traditions outside England, and question whether a single 'rise' can be told. The debate over origins is itself part of the subject."
+    }
+  ],
+  "activities": [
+    {
+      "id": "flat-round",
+      "type": "choice",
+      "prompt": "Which best describes a 'flat' character in Forster's terms?",
+      "choices": [
+        "One built round a single idea and unable to surprise the reader",
+        "One who changes and surprises the reader convincingly",
+        "A character who is never given a name",
+        "A character who never speaks"
+      ],
+      "answer": 0,
+      "feedback": "Forster's flat characters can be summed up in a sentence; his round characters can surprise us in a convincing way."
+    },
+    {
+      "id": "free-indirect",
+      "type": "choice",
+      "prompt": "Free indirect discourse is best described as…",
+      "choices": [
+        "The narrator's third person carrying a character's idiom and thought without quotation marks",
+        "A character telling the story in the first person",
+        "Dialogue printed without speech tags",
+        "A narrator who knows everything and comments on the action"
+      ],
+      "answer": 0,
+      "feedback": "The character's words surface in the narrator's voice, so the reader hears both at once and the narrator's judgment is folded in."
+    },
+    {
+      "id": "austen-maxim",
+      "type": "choice",
+      "prompt": "In the first sentence of Pride and Prejudice, the 'truth universally acknowledged' is…",
+      "choices": [
+        "The view of the surrounding families, which the narrator reports with irony",
+        "The narrator's own sincere belief",
+        "A quotation from Mrs. Bennet",
+        "A line spoken by Mr. Bennet"
+      ],
+      "answer": 0,
+      "feedback": "The next sentence reveals that this 'truth' is what the neighbourhood believes, and the irony lands on them."
+    },
+    {
+      "id": "watt-thesis",
+      "type": "choice",
+      "prompt": "Ian Watt linked the rise of the novel chiefly to…",
+      "choices": [
+        "Modern individualism and formal realism",
+        "The invention of printing",
+        "The decline of poetry",
+        "The growth of the theatre"
+      ],
+      "answer": 0,
+      "feedback": "Watt tied the form to a new sense of the individual and to the convention of presenting ordinary life in particular time and place."
+    },
+    {
+      "id": "bildungsroman",
+      "type": "choice",
+      "prompt": "A bildungsroman is a novel of…",
+      "choices": [
+        "A young person's formation and growth",
+        "A detective's investigation",
+        "A family across several generations",
+        "A journey to a foreign land"
+      ],
+      "answer": 0,
+      "feedback": "The German term means 'novel of formation'; the plot is the making of the protagonist's character."
+    },
+    {
+      "id": "omniscient-narrator",
+      "type": "choice",
+      "prompt": "The Victorian omniscient narrator is one who…",
+      "choices": [
+        "Knows every character's mind and may comment on the action",
+        "Reports only what a single character can see",
+        "Speaks in the first person as a character in the story",
+        "Never describes a character's thoughts"
+      ],
+      "answer": 0,
+      "feedback": "Eliot's narrator moves among the minds of Middlemarch and comments from above; the reader is told what to think."
+    },
+    {
+      "id": "woolf-halo",
+      "type": "choice",
+      "prompt": "Woolf's 'luminous halo' is an image for…",
+      "choices": [
+        "The continuous flow of consciousness a novel should convey",
+        "The moral judgment of the narrator",
+        "The social world of London",
+        "The structure of a plot"
+      ],
+      "answer": 0,
+      "feedback": "In 'Modern Fiction' Woolf argued that life is a semi-transparent envelope surrounding us from the beginning of consciousness to the end."
+    },
+    {
+      "id": "stream-term",
+      "type": "choice",
+      "prompt": "The term 'stream of consciousness' in fiction comes from…",
+      "choices": [
+        "William James's psychology",
+        "Forster's Aspects of the Novel",
+        "Aristotle's Poetics",
+        "Ian Watt's The Rise of the Novel"
+      ],
+      "answer": 0,
+      "feedback": "William James described thought as a continuous stream in The Principles of Psychology (1890); Joyce and Woolf turned the idea into a method."
+    },
+    {
+      "id": "analyze-austen-character",
+      "type": "short-answer",
+      "prompt": "The organizing question is how a novelist makes a person out of words. Using the passage, explain how Austen builds the characters of Mr. and Mrs. Bennet, and what the narrator's closing verdict adds that the dialogue alone does not.",
+      "context": "\"Mr. Bennet was so odd a mixture of quick parts, sarcastic humour, reserve, and caprice, that the experience of three-and-twenty years had been insufficient to make his wife understand his character. Her mind was less difficult to develope. She was a woman of mean understanding, little information, and uncertain temper.\" — Jane Austen, Pride and Prejudice, Chapter I",
+      "rubric": [
+        "identifies at least one device used to build character, such as dialogue, speech habits, or the narrator's direct verdict",
+        "explains what the closing verdict adds beyond what the dialogue has shown",
+        "uses a specific word or phrase from the passage as evidence"
+      ]
+    }
+  ]
+}

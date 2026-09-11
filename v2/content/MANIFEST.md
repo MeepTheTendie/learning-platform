@@ -2,6 +2,106 @@
 
 Every source and its license, generated from the unit files.
 
+## 01-reading-a-poem — Reading a poem closely
+
+English poetry, sixteenth to nineteenth centuries
+
+- **Three sonnets** — William Shakespeare, 1609. Public domain. Shake-speares Sonnets (London: Thomas Thorpe, 1609), Sonnets XVIII, LXXIII, and CXVI. Text from Shakespeare's Sonnets, Project Gutenberg eBook 1041.
+- **Selected poems** — Emily Dickinson, 1890–1896. Public domain. Poems by Emily Dickinson, Three Series, Complete, edited by Mabel Loomis Todd and T. W. Higginson (Boston: Roberts Brothers and Little, Brown, 1890–1896). Project Gutenberg eBook 12242.
+- **From the Preface to Lyrical Ballads** — William Wordsworth, 1800. Public domain. William Wordsworth, Preface to Lyrical Ballads, with Other Poems, 1800, Volume 1 (London: T. N. Longman and O. Rees, 1800). Project Gutenberg eBook 8905.
+- interpretation: Cleanth Brooks, *The Well Wrought Urn: Studies in the Structure of Poetry* (1947)
+- interpretation: Helen Vendler, *The Art of Shakespeare's Sonnets* (1997)
+
+## 02-imagery-and-metaphor — Imagery and metaphor
+
+English poetry, sixteenth to nineteenth centuries
+
+- **A Valediction: Forbidding Mourning; and Holy Sonnet 10** — John Donne, 1611 (printed 1633). Public domain. John Donne, "A Valediction: Forbidding Mourning" and Holy Sonnet 10 ("Death be not proud"), from Poems (1633). Text from Wikisource.
+- **Sonnets 18, 73, and 116** — William Shakespeare, 1609. Public domain. William Shakespeare, Sonnets 18, 73, and 116, from Shake-speares Sonnets (1609). Text from Project Gutenberg eBook 1041.
+- **Selected poems from Leaves of Grass** — Walt Whitman, 1868-1881. Public domain. Walt Whitman, "A Noiseless Patient Spider," "When I Heard the Learn'd Astronomer," "The Dalliance of the Eagles," and "A Sight in Camp in the Daybreak Gray and Dim," from Leaves of Grass (1891-92 edition). Text from Project Gutenberg eBook 1322.
+- interpretation: I. A. Richards, *The Philosophy of Rhetoric* (1936)
+- interpretation: George Lakoff and Mark Johnson, *Metaphors We Live By* (1980)
+
+## 03-meter-and-form — Meter and form
+
+English poetry, sixteenth to nineteenth centuries
+
+- **Two soliloquies from Hamlet** — William Shakespeare, c. 1600–1601. Public domain. William Shakespeare, The Tragedy of Hamlet, Prince of Denmark (c. 1600–1601), Act II, scene 2, and Act III, scene 1, in The Complete Works of William Shakespeare, edited by W. J. Craig (London: Oxford University Press, 1914). Project Gutenberg eBook 1524.
+- **Break, Break, Break and The Charge of the Light Brigade** — Alfred, Lord Tennyson, 1842 and 1854–55. Public domain. Alfred, Lord Tennyson, 'Break, Break, Break' (1842), in The Early Poems of Alfred Lord Tennyson, edited by John Churton Collins (London: Methuen, 1900); and 'The Charge of the Light Brigade' (1854; revised 1855), in Maud, and Other Poems (London: Edward Moxon, 1855). Project Gutenberg eBooks 8601 and 56913.
+- **Song of Myself, sections 1–2** — Walt Whitman, 1855; this text 1899. Public domain. Walt Whitman, Leaves of Grass (Boston: Small, Maynard & Co., 1899), 'Song of Myself,' sections 1–2. Project Gutenberg eBook 1322.
+- interpretation: Paul Fussell, *Poetic Meter and Poetic Form* (1965; revised 1979)
+- interpretation: Derek Attridge, *The Rhythms of English Poetry* (1982)
+
+## 04-the-sonnet — The sonnet
+
+English poetry, sixteenth to nineteenth centuries
+
+- **Three sonnets from the Rime sparse** — Francesco Petrarca (Petrarch), c. 1327–1368; this translation 1903. Public domain. Selected and translated by Thomas Wentworth Higginson, Fifteen Sonnets of Petrarch (Boston and New York: Houghton Mifflin, 1903). Italian and English from the same edition. Project Gutenberg eBook 50307.
+- **The English sonnet from Wyatt to Shakespeare** — Sir Thomas Wyatt, Henry Howard (Earl of Surrey), Sir Philip Sidney, Edmund Spenser, William Shakespeare, 1530s–1609. Public domain. Wyatt, 'Whoso list to hunt,' and Surrey, 'Love, that doth reign and live within my thought,' after Tottel's Miscellany (1557); Sidney, Astrophil and Stella (1591), Project Gutenberg eBook 56375; Spenser, Amoretti (1595), in The Poetical Works of Edmund Spenser, Project Gutenberg eBook 10602; Shakespeare, Sonnet 18, from the Sonnets of 1609, Project Gutenberg eBook 1041.
+- **The sonnet after Shakespeare** — John Donne, John Milton, William Wordsworth, John Keats, Elizabeth Barrett Browning, Gerard Manley Hopkins, 1633–1918. Public domain. Donne, Holy Sonnet 10, from Poems (1633), in The Poems of John Donne, ed. H. J. C. Grierson (1912), Project Gutenberg eBook 48688; Milton, Sonnet 19, from Poems (1673), in Milton: Minor Poems, Project Gutenberg eBook 31706; Wordsworth, 'Composed upon Westminster Bridge,' from Poems, in Two Volumes (1807), in The Poetical Works of William Wordsworth, Project Gutenberg eBook 12145; Keats, 'On First Looking into Chapman's Homer,' from Poems (1817), Project Gutenberg eBook 8209; Barrett Browning, Sonnets from the Portuguese 43 (1850), Project Gutenberg eBook 2002; Hopkins, 'God's Grandeur,' in Poems of Gerard Manley Hopkins (1918), Project Gutenberg eBook 22403.
+- interpretation: Helen Vendler, *The Art of Shakespeare's Sonnets* (1997)
+- interpretation: Michael R. G. Spiller, *The Development of the Sonnet: An Introduction* (1992)
+
+## 05-narrative-and-the-short-story — Narrative and the short story
+
+The nineteenth century
+
+- **The Cask of Amontillado (selections)** — Edgar Allan Poe, 1846. Public domain. "The Cask of Amontillado," first published in Godey's Lady's Book, November 1846. Text from The Works of Edgar Allan Poe, Volume 2 (Raven Edition), Project Gutenberg eBook 2148.
+- **The Story of an Hour** — Kate Chopin, 1894. Public domain. "The Story of an Hour," first published in Vogue, 6 December 1894. Text from Wikisource.
+- **The Lady with the Dog (selections)** — Anton Chekhov, 1899 (this translation 1917). Public domain. "The Lady with the Dog," translated by Constance Garnett, in The Lady with the Dog and Other Stories (London: Chatto & Windus, 1917). Project Gutenberg eBook 13415.
+- interpretation: E. M. Forster, *Aspects of the Novel* (1927)
+- interpretation: Wayne C. Booth, *The Rhetoric of Fiction* (1961)
+
+## 06-character-and-the-novel — Character and the novel
+
+The novel in English, eighteenth to early twentieth centuries
+
+- **Pride and Prejudice, Chapter I** — Jane Austen, 1813. Public domain. Pride and Prejudice (1813), Chapter I. Text from the illustrated George Allen edition (1894), Project Gutenberg eBook 1342.
+- **Middlemarch, Prelude and the portrait of Dorothea** — George Eliot, 1871–72. Public domain. Middlemarch (1871–72), Prelude and Chapter I. Project Gutenberg eBook 145.
+- **Mrs. Dalloway, opening** — Virginia Woolf, 1925. Public domain. Mrs. Dalloway (London: Hogarth Press, 1925), opening pages. Project Gutenberg eBook 71865.
+- interpretation: E. M. Forster, *Aspects of the Novel* (1927)
+- interpretation: Ian Watt, *The Rise of the Novel* (1957)
+
+## 07-drama-and-shakespeare — Drama and Shakespeare
+
+English drama, sixteenth to seventeenth centuries
+
+- **Ambition, the dagger, and "tomorrow": scenes from Macbeth** — William Shakespeare, c. 1606. Public domain. William Shakespeare, The Tragedy of Macbeth (c. 1606), Act I, scenes 3, 5, and 7; Act II, scene 1; and Act V, scene 5. Text from the Project Gutenberg edition (eBook 1533), based on the First Folio (1623).
+- **Delay, conscience, and the play-within-the-play: scenes from Hamlet** — William Shakespeare, c. 1600–1601. Public domain. William Shakespeare, The Tragedy of Hamlet, Prince of Denmark (c. 1600–1601), Act III, scene 3, and Act V, scene 2. Text from the Project Gutenberg edition (eBook 1524).
+- **From the Poetics: tragedy, hamartia, and the tragic pleasure** — Aristotle, c. 335 BCE; this translation 1902. Public domain. Aristotle, Poetics, translated by S. H. Butcher (London: Macmillan, 1902), chapters 6, 13, and 14. Project Gutenberg eBook 1974.
+- interpretation: A. C. Bradley, *Shakespearean Tragedy* (1904)
+- interpretation: Stephen Greenblatt, *Shakespearean Negotiations* (1988)
+
+## 08-rhetoric-and-the-essay — Rhetoric and the essay
+
+The essay in English, sixteenth to nineteenth centuries
+
+- **Of Studies and Of Discourse** — Francis Bacon, 1597–1625. Public domain. Francis Bacon, The Essays or Counsels, Civil and Moral (London, 1625), 'Of Studies' and 'Of Discourse'. Text from Project Gutenberg eBook 575.
+- **Two Spectator papers: No. 10 and No. 476** — Joseph Addison, 1711–1712. Public domain. Joseph Addison, The Spectator, No. 10 (12 March 1711) and No. 476 (5 September 1712), in The Spectator, ed. Henry Morley, 3 vols. (London, 1891). Text from Project Gutenberg eBook 12030.
+- **The personal essay: Lamb, Emerson, Thoreau** — Charles Lamb, Ralph Waldo Emerson, Henry David Thoreau, 1822–1862. Public domain. Lamb, 'Dream-Children: A Reverie,' in The Works of Charles and Mary Lamb, vol. 2, ed. E. V. Lucas (London: Methuen, 1903), Project Gutenberg eBook 10343; Emerson, 'Self-Reliance,' in Essays: First Series (1841), text from Essays by Ralph Waldo Emerson, ed. Edna H. L. Turpin (New York: Charles E. Merrill, 1907), Project Gutenberg eBook 16643; Thoreau, 'Walking' (Atlantic Monthly, 1862), Project Gutenberg eBook 1022.
+- interpretation: Kenneth Burke, *A Rhetoric of Motives* (1950)
+- interpretation: Wayne C. Booth, *The Rhetorical Stance* (1963)
+
+## 09-irony-and-satire — Irony and satire
+
+English prose and verse, seventeenth to nineteenth centuries
+
+- **A Modest Proposal (selections)** — Jonathan Swift, 1729. Public domain. Jonathan Swift, A Modest Proposal for preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick (Dublin, 1729). Text from Project Gutenberg eBook 1080.
+- **The Rape of the Lock (selections)** — Alexander Pope, 1714 (first version 1712). Public domain. Alexander Pope, The Rape of the Lock: An Heroi-Comical Poem, in The Rape of the Lock, and Other Poems (1714). Text from Project Gutenberg eBook 9800.
+- **Adventures of Huckleberry Finn (selections)** — Mark Twain, 1884. Public domain. Mark Twain, Adventures of Huckleberry Finn (New York: Charles L. Webster and Company, 1885; first published 1884). Text from Project Gutenberg eBook 76.
+- interpretation: Wayne C. Booth, *A Rhetoric of Irony* (1974)
+- interpretation: D. C. Muecke, *The Compass of Irony* (1969)
+
+## 10-style-and-revision — Style and revision
+
+English prose, nineteenth to early twentieth centuries
+
+- **The Philosophy of Style (selections)** — Herbert Spencer, 1852. Public domain. "The Philosophy of Style," first published in the Westminster Review, October 1852. Text from The Philosophy of Style, Project Gutenberg eBook 5849.
+- **On Some Technical Elements of Style in Literature (selections)** — Robert Louis Stevenson, 1885. Public domain. First published in the Contemporary Review, April 1885; collected in Essays in the Art of Writing (London: Chatto & Windus, 1905). Project Gutenberg eBook 492.
+- **Style (selections)** — Walter Pater, 1888. Public domain. First published in the Fortnightly Review, December 1888; collected in Appreciations, with an Essay on Style (London: Macmillan, 1889). Project Gutenberg eBook 4037.
+- interpretation: William Strunk Jr. and E. B. White, *The Elements of Style* (1918; revised 1959)
+- interpretation: George Orwell, *Politics and the English Language* (1946)
+
 ## 01-maps-and-projections — Maps and projections
 
 From Ptolemy to Web Mercator · The whole earth

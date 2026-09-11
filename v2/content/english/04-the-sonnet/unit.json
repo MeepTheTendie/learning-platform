@@ -1,0 +1,207 @@
+{
+  "id": "04-the-sonnet",
+  "title": "The sonnet",
+  "period": "English poetry, sixteenth to nineteenth centuries",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "petrarch",
+      "title": "Three sonnets from the Rime sparse",
+      "author": "Francesco Petrarca (Petrarch)",
+      "date": "c. 1327–1368; this translation 1903",
+      "citation": "Selected and translated by Thomas Wentworth Higginson, Fifteen Sonnets of Petrarch (Boston and New York: Houghton Mifflin, 1903). Italian and English from the same edition. Project Gutenberg eBook 50307.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/50307",
+      "file": "sources/petrarch.md",
+      "context": "Petrarch's Rime sparse, or Canzoniere, gathers 366 poems, most of them sonnets, around his love for Laura. These three show the Italian octave and sestet and the turn at the ninth line; Higginson's translation keeps the fourteen-line shape.",
+      "questions": [
+        "Where does the octave end and the sestet begin in each poem, and what changes at that point?",
+        "In 'Voi ch'ascoltate,' what does the poet ask of his readers, and what does he conclude about worldly pleasure?",
+        "How does Higginson's English handle the Italian rhyme, and what does his translation give up?"
+      ]
+    },
+    {
+      "id": "renaissance-english",
+      "title": "The English sonnet from Wyatt to Shakespeare",
+      "author": "Sir Thomas Wyatt, Henry Howard (Earl of Surrey), Sir Philip Sidney, Edmund Spenser, William Shakespeare",
+      "date": "1530s–1609",
+      "citation": "Wyatt, 'Whoso list to hunt,' and Surrey, 'Love, that doth reign and live within my thought,' after Tottel's Miscellany (1557); Sidney, Astrophil and Stella (1591), Project Gutenberg eBook 56375; Spenser, Amoretti (1595), in The Poetical Works of Edmund Spenser, Project Gutenberg eBook 10602; Shakespeare, Sonnet 18, from the Sonnets of 1609, Project Gutenberg eBook 1041.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1041",
+      "file": "sources/renaissance-english.md",
+      "context": "Five sonnets that brought the form into English and fixed the English pattern of three quatrains and a couplet. Wyatt and Surrey work from Petrarch; Sidney's sequence opens on the difficulty of writing; Spenser links his quatrains; Shakespeare ends Sonnet 18 on the poem's own power to preserve.",
+      "questions": [
+        "Wyatt and Surrey both work from Petrarch. What does each keep, and what does each change?",
+        "Trace the rhyme in Surrey and in Shakespeare. What is the same, and what is different?",
+        "Sidney's first sonnet ends with the Muse's advice. What does the poem say about how sonnets should be written?",
+        "What claim does Shakespeare's couplet make, and on what does it rest?"
+      ]
+    },
+    {
+      "id": "after-shakespeare",
+      "title": "The sonnet after Shakespeare",
+      "author": "John Donne, John Milton, William Wordsworth, John Keats, Elizabeth Barrett Browning, Gerard Manley Hopkins",
+      "date": "1633–1918",
+      "citation": "Donne, Holy Sonnet 10, from Poems (1633), in The Poems of John Donne, ed. H. J. C. Grierson (1912), Project Gutenberg eBook 48688; Milton, Sonnet 19, from Poems (1673), in Milton: Minor Poems, Project Gutenberg eBook 31706; Wordsworth, 'Composed upon Westminster Bridge,' from Poems, in Two Volumes (1807), in The Poetical Works of William Wordsworth, Project Gutenberg eBook 12145; Keats, 'On First Looking into Chapman's Homer,' from Poems (1817), Project Gutenberg eBook 8209; Barrett Browning, Sonnets from the Portuguese 43 (1850), Project Gutenberg eBook 2002; Hopkins, 'God's Grandeur,' in Poems of Gerard Manley Hopkins (1918), Project Gutenberg eBook 22403.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/22403",
+      "file": "sources/after-shakespeare.md",
+      "context": "Six sonnets across three centuries: Donne argues with Death; Milton answers his own question through Patience; Wordsworth turns the city view in the sestet; Keats's sestet breaks into two similes; Barrett Browning counts the ways she loves; Hopkins writes in sprung rhythm.",
+      "questions": [
+        "Donne and Milton both keep the Italian octave and sestet. How does each use the turn?",
+        "In Wordsworth's sonnet, what does the sestet do that the octave has not?",
+        "Keats's sestet offers two comparisons. What does each add, and where does the turn fall?",
+        "Hopkins counts stresses rather than syllables. Read the first four lines aloud: where do the stresses fall?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "vendler-art-of-sonnets",
+      "historian": "Helen Vendler",
+      "work": "The Art of Shakespeare's Sonnets",
+      "year": "1997",
+      "claim": "Vendler reads each of Shakespeare's sonnets as a self-contained 'miniature drama' in which the language is designed around the poem's ending. She traces 'couplet ties' — words and images that recur in the final couplet and earlier in the poem — and argues that the couplet gathers the sonnet up rather than standing apart from it.",
+      "note": "Some critics, among them Stephen Booth, stress instead how unstable and unresolvable the sonnets' language is, and read the couplets as deliberately partial or misleading rather than as a summing-up. The disagreement is about whether the poems are built to cohere or to unsettle."
+    },
+    {
+      "id": "spiller-development",
+      "historian": "Michael R. G. Spiller",
+      "work": "The Development of the Sonnet: An Introduction",
+      "year": "1992",
+      "claim": "Spiller argues that the sonnet is defined less by a fixed rhyme scheme than by its two-part structure of argument, and that its history from Petrarch onward is a record of poets adapting that structure to new uses — the English couplet, the linked quatrains, the curtailed form.",
+      "note": "Other accounts put more weight on the sequence or on metre, treating the fourteen lines and their rhymes as the form's real identity. Spiller's emphasis on the turn is an argument about what makes a sonnet a sonnet, not a settled description."
+    }
+  ],
+  "activities": [
+    {
+      "id": "italian-shape",
+      "type": "choice",
+      "prompt": "How does the Italian (Petrarchan) sonnet divide?",
+      "choices": [
+        "An octave of eight lines and a sestet of six",
+        "Three quatrains and a couplet",
+        "Two sestets and a couplet",
+        "Four quatrains and a couplet"
+      ],
+      "answer": 0,
+      "feedback": "The Italian form sets an eight-line octave against a six-line sestet; the English form uses three quatrains and a couplet."
+    },
+    {
+      "id": "where-volta",
+      "type": "choice",
+      "prompt": "In the classic Italian sonnet, where does the volta most often fall?",
+      "choices": [
+        "At the first line of the sestet, line 9",
+        "At the final couplet",
+        "At line 5",
+        "At line 14 only"
+      ],
+      "answer": 0,
+      "feedback": "The turn usually arrives when the octave ends and the sestet begins, at line 9."
+    },
+    {
+      "id": "wyatt-surrey",
+      "type": "choice",
+      "prompt": "What did Wyatt and Surrey chiefly do for the English sonnet?",
+      "choices": [
+        "They translated and imitated Petrarch and fixed an English pattern",
+        "They invented the fourteen-line form",
+        "They abolished rhyme in the sonnet",
+        "They wrote the first printed English novel"
+      ],
+      "answer": 0,
+      "feedback": "They carried the form into English in the 1530s–1540s; Surrey's three quatrains and couplet became the English pattern."
+    },
+    {
+      "id": "english-rhyme",
+      "type": "choice",
+      "prompt": "Which rhyme scheme is the English (Shakespearean) sonnet?",
+      "choices": [
+        "abab cdcd efef gg",
+        "abba abba cdecde",
+        "abab bcbc cdcd ee",
+        "aabb ccdd eeff gg"
+      ],
+      "answer": 0,
+      "feedback": "Three quatrains of alternating rhyme close with a couplet; abba abba cdecde is Italian and abab bcbc cdcd ee is Spenser's."
+    },
+    {
+      "id": "spenser-rhyme",
+      "type": "choice",
+      "prompt": "What is distinctive about Spenser's rhyme in the Amoretti?",
+      "choices": [
+        "The rhymes carry across the quatrain breaks, linking them",
+        "It has no rhyme at all",
+        "It rhymes only in couplets",
+        "It repeats the octave's rhymes in the sestet"
+      ],
+      "answer": 0,
+      "feedback": "Spenser links the quatrains (abab bcbc cdcd ee), so the poem winds forward instead of stopping at each four-line unit."
+    },
+    {
+      "id": "sonnet-18-couplet",
+      "type": "choice",
+      "prompt": "What does the couplet of Sonnet 18 ('So long as men can breathe...') claim?",
+      "choices": [
+        "That the beloved will live as long as the poem is read",
+        "That summer will never end",
+        "That the poet will stop writing",
+        "That beauty cannot be preserved"
+      ],
+      "answer": 0,
+      "feedback": "The first twelve lines concede that all fair things decline; the couplet claims the poem gives the beloved a life beyond that."
+    },
+    {
+      "id": "donne-death",
+      "type": "choice",
+      "prompt": "In 'Death be not proud,' how does Donne treat Death?",
+      "choices": [
+        "He addresses Death and argues that it is not mighty",
+        "He mourns Death as a conqueror",
+        "He asks Death for mercy",
+        "He describes Death as a friend of God"
+      ],
+      "answer": 0,
+      "feedback": "Donne speaks to Death directly and turns the argument: Death is a slave to fate, chance, kings, and desperate men, and will itself die."
+    },
+    {
+      "id": "milton-patience",
+      "type": "choice",
+      "prompt": "In Milton's 'When I consider how my light is spent,' who answers the poet's question?",
+      "choices": [
+        "Patience",
+        "God",
+        "A friend",
+        "The poet's wife"
+      ],
+      "answer": 0,
+      "feedback": "The sestet is a reply from Patience: 'They also serve who only stand and wait.'"
+    },
+    {
+      "id": "hopkins-sprung",
+      "type": "choice",
+      "prompt": "What is 'sprung rhythm,' as Hopkins used it?",
+      "choices": [
+        "A metre counted by stressed syllables, with varying unstressed syllables",
+        "A metre with a fixed ten syllables per line",
+        "Rhyme without metre",
+        "Blank verse in fourteen lines"
+      ],
+      "answer": 0,
+      "feedback": "Hopkins counted stresses rather than total syllables, letting the number of unstressed syllables vary between the beats."
+    },
+    {
+      "id": "turn-comparison",
+      "type": "short-answer",
+      "prompt": "Choose one Italian-shaped sonnet (Petrarch, Donne, or Milton) and one English-shaped sonnet (Surrey or Shakespeare). Describe where the turn falls in each and what the turn does to the argument.",
+      "context": "From Surrey: 'Sweet is the death that taketh end by love.' From Shakespeare's Sonnet 116: 'If this be error and upon me prov'd, / I never writ, nor no man ever lov'd.'",
+      "rubric": [
+        "names one Italian-shaped and one English-shaped sonnet",
+        "states where the turn falls in each",
+        "explains what changes at the turn, using a specific word or line"
+      ]
+    }
+  ]
+}
