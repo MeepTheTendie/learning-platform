@@ -1,6 +1,6 @@
 'use strict';
 const KEY = 'learning-hub-v1';
-const KEY_NAME = 'learning-cloud-key-v1-learning-hub';
+const syncKey = () => window.LearningSync?.key?.() || '';
 const $ = selector => document.querySelector(selector);
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
 const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
@@ -42,7 +42,7 @@ function logSummaryHTML() {
 async function loadSubjects() {
   const target = $('#subjects'); if (!target) return;
   target.innerHTML = '<section class="card"><p class="muted">Loading subject progress…</p></section>';
-  const key = localStorage.getItem(KEY_NAME) || '';
+  const key = syncKey();
   let data = null;
   try {
     const response = await fetch('/api/hub', { headers: key ? { Authorization: 'Bearer ' + key } : {}, cache: 'no-store', redirect: 'manual', signal: AbortSignal.timeout(15000) });
@@ -64,8 +64,8 @@ function bindForm() {
 function render() {
   appearance();
   const main = $('#main'); if (!main) return;
-  const paired = !!localStorage.getItem(KEY_NAME);
-  const banner = paired ? '' : '<section class="card"><div class="eyebrow">NOT PAIRED</div><p class="muted">This device is not paired, so subject progress cannot load and your log will not sync. Open your Learning Hub pairing link once to connect it.</p></section>';
+  const paired = !!syncKey();
+  const banner = paired ? '' : '<section class="card"><div class="eyebrow">NOT PAIRED</div><p class="muted">This device is not paired yet. Pair any of the learning apps (English, History, Philosophy) once, and the hub will work automatically — no separate pairing needed.</p></section>';
   main.innerHTML = `${banner}<section><div class="eyebrow">ALL YOUR LEARNING</div><h1>Your learning, in one place.</h1><p class="muted">Progress from the apps on this platform updates automatically. Log anything else — a course, a book, an app — by hand.</p></section><section class="card"><div class="eyebrow">LOG A SESSION</div>${logFormHTML()}</section><section id="subjects"></section><section class="card"><div class="eyebrow">YOUR LOG</div>${logSummaryHTML()}</section>`;
   bindForm();
   loadSubjects();

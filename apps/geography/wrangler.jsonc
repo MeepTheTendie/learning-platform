@@ -13,7 +13,7 @@
   "vars": {
     "APP_ID": "geography-atlas",
     "STORAGE_KEY": "geography-atlas-v1",
-    "KEY_SCOPE": "app",
+    "PEER_VALIDATE_URL": "https://history-atlas.history-atlas.workers.dev/api/progress",
     "TUTOR_MODEL": "@cf/meta/llama-3.1-8b-instruct-fp8",
     "TUTOR_DAILY_LIMIT": "40",
     "TUTOR_ENABLED": "true"

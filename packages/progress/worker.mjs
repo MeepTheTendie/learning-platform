@@ -2,11 +2,26 @@ import { accessIdentity } from './access.mjs';
 const LIMIT = 2_000_000;
 const headers = {'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'};
 const json = (data,status=200,requestId=null) => { const h = new Headers(headers); if(requestId)h.set('x-sync-id',requestId); return new Response(JSON.stringify(data),{status,headers:h}); };
+const peerCache=new Map();
 export async function authorized(request,env) {
   if(env.AUTH_MODE==='access')return !!await accessIdentity(request,env);
   if(env.AUTH_MODE && env.AUTH_MODE!=='legacy')return false;
   const key=request.headers.get('authorization')?.replace(/^Bearer\s+/i,'')||'';
-  if(!/^[a-f0-9]{64}$/.test(key)||!/^[a-f0-9]{64}$/.test(env.SYNC_KEY_HASH||''))return false;
+  if(!/^[a-f0-9]{64}$/.test(key))return false;
+  // Apps that share the account-wide pairing key can validate it against a peer
+  // app instead of storing their own hash, so they need no extra pairing.
+  if(env.PEER_VALIDATE_URL){
+    const cached=peerCache.get(key);
+    if(cached && cached.expires>Date.now())return cached.ok;
+    try{
+      const response=await fetch(env.PEER_VALIDATE_URL,{headers:{Authorization:'Bearer '+key},signal:AbortSignal.timeout(5000)});
+      const ok=response.status===200;
+      if(peerCache.size>100)peerCache.clear();
+      peerCache.set(key,{ok,expires:Date.now()+300000});
+      return ok;
+    }catch{return false;}
+  }
+  if(!/^[a-f0-9]{64}$/.test(env.SYNC_KEY_HASH||''))return false;
   const digest=new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(key)));
   const expected=Uint8Array.from(env.SYNC_KEY_HASH.match(/../g),x=>parseInt(x,16));
   return crypto.subtle.timingSafeEqual ? crypto.subtle.timingSafeEqual(digest,expected) : digest.reduce((diff,byte,i)=>diff|(byte^expected[i]),0)===0;

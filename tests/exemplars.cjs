@@ -169,7 +169,7 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
       ['english', 19002, 'grammar-room-v1', 10, 'english-nouns', 'learning-cloud-key-v1'],
       ['history', 19001, 'civilization-atlas-v1', 16, 'history-cities', 'learning-cloud-key-v1'],
       ['philosophy', 19003, 'philosophy-scholar-v1', 13, 'philosophy-f3', 'learning-cloud-key-v1'],
-      ['geography', 19004, 'geography-atlas-v1', 16, 'geography-locate', 'learning-cloud-key-v1-geography-atlas'],
+      ['geography', 19004, 'geography-atlas-v1', 16, 'geography-locate', 'learning-cloud-key-v1'],
     ]) {
       const lesson = JSON.parse(fs.readFileSync(`content/lessons/${app}/${sample}.json`, 'utf8'));
       const contexts = await Promise.all([browser.newContext(), browser.newContext()]);
@@ -213,7 +213,7 @@ const seed = activity => activity.type === 'choice' ? String(activity.answer) : 
 
     // Learning Hub: a manually logged session saves and syncs between devices.
     const hubContexts = await Promise.all([browser.newContext(), browser.newContext()]);
-    for (const context of hubContexts) await context.addInitScript(() => localStorage.setItem('learning-cloud-key-v1-learning-hub', 'a'.repeat(64)));
+    for (const context of hubContexts) await context.addInitScript(() => localStorage.setItem('learning-cloud-key-v1', 'a'.repeat(64)));
     const [hubA, hubB] = await Promise.all(hubContexts.map(context => context.newPage()));
     const hubErrors = [];
     for (const page of [hubA, hubB]) page.on('pageerror', error => hubErrors.push(error.message));

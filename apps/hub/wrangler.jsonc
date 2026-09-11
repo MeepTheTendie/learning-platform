@@ -13,7 +13,7 @@
   "vars": {
     "APP_ID": "learning-hub",
     "STORAGE_KEY": "learning-hub-v1",
-    "KEY_SCOPE": "app"
+    "PEER_VALIDATE_URL": "https://history-atlas.history-atlas.workers.dev/api/progress"
   },
   "observability": {
     "enabled": true,

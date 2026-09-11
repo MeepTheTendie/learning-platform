@@ -95,6 +95,8 @@
     refresh() { if (adapter) adapter.apply(copy(adapter.read())); },
     // Let shared lesson modules grant the app's native progress (one-time).
     award(key, xp) { return adapter?.award?.(key, xp); },
+    // The pairing key this device is using (empty when unpaired).
+    key() { return legacyKey(); },
   };
   async function request(method, body, syncId) {
     const response = await fetch('/api/progress', {
