@@ -6,26 +6,24 @@ This is the runbook for building, validating, deploying, backing up and restorin
 
 | App | Worker |
 | --- | --- |
-| Sourcebook (v2, all subjects) | `sourcebook.history-atlas.workers.dev` |
-| English (v1) | `grammar-reader.history-atlas.workers.dev` |
-| History (v1) | `history-atlas.history-atlas.workers.dev` |
-| Philosophy (v1) | `philosophy-scholar.history-atlas.workers.dev` |
-| Geography (v1) | `geography-atlas.history-atlas.workers.dev` |
-| Hub (v1) | `learning-hub.history-atlas.workers.dev` |
+| Sourcebook (all subjects) | `sourcebook.history-atlas.workers.dev` |
 
-The v2 **Sourcebook** is the six-subject rebuild (see `v2/README.md`). It serves the
-rendered `v2/dist/` and syncs completion through `/api/progress` under `app_id=sourcebook`,
-using the private pairing key in `~/Projects/learning-platform-private/sourcebook-pairing.txt`.
-Its production v1 counterparts remain in place for their extra features (tutor, spaced review).
+The v2 **Sourcebook** is the live app (see `v2/README.md`). It serves the rendered
+`v2/dist/` and syncs completion, bookmarks, notes, review schedules, and tutor
+conversations through `/api/progress` and `/api/tutor` under `app_id=sourcebook`, using
+the private pairing key in `~/Projects/learning-platform-private/sourcebook-pairing.txt`.
 
-The five v1 `-preview` Workers and the `learning-platform-preview` database were retired on
-2026-09-11. The preview deploy script remains for reference only.
+The v1 apps and all their previews were retired on 2026-09-11: the Workers
+(`grammar-reader`, `history-atlas`, `philosophy-scholar`, `geography-atlas`, `learning-hub`
+and the five `-preview` Workers) and the `learning-platform-preview` database are gone.
+The account now holds one Worker and one D1 database. The old v1 `app_id` rows remain in
+`learning-progress-sync` as a historical record; they are inert.
 
 English, History and Philosophy previews use Cloudflare Access (owner-email only) and the separate `learning-platform-preview` D1 database. Their production apps use the account-wide legacy pairing key and the `learning-progress-sync` database.
 
 Geography is different: Cloudflare Access does not cover new hostnames, so it uses the legacy pairing key on both preview and production, with an **app-scoped** key (`KEY_SCOPE=app`) stored in that origin's localStorage. This keeps it from overwriting the shared pairing cookie the other subjects rely on. The Learning Hub uses the same app-scoped approach. Pairing links are written to `~/Projects/learning-platform-private/geography-pairing.txt`.
 
-Account resources (all intentional): six Workers — the v1 production apps `grammar-reader`, `history-atlas`, `philosophy-scholar`, `geography-atlas`, `learning-hub`, plus the v2 `sourcebook` — and one D1 database, `learning-progress-sync` (shared by every app, keyed by `app_id`). The five v1 previews and the `learning-platform-preview` database were deleted on 2026-09-11.
+Account resources (all intentional): one Worker, `sourcebook`, and one D1 database, `learning-progress-sync`. All v1 Workers and previews and the `learning-platform-preview` database were deleted on 2026-09-11.
 
 ## Prerequisites
 

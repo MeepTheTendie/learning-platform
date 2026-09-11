@@ -221,6 +221,8 @@ single static site and deploys as one Worker, `sourcebook` (https://sourcebook.h
   `learning-progress-sync` database under `app_id=sourcebook`. Auth is the private pairing key
   in `~/Projects/learning-platform-private/sourcebook-pairing.txt` (mode 600). Cloudflare Access
   is not used; the Worker and `v2/README.md` document how to switch it on.
-- Cleanup: deleted the five v1 `-preview` Workers and the `learning-platform-preview` database.
-  The account now holds six Workers and one D1 database. The v1 production apps remain in place
-  for features the sourcebook does not yet have (tutor, spaced review, bookmarks).
+- Cleanup: all v1 Workers were retired — the five production apps (`grammar-reader`,
+  `history-atlas`, `philosophy-scholar`, `geography-atlas`, `learning-hub`) and the five
+  `-preview` Workers — along with the `learning-platform-preview` database. The account now
+  holds one Worker (`sourcebook`) and one D1 database (`learning-progress-sync`). The old v1
+  `app_id` rows stay in that database as an inert historical record.
