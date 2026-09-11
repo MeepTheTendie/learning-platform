@@ -3,7 +3,32 @@
   "title": "Imagery and metaphor",
   "period": "English poetry, sixteenth to nineteenth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/john-donne.jpg",
+      "caption": "John Donne, poet of the Metaphysical conceit, in a portrait after Isaac Oliver's miniature of 1616.",
+      "credit": "After Isaac Oliver, National Portrait Gallery, London",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:John_Donne_by_Isaac_Oliver.jpg"
+    },
+    {
+      "id": "walt-whitman",
+      "file": "assets/walt-whitman.jpg",
+      "caption": "Walt Whitman at thirty-six, the age he reached in 1855 when the first edition of Leaves of Grass appeared.",
+      "credit": "Dodd, Mead and Co. (American Bookmen)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_at_36.jpg"
+    },
+    {
+      "id": "sonnets-1609",
+      "file": "assets/sonnets-1609.jpg",
+      "caption": "Title page of Shakespeare's Sonnets (1609), the quarto in which the sustained metaphors of Sonnets 18, 73, and 116 first appeared.",
+      "credit": "Folger Shakespeare Library",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sonnets1609titlepage.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "donne-valediction",

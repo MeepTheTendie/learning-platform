@@ -4,7 +4,32 @@
   "period": "c. 800–500 BCE",
   "region": "Aegean and the Mediterranean",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/archaic-greece-map.jpg",
+      "caption": "Map of the Greek world in the archaic period (c. 750–490 BCE), showing the many separate poleis of the mainland, the Aegean, and Ionia.",
+      "credit": "MaryroseB54, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_of_Archaic_Ancient_Greece_(750-490_BC)_(English)v3.svg"
+    },
+    {
+      "id": "chigi-vase-hoplites",
+      "file": "assets/chigi-vase-hoplites.jpg",
+      "caption": "Detail of the Chigi Vase (c. 650–640 BCE) showing hoplites advancing in step to the sound of a pipe, the earliest picture of the phalanx.",
+      "credit": "Chigi Painter; photograph by Szilas, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Detail_from_the_Chigi-vase.jpg"
+    },
+    {
+      "id": "delphi-sanctuary",
+      "file": "assets/delphi-sanctuary.jpg",
+      "caption": "Ruins of the Sanctuary of Apollo at Delphi, the oracle consulted by cities, lawgivers, and the founders of colonies across the Greek world.",
+      "credit": "George E. Koronaios, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Ruins_at_the_Sanctuary_of_Apollo_in_Delphi_on_October_4,_2020.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "solon",

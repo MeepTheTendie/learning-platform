@@ -3,7 +3,32 @@
   "title": "Character and the novel",
   "period": "The novel in English, eighteenth to early twentieth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/austen-portrait.jpg",
+      "caption": "Watercolor and pencil portrait of Jane Austen by her sister Cassandra, made about 1810 and now in the National Portrait Gallery, London.",
+      "credit": "Cassandra Austen",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg"
+    },
+    {
+      "id": "eliot-portrait",
+      "file": "assets/eliot-portrait.jpg",
+      "caption": "George Eliot, the pen name of Mary Ann Evans, painted by Alexandre-Louis-François d'Albert-Durade, whose family she lodged with in Switzerland.",
+      "credit": "Alexandre-Louis-François d'Albert-Durade",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:George_Eliot,_por_Fran%C3%A7ois_D%27Albert_Durade.jpg"
+    },
+    {
+      "id": "woolf-portrait",
+      "file": "assets/woolf-portrait.jpg",
+      "caption": "Virginia Woolf photographed about 1927, from one of her own albums kept at Monk's House and now held by the Houghton Library at Harvard.",
+      "credit": "Houghton Library, Harvard University",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Virginia_Woolf_1927.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "austen-pride-prejudice",

@@ -3,7 +3,32 @@
   "title": "Validity and soundness",
   "period": "Antiquity to the present",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/plato-bust.jpg",
+      "caption": "Marble bust of Plato in the Capitoline Museums, Rome, a Roman copy of the portrait statue made by Silanion.",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+    },
+    {
+      "id": "aristotle-bust",
+      "file": "assets/aristotle-bust.jpg",
+      "caption": "Marble bust of Aristotle, a Roman copy after a Greek original by Lysippos, now in the Palazzo Altemps, Rome.",
+      "credit": "After Lysippos; photograph by Jastrow",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+    },
+    {
+      "id": "richard-whately",
+      "file": "assets/richard-whately.jpg",
+      "caption": "Photograph of Richard Whately, Archbishop of Dublin and author of Elements of Logic, by the studio of Maull and Polyblank.",
+      "credit": "Maull and Polyblank (attributed)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Richard_Whately_Archbishop_of_Dublin.png"
+    }
+  ],
   "sources": [
     {
       "id": "aristotle-posterior-analytics",

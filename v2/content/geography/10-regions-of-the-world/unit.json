@@ -3,7 +3,32 @@
   "title": "The regions of the world",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/world-continents-1700-map.jpg",
+      "caption": "An English map of 1700 dividing the globe into continents and oceans, a reminder that the lines between regions are drawn by mapmakers rather than fixed by nature.",
+      "credit": "Edward Wells (map); Michael Burghers (engraver)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Antique_World_Map_of_Continents_and_Oceans_1700.png"
+    },
+    {
+      "id": "blue-marble-earth",
+      "file": "assets/blue-marble-earth.jpg",
+      "caption": "The Blue Marble, a full view of Earth taken by the Apollo 17 crew on 7 December 1972, showing Africa, Antarctica, and the Arabian Peninsula.",
+      "credit": "NASA / Apollo 17 crew",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble_(remastered).jpg"
+    },
+    {
+      "id": "strait-of-malacca",
+      "file": "assets/strait-of-malacca.jpg",
+      "caption": "The Strait of Malacca highlighted on a world map, the narrow passage between the Malay Peninsula and Sumatra that carries a large share of traded goods.",
+      "credit": "Wikimedia Commons user Wolrd blank map",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Strait_of_Malacca_highlighted.png"
+    }
+  ],
   "sources": [
     {
       "id": "strabo-geography",

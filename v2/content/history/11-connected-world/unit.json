@@ -4,7 +4,32 @@
   "period": "c. 1200–1500 CE",
   "region": "Eurasia and the Mediterranean",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/mongol-empire-map.jpg",
+      "caption": "The Mongol empire at its greatest extent, stretching from Korea and China across Central Asia to Persia and eastern Europe.",
+      "credit": "Tiashing595",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mongol_Empire_at_its_extent.png"
+    },
+    {
+      "id": "zheng-he-voyages",
+      "file": "assets/zheng-he-voyages.jpg",
+      "caption": "A museum map of Zheng He's seven voyages into the Indian Ocean and as far as the East African coast, 1405–1433.",
+      "credit": "Gary Todd",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Zheng_He%27s_Voyages_to_the_Western_Ocean_(33522513932).jpg"
+    },
+    {
+      "id": "black-death-map",
+      "file": "assets/black-death-map.jpg",
+      "caption": "The spread of the Black Death across Europe between 1346 and 1353, following the trade routes from the Black Sea.",
+      "credit": "Flappiefh",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:1346-1353_spread_of_the_Black_Death_in_Europe_map.svg"
+    }
+  ],
   "sources": [
     {
       "id": "marco-polo-yam",

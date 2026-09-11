@@ -3,7 +3,32 @@
   "title": "Climate and weather",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/koppen-climate-map.jpg",
+      "caption": "The Köppen-Geiger climate classification for 1980 to 2016, dividing the land into zones by temperature and rainfall and by the season in which the rain falls.",
+      "credit": "H. E. Beck, N. E. Zimmermann, T. R. McVicar, N. Vergopolan, A. Berg, and E. F. Wood",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:K%C3%B6ppen-Geiger_Climate_Classification_Map_(1980%E2%80%932016)_no_borders.png"
+    },
+    {
+      "id": "atmospheric-circulation",
+      "file": "assets/atmospheric-circulation.jpg",
+      "caption": "A diagram of the atmosphere's large-scale circulation, showing the Hadley, mid-latitude, and polar cells and the surface winds that result from them.",
+      "credit": "NASA Scientific Visualization Studio",
+      "license": "Public domain (NASA)",
+      "url": "https://commons.wikimedia.org/wiki/File:NASA_depiction_of_earth_global_atmospheric_circulation.jpg"
+    },
+    {
+      "id": "mauna-loa-carbon-dioxide",
+      "file": "assets/mauna-loa-carbon-dioxide.jpg",
+      "caption": "Atmospheric carbon dioxide measured at the Mauna Loa Observatory from 1958 and from Antarctic ice cores, showing the seasonal sawtooth and the long rise.",
+      "credit": "NASA Scientific Visualization Studio",
+      "license": "Public domain (NASA)",
+      "url": "https://commons.wikimedia.org/wiki/File:Atmospheric_Carbon_Dioxide_Concentrations_(SVS5447).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "ferrel-winds-currents",

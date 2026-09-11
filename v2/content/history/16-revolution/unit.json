@@ -4,7 +4,32 @@
   "period": "c. 1789–1815 CE",
   "region": "France · Europe · the Atlantic",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/europe-1815.jpg",
+      "caption": "A political map of Europe after the Congress of Vienna of 1815, showing the restored and enlarged states.",
+      "credit": "Dodd, Mead & Company",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:NIE_1905_Europe_-_After_the_Congress_of_Vienna.jpg"
+    },
+    {
+      "id": "napoleon-crossing-alps",
+      "file": "assets/napoleon-crossing-alps.jpg",
+      "caption": "Jacques-Louis David's Napoleon Crossing the Alps, painted 1800–1801.",
+      "credit": "Jacques-Louis David",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:David_-_Napoleon_crossing_the_Alps_-_Malmaison1.jpg"
+    },
+    {
+      "id": "storming-of-the-bastille",
+      "file": "assets/storming-of-the-bastille.jpg",
+      "caption": "The storming of the Bastille on 14 July 1789, painted by Jean-Pierre Houël.",
+      "credit": "Jean-Pierre Houël",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Prise_de_la_Bastille_clean.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "declaration-rights-of-man",

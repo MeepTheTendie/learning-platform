@@ -3,7 +3,32 @@
   "title": "Style and revision",
   "period": "English prose, nineteenth to early twentieth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/spencer-portrait.jpg",
+      "caption": "Herbert Spencer, whose essay 'The Philosophy of Style' appeared in 1852, photographed before 1903 for the Dibner Library collection.",
+      "credit": "Dibner Library of the History of Science and Technology",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Herbert_Spencer.jpg"
+    },
+    {
+      "id": "stevenson-portrait",
+      "file": "assets/stevenson-portrait.jpg",
+      "caption": "Robert Louis Stevenson painted by John Singer Sargent in 1887, two years after Stevenson published his essay on the technical elements of style.",
+      "credit": "John Singer Sargent",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Robert_Louis_Stevenson_by_Sargent.jpg"
+    },
+    {
+      "id": "pater-portrait",
+      "file": "assets/pater-portrait.jpg",
+      "caption": "Walter Pater, whose essay 'Style' was collected in Appreciations in 1889, in a portrait by William Rothenstein.",
+      "credit": "William Rothenstein",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_Walter_Pater.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "spencer-philosophy-of-style",

@@ -4,7 +4,32 @@
   "period": "c. 509–27 BCE",
   "region": "Italy and the western Mediterranean",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/roman-power-italy-map.jpg",
+      "caption": "The growth of Roman power in Italy, mapped by William R. Shepherd, showing how Rome's territory and alliances spread across the peninsula.",
+      "credit": "William R. Shepherd, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Growth_of_Roman_Power_in_Italy.jpg"
+    },
+    {
+      "id": "capitoline-wolf",
+      "file": "assets/capitoline-wolf.jpg",
+      "caption": "The Capitoline Wolf, the bronze she-wolf with Romulus and Remus that became the emblem of Rome's legendary founding.",
+      "credit": "Wilfredor, via Wikimedia Commons",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg"
+    },
+    {
+      "id": "julius-caesar",
+      "file": "assets/julius-caesar.jpg",
+      "caption": "Marble portrait of Julius Caesar in the Vatican Museums; his dictatorship and assassination in 44 BCE helped end the republican constitution.",
+      "credit": "Vatican Museums, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Gaius_Iulius_Caesar_(Vatican_Museum).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "livy-founding",

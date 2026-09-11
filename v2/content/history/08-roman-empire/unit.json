@@ -4,7 +4,32 @@
   "period": "c. 27 BCE–476 CE",
   "region": "Mediterranean · Rhine · Danube",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/roman-empire-map.jpg",
+      "caption": "The Roman Empire at its greatest extent, from The New International Encyclopaedia (1905), showing the Mediterranean lands and the frontiers on the Rhine and Danube.",
+      "credit": "The New International Encyclopaedia (1905), via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:NIE_1905_The_Roman_Empire_at_its_greatest_extent.png"
+    },
+    {
+      "id": "augustus-prima-porta",
+      "file": "assets/augustus-prima-porta.jpg",
+      "caption": "The Augustus of Prima Porta, a marble statue of the first emperor found at the villa of Livia and now in the Vatican Museums.",
+      "credit": "Till Niermann, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Statue-Augustus.jpg"
+    },
+    {
+      "id": "colosseum",
+      "file": "assets/colosseum.jpg",
+      "caption": "The Colosseum in Rome at dusk, the Flavian amphitheatre built in the first century CE for public spectacles.",
+      "credit": "Diliff, via Wikimedia Commons",
+      "license": "CC BY-SA 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Colosseum_in_Rome,_Italy_-_April_2007.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "res-gestae",

@@ -3,7 +3,32 @@
   "title": "Population and migration",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/world-population-density-2020.jpg",
+      "caption": "World map of population density in 2020, showing the dense clusters of East and South Asia, Europe, and the eastern United States against sparsely peopled deserts and high latitudes.",
+      "credit": "Petnog (Wikimedia Commons)",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:World_Population_Density_Map_2020.png"
+    },
+    {
+      "id": "japan-population-pyramid",
+      "file": "assets/japan-population-pyramid-2018.jpg",
+      "caption": "Population pyramid of Japan for 2018: a narrow base and a broad top, the shape of a country with low birth rates and a large elderly share.",
+      "credit": "CIA World Factbook",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Japan_population_pyramid_(2018).jpg"
+    },
+    {
+      "id": "ellis-island-immigrants",
+      "file": "assets/italian-immigrants-ellis-island.jpg",
+      "caption": "Italian immigrant men preparing to leave Ellis Island in the early 1900s, part of the migration that carried millions of Europeans to the United States.",
+      "credit": "mákvirágok (Flickr)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Italian_immigrants_at_Ellis_Island.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "malthus-population",

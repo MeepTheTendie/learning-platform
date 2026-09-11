@@ -3,7 +3,32 @@
   "title": "Plato's Apology: knowledge and ignorance",
   "period": "Fourth century BCE Athens",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/plato-bust.jpg",
+      "caption": "Marble bust of Plato in the Capitoline Museums, a Roman copy of the portrait by Silanion.",
+      "credit": "Marie-Lan Nguyen",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+    },
+    {
+      "id": "death-of-socrates",
+      "file": "assets/death-of-socrates.jpg",
+      "caption": "Jacques-Louis David's The Death of Socrates (1787), showing Socrates drinking the hemlock among his friends.",
+      "credit": "Jacques-Louis David",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:David_-_The_Death_of_Socrates.jpg"
+    },
+    {
+      "id": "apology-manuscript",
+      "file": "assets/apology-manuscript.jpg",
+      "caption": "Opening page of Plato's Apology in the Clarke Plato (Codex Oxoniensis Clarkianus 39), a Byzantine manuscript of the dialogues.",
+      "credit": "Codex Oxoniensis Clarkianus 39",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Apologia_beginning._Clarke_Plato.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "plato-apology",

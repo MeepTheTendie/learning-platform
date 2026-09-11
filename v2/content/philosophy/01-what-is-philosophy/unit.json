@@ -3,7 +3,32 @@
   "title": "What is philosophy?",
   "period": "Antiquity to the present",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/school-of-athens.jpg",
+      "caption": "Raphael's fresco The School of Athens, painted 1509-1511 in the Vatican, gathers the philosophers of antiquity around Plato and Aristotle at the centre.",
+      "credit": "Raphael",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Raphael_School_of_Athens.jpg"
+    },
+    {
+      "id": "socrates-bust",
+      "file": "assets/socrates-bust.jpg",
+      "caption": "Marble bust of Socrates, a Roman work of the first century CE after a lost Greek original, held in the Louvre.",
+      "credit": "After Lysippos; photograph by Eric Gaba",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg"
+    },
+    {
+      "id": "descartes-discourse-title-page",
+      "file": "assets/descartes-discourse-title-page.jpg",
+      "caption": "Title page of the first edition of René Descartes's Discourse on the Method, published at Leiden in 1637.",
+      "credit": "Unknown engraver; Bibliothèque nationale de France (Gallica)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Page_de_titre_de_la_premi%C3%A8re_%C3%A9dition_du_discours_de_la_m%C3%A9thode.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "plato-apology",

@@ -3,7 +3,32 @@
   "title": "Meter and form",
   "period": "English poetry, sixteenth to nineteenth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/first-folio-1623.jpg",
+      "caption": "Title page of the 1623 First Folio of Shakespeare's plays, the collection that preserved Hamlet and the blank verse of the public stage.",
+      "credit": "Boston Public Library",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mr._William_Shakespeares_Comedies,_Histories_%26_Tragedies.jpg"
+    },
+    {
+      "id": "alfred-tennyson",
+      "file": "assets/alfred-tennyson.jpg",
+      "caption": "Alfred, Lord Tennyson, photographed by Julia Margaret Cameron for her Norman Album, compiled between 1864 and 1869.",
+      "credit": "Julia Margaret Cameron",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Alfred_Tennyson_by_Julia_Margaret_Cameron.jpg"
+    },
+    {
+      "id": "whitman-frontispiece",
+      "file": "assets/whitman-frontispiece.jpg",
+      "caption": "Samuel Hollyer's engraved portrait of Walt Whitman, used as the frontispiece to the first edition of Leaves of Grass in 1855.",
+      "credit": "Samuel Hollyer (engraver); New York Public Library",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Whitman_1855_Samuel_Hollyer_engraved_portrait_frontispiece_to_first_ed_Leaves.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "shakespeare-hamlet",

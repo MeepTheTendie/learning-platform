@@ -4,7 +4,32 @@
   "period": "c. 395–900 CE",
   "region": "Byzantium · Arabia · the Latin West",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/europe-caliphate-map.jpg",
+      "caption": "Europe, North Africa, and western Asia about 750 CE, showing the Eastern Roman Empire, the Frankish kingdom, and the Umayyad Caliphate after the first wave of Arab conquests.",
+      "credit": "William R. Shepherd, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:C._750_Europe_and_Islamic_Caliphate.jpg"
+    },
+    {
+      "id": "justinian-mosaic",
+      "file": "assets/justinian-mosaic.jpg",
+      "caption": "Mosaic of the emperor Justinian I with his court in the basilica of San Vitale at Ravenna, consecrated in 547.",
+      "credit": "José Luiz, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Mosaic_of_Justinian_I_-_San_Vitale_-_Ravenna_2016.jpg"
+    },
+    {
+      "id": "charlemagne",
+      "file": "assets/charlemagne.jpg",
+      "caption": "Portrait of Charlemagne by Albrecht Dürer (1511-1513), showing the emperor with the imperial crown and the arms of the empire.",
+      "credit": "Albrecht Dürer, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Charlemagne-by-Durer.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "procopius-hagia-sophia",

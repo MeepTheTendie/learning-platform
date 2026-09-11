@@ -3,7 +3,32 @@
   "title": "Ethics: virtue, duty, and consequences",
   "period": "Antiquity to the nineteenth century",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/aristotle-bust.jpg",
+      "caption": "Roman marble bust of Aristotle after a Greek original, Palazzo Altemps, Rome.",
+      "credit": "After Lysippos",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+    },
+    {
+      "id": "kant-portrait",
+      "file": "assets/kant-portrait.jpg",
+      "caption": "Portrait of Immanuel Kant by Johann Gottlieb Becker, the best-known likeness of the philosopher.",
+      "credit": "Johann Gottlieb Becker",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg"
+    },
+    {
+      "id": "mill-portrait",
+      "file": "assets/mill-portrait.jpg",
+      "caption": "Photograph of John Stuart Mill by John Watkins, 1865.",
+      "credit": "John Watkins",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_John_Watkins,_1865.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "aristotle-nicomachean-ethics",

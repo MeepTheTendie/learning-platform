@@ -3,7 +3,32 @@
   "title": "Epistemology: what can we know?",
   "period": "Antiquity to the present",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/descartes-portrait.jpg",
+      "caption": "Portrait of René Descartes, after Frans Hals. The Meditations opens by doubting the senses, then dreaming, then arithmetic.",
+      "credit": "After Frans Hals",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+    },
+    {
+      "id": "hume-portrait",
+      "file": "assets/hume-portrait.jpg",
+      "caption": "Portrait of David Hume by Allan Ramsay, National Galleries of Scotland. Hume argued that induction rests on custom, not reason.",
+      "credit": "Allan Ramsay",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg"
+    },
+    {
+      "id": "meditations-title-page",
+      "file": "assets/meditations-title-page.jpg",
+      "caption": "Title page of the first Latin edition of Descartes's Meditationes de prima philosophia, 1641.",
+      "credit": "Bibliothèque nationale de France",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Meditationes_de_prima_philosophia_1641.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "theaetetus",

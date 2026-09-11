@@ -3,7 +3,32 @@
   "title": "Agriculture, resources, and trade",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/von-thunen-rings.jpg",
+      "caption": "Diagram of Johann Heinrich von Thünen's model, in which distance from a single market produces concentric rings of dairy, forestry, field crops, and ranching.",
+      "credit": "Erin Silversmith (Wikimedia Commons)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Von_Th%C3%BCnen_circles_city.svg"
+    },
+    {
+      "id": "norman-borlaug-2004",
+      "file": "assets/norman-borlaug-2004.jpg",
+      "caption": "Norman Borlaug in 2004, the plant pathologist whose dwarf wheat varieties drove the Green Revolution and who received the Nobel Peace Prize in 1970.",
+      "credit": "Ben Zinner, USAID",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Norman_Borlaug,_2004_(cropped).jpg"
+    },
+    {
+      "id": "ever-given-suez-2021",
+      "file": "assets/ever-given-suez-2021.jpg",
+      "caption": "Satellite view of the container ship Ever Given aground in the Suez Canal on 24 March 2021, blocking a route that carries a large share of world trade.",
+      "credit": "Pierre Markuse (Copernicus Sentinel data)",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Container_Ship_%27Ever_Given%27_stuck_in_the_Suez_Canal,_Egypt_-_March_24th,_2021_(51070311183).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "von-thunen-isolated-state",

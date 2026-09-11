@@ -4,7 +4,32 @@
   "period": "c. 2600–200 BCE",
   "region": "Indus · Ganges · Yellow River",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/indus-valley-map.jpg",
+      "caption": "Map of the mature phase of the Indus Valley (Harappan) civilization, c. 2600–1900 BCE, showing Harappa and Mohenjo-daro on the Indus river system.",
+      "credit": "Avantiputra7, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Indus_Valley_Civilization,_Mature_Phase_(2600-1900_BCE).png"
+    },
+    {
+      "id": "shang-oracle-bone",
+      "file": "assets/shang-oracle-bone.jpg",
+      "caption": "An inscribed ox-bone oracle bone from the Yin ruins at Anyang, the last Shang capital. A diviner heated the bone and read the cracks as answers.",
+      "credit": "Gary Lee Todd, Ph.D., via Wikimedia Commons",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Shang_Ox_Bone_Oracle_Bone_03.jpg"
+    },
+    {
+      "id": "ashoka-lion-capital",
+      "file": "assets/ashoka-lion-capital.jpg",
+      "caption": "The Lion Capital of Ashoka from Sarnath, carved in the Mauryan period about 250 BCE; it was later adopted as the state emblem of India.",
+      "credit": "Chrisi1964, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Sarnath_capital.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "rigveda",

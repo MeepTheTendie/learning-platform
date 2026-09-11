@@ -4,7 +4,32 @@
   "period": "c. 499–323 BCE",
   "region": "Aegean · Persia · Eastern Mediterranean",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/greco-persian-wars-map.jpg",
+      "caption": "Map of the Greek world during the Greco-Persian Wars (c. 500–479 BCE), marking Marathon, Thermopylae, Salamis, and Plataea.",
+      "credit": "Bibi Saint-Pol, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_Greco-Persian_Wars-en.svg"
+    },
+    {
+      "id": "parthenon",
+      "file": "assets/parthenon.jpg",
+      "caption": "The Parthenon on the Athenian acropolis, built between 447 and 432 BCE and paid for in part from the tribute of the Delian League.",
+      "credit": "Thermos, via Wikimedia Commons",
+      "license": "CC BY-SA 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Parthenon_from_south.jpg"
+    },
+    {
+      "id": "alexander-mosaic",
+      "file": "assets/alexander-mosaic.jpg",
+      "caption": "The Alexander Mosaic from the House of the Faun at Pompeii, showing Alexander the Great meeting Darius III in battle.",
+      "credit": "Lucas (Ancient Art Podcast), via Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Alexander_Mosaic_(6000_x_3730).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "herodotus-persian-wars",

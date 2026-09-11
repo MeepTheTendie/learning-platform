@@ -3,7 +3,32 @@
   "title": "Reading a poem closely",
   "period": "English poetry, sixteenth to nineteenth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/sonnets-1609-title-page.jpg",
+      "caption": "Title page of the 1609 quarto of Shakespeare's Sonnets, printed in London by Thomas Thorpe, which contains Sonnet 73.",
+      "credit": "Folger Shakespeare Library",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sonnets1609titlepage.jpg"
+    },
+    {
+      "id": "emily-dickinson",
+      "file": "assets/emily-dickinson.jpg",
+      "caption": "Daguerreotype of Emily Dickinson, taken about 1848, from the Todd-Bingham collection at Yale University.",
+      "credit": "Yale University Manuscripts & Archives",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Emily_Dickinson_daguerreotype_(Restored).jpg"
+    },
+    {
+      "id": "wordsworth-helvellyn",
+      "file": "assets/wordsworth-helvellyn.jpg",
+      "caption": "William Wordsworth on Helvellyn, painted by Benjamin Robert Haydon, who visited the poet in the Lake District in 1842.",
+      "credit": "Benjamin Robert Haydon",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "shakespeare-sonnets",

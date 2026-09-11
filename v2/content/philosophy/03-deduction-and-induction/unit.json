@@ -3,7 +3,32 @@
   "title": "Deduction and induction",
   "period": "Antiquity to the present",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/prior-analytics-manuscript.jpg",
+      "caption": "A manuscript of Aristotle's Prior Analytics with marginal notes, Venice, Biblioteca Marciana, Gr. 202, folio 185r.",
+      "credit": "Aristotle; Biblioteca Marciana, Venice",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aristotle,_Prior_Analytics,_Venice,_Gr._202.jpg"
+    },
+    {
+      "id": "david-hume-portrait",
+      "file": "assets/david-hume-portrait.jpg",
+      "caption": "Portrait of David Hume by Allan Ramsay, 1766, held by the National Galleries of Scotland.",
+      "credit": "Allan Ramsay",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg"
+    },
+    {
+      "id": "john-stuart-mill-portrait",
+      "file": "assets/john-stuart-mill-portrait.jpg",
+      "caption": "Portrait of John Stuart Mill by George Frederic Watts, in the collection of the Watts Gallery, Compton.",
+      "credit": "George Frederic Watts",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:George_Frederic_Watts_(1817-1904)_-_John_Stuart_Mill_(1806%E2%80%931873)_-_COMWG_86_-_Watts_Gallery.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "aristotle-prior-analytics",

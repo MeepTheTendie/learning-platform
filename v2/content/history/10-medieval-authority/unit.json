@@ -4,7 +4,32 @@
   "period": "c. 900–1300 CE",
   "region": "Western Europe and the eastern Mediterranean",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/crusader-states-map.jpg",
+      "caption": "A map of the Crusader states in the Levant in 1102, after the First Crusade, marking the Latin lordships established along the eastern Mediterranean coast.",
+      "credit": "Emír Balduin, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_Crusader_states_1102-cs.jpg"
+    },
+    {
+      "id": "magna-carta",
+      "file": "assets/magna-carta.jpg",
+      "caption": "The 1215 Magna Carta, Cotton MS Augustus II.106, held by the British Library, sealed by King John at Runnymede.",
+      "credit": "British Library, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg"
+    },
+    {
+      "id": "tres-riches-heures",
+      "file": "assets/tres-riches-heures-march.jpg",
+      "caption": "The month of March from the Très Riches Heures du duc de Berry, showing peasants ploughing and pruning vines below a castle.",
+      "credit": "Limbourg brothers, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_mars.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "magna-carta",

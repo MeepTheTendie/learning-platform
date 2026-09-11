@@ -3,7 +3,32 @@
   "title": "Rhetoric and the essay",
   "period": "The essay in English, sixteenth to nineteenth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/francis-bacon.jpg",
+      "caption": "Sir Francis Bacon, essayist and statesman, in a full-length portrait after Paul van Somer, now in the National Portrait Gallery, London.",
+      "credit": "Paul van Somer (after); National Portrait Gallery, London",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sir_Francis_Bacon.jpg"
+    },
+    {
+      "id": "addison-portrait",
+      "file": "assets/addison-portrait.jpg",
+      "caption": "Joseph Addison, co-founder of The Spectator, painted by Sir Godfrey Kneller; the portrait belongs to the National Portrait Gallery.",
+      "credit": "Sir Godfrey Kneller",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Joseph_Addison_by_Sir_Godfrey_Kneller,_Bt.jpg"
+    },
+    {
+      "id": "montaigne-portrait",
+      "file": "assets/montaigne-portrait.jpg",
+      "caption": "Michel de Montaigne, whose Essais gave the essay its name, in an engraving by Thomas de Leu after a portrait of about 1578.",
+      "credit": "Thomas de Leu",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Montaigne_1578.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "bacon",

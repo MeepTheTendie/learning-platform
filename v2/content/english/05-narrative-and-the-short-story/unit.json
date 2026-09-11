@@ -3,7 +3,32 @@
   "title": "Narrative and the short story",
   "period": "The nineteenth century",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/edgar-allan-poe.jpg",
+      "caption": "Edgar Allan Poe in June 1849, in the daguerreotype known as the 'Annie', given to his friend Annie L. Richmond.",
+      "credit": "Unknown photographer; restored by Yann Forget and Adam Cuerden",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe,_circa_1849,_restored,_squared_off.jpg"
+    },
+    {
+      "id": "kate-chopin",
+      "file": "assets/kate-chopin.jpg",
+      "caption": "Kate Chopin in 1894, the year her short story 'The Story of an Hour' appeared in Vogue.",
+      "credit": "Unknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Kate_Chopin.jpg"
+    },
+    {
+      "id": "anton-chekhov",
+      "file": "assets/anton-chekhov.jpg",
+      "caption": "Anton Chekhov, whose 'The Lady with the Dog' ends before its lovers resolve their situation.",
+      "credit": "Unknown author",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Anton_Pavlovich_Chekhov.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "poe-cask",

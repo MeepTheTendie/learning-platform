@@ -3,7 +3,32 @@
   "title": "Irony and satire",
   "period": "English prose and verse, seventeenth to nineteenth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/swift-portrait.jpg",
+      "caption": "Jonathan Swift, author of A Modest Proposal, painted by his friend Charles Jervas.",
+      "credit": "Charles Jervas",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Jervas-JonathanSwift.jpg"
+    },
+    {
+      "id": "pope-portrait",
+      "file": "assets/pope-portrait.jpg",
+      "caption": "Alexander Pope, master of the mock-epic, painted by the Swedish-English portraitist Michael Dahl.",
+      "credit": "Michael Dahl",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Alexander_Pope_by_Michael_Dahl.jpg"
+    },
+    {
+      "id": "twain-portrait",
+      "file": "assets/twain-portrait.jpg",
+      "caption": "Mark Twain, born Samuel Clemens, photographed by Mathew Brady on 7 February 1871; the negative is held by the Library of Congress.",
+      "credit": "Mathew Brady",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Mark_Twain,_Brady-Handy_photo_portrait,_Feb_7,_1871,_cropped.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "swift-modest-proposal",

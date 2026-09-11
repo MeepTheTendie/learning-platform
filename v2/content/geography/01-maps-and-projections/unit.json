@@ -4,7 +4,32 @@
   "period": "From Ptolemy to Web Mercator",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/mercator-1569-world-map.jpg",
+      "caption": "Gerardus Mercator's world map of 1569, engraved on eighteen copper plates and designed so that a course at a constant compass bearing plots as a straight line.",
+      "credit": "Gerardus Mercator (photograph by Wilhelm Krücken)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Mercator_1569_world_map_composite.jpg"
+    },
+    {
+      "id": "cholera-map",
+      "file": "assets/cholera-map.jpg",
+      "caption": "John Snow's map of cholera deaths in Soho, London, 1854. Each bar marks a death, and the cluster around the Broad Street pump supported his argument that the disease spread through water.",
+      "credit": "John Snow",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg"
+    },
+    {
+      "id": "minard-map",
+      "file": "assets/minard-napoleon-map.jpg",
+      "caption": "Charles Joseph Minard's flow map of 1869 tracing Napoleon's Russian campaign of 1812, showing the army's advance and retreat, its shrinking size, and the temperatures along the route.",
+      "credit": "Charles Joseph Minard",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Minards_chart_Napoleons_Russian_campaign_of_1812_made_in_1869.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "ptolemy-geography",

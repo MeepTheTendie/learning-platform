@@ -3,7 +3,32 @@
   "title": "Cities and urbanization",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/snow-cholera-map-1854.jpg",
+      "caption": "John Snow's 1854 map of cholera deaths around the Broad Street pump in Soho, London, with cases stacked as bars along the streets where they occurred.",
+      "credit": "John Snow",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg"
+    },
+    {
+      "id": "burgess-concentric-zone-model",
+      "file": "assets/burgess-concentric-zone-model.jpg",
+      "caption": "Diagram of the concentric-zone model of urban land use, with the central business district at the centre and successive rings of housing and commuting outward.",
+      "credit": "Zeimusu (Wikimedia Commons)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Burgess_model.svg"
+    },
+    {
+      "id": "fez-medina-rooftops",
+      "file": "assets/fez-medina-rooftops.jpg",
+      "caption": "Rooftops and satellite dishes of the medina, the old walled city of Fez, Morocco, where houses turn inward to courtyards and the streets run narrow.",
+      "credit": "Adam Jones, Ph.D.",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Rooftop_Aerials_and_Satellite_Dishes_-_Medina_(Old_City)_-_Fez_-_Morocco.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "laws-of-the-indies",

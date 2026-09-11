@@ -3,7 +3,32 @@
   "title": "Socrates and the examined life",
   "period": "Fifth century BCE Athens",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/socrates-bust.jpg",
+      "caption": "Roman marble bust of Socrates in the Louvre, a first-century copy after a lost Greek portrait.",
+      "credit": "Louvre Museum, Paris (after Lysippos)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg"
+    },
+    {
+      "id": "aristophanes-bust",
+      "file": "assets/aristophanes-bust.jpg",
+      "caption": "Marble bust of the comic playwright Aristophanes, whose Clouds mocked Socrates as a natural philosopher.",
+      "credit": "Alexander Mayatsky",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bust_of_Aristophanes.jpg"
+    },
+    {
+      "id": "xenophon-bust",
+      "file": "assets/xenophon-bust.jpg",
+      "caption": "Marble bust of Xenophon, the soldier and writer whose Memorabilia offers an independent defence of Socrates.",
+      "credit": "Carole Raddato",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Bust_of_Xenophon.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "plato-apology",

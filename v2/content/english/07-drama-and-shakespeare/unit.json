@@ -3,7 +3,32 @@
   "title": "Drama and Shakespeare",
   "period": "English drama, sixteenth to seventeenth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/shakespeare-chandos.jpg",
+      "caption": "The Chandos portrait, long thought the only likeness of Shakespeare painted from life; it was the first painting acquired by the National Portrait Gallery, in 1856.",
+      "credit": "Attributed to John Taylor; National Portrait Gallery, London",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Shakespeare.jpg"
+    },
+    {
+      "id": "globe-theatre",
+      "file": "assets/globe-theatre.jpg",
+      "caption": "The Globe playhouse on Bankside as it appears in the long Antwerp view of London, an engraving associated with Claes Janszoon Visscher II.",
+      "credit": "Claes Janszoon Visscher II",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Globe_Theatre_from_the_Long_Antwerp_View_of_London.jpg"
+    },
+    {
+      "id": "first-folio",
+      "file": "assets/first-folio.jpg",
+      "caption": "Title page of the 1623 First Folio of Shakespeare's plays, with the engraved portrait of the author by Martin Droeshout.",
+      "credit": "Martin Droeshout",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Title_page_William_Shakespeare%27s_First_Folio_1623.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "shakespeare-macbeth",

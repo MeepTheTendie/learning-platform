@@ -3,7 +3,32 @@
   "title": "Biomes and vegetation",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/world-biomes-map.jpg",
+      "caption": "A world map of terrestrial biomes following the World Wide Fund for Nature classification, with each colour marking a major plant community shaped by climate.",
+      "credit": "Terpsichores",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Biomes_of_the_World_-_Retouched.png"
+    },
+    {
+      "id": "amazon-rainforest",
+      "file": "assets/amazon-rainforest-clouds.jpg",
+      "caption": "Clouds forming over the Amazon rainforest, photographed by NASA's MODIS instrument; the forest recycles water to the air and helps generate its own afternoon cloud cover.",
+      "credit": "NASA Earth Observatory / Jeff Schmaltz",
+      "license": "Public domain (NASA)",
+      "url": "https://commons.wikimedia.org/wiki/File:Afternoon_Clouds_over_the_Amazon_Rainforest.jpg"
+    },
+    {
+      "id": "dust-storm-stratford",
+      "file": "assets/dust-storm-stratford-texas.jpg",
+      "caption": "A dust storm approaching Stratford, Texas, on 14 April 1935, photographed by George E. Marsh for the U.S. Weather Bureau during the Dust Bowl.",
+      "credit": "George E. Marsh",
+      "license": "Public domain (NOAA)",
+      "url": "https://commons.wikimedia.org/wiki/File:Dust_storm_approaching_Stratford,_Texas.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "humboldt-llanos",

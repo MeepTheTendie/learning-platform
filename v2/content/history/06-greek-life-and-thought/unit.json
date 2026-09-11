@@ -4,7 +4,32 @@
   "period": "c. 500–146 BCE",
   "region": "Athens · Alexandria · the Mediterranean",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/ancient-greece-map.jpg",
+      "caption": "Map of ancient Greece and the Aegean from William R. Shepherd's Historical Atlas, showing the Greek mainland, the islands, and the coast of Asia Minor.",
+      "credit": "William R. Shepherd, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Ancient_greece_so_1926.jpg"
+    },
+    {
+      "id": "socrates-bust",
+      "file": "assets/socrates-bust.jpg",
+      "caption": "Marble portrait of Socrates in the Louvre, a Roman copy of a lost bronze statue; Plato's Apology describes his trial and death in 399 BCE.",
+      "credit": "Eric Gaba (User:Sting), via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg"
+    },
+    {
+      "id": "parthenon",
+      "file": "assets/parthenon.jpg",
+      "caption": "The Parthenon on the Acropolis of Athens, the fifth-century BCE temple of Athena built while the city led the Delian League.",
+      "credit": "Jebulon, via Wikimedia Commons",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Acropolis_Parthenon_Athens_Greece.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "pericles-funeral-oration",

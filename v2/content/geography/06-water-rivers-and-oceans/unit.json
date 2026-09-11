@@ -3,7 +3,32 @@
   "title": "Water, rivers, and oceans",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/maury-gulf-stream-chart.jpg",
+      "caption": "Chart of the Gulf Stream and drift, plate 6 of Matthew Fontaine Maury's The Physical Geography of the Sea (1855), showing the warm current he described as a river in the ocean.",
+      "credit": "Matthew Fontaine Maury",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Maury_1855_Plate_06_Gulf_Stream_and_Drift_physicalgeograp00MaurA_0287.jpg"
+    },
+    {
+      "id": "grand-canyon",
+      "file": "assets/grand-canyon-horseshoe-bend.jpg",
+      "caption": "Horseshoe Bend of the Colorado River near Page, Arizona, where the river has cut a deep meander into the sandstone of the Colorado Plateau.",
+      "credit": "Christian Mehlführer",
+      "license": "CC BY 2.5",
+      "url": "https://commons.wikimedia.org/wiki/File:Grand_Canyon_Horse_Shoe_Bend_MC.jpg"
+    },
+    {
+      "id": "aral-sea",
+      "file": "assets/aral-sea-1989-2008.jpg",
+      "caption": "Satellite comparison of the Aral Sea in 1989 and 2008, after the Amu Darya and Syr Darya were diverted to irrigate cotton.",
+      "credit": "NASA (derivative by Zafiroblue05)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aral_Sea_1989-2008.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "powell-colorado",

@@ -3,7 +3,32 @@
   "title": "The sonnet",
   "period": "English poetry, sixteenth to nineteenth centuries",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/sonnets-1609.jpg",
+      "caption": "Title page of the 1609 quarto of Shakespeare's Sonnets, showing the fourteen-line poems in their first printed collection.",
+      "credit": "Folger Shakespeare Library",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sonnets1609titlepage.jpg"
+    },
+    {
+      "id": "francesco-petrarca",
+      "file": "assets/francesco-petrarca.jpg",
+      "caption": "Francesco Petrarca, whose Rime sparse gathered 317 sonnets around his love for Laura and fixed the Italian form.",
+      "credit": "Altichiero",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Altichiero,_ritratto_di_Francesco_Petrarca.jpg"
+    },
+    {
+      "id": "thomas-wyatt",
+      "file": "assets/thomas-wyatt.jpg",
+      "caption": "Sir Thomas Wyatt, the courtier-poet who carried the Italian sonnet into English in the 1530s, after a portrait by Hans Holbein the Younger.",
+      "credit": "After Hans Holbein the Younger, National Portrait Gallery, London",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Sir_Thomas_Wyatt_by_Hans_Holbein_the_Younger.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "petrarch",

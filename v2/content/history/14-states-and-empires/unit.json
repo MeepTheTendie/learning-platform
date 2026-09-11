@@ -4,7 +4,32 @@
   "period": "c. 1600–1763 CE",
   "region": "Europe and the Atlantic empires",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/north-america-1763.jpg",
+      "caption": "A map of North America drawn after the Treaty of Paris of 1763, showing the British, French, Spanish, and Dutch dominions.",
+      "credit": "Robert Sayer and others",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:New_Map_of_North_America_(1763).JPG"
+    },
+    {
+      "id": "louis-xiv",
+      "file": "assets/louis-xiv.jpg",
+      "caption": "Louis XIV of France in coronation robes, painted by Hyacinthe Rigaud.",
+      "credit": "Hyacinthe Rigaud",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Louis_XIV_Rigaud_Cond%C3%A9_Chantilly.jpg"
+    },
+    {
+      "id": "charles-i-execution",
+      "file": "assets/charles-i-execution.jpg",
+      "caption": "The execution of Charles I outside the Banqueting House in London on 30 January 1649.",
+      "credit": "Formerly attributed to Jan Weesop",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Execution_of_Charles_I_of_England.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "hobbes-leviathan",

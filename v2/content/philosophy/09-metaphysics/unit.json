@@ -3,7 +3,32 @@
   "title": "Metaphysics: what exists?",
   "period": "Antiquity to the present",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/plato-cave.jpg",
+      "caption": "Engraving of Plato's allegory of the cave by Jan Saenredam after Cornelis van Haarlem, 1604.",
+      "credit": "Jan Saenredam, after Cornelis van Haarlem",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Platon_Cave_Sanraedam_1604.jpg"
+    },
+    {
+      "id": "descartes-portrait",
+      "file": "assets/descartes-portrait.jpg",
+      "caption": "Portrait of René Descartes, after the painting by Frans Hals. Descartes held that mind and body are distinct substances.",
+      "credit": "After Frans Hals",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+    },
+    {
+      "id": "locke-portrait",
+      "file": "assets/locke-portrait.jpg",
+      "caption": "Portrait of John Locke by Godfrey Kneller, whose Essay ties personal identity to consciousness and memory.",
+      "credit": "Godfrey Kneller",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Godfrey_Kneller_-_Portrait_of_John_Locke_(Hermitage).jpg"
+    }
+  ],
   "sources": [
     {
       "id": "plato-republic-cave",

@@ -4,7 +4,32 @@
   "period": "c. 1400–1600 CE",
   "region": "Italy · the Atlantic · the Indian Ocean",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/waldseemuller-map.jpg",
+      "caption": "The Waldseemüller world map of 1507, the first map to use the name 'America' and to show the Americas as separate from Asia.",
+      "credit": "Martin Waldseemüller",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Waldseemuller_map_2.jpg"
+    },
+    {
+      "id": "gutenberg-bible",
+      "file": "assets/gutenberg-bible.jpg",
+      "caption": "A copy of the Gutenberg Bible printed at Mainz about 1455, held by the New York Public Library.",
+      "credit": "NYC Wanderer (Kevin Eng)",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"
+    },
+    {
+      "id": "tenochtitlan-map",
+      "file": "assets/tenochtitlan-map.jpg",
+      "caption": "A 1524 printed map of Tenochtitlan and the Gulf of Mexico, made in Nuremberg after drawings from Cortés's expedition.",
+      "credit": "Friedrich Peypus",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Map_of_Tenochtitlan,_1524.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "machiavelli-prince",

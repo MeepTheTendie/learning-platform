@@ -4,7 +4,32 @@
   "period": "Deep time (c. 4.6 billion years)",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/this-dynamic-planet.jpg",
+      "caption": "A world map of volcanoes, earthquakes, impact craters, and plate boundaries published by the U.S. Geological Survey, showing how seismic and volcanic activity traces the edges of the tectonic plates.",
+      "credit": "United States Geological Survey",
+      "license": "Public domain (U.S. Government work)",
+      "url": "https://commons.wikimedia.org/wiki/File:This_dynamic_planet.jpg"
+    },
+    {
+      "id": "alfred-wegener",
+      "file": "assets/alfred-wegener.jpg",
+      "caption": "Alfred Wegener, the German meteorologist and polar explorer who argued from matching coastlines, fossils, and rock belts that the continents had once been joined.",
+      "credit": "Bildarchiv Preussischer Kulturbesitz",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Alfred_Wegener.jpg"
+    },
+    {
+      "id": "mount-st-helens",
+      "file": "assets/mount-st-helens-1980.jpg",
+      "caption": "The eruption of Mount St. Helens in Washington State on 18 May 1980, photographed by Austin Post for the U.S. Geological Survey after a landslide removed the volcano's north flank.",
+      "credit": "Austin Post / United States Geological Survey",
+      "license": "Public domain (U.S. Government work)",
+      "url": "https://commons.wikimedia.org/wiki/File:MSH80_eruption_mount_st_helens_05-18-80-dramatic-edit.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "wegener-displacement",

@@ -4,7 +4,32 @@
   "period": "c. 900–330 BCE",
   "region": "Assyria, Babylonia, Israel, Phoenicia, Persia",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/achaemenid-empire-map.jpg",
+      "caption": "The Achaemenid Persian empire about 500 BCE, reaching from the Aegean and Egypt to the Indus, and governed through satrapies and the Royal Road.",
+      "credit": "Cattette, via Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Achaemenid_Empire_500_BCE.jpg"
+    },
+    {
+      "id": "cyrus-cylinder",
+      "file": "assets/cyrus-cylinder.jpg",
+      "caption": "The Cyrus Cylinder, a clay foundation inscription in Babylonian cuneiform from 539 BCE, in which Cyrus presents himself as chosen by the god Marduk.",
+      "credit": "Prioryman, via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cyrus_Cylinder_front.jpg"
+    },
+    {
+      "id": "ashurbanipal-lion-hunt",
+      "file": "assets/ashurbanipal-lion-hunt.jpg",
+      "caption": "A carved alabaster relief of King Ashurbanipal hunting lions, from the North Palace at Nineveh and now in the British Museum.",
+      "credit": "Osama Shukir Muhammed Amin, via Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Assyrian_king_Ashurbanipal,_detail_of_a_lion-hunt_scene_from_Ninevah,_Iraq._British_Museum.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "sennacherib-jerusalem",

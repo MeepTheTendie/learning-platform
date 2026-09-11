@@ -4,7 +4,32 @@
   "period": "c. 150 BCE–1923 CE",
   "region": "The whole earth",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/world-time-zone-chart-1942.jpg",
+      "caption": "A 1942 chart of the world's standard time zones, published by the United Kingdom Hydrographic Office, showing the hourly bands into which the globe was divided.",
+      "credit": "United Kingdom Hydrographic Office",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:World_Time_Zone_Chart_1942.jpg"
+    },
+    {
+      "id": "john-harrison-portrait",
+      "file": "assets/john-harrison-portrait.jpg",
+      "caption": "Portrait of John Harrison, the Yorkshire clockmaker whose marine timekeepers won the Board of Longitude's trials, painted by Thomas King in 1767.",
+      "credit": "Thomas King",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:John_Harrison_(Gem%C3%A4lde).jpg"
+    },
+    {
+      "id": "harrison-h4",
+      "file": "assets/harrison-h4-timekeeper.jpg",
+      "caption": "Harrison's fourth timekeeper, H4, a large watch completed in 1759. On its 1761 voyage to Jamaica it lost only about five seconds in eighty-one days.",
+      "credit": "Tatters (Flickr)",
+      "license": "CC BY-SA 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Clock_that_changed_the_world_(H4,_1759)_-_Flickr_-_Tatters_%E2%9D%80.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "pigafetta-navigation",

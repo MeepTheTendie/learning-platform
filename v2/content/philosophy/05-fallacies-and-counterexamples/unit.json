@@ -3,7 +3,32 @@
   "title": "Fallacies and counterexamples",
   "period": "Antiquity to the present",
   "spine": "spine.md",
-  "images": [],
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/euthydemus-editio-princeps.jpg",
+      "caption": "Opening of Plato's Euthydemus from the editio princeps of his collected works, printed at Venice in 1513.",
+      "credit": "Plato",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Euthydemos_beginning._Editio_princeps.jpg"
+    },
+    {
+      "id": "john-locke-portrait",
+      "file": "assets/john-locke-portrait.jpg",
+      "caption": "Portrait of John Locke by Godfrey Kneller, 1697, held in the State Hermitage Museum, Saint Petersburg.",
+      "credit": "Godfrey Kneller",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Godfrey_Kneller_-_Portrait_of_John_Locke_(Hermitage).jpg"
+    },
+    {
+      "id": "aristotle-organon",
+      "file": "assets/aristotle-organon.jpg",
+      "caption": "A page from a fourteenth-century illuminated manuscript of Aristotle's Organon, the collection of logical treatises that includes the Sophistical Refutations.",
+      "credit": "Unknown author (14th-century manuscript)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Aristotle_Opera_Logica.jpg"
+    }
+  ],
   "sources": [
     {
       "id": "aristotle-sophistical-refutations",
