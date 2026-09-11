@@ -1,0 +1,205 @@
+{
+  "id": "10-epistemology",
+  "title": "Epistemology: what can we know?",
+  "period": "Antiquity to the present",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "theaetetus",
+      "title": "From the Theaetetus",
+      "author": "Plato",
+      "date": "c. 369 BCE",
+      "citation": "Plato, Theaetetus, translated by Benjamin Jowett. Text from Project Gutenberg eBook 1726.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1726",
+      "file": "sources/theaetetus.md",
+      "context": "Socrates asks whether knowledge is true opinion, and then whether it is true opinion with an account. The jury passage is the earliest clear statement that a true belief can still fall short of knowledge.",
+      "questions": [
+        "Why does Socrates say the juror who is rightly persuaded still judges without knowledge?",
+        "What does the juror lack that the person with knowledge is supposed to have?",
+        "Does the passage treat knowledge as a matter of the belief's origin or of the believer's ability to give an account?"
+      ]
+    },
+    {
+      "id": "descartes-meditations",
+      "title": "From the Meditations on First Philosophy",
+      "author": "René Descartes",
+      "date": "1641",
+      "citation": "René Descartes, Meditations on First Philosophy, translated by John Veitch (1853; reprinted 1901), Meditations I–II. Text from Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy",
+      "file": "sources/descartes-meditations.md",
+      "context": "Descartes doubts the senses, then the distinction between waking and dreaming, then even arithmetic, and supposes a malignant demon. In the Second Meditation he finds that 'I am, I exist' survives every doubt.",
+      "questions": [
+        "What does Descartes doubt first, and what does each further stage of doubt add?",
+        "Why does the evil demon hypothesis threaten arithmetic and geometry as well as the senses?",
+        "What exactly does 'I am, I exist' establish, and what does it leave unproved?"
+      ]
+    },
+    {
+      "id": "hume-enquiry",
+      "title": "Of the sceptical doubts concerning the operations of the understanding",
+      "author": "David Hume",
+      "date": "1748",
+      "citation": "David Hume, An Enquiry Concerning Human Understanding (1748), Section IV, Parts I–II. Text from Project Gutenberg eBook 9662, edited by L. A. Selby-Bigge (1902).",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/9662",
+      "file": "sources/hume-enquiry.md",
+      "context": "Hume divides reasoning into relations of ideas and matters of fact, argues that cause and effect are known only from experience, and concludes that the inference from past to future rests on custom rather than reason.",
+      "questions": [
+        "What distinguishes relations of ideas from matters of fact, and why is the contrary of a matter of fact always conceivable?",
+        "Hume considers two ways the inference from past to future might be justified. What are they, and why does each fail?",
+        "If custom rather than reason produces the inference, what follows for the claim that factual beliefs are justified by reasoning?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "gettier-problem",
+      "historian": "Edmund Gettier",
+      "work": "Is Justified True Belief Knowledge?",
+      "year": "1963",
+      "claim": "Gettier presented cases in which a person holds a belief that is true, believed, and justified, and yet plainly does not know it, because the justification rests on a false assumption and the truth of the belief is a coincidence. The cases showed that the traditional three conditions are not sufficient for knowledge and reopened the analysis of what knowledge is.",
+      "note": "The cases assume that a justified belief may rest on a false belief and that justification carries across deduction, and both assumptions have been questioned. No-false-lemma, defeasibility, causal, reliabilist, and virtue accounts each handle some cases and leave others; no repair has won general assent."
+    },
+    {
+      "id": "goldman-reliabilism",
+      "historian": "Alvin Goldman",
+      "work": "What Is Justified Belief?",
+      "year": "1979",
+      "claim": "Goldman argued that a belief is justified when it is produced by a reliable cognitive process, one that generally yields true beliefs, rather than by the believer's ability to give supporting reasons. Justification is therefore external: it can obtain even when the believer cannot tell, on reflection, that it does.",
+      "note": "Laurence BonJour's clairvoyance case objects that a reliably produced belief may still seem unjustified when the believer has no reason to trust the process. The generality problem, pressed by Richard Feldman (1985) and Earl Conee and Feldman (1998), asks which of the many descriptions of a process is the relevant one, since some are reliable and some are not."
+    }
+  ],
+  "activities": [
+    {
+      "id": "jtb-conditions",
+      "type": "choice",
+      "prompt": "On the standard analysis, which three conditions must a belief meet to count as knowledge?",
+      "choices": [
+        "Truth, belief, and justification",
+        "Truth, certainty, and memory",
+        "Belief, habit, and agreement",
+        "Justification, coherence, and usefulness"
+      ],
+      "answer": 0,
+      "feedback": "The traditional analysis holds that knowledge is justified true belief: the belief must be true, it must be believed, and it must rest on an adequate ground."
+    },
+    {
+      "id": "gettier-lesson",
+      "type": "choice",
+      "prompt": "What do Gettier's cases appear to show?",
+      "choices": [
+        "A justified true belief can fail to be knowledge",
+        "Knowledge does not require truth",
+        "Justification is unnecessary for knowledge",
+        "Every true belief is knowledge"
+      ],
+      "answer": 0,
+      "feedback": "In each case the belief is true, believed, and justified, yet the truth is a coincidence resting on a false assumption, so the three conditions are not sufficient."
+    },
+    {
+      "id": "theaetetus-jury",
+      "type": "choice",
+      "prompt": "In the Theaetetus, why does the juror who is rightly persuaded of a robbery lack knowledge?",
+      "choices": [
+        "The juror has a true opinion but cannot give an account of it",
+        "The juror does not believe the defendant did it",
+        "The juror's opinion is false",
+        "The juror was not present at the trial"
+      ],
+      "answer": 0,
+      "feedback": "Socrates says the juror judges without knowledge because the truth reached the juror by persuasion, not by the juror's own grasp of the facts."
+    },
+    {
+      "id": "descartes-demon",
+      "type": "choice",
+      "prompt": "What does Descartes take 'I am, I exist' to establish?",
+      "choices": [
+        "That he exists as a thinking thing, even if deceived",
+        "That the external world exists",
+        "That God is no deceiver",
+        "That the senses are trustworthy"
+      ],
+      "answer": 0,
+      "feedback": "The cogito survives the demon because to be deceived is to think and to think is to exist; it establishes only the thinker, not bodies or other minds."
+    },
+    {
+      "id": "rationalism-empiricism",
+      "type": "choice",
+      "prompt": "Which claim is characteristic of the empiricists?",
+      "choices": [
+        "All ideas derive from experience",
+        "Some ideas are innate",
+        "Reason alone can prove the existence of God",
+        "The mind begins with certain principles"
+      ],
+      "answer": 0,
+      "feedback": "Locke's Essay argues that the mind is white paper and that every idea traces back to sensation or reflection, against the rationalists' innate ideas."
+    },
+    {
+      "id": "a-priori",
+      "type": "choice",
+      "prompt": "Which of these would count as a priori knowledge?",
+      "choices": [
+        "That every triangle has three sides",
+        "That water boils at one hundred degrees Celsius at sea level",
+        "That there is a city called Paris",
+        "That the sun rose this morning"
+      ],
+      "answer": 0,
+      "feedback": "A priori knowledge does not depend on experience for its justification. The boiling point and the existence of Paris are learned from experience; the triangle claim follows from the concept."
+    },
+    {
+      "id": "analytic-synthetic",
+      "type": "choice",
+      "prompt": "Kant called '7 + 5 = 12' a synthetic a priori judgment because…",
+      "choices": [
+        "Its predicate adds to the subject, yet it is necessary and universal",
+        "Its predicate is contained in its subject",
+        "It is learned only by counting objects",
+        "Its contrary is always conceivable"
+      ],
+      "answer": 0,
+      "feedback": "Kant held that the concept of twelve is not contained in seven, five, and addition, so the judgment is synthetic; but it is necessary, so it cannot rest on experience."
+    },
+    {
+      "id": "induction-hume",
+      "type": "choice",
+      "prompt": "Why does Hume say probable reasoning cannot justify the inference from past to future?",
+      "choices": [
+        "It assumes the resemblance of past and future that it is meant to prove",
+        "It belongs to relations of ideas rather than matters of fact",
+        "It proves too little to be useful",
+        "It contradicts arithmetic"
+      ],
+      "answer": 0,
+      "feedback": "All probable arguments about matters of fact already suppose that the future resembles the past, so using one to establish that supposition is circular."
+    },
+    {
+      "id": "reliabilism-goldman",
+      "type": "choice",
+      "prompt": "According to Goldman's reliabilism, a belief is justified when…",
+      "choices": [
+        "It is produced by a cognitive process that generally yields true beliefs",
+        "The believer can give reasons for it on demand",
+        "It coheres with the rest of the believer's beliefs",
+        "It cannot be doubted under the evil demon"
+      ],
+      "answer": 0,
+      "feedback": "Reliabilism makes justification depend on the reliability of the process, not on the believer's access to reasons, which is what makes it an externalist theory."
+    },
+    {
+      "id": "reflect-foundations",
+      "type": "short-answer",
+      "prompt": "Descartes looks for a belief that no doubt can reach. Hume concludes that the inference from past to future rests on custom rather than reason. Using both passages, explain what each takes to justify a belief, and why the second raises a problem for the first.",
+      "context": "Descartes: 'this proposition ... I am, I exist, is necessarily true each time it is expressed by me, or conceived in my mind.' — Hume: 'Custom, then, is the great guide of human life. It is that principle alone which renders our experience useful to us, and makes us expect, for the future, a similar train of events with those which have appeared in the past.'",
+      "rubric": [
+        "refers to both passages and states what each treats as the ground of a belief",
+        "explains the foundationalist demand for a belief immune to doubt",
+        "explains why Hume thinks reason cannot supply that foundation"
+      ]
+    }
+  ]
+}

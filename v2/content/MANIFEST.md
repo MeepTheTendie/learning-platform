@@ -267,3 +267,103 @@ c. 1789–1815 CE · France · Europe · the Atlantic
 - interpretation: François Furet, *Interpreting the French Revolution* (1978)
 - interpretation: C. L. R. James, *The Black Jacobins* (1938)
 
+## 01-what-is-philosophy — What is philosophy?
+
+Antiquity to the present
+
+- **The unexamined life** — Plato, 399 BCE (written c. 390 BCE). Public domain. Apology, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1656.
+- **All men by nature desire to know** — Aristotle, c. 350 BCE. Public domain. Metaphysics, Book I.1-2, translated by W. D. Ross (1908). Wikisource.
+- **Good sense and the method of doubt** — René Descartes, 1637. Public domain. Discourse on Method, Parts I, II, and IV, translated by John Veitch. Project Gutenberg eBook 59.
+- interpretation: Gregory Vlastos, *Socrates: Ironist and Moral Philosopher* (1991)
+- interpretation: Bertrand Russell, *The Problems of Philosophy* (1912)
+
+## 02-questions-and-arguments — Questions and arguments
+
+Antiquity to the present
+
+- **Euthyphro: what is piety?** — Plato, c. 399 BCE (dramatic date); written c. 390 BCE. Public domain. Euthyphro, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1642.
+- **The enthymeme and the rhetorical syllogism** — Aristotle, c. 350 BCE. Public domain. Rhetoric, Book I, translated by W. Rhys Roberts. Internet Classics Archive.
+- **I am, I exist: the cogito** — René Descartes, 1641. Public domain. Meditations on First Philosophy, Meditation II, translated by John Veitch (1901). Wikisource.
+- interpretation: Stephen Toulmin, *The Uses of Argument* (1958)
+- interpretation: Gregory Vlastos, *The Socratic Elenchus (1983); Socrates: Ironist and Moral Philosopher* (1991)
+
+## 03-deduction-and-induction — Deduction and induction
+
+Antiquity to the present
+
+- **From the Prior Analytics, Book I** — Aristotle, c. 350 BCE. Public domain. Aristotle, Prior Analytics, translated by A. J. Jenkinson. Text from the Internet Classics Archive (classics.mit.edu).
+- **Of the sceptical doubts concerning the operations of the understanding** — David Hume, 1748. Public domain. David Hume, An Enquiry Concerning Human Understanding (1748), Section IV. Text from Project Gutenberg eBook 9662.
+- **Of the ground of induction, and the four methods of experimental inquiry** — John Stuart Mill, 1843. Public domain. John Stuart Mill, A System of Logic, Ratiocinative and Inductive (1843), Book III, Chapters III and VIII. Text from Project Gutenberg eBook 27942.
+- interpretation: Jan Łukasiewicz, *Aristotle's Syllogistic from the Standpoint of Modern Formal Logic* (1951)
+- interpretation: Nelson Goodman, *Fact, Fiction, and Forecast* (1955)
+
+## 04-validity-and-soundness — Validity and soundness
+
+Antiquity to the present
+
+- **Demonstration and mere syllogism (Posterior Analytics I.1–2)** — Aristotle, c. 350 BCE. Public domain. Posterior Analytics, translated by G. R. G. Mure, in The Works of Aristotle, ed. W. D. Ross (Oxford: Clarendon Press, 1928), Book I.1–2. Text via the Internet Classics Archive.
+- **The demand for a definition, and the elenchus (Euthyphro)** — Plato, c. 390 BCE, set in 399 BCE. Public domain. Euthyphro, translated by Benjamin Jowett, in The Dialogues of Plato (1871). Project Gutenberg eBook 1642.
+- **Of the enthymeme, and of validity as distinct from truth** — Richard Whately, 1843 (first edition 1826). Public domain. Richard Whately, Elements of Logic, comprising the substance of the article in the Encyclopaedia Metropolitana, with additions, &c., stereotype edition (London, 1843), Book I, §§ 2–3. Text via the Internet Archive.
+- interpretation: Gregory Vlastos, *The Socratic Elenchus* (1983)
+- interpretation: Peter Geach, *Plato's Euthyphro: An Analysis and Commentary* (1966)
+
+## 05-fallacies-and-counterexamples — Fallacies and counterexamples
+
+Antiquity to the present
+
+- **From the Sophistical Refutations** — Aristotle, c. 350 BCE. Public domain. On Sophistical Refutations, Parts 4–5, translated by W. A. Pickard-Cambridge (1928). Text from the Internet Classics Archive.
+- **The four sorts of arguments** — John Locke, 1690. Public domain. An Essay Concerning Human Understanding, Book IV, ch. xvii, §§19–22. Text from the 1853 Troutman & Hayes edition, Wikisource.
+- **The dog is your father** — Plato, c. 390 BCE. Public domain. Euthydemus, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1598.
+- interpretation: Charles L. Hamblin, *Fallacies* (1970)
+- interpretation: Douglas N. Walton, *A Pragmatic Theory of Fallacy* (1995)
+
+## 06-socrates — Socrates and the examined life
+
+Fifth century BCE Athens
+
+- **The oracle, the gadfly, and the unexamined life** — Plato, 399 BCE (written c. 390 BCE). Public domain. Apology, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1656.
+- **The Thinkery** — Aristophanes, 423 BCE. Public domain. The Clouds, translated by William James Hickie (1853). Project Gutenberg eBook 2562.
+- **The divine sign and the rejection of natural philosophy** — Xenophon, c. 371 BCE. Public domain. The Memorabilia, translated by H. G. Dakyns (1897). Project Gutenberg eBook 1177.
+- interpretation: Gregory Vlastos, *The Socratic Elenchus* (1983)
+- interpretation: M. F. Burnyeat, *Socratic Midwifery, Platonic Inspiration* (1977)
+
+## 07-platos-apology — Plato's Apology: knowledge and ignorance
+
+Fourth century BCE Athens
+
+- **The oracle, the gadfly, and the fear of death** — Plato, 399 BCE (written c. 390s BCE). Public domain. Apology, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1656.
+- **The defence of Socrates** — Xenophon, c. 380s BCE (date disputed). Public domain. Apology, translated by H. G. Dakyns, in The Works of Xenophon. Project Gutenberg eBook 1171.
+- **The life of Socrates** — Diogenes Laertius, c. 3rd century CE. Public domain. The Lives and Opinions of Eminent Philosophers, Book II, translated by C. D. Yonge (1853). Project Gutenberg eBook 57342.
+- interpretation: Gregory Vlastos, *Socrates: Ironist and Moral Philosopher* (1991)
+- interpretation: I. F. Stone, *The Trial of Socrates* (1988)
+
+## 08-ethics — Ethics: virtue, duty, and consequences
+
+Antiquity to the nineteenth century
+
+- **Happiness and the mean** — Aristotle, c. 350 BCE. Public domain. Nicomachean Ethics, Books I.7 and II.1, II.6, translated by W. D. Ross (1908). Text from the Internet Classics Archive.
+- **The good will and the categorical imperative** — Immanuel Kant, 1785. Public domain. Fundamental Principles of the Metaphysic of Morals, translated by Thomas Kingsmill Abbott (1873). Project Gutenberg eBook 5682.
+- **The greatest happiness principle** — John Stuart Mill, 1861 (published as a book 1863). Public domain. Utilitarianism, Chapter II, seventh edition (London: Longmans, Green, and Co., 1879). Project Gutenberg eBook 11224.
+- interpretation: Philippa Foot, *Natural Goodness* (2001)
+- interpretation: Bernard Williams, *Ethics and the Limits of Philosophy* (1985)
+
+## 09-metaphysics — Metaphysics: what exists?
+
+Antiquity to the present
+
+- **The allegory of the cave** — Plato, c. 375 BCE. Public domain. The Republic, Book VII, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1497.
+- **The real distinction between mind and body** — René Descartes, 1641. Public domain. Meditations on First Philosophy, Meditation VI, translated by John Veitch (1901). Wikisource.
+- **Of identity and diversity** — John Locke, 1690. Public domain. An Essay Concerning Human Understanding, Book II, chapter xxvii, §§11–12, 17–18, 20. Text from Project Gutenberg eBook 10615.
+- interpretation: David Armstrong, *Universals: An Opinionated Introduction* (1989)
+- interpretation: Derek Parfit, *Reasons and Persons* (1984)
+
+## 10-epistemology — Epistemology: what can we know?
+
+Antiquity to the present
+
+- **From the Theaetetus** — Plato, c. 369 BCE. Public domain. Plato, Theaetetus, translated by Benjamin Jowett. Text from Project Gutenberg eBook 1726.
+- **From the Meditations on First Philosophy** — René Descartes, 1641. Public domain. René Descartes, Meditations on First Philosophy, translated by John Veitch (1853; reprinted 1901), Meditations I–II. Text from Wikisource.
+- **Of the sceptical doubts concerning the operations of the understanding** — David Hume, 1748. Public domain. David Hume, An Enquiry Concerning Human Understanding (1748), Section IV, Parts I–II. Text from Project Gutenberg eBook 9662, edited by L. A. Selby-Bigge (1902).
+- interpretation: Edmund Gettier, *Is Justified True Belief Knowledge?* (1963)
+- interpretation: Alvin Goldman, *What Is Justified Belief?* (1979)
+

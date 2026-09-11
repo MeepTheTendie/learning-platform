@@ -1,0 +1,192 @@
+{
+  "id": "04-validity-and-soundness",
+  "title": "Validity and soundness",
+  "period": "Antiquity to the present",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "aristotle-posterior-analytics",
+      "title": "Demonstration and mere syllogism (Posterior Analytics I.1–2)",
+      "author": "Aristotle",
+      "date": "c. 350 BCE",
+      "citation": "Posterior Analytics, translated by G. R. G. Mure, in The Works of Aristotle, ed. W. D. Ross (Oxford: Clarendon Press, 1928), Book I.1–2. Text via the Internet Classics Archive.",
+      "license": "Public domain",
+      "url": "https://classics.mit.edu/Aristotle/posterior.1.i.html",
+      "file": "sources/aristotle-posterior-analytics.md",
+      "context": "Aristotle distinguishes a demonstration, which produces scientific knowledge, from a syllogism that merely follows of necessity. The premises of a demonstration, he says, must be true, primary, and immediate.",
+      "questions": [
+        "What does Aristotle say a demonstration is, and how does it differ from a syllogism?",
+        "Why must the premises of a demonstration be true? What reason does he give?",
+        "What does he say is the difference between a hypothesis and a definition?"
+      ]
+    },
+    {
+      "id": "plato-euthyphro",
+      "title": "The demand for a definition, and the elenchus (Euthyphro)",
+      "author": "Plato",
+      "date": "c. 390 BCE, set in 399 BCE",
+      "citation": "Euthyphro, translated by Benjamin Jowett, in The Dialogues of Plato (1871). Project Gutenberg eBook 1642.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1642",
+      "file": "sources/plato-euthyphro.md",
+      "context": "Socrates asks Euthyphro for the general feature that makes all pious acts pious, not for examples. Euthyphro's answer, that piety is what the gods love, is tested by question and answer and ends in impasse.",
+      "questions": [
+        "What does Socrates say he wants instead of two or three examples of piety?",
+        "How does Socrates turn Euthyphro's own admissions against his definition?",
+        "Why does Socrates say Euthyphro has given an attribute and not an essence?"
+      ]
+    },
+    {
+      "id": "whately-elements-of-logic",
+      "title": "Of the enthymeme, and of validity as distinct from truth",
+      "author": "Richard Whately",
+      "date": "1843 (first edition 1826)",
+      "citation": "Richard Whately, Elements of Logic, comprising the substance of the article in the Encyclopaedia Metropolitana, with additions, &c., stereotype edition (London, 1843), Book I, §§ 2–3. Text via the Internet Archive.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/elementsoflogi00what",
+      "file": "sources/whately-elements-of-logic.md",
+      "context": "A nineteenth-century logic textbook states the distinction between validity and truth, explains the enthymeme, and shows the counterexample method: to expose a fallacy, set beside it a parallel argument whose conclusion is obviously absurd.",
+      "questions": [
+        "What is an enthymeme, and what two kinds of objection can be made to one?",
+        "What does Whately say is the question at issue when we judge an argument's validity?",
+        "How does the parallel-argument method work, and what example does Whately give?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "vlastos-socratic-elenchus",
+      "historian": "Gregory Vlastos",
+      "work": "The Socratic Elenchus",
+      "year": "1983",
+      "claim": "Vlastos argued that the elenchus is not merely a consistency test. On his reading, Socrates takes the refutation of a thesis to establish that the thesis is false and its contradictory true, so that the method can support positive moral knowledge.",
+      "note": "Critics, including Hugh Benson and Michael Frede, reply that the elenchus can at most show that an interlocutor's beliefs are inconsistent; its premises have no authority beyond his assent, so it ends in aporia rather than knowledge. The dispute is unresolved."
+    },
+    {
+      "id": "geach-socratic-fallacy",
+      "historian": "Peter Geach",
+      "work": "Plato's Euthyphro: An Analysis and Commentary",
+      "year": "1966",
+      "claim": "Geach argued that Socrates commits a fallacy — the 'Socratic fallacy' — in demanding a definition of piety before any particular act can be known to be pious. People can correctly apply a term, he held, without being able to state its essence.",
+      "note": "Defenders of Socrates answer that the demand concerns expert knowledge, not ordinary recognition: only one who claims the mastery that licenses teaching and correcting others needs an account of the essence. Geach's charge is widely discussed but not settled."
+    }
+  ],
+  "activities": [
+    {
+      "id": "validity-definition",
+      "type": "choice",
+      "prompt": "An argument is valid when…",
+      "choices": [
+        "If its premises were true, its conclusion would have to be true",
+        "Its premises are in fact true",
+        "Its conclusion is in fact true",
+        "Most people find it persuasive"
+      ],
+      "answer": 0,
+      "feedback": "Validity concerns the link between premises and conclusion, not the truth of either. An argument with false premises can be perfectly valid."
+    },
+    {
+      "id": "soundness-definition",
+      "type": "choice",
+      "prompt": "An argument is sound when…",
+      "choices": [
+        "It is valid and its premises are actually true",
+        "It is valid, whether or not its premises are true",
+        "Its conclusion is true, whether or not it is valid",
+        "It has no suppressed premises"
+      ],
+      "answer": 0,
+      "feedback": "Soundness adds the truth of the premises to validity. A valid argument with a false premise is not sound."
+    },
+    {
+      "id": "impossible-combination",
+      "type": "choice",
+      "prompt": "Which combination is impossible?",
+      "choices": [
+        "A valid argument with true premises and a false conclusion",
+        "A valid argument with false premises and a true conclusion",
+        "A valid argument with false premises and a false conclusion",
+        "An invalid argument with true premises and a false conclusion"
+      ],
+      "answer": 0,
+      "feedback": "Validity just is the guarantee that true premises cannot yield a false conclusion. Every other combination can occur."
+    },
+    {
+      "id": "counterexample-method",
+      "type": "choice",
+      "prompt": "What shows that an argument is invalid?",
+      "choices": [
+        "Another argument of the same form with true premises and a false conclusion",
+        "A premise that is false",
+        "A conclusion that is true",
+        "An author who is unreliable"
+      ],
+      "answer": 0,
+      "feedback": "A counterexample shares the argument's form but has true premises and a false conclusion. Since validity is a property of form, this is decisive."
+    },
+    {
+      "id": "valid-form",
+      "type": "choice",
+      "prompt": "Which of these forms is valid?",
+      "choices": [
+        "If P then Q; P; therefore Q",
+        "If P then Q; Q; therefore P",
+        "If P then Q; not P; therefore not Q",
+        "All dogs are mammals; all cats are mammals; therefore all cats are dogs"
+      ],
+      "answer": 0,
+      "feedback": "The first is modus ponens. The second affirms the consequent, the third denies the antecedent, and the fourth has an undistributed middle; all three are invalid."
+    },
+    {
+      "id": "demonstration-syllogism",
+      "type": "choice",
+      "prompt": "In the Posterior Analytics, what distinguishes a demonstration from a mere syllogism?",
+      "choices": [
+        "Its premises are true, primary, and immediate",
+        "It has three terms rather than two",
+        "It is written in prose rather than verse",
+        "Its conclusion is universally accepted"
+      ],
+      "answer": 0,
+      "feedback": "Aristotle says a syllogism can be valid without these conditions, but only a syllogism whose premises are true and basic produces scientific knowledge, and that is a demonstration."
+    },
+    {
+      "id": "necessary-sufficient",
+      "type": "choice",
+      "prompt": "'Being an unmarried adult male' stands to 'bachelor' as…",
+      "choices": [
+        "A necessary and sufficient condition",
+        "A necessary but not sufficient condition",
+        "A sufficient but not necessary condition",
+        "Neither necessary nor sufficient"
+      ],
+      "answer": 0,
+      "feedback": "On the conventional definition, anything that is an unmarried adult male is a bachelor, and anything that is a bachelor is an unmarried adult male."
+    },
+    {
+      "id": "euthyphro-dilemma",
+      "type": "choice",
+      "prompt": "What does the Euthyphro dilemma show about the definition 'piety is what the gods love'?",
+      "choices": [
+        "It states an attribute of piety rather than its essence",
+        "It is false because the gods do not exist",
+        "It is the only definition Euthyphro needs",
+        "It shows that piety cannot be defined at all"
+      ],
+      "answer": 0,
+      "feedback": "The gods love what is already pious, so their love follows piety instead of making it. The definition gives an attribute (a pathos), not the essence (ousia)."
+    },
+    {
+      "id": "reflect-validity-knowledge",
+      "type": "short-answer",
+      "prompt": "Aristotle says the premises of a demonstration must be 'true, primary, immediate.' Whately says the question respecting the validity of an argument is 'not whether the conclusion be true, but whether it follows from the premises adduced.' Using both passages, explain why a valid argument may still fail to give knowledge.",
+      "context": "Aristotle: 'By demonstration I mean a syllogism productive of scientific knowledge… Syllogism there may indeed be without these conditions, but such syllogism, not being productive of scientific knowledge, will not be demonstration.' — Whately: 'the question respecting the validity of an argument being, not whether the conclusion be true, but whether it follows from the premises adduced.'",
+      "rubric": [
+        "refers to both passages",
+        "distinguishes validity from the truth of the premises",
+        "uses a specific phrase from one of the texts"
+      ]
+    }
+  ]
+}

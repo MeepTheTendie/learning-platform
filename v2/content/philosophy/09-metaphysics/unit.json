@@ -1,0 +1,205 @@
+{
+  "id": "09-metaphysics",
+  "title": "Metaphysics: what exists?",
+  "period": "Antiquity to the present",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "plato-republic-cave",
+      "title": "The allegory of the cave",
+      "author": "Plato",
+      "date": "c. 375 BCE",
+      "citation": "The Republic, Book VII, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1497.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1497",
+      "file": "sources/plato-republic-cave.md",
+      "context": "The allegory of the cave from Book VII of the Republic. Prisoners chained since childhood see only shadows cast on a wall and take them for reality; one is freed, pained by the light, and dragged up to see the sun, which stands for the Form of the Good.",
+      "questions": [
+        "What do the prisoners take for reality, and why can they not see otherwise?",
+        "What does the sun stand for in the allegory, and why is seeing it the last and hardest step?",
+        "What does Plato mean by calling the ascent 'the ascent of the soul into the intellectual world'?"
+      ]
+    },
+    {
+      "id": "descartes-meditation-vi",
+      "title": "The real distinction between mind and body",
+      "author": "René Descartes",
+      "date": "1641",
+      "citation": "Meditations on First Philosophy, Meditation VI, translated by John Veitch (1901). Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_VI",
+      "file": "sources/descartes-meditation-vi.md",
+      "context": "Having argued that he can clearly and distinctly conceive mind apart from body, Descartes concludes that he is a thinking substance really distinct from his extended body, yet so united with it that the two compose one thing.",
+      "questions": [
+        "On what grounds does Descartes conclude that mind and body are really distinct?",
+        "What does Descartes mean by saying he is not lodged in his body 'as a pilot in a vessel'?",
+        "If mind and body are distinct substances, what problem does their union raise?"
+      ]
+    },
+    {
+      "id": "locke-personal-identity",
+      "title": "Of identity and diversity",
+      "author": "John Locke",
+      "date": "1690",
+      "citation": "An Essay Concerning Human Understanding, Book II, chapter xxvii, §§11–12, 17–18, 20. Text from Project Gutenberg eBook 10615.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/10615",
+      "file": "sources/locke-personal-identity.md",
+      "context": "Locke argues that a person is a thinking being whose identity consists not in sameness of substance but in the continuity of consciousness and memory, and illustrates it with the case of the prince's soul entering a cobbler's body.",
+      "questions": [
+        "What does Locke say personal identity consists in, and what does he say it does not consist in?",
+        "How does the prince-and-cobbler example distinguish the same person from the same man?",
+        "Why does Locke tie reward and punishment to consciousness rather than to substance?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "armstrong-immanent-realism",
+      "historian": "David Armstrong",
+      "work": "Universals: An Opinionated Introduction",
+      "year": "1989",
+      "claim": "Armstrong defends immanent realism about universals: universals such as redness and being a horse genuinely exist, but only in the particulars that instantiate them, not in a separate realm. The view restates Aristotle against both Plato's transcendent Forms and the nominalism that treats properties as mere words.",
+      "note": "Nominalists such as Quine and Goodman deny that universals are needed at all, and trope theorists hold that each particular has its own particular property rather than sharing one universal. Armstrong's case turns on whether a theory of properties, laws, and resemblance can do its work without universals; the argument continues."
+    },
+    {
+      "id": "parfit-identity-not-what-matters",
+      "historian": "Derek Parfit",
+      "work": "Reasons and Persons",
+      "year": "1984",
+      "claim": "Parfit argues that personal identity is not what matters. What matters is psychological continuity and connectedness, which come in degrees and can branch; in a fission case, where a person's two hemispheres are transplanted into two bodies, there is no further fact determining which offshoot is the original, so identity is not the relation to care about.",
+      "note": "David Lewis, in 'Survival and Identity' (1976), replies that identity is what matters and that the original is identical with both offshoots, because they are overlapping four-dimensional continuants. Others argue that Parfit's reductionism cannot explain the unity of consciousness. The debate is unresolved."
+    }
+  ],
+  "activities": [
+    {
+      "id": "universals-problem",
+      "type": "choice",
+      "prompt": "The problem of universals asks whether…",
+      "choices": [
+        "properties exist independently of the particular things that have them",
+        "only minds exist",
+        "space and time are real",
+        "every event has a cause"
+      ],
+      "answer": 0,
+      "feedback": "Realism says universals exist, conceptualism says they exist only in minds, and nominalism says only particulars exist."
+    },
+    {
+      "id": "plato-cave",
+      "type": "choice",
+      "prompt": "In Plato's allegory of the cave, the shadows on the wall stand for…",
+      "choices": [
+        "the appearances that the prisoners mistake for reality",
+        "the Forms themselves",
+        "the sun",
+        "mathematical truths"
+      ],
+      "answer": 0,
+      "feedback": "The cave is the world of sight; the shadows are the changing, sensible things that the prisoners take to be fully real."
+    },
+    {
+      "id": "aristotle-form",
+      "type": "choice",
+      "prompt": "For Aristotle, where does the form of a thing exist?",
+      "choices": [
+        "In a separate realm apart from things",
+        "In the particular thing itself",
+        "Only in the mind of God",
+        "Nowhere; forms are words"
+      ],
+      "answer": 1,
+      "feedback": "Aristotle's immanent realism puts the form in the thing: the universal man exists only in the individual men who are said to be men."
+    },
+    {
+      "id": "descartes-dualism",
+      "type": "choice",
+      "prompt": "Descartes concludes that mind and body are really distinct because…",
+      "choices": [
+        "he can clearly and distinctly conceive each without the other",
+        "the senses report two substances",
+        "they occupy different places",
+        "Scripture says so"
+      ],
+      "answer": 0,
+      "feedback": "What can be clearly and distinctly conceived as separate can be made to exist separately by God, so mind and body are different substances."
+    },
+    {
+      "id": "interaction-problem",
+      "type": "choice",
+      "prompt": "Princess Elisabeth's objection to Descartes was that…",
+      "choices": [
+        "an unextended mind cannot move an extended body",
+        "the mind is divisible",
+        "animals have no minds",
+        "God cannot create matter"
+      ],
+      "answer": 0,
+      "feedback": "To move a body requires contact and extension, so an immaterial mind seems unable to act on the body."
+    },
+    {
+      "id": "locke-identity",
+      "type": "choice",
+      "prompt": "Locke holds that personal identity consists in…",
+      "choices": [
+        "the continuity of consciousness and memory",
+        "the persistence of an immaterial soul",
+        "the sameness of the body",
+        "an unchanging substance"
+      ],
+      "answer": 0,
+      "feedback": "For Locke, the same person is the same thinking being only so far as consciousness reaches back to past actions."
+    },
+    {
+      "id": "ship-of-theseus",
+      "type": "choice",
+      "prompt": "The Ship of Theseus raises the question of…",
+      "choices": [
+        "what makes an object the same over time when its parts are replaced",
+        "whether ships can think",
+        "whether the sea is real",
+        "whether numbers exist"
+      ],
+      "answer": 0,
+      "feedback": "If every plank is replaced, and the old planks reassembled into a second ship, which is the original? The puzzle tests any criterion of identity over time."
+    },
+    {
+      "id": "hume-causation",
+      "type": "choice",
+      "prompt": "Hume argues that our idea of a necessary connection between cause and effect comes from…",
+      "choices": [
+        "a habit of the mind produced by constant conjunction",
+        "reason alone",
+        "an impression of power in the objects",
+        "divine revelation"
+      ],
+      "answer": 0,
+      "feedback": "We observe only one event following another; the feeling of necessity is a product of custom, not something perceived in the world."
+    },
+    {
+      "id": "compatibilism",
+      "type": "choice",
+      "prompt": "Compatibilism holds that free will is compatible with determinism because…",
+      "choices": [
+        "freedom means acting without external constraint, not without causes",
+        "determinism is false",
+        "the past can be changed",
+        "no action is ever caused"
+      ],
+      "answer": 0,
+      "feedback": "Hobbes, Hume, and Mill locate freedom in the absence of constraint, which a caused action can still have."
+    },
+    {
+      "id": "reflect-metaphysics",
+      "type": "short-answer",
+      "prompt": "Using the two passages, explain what each thinker takes a person or mind to be, and what each treats as the basis of identity. Where do the two accounts disagree?",
+      "context": "Descartes: 'I rightly conclude that my essence consists only in my being a thinking thing ... it is certain that I ... am entirely and truly distinct from my body, and may exist without it.' Locke: 'in this alone consists personal identity, i.e. the sameness of a rational being: and as far as this consciousness can be extended backwards to any past action or thought, so far reaches the identity of that person.'",
+      "rubric": [
+        "refers to both passages",
+        "states what each takes the mind or person to be and the basis of identity",
+        "identifies a point of disagreement between them"
+      ]
+    }
+  ]
+}

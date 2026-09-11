@@ -1,0 +1,172 @@
+{
+  "id": "02-questions-and-arguments",
+  "title": "Questions and arguments",
+  "period": "Antiquity to the present",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "euthyphro",
+      "title": "Euthyphro: what is piety?",
+      "author": "Plato",
+      "date": "c. 399 BCE (dramatic date); written c. 390 BCE",
+      "citation": "Euthyphro, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1642.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1642",
+      "file": "sources/euthyphro.md",
+      "context": "Socrates asks Euthyphro to define piety. Euthyphro offers an example and then a definition, which Socrates tests until it collapses; the dialogue ends without a settled answer.",
+      "questions": [
+        "Why does Socrates reject Euthyphro's first answer, that piety is prosecuting a wrongdoer?",
+        "What unstated premise does Euthyphro rely on when he says piety is what all the gods love?",
+        "What does Socrates's final question, about being loved 'because' it is holy, ask us to compare?"
+      ]
+    },
+    {
+      "id": "aristotle-rhetoric",
+      "title": "The enthymeme and the rhetorical syllogism",
+      "author": "Aristotle",
+      "date": "c. 350 BCE",
+      "citation": "Rhetoric, Book I, translated by W. Rhys Roberts. Internet Classics Archive.",
+      "license": "Public domain",
+      "url": "https://classics.mit.edu/Aristotle/rhetoric.1.i.html",
+      "file": "sources/aristotle-rhetoric.md",
+      "context": "Aristotle defines the enthymeme as a rhetorical syllogism and the example as a rhetorical induction, and argues that all persuasion by proof uses one or the other.",
+      "questions": [
+        "What does Aristotle mean by calling the enthymeme 'a sort of syllogism'?",
+        "How does he distinguish an enthymeme from an example?",
+        "Why does he say speeches that rely on enthymemes draw louder applause?"
+      ]
+    },
+    {
+      "id": "descartes-meditation-ii",
+      "title": "I am, I exist: the cogito",
+      "author": "René Descartes",
+      "date": "1641",
+      "citation": "Meditations on First Philosophy, Meditation II, translated by John Veitch (1901). Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Meditations_on_First_Philosophy/Meditation_II",
+      "file": "sources/descartes-meditation-ii.md",
+      "context": "Having resolved to doubt whatever can be doubted, Descartes finds that the act of doubting cannot itself be doubted, and concludes that he exists; he then asks what he is.",
+      "questions": [
+        "What unstated premise carries Descartes from 'I think' to 'I exist'?",
+        "Descartes says he is 'a thinking thing.' What has he ruled out by this point, and on what grounds?",
+        "Where does the word 'therefore' do the most work in this passage?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "toulmin-uses-of-argument",
+      "historian": "Stephen Toulmin",
+      "work": "The Uses of Argument",
+      "year": "1958",
+      "claim": "Toulmin argued that the syllogism is a poor model for real arguments. Actual reasoning, especially in law and ethics, moves from data to a claim by way of a warrant, which may itself need backing, and the conclusion is usually qualified and open to rebuttal rather than necessary.",
+      "note": "Formal logicians replied that Toulmin's scheme describes how arguments are presented rather than what makes them valid, and that the syllogism remains the clearer test of whether a conclusion follows. The debate is about whether validity is one thing or many."
+    },
+    {
+      "id": "vlastos-socratic-elenchus",
+      "historian": "Gregory Vlastos",
+      "work": "The Socratic Elenchus (1983); Socrates: Ironist and Moral Philosopher",
+      "year": "1991",
+      "claim": "Vlastos argued that Socrates's method of question and refutation can show that an interlocutor's beliefs are inconsistent, but cannot by itself establish any positive doctrine; this is the problem of the elenchus, and it explains why the early dialogues end without a definition.",
+      "note": "M. F. Burnyeat and others read the same dialogues as more constructive, holding that the elenchus tests and can vindicate beliefs. Whether Socrates is only a refuter or also a teacher remains contested."
+    }
+  ],
+  "activities": [
+    {
+      "id": "philosophical-question",
+      "type": "choice",
+      "prompt": "Which of these is a philosophical rather than an empirical question?",
+      "choices": [
+        "What makes an action right?",
+        "How many people lived in Athens in 430 BCE?",
+        "When did the battle of Marathon take place?",
+        "At what temperature does water boil?"
+      ],
+      "answer": 0,
+      "feedback": "The other three are settled by evidence — a census, a date, a measurement. The first turns on concepts and standards, and cannot be settled by looking."
+    },
+    {
+      "id": "conclusion-term",
+      "type": "choice",
+      "prompt": "In an argument, the claim that the reasons are meant to support is called the…",
+      "choices": ["conclusion", "premise", "enthymeme", "warrant"],
+      "answer": 0,
+      "feedback": "The premises are the supporting claims; the conclusion is what they are offered to establish."
+    },
+    {
+      "id": "validity-definition",
+      "type": "choice",
+      "prompt": "An argument is deductively valid when…",
+      "choices": [
+        "it is impossible for its premises to be true and its conclusion false",
+        "its conclusion is true",
+        "its premises are all true",
+        "it persuades most people who hear it"
+      ],
+      "answer": 0,
+      "feedback": "Validity is about the link between premises and conclusion, not about whether the premises are in fact true. An argument can be valid with false premises."
+    },
+    {
+      "id": "soundness-definition",
+      "type": "choice",
+      "prompt": "A sound argument is one that is…",
+      "choices": [
+        "valid and has all true premises",
+        "valid but may have false premises",
+        "persuasive but invalid",
+        "based on an appeal to authority"
+      ],
+      "answer": 0,
+      "feedback": "Soundness adds truth to validity: the form must be valid and every premise must actually be true."
+    },
+    {
+      "id": "therefore-marker",
+      "type": "choice",
+      "prompt": "In a passage, the word 'therefore' most often marks…",
+      "choices": ["the conclusion", "a premise", "a definition", "an example"],
+      "answer": 0,
+      "feedback": "'Therefore', 'so', and 'hence' are conclusion indicators; 'because' and 'since' usually introduce premises."
+    },
+    {
+      "id": "enthymeme-definition",
+      "type": "choice",
+      "prompt": "Aristotle calls an enthymeme a…",
+      "choices": ["rhetorical syllogism", "rhetorical induction", "definition", "counterexample"],
+      "answer": 0,
+      "feedback": "He pairs it with the example, which he calls a rhetorical induction. The enthymeme is a syllogism, often with a premise left unstated."
+    },
+    {
+      "id": "explanation-or-argument",
+      "type": "choice",
+      "prompt": "The sentence 'The bridge collapsed because the cables had rusted' is best read as…",
+      "choices": ["an explanation", "a deductive proof", "an enthymeme", "a definition"],
+      "answer": 0,
+      "feedback": "It takes the collapse as already known and gives its cause. An argument would be offering a reason to believe the collapse happened."
+    },
+    {
+      "id": "charity-principle",
+      "type": "choice",
+      "prompt": "The principle of charity asks an interpreter to…",
+      "choices": [
+        "state the strongest version of a view that the text will support",
+        "accept whatever a speaker says as true",
+        "refute the weakest version of a view",
+        "ignore the speaker's reasons and judge the conclusion"
+      ],
+      "answer": 0,
+      "feedback": "Charity is not agreement. It means reconstructing the case worth answering, rather than knocking down a straw man."
+    },
+    {
+      "id": "evaluate-reasons",
+      "type": "short-answer",
+      "prompt": "Explain how you would evaluate the reasons Socrates and Euthyphro give, rather than simply deciding whose conclusion you prefer. Identify the conclusion, the premises, and at least one unstated premise.",
+      "context": "SOCRATES: 'The point which I should first wish to understand is whether the pious or holy is beloved by the gods because it is holy, or holy because it is beloved of the gods.' EUTHYPHRO: 'Yes, I should say that what all the gods love is pious and holy, and the opposite which they all hate, impious.'",
+      "rubric": [
+        "states the conclusion each speaker is trying to support",
+        "lists at least one stated premise and one unstated premise",
+        "explains what would make the inference succeed or fail"
+      ]
+    }
+  ]
+}

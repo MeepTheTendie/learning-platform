@@ -1,0 +1,195 @@
+{
+  "id": "08-ethics",
+  "title": "Ethics: virtue, duty, and consequences",
+  "period": "Antiquity to the nineteenth century",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "aristotle-nicomachean-ethics",
+      "title": "Happiness and the mean",
+      "author": "Aristotle",
+      "date": "c. 350 BCE",
+      "citation": "Nicomachean Ethics, Books I.7 and II.1, II.6, translated by W. D. Ross (1908). Text from the Internet Classics Archive.",
+      "license": "Public domain",
+      "url": "https://classics.mit.edu/Aristotle/nicomachaen.1.i.html",
+      "file": "sources/aristotle-nicomachean-ethics.md",
+      "context": "Aristotle's lecture notes on ethics, compiled after his death. The passages below define happiness as activity of the soul in accordance with virtue, argue that virtue is acquired by habit, and describe virtue as a mean between excess and defect.",
+      "questions": [
+        "What does Aristotle mean by the function of a human being, and why must it be more than nutrition or perception?",
+        "Why does he insist that happiness requires a complete life rather than a single good act?",
+        "How is the mean relative to us, and why is Milo the wrestler mentioned?",
+        "What kinds of action does Aristotle say admit of no mean at all?"
+      ]
+    },
+    {
+      "id": "kant-groundwork",
+      "title": "The good will and the categorical imperative",
+      "author": "Immanuel Kant",
+      "date": "1785",
+      "citation": "Fundamental Principles of the Metaphysic of Morals, translated by Thomas Kingsmill Abbott (1873). Project Gutenberg eBook 5682.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/5682",
+      "file": "sources/kant-groundwork.md",
+      "context": "Kant's search for the supreme principle of morality. He argues that only a good will is good without qualification, distinguishes acting from duty from acting from inclination, states the categorical imperative, and tests a lying promise against it.",
+      "questions": [
+        "Why does Kant say the prudent shopkeeper's honest dealing has no moral worth?",
+        "What does it mean for a maxim to be willed as a universal law, and how does the lying promise fail the test?",
+        "What is the difference between treating a person as a means and treating them as an end in themselves?",
+        "Why does Kant hold that the moral law must be unconditional rather than dependent on any desired end?"
+      ]
+    },
+    {
+      "id": "mill-utilitarianism",
+      "title": "The greatest happiness principle",
+      "author": "John Stuart Mill",
+      "date": "1861 (published as a book 1863)",
+      "citation": "Utilitarianism, Chapter II, seventh edition (London: Longmans, Green, and Co., 1879). Project Gutenberg eBook 11224.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/11224",
+      "file": "sources/mill-utilitarianism.md",
+      "context": "Mill's defence of utilitarianism. He states the greatest happiness principle, argues that pleasures differ in quality as well as quantity, and insists that the standard is the happiness of all concerned, not the agent's own.",
+      "questions": [
+        "How does Mill define the greatest happiness principle, and what does he mean by happiness?",
+        "Why does he think some pleasures are higher than others, and who is to judge?",
+        "What does Mill mean by saying the standard is not the agent's own happiness?",
+        "How does Mill separate the morality of an action from the motive of the person who does it?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "foot-natural-goodness",
+      "historian": "Philippa Foot",
+      "work": "Natural Goodness",
+      "year": "2001",
+      "claim": "Foot argued that moral evaluation is a species of natural evaluation: just as we judge a plant or animal good by whether it fulfils the characteristic life of its kind, so we judge a human being good by whether the virtues that belong to human flourishing are present. On this view virtue is not a mere social preference but is grounded in what human beings need.",
+      "note": "Critics reply that the move from facts about the human species to moral conclusions is exactly the inference Hume warned against, and that human beings disagree about what their characteristic life is. Foot's defenders answer that the disagreement is about the facts, not about the logic."
+    },
+    {
+      "id": "williams-limits",
+      "historian": "Bernard Williams",
+      "work": "Ethics and the Limits of Philosophy",
+      "year": "1985",
+      "claim": "Williams argued that modern moral philosophy is obsessed with obligation and the moral law, and that it ignores luck, character, and the particular commitments that give a life its shape. Utilitarianism, in particular, makes each agent responsible for every outcome he could prevent, which alienates him from his own projects and integrity.",
+      "note": "Defenders of impartial ethics reply that Williams describes a real tension but does not show that a moral theory can do without general principles, and that the notion of integrity he invokes may itself need a theory to explain why some commitments must be honoured."
+    }
+  ],
+  "activities": [
+    {
+      "id": "eudaimonia",
+      "type": "choice",
+      "prompt": "For Aristotle, the highest human good is eudaimonia, which he defines as...",
+      "choices": [
+        "activity of the soul in accordance with virtue, in a complete life",
+        "the greatest balance of pleasure over pain",
+        "obedience to the divine law",
+        "the possession of honour and wealth"
+      ],
+      "answer": 0,
+      "feedback": "Aristotle calls eudaimonia the chief good, and argues it is virtuous activity over a whole life, not a feeling or a possession."
+    },
+    {
+      "id": "doctrine-of-the-mean",
+      "type": "choice",
+      "prompt": "Aristotle describes moral virtue as a mean between two vices. Courage, for example, lies between...",
+      "choices": [
+        "rashness and cowardice",
+        "pleasure and pain",
+        "honour and shame",
+        "reason and appetite"
+      ],
+      "answer": 0,
+      "feedback": "The excess is rashness, the defect cowardice; virtue is the intermediate state, relative to the person and the situation."
+    },
+    {
+      "id": "complete-life",
+      "type": "choice",
+      "prompt": "Why does Aristotle add 'in a complete life' to his account of happiness?",
+      "choices": [
+        "One swallow does not make a summer; a single good act is not a happy life",
+        "Because happiness is a feeling that lasts only a moment",
+        "Because only the old can be virtuous",
+        "Because external goods are irrelevant to happiness"
+      ],
+      "answer": 0,
+      "feedback": "Happiness is the shape of a whole life, not a single act or a passing feeling."
+    },
+    {
+      "id": "categorical-imperative",
+      "type": "choice",
+      "prompt": "Kant's categorical imperative tells an agent to...",
+      "choices": [
+        "act only on a maxim that could be willed as a universal law",
+        "maximize the total happiness of all concerned",
+        "follow the customs of one's community",
+        "seek one's own greatest pleasure"
+      ],
+      "answer": 0,
+      "feedback": "The test is universalizability: a maxim that destroys the practice it relies on, such as a false promise, cannot be willed as a law for everyone."
+    },
+    {
+      "id": "persons-as-ends",
+      "type": "choice",
+      "prompt": "In Kant's second formulation, we are to treat humanity...",
+      "choices": [
+        "always as an end, never merely as a means",
+        "as a means to the greatest happiness",
+        "according to its social rank",
+        "only as the law of the state commands"
+      ],
+      "answer": 0,
+      "feedback": "Rational beings are persons with dignity, not things with a price, and may never be used merely as instruments."
+    },
+    {
+      "id": "greatest-happiness",
+      "type": "choice",
+      "prompt": "Mill's greatest happiness principle holds that actions are right in proportion as they...",
+      "choices": [
+        "tend to promote happiness",
+        "obey a universal law",
+        "express the agent's virtue",
+        "follow the custom of the age"
+      ],
+      "answer": 0,
+      "feedback": "The standard is the promotion of happiness and the reduction of pain, for all concerned and not only the agent."
+    },
+    {
+      "id": "higher-pleasures",
+      "type": "choice",
+      "prompt": "Mill says 'better to be Socrates dissatisfied than a fool satisfied' in order to make which point?",
+      "choices": [
+        "Some pleasures are higher in kind, not merely greater in quantity",
+        "Socrates was unhappy and the fool content",
+        "Satisfaction is the only thing worth seeking",
+        "Education makes people miserable"
+      ],
+      "answer": 0,
+      "feedback": "Mill departs from Bentham by holding that pleasures differ in quality, and that competent judges prefer the higher ones."
+    },
+    {
+      "id": "euthyphro",
+      "type": "choice",
+      "prompt": "The Euthyphro dilemma asks whether the pious is loved by the gods because it is pious, or pious because it is loved. What problem does it raise for divine command theory?",
+      "choices": [
+        "Either morality is arbitrary or it does not depend on God",
+        "Whether the gods exist at all",
+        "Whether piety can be taught",
+        "Whether the gods love humans"
+      ],
+      "answer": 0,
+      "feedback": "If goodness depends only on command it looks arbitrary; if God commands what is already good, goodness is independent of God."
+    },
+    {
+      "id": "three-approaches",
+      "type": "short-answer",
+      "prompt": "A friend hides in your house; a would-be murderer knocks and asks whether the friend is inside. Explain how a virtue ethicist, a Kantian, and a utilitarian would each decide what to do, and what each treats as the ground of the right act.",
+      "context": "Kant: 'So act as to treat humanity, whether in thine own person or in that of any other, in every case as an end withal, never as means only.' Mill: 'actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness.' Aristotle: virtue is 'a state of character concerned with choice, lying in a mean.'",
+      "rubric": [
+        "states a distinct answer for each of the three approaches",
+        "identifies what each treats as the ground of rightness (character, rule, or results)",
+        "uses at least one specific phrase or idea from the passages"
+      ]
+    }
+  ]
+}

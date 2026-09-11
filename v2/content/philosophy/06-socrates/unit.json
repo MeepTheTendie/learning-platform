@@ -1,0 +1,185 @@
+{
+  "id": "06-socrates",
+  "title": "Socrates and the examined life",
+  "period": "Fifth century BCE Athens",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "plato-apology",
+      "title": "The oracle, the gadfly, and the unexamined life",
+      "author": "Plato",
+      "date": "399 BCE (written c. 390 BCE)",
+      "citation": "Apology, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1656.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1656",
+      "file": "sources/plato-apology.md",
+      "context": "Plato's account of Socrates' defence at his trial. The passages below cover the oracle at Delphi, the disavowal of knowledge, the refusal to stop philosophising, the gadfly image, and the claim that the unexamined life is not worth living.",
+      "questions": [
+        "What does Socrates say he learned from the oracle's answer, and how does he describe the wisdom he has?",
+        "On what condition does Socrates imagine the jury offering to acquit him, and how does he answer?",
+        "Why does he call himself a gadfly, and what does the image assume about the city?",
+        "What does Socrates claim to know, and what does he refuse to claim knowledge of?"
+      ]
+    },
+    {
+      "id": "aristophanes-clouds",
+      "title": "The Thinkery",
+      "author": "Aristophanes",
+      "date": "423 BCE",
+      "citation": "The Clouds, translated by William James Hickie (1853). Project Gutenberg eBook 2562.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/2562",
+      "file": "sources/aristophanes-clouds.md",
+      "context": "A comic scene from Aristophanes' play, staged when Socrates was in his forties. It shows him running a thinking-shop, suspended in a basket, teaching how to win any argument for a fee, and denying that Zeus exists.",
+      "questions": [
+        "What does the play claim is taught in the thinking-shop, and for what price?",
+        "Why is Socrates suspended in a basket, and what does this say about the comic Socrates?",
+        "What replaces Zeus in Socrates' account of rain and thunder?",
+        "How does this portrait of Socrates differ from the one in Plato's Apology?"
+      ]
+    },
+    {
+      "id": "xenophon-memorabilia",
+      "title": "The divine sign and the rejection of natural philosophy",
+      "author": "Xenophon",
+      "date": "c. 371 BCE",
+      "citation": "The Memorabilia, translated by H. G. Dakyns (1897). Project Gutenberg eBook 1177.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1177",
+      "file": "sources/xenophon-memorabilia.md",
+      "context": "Xenophon's defence of Socrates, written decades after the trial by a follower who was not a philosopher. It answers the charges of impiety and corruption and describes Socrates' daily practice and his preference for questions about human conduct.",
+      "questions": [
+        "How does Xenophon answer the charge that Socrates did not recognise the city's gods?",
+        "What does Xenophon say Socrates refused to discuss, and what did he discuss instead?",
+        "What kinds of questions does Xenophon list as Socrates' real subject?",
+        "How does Xenophon's defence differ in tone from Plato's Apology?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "vlastos-elenchus",
+      "historian": "Gregory Vlastos",
+      "work": "The Socratic Elenchus",
+      "year": "1983",
+      "claim": "Vlastos argued that the Socratic elenchus is a method of moral inquiry with a constructive aim, not mere demolition: Socrates refutes an interlocutor's thesis by deriving its negation from premises the interlocutor accepts, and Vlastos held that Socrates took the method to establish real moral truths while disclaiming the expert knowledge of a craftsman.",
+      "note": "The reading depends on treating Socrates' disavowal of knowledge as complex irony, true of expert knowledge and false of justified belief. Critics, including M. F. Burnyeat, reply that the early dialogues give no secure positive doctrine, and that the constructive reading may be importing Plato's later confidence into the Socratic method."
+    },
+    {
+      "id": "burnyeat-midwifery",
+      "historian": "M. F. Burnyeat",
+      "work": "Socratic Midwifery, Platonic Inspiration",
+      "year": "1977",
+      "claim": "In this article Burnyeat argued that the image of Socrates as a barren midwife, who helps others give birth to ideas but has none of his own, belongs to Plato's later Theaetetus rather than to the historical Socrates, and that the early Socrates genuinely holds no doctrine of his own to teach.",
+      "note": "Vlastos and others respond that the early dialogues show Socrates committed to substantive moral positions, and that a questioner who tests beliefs against his own convictions is not a neutral midwife. The dispute turns on how much of the Platonic corpus may be used as evidence for the historical man."
+    }
+  ],
+  "activities": [
+    {
+      "id": "who-wrote-nothing",
+      "type": "choice",
+      "prompt": "Which of these figures wrote nothing and is known only through the accounts of others?",
+      "choices": ["Socrates", "Plato", "Xenophon", "Aristophanes"],
+      "answer": 0,
+      "feedback": "Socrates left no writings; Plato, Xenophon, and Aristophanes are the writers who describe him."
+    },
+    {
+      "id": "clouds-basket",
+      "type": "choice",
+      "prompt": "In Aristophanes' Clouds, Socrates is suspended in a basket so that he can…",
+      "choices": [
+        "Speculate about the sun and things celestial",
+        "Escape his creditors",
+        "Question the gods",
+        "Teach rhetoric to Strepsiades"
+      ],
+      "answer": 0,
+      "feedback": "He says he must suspend his intellect in the air to investigate things above; on the ground the earth would attract his thoughts."
+    },
+    {
+      "id": "elenchus-outcome",
+      "type": "choice",
+      "prompt": "The Socratic elenchus typically ends in…",
+      "choices": [
+        "A proof of the theory of Forms",
+        "Aporia, a state of perplexity",
+        "A legal verdict",
+        "A written treatise"
+      ],
+      "answer": 1,
+      "feedback": "The cross-examination usually refutes the proposed definition and leaves the interlocutor, and Socrates, without a settled answer."
+    },
+    {
+      "id": "not-a-source",
+      "type": "choice",
+      "prompt": "Which of these is NOT one of the four main ancient sources for Socrates?",
+      "choices": ["Thucydides", "Aristophanes", "Xenophon", "Aristotle"],
+      "answer": 0,
+      "feedback": "Thucydides wrote the history of the Peloponnesian War and never mentions Socrates. The four sources are Aristophanes, Plato, Xenophon, and Aristotle."
+    },
+    {
+      "id": "gadfly-image",
+      "type": "choice",
+      "prompt": "Socrates compares himself to a gadfly because he…",
+      "choices": [
+        "Stings his enemies in court",
+        "Is small and weak",
+        "Keeps the sluggish city awake and questioning",
+        "Flies above the earth"
+      ],
+      "answer": 2,
+      "feedback": "The city is a great but slow horse; the gadfly is the god's gift that rouses it, and killing the gadfly only lets the horse sleep again."
+    },
+    {
+      "id": "socratic-problem",
+      "type": "choice",
+      "prompt": "The Socratic problem is the difficulty of…",
+      "choices": [
+        "Reconciling the different ancient portraits of Socrates",
+        "Socrates' refusal to take money",
+        "Translating the dialogues into English",
+        "Dating the trial of 399 BCE"
+      ],
+      "answer": 0,
+      "feedback": "Aristophanes, Plato, Xenophon, and Aristotle describe different men, and no source is neutral about its subject."
+    },
+    {
+      "id": "daimonion",
+      "type": "choice",
+      "prompt": "Socrates' daimonion, or divine sign, was…",
+      "choices": [
+        "A divine voice that restrained him, never urging him on",
+        "A god to whom he sacrificed",
+        "A written law he carried",
+        "A student who followed him"
+      ],
+      "answer": 0,
+      "feedback": "In Plato's account the sign only ever holds him back; it never tells him what to do."
+    },
+    {
+      "id": "second-vote",
+      "type": "choice",
+      "prompt": "What happened at the second stage of Socrates' trial, when the penalty was fixed?",
+      "choices": [
+        "He was acquitted",
+        "He escaped from prison",
+        "The trial was postponed",
+        "The jury chose death over his proposed fine"
+      ],
+      "answer": 3,
+      "feedback": "After conviction the accusers proposed death; Socrates proposed a fine of thirty minae, and the jury voted for death."
+    },
+    {
+      "id": "analyze-ignorance",
+      "type": "short-answer",
+      "prompt": "Using the passage, explain how Socrates' disavowal of knowledge relates to his method of questioning. What does he deny knowing, and what, if anything, does he claim to know?",
+      "context": "\"I neither know nor think that I know.\" … \"while I have life and strength I shall never cease from the practice and teaching of philosophy\" … \"the unexamined life is not worth living.\" — Plato, Apology, trans. Jowett",
+      "rubric": [
+        "states what Socrates denies knowing and what he claims to know",
+        "connects the disavowal of knowledge to the practice of questioning others",
+        "uses a specific phrase from the passage"
+      ]
+    }
+  ]
+}

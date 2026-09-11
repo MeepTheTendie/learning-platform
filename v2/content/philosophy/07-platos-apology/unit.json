@@ -1,0 +1,192 @@
+{
+  "id": "07-platos-apology",
+  "title": "Plato's Apology: knowledge and ignorance",
+  "period": "Fourth century BCE Athens",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "plato-apology",
+      "title": "The oracle, the gadfly, and the fear of death",
+      "author": "Plato",
+      "date": "399 BCE (written c. 390s BCE)",
+      "citation": "Apology, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1656.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1656",
+      "file": "sources/plato-apology.md",
+      "context": "Plato's reconstruction of Socrates' defence at his trial in 399 BCE. It is a literary work written years after the event, not a transcript. The passages give the oracle story, the gadfly, the refusal to stop philosophizing, and the argument that death is not to be feared.",
+      "questions": [
+        "What does Socrates say he knows, and what does he deny knowing?",
+        "Why does the silence of his divine sign convince him that death is good?",
+        "How does the gadfly image describe the relation between Socrates and Athens?"
+      ]
+    },
+    {
+      "id": "xenophon-apology",
+      "title": "The defence of Socrates",
+      "author": "Xenophon",
+      "date": "c. 380s BCE (date disputed)",
+      "citation": "Apology, translated by H. G. Dakyns, in The Works of Xenophon. Project Gutenberg eBook 1171.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1171",
+      "file": "sources/xenophon-apology.md",
+      "context": "A second ancient defence of Socrates, by a pupil who was away from Athens at the time of the trial. Xenophon's Socrates is more conventional and more pious than Plato's, and his version of the oracle differs from Plato's.",
+      "questions": [
+        "How does Xenophon's Socrates answer the charge that he does not recognise the city's gods?",
+        "What does Socrates mean when he says his whole life has been his defence?",
+        "How does Xenophon's version of the oracle differ from Plato's?"
+      ]
+    },
+    {
+      "id": "diogenes-socrates",
+      "title": "The life of Socrates",
+      "author": "Diogenes Laertius",
+      "date": "c. 3rd century CE",
+      "citation": "The Lives and Opinions of Eminent Philosophers, Book II, translated by C. D. Yonge (1853). Project Gutenberg eBook 57342.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/57342",
+      "file": "sources/diogenes-socrates.md",
+      "context": "A later compiler's life of Socrates, written centuries after the trial and gathering sayings and anecdotes from many sources. It preserves the sworn information against Socrates and a different account of the votes.",
+      "questions": [
+        "What does Diogenes say Socrates knew, and what did he not know?",
+        "How does the vote count in Diogenes differ from Plato's?",
+        "What kind of source is a life written centuries after the events it describes?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "vlastos-ignorance",
+      "historian": "Gregory Vlastos",
+      "work": "Socrates: Ironist and Moral Philosopher",
+      "year": "1991",
+      "claim": "Vlastos argued that the Socrates of Plato's early dialogues is a sincere moral philosopher: his profession of ignorance is genuine, not a pose, and his irony is 'complex' - he means what he says about virtue even while denying that he knows it. On this reading, knowing that one does not know is the core of a positive moral position.",
+      "note": "Other scholars read the disavowal as a rhetorical strategy rather than a report of belief, and some doubt that the historical Socrates can be recovered from Plato's literary dialogues at all. The debate turns on what the early dialogues can be evidence for."
+    },
+    {
+      "id": "stone-trial-of-socrates",
+      "historian": "I. F. Stone",
+      "work": "The Trial of Socrates",
+      "year": "1988",
+      "claim": "Stone argued that Socrates was guilty as charged: he was an anti-democratic teacher who despised the Athenian assembly, and the restored democracy had a defensible interest in prosecuting him. The trial, on this account, was a legitimate if harsh act of a city defending itself.",
+      "note": "Classicists objected that Stone relied on translations and secondary works and misread Athenian law and religion. Thomas C. Brickhouse and Nicholas D. Smith, in Socrates on Trial (1989), argue instead that Socrates was innocent of the formal charges and that the prosecution's case was confused."
+    }
+  ],
+  "activities": [
+    {
+      "id": "apology-genre",
+      "type": "choice",
+      "prompt": "What kind of text is Plato's Apology?",
+      "choices": [
+        "A defence speech written years after the trial",
+        "A court transcript taken down during the trial",
+        "A letter Socrates wrote from prison",
+        "A comic play about the trial"
+      ],
+      "answer": 0,
+      "feedback": "The Greek apologia means a speech in defence. Plato wrote it after the event, and it is a literary work rather than a transcript."
+    },
+    {
+      "id": "the-accusers",
+      "type": "choice",
+      "prompt": "Who brought the prosecution against Socrates in 399 BCE?",
+      "choices": [
+        "Meletus, Anytus, and Lycon",
+        "Plato, Xenophon, and Crito",
+        "Pericles, Alcibiades, and Critias",
+        "The Thirty Tyrants"
+      ],
+      "answer": 0,
+      "feedback": "Plato names Meletus the poet, Anytus the politician, and Lycon the public speaker."
+    },
+    {
+      "id": "impiety-charge",
+      "type": "choice",
+      "prompt": "The charge of impiety against Socrates had two religious parts. What were they?",
+      "choices": [
+        "Not believing in the city's gods, and introducing new divinities",
+        "Refusing to sacrifice, and teaching astronomy",
+        "Denying the oracle, and mocking the poets",
+        "Avoiding military service, and corrupting the young"
+      ],
+      "answer": 0,
+      "feedback": "The religious counts turned on Socrates' private sign, the daimonion, which the indictment called a new divinity."
+    },
+    {
+      "id": "oracle-question",
+      "type": "choice",
+      "prompt": "What did Chaerephon ask the oracle at Delphi?",
+      "choices": [
+        "Whether anyone was wiser than Socrates",
+        "Whether Socrates should go into exile",
+        "Who had killed the tyrants",
+        "How the city could win the war"
+      ],
+      "answer": 0,
+      "feedback": "The Pythia answered that no one was wiser. Socrates then set out to test what the god could mean."
+    },
+    {
+      "id": "socratic-ignorance",
+      "type": "choice",
+      "prompt": "What does Socrates claim he does know, according to the Apology?",
+      "choices": [
+        "That injustice and disobedience to a better are evil",
+        "The nature of the gods and the afterlife",
+        "The art of making the weaker argument stronger",
+        "That death is a dreamless sleep"
+      ],
+      "answer": 0,
+      "feedback": "His ignorance is not total. He denies knowing about death and the gods, but says he knows that injustice is evil and dishonourable."
+    },
+    {
+      "id": "gadfly-image",
+      "type": "choice",
+      "prompt": "In the gadfly image, what is the horse?",
+      "choices": [
+        "The city of Athens",
+        "Socrates' accuser Meletus",
+        "The god Apollo",
+        "The jury of 501"
+      ],
+      "answer": 0,
+      "feedback": "Socrates is the gadfly and Athens the great but sluggish steed that needs to be stirred into life."
+    },
+    {
+      "id": "penalty-proposal",
+      "type": "choice",
+      "prompt": "In the penalty phase, what did Socrates first say he deserved?",
+      "choices": [
+        "Maintenance in the Prytaneum",
+        "Exile from Athens",
+        "A fine of one thousand drachmae",
+        "Imprisonment for a year"
+      ],
+      "answer": 0,
+      "feedback": "He said he deserved the public maintenance given to benefactors and Olympic victors. At his friends' urging he then offered a fine of thirty minae."
+    },
+    {
+      "id": "death-disjunction",
+      "type": "choice",
+      "prompt": "How does Socrates argue that death is not to be feared?",
+      "choices": [
+        "Death is either annihilation or a migration of the soul, and neither is an evil",
+        "The soul is proved immortal by the silence of his divine sign",
+        "The gods have promised him a place among the heroes",
+        "Death is a punishment that the good need not fear"
+      ],
+      "answer": 0,
+      "feedback": "He offers a disjunction: if death is a dreamless sleep it is a gain, and if it is a journey to another place he can continue his search there."
+    },
+    {
+      "id": "know-that-you-do-not-know",
+      "type": "short-answer",
+      "prompt": "What does it mean to know that you do not know? Using the passages, distinguish Socrates' ignorance from the ignorance he criticizes, and say what he claims to know.",
+      "context": "Plato: 'he knows nothing, and thinks that he knows; I neither know nor think that I know.' Diogenes Laertius: 'he knew nothing, except the fact of his ignorance.' Plato: 'I do know that injustice and disobedience to a better, whether God or man, is evil and dishonourable.'",
+      "rubric": [
+        "distinguishes being ignorant from thinking one knows",
+        "states one thing Socrates claims to know",
+        "refers to a specific phrase from the passages"
+      ]
+    }
+  ]
+}

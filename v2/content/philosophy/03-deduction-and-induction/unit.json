@@ -1,0 +1,205 @@
+{
+  "id": "03-deduction-and-induction",
+  "title": "Deduction and induction",
+  "period": "Antiquity to the present",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "aristotle-prior-analytics",
+      "title": "From the Prior Analytics, Book I",
+      "author": "Aristotle",
+      "date": "c. 350 BCE",
+      "citation": "Aristotle, Prior Analytics, translated by A. J. Jenkinson. Text from the Internet Classics Archive (classics.mit.edu).",
+      "license": "Public domain",
+      "url": "https://classics.mit.edu/Aristotle/prior.1.i.html",
+      "file": "sources/aristotle-prior-analytics.md",
+      "context": "Aristotle defines the premiss, the term, and the syllogism, distinguishes perfect from imperfect syllogisms, and sets out the three figures by the position of the middle term.",
+      "questions": [
+        "How does Aristotle define a syllogism, and what work does the phrase 'of necessity' do in that definition?",
+        "What makes a syllogism perfect rather than imperfect, and why are the second and third figures imperfect?",
+        "In the first figure, what relation must the middle term bear to the other two terms?"
+      ]
+    },
+    {
+      "id": "hume-enquiry",
+      "title": "Of the sceptical doubts concerning the operations of the understanding",
+      "author": "David Hume",
+      "date": "1748",
+      "citation": "David Hume, An Enquiry Concerning Human Understanding (1748), Section IV. Text from Project Gutenberg eBook 9662.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/9662",
+      "file": "sources/hume-enquiry.md",
+      "context": "Hume divides reasoning into relations of ideas and matters of fact, argues that knowledge of cause and effect comes only from experience, and shows that the step from past to future cannot be justified by reason.",
+      "questions": [
+        "Why does Hume say the contrary of every matter of fact is always conceivable?",
+        "Hume considers two possible justifications for the inference from past to future. What are they, and why does each fail?",
+        "What is the difference, for Hume, between 'I have found that such an object has always been attended with such an effect' and 'I foresee that similar objects will be attended with similar effects'?"
+      ]
+    },
+    {
+      "id": "mill-system-of-logic",
+      "title": "Of the ground of induction, and the four methods of experimental inquiry",
+      "author": "John Stuart Mill",
+      "date": "1843",
+      "citation": "John Stuart Mill, A System of Logic, Ratiocinative and Inductive (1843), Book III, Chapters III and VIII. Text from Project Gutenberg eBook 27942.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/27942",
+      "file": "sources/mill-system-of-logic.md",
+      "context": "Mill argues that the uniformity of the course of nature is the ultimate major premise of every induction, then states the canons of the Method of Agreement, the Method of Difference, and the three further methods.",
+      "questions": [
+        "Mill says the uniformity of nature is the ultimate major premise of all inductions. Does he think it proves them, and what does he say it contributes?",
+        "State the Method of Difference in your own words, using Mill's letters A, B, C and a, b, c.",
+        "Why does Mill insist that his methods are methods of elimination?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "lukasiewicz-formal-syllogistic",
+      "historian": "Jan Łukasiewicz",
+      "work": "Aristotle's Syllogistic from the Standpoint of Modern Formal Logic",
+      "year": "1951",
+      "claim": "Łukasiewicz argued that Aristotle's assertoric syllogistic is a formal deductive system that can be axiomatised: the first-figure moods are its axioms, and the second- and third-figure moods are theorems derived from them by conversion and reductio. On this reading the syllogism is a conditional proposition rather than a rule of inference, and Aristotle's logic is best reconstructed in the notation of modern symbolic logic.",
+      "note": "Other logicians dispute the reconstruction. John Corcoran (1972) reads Aristotle's syllogistic as a natural-deduction system rather than an axiomatic one, and Jonathan Lear (1980) argues that Łukasiewicz imports Stoic and modern notions and detaches the logic from Aristotle's account of scientific demonstration. The question is how far a modern formal reconstruction can be faithful to the text."
+    },
+    {
+      "id": "goodman-new-riddle",
+      "historian": "Nelson Goodman",
+      "work": "Fact, Fiction, and Forecast",
+      "year": "1955",
+      "claim": "Goodman argued that Hume's problem leaves a second riddle. Grant that the future will resemble the past; the question remains which generalizations observations confirm. Define 'grue' as 'examined before time t and green, or not so examined and blue.' Every observation supporting 'all emeralds are green' equally supports 'all emeralds are grue,' yet the two predict incompatible colours after t. So induction also needs an account of which predicates are projectible, and Goodman's answer is that projectibility rests on a predicate's entrenchment in past usage.",
+      "note": "Critics argue that 'grue' is a gerrymandered, time-indexed predicate and that the riddle concerns language or evidence rather than revealing a gap in inductive logic. Frank Jackson (1975) and Bayesian philosophers such as Colin Howson and Peter Urbach (1989) hold that prior probabilities or a better account of predicates dissolve the paradox. No solution is universally accepted."
+    }
+  ],
+  "activities": [
+    {
+      "id": "valid-meaning",
+      "type": "choice",
+      "prompt": "What does it mean for a deductive argument to be valid?",
+      "choices": [
+        "Its conclusion follows necessarily if its premisses are true",
+        "Its premisses are all true",
+        "Its conclusion is probably true",
+        "It persuades a reasonable audience"
+      ],
+      "answer": 0,
+      "feedback": "Validity is a property of form: the premisses cannot be true while the conclusion is false. Truth of the premisses is a separate matter, which is why soundness adds it."
+    },
+    {
+      "id": "syllogism-necessity",
+      "type": "choice",
+      "prompt": "In Aristotle's definition, the conclusion of a syllogism follows…",
+      "choices": [
+        "of necessity from the things stated",
+        "with a high degree of probability",
+        "from the audience's agreement",
+        "from the most general principles available"
+      ],
+      "answer": 0,
+      "feedback": "Aristotle says the conclusion follows 'of necessity' and that no further term is needed from outside the premisses to make the consequence necessary."
+    },
+    {
+      "id": "middle-term-position",
+      "type": "choice",
+      "prompt": "In a first-figure syllogism, the middle term is…",
+      "choices": [
+        "the subject of one premiss and the predicate of the other",
+        "predicated of both of the other terms",
+        "the subject of the conclusion",
+        "the predicate of the conclusion"
+      ],
+      "answer": 0,
+      "feedback": "The first figure places the middle term between the extremes: 'If A is predicated of all B, and B of all C, A must be predicated of all C.'"
+    },
+    {
+      "id": "modus-tollens-form",
+      "type": "choice",
+      "prompt": "'If P then Q; not Q; therefore not P' is which valid form?",
+      "choices": [
+        "Modus tollens",
+        "Modus ponens",
+        "Affirming the consequent",
+        "Denying the antecedent"
+      ],
+      "answer": 0,
+      "feedback": "Modus tollens denies the consequent and concludes the denial of the antecedent. Its mirror image, affirming the consequent, is invalid."
+    },
+    {
+      "id": "wet-street-fallacy",
+      "type": "choice",
+      "prompt": "'If it rained, the street is wet. The street is wet. Therefore it rained.' What is wrong here?",
+      "choices": [
+        "It affirms the consequent, which is invalid",
+        "It denies the antecedent, which is invalid",
+        "It is a valid modus ponens",
+        "Nothing is wrong; the argument is sound"
+      ],
+      "answer": 0,
+      "feedback": "The street could be wet for another reason. The form 'if P then Q; Q; therefore P' is affirming the consequent, and it does not guarantee the conclusion."
+    },
+    {
+      "id": "black-swan-lesson",
+      "type": "choice",
+      "prompt": "What did the sighting of black swans in Australia in 1697 show about the generalization 'all swans are white'?",
+      "choices": [
+        "A single counter-instance can refute an enumerative generalization",
+        "The generalization had never had any support",
+        "All inductive reasoning is deductively invalid",
+        "White swans do not in fact exist"
+      ],
+      "answer": 0,
+      "feedback": "Enumerative induction can never rule out the next instance, and one observed black swan overturned a generalization that had seemed secure for centuries."
+    },
+    {
+      "id": "mill-difference",
+      "type": "choice",
+      "prompt": "Mill's Method of Difference identifies a cause by…",
+      "choices": [
+        "comparing an instance where the phenomenon occurs with one where it does not, differing in only one circumstance",
+        "comparing instances that agree in only one circumstance",
+        "subtracting from a phenomenon the effects already known",
+        "tracking how one phenomenon varies with another"
+      ],
+      "answer": 0,
+      "feedback": "The second canon says the single circumstance in which the two instances differ is the effect, the cause, or an indispensable part of the cause."
+    },
+    {
+      "id": "hume-circularity",
+      "type": "choice",
+      "prompt": "Why does Hume hold that probable reasoning cannot justify the inference from past to future?",
+      "choices": [
+        "It would assume the very resemblance it is meant to prove",
+        "It belongs to the relations of ideas rather than to matters of fact",
+        "Experience is always mistaken",
+        "The future is by definition unknowable"
+      ],
+      "answer": 0,
+      "feedback": "All probable arguments about matters of fact already suppose that the future will resemble the past, so using one to prove that supposition is going in a circle."
+    },
+    {
+      "id": "abduction-distinct",
+      "type": "choice",
+      "prompt": "Inference to the best explanation differs from enumerative induction in that it…",
+      "choices": [
+        "reasons from a surprising fact to a hypothesis that would explain it",
+        "generalizes from observed instances to all instances",
+        "is deductively valid",
+        "establishes its conclusion with certainty"
+      ],
+      "answer": 0,
+      "feedback": "Peirce's abduction starts from an observed fact and asks what hypothesis would make it a matter of course; it generates explanations rather than generalizing from samples."
+    },
+    {
+      "id": "reflect-deduction-induction",
+      "type": "short-answer",
+      "prompt": "Using the two passages below, explain the difference between the guarantee a valid deductive argument gives and the support an inductive argument gives. Why does Hume think the second kind of support cannot be converted into the first?",
+      "context": "Aristotle: 'A syllogism is discourse in which, certain things being stated, something other than what is stated follows of necessity from their being so.' Hume: 'It is impossible, therefore, that any arguments from experience can prove this resemblance of the past to the future; since all these arguments are founded on the supposition of that resemblance.'",
+      "rubric": [
+        "refers to both passages and distinguishes necessity from probability",
+        "explains that induction assumes the future will resemble the past",
+        "explains why that assumption cannot be proved without circularity"
+      ]
+    }
+  ]
+}

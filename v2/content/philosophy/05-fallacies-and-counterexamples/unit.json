@@ -1,0 +1,192 @@
+{
+  "id": "05-fallacies-and-counterexamples",
+  "title": "Fallacies and counterexamples",
+  "period": "Antiquity to the present",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "aristotle-sophistical-refutations",
+      "title": "From the Sophistical Refutations",
+      "author": "Aristotle",
+      "date": "c. 350 BCE",
+      "citation": "On Sophistical Refutations, Parts 4–5, translated by W. A. Pickard-Cambridge (1928). Text from the Internet Classics Archive.",
+      "license": "Public domain",
+      "url": "https://classics.mit.edu/Aristotle/sophist_refut.html",
+      "file": "sources/aristotle-sophistical-refutations.md",
+      "context": "Aristotle's treatise on the sham refutation, from the logical works later called the Organon. It divides deceptive arguments into six that depend on language and seven that do not, and treats ignorance of what a refutation is as the master fault.",
+      "questions": [
+        "What does Aristotle say the six language-dependent fallacies have in common?",
+        "Why does he treat ignorance of what a refutation is as the master fault?",
+        "How does the wet-ground example illustrate the fallacy of the consequent?"
+      ]
+    },
+    {
+      "id": "locke-four-sorts-of-arguments",
+      "title": "The four sorts of arguments",
+      "author": "John Locke",
+      "date": "1690",
+      "citation": "An Essay Concerning Human Understanding, Book IV, ch. xvii, §§19–22. Text from the 1853 Troutman & Hayes edition, Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/An_Essay_Concerning_Human_Understanding_(Troutman_%26_Hayes_1853)/Book_4/Chapter_XVII",
+      "file": "sources/locke-four-sorts-of-arguments.md",
+      "context": "Locke's survey, in the Essay, of the four ways people try to win assent in argument. He rejects three as unable to advance knowledge and accepts only the argument drawn from the foundations of knowledge themselves.",
+      "questions": [
+        "Which of Locke's four sorts of argument does he think advances knowledge, and why?",
+        "How does Locke describe the argumentum ad hominem?",
+        "What does Locke say the other three arguments can do at best?"
+      ]
+    },
+    {
+      "id": "plato-euthydemus",
+      "title": "The dog is your father",
+      "author": "Plato",
+      "date": "c. 390 BCE",
+      "citation": "Euthydemus, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1598.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1598",
+      "file": "sources/plato-euthydemus.md",
+      "context": "A scene from Plato's comic dialogue on the sophists Euthydemus and Dionysodorus. By shifting the sense of 'father' and 'yours', they argue that a man's dog is his father and its puppies his brothers.",
+      "questions": [
+        "Where in this exchange does a word change its sense?",
+        "What conclusion are the sophists trying to extract from Ctesippus?",
+        "Why does Ctesippus's own reply about his dog make the trap easier to spring?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "hamblin-standard-treatment",
+      "historian": "Charles L. Hamblin",
+      "work": "Fallacies",
+      "year": "1970",
+      "claim": "Hamblin argued that the inherited textbook treatment of fallacies — a list of named errors taught by rote — was confused and unsystematic, and that many so-called fallacies are better understood as violations of the rules of a formal dialogue than as mistakes of logic.",
+      "note": "Later historians of logic, including Hans V. Hansen, reply that the uniform 'standard treatment' Hamblin attacked was partly his own construction, and that the older writers he criticised were more careful and varied than his account allows."
+    },
+    {
+      "id": "walton-pragmatic",
+      "historian": "Douglas N. Walton",
+      "work": "A Pragmatic Theory of Fallacy",
+      "year": "1995",
+      "claim": "Walton argued that whether a move is a fallacy depends on the type of dialogue it occurs in — persuasion, negotiation, inquiry — so that ad hominem, appeal to authority, and slippery slope can be reasonable in one setting and fallacious in another.",
+      "note": "Critics object that making fallacies relative to dialogue types risks losing the normative force of the charge, since almost any move can be defended as appropriate to some dialogue or other."
+    }
+  ],
+  "activities": [
+    {
+      "id": "what-refutes-a-universal",
+      "type": "choice",
+      "prompt": "A universal claim of the form 'every A is B' is refuted by…",
+      "choices": [
+        "One case of an A that is not B",
+        "One case of a B that is not A",
+        "Many cases of A that are B",
+        "The absence of any A"
+      ],
+      "answer": 0,
+      "feedback": "One counterexample is enough: 'some A is not B' contradicts 'every A is B'."
+    },
+    {
+      "id": "gettier-target",
+      "type": "choice",
+      "prompt": "In Gettier's 1963 cases, what did the counterexamples attack?",
+      "choices": [
+        "The claim that knowledge is justified true belief",
+        "The claim that the earth orbits the sun",
+        "The claim that all swans are white",
+        "The claim that causes precede their effects"
+      ],
+      "answer": 0,
+      "feedback": "Gettier described cases that are justified and true but do not seem to be knowledge."
+    },
+    {
+      "id": "equivocation-definition",
+      "type": "choice",
+      "prompt": "Equivocation is the fallacy of…",
+      "choices": [
+        "Shifting the meaning of a word within an argument",
+        "Attacking the arguer instead of the argument",
+        "Appealing to an expert",
+        "Drawing a rule from too few cases"
+      ],
+      "answer": 0,
+      "feedback": "Aristotle's 'those learn who know' turns on 'learn' meaning both to acquire knowledge and to use it."
+    },
+    {
+      "id": "locke-verecundiam",
+      "type": "choice",
+      "prompt": "Locke called the appeal to a respected name argumentum…",
+      "choices": [
+        "ad verecundiam",
+        "ad ignorantiam",
+        "ad hominem",
+        "ad judicium"
+      ],
+      "answer": 0,
+      "feedback": "Ad verecundiam is the appeal to authority; only ad judicium, Locke thought, advances knowledge."
+    },
+    {
+      "id": "post-hoc-meaning",
+      "type": "choice",
+      "prompt": "Post hoc ergo propter hoc mistakes…",
+      "choices": [
+        "Sequence for cause",
+        "A part for a whole",
+        "Authority for reason",
+        "A question for an answer"
+      ],
+      "answer": 0,
+      "feedback": "The phrase means 'after this, therefore because of this'; wet ground may not mean it rained."
+    },
+    {
+      "id": "loaded-question-definition",
+      "type": "choice",
+      "prompt": "A loaded question such as 'Have you stopped beating your wife?' is fallacious because…",
+      "choices": [
+        "It presupposes an answer in the asking",
+        "It offers only two options",
+        "It attacks the arguer",
+        "It assumes the conclusion"
+      ],
+      "answer": 0,
+      "feedback": "Neither yes nor no avoids conceding the presupposition; the remedy is to reject the presupposition."
+    },
+    {
+      "id": "black-swan-scope",
+      "type": "choice",
+      "prompt": "Which claim would a single black swan refute?",
+      "choices": [
+        "All swans are white",
+        "Most swans are white",
+        "99 per cent of swans are white",
+        "Some swans are white"
+      ],
+      "answer": 0,
+      "feedback": "Only the universal claim falls to one case; statistical claims need a rate."
+    },
+    {
+      "id": "no-true-scotsman",
+      "type": "choice",
+      "prompt": "The 'no true Scotsman' move is a way of…",
+      "choices": [
+        "Protecting a claim from a counterexample by redefining the category",
+        "Strengthening an opponent's position before answering",
+        "Testing a definition against a case",
+        "Rejecting a question's presupposition"
+      ],
+      "answer": 0,
+      "feedback": "Antony Flew named the move: the counterexample is excluded by redefining who counts."
+    },
+    {
+      "id": "analyze-dog-father",
+      "type": "short-answer",
+      "prompt": "Using the passage, explain how the argument that 'the dog is your father' works, and identify the ambiguity it exploits.",
+      "context": "'And the dog is the father of them?' 'Yes, he said, I certainly saw him and the mother of the puppies come together.' 'And is he not yours?' 'To be sure he is.' 'Then he is a father, and he is yours; ergo, he is your father, and the puppies are your brothers.'",
+      "rubric": [
+        "identifies the conclusion the argument draws",
+        "names the ambiguity or shift in a word such as 'father' or 'yours'",
+        "uses a specific phrase from the passage"
+      ]
+    }
+  ]
+}

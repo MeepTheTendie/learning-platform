@@ -1,0 +1,205 @@
+{
+  "id": "01-what-is-philosophy",
+  "title": "What is philosophy?",
+  "period": "Antiquity to the present",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "plato-apology",
+      "title": "The unexamined life",
+      "author": "Plato",
+      "date": "399 BCE (written c. 390 BCE)",
+      "citation": "Apology, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1656.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1656",
+      "file": "sources/plato-apology.md",
+      "context": "Plato's reconstruction of Socrates' defence at his trial in Athens in 399 BCE. Socrates argues that the fear of death is a false claim to wisdom, compares himself to a gadfly, and says the unexamined life is not worth living.",
+      "questions": [
+        "Why does Socrates say the fear of death is a pretence of wisdom?",
+        "What does Socrates mean by comparing himself to a gadfly?",
+        "What does he claim to know, and what does he claim not to know?"
+      ]
+    },
+    {
+      "id": "aristotle-metaphysics",
+      "title": "All men by nature desire to know",
+      "author": "Aristotle",
+      "date": "c. 350 BCE",
+      "citation": "Metaphysics, Book I.1-2, translated by W. D. Ross (1908). Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Metaphysics_(Ross,_1908)/Book_1",
+      "file": "sources/aristotle-metaphysics.md",
+      "context": "The opening of Aristotle's Metaphysics, which distinguishes sensation, memory, experience, art, and wisdom, and argues that wisdom is knowledge of first causes and principles.",
+      "questions": [
+        "What distinction does Aristotle draw between experience and art?",
+        "Why does he say the master-worker is wiser than the manual worker?",
+        "What does he claim wisdom is knowledge of?"
+      ]
+    },
+    {
+      "id": "descartes-method",
+      "title": "Good sense and the method of doubt",
+      "author": "René Descartes",
+      "date": "1637",
+      "citation": "Discourse on Method, Parts I, II, and IV, translated by John Veitch. Project Gutenberg eBook 59.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/59",
+      "file": "sources/descartes-method.md",
+      "context": "Descartes argues that reason is equal in all people and that error comes from how it is used. He sets out four rules of method and, doubting everything he can, reaches the certainty that he is thinking.",
+      "questions": [
+        "Why does Descartes think the diversity of opinions does not come from unequal reason?",
+        "What are his four rules, and what does the first rule forbid?",
+        "How does he use doubt to reach something he cannot doubt?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "vlastos-socratic-irony",
+      "historian": "Gregory Vlastos",
+      "work": "Socrates: Ironist and Moral Philosopher",
+      "year": "1991",
+      "claim": "Vlastos argued that the Socrates of Plato's early dialogues is a sincere moral philosopher: his profession of ignorance is real, his cross-examination is a search for truth, and his irony is 'complex' - he means what he says about virtue even while denying that he knows.",
+      "note": "Other scholars doubt that the historical Socrates can be recovered from Plato's literary dialogues, and some read him as a purely negative questioner or a sceptic rather than the holder of positive moral beliefs. The debate turns on what the early dialogues can be evidence for."
+    },
+    {
+      "id": "russell-value-of-philosophy",
+      "historian": "Bertrand Russell",
+      "work": "The Problems of Philosophy",
+      "year": "1912",
+      "claim": "Russell argued that the value of philosophy lies in the uncertainty it produces rather than in settled answers: by questioning what common sense takes for granted, it frees the mind from prejudice, enlarges the self, and keeps alive the sense of wonder.",
+      "note": "Critics reply that this sells philosophy short, since logic, philosophy of language, and philosophy of science have produced real if partial knowledge, and that philosophy is a discipline of argument rather than a mood of contemplation."
+    }
+  ],
+  "activities": [
+    {
+      "id": "supported-claim",
+      "type": "choice",
+      "prompt": "What best distinguishes a supported claim from a mere opinion?",
+      "choices": [
+        "It is backed by reasons that can be examined",
+        "It is held with strong feeling",
+        "It is shared by many people",
+        "It has never been questioned"
+      ],
+      "answer": 0,
+      "feedback": "The difference is the relation to reasons: a supported claim offers reasons, and those reasons can be inspected."
+    },
+    {
+      "id": "socratic-elenchus",
+      "type": "choice",
+      "prompt": "Socrates' method of cross-examination by question and objection is called...",
+      "choices": [
+        "The elenchus",
+        "The syllogism",
+        "The categorical imperative",
+        "The veil of ignorance"
+      ],
+      "answer": 0,
+      "feedback": "The elenchus proceeds by proposal, objection, and revised proposal, and often ends in aporia, the state of being stuck."
+    },
+    {
+      "id": "unexamined-life",
+      "type": "choice",
+      "prompt": "In the Apology, Socrates says that the unexamined life is...",
+      "choices": [
+        "Not worth living",
+        "The happiest life",
+        "Reserved for the wise",
+        "A danger to the city"
+      ],
+      "answer": 0,
+      "feedback": "He says that daily discourse about virtue and examining himself and others is the greatest good of man."
+    },
+    {
+      "id": "deduction-validity",
+      "type": "choice",
+      "prompt": "A deductive argument is valid when...",
+      "choices": [
+        "The conclusion follows necessarily if the premises are true",
+        "The conclusion is in fact true",
+        "The premises are widely accepted",
+        "The conclusion is merely probable"
+      ],
+      "answer": 0,
+      "feedback": "Validity concerns form, not truth: a valid argument with a false premise can still yield a false conclusion."
+    },
+    {
+      "id": "principle-of-charity",
+      "type": "choice",
+      "prompt": "The principle of charity says that an interpreter should...",
+      "choices": [
+        "Read a speaker's words in their strongest, most reasonable form",
+        "Agree with the speaker to avoid conflict",
+        "Assume the speaker's words are literally true",
+        "Refuse to interpret until the speaker clarifies"
+      ],
+      "answer": 0,
+      "feedback": "Charity aims at understanding the best case for a view, which is a condition of rejecting it honestly."
+    },
+    {
+      "id": "metaphysics-question",
+      "type": "choice",
+      "prompt": "Which of these questions belongs to metaphysics?",
+      "choices": [
+        "What kinds of things exist?",
+        "How should a jury reach a verdict?",
+        "What makes a painting beautiful?",
+        "Which forms of inference are valid?"
+      ],
+      "answer": 0,
+      "feedback": "Metaphysics asks what there is and what it is like; the others belong to ethics and law, aesthetics, and logic."
+    },
+    {
+      "id": "gettier",
+      "type": "choice",
+      "prompt": "Edmund Gettier's 1963 paper challenged the traditional definition of knowledge as...",
+      "choices": [
+        "Justified true belief",
+        "True opinion",
+        "Certain sensation",
+        "Practical skill"
+      ],
+      "answer": 0,
+      "feedback": "Gettier gave cases of justified true belief that are not knowledge, because the justification rests on a false assumption."
+    },
+    {
+      "id": "philosophy-not",
+      "type": "choice",
+      "prompt": "On the account given in the unit, which of these is philosophy not?",
+      "choices": [
+        "A body of settled facts",
+        "A practice of giving and testing reasons",
+        "A set of open questions",
+        "A conversation across centuries"
+      ],
+      "answer": 0,
+      "feedback": "Some results are permanent, especially in logic, but philosophy does not accumulate a settled body of doctrine the way a natural science does."
+    },
+    {
+      "id": "descartes-doubt",
+      "type": "choice",
+      "prompt": "Descartes used doubt in order to...",
+      "choices": [
+        "Reach something that could not be doubted",
+        "Prove that nothing can be known",
+        "Avoid having to decide anything",
+        "Show that reason is unequal in people"
+      ],
+      "answer": 0,
+      "feedback": "He rejected whatever could be doubted in order to see whether anything remained, and found the certainty that he was thinking."
+    },
+    {
+      "id": "good-reason",
+      "type": "short-answer",
+      "prompt": "Using the passages, explain what each thinker treats as a good reason to change one's mind, and what each treats as a false ground for confidence.",
+      "context": "Socrates: 'the unexamined life is not worth living.' Descartes: 'I ought to reject as absolutely false all opinions in regard to which I could suppose the least ground for doubt... and as I observed that this truth, I think, therefore I am... was so certain... I concluded that I might... accept it as the first principle.'",
+      "rubric": [
+        "refers to both passages",
+        "states what each thinker treats as a reason and as a false ground",
+        "uses a specific phrase from one of the texts"
+      ]
+    }
+  ]
+}
