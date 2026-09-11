@@ -1,0 +1,161 @@
+{
+  "id": "08-roman-empire",
+  "title": "Governing Rome's empire",
+  "period": "c. 27 BCE–476 CE",
+  "region": "Mediterranean · Rhine · Danube",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "res-gestae",
+      "title": "The Deeds of the Divine Augustus (selected chapters)",
+      "author": "Augustus, emperor of Rome",
+      "date": "14 CE",
+      "citation": "Monumentum Ancyranum: The Deeds of Augustus, edited and translated by William Fairley (1898). Project Gutenberg eBook 66595.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/66595",
+      "file": "sources/res-gestae.md",
+      "context": "Augustus set up a record of his achievements to be cut on bronze pillars at Rome; copies were carved on the walls of a temple at Ancyra, in Asia Minor. He lists his offices, his armies, the census counts, and the provinces he added. It is a self-justifying account, not a neutral record.",
+      "questions": [
+        "Augustus says he held 'no more power' than a colleague. What in the text shows a power that no colleague could match?",
+        "The census numbers count adult male Roman citizens. What does the text claim the state is entitled to do with the people it counts?",
+        "He says he could have made Armenia a province but chose not to. What does that choice assume about how an empire should be run?"
+      ]
+    },
+    {
+      "id": "pliny-trajan-christians",
+      "title": "Pliny and Trajan on the Christians",
+      "author": "Pliny the Younger and Trajan",
+      "date": "c. 112 CE",
+      "citation": "Letters of Pliny, translated by William Melmoth, revised by F. C. T. Bosanquet, Book X, Letters 96–97. Project Gutenberg eBook 2811.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/2811",
+      "file": "sources/pliny-trajan-christians.md",
+      "context": "Pliny governed Bithynia and Pontus for Trajan and wrote to the emperor about anything uncertain, including how to try people accused of Christianity. The pair is a letter and an imperial rescript — the two halves of provincial administration.",
+      "questions": [
+        "What does Pliny say he did before writing to the emperor, and what does that show about the limits of a governor's authority?",
+        "Trajan forbids anonymous accusations. Whom does that rule protect, and whom does it leave exposed?",
+        "Pliny reports that the temples are busy again. Why does he include that, and how should it affect our reading?"
+      ]
+    },
+    {
+      "id": "ammianus-huns",
+      "title": "The Huns described",
+      "author": "Ammianus Marcellinus",
+      "date": "c. 390 CE",
+      "citation": "The Roman History of Ammianus Marcellinus, translated by C. D. Yonge (1862), Book XXXI.2. Project Gutenberg eBook 28587.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/28587",
+      "file": "sources/ammianus-huns.md",
+      "context": "Ammianus, a former army officer, wrote the last great Latin history of Rome. Here he pauses before narrating the Gothic war to describe the Huns, the people whose pressure helped push the Goths across the Danube in 376 CE.",
+      "questions": [
+        "Ammianus never says how he learned all this. What can his account tell us about the Huns, and what can it only tell us about Romans?",
+        "He says the Huns 'are not under the authority of a king.' Why would a Roman reader find that both strange and frightening?",
+        "Which details are claims about Hunnic customs, and which are insults in the form of description?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "brown-late-antiquity",
+      "historian": "Peter Brown",
+      "work": "The World of Late Antiquity, AD 150–750",
+      "year": "1971",
+      "claim": "Brown argued that the centuries once called a decline and fall are better understood as a period of transformation, in which Christianity, new kingdoms, and new cultural forms grew out of the Roman world rather than simply replacing it.",
+      "note": "This reframing shaped a whole field, but critics answer that calling the period creative can play down the violence, lost trade, and falling population that came with the end of Roman rule."
+    },
+    {
+      "id": "ward-perkins-fall-catastrophe",
+      "historian": "Bryan Ward-Perkins",
+      "work": "The Fall of Rome and the End of Civilization",
+      "year": "2005",
+      "claim": "Ward-Perkins argued that the western empire's collapse was a genuine catastrophe for ordinary people, visible in the disappearance of mass-produced pottery, coinage, long-distance trade, and widespread literacy.",
+      "note": "Heather accepts a real fall but stresses external shock and the loss of tax revenue, while Brown and others read continuity and change. The same material evidence is read differently, which is why the argument is unsettled."
+    }
+  ],
+  "activities": [
+    {
+      "id": "principate-settlement",
+      "type": "choice",
+      "prompt": "After 27 BCE Augustus held power through…",
+      "choices": ["A new hereditary kingship", "A bundle of old offices, above all proconsular command and the tribunician power", "The office of dictator for life", "Election by the army alone"],
+      "answer": 1,
+      "feedback": "He took no new office. The principate was built from existing powers, above all command of the provinces where the legions stood."
+    },
+    {
+      "id": "provincia-meaning",
+      "type": "choice",
+      "prompt": "In Roman usage, a *provincia* was originally…",
+      "choices": ["A task or sphere of command assigned to a magistrate", "A province always ruled by a king", "A tax paid by Roman citizens", "A frontier fort"],
+      "answer": 0,
+      "feedback": "It first meant the job or command given to a magistrate; only later did it come to mean a subject territory."
+    },
+    {
+      "id": "praetorian-guard",
+      "type": "choice",
+      "prompt": "Which body guarded the emperor in Italy and decided who would rule in 41 and 193 CE?",
+      "choices": ["The legions of the Rhine", "The urban cohorts of Ostia", "The praetorian guard", "The allied Gothic federates"],
+      "answer": 2,
+      "feedback": "The nine praetorian cohorts were the only armed force near Rome, and the guard made and unmade emperors."
+    },
+    {
+      "id": "auxiliary-citizenship",
+      "type": "choice",
+      "prompt": "How did the army extend Roman citizenship under the empire?",
+      "choices": ["By giving it to every slave at birth", "By granting it to auxiliaries after twenty-five years of service", "By selling it at auction each year", "By withholding it from all provincials"],
+      "answer": 1,
+      "feedback": "An auxiliary who completed his term received citizenship for himself and his children, recorded on a bronze diploma."
+    },
+    {
+      "id": "caracalla-edict",
+      "type": "choice",
+      "prompt": "What did Caracalla's Antonine Constitution of 212 CE do?",
+      "choices": ["Abolished the senate", "Made Christianity legal", "Granted Roman citizenship to nearly all free inhabitants", "Fixed the price of grain"],
+      "answer": 2,
+      "feedback": "Cassius Dio says Caracalla wanted more people paying taxes that fell on citizens. Whatever the motive, the legal line between conqueror and conquered largely vanished."
+    },
+    {
+      "id": "pliny-trajan-policy",
+      "type": "choice",
+      "prompt": "In his reply to Pliny, Trajan ruled that Christians should be…",
+      "choices": ["Not sought out, but punished if accused and convicted", "Hunted down throughout the province", "Freed without any hearing", "Tried only by the senate at Rome"],
+      "answer": 0,
+      "feedback": "Trajan also barred anonymous accusations, a rule that protected the accused from secret denunciation but left known Christians exposed."
+    },
+    {
+      "id": "colonus",
+      "type": "choice",
+      "prompt": "A *colonus* in the Roman empire was…",
+      "choices": ["A soldier of the praetorian guard", "A tenant farmer, later often bound to the land", "A provincial governor", "A priest of the imperial cult"],
+      "answer": 1,
+      "feedback": "Tenants paid rent, often a share of the crop. In the later empire many were bound to the land, a condition historians call the colonate."
+    },
+    {
+      "id": "tetrarchy",
+      "type": "choice",
+      "prompt": "Diocletian's tetrarchy divided rule among…",
+      "choices": ["Four elected consuls", "The senate and the people", "Two praetorian prefects only", "Two Augusti and two Caesars"],
+      "answer": 3,
+      "feedback": "Each of the four rulers had a capital and a field army; the system was meant to end the cycle of usurpation."
+    },
+    {
+      "id": "end-476",
+      "type": "choice",
+      "prompt": "What happened in 476 CE?",
+      "choices": ["Odoacer deposed the western emperor and sent the regalia east", "The eastern empire fell to Persia", "Rome was founded", "Caracalla granted citizenship"],
+      "answer": 0,
+      "feedback": "The western imperial office ended, but the senate, Roman law, the church, and the eastern empire continued."
+    },
+    {
+      "id": "authority-evidence",
+      "type": "short-answer",
+      "prompt": "Compare how Augustus in the *Res Gestae* and Pliny in his letter to Trajan each describe the exercise of imperial authority. What does each source take for granted?",
+      "context": "Augustus: 'I transferred the commonwealth from my own dominion to the authority of the senate and Roman people… of power I held no more than those also held who were my colleagues in any magistracy.' — Pliny: 'It is my invariable rule, Sir, to refer to you in all matters where I feel doubtful.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each author takes for granted about authority",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}

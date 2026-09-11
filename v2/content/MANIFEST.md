@@ -66,3 +66,53 @@ c. 500–146 BCE · Athens · Alexandria · the Mediterranean
 - interpretation: M. I. Finley, *Ancient Slavery and Modern Ideology* (1980)
 - interpretation: Josiah Ober, *Mass and Elite in Democratic Athens* (1989)
 
+## 07-roman-republic — Rome: city, republic, Mediterranean power
+
+c. 509–27 BCE · Italy and the western Mediterranean
+
+- **The founding of Rome: Romulus, Remus, and the first senate** — Titus Livius (Livy), c. 27 BCE–17 CE, describing the eighth century BCE. Public domain. The History of Rome, Books 1–8, translated by D. Spillan. Project Gutenberg eBook 19725.
+- **The Roman constitution: consuls, senate, and people** — Polybius of Megalopolis, c. 140 BCE, describing the mid-second century BCE. Public domain. The Histories, translated by Evelyn S. Shuckburgh (1889), Book VI.11–14. Project Gutenberg eBook 44125.
+- **Tiberius Gracchus and the land law** — Plutarch of Chaeronea, c. 100 CE, describing events of 133 BCE. Public domain. Plutarch's Lives, translated by John Dryden and revised by Arthur Hugh Clough (1864). Project Gutenberg eBook 674.
+- interpretation: Ronald Syme, *The Roman Revolution* (1939)
+- interpretation: Harriet Flower, *Roman Republics* (2010)
+
+## 08-roman-empire — Governing Rome's empire
+
+c. 27 BCE–476 CE · Mediterranean · Rhine · Danube
+
+- **The Deeds of the Divine Augustus (selected chapters)** — Augustus, emperor of Rome, 14 CE. Public domain. Monumentum Ancyranum: The Deeds of Augustus, edited and translated by William Fairley (1898). Project Gutenberg eBook 66595.
+- **Pliny and Trajan on the Christians** — Pliny the Younger and Trajan, c. 112 CE. Public domain. Letters of Pliny, translated by William Melmoth, revised by F. C. T. Bosanquet, Book X, Letters 96–97. Project Gutenberg eBook 2811.
+- **The Huns described** — Ammianus Marcellinus, c. 390 CE. Public domain. The Roman History of Ammianus Marcellinus, translated by C. D. Yonge (1862), Book XXXI.2. Project Gutenberg eBook 28587.
+- interpretation: Peter Brown, *The World of Late Antiquity, AD 150–750* (1971)
+- interpretation: Bryan Ward-Perkins, *The Fall of Rome and the End of Civilization* (2005)
+
+## 09-successors — Successors to the ancient empires
+
+c. 395–900 CE · Byzantium · Arabia · the Latin West
+
+- **On the Great Church (Hagia Sophia)** — Procopius of Caesarea, c. 554 CE. Public domain. Procopius, De Aedificiis, Book I, translated by W. Lethaby and H. Swainson, in The Church of St. Sophia Constantinople (New York, 1894), pp. 24–28. Internet Medieval Sourcebook, Fordham University.
+- **Suras from the Quran** — The Quran (translated by J. M. Rodwell), Revealed 610–632 CE; Rodwell translation 1861. Public domain. The Koran, translated by J. M. Rodwell (London: J. M. Dent, 1861). Project Gutenberg eBook 2800.
+- **The life of Charlemagne (selected chapters)** — Einhard, c. 830 CE; Turner translation 1880. Public domain. Einhard, Life of Charlemagne, translated by Samuel Epes Turner (New York: Harper and Brothers, 1880). Internet Medieval Sourcebook, Fordham University.
+- interpretation: Peter Brown, *The World of Late Antiquity, AD 150–750* (1971)
+- interpretation: Fred M. Donner, *Muhammad and the Believers: At the Origins of Islam* (2010)
+
+## 10-medieval-authority — Land, churches, and medieval authority
+
+c. 900–1300 CE · Western Europe and the eastern Mediterranean
+
+- **Magna Carta (selected clauses)** — King John of England and the barons, 1215. Public domain. Magna Carta, 1215, translated in the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
+- **The Dictatus Papae** — A papal register associated with Gregory VII, 1075 (surviving collection c. 1090). Public domain. Dictatus Papae, in Oliver J. Thatcher and Edgar Holmes McNeal, eds., A Source Book of Mediæval History (New York: Charles Scribner's Sons, 1905), pp. 136–138. Project Gutenberg eBook 42707.
+- **Urban II at Clermont: the call to the First Crusade** — Fulcher of Chartres, 1095 (Fulcher wrote c. 1100–1127). Public domain. Fulcher of Chartres, in Oliver J. Thatcher and Edgar Holmes McNeal, eds., A Source Book of Mediæval History (New York: Charles Scribner's Sons, 1905), pp. 513–517. Project Gutenberg eBook 42707.
+- interpretation: Elizabeth A. R. Brown, *The Tyranny of a Construct: Feudalism and Historians of Medieval Europe* (1974)
+- interpretation: Susan Reynolds, *Fiefs and Vassals: The Medieval Evidence Reinterpreted* (1994)
+
+## 11-connected-world — A more connected medieval world
+
+c. 1200–1500 CE · Eurasia and the Mediterranean
+
+- **The Kaan's posts and runners** — Marco Polo, as written down by Rustichello of Pisa, c. 1298, describing the 1270s. Public domain. The Travels of Marco Polo, translated by Henry Yule, revised by Henri Cordier (1903), Book II, Chapter XXVI. Project Gutenberg eBook 10636.
+- **The plague in Florence** — Giovanni Boccaccio, c. 1350–1353, describing 1348. Public domain. The Decameron, translated by J. M. Rigg (1903), First Day, Introduction. Project Gutenberg eBook 3726.
+- **Möngke Khan on the religions of his empire** — William of Rubruck, reporting the words of Möngke Khan, 1253–1255 (written c. 1255). Public domain. The Journey of William of Rubruck to the Eastern Parts of the World, 1253–55, translated by William Woodville Rockhill (Hakluyt Society, 1900), pp. 234–236.
+- interpretation: Janet L. Abu-Lughod, *Before European Hegemony: The World System A.D. 1250–1350* (1989)
+- interpretation: William H. McNeill, *Plagues and Peoples* (1976)
+

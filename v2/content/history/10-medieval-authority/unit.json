@@ -1,0 +1,165 @@
+{
+  "id": "10-medieval-authority",
+  "title": "Land, churches, and medieval authority",
+  "period": "c. 900–1300 CE",
+  "region": "Western Europe and the eastern Mediterranean",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "magna-carta",
+      "title": "Magna Carta (selected clauses)",
+      "author": "King John of England and the barons",
+      "date": "1215",
+      "citation": "Magna Carta, 1215, translated in the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/medieval/magna.asp",
+      "file": "sources/magna-carta.md",
+      "context": "A charter sealed by King John at Runnymede in June 1215 after a revolt by his barons. It was annulled within weeks and reissued in modified form, but its clauses on taxation, justice, and the barons' right to resist were copied for centuries.",
+      "questions": [
+        "Clause 1 frees the English Church. Who else does the charter protect, and who is left outside it?",
+        "What does clause 12 require before a new tax can be levied?",
+        "Clause 39 promises judgment by peers and the law of the land. Who counted as a peer, and who did not?",
+        "Clause 61 lets the barons seize the king's castles. What kind of document does that make this?",
+        "The charter protects free men. What does it assume about the villeins who were not free?"
+      ]
+    },
+    {
+      "id": "dictatus-papae",
+      "title": "The Dictatus Papae",
+      "author": "A papal register associated with Gregory VII",
+      "date": "1075 (surviving collection c. 1090)",
+      "citation": "Dictatus Papae, in Oliver J. Thatcher and Edgar Holmes McNeal, eds., A Source Book of Mediæval History (New York: Charles Scribner's Sons, 1905), pp. 136–138. Project Gutenberg eBook 42707.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/42707",
+      "file": "sources/dictatus-papae.md",
+      "context": "Twenty-seven brief statements entered in the papal register in 1075 and associated with Gregory VII. They claim for the bishop of Rome the power to depose bishops and emperors, to make laws, and to release subjects from their oaths. The surviving collection may date from about 1090 and was not necessarily written by Gregory himself, but it states the programme of the reform papacy.",
+      "questions": [
+        "Which of these claims concern the church alone, and which reach into the rule of kingdoms?",
+        "Clause 27 releases subjects from oaths to rulers. What does that make of a vassal's obligation?",
+        "Clause 19 says the pope can be judged by no one. What kind of authority is being claimed?",
+        "What does the list assume about the relationship between the church and the empire?"
+      ]
+    },
+    {
+      "id": "fulcher-clermont",
+      "title": "Urban II at Clermont: the call to the First Crusade",
+      "author": "Fulcher of Chartres",
+      "date": "1095 (Fulcher wrote c. 1100–1127)",
+      "citation": "Fulcher of Chartres, in Oliver J. Thatcher and Edgar Holmes McNeal, eds., A Source Book of Mediæval History (New York: Charles Scribner's Sons, 1905), pp. 513–517. Project Gutenberg eBook 42707.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/42707",
+      "file": "sources/fulcher-clermont.md",
+      "context": "Fulcher of Chartres took part in the First Crusade and wrote his account years later. He reports the speech Pope Urban II gave at the council of Clermont in November 1095, urging knights and commoners to aid the eastern Christians and recover Jerusalem. Four writers who heard the pope recorded versions; no transcript survives.",
+      "questions": [
+        "What does Urban offer to those who go, and what does he ask them to leave behind?",
+        "How does the speech turn private warfare among Christians into a war against those outside?",
+        "What does the speech assume about the eastern Christians and about the pope's power to forgive sins?",
+        "Fulcher wrote years later and did not use a transcript. What is this account good evidence for?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "brown-tyranny-construct",
+      "historian": "Elizabeth A. R. Brown",
+      "work": "The Tyranny of a Construct: Feudalism and Historians of Medieval Europe",
+      "year": "1974",
+      "claim": "Brown argued that 'feudalism' is not a medieval reality but a construct invented by later lawyers and historians, and that using it as an explanation imposes an order on the evidence that the evidence does not support. Historians, she held, should describe particular relationships of land and lordship rather than invoke a system.",
+      "note": "Other medievalists think some general term is still needed for the widespread ties of lordship and military service, and that Brown's attack, while bracing, leaves nothing in their place."
+    },
+    {
+      "id": "reynolds-fiefs-vassals",
+      "historian": "Susan Reynolds",
+      "work": "Fiefs and Vassals: The Medieval Evidence Reinterpreted",
+      "year": "1994",
+      "claim": "Reynolds argued that the tidy model of fief and vassal was largely the creation of twelfth-century jurists and later scholars. The medieval evidence, she held, shows property and lordship arranged in many different ways, with hereditary right common and personal dependence less central than the model assumes.",
+      "note": "Some historians reply that Reynolds reads the sources too narrowly and that the language of fief and homage really did shape how lords and vassals acted, even if the system was never uniform."
+    }
+  ],
+  "activities": [
+    {
+      "id": "manor-definition",
+      "type": "choice",
+      "prompt": "What was a manor?",
+      "choices": ["A lord's estate and the peasant tenancies that worked it", "A fortified royal castle", "A town chartered by the king", "A monastery's scriptorium"],
+      "answer": 0,
+      "feedback": "The manor combined the lord's own fields, the demesne, with the tenancies of the peasants who farmed the rest."
+    },
+    {
+      "id": "fief-meaning",
+      "type": "choice",
+      "prompt": "A fief was…",
+      "choices": ["Land or a right held of a lord in return for service", "A tax paid to the church", "A peasant's strip in the open fields", "A charter of town liberties"],
+      "answer": 0,
+      "feedback": "A fief was held, not owned outright; it carried service to the lord and passed to an heir only through him."
+    },
+    {
+      "id": "serf-obligation",
+      "type": "choice",
+      "prompt": "Which obligation marked an unfree villein rather than a free tenant?",
+      "choices": ["Labour services on the lord's demesne", "Rent paid in money", "Suit at the king's court", "Service as a knight"],
+      "answer": 0,
+      "feedback": "Villeins owed labour on the demesne, often two or three days a week, and could not leave the manor without the lord's leave."
+    },
+    {
+      "id": "canossa",
+      "type": "choice",
+      "prompt": "At Canossa in 1077, Henry IV…",
+      "choices": ["Stood barefoot in the snow to be absolved by the pope", "Captured and deposed the pope", "Signed the Concordat of Worms", "Took the cross for the First Crusade"],
+      "answer": 0,
+      "feedback": "Gregory's own letter describes the king at the gate barefoot in woollen garments for three days, until the excommunication was lifted."
+    },
+    {
+      "id": "dictatus-claim",
+      "type": "choice",
+      "prompt": "The Dictatus Papae claimed for the pope the power to…",
+      "choices": ["Depose emperors and release subjects from their oaths", "Appoint the king of France", "Command the English common law", "Levy scutage on royal vassals"],
+      "answer": 0,
+      "feedback": "The list reached into temporal rule: clause 12 claims the power to depose emperors, and clause 27 the power to absolve subjects of their oaths."
+    },
+    {
+      "id": "magna-carta-39",
+      "type": "choice",
+      "prompt": "Clause 39 of Magna Carta promised that no free man would be imprisoned except…",
+      "choices": ["By the lawful judgment of his peers or by the law of the land", "By the king's personal order", "By a church court", "By a vote of the barons"],
+      "answer": 0,
+      "feedback": "The clause bound the king to the law of the land, though it protected only those counted as free."
+    },
+    {
+      "id": "common-law",
+      "type": "choice",
+      "prompt": "The English common law grew from…",
+      "choices": ["Royal justices, writs, and juries sent through the counties", "Roman law taught at Bologna", "The decrees of the Fourth Lateran Council", "The customs of the Champagne fairs"],
+      "answer": 0,
+      "feedback": "Henry II's itinerant justices and standard writs and assizes made one royal law common to the whole realm."
+    },
+    {
+      "id": "fourth-crusade",
+      "type": "choice",
+      "prompt": "The Fourth Crusade (1202–1204) ended by…",
+      "choices": ["Sacking Constantinople", "Retaking Jerusalem", "Conquering Egypt", "Capturing Damascus"],
+      "answer": 0,
+      "feedback": "Diverted to Constantinople, the crusade sacked the greatest Christian city in the world and set up a Latin empire."
+    },
+    {
+      "id": "feudalism-debate",
+      "type": "choice",
+      "prompt": "What did Elizabeth A. R. Brown argue about 'feudalism'?",
+      "choices": ["That it is a construct historians imposed on a varied past", "That it was a single uniform system", "That it began at Canossa", "That it applied only to England"],
+      "answer": 0,
+      "feedback": "Brown's 'Tyranny of a Construct' (1974) attacked the term as a later invention that explains less than it hides."
+    },
+    {
+      "id": "authority-compare",
+      "type": "short-answer",
+      "prompt": "The Dictatus Papae and Magna Carta both describe limits on power. Compare what each source claims about who holds authority and how it may be constrained.",
+      "context": "Dictatus Papae, clause 12: 'That he has the power to depose emperors.' Clause 27: 'That he has the power to absolve subjects from their oath of fidelity to wicked rulers.' — Magna Carta, clause 12: 'No scutage nor aid shall be imposed on our kingdom, unless by common counsel of our kingdom.' Clause 61: '… those five and twenty barons shall, together with the community of the whole realm, distrain and distress us in all possible ways … until redress has been obtained.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each claims about who holds authority",
+        "uses a specific clause or phrase from the texts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "07-roman-republic",
+  "title": "Rome: city, republic, Mediterranean power",
+  "period": "c. 509–27 BCE",
+  "region": "Italy and the western Mediterranean",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "livy-founding",
+      "title": "The founding of Rome: Romulus, Remus, and the first senate",
+      "author": "Titus Livius (Livy)",
+      "date": "c. 27 BCE–17 CE, describing the eighth century BCE",
+      "citation": "The History of Rome, Books 1–8, translated by D. Spillan. Project Gutenberg eBook 19725.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/19725",
+      "file": "sources/livy-founding.md",
+      "context": "Livy wrote under Augustus, seven centuries after the events he narrates. He tells the story of the twins, the she-wolf, and the founding, and often reports more than one version of a story rather than choosing between them.",
+      "questions": [
+        "Livy gives more than one account of how Remus died. What does that tell us about how he used his sources?",
+        "The she-wolf is central to the story. How does Livy himself explain that some people told it differently?",
+        "What does the story of Romulus opening an asylum and creating a hundred senators assume about how a city grows?"
+      ]
+    },
+    {
+      "id": "polybius-constitution",
+      "title": "The Roman constitution: consuls, senate, and people",
+      "author": "Polybius of Megalopolis",
+      "date": "c. 140 BCE, describing the mid-second century BCE",
+      "citation": "The Histories, translated by Evelyn S. Shuckburgh (1889), Book VI.11–14. Project Gutenberg eBook 44125.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/44125",
+      "file": "sources/polybius-constitution.md",
+      "context": "Polybius was a Greek statesman held at Rome as a hostage. He wrote for Greek readers to explain how Rome had conquered the Mediterranean in little more than fifty years, and paused to describe the constitution as he saw it.",
+      "questions": [
+        "Polybius says a visitor could mistake Rome for an aristocracy, a democracy, or a despotism. Which parts of the constitution support each reading?",
+        "According to this account, who controls the treasury, and who declares war? What does that division assume?",
+        "Polybius wrote as a Greek explaining Rome to Greeks. What might he notice, or miss, that a Roman senator would not?"
+      ]
+    },
+    {
+      "id": "plutarch-gracchus",
+      "title": "Tiberius Gracchus and the land law",
+      "author": "Plutarch of Chaeronea",
+      "date": "c. 100 CE, describing events of 133 BCE",
+      "citation": "Plutarch's Lives, translated by John Dryden and revised by Arthur Hugh Clough (1864). Project Gutenberg eBook 674.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/674",
+      "file": "sources/plutarch-gracchus.md",
+      "context": "Plutarch, a Greek biographer writing two and a half centuries after the events, tells the story of Tiberius Gracchus, the tribune who tried to redistribute public land and was killed in the Forum with three hundred of his supporters.",
+      "questions": [
+        "Plutarch describes the land law as 'moderate and gentle.' What did it actually propose, and who opposed it?",
+        "The speech puts words in Tiberius' mouth. What is the argument, and what does it assume about the men who fought for Rome?",
+        "Plutarch wrote long after the events. Which details in his account of the killing look like evidence, and which look like storytelling?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "syme-roman-revolution",
+      "historian": "Ronald Syme",
+      "work": "The Roman Revolution",
+      "year": "1939",
+      "claim": "Syme argued that the republic was never a balanced constitution but the rule of a narrow oligarchy. What fell in the civil wars was not liberty but one faction's monopoly of power, and the settlement of 27 BCE was a revolution that kept the old vocabulary.",
+      "note": "Syme wrote while Europe's dictatorships were rising, and some historians think that shaped his reading. His account stresses a few great families and their clients more than the assemblies or the poor."
+    },
+    {
+      "id": "flower-roman-republics",
+      "historian": "Harriet Flower",
+      "work": "Roman Republics",
+      "year": "2010",
+      "claim": "Flower argued that there was no single 'Roman Republic' with one continuous constitution. Rome passed through a series of republics with different rules, and the regime Sulla built after 82 BCE was already a new one, so the search for one cause of one collapse is misplaced.",
+      "note": "This challenges the familiar story of a slow decline from a single founding. It shifts attention from one moment of fall to the repeated remaking of the rules."
+    }
+  ],
+  "activities": [
+    {
+      "id": "founders",
+      "type": "choice",
+      "prompt": "According to Roman tradition, who founded the city of Rome?",
+      "choices": ["Romulus and Remus", "Aeneas and Ascanius", "Numa and Tullus", "Brutus and Collatinus"],
+      "answer": 0,
+      "feedback": "The twins Romulus and Remus were said to have been suckled by a she-wolf; the traditional founding date was 21 April 753 BCE."
+    },
+    {
+      "id": "archaeology",
+      "type": "choice",
+      "prompt": "What does the archaeology of the Palatine actually show?",
+      "choices": ["A settlement and an early wall, but no twins or wolf", "The hut of Romulus, intact", "The original she-wolf statue", "The tomb of Aeneas"],
+      "answer": 0,
+      "feedback": "Excavation shows an eighth-century settlement and fortification; the famous bronze she-wolf is medieval, and the legend cannot be confirmed."
+    },
+    {
+      "id": "imperium",
+      "type": "choice",
+      "prompt": "What did imperium give a Roman consul?",
+      "choices": ["The power to command an army and take the auspices", "A permanent seat in the senate", "The right to name his own successor", "Control of the grain supply"],
+      "answer": 0,
+      "feedback": "Imperium was originally the power of military command; inside the city it was limited by appeal and by the veto of the other consul."
+    },
+    {
+      "id": "plebs",
+      "type": "choice",
+      "prompt": "Who were the plebs?",
+      "choices": ["The great majority of citizens, without access to office", "The hereditary priestly families", "The slaves of Rome", "The Italian allies"],
+      "answer": 0,
+      "feedback": "The plebs were everyone who was not a patrician, rich and poor alike, at first excluded from the magistracies and priesthoods."
+    },
+    {
+      "id": "twelve-tables",
+      "type": "choice",
+      "prompt": "What did the Twelve Tables, published in 451–450 BCE, do?",
+      "choices": ["Made the law public and readable", "Abolished the tribunate", "Gave the plebeians the consulship", "Ended debt bondage at once"],
+      "answer": 0,
+      "feedback": "The decemvirs published the first Roman law code in the Forum, so that it could not be invented by a patrician judge to suit himself."
+    },
+    {
+      "id": "cannae",
+      "type": "choice",
+      "prompt": "What happened at Cannae in 216 BCE?",
+      "choices": ["Hannibal encircled and destroyed a large Roman army", "Rome captured Carthage", "Scipio defeated Hannibal", "Carthage gave up Spain"],
+      "answer": 0,
+      "feedback": "Perhaps fifty thousand Romans were killed in a single day; Rome refused to make peace and wore Hannibal down instead."
+    },
+    {
+      "id": "gracchus-killed",
+      "type": "choice",
+      "prompt": "Why was Tiberius Gracchus killed in 133 BCE?",
+      "choices": ["He proposed to redistribute public land and stood for a second tribunate", "He invaded Italy with an army", "He freed all the slaves", "He made himself dictator"],
+      "answer": 0,
+      "feedback": "His land law passed over a tribune's veto, and a mob led by Scipio Nasica killed him when he sought a second term."
+    },
+    {
+      "id": "marius-recruits",
+      "type": "choice",
+      "prompt": "What change did Marius make in army recruitment?",
+      "choices": ["He recruited the propertyless poor, who looked to their general for land", "He required every soldier to be a senator", "He disbanded the legions", "He hired only foreign mercenaries"],
+      "answer": 0,
+      "feedback": "The poor who owned no property enlisted for pay and a promised farm, so the legions became loyal to their commander rather than to the state."
+    },
+    {
+      "id": "constitution-balance",
+      "type": "short-answer",
+      "prompt": "Using Polybius, explain what the balance of the Roman constitution was supposed to be, and then use the Gracchi or Sulla to show where it broke down.",
+      "context": "Polybius wrote: 'The Senate has first of all the control of the treasury, and regulates the receipts and disbursements alike... The people then are the only court to decide matters of life and death... it is the people who deliberate on the question of peace or war.' He concluded that consuls, senate, and people each checked the others. Tiberius Gracchus had his fellow tribune Octavius deposed and was then killed; Sulla marched an army on Rome.",
+      "rubric": [
+        "describes the three parts and how each checked the others",
+        "names one specific breakdown with a date or detail",
+        "explains why the check failed to hold in that case"
+      ]
+    }
+  ]
+}

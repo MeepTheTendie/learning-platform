@@ -1,0 +1,153 @@
+{
+  "id": "11-connected-world",
+  "title": "A more connected medieval world",
+  "period": "c. 1200–1500 CE",
+  "region": "Eurasia and the Mediterranean",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "marco-polo-yam",
+      "title": "The Kaan's posts and runners",
+      "author": "Marco Polo, as written down by Rustichello of Pisa",
+      "date": "c. 1298, describing the 1270s",
+      "citation": "The Travels of Marco Polo, translated by Henry Yule, revised by Henri Cordier (1903), Book II, Chapter XXVI. Project Gutenberg eBook 10636.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/10636",
+      "file": "sources/marco-polo-yam.md",
+      "context": "Marco Polo dictated this account after returning from Asia, where he says he served at Kublai Khan's court. The chapter describes the yam, the Mongol relay system of post-houses and horses, in the language of wonder.",
+      "questions": [
+        "What did the villages near a post-station have to provide, and what does that suggest about who paid for the system?",
+        "Which of Marco Polo's numbers could be checked against other records, and which seem to be exaggeration?",
+        "What does the chapter assume about the Kaan's authority over the roads?"
+      ]
+    },
+    {
+      "id": "boccaccio-plague",
+      "title": "The plague in Florence",
+      "author": "Giovanni Boccaccio",
+      "date": "c. 1350–1353, describing 1348",
+      "citation": "The Decameron, translated by J. M. Rigg (1903), First Day, Introduction. Project Gutenberg eBook 3726.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/3726",
+      "file": "sources/boccaccio-plague.md",
+      "context": "Boccaccio wrote The Decameron a few years after the plague reached Florence in 1348. This passage is the frame story's description of the disease and of how the city's burial customs collapsed. It is a literary account, written to introduce a book of tales.",
+      "questions": [
+        "What symptoms does Boccaccio describe, and how does he claim to know them?",
+        "What happened to ordinary funeral rites, and what does that reveal about the city's institutions?",
+        "Where does Boccaccio say the pestilence came from, and what does that explanation assume?"
+      ]
+    },
+    {
+      "id": "rubruck-mongke-religion",
+      "title": "Möngke Khan on the religions of his empire",
+      "author": "William of Rubruck, reporting the words of Möngke Khan",
+      "date": "1253–1255 (written c. 1255)",
+      "citation": "The Journey of William of Rubruck to the Eastern Parts of the World, 1253–55, translated by William Woodville Rockhill (Hakluyt Society, 1900), pp. 234–236.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/journeyofwilliam00ruys",
+      "file": "sources/rubruck-mongke-religion.md",
+      "context": "William of Rubruck, a Franciscan friar, travelled to the Mongol court as an envoy and argued about religion there. He reports Möngke Khan's own statement of policy: that different peoples have been given different ways, as a hand has different fingers. Rubruck's text spells 'Mongol' as 'Moal'.",
+      "questions": [
+        "Why does Möngke say the Mongols live in peace, and what does he claim about the Christians' Scriptures?",
+        "Rubruck hoped to convert the khan. How might that shape the way he reports this conversation?",
+        "What does the passage suggest about how the Mongol court managed several religions at once?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "abu-lughod-world-system",
+      "historian": "Janet L. Abu-Lughod",
+      "work": "Before European Hegemony: The World System A.D. 1250–1350",
+      "year": "1989",
+      "claim": "Abu-Lughod argued that a functioning system of trade and exchange linked Europe, the Middle East, and Asia in the thirteenth and fourteenth centuries, and that it flourished before and independently of European dominance.",
+      "note": "Other historians question how tightly these circuits were integrated and whether the language of a 'world system' imports modern assumptions; some stress that the links were thin and broke down with the plague."
+    },
+    {
+      "id": "mcneill-plagues",
+      "historian": "William H. McNeill",
+      "work": "Plagues and Peoples",
+      "year": "1976",
+      "claim": "McNeill argued that the Mongol unification of Eurasia joined previously separate disease pools, letting the plague bacillus travel along the same routes that carried goods, so that the Black Death was a consequence of connection.",
+      "note": "The origin of the pandemic is still debated and mortality estimates vary widely; recent genetic work pointing to Central Asia supports the model without proving it."
+    }
+  ],
+  "activities": [
+    {
+      "id": "yam-definition",
+      "type": "choice",
+      "prompt": "In the Mongol empire, the yam was…",
+      "choices": ["A relay system of post-houses and horses", "A tax on caravan goods", "A code of Mongol law", "A festival held at the winter camp"],
+      "answer": 0,
+      "feedback": "Marco Polo describes the yam: stations every twenty-five to thirty miles, reserves of horses, and runners who carried news in relays."
+    },
+    {
+      "id": "chinggis-proclaimed",
+      "type": "choice",
+      "prompt": "Temüjin was proclaimed Chinggis Khan in…",
+      "choices": ["1206", "1162", "1279", "1368"],
+      "answer": 0,
+      "feedback": "The proclamation at an assembly on the Onon river in 1206 marks the founding of the Mongol state."
+    },
+    {
+      "id": "four-khanates",
+      "type": "choice",
+      "prompt": "After the empire divided, which khanate ruled China?",
+      "choices": ["The Yuan", "The Ilkhanate", "The Golden Horde", "The Chagatai"],
+      "answer": 0,
+      "feedback": "Kublai Khan's Yuan dynasty ruled China and Mongolia; the Ilkhanate held Persia, the Golden Horde the western steppe, and the Chagatai Central Asia."
+    },
+    {
+      "id": "plague-year",
+      "type": "choice",
+      "prompt": "The Black Death reached the Mediterranean and western Europe in…",
+      "choices": ["1347–1351", "1206–1215", "1453–1460", "1279–1290"],
+      "answer": 0,
+      "feedback": "Plague reached Caffa in 1346 and spread into the Mediterranean in 1347; it swept western Europe over the next few years."
+    },
+    {
+      "id": "zheng-he-dynasty",
+      "type": "choice",
+      "prompt": "Zheng He's fleets sailed the Indian Ocean under which dynasty?",
+      "choices": ["The Ming", "The Yuan", "The Song", "The Ottoman"],
+      "answer": 0,
+      "feedback": "The Ming court sent seven expeditions between 1405 and 1433, then stopped them."
+    },
+    {
+      "id": "constantinople-1453",
+      "type": "choice",
+      "prompt": "Constantinople fell to the Ottomans in…",
+      "choices": ["1453", "1204", "1347", "1368"],
+      "answer": 0,
+      "feedback": "Mehmed II took the city in 1453, ending the Byzantine empire."
+    },
+    {
+      "id": "monsoon-trade",
+      "type": "choice",
+      "prompt": "Indian Ocean trade depended above all on…",
+      "choices": ["The seasonal monsoon winds", "The Gulf Stream", "Overland camel caravans alone", "Steam-powered ships"],
+      "answer": 0,
+      "feedback": "Sailors timed their voyages to the reversing monsoon, which carried ships east in summer and west in winter."
+    },
+    {
+      "id": "hanseatic-league",
+      "type": "choice",
+      "prompt": "The Hanseatic League was…",
+      "choices": ["An alliance of northern European merchant towns", "A Mongol cavalry unit", "A Venetian banking family", "A Chinese religious order"],
+      "answer": 0,
+      "feedback": "The Hansa pooled privileges and protected convoys from Lübeck and other towns across the Baltic and North Sea."
+    },
+    {
+      "id": "connection-carried-both",
+      "type": "short-answer",
+      "prompt": "Marco Polo and Boccaccio describe the same connected world from opposite ends. Using both sources, explain how one network could carry both opportunity and disruption.",
+      "context": "Marco Polo: 'Every city, or village, or hamlet, that stands near one of those post-stations, has a fixed demand made on it for as many horses as it can supply, and these it must furnish to the post.' Boccaccio: 'the virulence of the pest was the greater by reason that intercourse was apt to convey it from the sick to the whole, just as fire devours things dry or greasy when they are brought close to it.'",
+      "rubric": [
+        "refers to both sources",
+        "states one benefit and one harm carried by the same routes",
+        "uses a specific detail or phrase from each text"
+      ]
+    }
+  ]
+}

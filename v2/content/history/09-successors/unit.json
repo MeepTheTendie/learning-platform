@@ -1,0 +1,153 @@
+{
+  "id": "09-successors",
+  "title": "Successors to the ancient empires",
+  "period": "c. 395–900 CE",
+  "region": "Byzantium · Arabia · the Latin West",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "procopius-hagia-sophia",
+      "title": "On the Great Church (Hagia Sophia)",
+      "author": "Procopius of Caesarea",
+      "date": "c. 554 CE",
+      "citation": "Procopius, De Aedificiis, Book I, translated by W. Lethaby and H. Swainson, in The Church of St. Sophia Constantinople (New York, 1894), pp. 24–28. Internet Medieval Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/source/procop-deaed1.asp",
+      "file": "sources/procopius-hagia-sophia.md",
+      "context": "Procopius was a court official who wrote a book on the buildings of Justinian. This passage describes Hagia Sophia, dedicated in 537, as the emperor's monument to God.",
+      "questions": [
+        "What does Procopius say the emperor was willing to spend, and who paid for the church?",
+        "How does Procopius describe the dome, and what does his language assume about its maker?",
+        "Procopius served Justinian. Where in the passage does praise of the emperor become praise of God, and why?"
+      ]
+    },
+    {
+      "id": "quran-revelation",
+      "title": "Suras from the Quran",
+      "author": "The Quran (translated by J. M. Rodwell)",
+      "date": "Revealed 610–632 CE; Rodwell translation 1861",
+      "citation": "The Koran, translated by J. M. Rodwell (London: J. M. Dent, 1861). Project Gutenberg eBook 2800.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/2800",
+      "file": "sources/quran-revelation.md",
+      "context": "The Quran is the collected revelations that Muslims hold to be the word of God. These short Meccan suras, and two verses from the long Medinan second sura, appear here in Rodwell's nineteenth-century English translation.",
+      "questions": [
+        "What does Sura XCVI command the speaker to do, and what does it say God has taught?",
+        "Sura CXII is four lines long. What does it insist about God, and what does it deny?",
+        "The second sura says 'Let there be no compulsion in Religion.' What does that claim, and what would it not settle about how a ruler should treat non-Muslims?"
+      ]
+    },
+    {
+      "id": "einhard-charlemagne",
+      "title": "The life of Charlemagne (selected chapters)",
+      "author": "Einhard",
+      "date": "c. 830 CE; Turner translation 1880",
+      "citation": "Einhard, Life of Charlemagne, translated by Samuel Epes Turner (New York: Harper and Brothers, 1880). Internet Medieval Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/source/einhard1.asp",
+      "file": "sources/einhard-charlemagne.md",
+      "context": "Einhard was a Frankish courtier who knew Charlemagne and wrote his life after the emperor's death, modelling it on the Roman biographer Suetonius. He describes the emperor's body, dress, learning, and the coronation of 800.",
+      "questions": [
+        "Einhard describes Charlemagne's body and habits in detail. What kind of authority does this kind of description build?",
+        "Einhard says Charlemagne disliked foreign dress and preferred the Frankish costume. Why might a biographer dwell on that?",
+        "On the coronation, Einhard says Charles would not have entered the church had he known the pope's plan. Who does this detail protect, and who does it blame?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "brown-late-antiquity",
+      "historian": "Peter Brown",
+      "work": "The World of Late Antiquity, AD 150–750",
+      "year": "1971",
+      "claim": "Brown argued that the centuries after Rome's political collapse should be read not as a fall but as a distinct age of transformation, in which Christianity, the eastern empire, and Islam produced new cultures across the Mediterranean and the Near East.",
+      "note": "Some historians stress instead the depth of the rupture — plague, shrinking cities, and lost trade. The label 'late antiquity' is itself an argument about how much continuity there was."
+    },
+    {
+      "id": "donner-believers",
+      "historian": "Fred M. Donner",
+      "work": "Muhammad and the Believers: At the Origins of Islam",
+      "year": "2010",
+      "claim": "Donner argued that the earliest movement was an ecumenical community of 'Believers' that included monotheistic Jews and Christians and stressed piety and one God, and that a distinctly Islamic identity emerged only later under the Umayyads.",
+      "note": "This reading rests on the Quran and on early non-Muslim sources; other historians follow the traditional biography and see Muhammad's movement as Islamic from the start. The debate turns on how far the later sources can be trusted."
+    }
+  ],
+  "activities": [
+    {
+      "id": "corpus-juris",
+      "type": "choice",
+      "prompt": "What did Justinian's commission under Tribonian produce?",
+      "choices": ["The Corpus Juris Civilis, a body of Roman law", "The Quran", "The Rule of Benedict", "The Song of Roland"],
+      "answer": 0,
+      "feedback": "The Corpus gathered the Codex, the Digest, the Institutes, and the Novels, and preserved Roman law for later Europe."
+    },
+    {
+      "id": "hagia-sophia",
+      "type": "choice",
+      "prompt": "Hagia Sophia in Constantinople was built after…",
+      "choices": ["The Nika riot of 532", "The fall of Baghdad", "The Treaty of Verdun", "The battle of Yarmuk"],
+      "answer": 0,
+      "feedback": "Justinian rebuilt on a colossal scale after the Nika riot burned central Constantinople in 532."
+    },
+    {
+      "id": "heracleus-persia",
+      "type": "choice",
+      "prompt": "What did Heraclius do between 627 and 630?",
+      "choices": ["Defeated Persia and restored the True Cross to Jerusalem", "Conquered Egypt for the caliphate", "Crowned Charlemagne emperor", "Founded Baghdad"],
+      "answer": 0,
+      "feedback": "He won at Nineveh in 627, made peace in 628, and returned the relic to Jerusalem in 630 — after which both empires were too exhausted to resist the Arab conquests."
+    },
+    {
+      "id": "hijra-year",
+      "type": "choice",
+      "prompt": "The hijra of 622 marks…",
+      "choices": ["Muhammad's move from Mecca to Medina, the start of the Islamic calendar", "The first revelation", "The fall of the Umayyads", "The coronation of Charlemagne"],
+      "answer": 0,
+      "feedback": "In Medina Muhammad became a judge and political leader as well as a prophet, and the community gained a territory and an army."
+    },
+    {
+      "id": "quran-source",
+      "type": "choice",
+      "prompt": "For a historian, the Quran is best described as…",
+      "choices": ["A collection of revelations that addresses its hearers rather than a chronicle", "A chronicle of the conquests", "A tax register", "A biography of Muhammad"],
+      "answer": 0,
+      "feedback": "It argues and commands; it is not a narrative of events, which is why historians also use the later sira and hadith with care."
+    },
+    {
+      "id": "abbasid-750",
+      "type": "choice",
+      "prompt": "What did the revolution of 750 do?",
+      "choices": ["Overthrew the Umayyads and moved the centre of Islam to Iraq", "Ended the Abbasid caliphate", "Conquered Constantinople", "United the Latin West"],
+      "answer": 0,
+      "feedback": "The Abbasids took power with support from non-Arab Muslims and built a new capital at Baghdad in 762."
+    },
+    {
+      "id": "missi-dominici",
+      "type": "choice",
+      "prompt": "The missi dominici were…",
+      "choices": ["The lord's envoys, sent out in pairs to inspect counts and report back", "Muslim provincial governors", "Byzantine tax collectors", "Viking traders"],
+      "answer": 0,
+      "feedback": "Charlemagne sent a churchman and a layman together through each district, an attempt at central control without a standing bureaucracy."
+    },
+    {
+      "id": "verdun-843",
+      "type": "choice",
+      "prompt": "The Treaty of Verdun of 843…",
+      "choices": ["Divided the Carolingian empire among three brothers", "United the Frankish kingdom", "Ended the Abbasid caliphate", "Made Baghdad the capital"],
+      "answer": 0,
+      "feedback": "Charles the Bald took the west, Louis the German the east, and Lothair the middle strip and the imperial title — rough outlines of later France and Germany."
+    },
+    {
+      "id": "compare-authority",
+      "type": "short-answer",
+      "prompt": "Procopius, the Quran, and Einhard each describe a different kind of authority. Compare what each text assumes about the ruler's power, using one detail from each source.",
+      "context": "Procopius: 'It is indeed a proof of the esteem with which God regarded the emperor, that he furnished him with men who would be so useful in effecting his designs.' Quran (Sura XCVI): 'Nay! obey him not; but adore, and draw nigh to God.' Einhard: 'It was then that he received the titles of Emperor and Augustus, to which he at first had such an aversion…'",
+      "rubric": [
+        "refers to all three sources",
+        "states what each assumes about the ruler's authority",
+        "uses a specific detail from each text"
+      ]
+    }
+  ]
+}
