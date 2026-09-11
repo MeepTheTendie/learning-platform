@@ -41,6 +41,31 @@ test('authored text contains no present-day framing terms', () => {
   }
 });
 
+test('every image file exists and carries attribution', () => {
+  for (const { dir, unit } of units()) {
+    for (const image of unit.images) {
+      const file = path.join(dir, image.file);
+      assert.ok(fs.existsSync(file), `${unit.id}: missing ${image.file}`);
+      assert.ok(fs.statSync(file).size > 5000, `${unit.id}: ${image.file} too small`);
+      assert.ok(image.credit.length > 3 && image.license.length > 1, `${unit.id}/${image.id}: needs credit and license`);
+    }
+  }
+});
+
+test('activities are well-formed and free of framing', () => {
+  for (const { unit } of units()) {
+    assert.ok(unit.activities.length >= 1, `${unit.id}: needs activities`);
+    for (const activity of unit.activities) {
+      if (activity.type === 'choice') {
+        assert.ok(activity.answer >= 0 && activity.answer < activity.choices.length, `${unit.id}/${activity.id}: answer out of range`);
+        for (const field of [activity.prompt, ...activity.choices, activity.feedback]) assert.deepEqual(lintFraming(field), [], `${unit.id}/${activity.id}`);
+      } else {
+        for (const field of [activity.prompt, activity.context, ...activity.rubric]) assert.deepEqual(lintFraming(field), [], `${unit.id}/${activity.id}`);
+      }
+    }
+  }
+});
+
 test('the framing lint actually catches framing', () => {
   assert.deepEqual(lintFraming('This course builds global citizenship and critical thinking skills.'), ['global citizenship', 'critical thinking skills', 'this course']);
   assert.deepEqual(lintFraming('In 1750 BCE Hammurabi ruled Babylon.'), []);

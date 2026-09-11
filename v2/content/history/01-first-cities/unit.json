@@ -4,6 +4,40 @@
   "period": "c. 3500–1750 BCE",
   "region": "Mesopotamia (Sumer, Akkad, Babylonia)",
   "spine": "spine.md",
+  "images": [
+    {
+      "id": "map",
+      "file": "assets/mesopotamia-map.jpg",
+      "caption": "Syria, Mesopotamia, Babylonia, and Assyria, with the Tigris and Euphrates running south to the Persian Gulf.",
+      "credit": "Encyclopaedia Biblica (1899), via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Encyclopaedia_Biblica_map_of_Syria,_Mesopotamia,_Babylonia,_and_Assyria.jpg"
+    },
+    {
+      "id": "standard-of-ur",
+      "file": "assets/standard-of-ur.jpg",
+      "caption": "The Standard of Ur, a decorated box from a royal grave at Ur, showing soldiers and prisoners on one side and a banquet on the other (c. 2600–2400 BCE).",
+      "credit": "British Museum, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Standard_of_Ur_-_War.jpg"
+    },
+    {
+      "id": "cuneiform-tablet",
+      "file": "assets/cuneiform-tablet.jpg",
+      "caption": "A cuneiform tablet recording an administrative account of barley and emmer.",
+      "credit": "The Metropolitan Museum of Art (Open Access)",
+      "license": "CC0",
+      "url": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet-_administrative_account_concerning_the_distribution_of_barley_and_emmer_MET_DP297601.jpg"
+    },
+    {
+      "id": "hammurabi-stele",
+      "file": "assets/hammurabi-stele.jpg",
+      "caption": "The stele of Hammurabi's laws, carved in diorite and set up in a temple at Babylon. The king stands before the sun god Shamash at the top; the laws are cut below.",
+      "credit": "Mbzt, via Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "url": "https://commons.wikimedia.org/wiki/File:P1050763_Louvre_code_Hammurabi_face_rwk.JPG"
+    }
+  ],
   "sources": [
     {
       "id": "hammurabi",
@@ -51,6 +85,59 @@
         "How does this account treat the building of a city differently from the Babylonian laws?",
         "What does it assume about a single city and the rest of the earth?",
         "In what ways does this story agree with, and differ from, the Greek and Babylonian sources?"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "two-rivers",
+      "type": "choice",
+      "prompt": "Which two rivers frame Mesopotamia?",
+      "choices": ["The Tigris and the Euphrates", "The Nile and the Jordan", "The Indus and the Ganges", "The Danube and the Rhine"],
+      "answer": 0,
+      "feedback": "The Greek name Mesopotamia means 'the land between the rivers' — the Tigris and the Euphrates."
+    },
+    {
+      "id": "why-writing",
+      "type": "choice",
+      "prompt": "The earliest writing at Uruk was used mainly for…",
+      "choices": ["Recording quantities of goods", "Writing epic poetry", "Sending diplomatic letters", "Copying laws"],
+      "answer": 0,
+      "feedback": "The first tablets are accounts — grain, beer, livestock — not literature."
+    },
+    {
+      "id": "rank-penalty",
+      "type": "choice",
+      "prompt": "In the Code of Hammurabi, what could change the penalty a person received?",
+      "choices": ["The rank of the people involved", "The day of the week", "The phase of the moon", "The city's patron god"],
+      "answer": 0,
+      "feedback": "Law 8 sets a heavier payment for stealing from the temple than the same theft by 'a poor man'; laws 196–200 turn on whether the injured party is a gentleman or an equal."
+    },
+    {
+      "id": "herodotus-source",
+      "type": "choice",
+      "prompt": "How did Herodotus learn about Babylon?",
+      "choices": ["From informants, centuries after its height, and he says he doubts some of them", "From a visit during Hammurabi's reign", "From the original building records", "From Babylonian law courts"],
+      "answer": 0,
+      "feedback": "He wrote after the Persian conquest and admits he does not believe the story of the god visiting the temple."
+    },
+    {
+      "id": "babel-reason",
+      "type": "choice",
+      "prompt": "The Genesis account explains why the city was left unfinished as…",
+      "choices": ["A divine scattering of languages", "A flood", "A famine", "A war"],
+      "answer": 0,
+      "feedback": "In the story, the builders are scattered and their speech confounded, so they stop building."
+    },
+    {
+      "id": "reflect-authority",
+      "type": "short-answer",
+      "prompt": "Compare what the Code of Hammurabi and Herodotus each assume about authority in Babylon. What does each source take for granted?",
+      "context": "Hammurabi: 'If a man has stolen ox or sheep or ass… whether from the temple or the palace, he shall pay thirtyfold. If he be a poor man, he shall render tenfold.' — Herodotus: 'Such is the size of the city of Babylon, and it had a magnificence greater than all other cities of which we have knowledge.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each takes for granted",
+        "uses a specific detail from the text"
       ]
     }
   ]

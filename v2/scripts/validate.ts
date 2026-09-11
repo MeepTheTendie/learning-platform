@@ -40,6 +40,18 @@ for (const subject of subjects) {
       for (const question of source.questions) for (const term of lintFraming(question)) errors.push(`${unit.id}/${source.id} question: framing term "${term}"`);
       manifest.push(`- **${source.title}** — ${source.author}, ${source.date}. ${source.license}. ${source.citation}`);
     }
+    for (const image of unit.images) {
+      const imagePath = path.join(dir, image.file);
+      if (!fs.existsSync(imagePath)) errors.push(`${unit.id}/${image.file}: missing image`);
+      for (const term of lintFraming(image.caption)) errors.push(`${unit.id}/${image.id} caption: framing term "${term}"`);
+      manifest.push(`- image: ${image.file} — ${image.credit} (${image.license})`);
+    }
+    for (const activity of unit.activities) {
+      const fields = activity.type === 'choice'
+        ? [activity.prompt, ...activity.choices, activity.feedback]
+        : [activity.prompt, activity.context, ...activity.rubric];
+      for (const field of fields) for (const term of lintFraming(field)) errors.push(`${unit.id}/${activity.id}: framing term "${term}"`);
+    }
     manifest.push('');
   }
 }
