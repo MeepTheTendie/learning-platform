@@ -1,0 +1,178 @@
+{
+  "id": "08-prepositions-and-particles",
+  "title": "Prepositions and their phrases",
+  "period": "English grammar",
+  "region": "",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-prepositions",
+      "title": "Of prepositions, their government, and the idiom of placing them last",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-prepositions.md",
+      "context": "Lowth's 1762 grammar gives the classic definition of the preposition, states that it governs the objective case, and records the idiom of leaving a preposition at the end of a sentence while preferring the order that keeps it before its object.",
+      "questions": [
+        "How does Lowth define the preposition, and what case does he say it governs?",
+        "What example does Lowth give of a verb whose meaning changes when a preposition is placed after it?",
+        "Lowth says English is 'strongly inclined' to one placement of the preposition. Which one, and which does he prefer?"
+      ]
+    },
+    {
+      "id": "fowler-kings-english-prepositions",
+      "title": "Prepositions: idiom, different from, and the preposition at the end",
+      "author": "H. W. Fowler and F. G. Fowler",
+      "date": "1924",
+      "citation": "H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), chapter 'Prepositions'. Project Gutenberg eBook 75439.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/75439",
+      "file": "sources/fowler-kings-english-prepositions.md",
+      "context": "The Fowlers treat the choice of preposition as a matter of idiom rather than logic, and they call the ban on a final preposition a 'modern superstition.' The passages here also cover 'different from' against 'different to,' and the compound prepositions they dislike.",
+      "questions": [
+        "Why do the Fowlers say it is often impossible to prove that a writer has chosen the wrong preposition?",
+        "What advice do the Fowlers give about the words 'different' and 'averse'?",
+        "What do the Fowlers call the ban on a preposition at the end of a sentence?"
+      ]
+    },
+    {
+      "id": "brown-prepositions",
+      "title": "In and into, between and among, and the history of a rule",
+      "author": "Goold Brown",
+      "date": "1851",
+      "citation": "Goold Brown, The Grammar of English Grammars, 6th ed., revised by Samuel U. Berrian (New York: Samuel S. and William Wood, 1851). Project Gutenberg eBook 11615.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/11615",
+      "file": "sources/brown-prepositions.md",
+      "context": "Goold Brown's 1851 survey sets out the difference between 'in' and 'into' and between 'between' and 'among,' and prints the older grammarians' rule against separating a preposition from its noun, which he thinks has been copied without thought.",
+      "questions": [
+        "How does Brown distinguish 'in' from 'into'?",
+        "What rule does Brown give for 'between' and 'among,' and what exceptions does he note?",
+        "What does Brown say about the grammarians who condemned separating a preposition from its noun?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "lowth-final-preposition",
+      "historian": "Robert Lowth",
+      "work": "A Short Introduction to English Grammar",
+      "year": "1762",
+      "claim": "Lowth recorded that English is 'strongly inclined' to leave a preposition at the end after its object, but judged that placing it before the relative is 'more graceful, as well as more perspicuous' and better suited to the elevated style. He thus described the idiom accurately while steering writers toward the Latin-style order.",
+      "note": "Jespersen and later grammarians replied that stranding is a native Germanic construction and fully grammatical, so the choice is one of register and rhythm, not of correctness. Lowth's stated preference was hardened into a prohibition he had not himself laid down."
+    },
+    {
+      "id": "jespersen-stranding",
+      "historian": "Otto Jespersen",
+      "work": "A Modern English Grammar on Historical Principles",
+      "year": "1909–1949",
+      "claim": "Jespersen treated the placing of a preposition after the word it governs as an inherited Germanic pattern, not a corruption, and argued that the ban on the final preposition was a Latinizing invention imposed on a language whose grammar never required it. He also described the close union of verb and particle that gives phrasal verbs their meaning.",
+      "note": "The counter-argument is that pied-piping remains standard and often clearer in formal prose, and that the boundary between a preposition and a particle is not always sharp. Some stranded constructions are genuinely ambiguous and are better rewritten."
+    }
+  ],
+  "activities": [
+    {
+      "id": "preposition-object",
+      "type": "choice",
+      "prompt": "In the sentence 'She waited for the train in the cold,' what is the object of the preposition 'for'?",
+      "choices": ["the train", "the cold", "She", "waited"],
+      "answer": 0,
+      "feedback": "'For' relates its object 'the train' to 'waited'; 'in' takes 'the cold' as its own object."
+    },
+    {
+      "id": "adjectival-or-adverbial",
+      "type": "choice",
+      "prompt": "In 'The letter from my sister arrived on Tuesday,' how does the phrase 'from my sister' function?",
+      "choices": [
+        "Adjectivally, modifying 'letter'",
+        "Adverbially, modifying 'arrived'",
+        "As the object of 'arrived'",
+        "As an independent clause"
+      ],
+      "answer": 0,
+      "feedback": "'From my sister' tells which letter, so it modifies the noun; 'on Tuesday' modifies the verb."
+    },
+    {
+      "id": "in-or-into",
+      "type": "choice",
+      "prompt": "Which sentence correctly describes motion into a place?",
+      "choices": [
+        "The children ran into the sea.",
+        "The children ran in the sea.",
+        "The children were into the sea.",
+        "The children ran onto the sea."
+      ],
+      "answer": 0,
+      "feedback": "'Into' marks motion or change that brings something inside; 'in' would describe position, not entry."
+    },
+    {
+      "id": "between-or-among",
+      "type": "choice",
+      "prompt": "Choose the preposition that best completes 'The estate was divided ___ the four cousins.'",
+      "choices": ["among", "between", "betwixt", "into"],
+      "answer": 0,
+      "feedback": "'Among' is used of a group of more than two taken together; 'between' suits two, or several taken as distinct pairs."
+    },
+    {
+      "id": "particle-or-preposition",
+      "type": "choice",
+      "prompt": "In which sentence is 'up' a particle rather than a preposition?",
+      "choices": [
+        "He looked up the word.",
+        "He climbed up the hill.",
+        "He walked up the stairs.",
+        "He ran up the road."
+      ],
+      "answer": 0,
+      "feedback": "In 'look up the word,' 'up' has no object of its own; it fuses with 'look' and can move past the noun ('look the word up')."
+    },
+    {
+      "id": "pronoun-position",
+      "type": "choice",
+      "prompt": "Which sentence places the pronoun correctly with a separable phrasal verb?",
+      "choices": [
+        "Please pick it up.",
+        "Please pick up it.",
+        "Please pick up it now.",
+        "Please up pick it."
+      ],
+      "answer": 0,
+      "feedback": "A pronoun object must go between the verb and its particle: 'pick it up,' never 'pick up it.'"
+    },
+    {
+      "id": "prepositional-verb",
+      "type": "choice",
+      "prompt": "Which combination is a prepositional verb (verb plus preposition), rather than a phrasal verb?",
+      "choices": ["look after", "turn on", "pick up", "break down"],
+      "answer": 0,
+      "feedback": "In 'look after the child,' 'after' takes an object and cannot move; the others are particle verbs whose particle can move past a noun."
+    },
+    {
+      "id": "stranding-rule",
+      "type": "choice",
+      "prompt": "Which statement best describes the rule against ending a sentence with a preposition?",
+      "choices": [
+        "It is a style preference borrowed from Latin, not a rule of English grammar.",
+        "It is a grammatical rule that English has always followed.",
+        "It applies only to relative clauses.",
+        "It was first stated by Winston Churchill."
+      ],
+      "answer": 0,
+      "feedback": "Latin prepositions cannot be separated from their nouns; English inherited stranding from Germanic, and the ban is a prescription, not a fact of grammar."
+    },
+    {
+      "id": "analyze-prepositions",
+      "type": "short-answer",
+      "prompt": "Identify each italicized word as a preposition or a particle, name the object if it has one, and explain how the meaning of the verb changes.",
+      "context": "He ran up the hill, then ran up a large bill at the shop. When the owner called on him, he put off the payment until Friday, and finally gave in.",
+      "rubric": [
+        "Identifies 'up' in 'ran up the hill' as a preposition with 'the hill' as its object, and 'up' in 'ran up a bill' as a particle",
+        "Identifies 'on' in 'called on him' as a preposition and 'off' in 'put off' as a particle",
+        "Explains that 'gave in' is an intransitive phrasal verb with no object"
+      ]
+    }
+  ]
+}

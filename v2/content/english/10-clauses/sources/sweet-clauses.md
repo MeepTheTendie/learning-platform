@@ -1,0 +1,23 @@
+# Clauses, complexes, and the kinds of sub-clause
+
+**Henry Sweet, from *A New English Grammar, Logical and Historical*, Part I (1891)**
+
+The passages below are quoted from the first edition (Oxford: Clarendon Press, 1891), the section "Relations between Sentences". Sweet's terms — *clause*, *complex*, *co-clause*, *sub-clause*, *front-clause*, *after-clause* — are kept as he wrote them; a few obvious faults of the scanned copy have been corrected to the printed reading, and ellipses mark omitted sentences. Internet Archive, newenglishgramma01sweeuoft.
+
+But we must also consider the external relations of sentences, by which we regard each sentence as a whole or unit, without troubling ourselves about the relations between the words of which it is made up. When we look at sentences from this point of view, we find that they can stand in the same relations to other sentences and to single words as words do to one another. Thus in *I see you are mistaken*, the clause *you are mistaken* stands in the same grammatical relation to the verb *see* as the noun-word *that* does in *I know that*.
+
+Simple sentences are of two kinds, independent and dependent [cp. 199]. An independent sentence is one whose grammatical structure allows it to stand alone. A dependent sentence is one that cannot stand alone, but makes us expect another — generally an independent — sentence to complete its meaning. Thus in the complex sentence *when I came back, I found no one at home*, the first sentence is dependent, the second independent. All prepared sentences introduced by dependent words, whether pronouns, adverbs, or conjunctions, are necessarily dependent. ... Unprepared dependent sentences may generally be expanded into prepared sentences. Thus the unprepared sentences *you are the man I want*, *I see you are mistaken* may be expanded into *whom I want*, *that you are mistaken*.
+
+The distinction between independent and dependent does not always exactly agree with that between coordinate and subordinate, because the former is a purely grammatical distinction, the latter a logical one. Hence although all independent sentences are necessarily coordinate, it does not follow that all coordinate sentences are necessarily independent. In fact all sentences introduced by conjunctions are grammatically dependent. Thus such a coordinate sentence as *and I will ride* can no more stand alone than a subordinate one such as *while I ride*, both equally requiring a preceding independent sentence to complete their meaning: *you shall walk and I will ride; you shall walk, while I ride*.
+
+Two or more sentences may be joined together to form a single complex sentence, or complex, as we may call it for the sake of brevity. When simple sentences are joined together in this way we call them clauses.
+
+In every complex there is one independent clause, called the principal clause, together with at least one dependent clause, which stands in the relation of adjunct to the principal clause. The dependent clause may be either coordinate or subordinate. We call a coordinate clause a co-clause, a subordinate clause a sub-clause. Thus in *you shall walk, and I will ride*, the first clause is the principal clause, and the second is a co-clause. In *you are the man I want*, the second clause — *I want* — is a sub-clause. So also in *you shall walk while I ride*.
+
+A complex in which the principal clause is modified by a co-clause is called, for the sake of brevity, a co-complex, and one in which it is modified by a sub-clause is called a sub-complex.
+
+As it is most natural to put the principal clause first in a complex, it is not generally necessary to call attention to the order of the clauses except when the adjunct-clause is put before the head-clause. This is impossible with co-complexes, but is frequent with sub-complexes. When a sub-clause comes before its principal clause, the former is called the front-clause, the latter the after-clause. Thus in the sub-complex *if I can, I will do it*, the hypothetical sub-clause *if I can* is called the front-clause, and the principal clause *I will do it* is called the after-clause.
+
+When a sub-clause is put inside another clause, so as to cut it in two, it is called an inserted clause; thus in *I hope, if all goes well, to finish it tomorrow*, the sub-clause *if all goes well* is inserted in the principal clause *I hope to finish it tomorrow*.
+
+A clause may be inserted into a dependent clause, as in *he is a man, who, if he chose, might do great things*. Here the inserted clause *if he chose* is put immediately after the sentence-link *who*, which is a frequent position of an inserted clause.

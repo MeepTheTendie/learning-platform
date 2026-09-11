@@ -1,0 +1,193 @@
+{
+  "id": "04-verbs-tense-and-aspect",
+  "title": "Verbs: tense and aspect",
+  "period": "English grammar",
+  "region": "",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-grammar",
+      "title": "On the times of the verb, and on irregular verbs",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, 1762), from the sections on the Verb and on Irregular Verbs. Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-grammar.md",
+      "context": "Lowth sets out the person, number, time, and mode of the verb, then divides time into 'Indefinite' and 'Definite' forms, the ancestor of the modern split between simple, progressive, and perfect. He ends with the classes of irregular verbs and their Saxon origin.",
+      "questions": [
+        "Lowth separates 'Indefinite' from 'Definite' time. Which of the six definite forms in his table correspond to what later grammarians call the progressive, and which to the perfect?",
+        "Lowth lists beat, cut, put, and set among verbs whose present, past, and participle are all alike. Add two more verbs of this kind from your own knowledge.",
+        "What does Lowth say the auxiliary 'do' contributes to a sentence, and where does he say it is almost necessary?"
+      ]
+    },
+    {
+      "id": "murray-tenses",
+      "title": "Of the Tenses",
+      "author": "Lindley Murray",
+      "date": "1795",
+      "citation": "Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (first published York, 1795), Section 5, 'Of the Tenses'; text from the 1819 Hanover, N.H. printing. Internet Archive.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/englishgrammar02murr",
+      "file": "sources/murray-tenses.md",
+      "context": "Murray's six tenses and his account of the present as a form that can state a general truth, report a habit, narrate past events as if present, or point to future time. The passage ends with his rule for choosing between the perfect and the imperfect.",
+      "questions": [
+        "Murray says the present tense may be used 'even to persons long since dead,' with the example 'Seneca reasons and moralizes well.' What effect does this use of the present produce?",
+        "According to Murray, when is the present perfect not used, and what tense must replace it?",
+        "How does Murray describe the difference between the perfect and the imperfect at the end of the passage?"
+      ]
+    },
+    {
+      "id": "sweet-definite-tenses",
+      "title": "Tenses and the definite forms",
+      "author": "Henry Sweet",
+      "date": "1898",
+      "citation": "Henry Sweet, A New English Grammar, Logical and Historical, Part II: Syntax (Oxford: Clarendon Press, 1898), sections 2163-2224. Internet Archive.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/p2newenglishgram00sweeuoft",
+      "file": "sources/sweet-definite-tenses.md",
+      "context": "Sweet's paradigm of the English verb and his account of the 'definite' tenses (be plus -ing) as forms that imply incompletion and use duration to locate another event. He also notes which verbs resist the definite forms.",
+      "questions": [
+        "Sweet calls 'I am seeing' the definite present. What does he say the definite tenses always imply, and how does his example 'what have you been doing?' show it?",
+        "Which verbs does Sweet say occur only in the indefinite tenses, and what happens when 'the element of volition or action becomes prominent'?",
+        "Sweet says the definite tenses 'use duration to define the time of a point-tense.' Explain his example 'when he came, I was writing a letter.'"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "jespersen-two-tenses",
+      "historian": "Otto Jespersen",
+      "work": "The Philosophy of Grammar",
+      "year": "1924",
+      "claim": "Jespersen argued that grammatical tense is a matter of form, not of time, and that English has only two tenses, the present and the preterite, because those are the only distinctions marked by a change in the verb itself. On this view will and shall remain modal auxiliaries, so the so-called future tense is not a tense at all but a modal construction.",
+      "note": "Many reference grammars disagree. Quirk, Greenbaum, Leech and Svartvik (A Comprehensive Grammar of the English Language, 1985) retain a future tense, and school grammars have long taught one. Huddleston and Pullum (The Cambridge Grammar of the English Language, 2002) side with Jespersen and treat will as a modal, so the dispute is one of analysis rather than of fact."
+    },
+    {
+      "id": "cobbett-three-times",
+      "historian": "William Cobbett",
+      "work": "A Grammar of the English Language, in a Series of Letters",
+      "year": "1818",
+      "claim": "Cobbett taught that there can be only three times, present, past, and future, and that the elaborate distinctions of perfect, pluperfect, and imperfect borrowed from Latin 'only tend to bewilder, confuse, and disgust the learner.' English, he said, does its work with a few auxiliary signs rather than with many endings.",
+      "note": "Later grammarians treated the perfect and progressive as real aspectual distinctions that English speakers observe and that cannot be reduced to three times. Sweet's definite tenses and the modern category of aspect are the clearest answer: 'I worked' and 'I was working' do not mean the same thing."
+    }
+  ],
+  "activities": [
+    {
+      "id": "analyse-passage",
+      "type": "short-answer",
+      "prompt": "Identify the tense and aspect of each of these verb forms from the passage: had eaten, were clearing, have worked, will still be working. Then explain why the first sentence uses the past perfect rather than the simple past.",
+      "context": "By the time the messenger arrived, the household had already eaten, and the servants were clearing the table. They have worked here for thirty years, and they will still be working when the present master is gone.",
+      "rubric": [
+        "names each form correctly: past perfect, past progressive, present perfect, future progressive",
+        "explains that the past perfect marks an event earlier than another past event",
+        "distinguishes the present relevance of the perfect from the closed past of the simple past"
+      ]
+    },
+    {
+      "id": "perfect-vs-past-meaning",
+      "type": "choice",
+      "prompt": "In 'She has lived in Lisbon for ten years,' what does the present perfect tell us that 'She lived in Lisbon for ten years' does not?",
+      "choices": [
+        "That she still lives there",
+        "That the action happened yesterday",
+        "That the action is happening right now",
+        "That the action will happen again"
+      ],
+      "answer": 0,
+      "feedback": "The present perfect presents the period as continuing to the present, so the sentence implies she still lives there; the simple past leaves the period closed."
+    },
+    {
+      "id": "past-adverb-test",
+      "type": "choice",
+      "prompt": "Which sentence is standard English?",
+      "choices": [
+        "I have seen him yesterday.",
+        "I saw him yesterday.",
+        "I have saw him yesterday.",
+        "I seen him yesterday."
+      ],
+      "answer": 1,
+      "feedback": "A finished past-time adverb such as 'yesterday' forces the simple past; the present perfect is not used with a specified past time."
+    },
+    {
+      "id": "name-the-form",
+      "type": "choice",
+      "prompt": "What is the form of 'will have been waiting'?",
+      "choices": [
+        "Future perfect progressive",
+        "Future progressive",
+        "Present perfect progressive",
+        "Past perfect progressive"
+      ],
+      "answer": 0,
+      "feedback": "Modal 'will' plus 'have' (perfect) plus 'been' (progressive) plus the present participle gives the future perfect progressive."
+    },
+    {
+      "id": "stative-verb",
+      "type": "choice",
+      "prompt": "Which verb does not normally take the progressive?",
+      "choices": [
+        "know",
+        "run",
+        "paint",
+        "argue"
+      ],
+      "answer": 0,
+      "feedback": "'Know' is a stative verb; states of knowing, believing, and belonging resist the progressive, though the tendency is not absolute."
+    },
+    {
+      "id": "present-for-future",
+      "type": "choice",
+      "prompt": "In 'The train leaves at six tomorrow,' the present tense is used to:",
+      "choices": [
+        "refer to a scheduled future event",
+        "describe an event happening now",
+        "report a past habit",
+        "narrate a past event as if present"
+      ],
+      "answer": 0,
+      "feedback": "The simple present can refer to future time when the event is scheduled or timetabled."
+    },
+    {
+      "id": "historic-present",
+      "type": "choice",
+      "prompt": "Which sentence uses the historic present?",
+      "choices": [
+        "So he walks in and says he has lost the key.",
+        "So he walked in and said he had lost the key.",
+        "So he will walk in and say he has lost the key.",
+        "So he would walk in and say he had lost the key."
+      ],
+      "answer": 0,
+      "feedback": "The historic present narrates past events with present-tense forms; it is common in conversation and in summaries."
+    },
+    {
+      "id": "past-participle",
+      "type": "choice",
+      "prompt": "Choose the correct past participle: 'The bell had ____ before we reached the tower.'",
+      "choices": [
+        "rang",
+        "rung",
+        "ringed",
+        "ringing"
+      ],
+      "answer": 1,
+      "feedback": "'Ring' has the principal parts ring, rang, rung; the perfect requires the past participle 'rung,' not the past tense 'rang.'"
+    },
+    {
+      "id": "principal-parts-match",
+      "type": "choice",
+      "prompt": "Which verb has the same past tense and past participle?",
+      "choices": [
+        "sing (sang, sung)",
+        "keep (kept, kept)",
+        "write (wrote, written)",
+        "go (went, gone)"
+      ],
+      "answer": 1,
+      "feedback": "'Keep' has past 'kept' and participle 'kept'; the others have three distinct forms or a suppletive past."
+    }
+  ]
+}

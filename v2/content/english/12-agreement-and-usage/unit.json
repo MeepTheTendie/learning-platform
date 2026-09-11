@@ -1,0 +1,196 @@
+{
+  "id": "12-agreement-and-usage",
+  "title": "Agreement, reference, and usage",
+  "period": "English grammar",
+  "region": "",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-agreement",
+      "title": "Of concord, and the agreement of words",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-agreement.md",
+      "context": "Lowth's grammar of 1762 became the model for the school grammars that followed. These passages give his definition of concord and his rules for the agreement of verb and subject, the noun of multitude, compound subjects, the verb 'to be', and the clear reference of the relative.",
+      "questions": [
+        "How does Lowth define concord, and which two kinds of agreement does English keep?",
+        "What does Lowth say about a noun of multitude and about two singular nouns joined by a copulative conjunction?",
+        "What does Lowth require of a relative pronoun and its antecedent, and what does he say the clearness of a sentence depends on?"
+      ]
+    },
+    {
+      "id": "murray-agreement",
+      "title": "Rules of syntax: concord and the agreement of words",
+      "author": "Lindley Murray",
+      "date": "1795; this edition 1826",
+      "citation": "Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (first published York, 1795; Philadelphia: Marot & Walter, 1826). Text from the Internet Archive scan of the 1826 edition, englishgrammarad00murrrich.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/englishgrammarad00murrrich",
+      "file": "sources/murray-agreement.md",
+      "context": "Murray's English Grammar, first published in 1795, was the most widely used school grammar in the English-speaking world. These are his rules of syntax for the agreement of the verb with its nominative, compound and disjunctive subjects, nouns of multitude, and pronouns with their antecedents.",
+      "questions": [
+        "State Murray's Rule I in your own words, and give one of his examples of its violation.",
+        "How does Murray's Rule IV treat a noun of multitude, and what test does he give for choosing a singular or a plural verb?",
+        "What ambiguity does Murray find in the relative, and what does he say the accuracy and clearness of the sentence depend on?"
+      ]
+    },
+    {
+      "id": "fowler-usage",
+      "title": "Four disputed usages",
+      "author": "H. W. Fowler",
+      "date": "1926",
+      "citation": "H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926), entries 'affect, effect', 'lay & lie', 'less', and 'who & whom'. Text from the Internet Archive scan of the 1927 printing, dictionaryofmode013872mbp.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/dictionaryofmode013872mbp",
+      "file": "sources/fowler-usage.md",
+      "context": "Fowler's Dictionary of Modern English Usage (1926) is the classic guide to disputed points. These entries treat four of the disputes: 'affect' and 'effect', 'lay' and 'lie', the modern restriction of 'less' against 'fewer', and the choice of 'who' and 'whom'.",
+      "questions": [
+        "According to Fowler, what is the difference between 'affect' and 'effect'?",
+        "Why does Fowler object to 'at a less price' and 'a lesser prize', and when does he allow 'less' with plurals?",
+        "What mistake with 'whom' does Fowler single out, and why does he call the question important?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "jespersen-concord",
+      "historian": "Otto Jespersen",
+      "work": "A Modern English Grammar on Historical Principles",
+      "year": "1909–1949",
+      "claim": "Jespersen treated concord as a partly notional matter: the verb tends to follow the sense of the subject, not only its grammatical form, which is why collective nouns, measures, and 'there is' fluctuate between singular and plural. He documented singular 'they' and 'less' with count plurals as long-established idioms rather than mistakes, and argued that grammarians had mistaken a preference for a rule.",
+      "note": "The prescriptive reply is that a settled agreement rule is a convenience in edited prose, and that letting the verb follow sense invites inconsistency and occasional ambiguity. Jespersen's answer is that the fluctuation is orderly and that the supposed rules are often late inventions imposed on a living usage."
+    },
+    {
+      "id": "pullum-agreement",
+      "historian": "Geoffrey K. Pullum",
+      "work": "The Cambridge Grammar of the English Language (with Rodney Huddleston)",
+      "year": "2002",
+      "claim": "Pullum argues that many supposed agreement errors are grammatical in standard English: singular 'they' with an indefinite antecedent, 'less' with count plurals, and 'there's' with a plural are all attested and governed by regular patterns. On this account the rules against them are stylistic preferences and shibboleths, not facts about English grammar.",
+      "note": "The counter-argument is that formal writing benefits from the traditional number distinctions, that 'less' and 'fewer' still signal register, and that an editor may reasonably enforce a house style. Pullum's reply is that such choices should be described as style, not taught as errors of grammar."
+    }
+  ],
+  "activities": [
+    {
+      "id": "intervening-phrase",
+      "type": "choice",
+      "prompt": "In 'The box of tools ___ on the bench,' which verb form is correct?",
+      "choices": ["was", "were", "have been", "are"],
+      "answer": 0,
+      "feedback": "The subject is 'box', not 'tools'. The phrase 'of tools' intervenes but does not change the number, so the singular 'was' is correct."
+    },
+    {
+      "id": "nearest-noun",
+      "type": "choice",
+      "prompt": "Choose the verb that completes 'Neither the coach nor the players ___ satisfied.'",
+      "choices": ["was", "were", "is", "has been"],
+      "answer": 1,
+      "feedback": "With 'or' or 'nor', the verb agrees with the nearer subject. 'Players' is plural, so the plural 'were' is correct."
+    },
+    {
+      "id": "collective-number",
+      "type": "choice",
+      "prompt": "Why is the plural verb acceptable in 'The committee have disagreed among themselves'?",
+      "choices": [
+        "A collective noun may take a plural verb when the members act as individuals",
+        "Because 'committee' is always plural",
+        "Because 'have' has no singular form",
+        "Because 'themselves' forces a plural verb"
+      ],
+      "answer": 0,
+      "feedback": "A noun of multitude is grammatically singular but may be treated as many, so the verb and pronoun may be plural when the members act separately."
+    },
+    {
+      "id": "measure-singular",
+      "type": "choice",
+      "prompt": "Which sentence treats a measure as a single quantity?",
+      "choices": [
+        "Ten miles is a long way to walk.",
+        "Ten miles are a long way to walk.",
+        "Ten miles were a long way to walk.",
+        "Ten miles have been a long way to walk."
+      ],
+      "answer": 0,
+      "feedback": "A plural measure that names one quantity takes a singular verb: 'Ten miles is a long way.'"
+    },
+    {
+      "id": "singular-they-history",
+      "type": "choice",
+      "prompt": "Which statement about singular 'they' is accurate?",
+      "choices": [
+        "It is a recent invention of the last few decades",
+        "It is attested since the fourteenth century and is now accepted by major guides",
+        "It is never grammatical with a singular antecedent",
+        "It can only refer to a plural antecedent"
+      ],
+      "answer": 1,
+      "feedback": "Singular 'they' is centuries old, appears in the King James Bible, Shakespeare, and Austen, and is now accepted by major style guides."
+    },
+    {
+      "id": "dangling-modifier",
+      "type": "choice",
+      "prompt": "Which sentence contains a dangling modifier?",
+      "choices": [
+        "Having finished the assignment, the television was turned on.",
+        "Having finished the assignment, I turned on the television.",
+        "After I finished the assignment, I turned on the television.",
+        "I finished the assignment and then turned on the television."
+      ],
+      "answer": 0,
+      "feedback": "The participial phrase 'Having finished the assignment' has no logical subject; it wrongly attaches to 'the television'."
+    },
+    {
+      "id": "only-placement",
+      "type": "choice",
+      "prompt": "In 'John only ate the cake,' where should 'only' stand to mean that John ate nothing but the cake?",
+      "choices": [
+        "John ate only the cake.",
+        "Only John ate the cake.",
+        "John only ate the cake.",
+        "John ate the only cake."
+      ],
+      "answer": 0,
+      "feedback": "A limiting word qualifies what follows it. 'Only the cake' restricts the thing eaten; 'Only John' restricts the person."
+    },
+    {
+      "id": "parallel-series",
+      "type": "choice",
+      "prompt": "Which sentence is parallel?",
+      "choices": [
+        "She likes swimming, hiking, and riding.",
+        "She likes swimming, hiking, and to ride.",
+        "She likes to swim, hiking, and riding.",
+        "She likes swimming, to hike, and ride."
+      ],
+      "answer": 0,
+      "feedback": "Items in a series should share the same grammatical form; here all three are gerunds."
+    },
+    {
+      "id": "who-whom-clause",
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "choices": [
+        "Who did you say is calling?",
+        "Whom did you say is calling?",
+        "Whose did you say is calling?",
+        "Who did you say is calling whom?"
+      ],
+      "answer": 0,
+      "feedback": "The pronoun is the subject of 'is calling', so the nominative 'who' is required; 'whom' would be the error Fowler attacked."
+    },
+    {
+      "id": "analyze-passage",
+      "type": "short-answer",
+      "prompt": "Analyze the agreement, reference, and usage problems in the passage, and correct each one.",
+      "context": "The box of nails were left on the porch, and when the carpenter and his helper arrived, they was surprised. Walking up the steps, the dog began to bark. Each of the workers should bring their own hammer, and there's three hammers missing.",
+      "rubric": [
+        "Identifies 'were' with the singular subject 'box' and corrects it to 'was'",
+        "Identifies the dangling modifier 'Walking up the steps' and supplies a subject for it",
+        "Identifies 'there's three hammers' and corrects it to 'there are three hammers'"
+      ]
+    }
+  ]
+}

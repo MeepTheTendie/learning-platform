@@ -1,0 +1,205 @@
+{
+  "id": "05-verbs-mood-and-voice",
+  "title": "Verbs: mood, voice, and auxiliaries",
+  "period": "English grammar",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-moods",
+      "title": "Of verbs, modes, and auxiliaries",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar (London: J. Hughs, 1762). Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-moods.md",
+      "context": "Lowth's grammar defines the three moods, distinguishes transitive from intransitive verbs, lists the auxiliary verbs, and gives the subjunctive forms of 'to be' together with the conjunctions he thought required them.",
+      "questions": [
+        "How does Lowth define the indicative, imperative, and subjunctive modes?",
+        "Which conjunctions does Lowth say require the subjunctive, and what qualification does he add?",
+        "What does Lowth say the auxiliaries do for the English verb?"
+      ]
+    },
+    {
+      "id": "murray-voice",
+      "title": "Of active, passive, and neuter verbs",
+      "author": "Lindley Murray",
+      "date": "1829",
+      "citation": "Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (London: J. B. Baldwin, 1829), Chapter VI. Internet Archive.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/englishgrammara05murrgoog",
+      "file": "sources/murray-voice.md",
+      "context": "Murray's school grammar defines active, passive, and neuter verbs, explains transitive and intransitive uses, shows how a neuter verb joined to a preposition can be passivised, and argues that English does have passive verbs even without a special ending.",
+      "questions": [
+        "How does Murray define a passive verb?",
+        "What happens when a neuter verb is joined to a preposition, according to Murray?",
+        "Why does Murray reject the claim that English has no passive verbs?"
+      ]
+    },
+    {
+      "id": "fowler-usage",
+      "title": "On compound passives, split infinitives, and prepositions at the end",
+      "author": "H. W. Fowler and F. G. Fowler",
+      "date": "1924",
+      "citation": "H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), sections 25-26 and the section on relatives. Project Gutenberg eBook 75439.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/75439",
+      "file": "sources/fowler-usage.md",
+      "context": "Fowler calls the ban on split infinitives a curious superstition, condemns the compound passive as a slovenly makeshift, and shows how fear of a final preposition produces clumsy relative clauses.",
+      "questions": [
+        "What does Fowler say is the real object of the verb in a compound passive?",
+        "Why does Fowler distrust the rule against ending a sentence with a preposition?",
+        "What is Fowler's objection to the split infinitive, and how strong is it?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "lowth-subjunctive",
+      "historian": "Robert Lowth",
+      "work": "A Short Introduction to English Grammar",
+      "year": "1762",
+      "claim": "Lowth held that the subjunctive is a genuine mood and that certain conjunctions — if, though, unless, except, whether — properly take it when the statement is contingent or doubtful, so that 'if thou be' and 'though he slay me' express a real grammatical distinction from the indicative.",
+      "note": "Later descriptive grammarians and corpus studies show that the indicative is normal in many of those clauses and that the subjunctive survives chiefly in fixed phrases and mandative clauses. Huddleston and Pullum (2002) treat the 'were' form as an irrealis, not as evidence of a full mood system."
+    },
+    {
+      "id": "jespersen-passive",
+      "historian": "Otto Jespersen",
+      "work": "The Philosophy of Grammar",
+      "year": "1924",
+      "claim": "Jespersen argued that voice should be described functionally rather than by translation from Latin: the English passive is a construction in which the subject is presented as the thing acted upon, and its value lies in letting the speaker keep the topic in subject position and the agent out of the way.",
+      "note": "Chomsky (1957) and later generative grammarians treat the passive as a transformation relating two underlying structures, a formal account that does not depend on the speaker's purpose. The two approaches answer different questions — one about function, one about structure."
+    }
+  ],
+  "activities": [
+    {
+      "id": "mood-identify",
+      "type": "choice",
+      "prompt": "Which sentence contains a verb in the subjunctive mood?",
+      "choices": [
+        "I insist that he be told the truth.",
+        "He was told the truth.",
+        "Tell him the truth.",
+        "He tells the truth."
+      ],
+      "answer": 0,
+      "feedback": "The base form 'be' after 'insist that' is the mandative subjunctive; the others are indicative, passive, and imperative."
+    },
+    {
+      "id": "subjunctive-were",
+      "type": "choice",
+      "prompt": "Choose the form that careful Standard English prefers in a contrary-to-fact clause: 'If I ___ you, I would apologize.'",
+      "choices": [
+        "were",
+        "was",
+        "am",
+        "be"
+      ],
+      "answer": 0,
+      "feedback": "'If I were you' is the fixed irrealis form; 'was' is common in speech but avoided in formal writing."
+    },
+    {
+      "id": "auxiliary-job",
+      "type": "choice",
+      "prompt": "In 'The window was broken by the storm,' what is the auxiliary 'was' doing?",
+      "choices": [
+        "forming the passive voice",
+        "forming the progressive aspect",
+        "forming the perfect tense",
+        "marking the imperative mood"
+      ],
+      "answer": 0,
+      "feedback": "'Be' plus the past participle 'broken' is the passive; a progressive would need an '-ing' participle."
+    },
+    {
+      "id": "passive-progressive",
+      "type": "choice",
+      "prompt": "Which sentence contains both progressive aspect and passive voice?",
+      "choices": [
+        "The house is being painted.",
+        "The house is painting.",
+        "The house was painted last year.",
+        "The house has painted."
+      ],
+      "answer": 0,
+      "feedback": "'Is being painted' combines progressive 'be being' with the past participle, so both are present at once."
+    },
+    {
+      "id": "transitive-object",
+      "type": "choice",
+      "prompt": "In which sentence is 'run' used intransitively?",
+      "choices": [
+        "She runs every morning.",
+        "She runs a bakery.",
+        "She ran the meeting.",
+        "She runs a tight ship."
+      ],
+      "answer": 0,
+      "feedback": "'Runs every morning' has no object; the others each take a direct object."
+    },
+    {
+      "id": "linking-complement",
+      "type": "choice",
+      "prompt": "Which sentence uses a linking verb with a subject complement?",
+      "choices": [
+        "The soup tastes good.",
+        "She tasted the soup.",
+        "He looked at the map.",
+        "They felt the fabric."
+      ],
+      "answer": 0,
+      "feedback": "'Tastes good' links the subject 'soup' to the adjective 'good'; the others are transitive."
+    },
+    {
+      "id": "phrasal-pronoun",
+      "type": "choice",
+      "prompt": "Which sentence places the pronoun correctly with the phrasal verb?",
+      "choices": [
+        "Turn it off.",
+        "Turn off it.",
+        "Turn off them.",
+        "Off turn it."
+      ],
+      "answer": 0,
+      "feedback": "A pronoun object must go between the verb and its separable particle: 'turn it off'."
+    },
+    {
+      "id": "prepositional-passive",
+      "type": "choice",
+      "prompt": "What is the passive of 'The nurse looked after the children'?",
+      "choices": [
+        "The children were looked after by the nurse.",
+        "The children were looked after the nurse.",
+        "The children looked after by the nurse.",
+        "The nurse was looked after the children."
+      ],
+      "answer": 0,
+      "feedback": "The preposition is stranded after the passive verb: 'were looked after'."
+    },
+    {
+      "id": "past-participle",
+      "type": "choice",
+      "prompt": "Choose the correct form: 'By midnight the toasts had been ___.'",
+      "choices": [
+        "drunk",
+        "drank",
+        "drinked",
+        "drinking"
+      ],
+      "answer": 0,
+      "feedback": "The passive needs the past participle 'drunk'; 'drank' is the past tense."
+    },
+    {
+      "id": "analyze-passage",
+      "type": "short-answer",
+      "prompt": "Analyse the grammar of the passage below. Identify one passive verb, one progressive verb, and one phrasal or prepositional verb, and explain how you can tell them apart.",
+      "context": "The old bridge was being repaired all summer. Scaffolding was put up in May, and the work was looked after by a local foreman. The river, meanwhile, was running high, and the crossing had been used for two hundred years.",
+      "rubric": [
+        "identifies a passive verb such as 'was put up' and names its past participle",
+        "identifies a progressive verb such as 'was running' and points to the '-ing' participle",
+        "identifies a phrasal or prepositional verb and explains that the particle or preposition stays with the verb in the passive"
+      ]
+    }
+  ]
+}

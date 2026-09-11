@@ -1,0 +1,205 @@
+{
+  "id": "09-conjunctions-and-coordination",
+  "title": "Conjunctions and coordination",
+  "period": "English grammar",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-conjunctions",
+      "title": "Of conjunctions",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: A. Millar and R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-conjunctions.md",
+      "context": "Lowth defines the conjunction, divides conjunctions into copulative and disjunctive, argues that certain conjunctions govern the subjunctive mode, and lists the 'correspondent' pairs such as either—or and neither—nor.",
+      "questions": [
+        "How does Lowth distinguish a copulative from a disjunctive conjunction, and which words does he place in each class?",
+        "Lowth says some conjunctions 'have a Government of Modes.' What does he mean, and what does he concede about actual usage?",
+        "Which paired or 'correspondent' conjunctions does Lowth list, and what relation does each pair express?"
+      ]
+    },
+    {
+      "id": "fowler-coordination",
+      "title": "On conjunctions, the semicolon, and parallelism",
+      "author": "H. W. Fowler and F. G. Fowler",
+      "date": "1924",
+      "citation": "H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924). Project Gutenberg eBook 75439.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/75439",
+      "file": "sources/fowler-coordination.md",
+      "context": "Fowler complains of the 'spot-plague' that drops the semicolon and with it most conjunctions, explains how stops express degrees of thought dependence, notes the inversion that follows 'nor', and shows how faulty parallelism breaks an enumeration.",
+      "questions": [
+        "What is the 'spot-plague', and what does Fowler say happens to conjunctions when writers avoid the semicolon?",
+        "According to Fowler, how do stops express 'degrees of thought dependence'?",
+        "What principle does Fowler give for a coordinated enumeration, and how do his three examples violate it?"
+      ]
+    },
+    {
+      "id": "brown-conjunctions",
+      "title": "Of conjunctions and conjunctive adverbs",
+      "author": "Goold Brown",
+      "date": "1851",
+      "citation": "Goold Brown, The Grammar of English Grammars, with an Introduction, Historical and Critical (New York: Samuel S. & William Wood, 1851). Project Gutenberg eBook 11615.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/11615",
+      "file": "sources/brown-conjunctions.md",
+      "context": "Brown defines conjunctive adverbs, lists copulative, disjunctive, and corresponsive conjunctions with their members, and argues that conjunctions and conjunctive adverbs 'do not differ very essentially' and are often impossible to separate.",
+      "questions": [
+        "What are 'conjunctive adverbs' for Brown, and which words does he list as the most frequent?",
+        "How does Brown divide conjunctions, and what does he mean by 'corresponsive'?",
+        "Why does Brown say that conjunctions and conjunctive adverbs 'do not differ very essentially'?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "jespersen-coordination",
+      "historian": "Otto Jespersen",
+      "work": "A Modern English Grammar on Historical Principles",
+      "year": "1909–1949",
+      "claim": "Jespersen argued that the schoolroom word 'conjunction' hides two different relations: coordination, which links elements of the same rank, and subordination, which makes one clause a member of another. He described English connectives by the rank and function of the elements they join rather than by a fixed list of words, and treated the pure connective 'and' as different in kind from the subordinators that mark a clause as dependent.",
+      "note": "Traditional grammars from Lowth to Goold Brown kept a single class of conjunctions and sorted it into copulative, disjunctive, and corresponsive. Later formal work by Ross (1967) and by Huddleston and Pullum (2002) agreed that coordination is a structural operation but disagreed with Jespersen about how far function should drive the classification, treating it instead as a matter of syntax."
+    },
+    {
+      "id": "pullum-coordination",
+      "historian": "Geoffrey K. Pullum",
+      "work": "The Cambridge Grammar of the English Language (with Rodney Huddleston)",
+      "year": "2002",
+      "claim": "Pullum and Huddleston argued that coordination is a general syntactic operation that joins two constituents of the same category, not a property of clauses alone, and that the familiar list of seven coordinating conjunctions is a teaching convenience rather than a grammatical class. They reclassified 'for' as a preposition, treated 'so' and 'yet' as adverbs in many uses, and rejected the schoolroom prohibition on beginning a sentence with 'and' or 'but' as a stylistic preference with no basis in English grammar.",
+      "note": "Lowth, Murray, and the school tradition treated 'for' and 'so' as conjunctions and taught that a sentence should not open with 'and' or 'but', and many style guides still discourage it. Pullum's argument is about the status of the claim, not its usefulness: a preference for one construction over another can be a sound guide to edited prose without being a rule of grammar."
+    }
+  ],
+  "activities": [
+    {
+      "id": "what-and-joins",
+      "type": "choice",
+      "prompt": "In 'She opened the door and walked in,' what does the conjunction 'and' join?",
+      "choices": [
+        "Two verb phrases that share the subject 'she'",
+        "Two independent clauses",
+        "A noun and a verb",
+        "Two prepositional phrases"
+      ],
+      "answer": 0,
+      "feedback": "There is one subject and one clause; 'and' joins the verb phrases 'opened the door' and 'walked in', so no comma is needed."
+    },
+    {
+      "id": "comma-before-conjunction",
+      "type": "choice",
+      "prompt": "Which sentence correctly punctuates two independent clauses joined by a coordinating conjunction?",
+      "choices": [
+        "The rain stopped, and we went out.",
+        "The rain stopped, we went out.",
+        "The rain stopped and we, went out.",
+        "The rain, stopped and we went out."
+      ],
+      "answer": 0,
+      "feedback": "A comma goes before the conjunction that joins two independent clauses; a comma alone would be a comma splice."
+    },
+    {
+      "id": "conjunctive-adverb-punctuation",
+      "type": "choice",
+      "prompt": "Which sentence is punctuated correctly?",
+      "choices": [
+        "The plan was expensive; nevertheless, we approved it.",
+        "The plan was expensive, nevertheless we approved it.",
+        "The plan was expensive nevertheless, we approved it.",
+        "The plan was expensive, nevertheless, we approved it."
+      ],
+      "answer": 0,
+      "feedback": "A conjunctive adverb such as 'nevertheless' cannot join clauses with a comma; the semicolon carries the boundary and the comma follows the adverb."
+    },
+    {
+      "id": "correlative-parallelism",
+      "type": "choice",
+      "prompt": "Which sentence observes parallelism with the correlative conjunction 'not only ... but also'?",
+      "choices": [
+        "He plays not only the piano but also the violin.",
+        "He not only plays the piano but also the violin.",
+        "He plays not only the piano but the violin also plays.",
+        "He not only the piano but also plays the violin."
+      ],
+      "answer": 0,
+      "feedback": "Each half of a correlative pair must stand immediately before the same kind of element: 'not only the piano but also the violin'."
+    },
+    {
+      "id": "either-or-placement",
+      "type": "choice",
+      "prompt": "Which sentence places the correlative 'either ... or' correctly?",
+      "choices": [
+        "He ate either the cake or the pie.",
+        "He either ate the cake or the pie.",
+        "Either he ate the cake or the pie.",
+        "He ate the cake either or the pie."
+      ],
+      "answer": 0,
+      "feedback": "'Either' should stand immediately before the first item and 'or' before the second: 'either the cake or the pie'."
+    },
+    {
+      "id": "subordination-emphasis",
+      "type": "choice",
+      "prompt": "Which version makes the tiredness a reason and the leaving the main assertion?",
+      "choices": [
+        "Because he was tired, he left.",
+        "He was tired, and he left.",
+        "He was tired; he left.",
+        "He was tired, so he left."
+      ],
+      "answer": 0,
+      "feedback": "The subordinating conjunction 'because' makes the tiredness a dependent reason and leaves 'he left' as the main clause."
+    },
+    {
+      "id": "adverbial-clause-role",
+      "type": "choice",
+      "prompt": "In 'Although it was late, she kept working,' what is the grammatical role of 'Although it was late'?",
+      "choices": [
+        "An adverbial clause modifying 'kept working'",
+        "A noun clause acting as the subject",
+        "A relative clause modifying 'she'",
+        "An independent clause"
+      ],
+      "answer": 0,
+      "feedback": "'Although' is a subordinating conjunction; the clause it introduces modifies the main clause and cannot stand alone."
+    },
+    {
+      "id": "identify-conjunctive-adverb",
+      "type": "choice",
+      "prompt": "Which word in 'The road was icy; therefore, we drove slowly' is a conjunctive adverb rather than a conjunction?",
+      "choices": [
+        "therefore",
+        "was",
+        "we",
+        "slowly"
+      ],
+      "answer": 0,
+      "feedback": "'Therefore' is an adverb that signals a result; the semicolon, not the adverb, joins the two clauses."
+    },
+    {
+      "id": "neither-nor-agreement",
+      "type": "choice",
+      "prompt": "Choose the verb that agrees under the proximity rule: 'Neither the workers nor the manager ___ ready.'",
+      "choices": [
+        "was",
+        "were",
+        "are",
+        "have been"
+      ],
+      "answer": 0,
+      "feedback": "Under the proximity rule the verb agrees with the nearer subject, the singular 'manager', so 'was' is required."
+    },
+    {
+      "id": "analyse-coordination-passage",
+      "type": "short-answer",
+      "prompt": "Analyse the two sentences below. Identify the coordinating conjunction that joins independent clauses, name the conjunctive adverb, and explain why the punctuation around each is different.",
+      "context": "The storm broke the windows, and the wind tore at the roof. The family stayed in the cellar; however, they could hear the timbers strain above them.",
+      "rubric": [
+        "identifies 'and' as the coordinating conjunction joining two independent clauses and notes the comma before it",
+        "names 'however' as a conjunctive adverb and explains that it cannot join clauses with only a comma",
+        "states that the semicolon before 'however' is correct and that a comma there would create a splice"
+      ]
+    }
+  ]
+}

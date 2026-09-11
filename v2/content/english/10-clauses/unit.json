@@ -1,0 +1,205 @@
+{
+  "id": "10-clauses",
+  "title": "Clauses: main and subordinate",
+  "period": "English grammar",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-relatives",
+      "title": "Of relatives, and the omission of the relative",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar (London, 1762). Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-relatives.md",
+      "context": "Lowth defines the relative pronouns, the antecedent they require, and the agreement between relative and antecedent, then objects to the omission of the relative in phrases such as 'The man I love.' He admits the construction is common but finds it obscure and ungraceful.",
+      "questions": [
+        "According to Lowth, what must every relative have, and what does 'what' include that the other relatives do not?",
+        "What does Lowth say about the omission of the relative, and what examples does he give from Addison and Swift?",
+        "How does Lowth describe the relation between a relative and its antecedent?"
+      ]
+    },
+    {
+      "id": "fowler-relatives",
+      "title": "Defining and non-defining relative clauses; 'that' and 'which'",
+      "author": "H. W. Fowler and F. G. Fowler",
+      "date": "1924",
+      "citation": "H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), section on relatives. Project Gutenberg eBook 75439.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/75439",
+      "file": "sources/fowler-relatives.md",
+      "context": "The Fowlers divide relative clauses into defining and non-defining, give a test for telling them apart, and argue about the division of labour between 'that' and 'which' while conceding that no authoritative distinction can be drawn from usage.",
+      "questions": [
+        "What test do the Fowlers give for distinguishing a defining from a non-defining relative clause?",
+        "What do the Fowlers say about punctuation as a guide to the two kinds of clause?",
+        "Why do the Fowlers think the choice between 'that' and 'which' is worth keeping, even with exceptions?"
+      ]
+    },
+    {
+      "id": "sweet-clauses",
+      "title": "Clauses, complexes, and the kinds of sub-clause",
+      "author": "Henry Sweet",
+      "date": "1891",
+      "citation": "Henry Sweet, A New English Grammar, Logical and Historical, Part I (Oxford: Clarendon Press, 1891), section 'Relations between Sentences'. Internet Archive, newenglishgramma01sweeuoft.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/newenglishgramma01sweeuoft",
+      "file": "sources/sweet-clauses.md",
+      "context": "Sweet distinguishes independent from dependent sentences by their form, separates coordinate from subordinate clauses, and defines the complex sentence and its parts: principal clause, co-clause, sub-clause, front-clause, and after-clause.",
+      "questions": [
+        "How does Sweet define an independent sentence, and how does a dependent sentence differ?",
+        "What is the difference between a co-clause and a sub-clause in Sweet's scheme?",
+        "What does Sweet call a sub-clause that comes before its principal clause, and what example does he give?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "fowler-that-which",
+      "historian": "H. W. Fowler",
+      "work": "The King's English",
+      "year": "1906",
+      "claim": "Fowler argued that 'that' is the natural defining relative and 'who' or 'which' the non-defining one, so that a restrictive clause reads best with 'that' and a parenthetical one with 'which'. He treated the distinction as a useful tendency rather than a fixed law, since usage itself does not support a hard rule.",
+      "note": "Modern descriptive and corpus linguists, including Geoffrey K. Pullum, show that restrictive 'which' is standard in edited British and American prose and that the strict ban is a twentieth-century editorial convention. Huddleston and Pullum (2002) treat the choice as a matter of style, not grammar."
+    },
+    {
+      "id": "jespersen-contact",
+      "historian": "Otto Jespersen",
+      "work": "A Modern English Grammar on Historical Principles",
+      "year": "1909–1949",
+      "claim": "Jespersen argued that a relative pronoun may be left out when it is the object of its clause, and that these 'contact clauses' are a normal and ancient English construction rather than a careless ellipsis. For him the omitted relative belongs to the grammar of the language, not to a list of faults.",
+      "note": "Lowth had taken the opposite view in 1762, calling the omission 'too much indulged in the familiar style' and 'apt to be attended with obscurity and ambiguity.' The disagreement is about clarity and register, since the construction itself is undisputed."
+    }
+  ],
+  "activities": [
+    {
+      "id": "clause-count",
+      "type": "choice",
+      "prompt": "How many finite clauses are there in 'When the rain stopped, we went out because the sun was setting'?",
+      "choices": [
+        "Three",
+        "Two",
+        "One",
+        "Four"
+      ],
+      "answer": 0,
+      "feedback": "There are three finite verbs — 'stopped', 'went', and 'was setting' — so the sentence contains three clauses: two dependent and one main."
+    },
+    {
+      "id": "noun-clause-kind",
+      "type": "choice",
+      "prompt": "In 'I know what you did,' what kind of clause is 'what you did'?",
+      "choices": [
+        "A noun clause, acting as the object of 'know'",
+        "A relative clause, modifying 'I'",
+        "An adverbial clause of time",
+        "A main clause"
+      ],
+      "answer": 0,
+      "feedback": "'What you did' fills the object slot after 'know', so it does the work of a noun; a relative clause would modify a noun, and an adverbial clause would modify the verb."
+    },
+    {
+      "id": "relative-or-adverbial",
+      "type": "choice",
+      "prompt": "In 'The day when we met was rainy,' the clause 'when we met' is…",
+      "choices": [
+        "a relative clause modifying 'day'",
+        "an adverbial clause modifying 'met'",
+        "a noun clause acting as the subject",
+        "a main clause"
+      ],
+      "answer": 0,
+      "feedback": "'When' here is a relative adverb referring back to the noun 'day'; the clause identifies which day is meant."
+    },
+    {
+      "id": "restrictive-meaning",
+      "type": "choice",
+      "prompt": "Which sentence states that all the students passed?",
+      "choices": [
+        "The students, who had studied, passed.",
+        "The students who had studied passed.",
+        "The students who had studied, passed.",
+        "The students, who had studied passed."
+      ],
+      "answer": 0,
+      "feedback": "The commas make the clause non-restrictive, so it adds information about all the students rather than selecting some of them."
+    },
+    {
+      "id": "that-restrictive",
+      "type": "choice",
+      "prompt": "Following the convention that keeps 'that' for restrictive clauses, which sentence is punctuated and worded correctly?",
+      "choices": [
+        "The book that I read was dull.",
+        "The book, that I read, was dull.",
+        "My father, that left Berlin, will arrive soon.",
+        "The book that I read, was dull."
+      ],
+      "answer": 0,
+      "feedback": "'That' introduces a restrictive clause and takes no commas; a non-restrictive clause would use 'which' or 'who' and be set off by commas."
+    },
+    {
+      "id": "omit-relative",
+      "type": "choice",
+      "prompt": "In which sentence can the relative pronoun be left out?",
+      "choices": [
+        "The man whom I met was kind.",
+        "The man who called was kind.",
+        "The man whose car was stolen was kind.",
+        "The man to whom I spoke was kind."
+      ],
+      "answer": 0,
+      "feedback": "The relative may be omitted only when it is the object of a restrictive clause, as 'whom' is in 'The man I met was kind'; a subject relative cannot be dropped."
+    },
+    {
+      "id": "reduced-relative",
+      "type": "choice",
+      "prompt": "Which sentence contains a reduced relative clause?",
+      "choices": [
+        "The man sitting there is my uncle.",
+        "The man who sits there is my uncle.",
+        "The man is sitting there.",
+        "Sit there, please."
+      ],
+      "answer": 0,
+      "feedback": "'Sitting there' is a participial phrase reducing 'who is sitting there'; the second sentence keeps the finite relative clause."
+    },
+    {
+      "id": "adverbial-concession",
+      "type": "choice",
+      "prompt": "In 'Although it was late, she kept working,' the subordinate clause expresses…",
+      "choices": [
+        "concession",
+        "condition",
+        "cause",
+        "time"
+      ],
+      "answer": 0,
+      "feedback": "'Although' concedes a fact that might have stopped her; a condition would use 'if' or 'unless', and a cause would use 'because'."
+    },
+    {
+      "id": "fix-fragment",
+      "type": "choice",
+      "prompt": "Which is the best way to fix the fragment 'Because the rain had stopped.'?",
+      "choices": [
+        "We went out because the rain had stopped.",
+        "Because the rain had stopped, it rained.",
+        "The rain had stopped because.",
+        "Because the rain had stopped, and we went out."
+      ],
+      "answer": 0,
+      "feedback": "The dependent clause needs a main clause to complete it; the fourth option is still a fragment because 'and we went out' does not supply an independent clause after the subordinator."
+    },
+    {
+      "id": "analyse-clauses",
+      "type": "short-answer",
+      "prompt": "Analyse the clauses in the passage below. Identify one noun clause, one relative clause, and one adverbial clause, and explain why the relative clause takes no commas.",
+      "context": "What the letter said surprised her. The friend who had written it was someone she trusted, though they had not spoken for years. She read it twice because the news was hard to believe.",
+      "rubric": [
+        "identifies 'What the letter said' as a noun clause serving as the subject of 'surprised'",
+        "identifies 'who had written it' as a restrictive relative clause modifying 'friend' and explains that restrictive clauses are not set off by commas",
+        "identifies 'because the news was hard to believe' as an adverbial clause of reason"
+      ]
+    }
+  ]
+}

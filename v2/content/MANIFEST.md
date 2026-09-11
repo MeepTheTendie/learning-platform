@@ -2,135 +2,125 @@
 
 Every source and its license, generated from the unit files.
 
-## 01-reading-a-poem — Reading a poem closely
+## 01-sentence-structure — The sentence: subject and predicate
 
-English poetry, sixteenth to nineteenth centuries
+English grammar
 
-- **Three sonnets** — William Shakespeare, 1609. Public domain. Shake-speares Sonnets (London: Thomas Thorpe, 1609), Sonnets XVIII, LXXIII, and CXVI. Text from Shakespeare's Sonnets, Project Gutenberg eBook 1041.
-- **Selected poems** — Emily Dickinson, 1890–1896. Public domain. Poems by Emily Dickinson, Three Series, Complete, edited by Mabel Loomis Todd and T. W. Higginson (Boston: Roberts Brothers and Little, Brown, 1890–1896). Project Gutenberg eBook 12242.
-- **From the Preface to Lyrical Ballads** — William Wordsworth, 1800. Public domain. William Wordsworth, Preface to Lyrical Ballads, with Other Poems, 1800, Volume 1 (London: T. N. Longman and O. Rees, 1800). Project Gutenberg eBook 8905.
-- image: assets/sonnets-1609-title-page.jpg — Folger Shakespeare Library (Public domain)
-- image: assets/emily-dickinson.jpg — Yale University Manuscripts & Archives (Public domain)
-- image: assets/wordsworth-helvellyn.jpg — Benjamin Robert Haydon (Public domain)
-- interpretation: Cleanth Brooks, *The Well Wrought Urn: Studies in the Structure of Poetry* (1947)
-- interpretation: Helen Vendler, *The Art of Shakespeare's Sonnets* (1997)
+- **From A Short Introduction to English Grammar** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: A. Millar and R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
+- **From English Grammar, Adapted to the Different Classes of Learners** — Lindley Murray, 1795; this edition 1826. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners, with an Appendix (Philadelphia: Marot & Walter, 1826). First published 1795. Internet Archive, englishgrammarad00murrrich.
+- **From A New English Grammar, Logical and Historical** — Henry Sweet, 1891. Public domain. Henry Sweet, A New English Grammar, Logical and Historical, Part I: Introduction, Phonology, and Accidence (Oxford: Clarendon Press, 1891). Internet Archive, newenglishgramma01sweeuoft.
+- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
+- interpretation: Geoffrey K. Pullum, *The Cambridge Grammar of the English Language (with Rodney Huddleston)* (2002)
 
-## 02-imagery-and-metaphor — Imagery and metaphor
+## 02-nouns-and-determiners — Nouns, number, and determiners
 
-English poetry, sixteenth to nineteenth centuries
+English grammar
 
-- **A Valediction: Forbidding Mourning; and Holy Sonnet 10** — John Donne, 1611 (printed 1633). Public domain. John Donne, "A Valediction: Forbidding Mourning" and Holy Sonnet 10 ("Death be not proud"), from Poems (1633). Text from Wikisource.
-- **Sonnets 18, 73, and 116** — William Shakespeare, 1609. Public domain. William Shakespeare, Sonnets 18, 73, and 116, from Shake-speares Sonnets (1609). Text from Project Gutenberg eBook 1041.
-- **Selected poems from Leaves of Grass** — Walt Whitman, 1868-1881. Public domain. Walt Whitman, "A Noiseless Patient Spider," "When I Heard the Learn'd Astronomer," "The Dalliance of the Eagles," and "A Sight in Camp in the Daybreak Gray and Dim," from Leaves of Grass (1891-92 edition). Text from Project Gutenberg eBook 1322.
-- image: assets/john-donne.jpg — After Isaac Oliver, National Portrait Gallery, London (Public domain)
-- image: assets/walt-whitman.jpg — Dodd, Mead and Co. (American Bookmen) (Public domain)
-- image: assets/sonnets-1609.jpg — Folger Shakespeare Library (Public domain)
-- interpretation: I. A. Richards, *The Philosophy of Rhetoric* (1936)
-- interpretation: George Lakoff and Mark Johnson, *Metaphors We Live By* (1980)
+- **Of the Article, the Substantive, Number, and the Possessive Case** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, 1762). Text from Project Gutenberg eBook 72554.
+- **Of the Articles, Substantives, Number, and Case** — Lindley Murray, 1795; this edition 1826. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (York, 1795; London, 1826). Text from the Internet Archive scan of the 1826 edition.
+- **Collectives; and Number, 6: Nouns of Multitude** — H. W. Fowler, 1926. Public domain. H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926), entries 'Collectives' and 'Number, 6. Nouns of multitude.' Text from the Internet Archive scan of the 1926 first edition.
+- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles, Vol. II: Syntax (First Volume)* (1914)
+- interpretation: Steven Pinker, *Words and Rules: The Ingredients of Language* (1999)
 
-## 03-meter-and-form — Meter and form
+## 03-pronouns — Pronouns and case
 
-English poetry, sixteenth to nineteenth centuries
+English grammar
 
-- **Two soliloquies from Hamlet** — William Shakespeare, c. 1600–1601. Public domain. William Shakespeare, The Tragedy of Hamlet, Prince of Denmark (c. 1600–1601), Act II, scene 2, and Act III, scene 1, in The Complete Works of William Shakespeare, edited by W. J. Craig (London: Oxford University Press, 1914). Project Gutenberg eBook 1524.
-- **Break, Break, Break and The Charge of the Light Brigade** — Alfred, Lord Tennyson, 1842 and 1854–55. Public domain. Alfred, Lord Tennyson, 'Break, Break, Break' (1842), in The Early Poems of Alfred Lord Tennyson, edited by John Churton Collins (London: Methuen, 1900); and 'The Charge of the Light Brigade' (1854; revised 1855), in Maud, and Other Poems (London: Edward Moxon, 1855). Project Gutenberg eBooks 8601 and 56913.
-- **Song of Myself, sections 1–2** — Walt Whitman, 1855; this text 1899. Public domain. Walt Whitman, Leaves of Grass (Boston: Small, Maynard & Co., 1899), 'Song of Myself,' sections 1–2. Project Gutenberg eBook 1322.
-- image: assets/first-folio-1623.jpg — Boston Public Library (CC BY-SA 4.0)
-- image: assets/alfred-tennyson.jpg — Julia Margaret Cameron (Public domain)
-- image: assets/whitman-frontispiece.jpg — Samuel Hollyer (engraver); New York Public Library (Public domain)
-- interpretation: Paul Fussell, *Poetic Meter and Poetic Form* (1965; revised 1979)
-- interpretation: Derek Attridge, *The Rhythms of English Poetry* (1982)
+- **Of pronouns, case, and comparison** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
+- **The personal pronouns as shifters** — Otto Jespersen, 1922. Public domain. Otto Jespersen, Language: Its Nature, Development and Origin (London: George Allen & Unwin Ltd., 1922). Project Gutenberg eBook 53038.
+- **Case, the self-pronouns, and who and whom** — George Lyman Kittredge and Frank Edgar Farley, 1913. Public domain. George Lyman Kittredge and Frank Edgar Farley, An Advanced English Grammar with Exercises (Boston: Ginn and Company, 1913). Project Gutenberg eBook 45814.
+- interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
+- interpretation: Dennis Baron, *Grammar and Gender* (1986)
 
-## 04-the-sonnet — The sonnet
+## 04-verbs-tense-and-aspect — Verbs: tense and aspect
 
-English poetry, sixteenth to nineteenth centuries
+English grammar
 
-- **Three sonnets from the Rime sparse** — Francesco Petrarca (Petrarch), c. 1327–1368; this translation 1903. Public domain. Selected and translated by Thomas Wentworth Higginson, Fifteen Sonnets of Petrarch (Boston and New York: Houghton Mifflin, 1903). Italian and English from the same edition. Project Gutenberg eBook 50307.
-- **The English sonnet from Wyatt to Shakespeare** — Sir Thomas Wyatt, Henry Howard (Earl of Surrey), Sir Philip Sidney, Edmund Spenser, William Shakespeare, 1530s–1609. Public domain. Wyatt, 'Whoso list to hunt,' and Surrey, 'Love, that doth reign and live within my thought,' after Tottel's Miscellany (1557); Sidney, Astrophil and Stella (1591), Project Gutenberg eBook 56375; Spenser, Amoretti (1595), in The Poetical Works of Edmund Spenser, Project Gutenberg eBook 10602; Shakespeare, Sonnet 18, from the Sonnets of 1609, Project Gutenberg eBook 1041.
-- **The sonnet after Shakespeare** — John Donne, John Milton, William Wordsworth, John Keats, Elizabeth Barrett Browning, Gerard Manley Hopkins, 1633–1918. Public domain. Donne, Holy Sonnet 10, from Poems (1633), in The Poems of John Donne, ed. H. J. C. Grierson (1912), Project Gutenberg eBook 48688; Milton, Sonnet 19, from Poems (1673), in Milton: Minor Poems, Project Gutenberg eBook 31706; Wordsworth, 'Composed upon Westminster Bridge,' from Poems, in Two Volumes (1807), in The Poetical Works of William Wordsworth, Project Gutenberg eBook 12145; Keats, 'On First Looking into Chapman's Homer,' from Poems (1817), Project Gutenberg eBook 8209; Barrett Browning, Sonnets from the Portuguese 43 (1850), Project Gutenberg eBook 2002; Hopkins, 'God's Grandeur,' in Poems of Gerard Manley Hopkins (1918), Project Gutenberg eBook 22403.
-- image: assets/sonnets-1609.jpg — Folger Shakespeare Library (Public domain)
-- image: assets/francesco-petrarca.jpg — Altichiero (Public domain)
-- image: assets/thomas-wyatt.jpg — After Hans Holbein the Younger, National Portrait Gallery, London (Public domain)
-- interpretation: Helen Vendler, *The Art of Shakespeare's Sonnets* (1997)
-- interpretation: Michael R. G. Spiller, *The Development of the Sonnet: An Introduction* (1992)
+- **On the times of the verb, and on irregular verbs** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, 1762), from the sections on the Verb and on Irregular Verbs. Project Gutenberg eBook 72554.
+- **Of the Tenses** — Lindley Murray, 1795. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (first published York, 1795), Section 5, 'Of the Tenses'; text from the 1819 Hanover, N.H. printing. Internet Archive.
+- **Tenses and the definite forms** — Henry Sweet, 1898. Public domain. Henry Sweet, A New English Grammar, Logical and Historical, Part II: Syntax (Oxford: Clarendon Press, 1898), sections 2163-2224. Internet Archive.
+- interpretation: Otto Jespersen, *The Philosophy of Grammar* (1924)
+- interpretation: William Cobbett, *A Grammar of the English Language, in a Series of Letters* (1818)
 
-## 05-narrative-and-the-short-story — Narrative and the short story
+## 05-verbs-mood-and-voice — Verbs: mood, voice, and auxiliaries
 
-The nineteenth century
+English grammar
 
-- **The Cask of Amontillado (selections)** — Edgar Allan Poe, 1846. Public domain. "The Cask of Amontillado," first published in Godey's Lady's Book, November 1846. Text from The Works of Edgar Allan Poe, Volume 2 (Raven Edition), Project Gutenberg eBook 2148.
-- **The Story of an Hour** — Kate Chopin, 1894. Public domain. "The Story of an Hour," first published in Vogue, 6 December 1894. Text from Wikisource.
-- **The Lady with the Dog (selections)** — Anton Chekhov, 1899 (this translation 1917). Public domain. "The Lady with the Dog," translated by Constance Garnett, in The Lady with the Dog and Other Stories (London: Chatto & Windus, 1917). Project Gutenberg eBook 13415.
-- image: assets/edgar-allan-poe.jpg — Unknown photographer; restored by Yann Forget and Adam Cuerden (Public domain)
-- image: assets/kate-chopin.jpg — Unknown author (Public domain)
-- image: assets/anton-chekhov.jpg — Unknown author (Public domain)
-- interpretation: E. M. Forster, *Aspects of the Novel* (1927)
-- interpretation: Wayne C. Booth, *The Rhetoric of Fiction* (1961)
+- **Of verbs, modes, and auxiliaries** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar (London: J. Hughs, 1762). Project Gutenberg eBook 72554.
+- **Of active, passive, and neuter verbs** — Lindley Murray, 1829. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (London: J. B. Baldwin, 1829), Chapter VI. Internet Archive.
+- **On compound passives, split infinitives, and prepositions at the end** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), sections 25-26 and the section on relatives. Project Gutenberg eBook 75439.
+- interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
+- interpretation: Otto Jespersen, *The Philosophy of Grammar* (1924)
 
-## 06-character-and-the-novel — Character and the novel
+## 06-modal-verbs — Modal verbs
 
-The novel in English, eighteenth to early twentieth centuries
+English grammar
 
-- **Pride and Prejudice, Chapter I** — Jane Austen, 1813. Public domain. Pride and Prejudice (1813), Chapter I. Text from the illustrated George Allen edition (1894), Project Gutenberg eBook 1342.
-- **Middlemarch, Prelude and the portrait of Dorothea** — George Eliot, 1871–72. Public domain. Middlemarch (1871–72), Prelude and Chapter I. Project Gutenberg eBook 145.
-- **Mrs. Dalloway, opening** — Virginia Woolf, 1925. Public domain. Mrs. Dalloway (London: Hogarth Press, 1925), opening pages. Project Gutenberg eBook 71865.
-- image: assets/austen-portrait.jpg — Cassandra Austen (Public domain)
-- image: assets/eliot-portrait.jpg — Alexandre-Louis-François d'Albert-Durade (Public domain)
-- image: assets/woolf-portrait.jpg — Houghton Library, Harvard University (Public domain)
-- interpretation: E. M. Forster, *Aspects of the Novel* (1927)
-- interpretation: Ian Watt, *The Rise of the Novel* (1957)
+- **On the auxiliary verbs** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: with Critical Notes (London: J. Hughs for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.
+- **On the potential mood** — Lindley Murray, 1795. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (York, 1795; New York: Collins and Perkins, 1810). Internet Archive copy of the 1810 edition.
+- **On auxiliary verbs** — William Cobbett, 1818. Public domain. William Cobbett, A Grammar of the English Language, in a Series of Letters (London, 1818; Internet Archive copy of the 1819 edition).
+- interpretation: Henry Sweet, *A New English Grammar, Logical and Historical* (1892)
+- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1931)
 
-## 07-drama-and-shakespeare — Drama and Shakespeare
+## 07-adjectives-and-adverbs — Adjectives and adverbs
 
-English drama, sixteenth to seventeenth centuries
+English grammar
 
-- **Ambition, the dagger, and "tomorrow": scenes from Macbeth** — William Shakespeare, c. 1606. Public domain. William Shakespeare, The Tragedy of Macbeth (c. 1606), Act I, scenes 3, 5, and 7; Act II, scene 1; and Act V, scene 5. Text from the Project Gutenberg edition (eBook 1533), based on the First Folio (1623).
-- **Delay, conscience, and the play-within-the-play: scenes from Hamlet** — William Shakespeare, c. 1600–1601. Public domain. William Shakespeare, The Tragedy of Hamlet, Prince of Denmark (c. 1600–1601), Act III, scene 3, and Act V, scene 2. Text from the Project Gutenberg edition (eBook 1524).
-- **From the Poetics: tragedy, hamartia, and the tragic pleasure** — Aristotle, c. 335 BCE; this translation 1902. Public domain. Aristotle, Poetics, translated by S. H. Butcher (London: Macmillan, 1902), chapters 6, 13, and 14. Project Gutenberg eBook 1974.
-- image: assets/shakespeare-chandos.jpg — Attributed to John Taylor; National Portrait Gallery, London (Public domain)
-- image: assets/globe-theatre.jpg — Claes Janszoon Visscher II (Public domain)
-- image: assets/first-folio.jpg — Martin Droeshout (Public domain)
-- interpretation: A. C. Bradley, *Shakespearean Tragedy* (1904)
-- interpretation: Stephen Greenblatt, *Shakespearean Negotiations* (1988)
+- **On adjectives and adverbs** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
+- **Adjectives and adverbs: definition, and the disputes of the grammarians** — Goold Brown, 1851. Public domain. Goold Brown, The Grammar of English Grammars, 6th ed., revised by Samuel U. Berrian (New York: Samuel S. and William Wood, 1851). Project Gutenberg eBook 11615.
+- **Comparatives, superlatives, and unique** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), chapters 'Syntax' and 'Vocabulary.' Project Gutenberg eBook 75439.
+- interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
+- interpretation: H. W. Fowler, *A Dictionary of Modern English Usage* (1926)
 
-## 08-rhetoric-and-the-essay — Rhetoric and the essay
+## 08-prepositions-and-particles — Prepositions and their phrases
 
-The essay in English, sixteenth to nineteenth centuries
+English grammar
 
-- **Of Studies and Of Discourse** — Francis Bacon, 1597–1625. Public domain. Francis Bacon, The Essays or Counsels, Civil and Moral (London, 1625), 'Of Studies' and 'Of Discourse'. Text from Project Gutenberg eBook 575.
-- **Two Spectator papers: No. 10 and No. 476** — Joseph Addison, 1711–1712. Public domain. Joseph Addison, The Spectator, No. 10 (12 March 1711) and No. 476 (5 September 1712), in The Spectator, ed. Henry Morley, 3 vols. (London, 1891). Text from Project Gutenberg eBook 12030.
-- **The personal essay: Lamb, Emerson, Thoreau** — Charles Lamb, Ralph Waldo Emerson, Henry David Thoreau, 1822–1862. Public domain. Lamb, 'Dream-Children: A Reverie,' in The Works of Charles and Mary Lamb, vol. 2, ed. E. V. Lucas (London: Methuen, 1903), Project Gutenberg eBook 10343; Emerson, 'Self-Reliance,' in Essays: First Series (1841), text from Essays by Ralph Waldo Emerson, ed. Edna H. L. Turpin (New York: Charles E. Merrill, 1907), Project Gutenberg eBook 16643; Thoreau, 'Walking' (Atlantic Monthly, 1862), Project Gutenberg eBook 1022.
-- image: assets/francis-bacon.jpg — Paul van Somer (after); National Portrait Gallery, London (Public domain)
-- image: assets/addison-portrait.jpg — Sir Godfrey Kneller (Public domain)
-- image: assets/montaigne-portrait.jpg — Thomas de Leu (Public domain)
-- interpretation: Kenneth Burke, *A Rhetoric of Motives* (1950)
-- interpretation: Wayne C. Booth, *The Rhetorical Stance* (1963)
+- **Of prepositions, their government, and the idiom of placing them last** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
+- **Prepositions: idiom, different from, and the preposition at the end** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), chapter 'Prepositions'. Project Gutenberg eBook 75439.
+- **In and into, between and among, and the history of a rule** — Goold Brown, 1851. Public domain. Goold Brown, The Grammar of English Grammars, 6th ed., revised by Samuel U. Berrian (New York: Samuel S. and William Wood, 1851). Project Gutenberg eBook 11615.
+- interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
+- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
 
-## 09-irony-and-satire — Irony and satire
+## 09-conjunctions-and-coordination — Conjunctions and coordination
 
-English prose and verse, seventeenth to nineteenth centuries
+English grammar
 
-- **A Modest Proposal (selections)** — Jonathan Swift, 1729. Public domain. Jonathan Swift, A Modest Proposal for preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick (Dublin, 1729). Text from Project Gutenberg eBook 1080.
-- **The Rape of the Lock (selections)** — Alexander Pope, 1714 (first version 1712). Public domain. Alexander Pope, The Rape of the Lock: An Heroi-Comical Poem, in The Rape of the Lock, and Other Poems (1714). Text from Project Gutenberg eBook 9800.
-- **Adventures of Huckleberry Finn (selections)** — Mark Twain, 1884. Public domain. Mark Twain, Adventures of Huckleberry Finn (New York: Charles L. Webster and Company, 1885; first published 1884). Text from Project Gutenberg eBook 76.
-- image: assets/swift-portrait.jpg — Charles Jervas (Public domain)
-- image: assets/pope-portrait.jpg — Michael Dahl (Public domain)
-- image: assets/twain-portrait.jpg — Mathew Brady (Public domain)
-- interpretation: Wayne C. Booth, *A Rhetoric of Irony* (1974)
-- interpretation: D. C. Muecke, *The Compass of Irony* (1969)
+- **Of conjunctions** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: A. Millar and R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.
+- **On conjunctions, the semicolon, and parallelism** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924). Project Gutenberg eBook 75439.
+- **Of conjunctions and conjunctive adverbs** — Goold Brown, 1851. Public domain. Goold Brown, The Grammar of English Grammars, with an Introduction, Historical and Critical (New York: Samuel S. & William Wood, 1851). Project Gutenberg eBook 11615.
+- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
+- interpretation: Geoffrey K. Pullum, *The Cambridge Grammar of the English Language (with Rodney Huddleston)* (2002)
 
-## 10-style-and-revision — Style and revision
+## 10-clauses — Clauses: main and subordinate
 
-English prose, nineteenth to early twentieth centuries
+English grammar
 
-- **The Philosophy of Style (selections)** — Herbert Spencer, 1852. Public domain. "The Philosophy of Style," first published in the Westminster Review, October 1852. Text from The Philosophy of Style, Project Gutenberg eBook 5849.
-- **On Some Technical Elements of Style in Literature (selections)** — Robert Louis Stevenson, 1885. Public domain. First published in the Contemporary Review, April 1885; collected in Essays in the Art of Writing (London: Chatto & Windus, 1905). Project Gutenberg eBook 492.
-- **Style (selections)** — Walter Pater, 1888. Public domain. First published in the Fortnightly Review, December 1888; collected in Appreciations, with an Essay on Style (London: Macmillan, 1889). Project Gutenberg eBook 4037.
-- image: assets/spencer-portrait.jpg — Dibner Library of the History of Science and Technology (Public domain)
-- image: assets/stevenson-portrait.jpg — John Singer Sargent (Public domain)
-- image: assets/pater-portrait.jpg — William Rothenstein (Public domain)
-- interpretation: William Strunk Jr. and E. B. White, *The Elements of Style* (1918; revised 1959)
-- interpretation: George Orwell, *Politics and the English Language* (1946)
+- **Of relatives, and the omission of the relative** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar (London, 1762). Project Gutenberg eBook 72554.
+- **Defining and non-defining relative clauses; 'that' and 'which'** — H. W. Fowler and F. G. Fowler, 1924. Public domain. H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), section on relatives. Project Gutenberg eBook 75439.
+- **Clauses, complexes, and the kinds of sub-clause** — Henry Sweet, 1891. Public domain. Henry Sweet, A New English Grammar, Logical and Historical, Part I (Oxford: Clarendon Press, 1891), section 'Relations between Sentences'. Internet Archive, newenglishgramma01sweeuoft.
+- interpretation: H. W. Fowler, *The King's English* (1906)
+- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
+
+## 11-punctuation — Punctuation and its grammar
+
+English grammar
+
+- **On punctuation** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: with Critical Notes (London: J. Hughs for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.
+- **Points and marks** — William Cobbett, 1818. Public domain. William Cobbett, A Grammar of the English Language, in a Series of Letters (London, 1818; Internet Archive copy of the 1819 edition).
+- **The stops** — H. W. Fowler, 1926. Public domain. H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926; Internet Archive copy of the 1927 printing).
+- interpretation: Robert Lowth, *A Short Introduction to English Grammar* (1762)
+- interpretation: H. W. Fowler, *A Dictionary of Modern English Usage* (1926)
+
+## 12-agreement-and-usage — Agreement, reference, and usage
+
+English grammar
+
+- **Of concord, and the agreement of words** — Robert Lowth, 1762. Public domain. Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.
+- **Rules of syntax: concord and the agreement of words** — Lindley Murray, 1795; this edition 1826. Public domain. Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (first published York, 1795; Philadelphia: Marot & Walter, 1826). Text from the Internet Archive scan of the 1826 edition, englishgrammarad00murrrich.
+- **Four disputed usages** — H. W. Fowler, 1926. Public domain. H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926), entries 'affect, effect', 'lay & lie', 'less', and 'who & whom'. Text from the Internet Archive scan of the 1927 printing, dictionaryofmode013872mbp.
+- interpretation: Otto Jespersen, *A Modern English Grammar on Historical Principles* (1909–1949)
+- interpretation: Geoffrey K. Pullum, *The Cambridge Grammar of the English Language (with Rodney Huddleston)* (2002)
 
 ## 01-maps-and-projections — Maps and projections
 
@@ -471,6 +461,136 @@ c. 1789–1815 CE · France · Europe · the Atlantic
 - image: assets/storming-of-the-bastille.jpg — Jean-Pierre Houël (Public domain)
 - interpretation: François Furet, *Interpreting the French Revolution* (1978)
 - interpretation: C. L. R. James, *The Black Jacobins* (1938)
+
+## 01-reading-a-poem — Reading a poem closely
+
+English poetry, sixteenth to nineteenth centuries
+
+- **Three sonnets** — William Shakespeare, 1609. Public domain. Shake-speares Sonnets (London: Thomas Thorpe, 1609), Sonnets XVIII, LXXIII, and CXVI. Text from Shakespeare's Sonnets, Project Gutenberg eBook 1041.
+- **Selected poems** — Emily Dickinson, 1890–1896. Public domain. Poems by Emily Dickinson, Three Series, Complete, edited by Mabel Loomis Todd and T. W. Higginson (Boston: Roberts Brothers and Little, Brown, 1890–1896). Project Gutenberg eBook 12242.
+- **From the Preface to Lyrical Ballads** — William Wordsworth, 1800. Public domain. William Wordsworth, Preface to Lyrical Ballads, with Other Poems, 1800, Volume 1 (London: T. N. Longman and O. Rees, 1800). Project Gutenberg eBook 8905.
+- image: assets/sonnets-1609-title-page.jpg — Folger Shakespeare Library (Public domain)
+- image: assets/emily-dickinson.jpg — Yale University Manuscripts & Archives (Public domain)
+- image: assets/wordsworth-helvellyn.jpg — Benjamin Robert Haydon (Public domain)
+- interpretation: Cleanth Brooks, *The Well Wrought Urn: Studies in the Structure of Poetry* (1947)
+- interpretation: Helen Vendler, *The Art of Shakespeare's Sonnets* (1997)
+
+## 02-imagery-and-metaphor — Imagery and metaphor
+
+English poetry, sixteenth to nineteenth centuries
+
+- **A Valediction: Forbidding Mourning; and Holy Sonnet 10** — John Donne, 1611 (printed 1633). Public domain. John Donne, "A Valediction: Forbidding Mourning" and Holy Sonnet 10 ("Death be not proud"), from Poems (1633). Text from Wikisource.
+- **Sonnets 18, 73, and 116** — William Shakespeare, 1609. Public domain. William Shakespeare, Sonnets 18, 73, and 116, from Shake-speares Sonnets (1609). Text from Project Gutenberg eBook 1041.
+- **Selected poems from Leaves of Grass** — Walt Whitman, 1868-1881. Public domain. Walt Whitman, "A Noiseless Patient Spider," "When I Heard the Learn'd Astronomer," "The Dalliance of the Eagles," and "A Sight in Camp in the Daybreak Gray and Dim," from Leaves of Grass (1891-92 edition). Text from Project Gutenberg eBook 1322.
+- image: assets/john-donne.jpg — After Isaac Oliver, National Portrait Gallery, London (Public domain)
+- image: assets/walt-whitman.jpg — Dodd, Mead and Co. (American Bookmen) (Public domain)
+- image: assets/sonnets-1609.jpg — Folger Shakespeare Library (Public domain)
+- interpretation: I. A. Richards, *The Philosophy of Rhetoric* (1936)
+- interpretation: George Lakoff and Mark Johnson, *Metaphors We Live By* (1980)
+
+## 03-meter-and-form — Meter and form
+
+English poetry, sixteenth to nineteenth centuries
+
+- **Two soliloquies from Hamlet** — William Shakespeare, c. 1600–1601. Public domain. William Shakespeare, The Tragedy of Hamlet, Prince of Denmark (c. 1600–1601), Act II, scene 2, and Act III, scene 1, in The Complete Works of William Shakespeare, edited by W. J. Craig (London: Oxford University Press, 1914). Project Gutenberg eBook 1524.
+- **Break, Break, Break and The Charge of the Light Brigade** — Alfred, Lord Tennyson, 1842 and 1854–55. Public domain. Alfred, Lord Tennyson, 'Break, Break, Break' (1842), in The Early Poems of Alfred Lord Tennyson, edited by John Churton Collins (London: Methuen, 1900); and 'The Charge of the Light Brigade' (1854; revised 1855), in Maud, and Other Poems (London: Edward Moxon, 1855). Project Gutenberg eBooks 8601 and 56913.
+- **Song of Myself, sections 1–2** — Walt Whitman, 1855; this text 1899. Public domain. Walt Whitman, Leaves of Grass (Boston: Small, Maynard & Co., 1899), 'Song of Myself,' sections 1–2. Project Gutenberg eBook 1322.
+- image: assets/first-folio-1623.jpg — Boston Public Library (CC BY-SA 4.0)
+- image: assets/alfred-tennyson.jpg — Julia Margaret Cameron (Public domain)
+- image: assets/whitman-frontispiece.jpg — Samuel Hollyer (engraver); New York Public Library (Public domain)
+- interpretation: Paul Fussell, *Poetic Meter and Poetic Form* (1965; revised 1979)
+- interpretation: Derek Attridge, *The Rhythms of English Poetry* (1982)
+
+## 04-the-sonnet — The sonnet
+
+English poetry, sixteenth to nineteenth centuries
+
+- **Three sonnets from the Rime sparse** — Francesco Petrarca (Petrarch), c. 1327–1368; this translation 1903. Public domain. Selected and translated by Thomas Wentworth Higginson, Fifteen Sonnets of Petrarch (Boston and New York: Houghton Mifflin, 1903). Italian and English from the same edition. Project Gutenberg eBook 50307.
+- **The English sonnet from Wyatt to Shakespeare** — Sir Thomas Wyatt, Henry Howard (Earl of Surrey), Sir Philip Sidney, Edmund Spenser, William Shakespeare, 1530s–1609. Public domain. Wyatt, 'Whoso list to hunt,' and Surrey, 'Love, that doth reign and live within my thought,' after Tottel's Miscellany (1557); Sidney, Astrophil and Stella (1591), Project Gutenberg eBook 56375; Spenser, Amoretti (1595), in The Poetical Works of Edmund Spenser, Project Gutenberg eBook 10602; Shakespeare, Sonnet 18, from the Sonnets of 1609, Project Gutenberg eBook 1041.
+- **The sonnet after Shakespeare** — John Donne, John Milton, William Wordsworth, John Keats, Elizabeth Barrett Browning, Gerard Manley Hopkins, 1633–1918. Public domain. Donne, Holy Sonnet 10, from Poems (1633), in The Poems of John Donne, ed. H. J. C. Grierson (1912), Project Gutenberg eBook 48688; Milton, Sonnet 19, from Poems (1673), in Milton: Minor Poems, Project Gutenberg eBook 31706; Wordsworth, 'Composed upon Westminster Bridge,' from Poems, in Two Volumes (1807), in The Poetical Works of William Wordsworth, Project Gutenberg eBook 12145; Keats, 'On First Looking into Chapman's Homer,' from Poems (1817), Project Gutenberg eBook 8209; Barrett Browning, Sonnets from the Portuguese 43 (1850), Project Gutenberg eBook 2002; Hopkins, 'God's Grandeur,' in Poems of Gerard Manley Hopkins (1918), Project Gutenberg eBook 22403.
+- image: assets/sonnets-1609.jpg — Folger Shakespeare Library (Public domain)
+- image: assets/francesco-petrarca.jpg — Altichiero (Public domain)
+- image: assets/thomas-wyatt.jpg — After Hans Holbein the Younger, National Portrait Gallery, London (Public domain)
+- interpretation: Helen Vendler, *The Art of Shakespeare's Sonnets* (1997)
+- interpretation: Michael R. G. Spiller, *The Development of the Sonnet: An Introduction* (1992)
+
+## 05-narrative-and-the-short-story — Narrative and the short story
+
+The nineteenth century
+
+- **The Cask of Amontillado (selections)** — Edgar Allan Poe, 1846. Public domain. "The Cask of Amontillado," first published in Godey's Lady's Book, November 1846. Text from The Works of Edgar Allan Poe, Volume 2 (Raven Edition), Project Gutenberg eBook 2148.
+- **The Story of an Hour** — Kate Chopin, 1894. Public domain. "The Story of an Hour," first published in Vogue, 6 December 1894. Text from Wikisource.
+- **The Lady with the Dog (selections)** — Anton Chekhov, 1899 (this translation 1917). Public domain. "The Lady with the Dog," translated by Constance Garnett, in The Lady with the Dog and Other Stories (London: Chatto & Windus, 1917). Project Gutenberg eBook 13415.
+- image: assets/edgar-allan-poe.jpg — Unknown photographer; restored by Yann Forget and Adam Cuerden (Public domain)
+- image: assets/kate-chopin.jpg — Unknown author (Public domain)
+- image: assets/anton-chekhov.jpg — Unknown author (Public domain)
+- interpretation: E. M. Forster, *Aspects of the Novel* (1927)
+- interpretation: Wayne C. Booth, *The Rhetoric of Fiction* (1961)
+
+## 06-character-and-the-novel — Character and the novel
+
+The novel in English, eighteenth to early twentieth centuries
+
+- **Pride and Prejudice, Chapter I** — Jane Austen, 1813. Public domain. Pride and Prejudice (1813), Chapter I. Text from the illustrated George Allen edition (1894), Project Gutenberg eBook 1342.
+- **Middlemarch, Prelude and the portrait of Dorothea** — George Eliot, 1871–72. Public domain. Middlemarch (1871–72), Prelude and Chapter I. Project Gutenberg eBook 145.
+- **Mrs. Dalloway, opening** — Virginia Woolf, 1925. Public domain. Mrs. Dalloway (London: Hogarth Press, 1925), opening pages. Project Gutenberg eBook 71865.
+- image: assets/austen-portrait.jpg — Cassandra Austen (Public domain)
+- image: assets/eliot-portrait.jpg — Alexandre-Louis-François d'Albert-Durade (Public domain)
+- image: assets/woolf-portrait.jpg — Houghton Library, Harvard University (Public domain)
+- interpretation: E. M. Forster, *Aspects of the Novel* (1927)
+- interpretation: Ian Watt, *The Rise of the Novel* (1957)
+
+## 07-drama-and-shakespeare — Drama and Shakespeare
+
+English drama, sixteenth to seventeenth centuries
+
+- **Ambition, the dagger, and "tomorrow": scenes from Macbeth** — William Shakespeare, c. 1606. Public domain. William Shakespeare, The Tragedy of Macbeth (c. 1606), Act I, scenes 3, 5, and 7; Act II, scene 1; and Act V, scene 5. Text from the Project Gutenberg edition (eBook 1533), based on the First Folio (1623).
+- **Delay, conscience, and the play-within-the-play: scenes from Hamlet** — William Shakespeare, c. 1600–1601. Public domain. William Shakespeare, The Tragedy of Hamlet, Prince of Denmark (c. 1600–1601), Act III, scene 3, and Act V, scene 2. Text from the Project Gutenberg edition (eBook 1524).
+- **From the Poetics: tragedy, hamartia, and the tragic pleasure** — Aristotle, c. 335 BCE; this translation 1902. Public domain. Aristotle, Poetics, translated by S. H. Butcher (London: Macmillan, 1902), chapters 6, 13, and 14. Project Gutenberg eBook 1974.
+- image: assets/shakespeare-chandos.jpg — Attributed to John Taylor; National Portrait Gallery, London (Public domain)
+- image: assets/globe-theatre.jpg — Claes Janszoon Visscher II (Public domain)
+- image: assets/first-folio.jpg — Martin Droeshout (Public domain)
+- interpretation: A. C. Bradley, *Shakespearean Tragedy* (1904)
+- interpretation: Stephen Greenblatt, *Shakespearean Negotiations* (1988)
+
+## 08-rhetoric-and-the-essay — Rhetoric and the essay
+
+The essay in English, sixteenth to nineteenth centuries
+
+- **Of Studies and Of Discourse** — Francis Bacon, 1597–1625. Public domain. Francis Bacon, The Essays or Counsels, Civil and Moral (London, 1625), 'Of Studies' and 'Of Discourse'. Text from Project Gutenberg eBook 575.
+- **Two Spectator papers: No. 10 and No. 476** — Joseph Addison, 1711–1712. Public domain. Joseph Addison, The Spectator, No. 10 (12 March 1711) and No. 476 (5 September 1712), in The Spectator, ed. Henry Morley, 3 vols. (London, 1891). Text from Project Gutenberg eBook 12030.
+- **The personal essay: Lamb, Emerson, Thoreau** — Charles Lamb, Ralph Waldo Emerson, Henry David Thoreau, 1822–1862. Public domain. Lamb, 'Dream-Children: A Reverie,' in The Works of Charles and Mary Lamb, vol. 2, ed. E. V. Lucas (London: Methuen, 1903), Project Gutenberg eBook 10343; Emerson, 'Self-Reliance,' in Essays: First Series (1841), text from Essays by Ralph Waldo Emerson, ed. Edna H. L. Turpin (New York: Charles E. Merrill, 1907), Project Gutenberg eBook 16643; Thoreau, 'Walking' (Atlantic Monthly, 1862), Project Gutenberg eBook 1022.
+- image: assets/francis-bacon.jpg — Paul van Somer (after); National Portrait Gallery, London (Public domain)
+- image: assets/addison-portrait.jpg — Sir Godfrey Kneller (Public domain)
+- image: assets/montaigne-portrait.jpg — Thomas de Leu (Public domain)
+- interpretation: Kenneth Burke, *A Rhetoric of Motives* (1950)
+- interpretation: Wayne C. Booth, *The Rhetorical Stance* (1963)
+
+## 09-irony-and-satire — Irony and satire
+
+English prose and verse, seventeenth to nineteenth centuries
+
+- **A Modest Proposal (selections)** — Jonathan Swift, 1729. Public domain. Jonathan Swift, A Modest Proposal for preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick (Dublin, 1729). Text from Project Gutenberg eBook 1080.
+- **The Rape of the Lock (selections)** — Alexander Pope, 1714 (first version 1712). Public domain. Alexander Pope, The Rape of the Lock: An Heroi-Comical Poem, in The Rape of the Lock, and Other Poems (1714). Text from Project Gutenberg eBook 9800.
+- **Adventures of Huckleberry Finn (selections)** — Mark Twain, 1884. Public domain. Mark Twain, Adventures of Huckleberry Finn (New York: Charles L. Webster and Company, 1885; first published 1884). Text from Project Gutenberg eBook 76.
+- image: assets/swift-portrait.jpg — Charles Jervas (Public domain)
+- image: assets/pope-portrait.jpg — Michael Dahl (Public domain)
+- image: assets/twain-portrait.jpg — Mathew Brady (Public domain)
+- interpretation: Wayne C. Booth, *A Rhetoric of Irony* (1974)
+- interpretation: D. C. Muecke, *The Compass of Irony* (1969)
+
+## 10-style-and-revision — Style and revision
+
+English prose, nineteenth to early twentieth centuries
+
+- **The Philosophy of Style (selections)** — Herbert Spencer, 1852. Public domain. "The Philosophy of Style," first published in the Westminster Review, October 1852. Text from The Philosophy of Style, Project Gutenberg eBook 5849.
+- **On Some Technical Elements of Style in Literature (selections)** — Robert Louis Stevenson, 1885. Public domain. First published in the Contemporary Review, April 1885; collected in Essays in the Art of Writing (London: Chatto & Windus, 1905). Project Gutenberg eBook 492.
+- **Style (selections)** — Walter Pater, 1888. Public domain. First published in the Fortnightly Review, December 1888; collected in Appreciations, with an Essay on Style (London: Macmillan, 1889). Project Gutenberg eBook 4037.
+- image: assets/spencer-portrait.jpg — Dibner Library of the History of Science and Technology (Public domain)
+- image: assets/stevenson-portrait.jpg — John Singer Sargent (Public domain)
+- image: assets/pater-portrait.jpg — William Rothenstein (Public domain)
+- interpretation: William Strunk Jr. and E. B. White, *The Elements of Style* (1918; revised 1959)
+- interpretation: George Orwell, *Politics and the English Language* (1946)
 
 ## 01-what-is-philosophy — What is philosophy?
 

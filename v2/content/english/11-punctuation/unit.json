@@ -1,0 +1,205 @@
+{
+  "id": "11-punctuation",
+  "title": "Punctuation and its grammar",
+  "period": "English grammar",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-punctuation",
+      "title": "On punctuation",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: with Critical Notes (London: J. Hughs for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-punctuation.md",
+      "context": "Lowth defines punctuation as the marking of pauses 'according to their proper quantity or proportion,' arranges the period, colon, semicolon, and comma in a fixed hierarchy, and gives the comma's uses: lists, appositives, direct address, and pairs of nouns or adjectives.",
+      "questions": [
+        "Lowth defines punctuation as the marking of pauses. What are his four principal points, and in what proportion does he place them?",
+        "What does Lowth say distinguishes a simple sentence from a compounded sentence, and why does that distinction decide where a comma falls?",
+        "Lowth sets off nouns in apposition and nouns of address by commas. How does his rule compare with the modern distinction between restrictive and nonrestrictive elements?"
+      ]
+    },
+    {
+      "id": "cobbett-points",
+      "title": "Points and marks",
+      "author": "William Cobbett",
+      "date": "1818",
+      "citation": "William Cobbett, A Grammar of the English Language, in a Series of Letters (London, 1818; Internet Archive copy of the 1819 edition).",
+      "license": "Public domain",
+      "url": "https://archive.org/details/grammarofenglish00cobbiala",
+      "file": "sources/cobbett-points.md",
+      "context": "Cobbett's Letter XIV explains the full point, colon, semicolon, and comma, then turns to the parenthesis, the apostrophe, the hyphen, and the mark of quotation. He insists that no precise rules can be given and that much must be left to taste.",
+      "questions": [
+        "Cobbett says the comma's use 'must depend upon taste.' What does he mean, and how does his view differ from a rule that fixes every mark?",
+        "Why does Cobbett call the apostrophe of elision 'the mark not of elision, but of laziness and vulgarity,' and what use does he allow it?",
+        "Cobbett distinguishes the full point, colon, semicolon, and comma by the completeness of the sense. How does he say the colon differs from the semicolon?"
+      ]
+    },
+    {
+      "id": "fowler-stops",
+      "title": "The stops",
+      "author": "H. W. Fowler",
+      "date": "1926",
+      "citation": "H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926; Internet Archive copy of the 1927 printing).",
+      "license": "Public domain",
+      "url": "https://archive.org/details/dictionaryofmode013872mbp",
+      "file": "sources/fowler-stops.md",
+      "context": "Fowler's entry 'Stops' treats the comma, semicolon, colon, exclamation, question mark, inverted commas, apostrophe, hyphen, and dash. He organises the comma's work by grammatical function and warns against separating what belongs together.",
+      "questions": [
+        "Fowler says he has no room for a treatise on punctuation and offers 'ill stopped sentences with corrections' instead. What does that method assume about punctuation?",
+        "Under 'Comma C' Fowler warns against 'separating inseparables.' What examples does he give, and what grammatical principle underlies the warning?",
+        "What does Fowler say about the order of inverted commas and stops, and which form does he consider right?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "lowth-pauses",
+      "historian": "Robert Lowth",
+      "work": "A Short Introduction to English Grammar",
+      "year": "1762",
+      "claim": "Lowth treated punctuation as the written record of pronunciation: the period, colon, semicolon, and comma mark pauses of fixed proportion, with the period twice the colon and the colon twice the semicolon. On his account the marks guide the voice, and each point is learned by matching it to the length of the rest it represents.",
+      "note": "Modern grammars reject the pause theory. Huddleston and Pullum's Cambridge Grammar of the English Language (2002) describes punctuation as a system of marks governed by grammatical and conventional rules, and notes that commas occur where no pause is taken and that a sentence may be read with many different sets of pauses."
+    },
+    {
+      "id": "fowler-structure",
+      "historian": "H. W. Fowler",
+      "work": "A Dictionary of Modern English Usage",
+      "year": "1926",
+      "claim": "Fowler argued that punctuation should follow grammar and sense rather than breath. His entry on the stops organises the comma by the grammatical relation it marks, such as enumeration, the absolute construction, defining relatives, and connected independent sentences, and he warns against separating a verb from its subject or object and a defining relative from its antecedent.",
+      "note": "Descriptive linguists observe that several conventions Fowler states as correctness, such as the serial comma and the ban on joining independent clauses with a comma, vary by publisher and register and are matters of style rather than syntax; the comma splice is common in fiction and in earlier prose."
+    }
+  ],
+  "activities": [
+    {
+      "id": "comma-in-list",
+      "type": "choice",
+      "prompt": "Which sentence uses commas correctly in a list of three items?",
+      "choices": [
+        "We bought bread, cheese, and apples.",
+        "We bought, bread, cheese and apples.",
+        "We bought bread cheese, and apples.",
+        "We bought bread and, cheese and apples."
+      ],
+      "answer": 0,
+      "feedback": "Three or more items are separated by commas; two items joined by and take no comma between them."
+    },
+    {
+      "id": "restrictive-meaning",
+      "type": "choice",
+      "prompt": "In 'The students, who passed the exam, went home,' what does the pair of commas tell the reader?",
+      "choices": [
+        "All the students passed the exam.",
+        "Only some of the students passed the exam.",
+        "The students passed the exam on the way home.",
+        "The clause is essential to identify which students went home."
+      ],
+      "answer": 0,
+      "feedback": "The commas mark the clause as nonrestrictive: it adds information about all the students rather than identifying a subset."
+    },
+    {
+      "id": "spot-comma-splice",
+      "type": "choice",
+      "prompt": "Which sentence is a comma splice?",
+      "choices": [
+        "The rain stopped, the sun came out.",
+        "The rain stopped, and the sun came out.",
+        "When the rain stopped, the sun came out.",
+        "The rain stopped; the sun came out."
+      ],
+      "answer": 0,
+      "feedback": "Two independent clauses joined by a comma alone make a comma splice. A coordinating conjunction, a semicolon, or subordination repairs it."
+    },
+    {
+      "id": "fix-with-semicolon",
+      "type": "choice",
+      "prompt": "Which revision correctly fixes 'It was the best of times, it was the worst of times' with a semicolon?",
+      "choices": [
+        "It was the best of times; it was the worst of times.",
+        "It was the best of times, and, it was the worst of times.",
+        "It was the best of times: it was, the worst of times.",
+        "It was the best of times it was the worst of times."
+      ],
+      "answer": 0,
+      "feedback": "A semicolon joins two independent clauses; the comma version is a splice and the punctuation-free version is a fused sentence."
+    },
+    {
+      "id": "colon-use",
+      "type": "choice",
+      "prompt": "Which sentence uses the colon correctly?",
+      "choices": [
+        "The recipe calls for three things: flour, water, and salt.",
+        "The recipe calls for: flour, water, and salt.",
+        "The recipe calls for three things, flour, water, and salt.",
+        "The recipe calls for three things; flour, water, and salt."
+      ],
+      "answer": 0,
+      "feedback": "A colon follows a complete clause and introduces the list that specifies it; it should not stand between a verb and its object."
+    },
+    {
+      "id": "apostrophe-its",
+      "type": "choice",
+      "prompt": "Which sentence uses the apostrophe correctly?",
+      "choices": [
+        "The cat licked its paw.",
+        "The cat licked it's paw.",
+        "The cat licked its' paw.",
+        "Its a cold day, and the cat licked it's paw."
+      ],
+      "answer": 0,
+      "feedback": "Its is the possessive pronoun and takes no apostrophe; it's is a contraction of it is or it has."
+    },
+    {
+      "id": "quotation-punctuation",
+      "type": "choice",
+      "prompt": "In the American convention, which sentence punctuates the quotation correctly?",
+      "choices": [
+        "He called it \"a fine mess.\"",
+        "He called it \"a fine mess\".",
+        "He called it \"a fine mess\", and left.",
+        "He called it, \"a fine mess\"."
+      ],
+      "answer": 0,
+      "feedback": "American practice places the period inside the closing quotation mark; British practice often places it outside."
+    },
+    {
+      "id": "hyphen-or-dash",
+      "type": "choice",
+      "prompt": "Which sentence uses a hyphen correctly?",
+      "choices": [
+        "She is a well-known author.",
+        "She is a well known-author.",
+        "She is a well—known author.",
+        "She is a well, known author."
+      ],
+      "answer": 0,
+      "feedback": "A hyphen joins two words working as a single modifier before a noun; a dash separates and should not replace it."
+    },
+    {
+      "id": "semicolon-complex-list",
+      "type": "choice",
+      "prompt": "Which sentence uses semicolons correctly?",
+      "choices": [
+        "We visited Paris, France; Berlin, Germany; and Rome, Italy.",
+        "We visited Paris; France, Berlin; Germany, and Rome, Italy.",
+        "We visited Paris, France, Berlin, Germany, and Rome, Italy;",
+        "We visited Paris: France; Berlin: Germany; Rome: Italy."
+      ],
+      "answer": 0,
+      "feedback": "When list items contain commas, semicolons separate the larger items and keep the cities and countries distinct."
+    },
+    {
+      "id": "analyse-punctuation-passage",
+      "type": "short-answer",
+      "prompt": "Analyse the punctuation of the passage below. Name each mark and say what it does grammatically, then rewrite the sentence twice: once using a semicolon and once using subordination.",
+      "context": "The storm had passed, the streets were still flooded, and the shops remained shut; nevertheless, the market opened at dawn, as it always did.",
+      "rubric": [
+        "names the comma, semicolon, and conjunction and explains the boundary each marks",
+        "rewrites the clause join with a semicolon in one version and a subordinating conjunction in the other",
+        "keeps the meaning of the original and uses correct end punctuation"
+      ]
+    }
+  ]
+}

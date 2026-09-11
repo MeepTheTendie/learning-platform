@@ -1,0 +1,180 @@
+{
+  "id": "02-nouns-and-determiners",
+  "title": "Nouns, number, and determiners",
+  "period": "English grammar",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-grammar",
+      "title": "Of the Article, the Substantive, Number, and the Possessive Case",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, 1762). Text from Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-grammar.md",
+      "context": "Lowth's grammar, first published anonymously in 1762, was the most influential English school grammar of the eighteenth century. The excerpts here define the article, distinguish proper from common nouns, describe number and the irregular plurals, and analyse the possessive case.",
+      "questions": [
+        "Lowth says proper names 'admit not of Articles, or of Plurality of Number.' What exceptions does he allow, and what do they show about the rule?",
+        "How does Lowth derive the -'s of the possessive, and what common error does he correct?",
+        "Lowth lists 'oxen, chicken, children, brethren' as plurals in -en. Which of these survive in ordinary use, and which are archaic?"
+      ]
+    },
+    {
+      "id": "murray-grammar",
+      "title": "Of the Articles, Substantives, Number, and Case",
+      "author": "Lindley Murray",
+      "date": "1795; this edition 1826",
+      "citation": "Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (York, 1795; London, 1826). Text from the Internet Archive scan of the 1826 edition.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/englishgrammarad00murrrich",
+      "file": "sources/murray-grammar.md",
+      "context": "Murray's grammar, first published in 1795, became the standard school text in Britain and the United States for generations. These extracts give the article rules, the proper/common division, the full number system with the classical plurals, and the three-case analysis of the noun.",
+      "questions": [
+        "Murray defines number as 'the consideration of an object, as one or more.' Which nouns does he say are used only in the singular, and which only in the plural?",
+        "Murray's table pairs 'datum' with 'data' and 'criterion' with 'criteria.' What does the table assume about how borrowed nouns should behave?",
+        "How does Murray distinguish the possessive case from the nominative and the objective, and what rule does he give for a phrase such as 'the king of Great Britain's dominions'?"
+      ]
+    },
+    {
+      "id": "fowler-usage",
+      "title": "Collectives; and Number, 6: Nouns of Multitude",
+      "author": "H. W. Fowler",
+      "date": "1926",
+      "citation": "H. W. Fowler, A Dictionary of Modern English Usage (Oxford: Clarendon Press, 1926), entries 'Collectives' and 'Number, 6. Nouns of multitude.' Text from the Internet Archive scan of the 1926 first edition.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/bwb_T5-BCG-591",
+      "file": "sources/fowler-usage.md",
+      "context": "Fowler's usage guide classifies the nouns that cause difficulty of number and agreement: unchanged plurals, mass nouns, numerals, and the 'nouns of multitude' that may take a singular or a plural verb. He treats the choice as a matter of sense and consistency rather than fixed rule.",
+      "questions": [
+        "Fowler says nouns of multitude 'are treated as singular or plural at discretion.' What does he offer in place of a rule?",
+        "Fowler lists words such as 'counsel, deer, grouse, sheep' as the same in both numbers. What problem do such words create for subject-verb agreement?",
+        "Why does Fowler call shifting between 'it' and 'they' in the same sentence 'insults to the reader'?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "jespersen-determinatives",
+      "historian": "Otto Jespersen",
+      "work": "A Modern English Grammar on Historical Principles, Vol. II: Syntax (First Volume)",
+      "year": "1914",
+      "claim": "Jespersen grouped articles, demonstratives, possessives, and many quantifiers into a single class of 'determinatives,' arguing that they share one function — fixing the reference of a noun — rather than describing it. He treated this class as distinct from adjectives, which he analysed by 'rank' as secondary words attached to a primary noun.",
+      "note": "Later grammarians reversed the hierarchy: under the DP hypothesis proposed by Steven Abney in 1987 and adopted in Huddleston and Pullum's Cambridge Grammar (2002), the determiner is the head of the phrase and the noun is its complement. On that analysis the determinative is not a subordinate modifier but the governing element."
+    },
+    {
+      "id": "pinker-words-rules",
+      "historian": "Steven Pinker",
+      "work": "Words and Rules: The Ingredients of Language",
+      "year": "1999",
+      "claim": "Pinker argued that irregular plurals such as child/children, mouse/mice, and ox/oxen are stored as memorized words, while regular plurals are generated by a rule that adds -s. On this 'words and rules' account the two kinds of plural come from different mental mechanisms, which is why irregulars are learned one by one and regulars extend to new words.",
+      "note": "Connectionist models such as Rumelhart and McClelland's (1986) showed that a single network learning from examples could produce both regular and irregular forms without a separate rule, and the question whether the mind stores words or computes them remains unsettled."
+    }
+  ],
+  "activities": [
+    {
+      "id": "identify-head",
+      "type": "choice",
+      "prompt": "In the noun phrase 'the three tall ships that entered the harbour', which word is the head?",
+      "choices": ["three", "ships", "tall", "harbour"],
+      "answer": 1,
+      "feedback": "The head is the noun 'ships'; the determiners and modifiers attach to it, and it controls the number of the phrase."
+    },
+    {
+      "id": "collective-agreement",
+      "type": "choice",
+      "prompt": "Which sentence treats the collective noun as a group of individuals rather than as a single unit?",
+      "choices": [
+        "The committee has decided to postpone the vote.",
+        "The committee is a standing body.",
+        "The committee have decided to postpone the vote.",
+        "The committee meets on Tuesdays."
+      ],
+      "answer": 2,
+      "feedback": "A plural verb with a collective noun treats the members as individuals; the singular verb treats the group as one unit."
+    },
+    {
+      "id": "possessive-plural",
+      "type": "choice",
+      "prompt": "Which is the correct possessive of the plural noun 'children'?",
+      "choices": ["childrens'", "children's", "childrens", "children'es"],
+      "answer": 1,
+      "feedback": "An irregular plural that does not end in -s takes -'s: the children's room."
+    },
+    {
+      "id": "names-ending-s",
+      "type": "choice",
+      "prompt": "Which form is consistent with the style that adds -'s to singular names ending in -s?",
+      "choices": ["James's book", "James' book", "James book's", "James's' book"],
+      "answer": 0,
+      "feedback": "The Chicago style and Fowler's preference add -'s to singular names ending in -s, so 'James's book'. The apostrophe-only form is also used, but never both at once."
+    },
+    {
+      "id": "count-mass",
+      "type": "choice",
+      "prompt": "Which noun is a mass noun that becomes a count noun when it names a kind or a serving?",
+      "choices": ["chair", "idea", "wine", "child"],
+      "answer": 2,
+      "feedback": "'Wine' is mass ('much wine') but count when it names kinds or servings ('the wines of France', 'two wines')."
+    },
+    {
+      "id": "determiner-adjective",
+      "type": "choice",
+      "prompt": "Which test shows that 'this' is a determiner and not an adjective?",
+      "choices": [
+        "It can be compared: 'thiser' and 'thisest'.",
+        "It can follow the noun: 'book this'.",
+        "It can be modified by 'very': 'very this'.",
+        "It cannot be used predicatively: 'The book is this' is not grammatical."
+      ],
+      "answer": 3,
+      "feedback": "Adjectives can be predicative ('The book is heavy'); determiners cannot. The other three options are not properties of 'this'."
+    },
+    {
+      "id": "irregular-plural",
+      "type": "choice",
+      "prompt": "Which pair shows a vowel-change (umlaut) plural?",
+      "choices": ["box / boxes", "index / indices", "mouse / mice", "child / children"],
+      "answer": 2,
+      "feedback": "'Mouse/mice' changes the vowel, as do man/men, foot/feet, and tooth/teeth. 'Children' is an -en plural; 'indices' is a classical plural."
+    },
+    {
+      "id": "appositive",
+      "type": "choice",
+      "prompt": "In 'My brother, a doctor, lives in Leeds', what is the function of 'a doctor'?",
+      "choices": [
+        "A predicate nominative",
+        "A vocative",
+        "A non-restrictive appositive",
+        "A postmodifying prepositional phrase"
+      ],
+      "answer": 2,
+      "feedback": "'A doctor' is set off by commas, refers to the same person as 'my brother', and adds non-essential information — a non-restrictive appositive."
+    },
+    {
+      "id": "fewer-less",
+      "type": "choice",
+      "prompt": "Which sentence follows the prescriptive rule for 'fewer' and 'less'?",
+      "choices": [
+        "There were fewer mistakes in the second draft.",
+        "There were less mistakes in the second draft.",
+        "There were fewer water in the glass.",
+        "There were less students than before."
+      ],
+      "answer": 0,
+      "feedback": "'Fewer' goes with count nouns (mistakes, students); 'less' with mass nouns (water)."
+    },
+    {
+      "id": "analyse-passage",
+      "type": "short-answer",
+      "prompt": "Analyse the passage below. Identify each noun and classify it as proper or common, count or mass; pick out every determiner; and explain whether 'family' takes a singular or a plural verb here, and why.",
+      "context": "While the family were in this confusion, Charlotte Lucas came to spend the day with them. (Jane Austen, Pride and Prejudice, 1813)",
+      "rubric": [
+        "identifies the nouns and classifies them (proper: Charlotte Lucas; common: family, confusion, day; mass: confusion; count: family, day)",
+        "lists the determiners (the, this, the) and notes that 'them' is a pronoun, not a determiner",
+        "explains that 'family' takes a plural verb because the members are acting individually, and notes the notional-agreement choice"
+      ]
+    }
+  ]
+}

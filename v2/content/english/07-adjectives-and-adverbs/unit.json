@@ -1,0 +1,201 @@
+{
+  "id": "07-adjectives-and-adverbs",
+  "title": "Adjectives and adverbs",
+  "period": "English grammar",
+  "region": "",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-adjectives",
+      "title": "On adjectives and adverbs",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-adjectives.md",
+      "context": "Lowth's 1762 grammar defines the adjective as a word joined to a substantive to express its quality, states that English adjectives vary only for the degrees of comparison, gives the rules for forming the comparative and superlative, and defines the adverb as a word added to verbs and adjectives to denote a circumstance of an action or quality.",
+      "questions": [
+        "How does Lowth define the adjective, and what does he say it is joined to?",
+        "What does Lowth give as the general position of the adjective, and what exceptions does he allow?",
+        "According to Lowth, which adverbs admit of comparison, and what are his examples?"
+      ]
+    },
+    {
+      "id": "brown-adjectives-adverbs",
+      "title": "Adjectives and adverbs: definition, and the disputes of the grammarians",
+      "author": "Goold Brown",
+      "date": "1851",
+      "citation": "Goold Brown, The Grammar of English Grammars, 6th ed., revised by Samuel U. Berrian (New York: Samuel S. and William Wood, 1851). Project Gutenberg eBook 11615.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/11615",
+      "file": "sources/brown-adjectives-adverbs.md",
+      "context": "Goold Brown's 1851 survey prints the received definitions of the adjective and the adverb and then argues with them, rejecting the class of 'adjective pronouns' that Murray had recognised and collecting the many words from other parts of speech that English uses adverbially. His examples are drawn from Cowper, Pope, Milton, and the Bible.",
+      "questions": [
+        "Why does Brown reject the term 'adjective pronouns' that Murray and others used?",
+        "What does Brown say happens to adjectives when they take a plural or possessive form?",
+        "What examples does Brown give of other parts of speech used as adverbs, and what test does he apply to tell an adverb from a preposition?"
+      ]
+    },
+    {
+      "id": "fowler-kings-english-adjectives",
+      "title": "Comparatives, superlatives, and unique",
+      "author": "H. W. Fowler and F. G. Fowler",
+      "date": "1924",
+      "citation": "H. W. Fowler and F. G. Fowler, The King's English, 2nd ed. (Oxford: Clarendon Press, 1924), chapters 'Syntax' and 'Vocabulary.' Project Gutenberg eBook 75439.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/75439",
+      "file": "sources/fowler-kings-english-adjectives.md",
+      "context": "The Fowlers treat the misuse of 'the more' with a comparative as a question of syntax, and the qualification of 'unique' by 'rather', 'very', or 'somewhat' as a question of vocabulary. Their examples come from named writers, and they call the qualified 'unique' a self-contradiction.",
+      "questions": [
+        "When do the Fowlers say a comparative has no right to the word 'the'?",
+        "Why do the Fowlers object to 'rather unique' and 'very unique'?",
+        "What does the Fowlers' account of 'the more' show about 'the' as an article and 'the' as an adverb?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "lowth-adjective-degrees",
+      "historian": "Robert Lowth",
+      "work": "A Short Introduction to English Grammar",
+      "year": "1762",
+      "claim": "Lowth defined the adjective as a word 'joined to a Substantive to express its Quality,' held that English adjectives vary only for comparison, and set out the three degrees of the positive, comparative, and superlative. He also stated the general rule that the adjective precedes the noun, allowing exceptions when something depends on it or when it is emphatic.",
+      "note": "Later descriptive grammars treat the position and comparison of adjectives as tendencies of usage rather than fixed rules: adjective order follows zones of meaning, and the -er/-est and more/most patterns overlap and shift over time. Lowth's Latinizing preference for the adjective before its noun became a schoolroom rule stronger than his own statement."
+    },
+    {
+      "id": "fowler-split-and-unique",
+      "historian": "H. W. Fowler",
+      "work": "A Dictionary of Modern English Usage",
+      "year": "1926",
+      "claim": "Fowler divided the English-speaking world into five classes over the split infinitive and placed himself among those who 'know and distinguish': keep the adverb outside the infinitive when nothing is gained and no difficulty attends moving it, but split when the alternative distorts the sentence or destroys the rhythm. He likewise argued that 'unique' admits no degrees, so 'more unique' and 'very unique' are faults.",
+      "note": "Descriptive grammarians reply that the split infinitive has been native to English since the thirteenth century and is unproblematic in edited prose, and that absolute adjectives such as 'unique' and 'perfect' are routinely compared in real use. The objections are matters of clarity and register, not of syntax."
+    }
+  ],
+  "activities": [
+    {
+      "id": "attributive-adjective",
+      "type": "choice",
+      "prompt": "In which sentence is the adjective used attributively?",
+      "choices": [
+        "The empty street frightened her.",
+        "The street is empty.",
+        "The soup smells good.",
+        "She became angry."
+      ],
+      "answer": 0,
+      "feedback": "An attributive adjective sits inside the noun phrase before its noun, as 'empty' does in 'the empty street'; the other three are predicative complements."
+    },
+    {
+      "id": "predicative-only",
+      "type": "choice",
+      "prompt": "Which sentence is standard English?",
+      "choices": [
+        "The baby is asleep.",
+        "The asleep baby is crying.",
+        "She is an asleep child.",
+        "They found the asleep cat."
+      ],
+      "answer": 0,
+      "feedback": "'Asleep' belongs to the a- group of adjectives that occur predicatively; in the attributive slot English uses 'sleeping'."
+    },
+    {
+      "id": "adjective-order",
+      "type": "choice",
+      "prompt": "Which phrase follows the usual order of adjectives?",
+      "choices": [
+        "a lovely little old round table",
+        "a round old little lovely table",
+        "an old lovely round little table",
+        "a little lovely old round table"
+      ],
+      "answer": 0,
+      "feedback": "The sequence runs opinion, size, age, shape before the noun: lovely (opinion), little (size), old (age), round (shape)."
+    },
+    {
+      "id": "participial-adjective",
+      "type": "choice",
+      "prompt": "Complete the sentence: 'The lecture was so ___ that the students looked ___.'",
+      "choices": [
+        "boring ... bored",
+        "bored ... boring",
+        "boring ... boring",
+        "bored ... bored"
+      ],
+      "answer": 0,
+      "feedback": "The present participle in -ing names the cause of the feeling; the past participle in -ed names the person who experiences it."
+    },
+    {
+      "id": "comparison-form",
+      "type": "choice",
+      "prompt": "Which is the usual comparative of 'happy'?",
+      "choices": ["happier", "more happy", "happiest", "most happy"],
+      "answer": 0,
+      "feedback": "Two-syllable adjectives ending in -y normally take -er and -est: happy, happier, happiest."
+    },
+    {
+      "id": "irregular-comparison",
+      "type": "choice",
+      "prompt": "Which set of forms is correct?",
+      "choices": [
+        "bad, worse, worst",
+        "bad, badder, baddest",
+        "bad, more bad, most bad",
+        "bad, worser, worst"
+      ],
+      "answer": 0,
+      "feedback": "'Bad' is irregular, like 'good, better, best'; 'worse' and 'worst' are the comparative and superlative."
+    },
+    {
+      "id": "good-well",
+      "type": "choice",
+      "prompt": "Which sentence is standard?",
+      "choices": [
+        "She sings well.",
+        "She sings good.",
+        "She sings goodly.",
+        "She sings more good."
+      ],
+      "answer": 0,
+      "feedback": "'Well' is the adverb modifying 'sings'; 'good' is an adjective and cannot modify a verb."
+    },
+    {
+      "id": "linking-verb-adjective",
+      "type": "choice",
+      "prompt": "In 'The soup tasted salty,' why is 'salty' correct rather than 'saltily'?",
+      "choices": [
+        "'Taste' is a linking verb, so it takes a predicative adjective.",
+        "'Taste' is an action verb, so it takes an adverb.",
+        "'Salty' is an adverb of manner.",
+        "'Saltily' is not an English word."
+      ],
+      "answer": 0,
+      "feedback": "After a sensory linking verb the describing word is a predicative complement, so it is an adjective describing the subject."
+    },
+    {
+      "id": "less-fewer",
+      "type": "choice",
+      "prompt": "Which sentence follows the traditional less/fewer distinction?",
+      "choices": [
+        "There are fewer books on the shelf.",
+        "There are less books on the shelf.",
+        "There is fewer water in the glass.",
+        "There are fewer money in the box."
+      ],
+      "answer": 0,
+      "feedback": "'Fewer' pairs with count nouns like 'books'; 'less' pairs with mass nouns, and also with plural measure phrases such as 'less than ten miles.'"
+    },
+    {
+      "id": "analyze-adverbs",
+      "type": "short-answer",
+      "prompt": "For each italicized adverb, name its class (manner, time, place, frequency, or degree) and say what it modifies. Then rewrite the last sentence so that the adverb is not split from 'to'.",
+      "context": "She often visits the museum. Yesterday she sang beautifully there. The guide spoke quite slowly. He tried to carefully explain the exhibit.",
+      "rubric": [
+        "Names 'often' as frequency and 'beautifully' as manner, and identifies what each modifies",
+        "Names 'quite' as degree modifying 'slowly' and 'slowly' as manner modifying 'spoke'",
+        "Rewrites the infinitive as 'to explain the exhibit carefully' (or 'carefully to explain')"
+      ]
+    }
+  ]
+}

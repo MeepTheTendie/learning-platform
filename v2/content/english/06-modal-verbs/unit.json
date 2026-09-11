@@ -1,0 +1,205 @@
+{
+  "id": "06-modal-verbs",
+  "title": "Modal verbs",
+  "period": "English grammar",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-auxiliaries",
+      "title": "On the auxiliary verbs",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: with Critical Notes (London: J. Hughs for A. Millar and R. and J. Dodsley, 1762). Text from Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-auxiliaries.md",
+      "context": "Lowth lists the English auxiliaries and then distinguishes their 'peculiar force': may and might for possibility or liberty, can and could for power, must for necessity, and shall and will by person. The same chapter sets out the shall/will rule that later grammarians taught as law.",
+      "questions": [
+        "Lowth assigns can and could to 'the power' and may and might to 'possibility or liberty.' How does that division match the way these modals are used now?",
+        "What does Lowth say will does in the first person, and shall in the second and third? What kind of statement is he making?",
+        "Lowth counts 'eight or nine commodious little Verbs.' Which words does he include, and which familiar modals does his list leave out?"
+      ]
+    },
+    {
+      "id": "murray-potential-mood",
+      "title": "On the potential mood",
+      "author": "Lindley Murray",
+      "date": "1795",
+      "citation": "Lindley Murray, English Grammar, Adapted to the Different Classes of Learners (York, 1795; New York: Collins and Perkins, 1810). Internet Archive copy of the 1810 edition.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/englishgrammara13murrgoog",
+      "file": "sources/murray-potential-mood.md",
+      "context": "Murray defines the 'potential mood' — may, can, might, could, would, should — as the mood of possibility, liberty, power, will, or obligation, and defends it against grammarians who would merge it with the indicative or exclude it because it is built from auxiliaries.",
+      "questions": [
+        "Murray defines the potential mood as possibility, liberty, power, will, or obligation. Which modern category of meaning does each of those five terms resemble?",
+        "Why do some grammarians, according to Murray, want to exclude the potential mood, and how does he answer them?",
+        "Murray separates the potential mood from the subjunctive. On what grounds does he distinguish the two?"
+      ]
+    },
+    {
+      "id": "cobbett-auxiliaries",
+      "title": "On auxiliary verbs",
+      "author": "William Cobbett",
+      "date": "1818",
+      "citation": "William Cobbett, A Grammar of the English Language, in a Series of Letters (London, 1818; Internet Archive copy of the 1819 edition).",
+      "license": "Public domain",
+      "url": "https://archive.org/details/grammarofenglish00cobbiala",
+      "file": "sources/cobbett-auxiliaries.md",
+      "context": "Cobbett explains the auxiliaries do, have, and be as 'helpers' and insists that do adds force rather than merely marking time. He then dismisses the elaborate schemes of tense and mood as 'fanciful distinctions' that only confuse the learner.",
+      "questions": [
+        "Cobbett says do and did 'do a great deal more than merely express time.' What else does he say they do?",
+        "Cobbett reduces the times to present, past, and future. What is he arguing against, and what does he think the elaborate schemes accomplish?",
+        "Cobbett treats let, do, have, and be as auxiliaries. Why does he insist that have and be are also principal verbs?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "sweet-anomalous",
+      "historian": "Henry Sweet",
+      "work": "A New English Grammar, Logical and Historical",
+      "year": "1892",
+      "claim": "Sweet classified can, may, must, shall, will, and ought as 'anomalous verbs,' descended from Old English preterite-present verbs. In his account the class is defined by form rather than meaning: its members have only finite present and preterite forms, take no third-person -s, and attach not directly, which is why they have no infinitive and no participle.",
+      "note": "Later descriptions treat the class as less tidy. Dare, need, and used to sit on the boundary between modal and ordinary verb, and be able to, have to, and be allowed to supply the very forms the anomalous verbs lack. Sweet's historical label is also contested; Jespersen preferred 'perfecto-present' for the same group."
+    },
+    {
+      "id": "jespersen-future",
+      "historian": "Otto Jespersen",
+      "work": "A Modern English Grammar on Historical Principles",
+      "year": "1909–1931",
+      "claim": "Jespersen argued that English has only two tenses proper, the present and the preterit, and that shall and will are modal verbs rather than a true future tense. In his account will keeps its meaning of volition, and schemes that label would have written a 'future perfect in the past' are artificial constructions imposed on the language.",
+      "note": "Descriptively, will has become a conventional future marker in many contexts, and its volitional meaning is often bleached, as in weather predictions. Many grammarians therefore treat will and shall as a future tense or future marker, and the Cambridge Grammar lists them among the modal auxiliaries while still recognising their future use."
+    }
+  ],
+  "activities": [
+    {
+      "id": "modal-test",
+      "type": "choice",
+      "prompt": "Which test best distinguishes a modal verb from an ordinary verb such as walk?",
+      "choices": [
+        "It takes no third-person -s and is followed by a bare infinitive",
+        "It always ends in -ed in the past tense",
+        "It can be preceded by to",
+        "It changes for number in the present"
+      ],
+      "answer": 0,
+      "feedback": "Modals take no -s (he can, not he cans) and are followed by a bare infinitive (can swim, not can to swim)."
+    },
+    {
+      "id": "can-or-could-past",
+      "type": "choice",
+      "prompt": "Which sentence correctly reports a single past achievement?",
+      "choices": [
+        "The boat was sinking, but we were able to reach the shore.",
+        "The boat was sinking, but we could reach the shore.",
+        "The boat was sinking, but we can reach the shore.",
+        "The boat was sinking, but we could to reach the shore."
+      ],
+      "answer": 0,
+      "feedback": "For one past achievement English prefers was able to or managed to; could normally reports a general past ability."
+    },
+    {
+      "id": "mustnt-neednt",
+      "type": "choice",
+      "prompt": "A sign reads 'You mustn't swim here.' What does it mean?",
+      "choices": [
+        "Swimming is forbidden here.",
+        "Swimming is not necessary here.",
+        "It is impossible to swim here.",
+        "I conclude that you are not swimming here."
+      ],
+      "answer": 0,
+      "feedback": "Mustn't states a prohibition. The absence of necessity would be needn't or don't have to."
+    },
+    {
+      "id": "deduction-negative",
+      "type": "choice",
+      "prompt": "Which sentence draws a conclusion about the past?",
+      "choices": [
+        "She must have missed the bus.",
+        "She must miss the bus.",
+        "She mustn't have missed the bus.",
+        "She must be missing the bus."
+      ],
+      "answer": 0,
+      "feedback": "Must have + past participle marks a past deduction. Mustn't is a prohibition; the negative conclusion would be can't have missed."
+    },
+    {
+      "id": "epistemic-cant",
+      "type": "choice",
+      "prompt": "In 'That can't be his car,' what does can't express?",
+      "choices": [
+        "A conclusion that something is impossible",
+        "A refusal to allow something",
+        "A past ability",
+        "A polite request"
+      ],
+      "answer": 0,
+      "feedback": "Here can't is epistemic: the speaker concludes that the statement is impossible. Compare 'You can't park here,' which is a prohibition."
+    },
+    {
+      "id": "modal-perfect",
+      "type": "choice",
+      "prompt": "Which sentence expresses an unfulfilled obligation in the past?",
+      "choices": [
+        "You should have told me.",
+        "You should tell me.",
+        "You must tell me.",
+        "You can tell me."
+      ],
+      "answer": 0,
+      "feedback": "Should have + past participle looks back at a duty that was not carried out, and often carries reproach."
+    },
+    {
+      "id": "semi-modal-past",
+      "type": "choice",
+      "prompt": "Which sentence gives the past form of 'I must work late'?",
+      "choices": [
+        "I had to work late.",
+        "I musted work late.",
+        "I must have work late.",
+        "I did must work late."
+      ],
+      "answer": 0,
+      "feedback": "Must is defective and has no past; have to supplies it, giving had to."
+    },
+    {
+      "id": "politeness-request",
+      "type": "choice",
+      "prompt": "Which request is the most tentative and polite?",
+      "choices": [
+        "Would you mind closing the door?",
+        "Close the door.",
+        "Can you close the door?",
+        "You must close the door."
+      ],
+      "answer": 0,
+      "feedback": "Would you mind + -ing uses the past modal would plus an indirect frame, which makes the request softer than 'Can you close the door?'"
+    },
+    {
+      "id": "shall-will-prescription",
+      "type": "choice",
+      "prompt": "Which statement about the traditional shall/will rule is accurate?",
+      "choices": [
+        "It is a style preference that modern usage largely ignores.",
+        "It is a law of English syntax that all speakers follow.",
+        "It forbids the use of will in the first person in every context.",
+        "It applies only to the past tense."
+      ],
+      "answer": 0,
+      "feedback": "Lowth and later grammarians taught the shall/will division by person, but it is a prescriptive preference, strongest in southern British English and largely abandoned in North America."
+    },
+    {
+      "id": "analyse-modal-passage",
+      "type": "short-answer",
+      "prompt": "Analyse the modals in the passage below. For each one, name the modal, say whether its meaning is root (ability, permission, obligation) or epistemic (possibility, deduction), and give the time it points to. Then rewrite one sentence using a semi-modal.",
+      "context": "You must be exhausted after that journey. You should have taken the early train. It might have been delayed, of course, but you could have phoned. You needn't have walked from the station.",
+      "rubric": [
+        "names each modal and classifies its meaning",
+        "distinguishes at least one root use from one epistemic use",
+        "rewrites one sentence with a semi-modal such as have to or be able to"
+      ]
+    }
+  ]
+}

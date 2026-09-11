@@ -1,0 +1,186 @@
+{
+  "id": "03-pronouns",
+  "title": "Pronouns and case",
+  "period": "English grammar",
+  "region": "",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-pronouns",
+      "title": "Of pronouns, case, and comparison",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: J. Hughs, for R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-pronouns.md",
+      "context": "Lowth's grammar of 1762 was written for the sons of the gentry and became the model for the school grammars that followed. These passages give his definitions of the pronoun, the antecedent, and the three cases, and his rules for the nominative after 'to be' and for the case after 'than' and 'as'.",
+      "questions": [
+        "How does Lowth explain the case of the noun that follows 'than' or 'as'?",
+        "What rule does Lowth give for the verb 'to be', and what example does he use?",
+        "Lowth names the three cases. Which one does he call the objective, and why?"
+      ]
+    },
+    {
+      "id": "jespersen-pronouns",
+      "title": "The personal pronouns as shifters",
+      "author": "Otto Jespersen",
+      "date": "1922",
+      "citation": "Otto Jespersen, Language: Its Nature, Development and Origin (London: George Allen & Unwin Ltd., 1922). Project Gutenberg eBook 53038.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/53038",
+      "file": "sources/jespersen-pronouns.md",
+      "context": "Jespersen treats the personal pronouns as 'shifters,' words whose reference changes with the speaker. He draws on records of children learning English to show how hard the forms 'I' and 'me' are to master.",
+      "questions": [
+        "Why does Jespersen call the personal pronouns 'shifters'?",
+        "What does Jespersen say about a child who speaks of himself in the third person?",
+        "What mistake do the children make with 'my' and 'me', and what does Jespersen suggest causes it?"
+      ]
+    },
+    {
+      "id": "kittredge-pronouns",
+      "title": "Case, the self-pronouns, and who and whom",
+      "author": "George Lyman Kittredge and Frank Edgar Farley",
+      "date": "1913",
+      "citation": "George Lyman Kittredge and Frank Edgar Farley, An Advanced English Grammar with Exercises (Boston: Ginn and Company, 1913). Project Gutenberg eBook 45814.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/45814",
+      "file": "sources/kittredge-pronouns.md",
+      "context": "Kittredge and Farley teach case by grammatical function and give a full set of examples. They distinguish reflexive from intensive pronouns, and they warn against using 'myself' where a simple personal pronoun is required.",
+      "questions": [
+        "According to Kittredge, when is 'It is I' required rather than 'It is me'?",
+        "What is the difference between an intensive and a reflexive pronoun?",
+        "What error does the book warn against in the use of the '-self' pronouns?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "lowth-case",
+      "historian": "Robert Lowth",
+      "work": "A Short Introduction to English Grammar",
+      "year": "1762",
+      "claim": "Lowth held that a pronoun's case is fixed by its grammatical function, and that the verb 'to be' always takes the nominative after it, so that 'It is I' and 'wiser than I' are the correct forms. He treated English as a system of rules to be discovered and followed, and his book fixed the three-case analysis that later school grammars repeated.",
+      "note": "Modern grammarians reply that 'be' does not govern case, that 'It is me' has been standard in speech for centuries, and that Lowth borrowed the predicate-nominative rule from Latin, where it belongs to a different system. On that view the choice is a matter of register, not of correctness."
+    },
+    {
+      "id": "baron-singular-they",
+      "historian": "Dennis Baron",
+      "work": "Grammar and Gender",
+      "year": "1986",
+      "claim": "Baron argues that singular 'they' has been ordinary English since the fourteenth century and that the rule against it is a late invention: eighteenth-century grammarians, followed by Lowth and Murray, promoted 'he' as the pronoun for both sexes and turned a long-standing usage into an apparent error.",
+      "note": "The counter-argument is that formal writing benefits from an explicit rule, and that singular 'they' can be ambiguous when the antecedent is a definite singular noun. Baron's answer is that the ambiguity is rare and easily repaired, and that 'he or she' is often clumsier than the pronoun it replaces."
+    }
+  ],
+  "activities": [
+    {
+      "id": "case-of-whom",
+      "type": "choice",
+      "prompt": "In the sentence 'Whom did you see at the fair?', what case is 'whom'?",
+      "choices": [
+        "Objective, because it is the object of 'see'",
+        "Nominative, because it begins the sentence",
+        "Possessive, because it shows ownership",
+        "Vocative, because it addresses a person"
+      ],
+      "answer": 0,
+      "feedback": "'Whom' is the direct object of 'see', so it takes the objective case, even though it stands first in the question."
+    },
+    {
+      "id": "predicate-nominative",
+      "type": "choice",
+      "prompt": "Choose the pronoun that completes the formal sentence 'It was ___ who called last night.'",
+      "choices": ["she", "her", "herself", "hers"],
+      "answer": 0,
+      "feedback": "After the linking verb 'was', the formal rule calls for the predicate nominative 'she'. 'It was her' is common in speech, but 'she' is the prescribed form here."
+    },
+    {
+      "id": "than-comparison",
+      "type": "choice",
+      "prompt": "In 'She is taller than ___,' which pronoun gives the meaning 'taller than I am'?",
+      "choices": ["I", "me", "myself", "mine"],
+      "answer": 0,
+      "feedback": "Supply the missing verb: 'taller than I am.' The subject of the understood 'am' is the nominative 'I'. 'Than me' would make the pronoun the object and change the comparison."
+    },
+    {
+      "id": "between-you-and",
+      "type": "choice",
+      "prompt": "Which correction fixes the sentence 'Between you and I, the plan will fail'?",
+      "choices": [
+        "Change 'I' to 'me'",
+        "Change 'you' to 'your'",
+        "Change 'I' to 'myself'",
+        "Change 'between' to 'among'"
+      ],
+      "answer": 0,
+      "feedback": "'Between' is a preposition and takes the objective case, so the phrase should be 'between you and me.' 'Myself' is a reflexive and cannot stand in for 'me' here."
+    },
+    {
+      "id": "who-or-whom",
+      "type": "choice",
+      "prompt": "Which sentence uses the relative pronoun correctly?",
+      "choices": [
+        "The man whom I saw was tall.",
+        "The man who I saw was tall.",
+        "The man which I saw was tall.",
+        "The man whom saw me was tall."
+      ],
+      "answer": 0,
+      "feedback": "'Whom' is the object of 'saw', so the objective is correct. 'Which' is used of things, and 'whom saw me' wrongly makes the objective form a subject."
+    },
+    {
+      "id": "everyone-their",
+      "type": "choice",
+      "prompt": "Choose the pronoun that completes the sentence in standard modern usage: 'Everyone should bring ___ own lunch.'",
+      "choices": ["their", "his", "its", "there"],
+      "answer": 0,
+      "feedback": "'Everyone' is grammatically singular, but singular 'they' is now standard for an unspecified person. 'There' is an adverb, and 'its' cannot refer to people."
+    },
+    {
+      "id": "its-or-its",
+      "type": "choice",
+      "prompt": "Which sentence is spelled correctly?",
+      "choices": [
+        "The dog wagged its tail.",
+        "The dog wagged it's tail.",
+        "Its going to rain later.",
+        "The dog wagged its' tail."
+      ],
+      "answer": 0,
+      "feedback": "'Its' is the possessive; 'it's' is the contraction of 'it is' or 'it has.' Possessive pronouns never take an apostrophe."
+    },
+    {
+      "id": "himself-intensive",
+      "type": "choice",
+      "prompt": "In 'The president himself answered the letter,' what kind of pronoun is 'himself'?",
+      "choices": [
+        "Intensive, adding emphasis in apposition to the subject",
+        "Reflexive, because it is the object of the verb",
+        "Personal, standing for a noun already named",
+        "Demonstrative, pointing out which president"
+      ],
+      "answer": 0,
+      "feedback": "An intensive pronoun emphasizes the noun it follows. A reflexive pronoun would be the object of the verb and would refer back to the subject, as in 'The president hurt himself.'"
+    },
+    {
+      "id": "whose-relative",
+      "type": "choice",
+      "prompt": "Choose the pronoun that completes the sentence: 'The book ___ cover is torn belongs to me.'",
+      "choices": ["whose", "who's", "which", "that"],
+      "answer": 0,
+      "feedback": "'Whose' is the possessive relative pronoun, used here of a thing. 'Who's' means 'who is', and 'which' or 'that' cannot show possession by themselves."
+    },
+    {
+      "id": "analyze-pronouns",
+      "type": "short-answer",
+      "prompt": "Identify the case and grammatical function of each pronoun in the passage, and correct any form that is not standard written English.",
+      "context": "Him and me went to the market, where we met the woman who we had seen the day before. She gave my brother and I some apples, and we ate them ourselves.",
+      "rubric": [
+        "Identifies 'Him and me' as the compound subject and corrects it to 'He and I'",
+        "Identifies 'who' as the object of 'had seen' and corrects it to 'whom'",
+        "Identifies 'my brother and I' as the object of 'gave' and corrects it to 'my brother and me'"
+      ]
+    }
+  ]
+}

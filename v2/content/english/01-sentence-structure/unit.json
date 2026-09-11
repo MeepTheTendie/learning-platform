@@ -1,0 +1,192 @@
+{
+  "id": "01-sentence-structure",
+  "title": "The sentence: subject and predicate",
+  "period": "English grammar",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lowth-sentence",
+      "title": "From A Short Introduction to English Grammar",
+      "author": "Robert Lowth",
+      "date": "1762",
+      "citation": "Robert Lowth, A Short Introduction to English Grammar: With Critical Notes (London: A. Millar and R. and J. Dodsley, 1762). Project Gutenberg eBook 72554.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/72554",
+      "file": "sources/lowth-sentence.md",
+      "context": "Lowth's Short Introduction, published in 1762, is the most influential prescriptive grammar of English. These extracts give his definitions of grammar, of the sentence and the phrase, of the simple sentence and its principal parts, and of the three sorts of simple sentence, followed by his famous treatment of the preposition at the end.",
+      "questions": [
+        "Lowth calls the parts of a simple sentence the Agent, the Attribute, and the Object. How do these relate to the modern terms subject and predicate?",
+        "What reason does Lowth give for placing the preposition before its relative, and what does he concede about the alternative?",
+        "Lowth lists three sorts of simple sentence. Which of the four sentence types by function is missing, and does his scheme account for exclamations?"
+      ]
+    },
+    {
+      "id": "murray-sentence",
+      "title": "From English Grammar, Adapted to the Different Classes of Learners",
+      "author": "Lindley Murray",
+      "date": "1795; this edition 1826",
+      "citation": "Lindley Murray, English Grammar, Adapted to the Different Classes of Learners, with an Appendix (Philadelphia: Marot & Walter, 1826). First published 1795. Internet Archive, englishgrammarad00murrrich.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/englishgrammarad00murrrich",
+      "file": "sources/murray-sentence.md",
+      "context": "Murray's grammar, first published in 1795 and reprinted for decades in Britain and America, taught Lowth's system to generations of schoolchildren. The extracts give his definition of syntax and of the sentence, his simple and compound sentences, his three sorts of simple sentence, and his analysis of the sentence into subject, attribute, and object.",
+      "questions": [
+        "Murray says a simple sentence has 'one subject and one finite verb.' How does this definition handle a sentence such as 'Come!'?",
+        "In Murray's example 'A wise man governs his passions,' which words are the subject, the attribute, and the object?",
+        "What distinction does Murray draw between concord and government?"
+      ]
+    },
+    {
+      "id": "sweet-subject-predicate",
+      "title": "From A New English Grammar, Logical and Historical",
+      "author": "Henry Sweet",
+      "date": "1891",
+      "citation": "Henry Sweet, A New English Grammar, Logical and Historical, Part I: Introduction, Phonology, and Accidence (Oxford: Clarendon Press, 1891). Internet Archive, newenglishgramma01sweeuoft.",
+      "license": "Public domain",
+      "url": "https://archive.org/details/newenglishgramma01sweeuoft",
+      "file": "sources/sweet-subject-predicate.md",
+      "context": "Sweet's New English Grammar (1891) was the first thorough descriptive grammar of English. These extracts define the sentence by form rather than by meaning, set out the subject-and-predicate analysis of the clause, and distinguish subordination from coordination, with Sweet's own examples.",
+      "questions": [
+        "Sweet defines a sentence by its form rather than by 'complete sense.' What problem does his definition solve, and what does he mean by 'expect'?",
+        "Why does Sweet say that 'every group of words which contains a verb is, grammatically speaking, a sentence'?",
+        "How does Sweet distinguish subordination from coordination, and what example does he give of coordination?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "jespersen-descriptive",
+      "historian": "Otto Jespersen",
+      "work": "A Modern English Grammar on Historical Principles",
+      "year": "1909–1949",
+      "claim": "Jespersen argued that English should be described from its own usage rather than through the categories of Latin grammar. The traditional division of every sentence into subject and predicate, he showed, fits many English sentences badly: existentials such as 'there is a man' put a meaningless word in the subject slot, one-word sentences such as 'Come!' have no expressed subject, and the relation of verb to object is better described functionally than by importing Latin case grammar. He analysed the clause by the rank and function of its elements and distinguished predication (nexus) from mere attribution (junction).",
+      "note": "Lowth, Murray, and Cobbett had treated the sentence as a logical proposition whose subject and predicate mirror a judgement, and they measured English against Latin. School grammars kept that model for another century. Jespersen's descriptivism did not settle the question: later generative grammarians such as Chomsky argued that the true structure of a sentence lies at a deeper level than its visible subject and predicate, while traditionalists defended the school analysis as a useful teaching tool."
+    },
+    {
+      "id": "pullum-prescription",
+      "historian": "Geoffrey K. Pullum",
+      "work": "The Cambridge Grammar of the English Language (with Rodney Huddleston)",
+      "year": "2002",
+      "claim": "Pullum and Huddleston argued that the grammar of English is far more varied than the five-pattern school scheme allows, and that several rules presented as grammar are merely prescriptions with no basis in usage. The prohibitions on the split infinitive, on ending a sentence with a preposition, and on beginning one with 'and' or 'but' cannot be derived from the English language; corpus evidence shows that good writers have always used all three. They located the source of the error in the schoolroom tradition rather than in the usage.",
+      "note": "Lowth, Murray, and Fowler had recommended the fronted preposition and the unsplit infinitive as marks of careful style, and many style guides still do. Pullum's point is about the status of the claim: a preference for one construction over another is not a grammatical rule, and treating it as one makes accurate description impossible. Some teachers reply that the prescriptions remain useful because edited prose is expected to follow them."
+    }
+  ],
+  "activities": [
+    {
+      "id": "identify-subject",
+      "type": "choice",
+      "prompt": "In the sentence 'Patient effort removes mountains,' which words form the complete subject?",
+      "choices": [
+        "Patient effort",
+        "removes mountains",
+        "effort removes",
+        "mountains"
+      ],
+      "answer": 0,
+      "feedback": "The complete subject is the simple subject 'effort' with its modifier 'patient'; 'removes mountains' is the complete predicate."
+    },
+    {
+      "id": "identify-pattern-svoc",
+      "type": "choice",
+      "prompt": "Which sentence pattern does 'The court found the man guilty' follow?",
+      "choices": [
+        "Subject–verb–object (SVO)",
+        "Subject–verb–complement (SVC)",
+        "Subject–verb–object–complement (SVOC)",
+        "Subject–verb–indirect object–object (SVOO)"
+      ],
+      "answer": 2,
+      "feedback": "'Guilty' describes the object 'the man', so it is an object complement and the pattern is SVOC."
+    },
+    {
+      "id": "choose-verb-form",
+      "type": "choice",
+      "prompt": "Which verb correctly completes 'The soup ___ salty'?",
+      "choices": [
+        "taste",
+        "tastes",
+        "tasting",
+        "have tasted"
+      ],
+      "answer": 1,
+      "feedback": "The subject 'soup' is singular, and the linking verb agrees with it: 'The soup tastes salty.'"
+    },
+    {
+      "id": "spot-fragment",
+      "type": "choice",
+      "prompt": "Which of these is a fragment rather than a complete sentence?",
+      "choices": [
+        "Because the rain stopped.",
+        "The rain stopped.",
+        "When the rain stopped, we went out.",
+        "We went out after the rain stopped."
+      ],
+      "answer": 0,
+      "feedback": "'Because the rain stopped' is a dependent clause; it needs a main clause to complete it."
+    },
+    {
+      "id": "fix-comma-splice",
+      "type": "choice",
+      "prompt": "Which revision correctly fixes the comma splice in 'The rain stopped, we went out'?",
+      "choices": [
+        "The rain stopped; we went out.",
+        "The rain stopped, we went out.",
+        "The rain stopped we went out.",
+        "The rain, stopped, we went out."
+      ],
+      "answer": 0,
+      "feedback": "A semicolon can join the two independent clauses; a comma alone cannot."
+    },
+    {
+      "id": "classify-compound",
+      "type": "choice",
+      "prompt": "'Life is short, and art is long.' What kind of sentence is this by structure?",
+      "choices": [
+        "Simple",
+        "Compound",
+        "Complex",
+        "Compound-complex"
+      ],
+      "answer": 1,
+      "feedback": "Two independent clauses joined by 'and' make a compound sentence."
+    },
+    {
+      "id": "identify-indirect-object",
+      "type": "choice",
+      "prompt": "In 'She gave the dog a bone,' which word or words form the indirect object?",
+      "choices": [
+        "She",
+        "gave",
+        "the dog",
+        "a bone"
+      ],
+      "answer": 2,
+      "feedback": "'The dog' is the recipient; it can be rewritten as 'She gave a bone to the dog.'"
+    },
+    {
+      "id": "identify-subject-complement",
+      "type": "choice",
+      "prompt": "In 'He became a doctor,' which word or words form the subject complement?",
+      "choices": [
+        "He",
+        "became",
+        "a doctor",
+        "doctor's"
+      ],
+      "answer": 2,
+      "feedback": "A subject complement follows a linking verb and renames the subject; 'a doctor' is the complement."
+    },
+    {
+      "id": "analyse-austen-passage",
+      "type": "short-answer",
+      "prompt": "Analyse the passage below. Identify the grammatical subject of the first main clause, name the sentence pattern it follows, and explain how the two sentences differ in structure.",
+      "context": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.",
+      "rubric": [
+        "identifies the dummy subject 'It' and the extraposed clause in the first sentence",
+        "names the first sentence as subject–verb–complement, noting 'a truth' as the subject complement",
+        "distinguishes the main clause from the subordinate clauses in the second sentence"
+      ]
+    }
+  ]
+}
