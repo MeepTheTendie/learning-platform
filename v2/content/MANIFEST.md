@@ -207,7 +207,7 @@ The whole earth
 
 c. 3500–1750 BCE · Mesopotamia (Sumer, Akkad, Babylonia)
 
-- **The Code of Hammurabi (selected laws)** — Hammurabi, king of Babylon, c. 1754 BCE. Public domain. Translated by L. W. King, The Code of Hammurabi (1915). Project Gutenberg eBook 17150.
+- **The Code of Hammurabi (selected laws)** — Hammurabi, king of Babylon, c. 1754 BCE. Public domain. Translated by C. H. W. Johns, The Oldest Code of Laws in the World (1903). Project Gutenberg eBook 17150.
 - **Babylon described** — Herodotus of Halicarnassus, c. 430 BCE, describing an earlier city. Public domain. The History of Herodotus, translated by G. C. Macaulay (1890), Book I.178–182. Project Gutenberg eBook 2707.
 - **The tower in Shinar** — Hebrew tradition (anonymous), Compiled c. 6th–5th century BCE. Public domain. Genesis 11:1–9, King James Version (1611). Public domain.
 - image: assets/mesopotamia-map.jpg — Encyclopaedia Biblica (1899), via Wikimedia Commons (Public domain)
@@ -403,7 +403,7 @@ Antiquity to the present
 
 - **Demonstration and mere syllogism (Posterior Analytics I.1–2)** — Aristotle, c. 350 BCE. Public domain. Posterior Analytics, translated by G. R. G. Mure, in The Works of Aristotle, ed. W. D. Ross (Oxford: Clarendon Press, 1928), Book I.1–2. Text via the Internet Classics Archive.
 - **The demand for a definition, and the elenchus (Euthyphro)** — Plato, c. 390 BCE, set in 399 BCE. Public domain. Euthyphro, translated by Benjamin Jowett, in The Dialogues of Plato (1871). Project Gutenberg eBook 1642.
-- **Of the enthymeme, and of validity as distinct from truth** — Richard Whately, 1843 (first edition 1826). Public domain. Richard Whately, Elements of Logic, comprising the substance of the article in the Encyclopaedia Metropolitana, with additions, &c., stereotype edition (London, 1843), Book I, §§ 2–3. Text via the Internet Archive.
+- **Of the enthymeme, and of validity as distinct from truth** — Richard Whately, 1843 (first edition 1826). Public domain. Richard Whately, Elements of Logic, comprising the substance of the article in the Encyclopaedia Metropolitana, with additions, &c., stereotype edition (Boston, 1843), Book I, §§ 2–3. Text via the Internet Archive.
 - interpretation: Gregory Vlastos, *The Socratic Elenchus* (1983)
 - interpretation: Peter Geach, *Plato's Euthyphro: An Analysis and Commentary* (1966)
 

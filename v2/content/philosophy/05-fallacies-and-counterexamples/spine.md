@@ -40,7 +40,7 @@
 
 - **c. 350 BCE** — Aristotle writes the Sophistical Refutations, listing six language-dependent and seven language-independent fallacies.
 - **c. 390 BCE** — Plato's Euthydemus stages sophistical arguments built on ambiguity and equivocation.
-- **c. 380 BCE** — Plato's Euthyphro tests a definition of piety by asking what makes a thing pious.
+- **c. 390 BCE** — Plato's Euthyphro tests a definition of piety by asking what makes a thing pious.
 - **c. 335 BCE** — Aristotle's Prior Analytics sets out the syllogism; the Organon fixes the vocabulary of later logic.
 - **1690** — Locke's Essay Concerning Human Understanding distinguishes four sorts of argument, three of them bad.
 - **1697** — Willem de Vlamingh sights black swans in Australia; the white-swan rule is refuted.

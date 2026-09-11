@@ -82,7 +82,7 @@
 - **c. 500 CE** — Boethius translates and transmits Aristotle's logic to the Latin West.
 - **c. 1250** — William of Sherwood and Peter of Spain write the medieval logic textbooks.
 - **1662** — The Port-Royal Logic of Arnauld and Nicole appears.
-- **1843** — John Stuart Mill publishes A System of Logic and states the petitio principii objection; Whately's Elements of Logic is in its ninth edition.
+- **1843** — John Stuart Mill publishes A System of Logic and states the petitio principii objection; Whately's Elements of Logic is in its seventh edition.
 - **1879** — Gottlob Frege's Begriffsschrift introduces modern predicate logic.
 - **1910–1913** — Russell and Whitehead publish Principia Mathematica.
 - **1951** — Jan Łukasiewicz reads Aristotle's syllogistic as an axiomatic system.
