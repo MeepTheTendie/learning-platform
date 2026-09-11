@@ -66,6 +66,16 @@ test('activities are well-formed and free of framing', () => {
   }
 });
 
+test('every unit names an interpretation, attributed', () => {
+  for (const { unit } of units()) {
+    assert.ok(unit.interpretations.length >= 1, `${unit.id}: needs a named interpretation`);
+    for (const interpretation of unit.interpretations) {
+      assert.ok(interpretation.historian.length > 2 && interpretation.work.length > 2 && interpretation.year.length > 2, `${unit.id}/${interpretation.id}: needs attribution`);
+      for (const field of [interpretation.claim, interpretation.note]) assert.deepEqual(lintFraming(field), [], `${unit.id}/${interpretation.id}`);
+    }
+  }
+});
+
 test('the framing lint actually catches framing', () => {
   assert.deepEqual(lintFraming('This course builds global citizenship and critical thinking skills.'), ['global citizenship', 'critical thinking skills', 'this course']);
   assert.deepEqual(lintFraming('In 1750 BCE Hammurabi ruled Babylon.'), []);

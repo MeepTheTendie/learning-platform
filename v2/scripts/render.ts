@@ -12,7 +12,7 @@ fs.mkdirSync(outDir, { recursive: true });
 const esc = (value: string) => value.replace(/[&<>"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character] as string));
 
 const style = `
-:root{color-scheme:dark;--bg:#14120f;--panel:#1d1a16;--text:#ece7dd;--muted:#a9a294;--line:#37322a;--accent:#d9b46a;--ok:#7fbf7f;--no:#d98a8a}
+:root{color-scheme:dark;--bg:#14120f;--panel:#1d1a16;--text:#ece7dd;--muted:#a9a294;--line:#37322a;--accent:#d9b46a;--gold:#c9a86a;--ok:#7fbf7f;--no:#d98a8a}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 Georgia,serif}
 .shell{max-width:860px;margin:auto;padding:40px 22px 90px}
 a{color:var(--accent)}h1{font-size:34px;line-height:1.15;margin:0 0 6px}
@@ -35,6 +35,10 @@ blockquote{border-left:3px solid var(--accent);margin:14px 0;padding:2px 0 2px 1
 textarea{width:100%;min-height:120px;padding:12px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit}
 .rubric{display:none;color:var(--muted);font-size:14px;margin-top:10px}.rubric.show{display:block}
 button.check{margin-top:10px;padding:9px 14px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--text);font:inherit;cursor:pointer}
+button.check.done{border-color:var(--ok);color:var(--ok)}
+.complete-card{background:var(--panel)}
+.interpretation{border-left:3px solid var(--gold)}
+li.done>a{color:var(--ok)}
 footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);margin-top:44px;padding-top:16px}
 `;
 
@@ -66,6 +70,8 @@ function renderUnit(subject: string, dir: string, unit: Unit): string {
     return `<div class="activity" data-kind="response" data-id="${esc(activity.id)}"><p>${esc(activity.prompt)}</p><blockquote>${esc(activity.context)}</blockquote><textarea placeholder="Write your answer in your own words."></textarea><button class="check">Check my answer</button><div class="rubric"><strong>Your answer should:</strong><ul>${rubric}</ul></div></div>`;
   }).join('');
 
+  const interpretationsHtml = unit.interpretations.length ? `<h2>How historians read this</h2>${unit.interpretations.map(interpretation => `<section class="source interpretation"><div class="head"><strong>${esc(interpretation.historian)}</strong>, <em>${esc(interpretation.work)}</em> (${esc(interpretation.year)})</div><p>${esc(interpretation.claim)}</p><p class="meta">${esc(interpretation.note)}</p></section>`).join('')}` : '';
+
   const script = `
 document.querySelectorAll('[data-kind="choice"]').forEach(box=>{
   const answer=Number(box.dataset.answer);
@@ -82,13 +88,17 @@ document.querySelectorAll('[data-kind="response"]').forEach(box=>{
     if(!box.querySelector('textarea').value.trim()){box.querySelector('.rubric').classList.add('show');box.querySelector('.rubric').insertAdjacentHTML('afterbegin','<p>Write something first, then compare it with the points below.</p>');return;}
     box.querySelector('.rubric').classList.add('show');
   });
-});`;
+});
+const ck='sourcebook-complete';
+const rc=()=>{try{return JSON.parse(localStorage.getItem(ck))||{}}catch{return{}}};
+const paint=btn=>{const d=rc()[btn.dataset.complete]===true;btn.textContent=d?'✓ Unit complete':'Mark unit complete';btn.classList.toggle('done',d);};
+document.querySelectorAll('[data-complete]').forEach(btn=>{btn.addEventListener('click',()=>{const v=rc();v[btn.dataset.complete]=!v[btn.dataset.complete];localStorage.setItem(ck,JSON.stringify(v));paint(btn);});paint(btn);});`;
 
-  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1><div class="meta">${esc(unit.period)} · ${esc(unit.region)}</div>${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}<h2>Practice</h2>${activitiesHtml}<footer>Primary sources only. Nothing here is modern commentary.</footer>`;
+  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1><div class="meta">${esc(unit.period)} · ${esc(unit.region)}</div>${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button></div><footer>Primary sources only. Nothing here is modern commentary.</footer>`;
   const out = path.join(outDir, subject, `${unit.id}.html`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, layout(`${unit.title} — Sources`, body, script));
-  return `<li><a href="${subject}/${unit.id}.html">${esc(unit.title)}</a> <span class="meta">${esc(unit.period)}</span></li>`;
+  return `<li data-unit="${esc(unit.id)}"><a href="${subject}/${unit.id}.html">${esc(unit.title)}</a> <span class="meta">${esc(unit.period)}</span></li>`;
 }
 
 const subjects = ['history'];
@@ -105,5 +115,6 @@ for (const subject of subjects) {
   }
   lists.push(`<h2>${esc(subject[0].toUpperCase() + subject.slice(1))}</h2><ul>${entries.join('')}</ul>`);
 }
-fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">History, taught from the period's own documents.</p>${lists.join('')}`));
+const indexScript = `const ck='sourcebook-complete';const rc=()=>{try{return JSON.parse(localStorage.getItem(ck))||{}}catch{return{}}};const c=rc();document.querySelectorAll('[data-unit]').forEach(li=>{if(c[li.dataset.unit]===true){li.classList.add('done');const a=li.querySelector('a');if(a)a.insertAdjacentHTML('afterbegin','✓ ');}});`;
+fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">History, taught from the period's own documents.</p>${lists.join('')}`, indexScript));
 console.log('Rendered to dist/.');

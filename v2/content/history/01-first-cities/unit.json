@@ -88,6 +88,16 @@
       ]
     }
   ],
+  "interpretations": [
+    {
+      "id": "childe-urban-revolution",
+      "historian": "V. Gordon Childe",
+      "work": "The Urban Revolution",
+      "year": "1950",
+      "claim": "Childe argued that the first cities marked a distinct 'urban revolution' — a second great change in human society, after farming, marked by dense settlement, specialized crafts, writing, and the state.",
+      "note": "Later archaeologists debate how sharply this change can be dated, and whether 'revolution' is the right word for a process that took centuries. The label is an argument, not a fact."
+    }
+  ],
   "activities": [
     {
       "id": "two-rivers",

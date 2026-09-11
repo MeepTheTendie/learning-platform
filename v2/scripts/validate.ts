@@ -46,6 +46,10 @@ for (const subject of subjects) {
       for (const term of lintFraming(image.caption)) errors.push(`${unit.id}/${image.id} caption: framing term "${term}"`);
       manifest.push(`- image: ${image.file} — ${image.credit} (${image.license})`);
     }
+    for (const interpretation of unit.interpretations) {
+      for (const field of [interpretation.claim, interpretation.note]) for (const term of lintFraming(field)) errors.push(`${unit.id}/${interpretation.id}: framing term "${term}"`);
+      manifest.push(`- interpretation: ${interpretation.historian}, *${interpretation.work}* (${interpretation.year})`);
+    }
     for (const activity of unit.activities) {
       const fields = activity.type === 'choice'
         ? [activity.prompt, ...activity.choices, activity.feedback]

@@ -13,4 +13,5 @@ c. 3500–1750 BCE · Mesopotamia (Sumer, Akkad, Babylonia)
 - image: assets/standard-of-ur.jpg — British Museum, via Wikimedia Commons (Public domain)
 - image: assets/cuneiform-tablet.jpg — The Metropolitan Museum of Art (Open Access) (CC0)
 - image: assets/hammurabi-stele.jpg — Mbzt, via Wikimedia Commons (CC BY 3.0)
+- interpretation: V. Gordon Childe, *The Urban Revolution* (1950)
 

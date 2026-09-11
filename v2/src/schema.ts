@@ -45,7 +45,18 @@ export const ResponseActivitySchema = z.object({
 
 export const ActivitySchema = z.discriminatedUnion('type', [ChoiceActivitySchema, ResponseActivitySchema]);
 
-// A unit is a neutral spine, the period's own documents, images, and activities.
+// A named interpretation: a historian's argument, clearly marked as argument.
+export const InterpretationSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  historian: z.string().min(3),
+  work: z.string().min(3),
+  year: z.string().min(3),
+  claim: z.string().min(10).max(700),
+  note: z.string().min(10).max(700),
+});
+
+// A unit is a neutral spine, the period's own documents, images, activities, and
+// at least one named interpretation.
 export const UnitSchema = z.object({
   id: z.string().regex(/^[0-9]{2}-[a-z0-9-]+$/),
   title: z.string().min(3),
@@ -54,6 +65,7 @@ export const UnitSchema = z.object({
   spine: z.string().regex(/^spine\.md$/),
   images: z.array(ImageSchema).default([]),
   sources: z.array(SourceSchema).min(1),
+  interpretations: z.array(InterpretationSchema).default([]),
   activities: z.array(ActivitySchema).min(1),
 });
 
@@ -61,3 +73,4 @@ export type Unit = z.infer<typeof UnitSchema>;
 export type Source = z.infer<typeof SourceSchema>;
 export type Image = z.infer<typeof ImageSchema>;
 export type Activity = z.infer<typeof ActivitySchema>;
+export type Interpretation = z.infer<typeof InterpretationSchema>;

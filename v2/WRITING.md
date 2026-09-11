@@ -79,6 +79,22 @@ types (personal writings, speeches, oral history, news, archives and manuscripts
 government documents, statistics, maps, images, film, and later scholarship).
 Know which type you are reading before you interpret it.
 
+## What the schools agree on
+
+From the courses and guides of Yale, Harvard, Princeton, Columbia, and Penn:
+
+- **Build the lesson around a question or a concept, not a period dump.**
+  Princeton's HIS 355 examines "plague" from antiquity to the present; HIS 326
+  examines food and dining in the Roman world. The theme is the organizing device.
+- **Move from lecture to seminar.** Columbia lists its 1000/2000-level courses as
+  lectures and its 3000/4000-level courses as seminars, and every major ends in a
+  **senior thesis**. A lesson should end with the reader doing the work, not just
+  receiving it.
+- **Pair a synthesis, primary sources, and a named interpretation** (the model
+  above). All three, kept distinct.
+- **Teach how to read a source explicitly** (Harvard's recommended PAPER method).
+- **Keep contingency and anachronism in view** (Yale, Freeman).
+
 
 ## Anti-patterns (these fail the framing lint)
 
