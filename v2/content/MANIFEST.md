@@ -462,6 +462,86 @@ c. 1789–1815 CE · France · Europe · the Atlantic
 - interpretation: François Furet, *Interpreting the French Revolution* (1978)
 - interpretation: C. L. R. James, *The Black Jacobins* (1938)
 
+## 17-industrial-revolution — The Industrial Revolution
+
+c. 1750–1900 CE · Britain, Europe, and the wider world
+
+- **Industrial Manchester** — Friedrich Engels, 1844 (English edition 1892). Public domain. From Friedrich Engels, The Condition of the Working-Class in England in 1844 (London: Swan Sonnenschein & Co., 1892), pp. 45, 48–53. Internet Modern History Sourcebook, Fordham University.
+- **The Philosophy of Manufactures** — Andrew Ure, 1835. Public domain. From Andrew Ure, The Philosophy of Manufactures (London: Chas. Knight, 1835), pp. 5–8, 14–15, 20–21, 23, 29–31. Internet Modern History Sourcebook, Fordham University.
+- **Women Miners in the English Coal Pits** — Parliamentary commissioners and witnesses (Great Britain), 1842. Public domain. From Great Britain, Parliamentary Papers, 1842, Vol. XVI, pp. 24, 196; Vol. XV, p. 84; and Vol. XVII, p. 108. Internet Modern History Sourcebook, Fordham University.
+- interpretation: Robert C. Allen, *The British Industrial Revolution in Global Perspective* (2009)
+- interpretation: E. P. Thompson, *The Making of the English Working Class* (1963)
+
+## 18-nationalism-and-unification — Nationalism and the making of nations
+
+c. 1815–1871 · Europe
+
+- **On Nationality** — Giuseppe Mazzini, 1852. Public domain. Giuseppe Mazzini, 'Europe: Its Condition and Prospects' (1852), in Essays: Selected from the Writings, Literary, Political and Religious of Joseph Mazzini, ed. William Clark (London: Walter Scott, 1880), pp. 266, 277–78, 291–92, via the Internet Modern History Sourcebook (Fordham University). Public domain.
+- **Documents of German unification, 1848–1871** — Johann Gustav Droysen, Friedrich Wilhelm IV, Otto von Bismarck, Helmuth von Moltke, and Wilhelm I, 1848–1871. Public domain. From James Harvey Robinson, ed., Readings in European History, 2 vols. (Boston: Ginn and Co., 1904–1905), II:571–575, and Otto von Bismarck, The Man and the Statesman (New York, 1899), II:48–51, via the Internet Modern History Sourcebook (Fordham University). Public domain.
+- **Cavour and the program of Italian unification** — Count Camillo di Cavour, 1846–1858. Public domain. The Program of Count Cavour (1846) and Speech to the Piedmont Chamber of Deputies (1858), from D. Zanichelli, ed., The Writings of Count Cavour (Bologna, 1892), II:4–50, and The Annual Register ... for the Year 1858 (London, 1859), pp. 186–188, via the Internet Modern History Sourcebook (Fordham University). Public domain.
+- interpretation: Eric Hobsbawm, *Nations and Nationalism since 1780: Programme, Myth, Reality* (1990)
+- interpretation: Benedict Anderson, *Imagined Communities: Reflections on the Origin and Spread of Nationalism* (1983)
+
+## 19-age-of-empire — The age of empire
+
+c. 1830–1914 · Africa, Asia, and the imperial powers
+
+- **General Act of the Berlin Conference on West Africa** — The Berlin Conference of 1884–85 (fourteen signatory states), 26 February 1885. Public domain. General Act of the Conference at Berlin of the Plenipotentiaries ... dealing with Africa, Berlin, 26 February 1885. English text via the 'World and Japan' Database, National Graduate Institute for Policy Studies (GRIPS) and the University of Tokyo. Public domain.
+- **The White Man's Burden** — Rudyard Kipling, 1899. Public domain. Rudyard Kipling, 'The White Man's Burden,' in The Five Nations (1903). Wikisource. Public domain.
+- **The benefits and burdens of British rule in India (London speech)** — Dadabhai Naoroji, 1871. Public domain. Dadabhai Naoroji, Essays, Speeches, Addresses and Writings (Bombay: Caxton Printing Works, 1887), pp. 131–136; text via the Internet Modern History Sourcebook (Fordham University) and Hanover College. Public domain.
+- interpretation: J. A. Hobson, *Imperialism: A Study* (1902)
+- interpretation: Ronald Robinson and John Gallagher, *The Imperialism of Free Trade* (1953)
+
+## 20-first-world-war — The First World War
+
+c. 1914–1918 · Europe and the wider world
+
+- **The Austro-Hungarian Ultimatum to Serbia** — The Imperial and Royal Government of Austria-Hungary, 22–23 July 1914. Public domain. Austro-Hungarian ultimatum delivered at Belgrade, 23 July 1914. English translation in the World War I Document Archive, Brigham Young University, from the Austro-Hungarian Red Book (1914).
+- **War Message to Congress** — Woodrow Wilson, President of the United States, 2 April 1917. Public domain. Woodrow Wilson, War Messages, 65th Cong., 1st Sess. Senate Doc. No. 5, Serial No. 7264 (Washington, D.C., 1917), pp. 3–8. Text via Wikisource.
+- **Dulce et Decorum est; Anthem for Doomed Youth** — Wilfred Owen, written 1917–1918; published 1920. Public domain. Wilfred Owen, 'Dulce et Decorum est' and 'Anthem for Doomed Youth,' in Poems by Wilfred Owen (London: Chatto & Windus, 1920). Text via Wikisource.
+- interpretation: Fritz Fischer, *Germany's Aims in the First World War* (1961)
+- interpretation: Christopher Clark, *The Sleepwalkers: How Europe Went to War in 1914* (2012)
+
+## 21-russian-revolution — Russia and the Soviet Union
+
+c. 1905–1939 · Russia and the Soviet Union
+
+- **The Tasks of the Proletariat in the Present Revolution (the April Theses)** — V. I. Lenin, 7 April 1917. Public domain. V. I. Lenin, 'The Tasks of the Proletariat in the Present Revolution,' Pravda No. 26, 7 April 1917; in Collected Works, Vol. 24 (Moscow: Progress Publishers, 1964), pp. 19–26. Translated by Isaacs Bernard. Marxists Internet Archive.
+- **Constitution of the Russian Socialist Federative Soviet Republic (selected articles)** — The Fifth All-Russian Congress of Soviets, 10 July 1918. Public domain. Constitution of the Russian Socialist Federative Soviet Republic (1918), Articles 1–23 and 64–65, English translation, Marxists Internet Archive.
+- **Dizzy With Success: Concerning Questions of the Collective-Farm Movement** — Joseph Stalin, 2 March 1930. Public domain. J. V. Stalin, 'Dizzy With Success,' Pravda No. 60, 2 March 1930; in Works, Vol. 12 (Moscow: Foreign Languages Publishing House, 1955), pp. 197–205. Marxists Internet Archive.
+- interpretation: Richard Pipes, *The Russian Revolution* (1990)
+- interpretation: Sheila Fitzpatrick, *The Russian Revolution* (1982)
+
+## 22-interwar-and-totalitarianism — The interwar crisis and totalitarianism
+
+c. 1919–1939 CE · Europe
+
+- **The Treaty of Versailles: the League Covenant, disarmament, and war guilt (selected articles)** — The Allied and Associated Powers and Germany, 28 June 1919. Public domain. Treaty of Peace with Germany (Treaty of Versailles), signed 28 June 1919. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
+- **The Doctrine of Fascism** — Benito Mussolini (with Giovanni Gentile), 1932. Public domain. Benito Mussolini, 'The Doctrine of Fascism', Enciclopedia Italiana (1932), English translation reproduced by the Internet Modern History Sourcebook, Fordham University. Public domain.
+- **The Nuremberg Laws: the Reich Citizenship Law and its First Regulation** — The German Reichstag and the German Government, 15 September and 14 November 1935. Public domain. Reich Citizenship Law of 15 September 1935 and First Regulation of 14 November 1935, translated in Nazi Conspiracy and Aggression, Vol. IV (Office of the United States Chief Counsel for Prosecution of Axis Criminality, U.S. Government Printing Office, 1946), documents 1416-PS and 1417-PS. Public domain.
+- interpretation: A. J. P. Taylor, *The Origins of the Second World War* (1961)
+- interpretation: Hannah Arendt, *The Origins of Totalitarianism* (1951)
+
+## 23-second-world-war — The Second World War and the Holocaust
+
+c. 1939–1945 · Europe, Asia, and the world
+
+- **Treaty of Nonaggression Between Germany and the Union of Soviet Socialist Republics, with Secret Additional Protocol** — Joachim von Ribbentrop and Vyacheslav Molotov, for Germany and the Soviet Union, 23 August 1939. Public domain. Nazi-Soviet Relations, 1939–1941: Documents from the Archives of the German Foreign Office, via the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
+- **The Wannsee Protocol (Minutes of the Wannsee Conference)** — Adolf Eichmann (recorder), for Reinhard Heydrich, 20 January 1942. Public domain. English translation of Document No. NG-2586 (Nuremberg Government series of the Nuremberg documents), Office of the Chief Counsel for War Crimes; reprinted in John Mendelsohn, ed., The Holocaust: Selected Documents in Eighteen Volumes, Vol. 11 (Garland, 1982), pp. 18–32, via German History in Documents and Images (GHDI).
+- **Charter of the United Nations (Preamble and Articles 1–2)** — The United Nations Conference on International Organization, 26 June 1945. Public domain. Charter of the United Nations, signed at San Francisco, 26 June 1945, via the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.
+- interpretation: Raul Hilberg, *The Destruction of the European Jews* (1961)
+- interpretation: Christopher R. Browning, *Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland* (1992)
+
+## 24-cold-war-and-after — The Cold War, the end of empire, and after
+
+c. 1945 to the present · The world
+
+- **Address before a joint session of Congress (the Truman Doctrine)** — Harry S. Truman, 12 March 1947. Public domain. Avalon Project, Yale Law School, 'Truman Doctrine'; text of President Harry S. Truman's address to a joint session of Congress, 12 March 1947.
+- **Universal Declaration of Human Rights** — United Nations General Assembly, 10 December 1948. Public domain. UN General Assembly Resolution 217A (III), adopted at Paris, 10 December 1948; text via Wikisource.
+- **A Tryst with Destiny** — Jawaharlal Nehru, 14 August 1947. Public domain. Speech in the Constituent Assembly on the eve of independence; Constituent Assembly Debates, Government of India (1950); text via Wikisource.
+- interpretation: John Lewis Gaddis, *The Cold War: A New History* (2005)
+- interpretation: Odd Arne Westad, *The Global Cold War: Third World Interventions and the Making of Our Times* (2005)
+
 ## 01-reading-a-poem — Reading a poem closely
 
 English poetry, sixteenth to nineteenth centuries

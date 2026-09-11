@@ -1,0 +1,206 @@
+{
+  "id": "20-first-world-war",
+  "title": "The First World War",
+  "period": "c. 1914–1918",
+  "region": "Europe and the wider world",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "austrian-ultimatum",
+      "title": "The Austro-Hungarian Ultimatum to Serbia",
+      "author": "The Imperial and Royal Government of Austria-Hungary",
+      "date": "22–23 July 1914",
+      "citation": "Austro-Hungarian ultimatum delivered at Belgrade, 23 July 1914. English translation in the World War I Document Archive, Brigham Young University, from the Austro-Hungarian Red Book (1914).",
+      "license": "Public domain",
+      "url": "https://wwi.lib.byu.edu/index.php/The_Austro-Hungarian_Ultimatum_to_Serbia_(English_Translation)",
+      "file": "sources/austrian-ultimatum.md",
+      "context": "Delivered by the Austro-Hungarian minister at Belgrade on the afternoon of 23 July 1914, with a 48-hour deadline. Serbia's reply accepted most points but rejected any Austrian role in a judicial inquiry on Serbian soil.",
+      "questions": [
+        "Which of the ten demands would have been hardest for an independent state to accept, and why?",
+        "What does the note assume about Serbia's responsibility for the assassination, and what evidence does it offer?",
+        "The ultimatum quotes Serbia's own 1909 declaration. What is the effect of holding Serbia to that promise?"
+      ]
+    },
+    {
+      "id": "wilson-war-message",
+      "title": "War Message to Congress",
+      "author": "Woodrow Wilson, President of the United States",
+      "date": "2 April 1917",
+      "citation": "Woodrow Wilson, War Messages, 65th Cong., 1st Sess. Senate Doc. No. 5, Serial No. 7264 (Washington, D.C., 1917), pp. 3–8. Text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Woodrow_Wilson_Urges_Congress_to_Declare_War_on_Germany",
+      "file": "sources/wilson-war-message.md",
+      "context": "Wilson addressed a joint session of Congress on 2 April 1917, after Germany resumed unrestricted submarine warfare and the Zimmermann telegram became public. Congress declared war on 6 April.",
+      "questions": [
+        "What does Wilson make the central cause of the war, and what does he leave out?",
+        "How does Wilson distinguish the German government from the German people, and why?",
+        "What does the phrase 'the world must be made safe for democracy' promise, and to whom?"
+      ]
+    },
+    {
+      "id": "owen-poems",
+      "title": "Dulce et Decorum est; Anthem for Doomed Youth",
+      "author": "Wilfred Owen",
+      "date": "written 1917–1918; published 1920",
+      "citation": "Wilfred Owen, 'Dulce et Decorum est' and 'Anthem for Doomed Youth,' in Poems by Wilfred Owen (London: Chatto & Windus, 1920). Text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Poems_by_Wilfred_Owen/Dulce_et_Decorum_est",
+      "file": "sources/owen-poems.md",
+      "context": "Owen wrote these poems while serving on the Western Front; he was killed on 4 November 1918, a week before the armistice, and the collection appeared in 1920.",
+      "questions": [
+        "What does the gas attack in 'Dulce et Decorum est' look like from inside the poem, and who is speaking?",
+        "How do the two poems use religious language, and to what effect?",
+        "Owen calls the Latin tag 'the old Lie.' What is he rejecting, and what evidence does the poem offer against it?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "fischer-war-aims",
+      "historian": "Fritz Fischer",
+      "work": "Germany's Aims in the First World War",
+      "year": "1961",
+      "claim": "Fischer argued that Germany bore the chief responsibility for the war: the imperial government used the Sarajevo crisis to make a bid for European and world power, and the September Programme of 1914 showed expansionist aims it had pursued deliberately.",
+      "note": "Critics, including Christopher Clark, argue that the September Programme was improvised after the war began, so reading it back into July mistakes a wartime document for a pre-war plan. The controversy Fischer started has never fully closed."
+    },
+    {
+      "id": "clark-sleepwalkers",
+      "historian": "Christopher Clark",
+      "work": "The Sleepwalkers: How Europe Went to War in 1914",
+      "year": "2012",
+      "claim": "Clark argued that the war came from a shared failure rather than a single guilty power — a 'tragedy, not a crime' — in which Serbian, Austro-Hungarian, Russian, French, and German decisions interacted, each government acting in partial ignorance of the others' intentions.",
+      "note": "The Fischer school replies that a 'shared failure' flattens the difference between a state seeking a local war and one seeking continental dominance, and that Germany's 'blank cheque' to Austria remains decisive. The debate is live."
+    }
+  ],
+  "activities": [
+    {
+      "id": "july-crisis-trigger",
+      "type": "choice",
+      "prompt": "Which event set off the July Crisis of 1914?",
+      "choices": [
+        "The assassination of Archduke Franz Ferdinand at Sarajevo",
+        "The German invasion of Belgium",
+        "The sinking of the Lusitania",
+        "The Bolshevik seizure of power in Russia"
+      ],
+      "answer": 0,
+      "feedback": "Gavrilo Princip shot Franz Ferdinand and Sophie on 28 June 1914; Austria-Hungary's ultimatum followed on 23 July."
+    },
+    {
+      "id": "serbia-rejected",
+      "type": "choice",
+      "prompt": "Which of Austria-Hungary's ten demands did Serbia refuse in its reply of 25 July 1914?",
+      "choices": [
+        "That Austrian officials take part in a judicial inquiry on Serbian soil",
+        "That it suppress anti-Austrian newspapers",
+        "That it dissolve the Narodna Odbrana",
+        "That it dismiss officers named by Vienna"
+      ],
+      "answer": 0,
+      "feedback": "Serbia accepted most points but rejected any Austrian role in proceedings inside Serbia, on the ground that it violated sovereignty."
+    },
+    {
+      "id": "britain-belgium",
+      "type": "choice",
+      "prompt": "Britain declared war on Germany on 4 August 1914 chiefly because…",
+      "choices": [
+        "German armies invaded neutral Belgium, whose neutrality Britain had guaranteed",
+        "Germany sank a British battleship",
+        "Russia asked Britain to join",
+        "Germany attacked British colonies in Africa"
+      ],
+      "answer": 0,
+      "feedback": "The 1839 Treaty of London guaranteed Belgian neutrality; the invasion gave Grey a cause the cabinet would accept."
+    },
+    {
+      "id": "first-gas",
+      "type": "choice",
+      "prompt": "At which battle did Germany first use poison gas on a large scale?",
+      "choices": [
+        "Second Ypres, April 1915",
+        "Verdun, February 1916",
+        "The Somme, July 1916",
+        "Passchendaele, July 1917"
+      ],
+      "answer": 0,
+      "feedback": "Chlorine released from cylinders drifted into French and Algerian trenches at Second Ypres on 22 April 1915."
+    },
+    {
+      "id": "somme-first-day",
+      "type": "choice",
+      "prompt": "What made 1 July 1916, the first day of the Somme, notorious?",
+      "choices": [
+        "The heaviest single-day casualties in British military history",
+        "The first use of tanks",
+        "The first use of gas",
+        "The capture of Paris"
+      ],
+      "answer": 0,
+      "feedback": "The British army suffered 57,470 casualties, including 19,240 killed, on the first day."
+    },
+    {
+      "id": "us-entry",
+      "type": "choice",
+      "prompt": "What most directly brought the United States into the war in 1917?",
+      "choices": [
+        "Germany's resumption of unrestricted submarine warfare and the Zimmermann telegram",
+        "The Russian Revolution",
+        "The Treaty of Brest-Litovsk",
+        "The Battle of Jutland"
+      ],
+      "answer": 0,
+      "feedback": "Germany's February 1917 submarine campaign and the intercepted offer to Mexico turned opinion; Congress declared war on 6 April."
+    },
+    {
+      "id": "brest-litovsk",
+      "type": "choice",
+      "prompt": "The Treaty of Brest-Litovsk, signed in March 1918, …",
+      "choices": [
+        "took Russia out of the war and gave Germany vast western territory",
+        "ended the war on the Western Front",
+        "brought the United States into the war",
+        "created the League of Nations"
+      ],
+      "answer": 0,
+      "feedback": "Lenin's government made peace with Germany, ceding Poland, the Baltic lands, and Ukraine, and freeing German divisions for the west."
+    },
+    {
+      "id": "why-stalemate",
+      "type": "choice",
+      "prompt": "Why did the Western Front settle into a long stalemate?",
+      "choices": [
+        "Defensive firepower — machine guns, artillery, and wire — made frontal attacks ruinously costly",
+        "Neither side had enough soldiers",
+        "The weather prevented all fighting",
+        "Both sides agreed to a truce"
+      ],
+      "answer": 0,
+      "feedback": "Once the war of movement failed at the Marne, trenches, wire, and massed artillery gave the defence a decisive advantage until 1918."
+    },
+    {
+      "id": "armenian-genocide",
+      "type": "choice",
+      "prompt": "What happened to the Armenian population of the Ottoman Empire in 1915?",
+      "choices": [
+        "They were deported and massacred in large numbers",
+        "They were given an independent state",
+        "They were resettled in Constantinople",
+        "They were recruited into the Ottoman army"
+      ],
+      "answer": 0,
+      "feedback": "The Ottoman government ordered deportations from eastern Anatolia; estimates of the dead range from about 600,000 to over a million."
+    },
+    {
+      "id": "reflect-ultimatum-wilson",
+      "type": "short-answer",
+      "prompt": "Compare what the Austro-Hungarian ultimatum and Wilson's war message each assume about who may judge a nation's conduct, and about the use of force. Use a phrase from each document.",
+      "context": "Ultimatum: 'The Royal Serbian Government will furthermore pledge itself… to agree to the cooperation in Serbia of the organs of the Imperial and Royal Government in the suppression of the subversive movement.' — Wilson: 'The world must be made safe for democracy. Its peace must be planted upon the tested foundations of political liberty.'",
+      "rubric": [
+        "refers to both documents",
+        "states what each assumes about sovereignty or judgment",
+        "quotes or closely paraphrases a phrase from each"
+      ]
+    }
+  ]
+}

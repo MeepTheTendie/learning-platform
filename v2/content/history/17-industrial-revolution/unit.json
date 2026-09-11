@@ -1,0 +1,153 @@
+{
+  "id": "17-industrial-revolution",
+  "title": "The Industrial Revolution",
+  "period": "c. 1750–1900 CE",
+  "region": "Britain, Europe, and the wider world",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "engels-manchester",
+      "title": "Industrial Manchester",
+      "author": "Friedrich Engels",
+      "date": "1844 (English edition 1892)",
+      "citation": "From Friedrich Engels, The Condition of the Working-Class in England in 1844 (London: Swan Sonnenschein & Co., 1892), pp. 45, 48–53. Internet Modern History Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/1844engels.asp",
+      "file": "sources/engels-manchester.md",
+      "context": "Engels, the son of a German textile manufacturer, worked in his father's Manchester factory and wrote this account of the city's working-class quarters. He had not yet met Marx. The book appeared in German in 1845 and in this English edition in 1892.",
+      "questions": [
+        "Engels writes that the working people's quarters are 'sharply separated' from the middle-class city. What does he say that separation does to the people on either side?",
+        "Engels describes what he saw himself and also quotes others, such as Dr Kay. Which parts of the passage are his own observation, and which are borrowed?",
+        "He calls the district a 'Hell upon Earth' but insists its horrors are 'of recent origin.' Why does he stress that the district is new?"
+      ]
+    },
+    {
+      "id": "ure-philosophy",
+      "title": "The Philosophy of Manufactures",
+      "author": "Andrew Ure",
+      "date": "1835",
+      "citation": "From Andrew Ure, The Philosophy of Manufactures (London: Chas. Knight, 1835), pp. 5–8, 14–15, 20–21, 23, 29–31. Internet Modern History Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/1835ure.asp",
+      "file": "sources/ure-philosophy.md",
+      "context": "Ure was a Glasgow professor of chemistry and an enthusiastic defender of the factory system. His book answered critics who blamed the mills for poverty and unrest, and it argued that machinery was a benefit to the workman.",
+      "questions": [
+        "Ure says scientific improvement is 'philanthropic.' What evidence does he give, and what does he leave out?",
+        "He writes that the 'grand object' of the manufacturer is to reduce work to 'vigilance and dexterity.' Who gains from that change, and who does not?",
+        "Ure admits that machinery substitutes women and children for trained men. How does he turn that admission into an argument in the manufacturers' favour?"
+      ]
+    },
+    {
+      "id": "women-miners",
+      "title": "Women Miners in the English Coal Pits",
+      "author": "Parliamentary commissioners and witnesses (Great Britain)",
+      "date": "1842",
+      "citation": "From Great Britain, Parliamentary Papers, 1842, Vol. XVI, pp. 24, 196; Vol. XV, p. 84; and Vol. XVII, p. 108. Internet Modern History Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/1842womenminers.asp",
+      "file": "sources/women-miners.md",
+      "context": "A parliamentary commission investigated the employment of women and children in the mines. Its report combined the investigator's own account with the words of the women themselves, and the scandal it exposed helped carry the Mines Act of 1842.",
+      "questions": [
+        "The report combines a commissioner's description with the women's own words. Which parts are observation, and which are testimony?",
+        "Betty Harris gives figures for her wages, hours, and route underground. What can a witness like her tell us that a mine owner could not?",
+        "The commissioner calls the pits 'a nursery for juvenile vice.' What does that language assume about women and about the mines?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "allen-high-wage",
+      "historian": "Robert C. Allen",
+      "work": "The British Industrial Revolution in Global Perspective",
+      "year": "2009",
+      "claim": "Allen argues that Britain industrialised first because its wages were high and its coal was cheap. Machines that replaced expensive labour with cheap energy paid in Britain and did not pay in France or China, so the incentive to invent and adopt them existed there first.",
+      "note": "The thesis is contested. Joel Mokyr and others reply that relative prices explain where machines were adopted but not why the technical knowledge to build them arose in Britain, and point instead to the Enlightenment and the circulation of useful knowledge. The debate is over which cause was necessary and which was merely favourable."
+    },
+    {
+      "id": "thompson-making-class",
+      "historian": "E. P. Thompson",
+      "work": "The Making of the English Working Class",
+      "year": "1963",
+      "claim": "Thompson argued that the English working class was not created mechanically by the factory. It was 'made' by working people themselves, through shared experiences, institutions, and political struggle, so that class is a relationship and a process rather than a thing.",
+      "note": "Critics such as Gareth Stedman Jones and Patrick Joyce argue that Thompson read a later labour politics back into earlier movements and underplayed religion, locality, and language. The standard-of-living debate also continues over whether the first industrial generations grew poorer or richer."
+    }
+  ],
+  "activities": [
+    {
+      "id": "why-britain-coal",
+      "type": "choice",
+      "prompt": "Robert C. Allen's explanation of why Britain industrialised first rests on which combination?",
+      "choices": ["High wages and cheap coal", "Low wages and expensive coal", "Abundant timber and cheap land", "A large army and high tariffs"],
+      "answer": 0,
+      "feedback": "Allen argues that expensive labour and cheap energy made labour-saving machinery profitable in Britain and not in France or China."
+    },
+    {
+      "id": "newcomen-purpose",
+      "type": "choice",
+      "prompt": "Thomas Newcomen's engine of 1712 was first built to…",
+      "choices": ["Pump water out of a coal mine", "Drive a power loom", "Pull a railway train", "Light a factory"],
+      "answer": 0,
+      "feedback": "The atmospheric engine drained mines deeper than horses or water-wheels could reach, which unlocked more coal."
+    },
+    {
+      "id": "watt-condenser",
+      "type": "choice",
+      "prompt": "What did James Watt's separate condenser improve?",
+      "choices": ["The efficiency of the steam engine", "The speed of the spinning jenny", "The quality of cotton cloth", "The safety of coal mines"],
+      "answer": 0,
+      "feedback": "By condensing steam in a second vessel, Watt kept the cylinder hot and made the engine far more efficient."
+    },
+    {
+      "id": "water-frame",
+      "type": "choice",
+      "prompt": "Richard Arkwright's water frame was important because it…",
+      "choices": ["Used rollers to spin strong thread under one roof", "Was the first steam locomotive", "Replaced the power loom", "Printed calico cloth"],
+      "answer": 0,
+      "feedback": "The water frame made strong warp thread, and Arkwright's Cromford mill was one of the first true factories."
+    },
+    {
+      "id": "ure-automaton",
+      "type": "choice",
+      "prompt": "In The Philosophy of Manufactures, Andrew Ure describes the factory as…",
+      "choices": ["'A vast automaton' that relieves the workman of muscular toil", "A prison for the poor", "A danger to the state", "A temporary experiment"],
+      "answer": 0,
+      "feedback": "Ure defended the factory as scientific and philanthropic, even as he admitted its aim was to replace trained men with women and children."
+    },
+    {
+      "id": "factory-act-1833",
+      "type": "choice",
+      "prompt": "What made the Factory Act of 1833 different from earlier laws?",
+      "choices": ["It appointed paid inspectors to enforce it", "It abolished the factory system", "It gave all workers the vote", "It banned coal mining"],
+      "answer": 0,
+      "feedback": "The 1833 Act was the first with real teeth: paid inspectors, shorter hours for children, and some schooling."
+    },
+    {
+      "id": "railway-first",
+      "type": "choice",
+      "prompt": "The first public steam railway, opened in 1825, was the…",
+      "choices": ["Stockton and Darlington", "Liverpool and Manchester", "London and Birmingham", "Great Western"],
+      "answer": 0,
+      "feedback": "George Stephenson's Locomotion No. 1 hauled the Stockton and Darlington; the Liverpool and Manchester opened in 1830."
+    },
+    {
+      "id": "great-divergence",
+      "type": "choice",
+      "prompt": "Kenneth Pomeranz's 'great divergence' refers to…",
+      "choices": ["The widening gap in output per head between Europe and Asia after 1800", "The split between Catholics and Protestants", "The division of Britain into two nations", "The gap between factory and farm wages"],
+      "answer": 0,
+      "feedback": "Pomeranz argued that advanced China and Europe were not so far apart before 1750, and that coal and the New World widened the gap."
+    },
+    {
+      "id": "reflect-ure-miners",
+      "type": "short-answer",
+      "prompt": "Ure and the parliamentary commissioners describe the same industry. Compare what each source treats as the main question, and what each takes for granted.",
+      "context": "Ure: 'The constant aim and effect of scientific improvement in manufactures are philanthropic, as they tend to relieve the workmen either from niceties of adjustment which exhaust his mind and fatigue his eyes, or from painful repetition of efforts which distort or wear out his frame.' — Parliamentary report: 'I have a belt round my waist, and a chain passing between my legs, and I go on my hands and feet. . . . There are six women and about six boys and girls in the pit I work in; it is very hard work for a woman.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each treats as the main question",
+        "uses a specific detail or quotation from each"
+      ]
+    }
+  ]
+}

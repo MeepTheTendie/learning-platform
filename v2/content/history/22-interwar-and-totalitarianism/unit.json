@@ -1,0 +1,204 @@
+{
+  "id": "22-interwar-and-totalitarianism",
+  "title": "The interwar crisis and totalitarianism",
+  "period": "c. 1919–1939 CE",
+  "region": "Europe",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "treaty-versailles",
+      "title": "The Treaty of Versailles: the League Covenant, disarmament, and war guilt (selected articles)",
+      "author": "The Allied and Associated Powers and Germany",
+      "date": "28 June 1919",
+      "citation": "Treaty of Peace with Germany (Treaty of Versailles), signed 28 June 1919. Text from the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/imt/partv.asp",
+      "file": "sources/treaty-versailles.md",
+      "context": "Signed in the Hall of Mirrors at Versailles. The excerpt gathers the League Covenant's guarantee of collective security (Articles 10 and 16) with the military restrictions (Articles 160, 173, 198) and the reparations clauses (Articles 231 and 232).",
+      "questions": [
+        "Article 10 promises to preserve members' territory against aggression, and Article 16 promises sanctions. Who is expected to enforce them?",
+        "What does Article 160 assume about the kind of army Germany is allowed to keep?",
+        "Article 231 speaks of a war 'imposed upon' the Allies. What does that phrase decide about responsibility?",
+        "Which of these articles could a later German government point to as evidence of a dictated peace?"
+      ]
+    },
+    {
+      "id": "mussolini-doctrine",
+      "title": "The Doctrine of Fascism",
+      "author": "Benito Mussolini (with Giovanni Gentile)",
+      "date": "1932",
+      "citation": "Benito Mussolini, 'The Doctrine of Fascism', Enciclopedia Italiana (1932), English translation reproduced by the Internet Modern History Sourcebook, Fordham University. Public domain.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/mussolini-fascism.asp",
+      "file": "sources/mussolini-doctrine.md",
+      "context": "Written for the Italian Encyclopedia of 1932, a decade after the March on Rome. The article states fascism's rejection of democracy and its claim that the state is absolute and the individual relative to it.",
+      "questions": [
+        "The text rejects pacifism and calls war the highest expression of human energy. What does that assume about the purpose of the state?",
+        "How does the article describe the difference between the Liberal State and the Fascist State?",
+        "The text says the individual is deprived of 'all useless and possibly harmful freedom.' Who decides what is useless, and by what standard?",
+        "Mussolini wrote that the twentieth century would be 'a century of authority.' What does the text offer as evidence for that claim?"
+      ]
+    },
+    {
+      "id": "nuremberg-laws",
+      "title": "The Nuremberg Laws: the Reich Citizenship Law and its First Regulation",
+      "author": "The German Reichstag and the German Government",
+      "date": "15 September and 14 November 1935",
+      "citation": "Reich Citizenship Law of 15 September 1935 and First Regulation of 14 November 1935, translated in Nazi Conspiracy and Aggression, Vol. IV (Office of the United States Chief Counsel for Prosecution of Axis Criminality, U.S. Government Printing Office, 1946), documents 1416-PS and 1417-PS. Public domain.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/imt/1416-ps.asp",
+      "file": "sources/nuremberg-laws.md",
+      "context": "Promulgated at the Nazi Party rally in Nuremberg. The Citizenship Law created two classes of Germans; the First Regulation defined who counted as a Jew by the number of Jewish grandparents.",
+      "questions": [
+        "Article 2 of the Citizenship Law makes citizenship depend on blood and on conduct. What kind of membership is that?",
+        "The First Regulation defines a Jew by ancestry rather than religion. What does that definition allow the state to do that a religious test would not?",
+        "Article 3 says only the Reich citizen may vote or hold office. What does that do to the position of Jews in public life?",
+        "The laws were issued by decree and signed by Hitler, Frick, and Hess. What does the form of the document suggest about how the Nazi state made law?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "taylor-origins",
+      "historian": "A. J. P. Taylor",
+      "work": "The Origins of the Second World War",
+      "year": "1961",
+      "claim": "Taylor argued that Hitler was an opportunist rather than a planner: he exploited situations as they arose, and the Second World War grew out of the unresolved grievances of Versailles and the general crisis of the 1930s rather than a long-prepared design.",
+      "note": "The claim was fiercely contested. Hugh Trevor-Roper and others replied that Hitler's ideology — Lebensraum and racial war — gave his policy a consistent direction. The debate between 'intentionalist' and 'structuralist' readings of Hitler remains open."
+    },
+    {
+      "id": "arendt-totalitarianism",
+      "historian": "Hannah Arendt",
+      "work": "The Origins of Totalitarianism",
+      "year": "1951",
+      "claim": "Arendt argued that totalitarianism is a new form of government, not an old tyranny: it rests on atomised masses, a totalising ideology, and terror, and its central institution is the concentration camp. Nazi Germany and Stalin's Soviet Union were its two instances.",
+      "note": "Ian Kershaw and others argue that Nazi Germany was a polycratic competition of rival agencies 'working towards the Führer', not the seamless monolith the model implies; scholars also treat fascist Italy and Franco's Spain as authoritarian rather than fully totalitarian."
+    }
+  ],
+  "activities": [
+    {
+      "id": "versailles-guilt",
+      "type": "choice",
+      "prompt": "Article 231 of the Treaty of Versailles required Germany to accept responsibility for…",
+      "choices": [
+        "Causing the loss and damage of the war",
+        "The assassination at Sarajevo",
+        "The Russian Revolution",
+        "The collapse of Austria-Hungary"
+      ],
+      "answer": 0,
+      "feedback": "Article 231, the 'war guilt' clause, was resented in Germany and exploited by nationalist parties."
+    },
+    {
+      "id": "versailles-army",
+      "type": "choice",
+      "prompt": "Under the military clauses, the German army was limited to…",
+      "choices": ["100,000 men", "250,000 men", "500,000 men", "One million men"],
+      "answer": 0,
+      "feedback": "Article 160 capped the army at 100,000 men, abolished the general staff, and banned tanks, aircraft, and submarines."
+    },
+    {
+      "id": "league-manchuria",
+      "type": "choice",
+      "prompt": "Why did the League of Nations fail to stop Japan in Manchuria in 1931?",
+      "choices": [
+        "It had no enforcement force and the great powers would not risk war",
+        "Japan was not a member of the League",
+        "The League's members voted to approve the invasion",
+        "The United States ordered the League to stand aside"
+      ],
+      "answer": 0,
+      "feedback": "The League condemned the invasion but had no standing force; sanctions depended on the great powers, and Japan simply left the League in 1933."
+    },
+    {
+      "id": "depression-germany",
+      "type": "choice",
+      "prompt": "What was the political effect of the Great Depression in Germany?",
+      "choices": [
+        "Mass unemployment discredited the republic and the Nazi vote soared",
+        "It strengthened the moderate parties",
+        "It ended reparations and restored confidence",
+        "It had little effect on German politics"
+      ],
+      "answer": 0,
+      "feedback": "With some six million unemployed, the NSDAP rose from 12 seats in 1928 to 230 in July 1932."
+    },
+    {
+      "id": "march-on-rome",
+      "type": "choice",
+      "prompt": "What happened after Mussolini's March on Rome in October 1922?",
+      "choices": [
+        "The king invited Mussolini to form a government",
+        "The army crushed the marchers",
+        "Mussolini was arrested and exiled",
+        "The fascists seized the parliament by force"
+      ],
+      "answer": 0,
+      "feedback": "Victor Emmanuel III refused to sign a decree of martial law and appointed Mussolini prime minister on 30 October."
+    },
+    {
+      "id": "enabling-act",
+      "type": "choice",
+      "prompt": "The Enabling Act of 23 March 1933 allowed Hitler's government to…",
+      "choices": [
+        "Make laws without the Reichstag for four years",
+        "Dissolve the army",
+        "Abolish the office of president",
+        "Withdraw Germany from the League"
+      ],
+      "answer": 0,
+      "feedback": "Passed by 444 votes to 94, it gave the cabinet the power to legislate without parliament."
+    },
+    {
+      "id": "nuremberg-laws",
+      "type": "choice",
+      "prompt": "The Nuremberg Laws of September 1935…",
+      "choices": [
+        "Stripped Jews of Reich citizenship and banned marriage with non-Jews",
+        "Granted equal rights to Jewish veterans",
+        "Established the SS as a state body",
+        "Dissolved the German trade unions"
+      ],
+      "answer": 0,
+      "feedback": "The Citizenship Law created a two-tier nation; the First Regulation defined a Jew by the number of Jewish grandparents."
+    },
+    {
+      "id": "munich",
+      "type": "choice",
+      "prompt": "The Munich Agreement of 30 September 1938…",
+      "choices": [
+        "Ceded the Sudetenland to Germany without Czech participation",
+        "Guaranteed Czechoslovakia's borders",
+        "Ended German rearmament",
+        "Brought the Soviet Union into an anti-German alliance"
+      ],
+      "answer": 0,
+      "feedback": "Chamberlain, Daladier, Hitler, and Mussolini agreed; the Czech government was not invited and submitted."
+    },
+    {
+      "id": "spain-intervention",
+      "type": "choice",
+      "prompt": "Which powers intervened in the Spanish Civil War?",
+      "choices": [
+        "Germany and Italy for Franco; the Soviet Union for the Republic",
+        "Britain and France for the Republic",
+        "The United States for Franco",
+        "Japan and the Soviet Union for Franco"
+      ],
+      "answer": 0,
+      "feedback": "Hitler sent the Condor Legion and Mussolini some 70,000 troops; Stalin sent advisers and equipment. Britain and France stayed out under Non-Intervention."
+    },
+    {
+      "id": "law-and-belonging",
+      "type": "short-answer",
+      "prompt": "Both the Treaty of Versailles and the Nuremberg Laws use law to define who belongs to the nation and who does not. Compare what each text assumes about membership and obligation.",
+      "context": "Versailles, Article 231: 'The Allied and Associated Governments affirm and Germany accepts the responsibility of Germany and her allies for causing all the loss and damage ... as a consequence of the war imposed upon them by the aggression of Germany and her allies.' Nuremberg Citizenship Law: 'A citizen of the Reich is only that subject, who is of German- or kindred blood and who, through his conduct, shows that he is both desirous and fit to serve faithfully the German people and Reich.'",
+      "rubric": [
+        "refers to both documents",
+        "states what each text assumes about who belongs",
+        "uses a specific phrase from the texts"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "24-cold-war-and-after",
+  "title": "The Cold War, the end of empire, and after",
+  "period": "c. 1945 to the present",
+  "region": "The world",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "truman-doctrine",
+      "title": "Address before a joint session of Congress (the Truman Doctrine)",
+      "author": "Harry S. Truman",
+      "date": "12 March 1947",
+      "citation": "Avalon Project, Yale Law School, 'Truman Doctrine'; text of President Harry S. Truman's address to a joint session of Congress, 12 March 1947.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/20th_century/trudoc.asp",
+      "file": "sources/truman-doctrine.md",
+      "context": "Truman asked Congress for aid to Greece and Turkey and declared that the United States would support peoples resisting subjugation. The address set the framework for the policy later called containment.",
+      "questions": [
+        "What choice does Truman say every nation faces, and how does he describe the two ways of life?",
+        "Whom does he name as the threat, and what evidence does he offer?",
+        "The speech never uses the word 'containment.' Where does the idea appear, and what does it assume about American responsibility?"
+      ]
+    },
+    {
+      "id": "udhr",
+      "title": "Universal Declaration of Human Rights",
+      "author": "United Nations General Assembly",
+      "date": "10 December 1948",
+      "citation": "UN General Assembly Resolution 217A (III), adopted at Paris, 10 December 1948; text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/Universal_Declaration_of_Human_Rights",
+      "file": "sources/udhr.md",
+      "context": "Adopted in Paris in December 1948, the declaration was the first statement of rights agreed by a world body. It was not a treaty and carried no enforcement mechanism.",
+      "questions": [
+        "Which articles limit what a state may do to a person, and which ask something of the community?",
+        "The declaration says these rights belong to 'everyone.' Which of its promises would have been hardest for the signatory states to keep?",
+        "What does Article 21 assume about where a government's authority comes from?"
+      ]
+    },
+    {
+      "id": "nehru-tryst",
+      "title": "A Tryst with Destiny",
+      "author": "Jawaharlal Nehru",
+      "date": "14 August 1947",
+      "citation": "Speech in the Constituent Assembly on the eve of independence; Constituent Assembly Debates, Government of India (1950); text via Wikisource.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/A_Tryst_With_Destiny",
+      "file": "sources/nehru-tryst.md",
+      "context": "Delivered at midnight as India became independent. Nehru speaks of a pledge made long before, of the work still ahead, and of the new nation's place among the nations of the world.",
+      "questions": [
+        "What does Nehru mean by a 'tryst with destiny,' and to whom is the pledge owed?",
+        "How does the speech address the division and violence of partition without naming them?",
+        "Which promises does Nehru make on behalf of the new state, and which does he leave to the future?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "gaddis-cold-war",
+      "historian": "John Lewis Gaddis",
+      "work": "The Cold War: A New History",
+      "year": "2005",
+      "claim": "Gaddis argues that the Cold War was a long contest between two visions of order, and that the West prevailed because containment, military strength, and the appeal of free institutions exposed the Soviet system's internal contradictions.",
+      "note": "Critics, including Odd Arne Westad, argue that Gaddis overstates Western agency and gives too little weight to decisions taken in Moscow and to the conflict's course in Asia, Africa, and Latin America. The debate over why the Soviet Union broke up remains open."
+    },
+    {
+      "id": "westad-global-cold-war",
+      "historian": "Odd Arne Westad",
+      "work": "The Global Cold War: Third World Interventions and the Making of Our Times",
+      "year": "2005",
+      "claim": "Westad argues that the Cold War was fought and decided as much in the postcolonial world as in Europe, and that superpower intervention in Asia, Africa, and Latin America shaped both the conflict and the states that came after it.",
+      "note": "Historians such as Gaddis stress the European core and the Soviet-American confrontation, and ask how much room leaders outside Europe really had. Westad's emphasis on the periphery is widely accepted but still contested in its details."
+    }
+  ],
+  "activities": [
+    {
+      "id": "yalta-potsdam",
+      "type": "choice",
+      "prompt": "What did the Yalta and Potsdam conferences fail to settle?",
+      "choices": [
+        "The future of Germany and eastern Europe",
+        "The creation of the United Nations",
+        "The border between France and Spain",
+        "The terms of Japan's surrender"
+      ],
+      "answer": 0,
+      "feedback": "The wartime allies agreed on zones of occupation but left Germany's future and eastern Europe open, and those blanks became the Cold War."
+    },
+    {
+      "id": "iron-curtain",
+      "type": "choice",
+      "prompt": "Churchill's 'iron curtain' speech of March 1946 described…",
+      "choices": [
+        "The line dividing the Soviet sphere from the West",
+        "The border between North and South Korea",
+        "The Berlin Wall",
+        "The division of India and Pakistan"
+      ],
+      "answer": 0,
+      "feedback": "Churchill named a division already forming, from Stettin in the Baltic to Trieste in the Adriatic."
+    },
+    {
+      "id": "marshall-plan",
+      "type": "choice",
+      "prompt": "The Marshall Plan offered American aid on the condition that European states…",
+      "choices": [
+        "Cooperate with one another on recovery",
+        "Join NATO",
+        "Accept American troops",
+        "Give up their empires"
+      ],
+      "answer": 0,
+      "feedback": "Marshall's offer required European cooperation and self-help; the Soviet Union refused and barred its satellites from taking part."
+    },
+    {
+      "id": "mutual-destruction",
+      "type": "choice",
+      "prompt": "The doctrine of mutual assured destruction rested on the idea that…",
+      "choices": [
+        "A first strike would bring a devastating second strike",
+        "Civil defence could protect cities",
+        "Nuclear war could be limited to the battlefield",
+        "Only one side needed nuclear weapons"
+      ],
+      "answer": 0,
+      "feedback": "If both sides could destroy the other after being attacked, a rational leader would not strike first — or so the theory went."
+    },
+    {
+      "id": "korea-un-action",
+      "type": "choice",
+      "prompt": "Why could the United Nations authorise force in Korea in 1950?",
+      "choices": [
+        "The Soviet delegate was boycotting the Security Council",
+        "The Soviet Union voted in favour",
+        "China had joined the United Nations",
+        "The United States ignored the Security Council"
+      ],
+      "answer": 0,
+      "feedback": "The Soviet absence let the Council pass the resolution; the same action would have been vetoed at any other time."
+    },
+    {
+      "id": "radcliffe-line",
+      "type": "choice",
+      "prompt": "What did the Radcliffe Line do?",
+      "choices": [
+        "It drew the border between India and Pakistan",
+        "It divided Germany into zones",
+        "It set the 38th parallel in Korea",
+        "It marked the Iron Curtain"
+      ],
+      "answer": 0,
+      "feedback": "Cyril Radcliffe, who had never visited India, drew the boundary in weeks; millions were displaced across it."
+    },
+    {
+      "id": "sino-soviet-split",
+      "type": "choice",
+      "prompt": "Nixon's visit to China in 1972 was possible because…",
+      "choices": [
+        "China and the Soviet Union had split",
+        "China had joined the Warsaw Pact",
+        "The Korean War had ended",
+        "The Soviet Union had left Afghanistan"
+      ],
+      "answer": 0,
+      "feedback": "The Sino-Soviet split of the early 1960s and border clashes in 1969 opened the way for the United States to play one communist power against the other."
+    },
+    {
+      "id": "berlin-wall-fall",
+      "type": "choice",
+      "prompt": "What did Gorbachev's decision not to use force in eastern Europe lead to in 1989?",
+      "choices": [
+        "The fall of the communist governments there",
+        "The invasion of Afghanistan",
+        "The founding of the Warsaw Pact",
+        "The Cuban Missile Crisis"
+      ],
+      "answer": 0,
+      "feedback": "Without Soviet intervention, the governments of the bloc fell in months, and the Berlin Wall was opened on 9 November 1989."
+    },
+    {
+      "id": "source-compare",
+      "type": "short-answer",
+      "prompt": "Compare what the Truman Doctrine and Nehru's speech each assume about the postwar world. What does each take for granted?",
+      "context": "Truman: 'I believe that it must be the policy of the United States to support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures.' Nehru: 'Long years ago we made a tryst with destiny, and now the time comes when we shall redeem our pledge, not wholly or in full measure, but very substantially.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each source takes for granted",
+        "uses a specific phrase from the text"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "23-second-world-war",
+  "title": "The Second World War and the Holocaust",
+  "period": "c. 1939–1945",
+  "region": "Europe, Asia, and the world",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "nazi-soviet-pact",
+      "title": "Treaty of Nonaggression Between Germany and the Union of Soviet Socialist Republics, with Secret Additional Protocol",
+      "author": "Joachim von Ribbentrop and Vyacheslav Molotov, for Germany and the Soviet Union",
+      "date": "23 August 1939",
+      "citation": "Nazi-Soviet Relations, 1939–1941: Documents from the Archives of the German Foreign Office, via the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/20th_century/nonagres.asp",
+      "file": "sources/nazi-soviet-pact.md",
+      "context": "Signed in Moscow by the German and Soviet foreign ministers. The published treaty pledged neutrality; the secret protocol, found after the war, divided eastern Europe into German and Soviet spheres and cleared the way for the invasion of Poland.",
+      "questions": [
+        "The treaty's first article renounces 'any act of violence' between the two states. What does the secret protocol do that the published treaty conceals?",
+        "Which states are named in the protocol, and what is decided for each of them?",
+        "Who is not a party to these conversations but has their territory disposed of in them?"
+      ]
+    },
+    {
+      "id": "wannsee-protocol",
+      "title": "The Wannsee Protocol (Minutes of the Wannsee Conference)",
+      "author": "Adolf Eichmann (recorder), for Reinhard Heydrich",
+      "date": "20 January 1942",
+      "citation": "English translation of Document No. NG-2586 (Nuremberg Government series of the Nuremberg documents), Office of the Chief Counsel for War Crimes; reprinted in John Mendelsohn, ed., The Holocaust: Selected Documents in Eighteen Volumes, Vol. 11 (Garland, 1982), pp. 18–32, via German History in Documents and Images (GHDI).",
+      "license": "Public domain",
+      "url": "https://germanhistorydocs.org/en/nazi-germany-1933-1945/the-wannsee-protocol-january-20-1942",
+      "file": "sources/wannsee-protocol.md",
+      "context": "Minutes of a secret conference of fifteen senior SS, party, and government officials held at a villa outside Berlin. The protocol records the plan to deport and murder the Jews of Europe, written in the euphemisms of administration.",
+      "questions": [
+        "The protocol never uses the word 'kill.' Which phrases stand in for murder, and what does that language assume about the readers?",
+        "What does the list of countries and numbers show about how far the planners had already thought the task through?",
+        "The minutes discuss sterilisation as a 'voluntary' precondition for staying in the Reich. What does that phrase conceal about consent?"
+      ]
+    },
+    {
+      "id": "un-charter",
+      "title": "Charter of the United Nations (Preamble and Articles 1–2)",
+      "author": "The United Nations Conference on International Organization",
+      "date": "26 June 1945",
+      "citation": "Charter of the United Nations, signed at San Francisco, 26 June 1945, via the Avalon Project, Lillian Goldman Law Library, Yale Law School. Public domain.",
+      "license": "Public domain",
+      "url": "https://avalon.law.yale.edu/20th_century/unchart.asp",
+      "file": "sources/un-charter.md",
+      "context": "Signed by fifty nations at San Francisco before the war in the Pacific had ended. The Preamble and the first two articles state the organization's aims and the principles binding its members, including the ban on the use of force.",
+      "questions": [
+        "The Preamble says the signatories are determined to save later generations from war 'which twice in our lifetime has brought untold sorrow.' What does that phrase tell us about how the authors understood their own recent history?",
+        "Article 2 protects the 'domestic jurisdiction' of states. Which kinds of action does that shield from the new organization?",
+        "Article 1 promises equal rights and self-determination of peoples. Which peoples under European rule in 1945 were not consulted about it?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "hilberg-destruction-process",
+      "historian": "Raul Hilberg",
+      "work": "The Destruction of the European Jews",
+      "year": "1961",
+      "claim": "Hilberg argued that the Holocaust was a bureaucratic process carried out in stages — definition, expropriation, concentration, deportation, and annihilation — by ordinary state ministries, the railways, and the Jewish councils, rather than by a single agency acting alone.",
+      "note": "Intentionalists such as Lucy Dawidowicz (The War Against the Jews, 1975) argued that Hitler decided on extermination early and drove it; functionalists such as Hans Mommsen and Martin Broszat stressed improvisation and competition among Nazi offices. Hilberg's stages are widely accepted, but how far the process was centrally planned is still debated."
+    },
+    {
+      "id": "browning-ordinary-men",
+      "historian": "Christopher R. Browning",
+      "work": "Ordinary Men: Reserve Police Battalion 101 and the Final Solution in Poland",
+      "year": "1992",
+      "claim": "Browning argued that the middle-aged German reservists of Police Battalion 101 became killers through gradual brutalization, group pressure, and deference to authority rather than pre-existing fanaticism, and that those who refused to shoot were neither punished nor removed.",
+      "note": "Daniel Goldhagen (Hitler's Willing Executioners, 1996) argued that a pervasive eliminationist German antisemitism made the killers willing; most historians, Browning among them, rejected that single cultural explanation and pointed instead to the wide range of behaviour within the same unit."
+    }
+  ],
+  "activities": [
+    {
+      "id": "nazi-soviet-pact-aim",
+      "type": "choice",
+      "prompt": "What did the secret protocol to the Nazi-Soviet Pact of August 1939 do?",
+      "choices": [
+        "Divided eastern Europe into German and Soviet spheres of influence",
+        "Ended the war between Germany and the Soviet Union",
+        "Created a military alliance against Britain",
+        "Guaranteed Poland's independence"
+      ],
+      "answer": 0,
+      "feedback": "The published treaty promised neutrality; the secret protocol divided Finland, the Baltic states, and Poland between the two signatories."
+    },
+    {
+      "id": "wannsee-euphemism",
+      "type": "choice",
+      "prompt": "The Wannsee Protocol speaks of Jews being 'evacuated to the East' and eliminated 'by natural causes.' What is the effect of this language?",
+      "choices": [
+        "It hides mass murder behind the vocabulary of administration",
+        "It shows the conference was only about emigration",
+        "It records a plan to resettle Jews in Palestine",
+        "It proves the officials opposed the policy"
+      ],
+      "answer": 0,
+      "feedback": "The protocol never says 'kill.' Its euphemisms are themselves evidence of how the killing was organized and concealed."
+    },
+    {
+      "id": "turning-point",
+      "type": "choice",
+      "prompt": "Which battle is usually treated as the turning point on the eastern front?",
+      "choices": ["Stalingrad", "Dunkirk", "Midway", "El Alamein"],
+      "answer": 0,
+      "feedback": "The surrender of the German Sixth Army at Stalingrad in February 1943 was the first great German defeat and began the long Soviet advance west."
+    },
+    {
+      "id": "holocaust-method",
+      "type": "choice",
+      "prompt": "How were most of the victims of Operation Reinhard killed?",
+      "choices": [
+        "In gas chambers at camps such as Treblinka and Bełżec",
+        "In the Einsatzgruppen shootings of 1941",
+        "By Allied bombing raids",
+        "In labour strikes and famines"
+      ],
+      "answer": 0,
+      "feedback": "The Reinhard camps built in occupied Poland in 1942 used gas chambers; the Einsatzgruppen shootings came earlier and mainly in the Soviet Union."
+    },
+    {
+      "id": "un-force",
+      "type": "choice",
+      "prompt": "Article 2 of the UN Charter requires members to refrain from…",
+      "choices": [
+        "The threat or use of force against another state",
+        "Making treaties with former enemies",
+        "Joining military alliances",
+        "Trading with non-member states"
+      ],
+      "answer": 0,
+      "feedback": "Article 2(4) bans the threat or use of force against the territorial integrity or political independence of any state."
+    },
+    {
+      "id": "dday",
+      "type": "choice",
+      "prompt": "What happened on 6 June 1944?",
+      "choices": [
+        "Allied forces landed in Normandy in the largest seaborne invasion of the war",
+        "Germany invaded the Soviet Union",
+        "Japan attacked Pearl Harbor",
+        "Germany surrendered at Stalingrad"
+      ],
+      "answer": 0,
+      "feedback": "D-Day opened the western front in France, about 156,000 troops landing on five beaches."
+    },
+    {
+      "id": "atomic-debate",
+      "type": "choice",
+      "prompt": "Which of these is the strongest argument used by historians who defend the atomic bombings?",
+      "choices": [
+        "The Japanese leadership had not agreed to surrender and an invasion would have cost more lives",
+        "The bombs were dropped only to test a new weapon",
+        "Japan had already surrendered before the bombs fell",
+        "The bombs caused no civilian deaths"
+      ],
+      "answer": 0,
+      "feedback": "Richard Frank and others argue Japan would not surrender without a shock; critics such as Gar Alperovitz reply that Soviet entry into the war would have forced surrender anyway."
+    },
+    {
+      "id": "civilians-wwii",
+      "type": "choice",
+      "prompt": "What most clearly distinguishes the Second World War from the First in the experience of civilians?",
+      "choices": [
+        "Civilians were deliberately bombed, deported, and systematically murdered on a mass scale",
+        "Civilians were not affected by the fighting",
+        "No civilians died in either war",
+        "Civilians fought only in the Second World War"
+      ],
+      "answer": 0,
+      "feedback": "Civilian deaths probably exceeded military deaths, and the Holocaust was an industrial campaign of murder aimed at an entire people."
+    },
+    {
+      "id": "compare-documents",
+      "type": "short-answer",
+      "prompt": "Both the Nazi-Soviet Pact and the Wannsee Protocol were secret documents. Compare what each assumes about the states and officials who made it, using one detail from each text.",
+      "context": "Nazi-Soviet Pact, Secret Additional Protocol: 'In the event of a territorial and political rearrangement of the areas belonging to the Polish state the spheres of influence of Germany and the U.S.S.R. shall be bounded approximately by the line of the rivers Narew, Vistula, and San.' — Wannsee Protocol: 'Under proper guidance the Jews are now to be allocated for labor to the East in the course of the final solution… a great part will undoubtedly be eliminated by natural causes.'",
+      "rubric": [
+        "refers to both documents",
+        "states what each assumes about the states or officials involved",
+        "uses a specific phrase or detail from each text"
+      ]
+    }
+  ]
+}

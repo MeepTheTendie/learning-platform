@@ -1,0 +1,196 @@
+{
+  "id": "21-russian-revolution",
+  "title": "Russia and the Soviet Union",
+  "period": "c. 1905–1939",
+  "region": "Russia and the Soviet Union",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "lenin-april-theses",
+      "title": "The Tasks of the Proletariat in the Present Revolution (the April Theses)",
+      "author": "V. I. Lenin",
+      "date": "7 April 1917",
+      "citation": "V. I. Lenin, 'The Tasks of the Proletariat in the Present Revolution,' Pravda No. 26, 7 April 1917; in Collected Works, Vol. 24 (Moscow: Progress Publishers, 1964), pp. 19–26. Translated by Isaacs Bernard. Marxists Internet Archive.",
+      "license": "Public domain",
+      "url": "https://www.marxists.org/archive/lenin/works/1917/apr/04.htm",
+      "file": "sources/lenin-april-theses.md",
+      "context": "Lenin read these ten theses to Bolshevik and Menshevik meetings in Petrograd on 4 April 1917, the day after his return from exile, and Pravda printed them on 7 April. They reject any support for the Provisional Government and call for power to pass to the soviets.",
+      "questions": [
+        "Lenin writes that Russia is passing from a first stage of revolution to a second. What did the first stage produce, and what must the second produce?",
+        "The theses refuse 'the slightest concession to revolutionary defencism.' What would that refusal cost the party among soldiers and workers who supported the war?",
+        "Which of the ten theses could be carried out at once, and which describe a longer programme?",
+        "Pravda's editors printed the theses with a dissenting note. What does that show about the Bolshevik party in April 1917?"
+      ]
+    },
+    {
+      "id": "rsfsr-constitution-1918",
+      "title": "Constitution of the Russian Socialist Federative Soviet Republic (selected articles)",
+      "author": "The Fifth All-Russian Congress of Soviets",
+      "date": "10 July 1918",
+      "citation": "Constitution of the Russian Socialist Federative Soviet Republic (1918), Articles 1–23 and 64–65, English translation, Marxists Internet Archive.",
+      "license": "Public domain",
+      "url": "https://www.marxists.org/history/ussr/government/constitution/1918/index.htm",
+      "file": "sources/rsfsr-constitution-1918.md",
+      "context": "Adopted in the middle of the Civil War. The Declaration of the Rights of the Labouring and Exploited People was incorporated as its first article; the general provisions and the voting rules show whom the new state counted as a citizen.",
+      "questions": [
+        "Article 3(a) abolishes private property in land and hands it to those who can till it. Who decides how the land is apportioned, and on what principle?",
+        "Article 23 says the republic deprives 'individuals and groups' of rights that could be used against the revolution. Who is likely to be caught by that clause?",
+        "Articles 64 and 65 define who may and may not vote. Which social groups are named as excluded, and what does that suggest about the meaning of 'the people' here?",
+        "Article 19 arms only the workers and gives the 'non-working elements' other duties. How does that affect the state's claim to represent all citizens?"
+      ]
+    },
+    {
+      "id": "stalin-collectivization",
+      "title": "Dizzy With Success: Concerning Questions of the Collective-Farm Movement",
+      "author": "Joseph Stalin",
+      "date": "2 March 1930",
+      "citation": "J. V. Stalin, 'Dizzy With Success,' Pravda No. 60, 2 March 1930; in Works, Vol. 12 (Moscow: Foreign Languages Publishing House, 1955), pp. 197–205. Marxists Internet Archive.",
+      "license": "Public domain",
+      "url": "https://www.marxists.org/reference/archive/stalin/works/1930/03/02.htm",
+      "file": "sources/stalin-collectivization.md",
+      "context": "Published at the height of the drive to collectivise agriculture. Stalin attacks local officials for forcing peasants into collective farms and for 'socialising' houses, cattle, and poultry, and orders a pause, while treating collectivisation itself as a success.",
+      "questions": [
+        "Stalin says collective farms 'must not be established by force.' What methods does he describe local officials using, and how does he explain their behaviour?",
+        "The article reports that by 20 February 1930 half the peasant farms had been collectivised. What does Stalin treat as the measure of success?",
+        "Stalin blames 'overzealous' officials rather than the policy itself. What does that framing leave out of account?",
+        "How does this public document compare with what the state was doing in the countryside at the same time?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "pipes-coup",
+      "historian": "Richard Pipes",
+      "work": "The Russian Revolution",
+      "year": "1990",
+      "claim": "Pipes argued that October 1917 was a coup d'état carried out by a small, disciplined party driven by ideology and by Lenin's will, made possible by the collapse of the tsarist state and the strains of war; he treated Bolshevik power as imposed on a society that mostly did not want it.",
+      "note": "Social historians led by Sheila Fitzpatrick replied that the revolution rested on real mass support among workers and soldiers and that the party grew because its slogans answered popular demands. Pipes has also been criticised for reading the whole Soviet period backwards from its outcome."
+    },
+    {
+      "id": "fitzpatrick-social-revolution",
+      "historian": "Sheila Fitzpatrick",
+      "work": "The Russian Revolution",
+      "year": "1982",
+      "claim": "Fitzpatrick argued that the revolution was a social revolution as much as a political one: workers, soldiers, and peasants acted on their own demands, and the Bolsheviks succeeded because they articulated and then channelled a mass movement. She read Stalinism as a 'revolution from above' that reshaped the society the revolution had mobilised.",
+      "note": "Critics, including Richard Pipes and Robert Conquest, argue that this reading understates coercion, the terror, and the deliberate character of the famine. The debate over how far the state controlled events and how far it responded to them continues."
+    }
+  ],
+  "activities": [
+    {
+      "id": "bloody-sunday",
+      "type": "choice",
+      "prompt": "What happened on Bloody Sunday, 9 January 1905?",
+      "choices": [
+        "Troops fired on a peaceful workers' procession led by Father Gapon",
+        "The tsar granted a constitution and a parliament",
+        "The Bolsheviks seized the Winter Palace",
+        "The Duma voted to depose Nicholas II"
+      ],
+      "answer": 0,
+      "feedback": "Gapon's workers carried a petition to the Winter Palace and were shot; the massacre turned much of the working class against the autocracy."
+    },
+    {
+      "id": "october-manifesto",
+      "type": "choice",
+      "prompt": "The October Manifesto of 1905 promised…",
+      "choices": [
+        "Civil liberties and an elected Duma with legislative power",
+        "Land to the peasants without compensation",
+        "An immediate end to the First World War",
+        "The abolition of the monarchy"
+      ],
+      "answer": 0,
+      "feedback": "The Manifesto conceded a legislative Duma and civil liberties, but the Fundamental Laws of 1906 restored the tsar's veto and his control of the ministers."
+    },
+    {
+      "id": "dual-power",
+      "type": "choice",
+      "prompt": "What did 'dual power' mean in Russia in 1917?",
+      "choices": [
+        "The Provisional Government and the Petrograd Soviet both claimed authority",
+        "Two rival tsars ruled at the same time",
+        "The Bolsheviks and Mensheviks shared one party leadership",
+        "Russia and Germany shared control of the eastern front"
+      ],
+      "answer": 0,
+      "feedback": "The Provisional Government held the ministries and the war; the Petrograd Soviet held the streets, the soldiers, and the revolution's legitimacy."
+    },
+    {
+      "id": "april-theses",
+      "type": "choice",
+      "prompt": "What did Lenin's April Theses of 1917 call for?",
+      "choices": [
+        "No support for the Provisional Government and all power to the Soviets",
+        "A coalition with the liberal Kadet party",
+        "Continuing the war until victory",
+        "An immediate parliamentary republic"
+      ],
+      "answer": 0,
+      "feedback": "The theses rejected the Provisional Government and any 'revolutionary defencism,' and made 'All power to the Soviets' the party's immediate slogan."
+    },
+    {
+      "id": "october-decrees",
+      "type": "choice",
+      "prompt": "The first decrees of the October Revolution dealt with…",
+      "choices": [
+        "Peace and land",
+        "The secret police and the army",
+        "The courts and the constitution",
+        "Foreign trade and banking"
+      ],
+      "answer": 0,
+      "feedback": "The Decree on Peace called for an immediate armistice; the Decree on Land abolished private property in land and handed the estates to peasant committees."
+    },
+    {
+      "id": "nep",
+      "type": "choice",
+      "prompt": "The New Economic Policy introduced in 1921…",
+      "choices": [
+        "Replaced grain requisitioning with a tax in kind and allowed a limited market",
+        "Abolished private trade entirely",
+        "Collectivised all peasant farms",
+        "Ended the one-party state"
+      ],
+      "answer": 0,
+      "feedback": "The NEP restored a market and small private enterprise while the state kept heavy industry, banking, transport, and foreign trade."
+    },
+    {
+      "id": "dekulakization",
+      "type": "choice",
+      "prompt": "What did 'dekulakization' mean during collectivisation?",
+      "choices": [
+        "Deporting and dispossessing peasants labelled kulaks",
+        "Abolishing the collective farms",
+        "Granting land to the poorest peasants",
+        "Ending all grain exports"
+      ],
+      "answer": 0,
+      "feedback": "The label kulak was applied to any peasant who resisted, not only the rich; families were deported and their property confiscated."
+    },
+    {
+      "id": "five-year-plans",
+      "type": "choice",
+      "prompt": "The First Five-Year Plan (1928–32) concentrated on…",
+      "choices": [
+        "Heavy industry: coal, iron, steel, and machine building",
+        "Consumer goods and housing",
+        "Agriculture and livestock",
+        "Foreign trade and banking"
+      ],
+      "answer": 0,
+      "feedback": "The plan directed investment into heavy industry and was declared complete in four years; consumer goods and housing were sacrificed."
+    },
+    {
+      "id": "compare-leadership",
+      "type": "short-answer",
+      "prompt": "Compare how Lenin's April Theses and Stalin's 'Dizzy With Success' each describe the party's relation to the masses. What does each text assume about who should lead and who should follow?",
+      "context": "Lenin (1917): 'The masses must be made to see that the Soviets of Workers' Deputies are the only possible form of revolutionary government.' Stalin (1930): 'The collective-farm movement must rest on the active support of the main mass of the peasantry. Collective farms must not be established by force.'",
+      "rubric": [
+        "refers to both documents",
+        "states what each assumes about leadership and popular support",
+        "uses a specific phrase from each text"
+      ]
+    }
+  ]
+}

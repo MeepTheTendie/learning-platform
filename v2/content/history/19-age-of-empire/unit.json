@@ -1,0 +1,194 @@
+{
+  "id": "19-age-of-empire",
+  "title": "The age of empire",
+  "period": "c. 1830–1914",
+  "region": "Africa, Asia, and the imperial powers",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "berlin-act",
+      "title": "General Act of the Berlin Conference on West Africa",
+      "author": "The Berlin Conference of 1884–85 (fourteen signatory states)",
+      "date": "26 February 1885",
+      "citation": "General Act of the Conference at Berlin of the Plenipotentiaries ... dealing with Africa, Berlin, 26 February 1885. English text via the 'World and Japan' Database, National Graduate Institute for Policy Studies (GRIPS) and the University of Tokyo. Public domain.",
+      "license": "Public domain",
+      "url": "https://worldjpn.net/documents/texts/docs/18850226.T1EX.html",
+      "file": "sources/berlin-act.md",
+      "context": "The General Act signed at the close of the Berlin West Africa Conference of 1884–85. Fourteen states signed; no African ruler was present. Articles 34 and 35 introduced the rule of 'effective occupation.'",
+      "questions": [
+        "Who is named in the Act, and who is not? What does the omission suggest about who made the rules?",
+        "Article 6 promises to watch over 'the preservation of the native tribes.' What obligations does it list, and to whom are they owed?",
+        "What did Articles 34 and 35 require of a power that took land on the African coast, and why would that rule encourage rapid conquest?",
+        "The Act declares free trade and free navigation. Whose trade and whose ships were expected to benefit?"
+      ]
+    },
+    {
+      "id": "white-mans-burden",
+      "title": "The White Man's Burden",
+      "author": "Rudyard Kipling",
+      "date": "1899",
+      "citation": "Rudyard Kipling, 'The White Man's Burden,' in The Five Nations (1903). Wikisource. Public domain.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/The_Five_Nations/The_White_Man%27s_Burden",
+      "file": "sources/white-mans-burden.md",
+      "context": "Kipling wrote the poem in 1899 and sent it to Theodore Roosevelt while the United States debated annexing the Philippines. It became one of the best-known statements of the civilizing-mission idea.",
+      "questions": [
+        "Who is speaking to whom in the poem, and what is the speaker urging them to do?",
+        "How does the poem describe the people it calls 'your new-caught, sullen peoples,' and what does that description assume?",
+        "The poem calls empire a 'burden' and its reward 'the blame of those ye better.' What does it expect the coloniser to gain?",
+        "Why might a poem have been a useful way to argue for empire in 1899?"
+      ]
+    },
+    {
+      "id": "naoroji-london-speech",
+      "title": "The benefits and burdens of British rule in India (London speech)",
+      "author": "Dadabhai Naoroji",
+      "date": "1871",
+      "citation": "Dadabhai Naoroji, Essays, Speeches, Addresses and Writings (Bombay: Caxton Printing Works, 1887), pp. 131–136; text via the Internet Modern History Sourcebook (Fordham University) and Hanover College. Public domain.",
+      "license": "Public domain",
+      "url": "https://history.hanover.edu/courses/excerpts/111nao.html",
+      "file": "sources/naoroji-london-speech.md",
+      "context": "Naoroji delivered this speech in London in 1871, answering a question about what Britain had done for India. He later helped found the Indian National Congress and in 1892 became the first Indian elected to the British Parliament.",
+      "questions": [
+        "Naoroji divides his account into credit and debit. What does he place on each side?",
+        "He calls the British system 'Sakar ki Churi,' the knife of sugar. What does the image mean?",
+        "What figures does he give for the 'political drain' from India to England, and how does he say it affects ordinary people?",
+        "Naoroji praises British rule and condemns it in the same speech. What might explain that double position in 1871?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "hobson-finance-capital",
+      "historian": "J. A. Hobson",
+      "work": "Imperialism: A Study",
+      "year": "1902",
+      "claim": "Hobson argued that the new imperialism was driven by finance capitalism. Because income was distributed unequally at home, wealthy investors held surplus capital that could earn more abroad, and they pressed their governments to annex territory and guarantee their loans and mines. For Hobson the benefits went to a small investor class while the nation paid the costs.",
+      "note": "Later historians question how far economic motives explain particular annexations. Many colonies were unprofitable and some cost the treasury money, and the timing of conquests often followed local crises and strategic rivalries rather than the movement of capital."
+    },
+    {
+      "id": "robinson-gallagher-free-trade",
+      "historian": "Ronald Robinson and John Gallagher",
+      "work": "The Imperialism of Free Trade",
+      "year": "1953",
+      "claim": "Robinson and Gallagher argued that British expansion is best understood as a continuous search for informal empire. In the mid-nineteenth century Britain controlled much of the world through free trade, loans, and local collaborators without annexing it, and formal rule was imposed mainly where informal influence broke down or a local crisis threatened trade. On this reading the 'new imperialism' extended older practice rather than breaking with it.",
+      "note": "Their 'peripheral' thesis has been widely influential but is contested. Critics reply that it underplays the metropolitan politics, nationalism, and racial ideology behind the scramble, and that it fits British cases better than French, German, or Belgian ones."
+    }
+  ],
+  "activities": [
+    {
+      "id": "congo-rubber",
+      "type": "choice",
+      "prompt": "Which raw material was most closely tied to the forced-labour system of the Congo Free State?",
+      "choices": ["Rubber", "Cotton", "Tea", "Jute"],
+      "answer": 0,
+      "feedback": "Wild rubber was harvested under quotas enforced by soldiers of the Congo Free State; the boom ran until about 1906, when Malayan plantations took over."
+    },
+    {
+      "id": "berlin-occupation",
+      "type": "choice",
+      "prompt": "What did Articles 34 and 35 of the Berlin General Act require of a power claiming land on the African coast?",
+      "choices": [
+        "Notification of the other signatories and effective occupation",
+        "A plebiscite among the local population",
+        "Purchase of the land from its rulers",
+        "Approval by a world court"
+      ],
+      "answer": 0,
+      "feedback": "The rule of 'effective occupation' meant a paper claim was not enough; a power had to establish authority in the territory, which helped turn the partition into a race."
+    },
+    {
+      "id": "quinine",
+      "type": "choice",
+      "prompt": "Which of these helped Europeans survive malaria in the tropics?",
+      "choices": ["Quinine", "Penicillin", "Aspirin", "Chloroform"],
+      "answer": 0,
+      "feedback": "Quinine, taken from cinchona bark, was used as a daily dose. It did not prevent the disease, but it made it survivable."
+    },
+    {
+      "id": "kipling-context",
+      "type": "choice",
+      "prompt": "Kipling's 'The White Man's Burden' (1899) was published as the United States was…",
+      "choices": ["Annexing the Philippines", "Withdrawing from Cuba", "Purchasing Alaska", "Opening Japan"],
+      "answer": 0,
+      "feedback": "Kipling sent the poem to Theodore Roosevelt during the debate over the Philippines; it became a famous statement of the civilizing-mission idea."
+    },
+    {
+      "id": "india-1857-trigger",
+      "type": "choice",
+      "prompt": "What was the immediate trigger of the rebellion of 1857 in India?",
+      "choices": [
+        "Rumours about the grease on new rifle cartridges",
+        "A new tax on salt",
+        "The annexation of Bengal",
+        "A famine in the Deccan"
+      ],
+      "answer": 0,
+      "feedback": "The Enfield cartridge had to be bitten, and the grease was rumoured to be made from cow and pig fat, offensive to Hindus and Muslims alike."
+    },
+    {
+      "id": "treaty-nanking",
+      "type": "choice",
+      "prompt": "Under the Treaty of Nanking (1842), China…",
+      "choices": [
+        "Ceded Hong Kong and opened five ports",
+        "Annexed Korea",
+        "Banned the opium trade",
+        "Joined the Berlin Conference"
+      ],
+      "answer": 0,
+      "feedback": "China also paid an indemnity of twenty-one million dollars and agreed to a fixed tariff; the treaty did not mention opium, and the trade continued."
+    },
+    {
+      "id": "meiji",
+      "type": "choice",
+      "prompt": "What did the Meiji Restoration of 1868 do?",
+      "choices": [
+        "Restored imperial rule and began rapid modernisation",
+        "Closed Japan to all foreign trade",
+        "Ended the Japanese empire",
+        "Returned power to the shogun"
+      ],
+      "answer": 0,
+      "feedback": "The new government abolished the domains, introduced conscription, built railways and factories, and adopted the slogan 'rich country, strong army.'"
+    },
+    {
+      "id": "eastern-question",
+      "type": "choice",
+      "prompt": "The 'Eastern Question' concerned…",
+      "choices": [
+        "What would happen as the Ottoman Empire lost territory",
+        "The border between India and China",
+        "The division of Japan",
+        "The future of the Congo basin"
+      ],
+      "answer": 0,
+      "feedback": "The powers competed over the Ottoman lands, and the Congress of Berlin of 1878 cut the empire's European territories back sharply."
+    },
+    {
+      "id": "adwa",
+      "type": "choice",
+      "prompt": "What happened at Adwa in 1896?",
+      "choices": [
+        "Ethiopia defeated an invading Italian army",
+        "Britain annexed Egypt",
+        "Japan defeated Russia",
+        "The Boer War began"
+      ],
+      "answer": 0,
+      "feedback": "Menelik II's forces destroyed the Italian army, and Italy recognised Ethiopian independence in the Treaty of Addis Ababa."
+    },
+    {
+      "id": "causes-of-expansion",
+      "type": "short-answer",
+      "prompt": "The sources give different reasons for imperial expansion. Using the Berlin General Act, Kipling's poem, and Naoroji's speech, explain what each suggests drove European powers into Africa and Asia.",
+      "context": "Berlin General Act (1885): the powers wish 'to regulate the conditions most favourable to the development of trade and civilization in certain regions of Africa.' Kipling (1899): 'Take up the White Man's burden — / Send forth the best ye breed.' Naoroji (1871): 'The political drain, up to this time, from India to England, of above £500,000,000 ... in principal alone.'",
+      "rubric": [
+        "refers to all three sources",
+        "identifies a distinct motive in each",
+        "uses a specific phrase or figure from at least one text"
+      ]
+    }
+  ]
+}

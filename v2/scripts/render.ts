@@ -115,7 +115,7 @@ for (const subject of subjects) {
     const assets = path.join(dir, 'assets');
     if (fs.existsSync(assets)) fs.cpSync(assets, path.join(outDir, 'content', subject, unit.id, 'assets'), { recursive: true });
   }
-  lists.push(`<h2>${esc(subject[0].toUpperCase() + subject.slice(1))}</h2><ul>${entries.join('')}</ul>`);
+  lists.push(`<h2>${esc(subject.split('-').map(word => word[0].toUpperCase() + word.slice(1)).join(' '))}</h2><ul>${entries.join('')}</ul>`);
 }
 const indexScript = `const ck='sourcebook-complete';const rc=()=>{try{return JSON.parse(localStorage.getItem(ck))||{}}catch{return{}}};const c=rc();document.querySelectorAll('[data-unit]').forEach(li=>{if(c[li.dataset.unit]===true){li.classList.add('done');const a=li.querySelector('a');if(a)a.insertAdjacentHTML('afterbegin','✓ ');}});`;
 fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">Taught from the period's own documents.</p>${lists.join('')}`, indexScript));

@@ -1,0 +1,209 @@
+{
+  "id": "18-nationalism-and-unification",
+  "title": "Nationalism and the making of nations",
+  "period": "c. 1815–1871",
+  "region": "Europe",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "mazzini-nationality",
+      "title": "On Nationality",
+      "author": "Giuseppe Mazzini",
+      "date": "1852",
+      "citation": "Giuseppe Mazzini, 'Europe: Its Condition and Prospects' (1852), in Essays: Selected from the Writings, Literary, Political and Religious of Joseph Mazzini, ed. William Clark (London: Walter Scott, 1880), pp. 266, 277–78, 291–92, via the Internet Modern History Sourcebook (Fordham University). Public domain.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/1852mazzini.asp",
+      "file": "sources/mazzini-nationality.md",
+      "context": "Mazzini wrote this essay in exile in 1852, after the failures of 1848 and 1849, to argue that the national question would drive the next great change in Europe. He expected the map drawn at Vienna to be replaced by an alliance of free peoples.",
+      "questions": [
+        "Mazzini says the 'question of nationality can only be resolved by destroying the treaties of 1815.' What does that tell us about his view of the Vienna settlement?",
+        "He calls nationality 'the Alliance of the Peoples.' How does that differ from the 'savage, hostile, quarrelsome nationality' he rejects?",
+        "Mazzini says the peoples are seeking 'something moral.' What evidence does he give, and what does he leave out?",
+        "Which peoples does Mazzini name as struggling in 1848, and which parts of Europe does he not mention?"
+      ]
+    },
+    {
+      "id": "german-unification",
+      "title": "Documents of German unification, 1848–1871",
+      "author": "Johann Gustav Droysen, Friedrich Wilhelm IV, Otto von Bismarck, Helmuth von Moltke, and Wilhelm I",
+      "date": "1848–1871",
+      "citation": "From James Harvey Robinson, ed., Readings in European History, 2 vols. (Boston: Ginn and Co., 1904–1905), II:571–575, and Otto von Bismarck, The Man and the Statesman (New York, 1899), II:48–51, via the Internet Modern History Sourcebook (Fordham University). Public domain.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/germanunification.asp",
+      "file": "sources/german-unification.md",
+      "context": "Six documents from 1848 to 1871: a speech in the Frankfurt Assembly, the Prussian king's refusal of the imperial crown, Bismarck's private assessment of Austria, Moltke on the war of 1866, Bismarck on the peace, and the imperial proclamation of 1871.",
+      "questions": [
+        "Droysen calls the German question 'not a constitutional question, but a question of power.' What does that assume about how Germany would be united?",
+        "Friedrich Wilhelm IV refused a crown offered by an elected assembly. On what grounds did he refuse it?",
+        "Bismarck wrote in 1856 that Prussia and Austria would have to fight. What did he think the war would decide?",
+        "The Imperial Proclamation speaks of 'boundaries which afford the fatherland a security against renewed French aggression.' What does that language leave out about who lived inside those boundaries?"
+      ]
+    },
+    {
+      "id": "cavour-italy",
+      "title": "Cavour and the program of Italian unification",
+      "author": "Count Camillo di Cavour",
+      "date": "1846–1858",
+      "citation": "The Program of Count Cavour (1846) and Speech to the Piedmont Chamber of Deputies (1858), from D. Zanichelli, ed., The Writings of Count Cavour (Bologna, 1892), II:4–50, and The Annual Register ... for the Year 1858 (London, 1859), pp. 186–188, via the Internet Modern History Sourcebook (Fordham University). Public domain.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/mod/1861italianunif.asp",
+      "file": "sources/cavour-italy.md",
+      "context": "Cavour was prime minister of Sardinia-Piedmont from 1852. These passages, from 1846 and 1858, show his belief that nationality was a force of moral progress and his method of using diplomacy and war to put Italy on the agenda of the great powers.",
+      "questions": [
+        "Cavour says no people can reach 'a high degree of intelligence and morality' without a strong feeling of nationality. What does that claim assume about nations and progress?",
+        "In the 1858 speech, what two courses does Cavour say were open to Piedmont after 1849, and which did he choose?",
+        "What did Cavour hope to gain by joining the Crimean War, and how does the speech measure success?",
+        "The report of Plombières says the war must have a 'non-revolutionary cause.' Why did Napoleon III care about that, and what does it reveal about Cavour's method?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "hobsbawm-invented-nation",
+      "historian": "Eric Hobsbawm",
+      "work": "Nations and Nationalism since 1780: Programme, Myth, Reality",
+      "year": "1990",
+      "claim": "Hobsbawm argued that the nation is a modern invention rather than an ancient community, that nationalism is best understood as a programme promoted by states and middle classes, and that the popular nation came late — after the state had already been made.",
+      "note": "Critics reply that Hobsbawm underrates the depth of popular attachment to nation and the persistence of pre-modern ethnic identities, and that nationalism 'from above' cannot explain the many people who fought and died for nations that had no state."
+    },
+    {
+      "id": "anderson-imagined-communities",
+      "historian": "Benedict Anderson",
+      "work": "Imagined Communities: Reflections on the Origin and Spread of Nationalism",
+      "year": "1983",
+      "claim": "Anderson defined the nation as an 'imagined political community' — imagined as both limited and sovereign — and argued that print capitalism, through the newspaper and the novel, first made it possible for scattered strangers to imagine themselves as one people.",
+      "note": "Critics note that 'imagined' is often misread as 'fake,' and that Anderson's account, drawn from the Americas and print societies, gives little weight to the state's violence and to the ethnic hatreds that nationalism produced."
+    }
+  ],
+  "activities": [
+    {
+      "id": "congress-vienna",
+      "type": "choice",
+      "prompt": "What did the Congress of Vienna of 1814–15 chiefly aim to do?",
+      "choices": [
+        "Restore dynasties and arrange a balance of power among states",
+        "Spread revolutionary republics across Europe",
+        "Abolish the Ottoman Empire",
+        "Unite Germany and Italy under single governments"
+      ],
+      "answer": 0,
+      "feedback": "Metternich, Castlereagh, Alexander I, and Talleyrand restored monarchs, compensated the powers, and built buffer states so that no single state could dominate."
+    },
+    {
+      "id": "concert-of-europe",
+      "type": "choice",
+      "prompt": "The 'Concert of Europe' refers to…",
+      "choices": [
+        "The great powers consulting at congresses to uphold the Vienna settlement",
+        "A series of public concerts held to celebrate nationalism",
+        "An alliance of the smaller German states against Prussia",
+        "A treaty that abolished the German Confederation"
+      ],
+      "answer": 0,
+      "feedback": "The Quadruple Alliance and the Holy Alliance led to congresses at Aix-la-Chapelle, Troppau, Laibach, and Verona, mostly to decide how to suppress revolutions."
+    },
+    {
+      "id": "mazzini-young-italy",
+      "type": "choice",
+      "prompt": "What did Giuseppe Mazzini found in 1831?",
+      "choices": [
+        "Young Italy",
+        "The Carbonari",
+        "The North German Confederation",
+        "The Second French Republic"
+      ],
+      "answer": 0,
+      "feedback": "Mazzini founded Young Italy at Marseille and spent his life in exile, organising and writing for a free, republican Italy."
+    },
+    {
+      "id": "frankfurt-crown",
+      "type": "choice",
+      "prompt": "Why did Friedrich Wilhelm IV refuse the crown offered by the Frankfurt Assembly in 1849?",
+      "choices": [
+        "He said an elected assembly had no right to bestow a crown",
+        "He wanted to be emperor of Austria instead",
+        "He had already accepted a crown from France",
+        "He was a republican and rejected all monarchies"
+      ],
+      "answer": 0,
+      "feedback": "He refused because the assembly claimed to give what only the German princes, in his view, could give, and because he would not accept its constitution."
+    },
+    {
+      "id": "why-1848-failed",
+      "type": "choice",
+      "prompt": "Which of these helped defeat the revolutions of 1848?",
+      "choices": [
+        "The revolutionaries were divided among themselves",
+        "The great powers refused to use their armies at all",
+        "The peasants had no grievances whatsoever",
+        "The monarchs had already fled and given up power permanently"
+      ],
+      "answer": 0,
+      "feedback": "Liberals, radicals, and socialists split; nationalists quarrelled with each other; the old armies stayed loyal; and the powers helped one another recover."
+    },
+    {
+      "id": "cavour-plombieres",
+      "type": "choice",
+      "prompt": "What did Cavour agree with Napoleon III at Plombières in 1858?",
+      "choices": [
+        "France would help drive Austria out of Lombardy and Venetia, and Piedmont would cede Nice and Savoy",
+        "France would make Cavour king of a united Italy",
+        "Britain would send troops to occupy Rome",
+        "Prussia would attack Austria from the north"
+      ],
+      "answer": 0,
+      "feedback": "The secret deal traded French military help for the cession of Nice and Savoy, which Piedmont carried out in 1860."
+    },
+    {
+      "id": "garibaldi-thousand",
+      "type": "choice",
+      "prompt": "Where did Garibaldi's Expedition of the Thousand land in May 1860?",
+      "choices": [
+        "Sicily",
+        "Venice",
+        "Rome",
+        "Genoa"
+      ],
+      "answer": 0,
+      "feedback": "He sailed from Quarto near Genoa and landed at Marsala in Sicily, then took Palermo and crossed to the mainland."
+    },
+    {
+      "id": "bismarck-blood-iron",
+      "type": "choice",
+      "prompt": "In his speech of 30 September 1862, Bismarck said the great questions of the time would be decided by…",
+      "choices": [
+        "iron and blood",
+        "speeches and majority resolutions",
+        "the ballot box alone",
+        "the authority of the pope"
+      ],
+      "answer": 0,
+      "feedback": "He told the Prussian deputies that speeches and majority resolutions had been the great error of 1848 and 1849, and that iron and blood would settle the great questions."
+    },
+    {
+      "id": "ausgleich-1867",
+      "type": "choice",
+      "prompt": "What did the Austro-Hungarian Compromise of 1867 do?",
+      "choices": [
+        "Gave Hungary its own parliament and a share of power in a dual monarchy",
+        "United Austria with the new German Empire",
+        "Abolished the Habsburg monarchy",
+        "Granted independence to the Czechs and Slovaks"
+      ],
+      "answer": 0,
+      "feedback": "The Ausgleich satisfied the Magyars with a dual monarchy while leaving the Slavs and Romanians outside, so the national question continued."
+    },
+    {
+      "id": "mazzini-and-bismarck",
+      "type": "short-answer",
+      "prompt": "Compare how Mazzini and Bismarck each describe how a nation should be made. What does each assume about power, and what does each leave out?",
+      "context": "Mazzini (1852): 'The question of nationality can only be resolved by destroying the treaties of 1815, and changing the map of Europe and its public Law.' Bismarck (1862): 'The great questions of the time will not be decided by speeches and majority resolutions ... but by iron and blood.'",
+      "rubric": [
+        "refers to both passages",
+        "states what each writer assumes about how nations are made",
+        "uses a specific phrase from the passages"
+      ]
+    }
+  ]
+}
