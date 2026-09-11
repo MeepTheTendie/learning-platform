@@ -1,0 +1,160 @@
+{
+  "id": "02-early-asia",
+  "title": "Early India and China",
+  "period": "c. 2600–200 BCE",
+  "region": "Indus · Ganges · Yellow River",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "rigveda",
+      "title": "Hymns from the Rigveda: the sacrifice of Purusha and the creation",
+      "author": "Vedic poets (anonymous)",
+      "date": "Composed c. 1500–1200 BCE",
+      "citation": "The Hymns of the Rigveda, translated by Ralph T. H. Griffith (2nd ed., 1896), Book 10, Hymns 90 and 129. Public domain.",
+      "license": "Public domain",
+      "url": "https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda/Book_10/Hymn_90",
+      "file": "sources/rigveda.md",
+      "context": "The Rigveda was composed and recited by priests and passed down orally for centuries before it was written. Hymn 90 explains the four social orders as parts of one primal sacrifice; Hymn 129 asks how the world began and allows that even the gods may not know.",
+      "questions": [
+        "Hymn 90 says the four varnas came from one body. What does that image make the social order seem?",
+        "Who performs the sacrifice in Hymn 90, and who is the victim?",
+        "Hymn 129 ends without an answer. What does it assume about knowledge and the gods?",
+        "These are hymns of praise and ritual, not history. What can they show, and what can they not?"
+      ]
+    },
+    {
+      "id": "ashoka-edicts",
+      "title": "The Rock Edicts of Ashoka",
+      "author": "Ashoka, king of Magadha",
+      "date": "c. 257 BCE",
+      "citation": "Translated in Eva March Tappan, ed., The World's Story, vol. 2 (Boston: Houghton Mifflin, 1914), pp. 91–94. Internet Indian History Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/india/ashoka-edicts.asp",
+      "file": "sources/ashoka-edicts.md",
+      "context": "Ashoka had these sermons carved on rocks and pillars across his empire after the Kalinga war. They are his own account of his rule, and they present dhamma — moral duty, respect, and non-injury — as the purpose of government.",
+      "questions": [
+        "What does Ashoka say he gave up, and why?",
+        "What duties does the 'Law of Piety' lay on ordinary people?",
+        "How does the edict describe the king's own working habits?",
+        "The edicts are the king's own words. What would they be likely to leave out?"
+      ]
+    },
+    {
+      "id": "analects",
+      "title": "The Analects of Confucius (selected passages)",
+      "author": "Confucius and his disciples",
+      "date": "Compiled c. 5th–3rd century BCE",
+      "citation": "The Chinese Classics, translated by James Legge, 'Confucian Analects' (rev. ed. 1893). Project Gutenberg eBook 3330.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/3330",
+      "file": "sources/analects.md",
+      "context": "The Analects is a collection of short sayings and dialogues compiled by Confucius's followers. The passages here concern government by virtue rather than punishment, filial piety, and the charge that Heaven gives and takes away rule.",
+      "questions": [
+        "What does Confucius say happens when people are led by laws and punishments rather than by virtue?",
+        "What does he treat as the root of good government?",
+        "In the last passage, who is said to grant and end a ruler's authority, and on what condition?",
+        "These are sayings collected by students. What does that tell us about how reliable they are as evidence of Confucius's own words?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "possehl-heterarchy",
+      "historian": "Gregory L. Possehl",
+      "work": "The Indus Civilization: A Contemporary Perspective",
+      "year": "2002",
+      "claim": "Possehl argued that the Indus cities were not ruled by a single centralized state or a god-king. He described Harappan society as decentralized and 'heterarchical,' held together by craft groups, trade, and shared custom rather than by a royal court or an army.",
+      "note": "Jonathan Mark Kenoyer and others read the grid streets, uniform bricks, standard weights, and the great public works as evidence of strong central planning and authority. Because the script cannot be read, neither side can settle the argument."
+    },
+    {
+      "id": "keightley-ancestral",
+      "historian": "David N. Keightley",
+      "work": "The Ancestral Landscape: Time, Space, and Community in Late Shang China",
+      "year": "2000",
+      "claim": "Keightley argued that Shang kingship was at bottom religious: the king's authority rested on his role as chief diviner and sacrificer, the one who could reach the ancestors and the high god Di and secure harvests, victory, and rain for the community.",
+      "note": "Other historians stress the material base of Shang power — bronze casting, chariots, tribute, and warfare — and note that the oracle bones survive because they were elite ritual records, which may make Shang religion look more central than it was."
+    }
+  ],
+  "activities": [
+    {
+      "id": "indus-river",
+      "type": "choice",
+      "prompt": "Harappa and Mohenjo-daro grew up along which river system?",
+      "choices": ["The Indus and its tributaries", "The Nile", "The Yellow River", "The Euphrates"],
+      "answer": 0,
+      "feedback": "Both cities lie on the Indus system — Harappa on the Ravi, Mohenjo-daro on the Indus itself."
+    },
+    {
+      "id": "great-bath",
+      "type": "choice",
+      "prompt": "What did excavators find at the centre of the Mohenjo-daro citadel?",
+      "choices": ["A large brick-lined bath with steps and a drain", "A royal tomb filled with gold", "A stepped temple tower", "A chariot racetrack"],
+      "answer": 0,
+      "feedback": "The Great Bath is about 12 by 7 metres and 2.4 metres deep, with steps at each end and a drain; its purpose is still debated."
+    },
+    {
+      "id": "indus-script",
+      "type": "choice",
+      "prompt": "Why has the Indus script not been deciphered?",
+      "choices": ["The inscriptions are short and there is no bilingual key", "The signs were carved in a language scholars already know", "No Indus writing has survived", "It is a form of Greek"],
+      "answer": 0,
+      "feedback": "Most texts are only a few signs long, and no long bilingual text has been found to unlock them."
+    },
+    {
+      "id": "varna-purusha",
+      "type": "choice",
+      "prompt": "In the Purusha Sukta (Rigveda 10.90), the four varnas come from…",
+      "choices": ["The mouth, arms, thighs, and feet of a primal man", "Four rivers of the Punjab", "Four sacrifices to Indra", "Four kingdoms of the Ganges"],
+      "answer": 0,
+      "feedback": "The Brahmin is the mouth, the Rajanya the arms, the Vaishya the thighs, and the Shudra the feet."
+    },
+    {
+      "id": "upanishads-self",
+      "type": "choice",
+      "prompt": "The Upanishads turn religious attention toward…",
+      "choices": ["Knowledge of the self (atman) and its identity with brahman", "The building of great temples", "The conquest of neighbouring kingdoms", "The worship of a single royal god"],
+      "answer": 0,
+      "feedback": "The Upanishads ask what the self is and teach that atman and brahman are one, a turn from sacrifice toward knowledge."
+    },
+    {
+      "id": "ashoka-dhamma",
+      "type": "choice",
+      "prompt": "After the Kalinga war, Ashoka presented his rule as a mission of…",
+      "choices": ["Dhamma — moral duty, respect, and non-injury", "Conquest and tribute", "Vedic sacrifice on a vast scale", "The worship of the emperor as a god"],
+      "answer": 0,
+      "feedback": "The edicts ask for respect for parents and teachers, truth, non-injury to living creatures, and tolerance among sects."
+    },
+    {
+      "id": "oracle-bones",
+      "type": "choice",
+      "prompt": "Shang kings used inscribed oracle bones mainly to…",
+      "choices": ["Ask ancestors and spirits about harvests, war, and the weather", "Record tax payments", "Write poetry for the court", "Map the movements of the stars"],
+      "answer": 0,
+      "feedback": "A diviner heated the bone, read the cracks, and often wrote the question — and sometimes the outcome — beside them."
+    },
+    {
+      "id": "mandate-heaven",
+      "type": "choice",
+      "prompt": "The Zhou used the Mandate of Heaven (tianming) to explain…",
+      "choices": ["Why the Shang had lost the right to rule and the Zhou had gained it", "The origin of Chinese writing", "The invention of bronze casting", "The flooding of the Yellow River"],
+      "answer": 0,
+      "feedback": "Heaven grants rule to the virtuous and withdraws it from the corrupt — an idea that also justified rebellion."
+    },
+    {
+      "id": "qin-unification",
+      "type": "choice",
+      "prompt": "In 221 BCE, the king of Qin…",
+      "choices": ["Unified the warring states and took the title of emperor", "Was defeated by the Zhou", "Was conquered by the Mauryas", "Abolished the Chinese script"],
+      "answer": 0,
+      "feedback": "Qin Shi Huangdi standardized script, weights, and measures, and divided the empire into commanderies and counties."
+    },
+    {
+      "id": "compare-rule",
+      "type": "short-answer",
+      "prompt": "Ashoka's edicts and the Analects both describe how a ruler should govern. Compare what each treats as the basis of good rule, using the passages below.",
+      "context": "Ashoka: 'Father and mother must be hearkened to; similarly, respect for living creatures must be firmly established; truth must be spoken.' — Confucius: 'If the people be led by laws, and uniformity sought to be given them by punishments, they will try to avoid the punishment, but have no sense of shame. If they be led by virtue… they will have the sense of shame, and moreover will become good.'",
+      "rubric": ["refers to both passages", "states what each treats as the basis of good rule", "uses a specific phrase from the text"]
+    }
+  ]
+}

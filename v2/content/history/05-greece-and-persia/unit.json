@@ -1,0 +1,161 @@
+{
+  "id": "05-greece-and-persia",
+  "title": "Persia, Athens, and Alexander",
+  "period": "c. 499–323 BCE",
+  "region": "Aegean · Persia · Eastern Mediterranean",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "herodotus-persian-wars",
+      "title": "The Ionian revolt, Marathon, and Thermopylae",
+      "author": "Herodotus of Halicarnassus",
+      "date": "c. 440 BCE, describing events of 499–479 BCE",
+      "citation": "The History of Herodotus, translated by G. C. Macaulay (1890), Books V–VII. Project Gutenberg eBook 2456.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/2456",
+      "file": "sources/herodotus-persian-wars.md",
+      "context": "Herodotus wrote two generations after these events, gathering accounts from informants in the Greek cities and sometimes from Persians. He names his sources and often says which stories he does not believe.",
+      "questions": [
+        "Herodotus says the twenty ships were the 'beginning of evils.' What chain of events does he have in mind?",
+        "Which details in the Marathon passage could be checked against the ground or against other accounts, and which could not?",
+        "The epitaph at Thermopylae was inscribed long after the battle. What is it evidence for: the fighting, or how later Greeks remembered it?"
+      ]
+    },
+    {
+      "id": "thucydides-athenian-power",
+      "title": "The growth of Athenian power and the Melian dialogue",
+      "author": "Thucydides",
+      "date": "c. 400 BCE, describing events of 431–416 BCE",
+      "citation": "The History of the Peloponnesian War, translated by Richard Crawley (1874), Book I.23 and Book V.84–89. Project Gutenberg eBook 7142.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/7142",
+      "file": "sources/thucydides-athenian-power.md",
+      "context": "Thucydides was an Athenian general in the war he describes. The first passage states what he calls the war's 'real cause'; the second records a debate between Athenian envoys and the leaders of the island of Melos.",
+      "questions": [
+        "Thucydides separates the 'grounds of complaint' from the 'real cause.' Why does he think the second matters more?",
+        "In the dialogue, what do the Athenians assume about justice, and what do the Melians assume?",
+        "Thucydides composed the speeches himself. What can his version of this debate tell us, and what can it not?"
+      ]
+    },
+    {
+      "id": "arrian-alexander",
+      "title": "Gaugamela, Persepolis, and the death at Babylon",
+      "author": "Arrian of Nicomedia",
+      "date": "c. 150 CE, describing events of 331–323 BCE",
+      "citation": "The Anabasis of Alexander, translated by E. J. Chinnock (1884), Books III and VII. Project Gutenberg eBook 46976.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/46976",
+      "file": "sources/arrian-alexander.md",
+      "context": "Arrian, a Greek from Asia Minor who served in the Roman administration, wrote four centuries after Alexander and drew on the accounts of Ptolemy and Aristobulus, who had campaigned with him.",
+      "questions": [
+        "Arrian says Alexander burned Persepolis as revenge for the Persian sack of Athens, then adds that he does not think this was prudent or just. What does that judgment reveal about Arrian as a source?",
+        "Which details of Alexander's death look like eyewitness reporting, and which look like legend?",
+        "Ptolemy and Aristobulus were Alexander's officers. How might that shape what Arrian could learn?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "kagan-not-inevitable",
+      "historian": "Donald Kagan",
+      "work": "The Peloponnesian War",
+      "year": "2003",
+      "claim": "Kagan argued that the Peloponnesian War was not inevitable. Thucydides' statement that the growth of Athenian power 'made war inevitable' understates the role of human choice; particular decisions by Athens, Sparta, and Corinth turned a tense peace into a war that wiser leaders might have avoided.",
+      "note": "This is a direct challenge to Thucydides' own famous verdict, and the debate is unresolved. His structural reading and Kagan's emphasis on contingency each fit parts of the evidence."
+    },
+    {
+      "id": "bosworth-pragmatic-conqueror",
+      "historian": "A. B. Bosworth",
+      "work": "Conquest and Empire: The Reign of Alexander the Great",
+      "year": "1988",
+      "claim": "Bosworth argued that Alexander was a pragmatic and often ruthless conqueror whose empire rested on military force, personal ambition, and the interests of his army, not on a philosophical plan to unite Greeks and Persians in a single brotherhood.",
+      "note": "Bosworth writes against the older romantic picture associated with W. W. Tarn, who saw Alexander as a visionary of human unity. The sources, written long after his death, can be read either way."
+    }
+  ],
+  "activities": [
+    {
+      "id": "ionian-trigger",
+      "type": "choice",
+      "prompt": "What set off the Ionian revolt against Persia in 499 BCE?",
+      "choices": ["The failed expedition of Aristagoras against Naxos", "A Persian order to worship the king as a god", "A Spartan invasion of Ionia", "The fall of Babylon"],
+      "answer": 0,
+      "feedback": "Aristagoras, facing ruin after the Naxos expedition failed, gave up his tyranny and urged the Ionian cities to revolt."
+    },
+    {
+      "id": "twenty-ships",
+      "type": "choice",
+      "prompt": "What did Athens send to help the Ionian rebels, and why did Herodotus call it the beginning of evils?",
+      "choices": ["Twenty ships, which drew Athens into a war with Persia", "A fleet of two hundred triremes", "A garrison of ten thousand hoplites", "Money but no ships"],
+      "answer": 0,
+      "feedback": "Herodotus wrote that the twenty ships 'proved to be the beginning of evils for the Hellenes and the Barbarians.'"
+    },
+    {
+      "id": "marathon-charge",
+      "type": "choice",
+      "prompt": "What did the Athenians do at Marathon that Herodotus calls remarkable?",
+      "choices": ["They charged the Persians at a run", "They fought entirely on horseback", "They waited behind their walls", "They hired Persian mercenaries"],
+      "answer": 0,
+      "feedback": "Herodotus says they were the first Greeks he knew of to attack at a run and to endure the sight of the Median troops."
+    },
+    {
+      "id": "thermopylae-path",
+      "type": "choice",
+      "prompt": "How did the Persians get past the Greek position at Thermopylae?",
+      "choices": ["A local man, Ephialtes, showed them a mountain path", "They bribed the Spartan king", "They landed troops behind the pass by sea", "The Greeks abandoned the pass after one day"],
+      "answer": 0,
+      "feedback": "Ephialtes betrayed the path around the pass; the Spartans and Thespians who stayed were surrounded."
+    },
+    {
+      "id": "salamis-strait",
+      "type": "choice",
+      "prompt": "Why did Themistocles want to fight the Persian fleet in the strait at Salamis?",
+      "choices": ["The narrow water would cancel the Persian advantage in numbers", "The Persian ships could not sail at night", "The Greeks had more ships there", "The oracle had named the exact place"],
+      "answer": 0,
+      "feedback": "In the narrows the Persian fleet could not manoeuvre; Themistocles even sent word to Xerxes that the Greeks were about to flee."
+    },
+    {
+      "id": "treasury-move",
+      "type": "choice",
+      "prompt": "What happened to the Delian League's treasury in 454 BCE?",
+      "choices": ["It was moved from Delos to Athens", "It was divided among the allies", "It was moved to Sparta", "It was given to the temple at Delphi"],
+      "answer": 0,
+      "feedback": "Moving the treasury to Athens put allied money under the Athenian assembly's control and turned the alliance into an empire."
+    },
+    {
+      "id": "parthenon-funding",
+      "type": "choice",
+      "prompt": "Where did much of the money for the Parthenon and the acropolis building program come from?",
+      "choices": ["The tribute paid by allied cities", "A loan from Sparta", "The sale of Athenian slaves", "A gift from the Persian king"],
+      "answer": 0,
+      "feedback": "Pericles' opponents complained that Athens adorned itself with the common money of the Greeks."
+    },
+    {
+      "id": "thucydides-cause",
+      "type": "choice",
+      "prompt": "What did Thucydides call the 'real cause' of the Peloponnesian War?",
+      "choices": ["The growth of Athenian power and the fear it caused in Sparta", "The Megarian Decree alone", "A dispute over the Delphic oracle", "The Persian invasion of Attica"],
+      "answer": 0,
+      "feedback": "Thucydides distinguished this underlying cause from the 'grounds of complaint' that were formally alleged."
+    },
+    {
+      "id": "gaugamela",
+      "type": "choice",
+      "prompt": "What happened at Gaugamela in 331 BCE?",
+      "choices": ["Alexander defeated Darius III and took the Persian empire", "The Athenians defeated the Persians at sea", "Philip II was assassinated", "The Spartans broke the Theban Sacred Band"],
+      "answer": 0,
+      "feedback": "The Macedonian cavalry charge broke the Persian line, and Darius fled; Alexander then entered Babylon and Susa."
+    },
+    {
+      "id": "trigger-versus-cause",
+      "type": "short-answer",
+      "prompt": "Using Thucydides, explain the difference between the immediate triggers of the Peloponnesian War and its longer-term cause. Which kind of cause do you find more convincing, and why?",
+      "context": "Thucydides wrote: 'To the question why they broke the treaty, I answer by placing first an account of their grounds of complaint and points of difference... The real cause I consider to be the one which was formally most kept out of sight. The growth of the power of Athens, and the alarm which this inspired in Lacedaemon, made war inevitable.' The immediate quarrels included the civil war at Epidamnus, the revolt of Potidaea, and the Megarian Decree.",
+      "rubric": [
+        "refers to Thucydides' distinction between the triggers and the 'real cause'",
+        "names at least one specific trigger from the text or the spine",
+        "takes a position on which kind of cause is more convincing and gives a reason"
+      ]
+    }
+  ]
+}

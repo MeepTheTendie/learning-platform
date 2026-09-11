@@ -1,0 +1,156 @@
+{
+  "id": "03-empires",
+  "title": "Kingdoms become empires",
+  "period": "c. 900–330 BCE",
+  "region": "Assyria, Babylonia, Israel, Phoenicia, Persia",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "sennacherib-jerusalem",
+      "title": "The siege of Jerusalem: two accounts",
+      "author": "Sennacherib, king of Assyria, and the Hebrew book of Kings",
+      "date": "701 BCE (Assyrian text); the biblical account compiled later",
+      "citation": "The Sennacherib Prism, and 2 Kings 18–19 (Douai-Rheims Version), in Oliver J. Thatcher, ed., The Library of Original Sources, Vol. I (Milwaukee: University Research Extension Co., 1907). Internet Ancient History Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/Halsall/ancient/701sennach.asp",
+      "file": "sources/sennacherib-jerusalem.md",
+      "context": "A clay prism inscribed with Sennacherib's own account of his 701 BCE campaign, set beside the Hebrew account of the same events. One was made for the Assyrian court, the other by scribes in Judah.",
+      "questions": [
+        "What does the Assyrian account claim Sennacherib did to Hezekiah, and what does it not claim?",
+        "Where do the two accounts agree, and where do they diverge?",
+        "The prism says Hezekiah was shut up 'like a bird in a cage.' What does that image assume about the city's fate?",
+        "Who made each account, and for whom?"
+      ]
+    },
+    {
+      "id": "cyrus-cylinder",
+      "title": "The Cyrus Cylinder and the decree of return",
+      "author": "Cyrus II, king of Persia, and the book of Ezra",
+      "date": "539 BCE (cylinder); the Ezra text compiled later",
+      "citation": "The Kurash Prism, in Charles F. Horne, ed., The Sacred Books and Early Literature of the East, Vol. I: Babylonia and Assyria (New York: Parke, Austin, & Lipscomb, 1917), pp. 460–462; with Ezra 1:1–8 (Douai-Rheims Version, 1914). Internet Ancient History Sourcebook, Fordham University.",
+      "license": "Public domain",
+      "url": "https://sourcebooks.fordham.edu/Halsall/ancient/539cyrus1.asp",
+      "file": "sources/cyrus-cylinder.md",
+      "context": "A clay cylinder buried in Babylon's foundations, in which Cyrus presents himself as chosen by the god Marduk, set beside the Hebrew account of his decree allowing the exiles to return. The cylinder is a Babylonian royal inscription; Ezra is a later Judean text.",
+      "questions": [
+        "Whose god does Cyrus credit with giving him the city, and why might that matter?",
+        "What does Cyrus say he did with the images of the gods and with their former inhabitants?",
+        "How does the book of Ezra describe Cyrus's decree, and how does that compare with the cylinder?",
+        "What kind of document is each text, and what can each establish?"
+      ]
+    },
+    {
+      "id": "fall-of-jerusalem",
+      "title": "The fall of Jerusalem and the exile",
+      "author": "Hebrew tradition (anonymous)",
+      "date": "Compiled c. 6th–5th century BCE",
+      "citation": "2 Kings 25 (selected verses) and Psalm 137, King James Version (1611). Public domain.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/10",
+      "file": "sources/fall-of-jerusalem.md",
+      "context": "The closing chapter of the Deuteronomistic History, describing the Babylonian siege, the destruction of the temple in 586 BCE, and the exile, followed by a psalm of exile. Both are religious texts that interpret the catastrophe.",
+      "questions": [
+        "What happens to the temple, the king, and the people in this account?",
+        "How does the text explain or frame the disaster?",
+        "Psalm 137 gives the mood of the exiles. What does it ask of God, and what does it refuse to do?",
+        "This is a Judean text. What would a Babylonian record of the same events look like?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "liverani-imperial-mission",
+      "historian": "Mario Liverani",
+      "work": "Assyria: The Imperial Mission",
+      "year": "2017",
+      "claim": "Liverani argues that Assyrian expansion was driven by a coherent imperial ideology — a claim to universal dominion in which the king acted as the agent of the gods and resistance was treated as sin rather than as ordinary politics.",
+      "note": "Other historians stress that the annals were also narrow propaganda aimed at the court, and that Assyrian policy was shaped by revenue, horses, and secure trade routes. The inscriptions are evidence for the ideology, not a neutral record of motives."
+    },
+    {
+      "id": "kuhrt-cyrus-cylinder",
+      "historian": "Amélie Kuhrt",
+      "work": "The Cyrus Cylinder and Achaemenid Imperial Policy",
+      "year": "1983",
+      "claim": "Kuhrt argues that the Cyrus Cylinder is a traditional Babylonian foundation inscription, written in the idiom the priests of Marduk expected, and not a declaration of general religious toleration or of human rights.",
+      "note": "The cylinder is still read by some as evidence of a deliberate policy of restoring local cults. The disagreement is about how much a single monument can tell us about the practice of an empire."
+    }
+  ],
+  "activities": [
+    {
+      "id": "standing-army",
+      "type": "choice",
+      "prompt": "What did Tiglath-Pileser III introduce that changed Assyrian power?",
+      "choices": ["A navy of triremes", "A standing professional army and provinces under governors", "A written law code for the whole empire", "A senate of nobles"],
+      "answer": 1,
+      "feedback": "He paid troops and kept them in service year-round, and he turned conquered lands into provinces with governors and fixed tribute."
+    },
+    {
+      "id": "annals-purpose",
+      "type": "choice",
+      "prompt": "The Assyrian royal annals were written mainly to…",
+      "choices": ["Serve as tax ledgers", "Preserve merchants' contracts", "Display the king's power and piety", "Record defeats honestly"],
+      "answer": 2,
+      "feedback": "They were monuments of royal display, carved on palace walls and prisms, crediting victories to the god Ashur and omitting defeats."
+    },
+    {
+      "id": "samaria-722",
+      "type": "choice",
+      "prompt": "What happened to the northern kingdom of Israel in 722/721 BCE?",
+      "choices": ["It fell to Assyria and its people were deported", "It fell to Babylon", "It conquered Judah", "It was destroyed by Egypt"],
+      "answer": 0,
+      "feedback": "Sargon II claimed the capture of Samaria and the deportation of 27,290 of its people; this is the end of the northern kingdom."
+    },
+    {
+      "id": "jerusalem-701",
+      "type": "choice",
+      "prompt": "After Sennacherib's campaign of 701 BCE, what happened to Jerusalem?",
+      "choices": ["It was destroyed", "It became the Assyrian capital", "It was given to Egypt", "It was not captured"],
+      "answer": 3,
+      "feedback": "The Assyrian annals claim Hezekiah was shut up 'like a bird in a cage' but do not claim the city was taken; the book of Kings says the siege was lifted."
+    },
+    {
+      "id": "deportation",
+      "type": "choice",
+      "prompt": "Why did the Assyrians deport whole populations?",
+      "choices": ["To spread literacy", "To break local resistance and supply labour", "To collect taxes more fairly", "To honour local gods"],
+      "answer": 1,
+      "feedback": "Deportation broke the local ties that made rebellion possible, supplied labour, manned frontiers, and mixed peoples so no conquered nation could act as one."
+    },
+    {
+      "id": "exile-586",
+      "type": "choice",
+      "prompt": "What does 2 Kings 25 describe?",
+      "choices": ["The building of the temple", "The fall of Nineveh", "The siege and destruction of Jerusalem and the temple", "The return from exile"],
+      "answer": 2,
+      "feedback": "It describes the Babylonian siege, the destruction of the temple in 586 BCE, and the deportation of the Judean elite."
+    },
+    {
+      "id": "cyrus-cylinder-reading",
+      "type": "choice",
+      "prompt": "How does Amélie Kuhrt read the Cyrus Cylinder?",
+      "choices": ["As a traditional Babylonian royal inscription, not a charter of toleration", "As a Persian law code", "As a Greek account of Persia", "As a Jewish religious text"],
+      "answer": 0,
+      "feedback": "Kuhrt argues it uses the language Babylonian priests expected, so it shows how Cyrus claimed legitimacy rather than announcing a general policy."
+    },
+    {
+      "id": "behistun",
+      "type": "choice",
+      "prompt": "What is the Behistun inscription?",
+      "choices": ["Cyrus's decree of return", "Darius's trilingual account of his victories", "A Babylonian law code", "A Phoenician trading contract"],
+      "answer": 1,
+      "feedback": "Carved on a cliff and written in Old Persian, Elamite, and Babylonian cuneiform, it presents Darius as king by the will of Ahura Mazda and later unlocked the decipherment of cuneiform."
+    },
+    {
+      "id": "compare-accounts",
+      "type": "short-answer",
+      "prompt": "The Assyrian prism and the Hebrew book of Kings describe the same campaign of 701 BCE. Compare what each source claims and explain why they differ.",
+      "context": "Sennacherib's prism: 'As to Hezekiah, the Jew, he did not submit to my yoke… Himself I made a prisoner in Jerusalem, his royal residence, like a bird in a cage.' 2 Kings 19: 'That night the angel of the Lord went forth and struck down 185,000 men in the Assyrian camp… So Sennacherib, the king of Assyria, broke camp and went back home to Nineveh.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each claims about the outcome",
+        "explains the difference by the purpose or audience of each text"
+      ]
+    }
+  ]
+}

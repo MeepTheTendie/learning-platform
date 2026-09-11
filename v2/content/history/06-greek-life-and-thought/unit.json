@@ -1,0 +1,161 @@
+{
+  "id": "06-greek-life-and-thought",
+  "title": "Life and thought in the Greek world",
+  "period": "c. 500–146 BCE",
+  "region": "Athens · Alexandria · the Mediterranean",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "pericles-funeral-oration",
+      "title": "Pericles' Funeral Oration",
+      "author": "Thucydides, reporting a speech of Pericles",
+      "date": "431 BCE (written c. 400 BCE)",
+      "citation": "The History of the Peloponnesian War, Book II.35–46, translated by Richard Crawley (1874). Project Gutenberg eBook 7142.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/7142",
+      "file": "sources/pericles-funeral-oration.md",
+      "context": "Thucydides puts this speech into Pericles' mouth in the first year of the Peloponnesian War, over the Athenian dead. Thucydides says he wrote speeches that fit what the occasion required, so this is his reconstruction, not a transcript.",
+      "questions": [
+        "What does Pericles claim the Athenian constitution does for rich and poor alike?",
+        "Which of his claims could be checked against what Athens actually did?",
+        "What does the speech leave out about the people who made Athenian public life possible?"
+      ]
+    },
+    {
+      "id": "aristotle-slavery",
+      "title": "The household and slavery",
+      "author": "Aristotle",
+      "date": "c. 335–323 BCE",
+      "citation": "Politics, Book I, chapters 4–5, translated by William Ellis (1912). Project Gutenberg eBook 6762.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/6762",
+      "file": "sources/aristotle-slavery.md",
+      "context": "Aristotle's lecture notes on the household and on slavery. He defines the slave as a living tool and argues that some people are slaves by nature, while reporting the opposite view that slavery is contrary to nature.",
+      "questions": [
+        "How does Aristotle define a slave, and what does the definition take for granted?",
+        "What counter-argument does Aristotle admit, and how does he answer it?",
+        "Who does the work in the household Aristotle describes, and who benefits?"
+      ]
+    },
+    {
+      "id": "plato-apology",
+      "title": "The Apology of Socrates",
+      "author": "Plato",
+      "date": "399 BCE (written c. 390 BCE)",
+      "citation": "Apology, translated by Benjamin Jowett (1871). Project Gutenberg eBook 1656.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/1656",
+      "file": "sources/plato-apology.md",
+      "context": "Plato's account of Socrates' defence at his trial in 399 BCE, his conviction, and his words after the death sentence. Plato was present; the speeches are a literary reconstruction.",
+      "questions": [
+        "Why does Socrates compare himself to a gadfly?",
+        "What does Socrates mean by saying the unexamined life is not worth living?",
+        "What does Socrates say about the fear of death, and what does he assume?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "finley-slavery",
+      "historian": "M. I. Finley",
+      "work": "Ancient Slavery and Modern Ideology",
+      "year": "1980",
+      "claim": "Finley argued that slavery in Greece and Rome was a coherent system rather than a marginal misfortune, and that the freedom of the citizen was defined against the enslavement of others; Athenian democracy and elite culture rested on slave labour.",
+      "note": "Other historians stress that most farms were worked by the family and that slave numbers are uncertain, and argue that the link between slavery and democracy is looser than Finley made it."
+    },
+    {
+      "id": "ober-mass-elite",
+      "historian": "Josiah Ober",
+      "work": "Mass and Elite in Democratic Athens",
+      "year": "1989",
+      "claim": "Ober argued that despite the wealth and rhetorical training of the elite, the Athenian assembly and courts gave ordinary citizens real power, forcing the rich to justify themselves in terms the demos accepted.",
+      "note": "Critics reply that the surviving speeches were written by elites, that they may flatter the audience rather than describe it, and that the argument understates how much public life excluded women, slaves, and foreigners."
+    }
+  ],
+  "activities": [
+    {
+      "id": "who-was-citizen",
+      "type": "choice",
+      "prompt": "After Pericles' law of 451/450 BCE, who counted as an Athenian citizen?",
+      "choices": ["Adult men born to two citizen parents", "All adult men living in Attica", "All adult men and women born in Attica", "Any man who served in the fleet"],
+      "answer": 0,
+      "feedback": "Pericles' law required both parents to be citizens; women, metics, and slaves were outside the political citizen body."
+    },
+    {
+      "id": "oikos-meaning",
+      "type": "choice",
+      "prompt": "The Greek word oikos refers to…",
+      "choices": ["The household and its property", "The assembly of citizens", "The market square", "A warship"],
+      "answer": 0,
+      "feedback": "The oikos was the household — house, land, stores, and the people, including slaves, who worked it."
+    },
+    {
+      "id": "laurium-work",
+      "type": "choice",
+      "prompt": "The silver mines at Laurium were worked mainly by…",
+      "choices": ["Slaves, in dangerous conditions", "Citizen volunteers", "Metics on short contracts", "Women from the countryside"],
+      "answer": 0,
+      "feedback": "The state leased the mines to contractors who used slave gangs; the silver paid for the Athenian navy."
+    },
+    {
+      "id": "sortition",
+      "type": "choice",
+      "prompt": "What did the Athenians usually choose by lot?",
+      "choices": ["Most public offices", "Only the ten generals", "The laws themselves", "Membership in the citizen body"],
+      "answer": 0,
+      "feedback": "Sortition was thought more democratic than election, which favoured the rich and the well-spoken; the generals were the main elected exception."
+    },
+    {
+      "id": "liturgy",
+      "type": "choice",
+      "prompt": "An Athenian liturgy was…",
+      "choices": ["A wealthy citizen's compulsory public spending", "A hymn sung at the assembly", "A tax on imported grain", "A vote taken by secret ballot"],
+      "answer": 0,
+      "feedback": "The choregos funded a festival chorus and the trierarch a warship; public generosity bought honour and influence."
+    },
+    {
+      "id": "city-dionysia",
+      "type": "choice",
+      "prompt": "At the City Dionysia, the city held…",
+      "choices": ["A competition of tragedies and comedies", "A vote on war and peace", "The annual ostracism", "The enrolment of new citizens"],
+      "answer": 0,
+      "feedback": "Three tragic poets and several comic poets competed, funded through liturgies and judged by the audience."
+    },
+    {
+      "id": "socrates-charges",
+      "type": "choice",
+      "prompt": "Socrates was convicted in 399 BCE of…",
+      "choices": ["Impiety and corrupting the young", "Treason against Macedon", "Embezzling public funds", "Refusing military service"],
+      "answer": 0,
+      "feedback": "The charges were not believing in the city's gods, introducing new divinities, and corrupting the young; he was executed by hemlock."
+    },
+    {
+      "id": "eratosthenes",
+      "type": "choice",
+      "prompt": "Eratosthenes, librarian at Alexandria, is remembered for…",
+      "choices": ["Estimating the circumference of the earth", "Writing the Elements of geometry", "Designing the lever and the screw", "Founding the Academy"],
+      "answer": 0,
+      "feedback": "He used the noon shadow at Alexandria and the distance to Syene to calculate the earth's circumference."
+    },
+    {
+      "id": "rome-146",
+      "type": "choice",
+      "prompt": "In 146 BCE, Rome…",
+      "choices": ["Destroyed Corinth and made Greece a province", "Granted Greece its independence", "Founded Alexandria", "Defeated the Persians at Salamis"],
+      "answer": 0,
+      "feedback": "The Roman destruction of Corinth and the end of the Macedonian kingdom closed the political history of the Greek world."
+    },
+    {
+      "id": "democracy-and-labour",
+      "type": "short-answer",
+      "prompt": "Compare what Pericles and Aristotle each assume about the people who support a citizen's public life. What does each source take for granted?",
+      "context": "Pericles: 'Our constitution does not copy the laws of neighbouring states… Its administration favours the many instead of the few; this is why it is called a democracy.' Aristotle: 'Thus property is as an instrument to living; an estate is a multitude of instruments; so a slave is an animated instrument.'",
+      "rubric": [
+        "refers to both sources",
+        "states what each takes for granted about who does the work",
+        "uses a specific detail or phrase from the texts"
+      ]
+    }
+  ]
+}

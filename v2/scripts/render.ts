@@ -111,7 +111,8 @@ for (const subject of subjects) {
     if (!fs.statSync(dir).isDirectory()) continue;
     const unit = UnitSchema.parse(JSON.parse(fs.readFileSync(path.join(dir, 'unit.json'), 'utf8')));
     entries.push(renderUnit(subject, dir, unit));
-    fs.cpSync(path.join(dir, 'assets'), path.join(outDir, 'content', subject, unit.id, 'assets'), { recursive: true });
+    const assets = path.join(dir, 'assets');
+    if (fs.existsSync(assets)) fs.cpSync(assets, path.join(outDir, 'content', subject, unit.id, 'assets'), { recursive: true });
   }
   lists.push(`<h2>${esc(subject[0].toUpperCase() + subject.slice(1))}</h2><ul>${entries.join('')}</ul>`);
 }

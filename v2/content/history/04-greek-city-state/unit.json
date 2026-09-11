@@ -1,0 +1,163 @@
+{
+  "id": "04-greek-city-state",
+  "title": "The Greek city-state",
+  "period": "c. 800–500 BCE",
+  "region": "Aegean and the Mediterranean",
+  "spine": "spine.md",
+  "images": [],
+  "sources": [
+    {
+      "id": "solon",
+      "title": "Solon and the seisachtheia",
+      "author": "Aristotle (attributed)",
+      "date": "c. 330 BCE, describing 594/3 BCE",
+      "citation": "The Athenian Constitution, translated by Sir Frederic G. Kenyon (1891), Parts 5–12. Project Gutenberg eBook 26095.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/26095",
+      "file": "sources/solon.md",
+      "context": "Written in the fourth century BCE, this is the fullest ancient account of Solon's reforms. It quotes Solon's own poems as evidence, so the reader meets both the lawgiver's voice and a later writer's judgment of him.",
+      "questions": [
+        "Aristotle quotes Solon's poems to prove what Solon intended. What can a poem by the lawgiver tell us that a later summary could not?",
+        "Solon says he stood with his shield over both sides. Whose interests does that claim serve?",
+        "Which of the four property classes could hold office, and which could only sit in the assembly?"
+      ]
+    },
+    {
+      "id": "lycurgus",
+      "title": "The laws of Lycurgus",
+      "author": "Plutarch",
+      "date": "c. 100 CE, describing legendary reforms",
+      "citation": "Plutarch's Lives of the Noble Grecians and Romans, translated by John Dryden and revised by Arthur Hugh Clough (1864), Life of Lycurgus. Project Gutenberg eBook 674.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/674",
+      "file": "sources/lycurgus.md",
+      "context": "Plutarch wrote this life around 100 CE, some eight centuries after the reforms it describes, and he begins by admitting that the sources disagree. It is the fullest ancient picture of the Spartan system.",
+      "questions": [
+        "Plutarch describes the senate, the ephors, the common tables, and the treatment of the helots. Which of these does he claim to doubt, and why?",
+        "How does the account of the boys' training explain why stealing was both required and punished?",
+        "What does the krypteia, and the ephors' declaration of war on the helots, reveal about Spartan fear?",
+        "Plutarch is writing centuries later. Which details could rest on older evidence, and which sound like legend?"
+      ]
+    },
+    {
+      "id": "cleisthenes",
+      "title": "Cleisthenes and the reform of Athens",
+      "author": "Herodotus of Halicarnassus",
+      "date": "c. 430 BCE, describing 508/7 BCE",
+      "citation": "The History of Herodotus, Volume 2, translated by G. C. Macaulay (1890), Book V.66–73. Project Gutenberg eBook 2456.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/2456",
+      "file": "sources/cleisthenes.md",
+      "context": "Herodotus wrote a generation after the reforms and knew Athenian families who had lived through them. Here he describes how Cleisthenes took the common people into his party and rebuilt the tribes.",
+      "questions": [
+        "Herodotus says Cleisthenes made common cause with the people. Why does he present the reform as a move in a faction fight rather than a plan?",
+        "What happened to Isagoras and Cleomenes, and what does that show about how fragile the new order was?",
+        "Herodotus explains the tribal reform by Cleisthenes' imitation of his grandfather. How convincing is that explanation?",
+        "What does the priestess's refusal to admit Cleomenes suggest about how Greeks read signs and oracles?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "morris-burial",
+      "historian": "Ian Morris",
+      "work": "Burial and Ancient Society: The Rise of the Greek City-State",
+      "year": "1987",
+      "claim": "Morris argued that a change in Athenian burial practice around 750–700 BCE — the disappearance of elaborate aristocratic graves and the appearance of a more uniform cemetery — marks the emergence of a broad citizen group and the early polis.",
+      "note": "Other archaeologists read the same graves differently, and warn that burial customs need not track political change directly. The argument depends on treating a pattern in the ground as evidence of a change in how people thought about themselves."
+    },
+    {
+      "id": "cartledge-sparta",
+      "historian": "Paul Cartledge",
+      "work": "Sparta and Lakonia: A Regional History 1300–362 BC",
+      "year": "1979",
+      "claim": "Cartledge argued that the distinctive Spartan system — the agoge, the common messes, and the subjection of the helots — is best explained as a response to the conquest of Messenia and the need to control a large enslaved population.",
+      "note": "The ancient sources for Sparta are late and often idealising, so historians disagree about whether the system was a single reform or grew by stages. Cartledge's reading treats the institutions as a solution to a problem, not as a philosopher's design."
+    }
+  ],
+  "activities": [
+    {
+      "id": "greek-geography",
+      "type": "choice",
+      "prompt": "What best explains why the Greek world remained a patchwork of separate political communities?",
+      "choices": ["Mountains divided the land while the sea connected scattered settlements", "No Greek city ever traded with another", "A single king ruled all the Greeks until 500 BCE", "The Greeks had no shared language or gods"],
+      "answer": 0,
+      "feedback": "The same geography that kept the valleys apart let a single culture spread by sea."
+    },
+    {
+      "id": "polis-definition",
+      "type": "choice",
+      "prompt": "The word polis refers most precisely to…",
+      "choices": ["A citizen community and its city", "A temple and its priests", "A market where goods were sold", "A garrison of foreign soldiers"],
+      "answer": 0,
+      "feedback": "A polis was the citizen body as much as the place it lived in."
+    },
+    {
+      "id": "who-counted",
+      "type": "choice",
+      "prompt": "Which group was excluded from citizenship in a typical Greek polis?",
+      "choices": ["Women, slaves, and resident foreigners", "Farmers who owned land", "Men who served in the army", "Members of the assembly"],
+      "answer": 0,
+      "feedback": "Citizenship belonged to adult men of citizen descent; women, slaves, and metics stood outside it."
+    },
+    {
+      "id": "alphabet",
+      "type": "choice",
+      "prompt": "What did the Greeks take from the Phoenician script?",
+      "choices": ["Its signs, to which they added vowels", "Its clay tablets and wedge-shaped stylus", "Its system of writing whole words as pictures", "Its scribal schools and temple archives"],
+      "answer": 0,
+      "feedback": "Phoenician writing had consonants only; Greeks reassigned some signs to stand for vowels, so almost any sentence could be spelled."
+    },
+    {
+      "id": "hoplite",
+      "type": "choice",
+      "prompt": "The hoplite phalanx rewarded which quality above all?",
+      "choices": ["Discipline and holding the line together", "Individual glory in single combat", "Skill with the bow from a distance", "Speed on horseback"],
+      "answer": 0,
+      "feedback": "Each man's shield covered the man to his left, so the line depended on trust and order, not on champions."
+    },
+    {
+      "id": "tyrant",
+      "type": "choice",
+      "prompt": "In archaic Greek usage, a tyrannos was…",
+      "choices": ["A man who seized power without a lawful claim", "A king who inherited his throne", "An elected annual magistrate", "A priest of Zeus"],
+      "answer": 0,
+      "feedback": "The word, probably borrowed from Lydian, described how power was taken, not how it was used."
+    },
+    {
+      "id": "solon-seisachtheia",
+      "type": "choice",
+      "prompt": "Solon's seisachtheia dealt with which crisis?",
+      "choices": ["Debt bondage and the loss of land by poor farmers", "A Persian invasion of Attica", "A plague in the city", "A war with Sparta over Messenia"],
+      "answer": 0,
+      "feedback": "He cancelled debts, forbade loans secured on a person, and brought back Athenians sold into slavery for debt."
+    },
+    {
+      "id": "cleisthenes-reform",
+      "type": "choice",
+      "prompt": "Cleisthenes' reform of 508/7 BCE reorganised Athenian citizens by…",
+      "choices": ["Local demes and ten new tribes", "Wealth and property classes", "The four old kinship tribes", "Military rank in the phalanx"],
+      "answer": 0,
+      "feedback": "He replaced the four descent-based tribes with ten tribes built from local demes, breaking the old regional factions."
+    },
+    {
+      "id": "sparta-helots",
+      "type": "choice",
+      "prompt": "Who were the helots?",
+      "choices": ["Enslaved Messenians who farmed Spartan land", "Free foreign merchants living in Sparta", "The two royal houses of Sparta", "Elected officials who supervised the kings"],
+      "answer": 0,
+      "feedback": "The helots were a conquered population tied to the land, and fear of their revolt shaped Spartan life."
+    },
+    {
+      "id": "evidence-compare",
+      "type": "short-answer",
+      "prompt": "Compare what Herodotus and Plutarch each allow us to know about the political changes they describe. What does each source take for granted, and how does the distance in time affect its value as evidence?",
+      "context": "Herodotus, writing in the generation after Cleisthenes: 'These men came to party strife for power; and then Cleisthenes was being worsted in the struggle, he made common cause with the people.' Plutarch, writing about 100 CE: 'There is so much uncertainty in the accounts which historians have left us of Lycurgus, the lawgiver of Sparta, that scarcely anything is asserted by one of them which is not called into question or contradicted by the rest.'",
+      "rubric": [
+        "refers to both Herodotus and Plutarch",
+        "states what each source takes for granted",
+        "uses a specific detail from the quoted text"
+      ]
+    }
+  ]
+}
