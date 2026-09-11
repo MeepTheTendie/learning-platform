@@ -204,3 +204,23 @@ Owner wanted a progress tracker outside ChatGPT that spans all their learning. K
 - `scripts/build-app.mjs` now skips the lesson-review injection for subject-less apps; the hub has a unit test for aggregation and auth.
 
 Deployed: preview `8e323c1b-a640-433f-9e64-52498dc7633a`, production `f630acc3-7efb-46dc-a18a-95dbed5921c4`. Health passes (`/` 200, `/api/progress` and `/api/hub` 401).
+
+## Sourcebook (v2) and account cleanup — 2026-09-11
+
+A six-subject rebuild now lives in `v2/`, independent of the v1 monorepo apps. It renders a
+single static site and deploys as one Worker, `sourcebook` (https://sourcebook.history-atlas.workers.dev).
+
+- Content: 82 units and about 333,000 words of spine, with 247 attributed public-domain
+  images — World History (24), American History (16), English grammar (12), Geography (10),
+  Philosophy (10), and Literature (10). Each unit carries a dense spine, two or three primary
+  sources, one or two named interpretations, and 8-10 activities.
+- Tooling: `v2/scripts/validate.ts` (schema, framing lint, manifest), `v2/scripts/render.ts`
+  (static HTML plus an embedded sync client), and `v2/tests/content.test.ts`. Run `npm run check`
+  inside `v2/`.
+- Sync: `v2/worker.mjs` serves `v2/dist/` and a revision-checked `/api/progress` in the shared
+  `learning-progress-sync` database under `app_id=sourcebook`. Auth is the private pairing key
+  in `~/Projects/learning-platform-private/sourcebook-pairing.txt` (mode 600). Cloudflare Access
+  is not used; the Worker and `v2/README.md` document how to switch it on.
+- Cleanup: deleted the five v1 `-preview` Workers and the `learning-platform-preview` database.
+  The account now holds six Workers and one D1 database. The v1 production apps remain in place
+  for features the sourcebook does not yet have (tutor, spaced review, bookmarks).
