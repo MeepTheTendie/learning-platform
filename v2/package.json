@@ -1,0 +1,15 @@
+{
+  "name": "learn-v2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.ts",
+    "render": "node scripts/render.ts",
+    "test": "node --test tests/content.test.ts",
+    "check": "npm run validate && npm run render && npm test"
+  },
+  "dependencies": {
+    "marked": "16.4.1",
+    "zod": "4.1.12"
+  }
+}

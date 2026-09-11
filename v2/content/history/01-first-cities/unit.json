@@ -1,0 +1,57 @@
+{
+  "id": "01-first-cities",
+  "title": "The first cities",
+  "period": "c. 3500–1750 BCE",
+  "region": "Mesopotamia (Sumer, Akkad, Babylonia)",
+  "spine": "spine.md",
+  "sources": [
+    {
+      "id": "hammurabi",
+      "title": "The Code of Hammurabi (selected laws)",
+      "author": "Hammurabi, king of Babylon",
+      "date": "c. 1754 BCE",
+      "citation": "Translated by L. W. King, The Code of Hammurabi (1915). Project Gutenberg eBook 17150.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/17150",
+      "file": "sources/hammurabi.md",
+      "context": "A block of diorite about 2.25 m tall, carved with 282 case rulings and set up in a temple. The laws below are a selection.",
+      "questions": [
+        "Who is expected to enforce these rulings, and who is not?",
+        "What do laws 8, 196, and 200 suggest about how a person's rank affected the penalty?",
+        "Which of these laws rest on an appeal to a god or to ordeal rather than to witnesses?"
+      ]
+    },
+    {
+      "id": "herodotus-babylon",
+      "title": "Babylon described",
+      "author": "Herodotus of Halicarnassus",
+      "date": "c. 430 BCE, describing an earlier city",
+      "citation": "The History of Herodotus, translated by G. C. Macaulay (1890), Book I.178–182. Project Gutenberg eBook 2707.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/2707",
+      "file": "sources/herodotus-babylon.md",
+      "context": "Herodotus wrote about a city that had already been captured by the Persians. He probably never visited Babylon and relied on informants.",
+      "questions": [
+        "Which measurements could in principle be checked against the ruins, and which could not?",
+        "Where does Herodotus signal that he doubts his own informants?",
+        "What might explain the size he reports for the walls?"
+      ]
+    },
+    {
+      "id": "genesis-babel",
+      "title": "The tower in Shinar",
+      "author": "Hebrew tradition (anonymous)",
+      "date": "Compiled c. 6th–5th century BCE",
+      "citation": "Genesis 11:1–9, King James Version (1611). Public domain.",
+      "license": "Public domain",
+      "url": "https://www.gutenberg.org/ebooks/10",
+      "file": "sources/genesis-babel.md",
+      "context": "A later tradition from outside Mesopotamia explains why a city there was left unfinished and why people speak different languages.",
+      "questions": [
+        "How does this account treat the building of a city differently from the Babylonian laws?",
+        "What does it assume about a single city and the rest of the earth?",
+        "In what ways does this story agree with, and differ from, the Greek and Babylonian sources?"
+      ]
+    }
+  ]
+}
