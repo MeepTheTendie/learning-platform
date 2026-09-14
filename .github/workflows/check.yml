@@ -11,7 +11,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            v2/package-lock.json
       - run: npm ci
+      - run: npm --prefix v2 ci
       - run: npm run check
+      - run: npm --prefix v2 run check
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser
