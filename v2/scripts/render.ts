@@ -75,6 +75,14 @@ footer{color:var(--muted);font-size:.72em;border-top:1px solid var(--line);margi
 .chat .you{border-color:var(--accent)}.chat .tutor{border-color:var(--gold)}
 #chat-input{min-height:70px}
 .due-list,.mark-list{margin:6px 0;padding-left:18px}
+.pager{display:flex;gap:14px;margin:34px 0 6px}
+.pager a{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--panel);text-decoration:none}
+.pager a:hover{border-color:var(--accent)}
+.pager a span{color:var(--muted);font-size:.72em}
+.pager a strong{font-weight:600}
+.pager .pager-next{text-align:right;align-items:flex-end}
+@media (max-width:520px){.pager{flex-direction:column}}
+.counts{color:var(--muted);font-size:.8em;margin:0 0 10px}
 .reader{position:fixed;right:16px;bottom:16px;z-index:50;font-size:15px}
 .reader-toggle{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--text);font:700 16px var(--reading-font);cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.28)}
 .reader-toggle:hover{border-color:var(--accent)}
@@ -246,16 +254,18 @@ function buildOutline(html: string): { html: string; outline: string } {
   return { html: out, outline: toc + keypoints };
 }
 
-function renderUnit(subject: string, dir: string, unit: Unit): string {
-  const { html: spineHtml, outline } = buildOutline(stripLeadH1(marked.parse(fs.readFileSync(path.join(dir, unit.spine), 'utf8')) as string));
+function renderUnit(subject: string, dir: string, unit: Unit, nav: { prev: { id: string; title: string } | null; next: { id: string; title: string } | null }): string {
+  const spineMarkdown = fs.readFileSync(path.join(dir, unit.spine), 'utf8');
+  const sourceMarkdowns = unit.sources.map(source => fs.readFileSync(path.join(dir, source.file), 'utf8'));
+  const { html: spineHtml, outline } = buildOutline(stripLeadH1(marked.parse(spineMarkdown) as string));
 
   const map = unit.images.find(image => image.id === 'map');
   const artifacts = unit.images.filter(image => image.id !== 'map');
   const mapHtml = map ? `<figure><img class="map" src="../content/${subject}/${unit.id}/${map.file}" alt="${esc(map.caption)}"><figcaption>${esc(map.caption)} — ${esc(map.credit)} (${esc(map.license)})</figcaption></figure>` : '';
   const artifactHtml = artifacts.length ? `<div class="grid">${artifacts.map(image => `<figure><img src="../content/${subject}/${unit.id}/${image.file}" alt="${esc(image.caption)}"><figcaption>${esc(image.caption)} — ${esc(image.credit)} (${esc(image.license)})</figcaption></figure>`).join('')}</div>` : '';
 
-  const sourcesHtml = unit.sources.map(source => {
-    const body = stripLeadH1(marked.parse(fs.readFileSync(path.join(dir, source.file), 'utf8')) as string);
+  const sourcesHtml = unit.sources.map((source, index) => {
+    const body = stripLeadH1(marked.parse(sourceMarkdowns[index]) as string);
     const questions = source.questions.map(question => `<li>${esc(question)}</li>`).join('');
     return `<section class="source"><div class="head"><strong>${esc(source.title)}</strong><br>${esc(source.author)} · ${esc(source.date)}</div><p>${esc(source.context)}</p>${body}<h3>Questions</h3><ol class="q">${questions}</ol><div class="head" style="margin-top:14px">${esc(source.citation)} · ${esc(source.license)}</div></section>`;
   }).join('');
@@ -319,10 +329,14 @@ paintComplete();paintBookmark();paintReview();paintChat();`;
   const tools = `<section class="activity"><h3>Notes</h3><textarea id="note" placeholder="Your notes for this unit…"></textarea></section>
 <section class="activity"><h3>Spaced review</h3><p class="meta" id="review-status"></p><button class="check" id="review-btn">Mark reviewed</button></section>
 <section class="activity"><h3>Ask the tutor</h3><div id="chat" class="chat"></div><textarea id="chat-input" placeholder="Ask a question about this unit…"></textarea><button class="check" id="chat-send">Send</button><div class="meta" id="chat-status"></div></section>`;
-  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${outline}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button> <button class="check" data-bookmark>☆ Bookmark</button></div>${tools}<footer>Primary sources only. Nothing here is modern commentary. <span id="sync-status" class="meta"></span></footer>`;
+  const countWords = (text: string) => (text.match(/[A-Za-z0-9’'-]+/g) || []).length;
+  const wordCount = countWords(spineMarkdown) + sourceMarkdowns.reduce((total, text) => total + countWords(text), 0);
+  const readMinutes = Math.max(1, Math.round(wordCount / 200));
+  const pager = (nav.prev || nav.next) ? `<nav class="pager" aria-label="Unit navigation">${nav.prev ? `<a class="pager-prev" href="${esc(nav.prev.id)}.html"><span>← Previous</span><strong>${esc(nav.prev.title)}</strong></a>` : '<span></span>'}${nav.next ? `<a class="pager-next" href="${esc(nav.next.id)}.html"><span>Next →</span><strong>${esc(nav.next.title)}</strong></a>` : '<span></span>'}</nav>` : '';
+  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${outline}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button> <button class="check" data-bookmark>☆ Bookmark</button></div>${tools}${pager}<footer><p class="counts">${wordCount.toLocaleString('en-US')} words · about ${readMinutes} min read</p>Primary sources only. Nothing here is modern commentary. <span id="sync-status" class="meta"></span></footer>`;
 
-  const spineText = fs.readFileSync(path.join(dir, unit.spine), 'utf8');
-  const sourceTexts = unit.sources.map(source => `${source.title} — ${source.author}\n${source.context}\n${fs.readFileSync(path.join(dir, source.file), 'utf8')}`).join('\n\n');
+  const sourceTexts = unit.sources.map((source, index) => `${source.title} — ${source.author}\n${source.context}\n${sourceMarkdowns[index]}`).join('\n\n');
+  const spineText = spineMarkdown;
   const material = `UNIT: ${unit.title} (${[unit.period, unit.region].filter(Boolean).join(', ')})\n\n${spineText}\n\nSOURCES\n${sourceTexts}`.slice(0, 8000);
   const tutorOut = path.join(outDir, 'tutor', subject, `${unit.id}.json`);
   fs.mkdirSync(path.dirname(tutorOut), { recursive: true });
@@ -338,15 +352,16 @@ const subjects = fs.readdirSync(contentDir).filter(name => fs.statSync(path.join
 const lists: string[] = [];
 for (const subject of subjects) {
   const subjectDir = path.join(contentDir, subject);
+  const unitDirs = fs.readdirSync(subjectDir).sort().filter(name => fs.statSync(path.join(subjectDir, name)).isDirectory());
+  const units = unitDirs.map(unitDir => ({ unitDir, unit: UnitSchema.parse(JSON.parse(fs.readFileSync(path.join(subjectDir, unitDir, 'unit.json'), 'utf8'))) }));
   const entries: string[] = [];
-  for (const unitDir of fs.readdirSync(subjectDir).sort()) {
+  units.forEach(({ unitDir, unit }, index) => {
     const dir = path.join(subjectDir, unitDir);
-    if (!fs.statSync(dir).isDirectory()) continue;
-    const unit = UnitSchema.parse(JSON.parse(fs.readFileSync(path.join(dir, 'unit.json'), 'utf8')));
-    entries.push(renderUnit(subject, dir, unit));
+    const neighbour = (offset: number) => { const other = units[index + offset]; return other ? { id: other.unit.id, title: other.unit.title } : null; };
+    entries.push(renderUnit(subject, dir, unit, { prev: neighbour(-1), next: neighbour(1) }));
     const assets = path.join(dir, 'assets');
     if (fs.existsSync(assets)) fs.cpSync(assets, path.join(outDir, 'content', subject, unit.id, 'assets'), { recursive: true });
-  }
+  });
   lists.push(`<h2>${esc(subject.split('-').map(word => word[0].toUpperCase() + word.slice(1)).join(' '))}</h2><ul>${entries.join('')}</ul>`);
 }
 const indexScript = `document.querySelectorAll('[data-unit] a').forEach(a=>{a.dataset.title=a.textContent});
