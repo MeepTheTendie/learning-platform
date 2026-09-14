@@ -9,42 +9,81 @@ const outDir = path.join(root, 'dist');
 fs.rmSync(outDir, { recursive: true, force: true });
 fs.mkdirSync(outDir, { recursive: true });
 
+const fontFamilies: [string, string][] = [
+  ['lexend', 'Lexend'],
+  ['atkinson-hyperlegible', 'Atkinson Hyperlegible'],
+  ['opendyslexic', 'OpenDyslexic'],
+];
+const fontDir = path.join(outDir, 'fonts');
+fs.mkdirSync(fontDir, { recursive: true });
+const fontCss = fontFamilies.flatMap(([pkg, family]) => [400, 700].map(weight => {
+  const file = `${pkg}-latin-${weight}-normal.woff2`;
+  fs.copyFileSync(path.join(root, 'node_modules', '@fontsource', pkg, 'files', file), path.join(fontDir, file));
+  return `@font-face{font-family:'${family}';font-style:normal;font-weight:${weight};font-display:swap;src:url('/fonts/${file}') format('woff2')}`;
+})).join('');
+
 const esc = (value: string) => value.replace(/[&<>"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character] as string));
 
 const style = `
-:root{color-scheme:dark;--bg:#14120f;--panel:#1d1a16;--text:#ece7dd;--muted:#a9a294;--line:#37322a;--accent:#d9b46a;--gold:#c9a86a;--ok:#7fbf7f;--no:#d98a8a}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 Georgia,serif}
-.shell{max-width:860px;margin:auto;padding:40px 22px 90px}
-a{color:var(--accent)}h1{font-size:34px;line-height:1.15;margin:0 0 6px}
-.meta{color:var(--muted);font-size:14px;margin-bottom:28px}
-h2{font-size:24px;margin:36px 0 12px;border-top:1px solid var(--line);padding-top:20px}
-h3{font-size:18px;margin:24px 0 6px}
-figure{margin:18px 0}.map{width:100%;border-radius:12px;border:1px solid var(--line)}
+:root{color-scheme:dark;--bg:#14120f;--panel:#1d1a16;--text:#ece7dd;--muted:#b8b1a3;--line:#37322a;--accent:#d9b46a;--gold:#c9a86a;--ok:#8fce8f;--no:#e09696;--reading-font:'Lexend',Verdana,system-ui,sans-serif;--reading-size:18px;--reading-leading:1.7;--reading-para:1.4em;--reading-letter:.012em;--reading-word:.05em;--em-bg:rgba(217,180,106,.17);--measure:640px}
+:root[data-theme="paper"]{color-scheme:light;--bg:#f6efe0;--panel:#efe4cb;--text:#2b2620;--muted:#5f5646;--line:#d8c9a8;--accent:#8a5a1a;--gold:#8a5a1a;--ok:#2f6b3a;--no:#9c3b3b;--em-bg:rgba(138,90,26,.15)}
+:root[data-theme="light"]{color-scheme:light;--bg:#ffffff;--panel:#f4f4f4;--text:#1b1b1b;--muted:#555555;--line:#d9d9d9;--accent:#8a4b00;--gold:#8a4b00;--ok:#2f6b3a;--no:#9c3b3b;--em-bg:rgba(138,75,0,.12)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--reading-font);font-size:var(--reading-size);line-height:var(--reading-leading);letter-spacing:var(--reading-letter);word-spacing:var(--reading-word);overflow-wrap:break-word}
+.shell{max-width:var(--measure);margin:auto;padding:40px 22px 90px}
+p{margin:0 0 var(--reading-para);text-wrap:pretty}
+em{font-style:normal;background:var(--em-bg);border-radius:3px;padding:0 .12em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+:root[data-italics="on"] em{font-style:italic;background:none;padding:0}
+.toc{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 22px}
+.toc .toc-title{margin:0 0 8px;font-weight:600;font-size:.9em;color:var(--muted)}
+.toc ol{margin:0;padding-left:20px}.toc li{margin:5px 0}
+.keypoints{margin:0 0 26px;font-size:.92em}
+.keypoints summary{cursor:pointer;color:var(--accent);font-weight:600}
+.keypoints ul{margin:10px 0 0;padding-left:20px}.keypoints li{margin:5px 0}
+.shell :target{scroll-margin-top:16px}
+a{color:var(--accent)}
+h1{font-size:clamp(28px,5vw,36px);line-height:1.15;margin:0 0 6px;text-wrap:balance}
+.meta{color:var(--muted);font-size:.8em;margin-bottom:28px}
+h2{font-size:1.45em;line-height:1.25;margin:40px 0 14px;border-top:1px solid var(--line);padding-top:22px;text-wrap:balance}
+h3{font-size:1.08em;margin:26px 0 8px}
+figure{margin:22px 0}.map{width:100%;border-radius:12px;border:1px solid var(--line)}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
 figure img{width:100%;height:230px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
-figcaption{color:var(--muted);font-size:13px;margin-top:8px}
+figcaption{color:var(--muted);font-size:.78em;margin-top:8px}
 .source{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px;margin:18px 0}
-.source .head{color:var(--muted);font-size:13px;margin-bottom:14px}
-blockquote{border-left:3px solid var(--accent);margin:14px 0;padding:2px 0 2px 16px;color:var(--muted)}
-.q{margin:10px 0 0;padding-left:18px}.q li{margin:6px 0}
+.source p:last-child{margin-bottom:0}
+.source .head{color:var(--muted);font-size:.78em;margin-bottom:14px}
+blockquote{border-left:3px solid var(--accent);margin:16px 0;padding:2px 0 2px 16px;color:var(--muted)}
+.q{margin:10px 0 0;padding-left:18px}.q li{margin:8px 0}
 .activity{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;margin:16px 0}
 .activity p{font-weight:600}
 .choice{display:block;width:100%;text-align:left;margin:7px 0;padding:11px 13px;border:1px solid var(--line);border-radius:9px;background:var(--bg);color:var(--text);font:inherit;cursor:pointer}
 .choice:hover{border-color:var(--accent)}.choice.correct{border-color:var(--ok);color:var(--ok)}.choice.wrong{border-color:var(--no);color:var(--no)}
-.feedback{color:var(--muted);font-size:14px;margin-top:10px;min-height:18px}
+.feedback{color:var(--muted);font-size:.82em;margin-top:10px;min-height:18px}
 textarea{width:100%;min-height:120px;padding:12px;border-radius:9px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:inherit}
-.rubric{display:none;color:var(--muted);font-size:14px;margin-top:10px}.rubric.show{display:block}
+.rubric{display:none;color:var(--muted);font-size:.82em;margin-top:10px}.rubric.show{display:block}
 button.check{margin-top:10px;padding:9px 14px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--text);font:inherit;cursor:pointer}
 button.check.done{border-color:var(--ok);color:var(--ok)}
 .complete-card{background:var(--panel)}
 .interpretation{border-left:3px solid var(--gold)}
 li.done>a{color:var(--ok)}
-footer{color:var(--muted);font-size:12px;border-top:1px solid var(--line);margin-top:44px;padding-top:16px}
+footer{color:var(--muted);font-size:.72em;border-top:1px solid var(--line);margin-top:44px;padding-top:16px}
 .chat{max-height:300px;overflow:auto;margin-bottom:10px}
 .chat p{margin:8px 0;padding:9px 12px;border-radius:9px;background:var(--bg);border:1px solid var(--line);font-weight:400;white-space:pre-wrap}
 .chat .you{border-color:var(--accent)}.chat .tutor{border-color:var(--gold)}
 #chat-input{min-height:70px}
 .due-list,.mark-list{margin:6px 0;padding-left:18px}
+.reader{position:fixed;right:16px;bottom:16px;z-index:50;font-size:15px}
+.reader-toggle{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--text);font:700 16px var(--reading-font);cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.28)}
+.reader-toggle:hover{border-color:var(--accent)}
+.reader-panel{position:absolute;right:0;bottom:56px;width:280px;max-width:calc(100vw - 32px);background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.reader-row{display:flex;align-items:center;gap:10px;margin:9px 0}
+.reader-row>span{flex:0 0 78px;color:var(--muted);font-size:13px}
+.reader-opts{display:flex;flex-wrap:wrap;gap:6px}
+.reader-opts button{padding:5px 9px;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--text);font:inherit;font-size:13px;cursor:pointer}
+.reader-opts button.on{border-color:var(--accent);color:var(--accent)}
 `;
 
 const syncScript = `
@@ -118,13 +157,97 @@ const syncScript = `
 })();
 `;
 
+const readerHead = `<script>(function(){try{var p=JSON.parse(localStorage.getItem('sourcebook-reader')||'{}');var F={lexend:"'Lexend',Verdana,system-ui,sans-serif",atkinson:"'Atkinson Hyperlegible',Verdana,system-ui,sans-serif",opendyslexic:"'OpenDyslexic',Verdana,system-ui,sans-serif",sans:"Verdana,Tahoma,Arial,system-ui,sans-serif",serif:"Georgia,'Times New Roman',serif"};var S={normal:["1.7","1.4em",".012em",".05em"],relaxed:["1.9","1.7em",".05em",".1em"],wide:["2.1","2em",".12em",".16em"]};var d=document.documentElement;d.dataset.theme=p.theme||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');d.dataset.italics=p.italics||'off';if(p.font&&F[p.font])d.style.setProperty('--reading-font',F[p.font]);if(p.size)d.style.setProperty('--reading-size',p.size+'px');var s=S[p.spacing||'normal'];d.style.setProperty('--reading-leading',s[0]);d.style.setProperty('--reading-para',s[1]);d.style.setProperty('--reading-letter',s[2]);d.style.setProperty('--reading-word',s[3])}catch(e){}})();</script>`;
+
+const readerBar = `<div class="reader"><button class="reader-toggle" id="reader-toggle" aria-expanded="false" aria-controls="reader-panel" title="Reading settings">Aa</button><div class="reader-panel" id="reader-panel" hidden><div class="reader-row"><span>Theme</span><div class="reader-opts" data-pref="theme"><button data-value="dark">Dark</button><button data-value="paper">Paper</button><button data-value="light">Light</button></div></div><div class="reader-row"><span>Font</span><div class="reader-opts" data-pref="font"><button data-value="lexend">Lexend</button><button data-value="atkinson">Atkinson</button><button data-value="sans">Verdana</button><button data-value="opendyslexic">OpenDyslexic</button><button data-value="serif">Serif</button></div></div><div class="reader-row"><span>Text size</span><div class="reader-opts" data-pref="size"><button data-value="16">A-</button><button data-value="18">A</button><button data-value="20">A+</button><button data-value="24">A++</button><button data-value="28">A+++</button></div></div><div class="reader-row"><span>Spacing</span><div class="reader-opts" data-pref="spacing"><button data-value="normal">Normal</button><button data-value="relaxed">Relaxed</button><button data-value="wide">Wide</button></div></div><div class="reader-row"><span>Italics</span><div class="reader-opts" data-pref="italics"><button data-value="off">Off</button><button data-value="on">On</button></div></div></div></div>`;
+
+const readerScript = `
+(function(){
+  var KEY='sourcebook-reader';
+  var FONTS={lexend:"'Lexend',Verdana,system-ui,sans-serif",atkinson:"'Atkinson Hyperlegible',Verdana,system-ui,sans-serif",opendyslexic:"'OpenDyslexic',Verdana,system-ui,sans-serif",sans:"Verdana,Tahoma,Arial,system-ui,sans-serif",serif:"Georgia,'Times New Roman',serif"};
+  var SPACING={normal:["1.7","1.4em",".012em",".05em"],relaxed:["1.9","1.7em",".05em",".1em"],wide:["2.1","2em",".12em",".16em"]};
+  var prefs={theme:null,font:'lexend',size:18,spacing:'normal',italics:'off'};
+  try{Object.assign(prefs,JSON.parse(localStorage.getItem(KEY)||'{}'))}catch(e){}
+  function apply(){
+    var d=document.documentElement;
+    d.dataset.theme=prefs.theme||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');
+    d.dataset.italics=prefs.italics||'off';
+    d.style.setProperty('--reading-font',FONTS[prefs.font]||FONTS.lexend);
+    d.style.setProperty('--reading-size',prefs.size+'px');
+    var s=SPACING[prefs.spacing]||SPACING.normal;
+    d.style.setProperty('--reading-leading',s[0]);
+    d.style.setProperty('--reading-para',s[1]);
+    d.style.setProperty('--reading-letter',s[2]);
+    d.style.setProperty('--reading-word',s[3]);
+  }
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(prefs))}catch(e){}}
+  apply();
+  var toggle=document.getElementById('reader-toggle'),panel=document.getElementById('reader-panel');
+  if(!toggle||!panel)return;
+  function paint(){
+    panel.querySelectorAll('.reader-opts').forEach(function(group){
+      var key=group.dataset.pref;
+      group.querySelectorAll('button').forEach(function(btn){
+        var v=btn.dataset.value;
+        var on=(key==='size')?Number(v)===Number(prefs[key]):v===prefs[key];
+        btn.classList.toggle('on',on);
+      });
+    });
+  }
+  toggle.addEventListener('click',function(){
+    var open=panel.hidden;
+    panel.hidden=!open;
+    toggle.setAttribute('aria-expanded',String(open));
+    if(open)paint();
+  });
+  panel.addEventListener('click',function(e){
+    var btn=e.target.closest('button[data-value]');
+    if(!btn)return;
+    var key=btn.closest('.reader-opts').dataset.pref;
+    prefs[key]=(key==='size')?Number(btn.dataset.value):btn.dataset.value;
+    apply();save();paint();
+  });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&!panel.hidden){panel.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.focus();}
+  });
+  paint();
+})();
+`;
+
 const layout = (title: string, body: string, script = '') => `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)}</title><style>${style}</style></head>
-<body><div class="shell">${body}</div><script>${syncScript}</script>${script ? `<script>${script}</script>` : ''}</body></html>`;
+<title>${esc(title)}</title><style>${fontCss}${style}</style>${readerHead}</head>
+<body><div class="shell">${body}</div>${readerBar}<script>${syncScript}</script><script>${readerScript}</script>${script ? `<script>${script}</script>` : ''}</body></html>`;
+
+const stripLeadH1 = (html: string) => html.replace(/^\s*<h1\b[^>]*>[\s\S]*?<\/h1>\s*/i, '');
+
+const slug = (text: string) => text.replace(/<[^>]+>/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 'section';
+
+function buildOutline(html: string): { html: string; outline: string } {
+  const used = new Map<string, number>();
+  const unique = (base: string) => { const n = used.get(base) || 0; used.set(base, n + 1); return n ? `${base}-${n}` : base; };
+  const sections: { id: string; label: string }[] = [];
+  const points: { id: string; label: string }[] = [];
+  let out = html.replace(/<h2>([\s\S]*?)<\/h2>/g, (_match, inner: string) => {
+    const label = inner.replace(/<[^>]+>/g, '').trim();
+    const id = unique('s-' + slug(label));
+    sections.push({ id, label });
+    return `<h2 id="${id}">${inner}</h2>`;
+  });
+  out = out.replace(/<p><strong>([\s\S]*?)<\/strong>/g, (match, inner: string) => {
+    const label = inner.replace(/<[^>]+>/g, '').replace(/[\s.:]+$/, '').trim();
+    if (!label || label.length > 90 || /^period$/i.test(label)) return match;
+    const id = unique('p-' + slug(label));
+    points.push({ id, label });
+    return `<p id="${id}"><strong>${inner}</strong>`;
+  });
+  const toc = sections.length ? `<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol>${sections.map(section => `<li><a href="#${section.id}">${section.label}</a></li>`).join('')}</ol></nav>` : '';
+  const keypoints = points.length > 2 ? `<details class="keypoints"><summary>Key points (${points.length})</summary><ul>${points.map(point => `<li><a href="#${point.id}">${point.label}</a></li>`).join('')}</ul></details>` : '';
+  return { html: out, outline: toc + keypoints };
+}
 
 function renderUnit(subject: string, dir: string, unit: Unit): string {
-  const spineHtml = marked.parse(fs.readFileSync(path.join(dir, unit.spine), 'utf8')) as string;
+  const { html: spineHtml, outline } = buildOutline(stripLeadH1(marked.parse(fs.readFileSync(path.join(dir, unit.spine), 'utf8')) as string));
 
   const map = unit.images.find(image => image.id === 'map');
   const artifacts = unit.images.filter(image => image.id !== 'map');
@@ -132,7 +255,7 @@ function renderUnit(subject: string, dir: string, unit: Unit): string {
   const artifactHtml = artifacts.length ? `<div class="grid">${artifacts.map(image => `<figure><img src="../content/${subject}/${unit.id}/${image.file}" alt="${esc(image.caption)}"><figcaption>${esc(image.caption)} — ${esc(image.credit)} (${esc(image.license)})</figcaption></figure>`).join('')}</div>` : '';
 
   const sourcesHtml = unit.sources.map(source => {
-    const body = marked.parse(fs.readFileSync(path.join(dir, source.file), 'utf8')) as string;
+    const body = stripLeadH1(marked.parse(fs.readFileSync(path.join(dir, source.file), 'utf8')) as string);
     const questions = source.questions.map(question => `<li>${esc(question)}</li>`).join('');
     return `<section class="source"><div class="head"><strong>${esc(source.title)}</strong><br>${esc(source.author)} · ${esc(source.date)}</div><p>${esc(source.context)}</p>${body}<h3>Questions</h3><ol class="q">${questions}</ol><div class="head" style="margin-top:14px">${esc(source.citation)} · ${esc(source.license)}</div></section>`;
   }).join('');
@@ -196,7 +319,7 @@ paintComplete();paintBookmark();paintReview();paintChat();`;
   const tools = `<section class="activity"><h3>Notes</h3><textarea id="note" placeholder="Your notes for this unit…"></textarea></section>
 <section class="activity"><h3>Spaced review</h3><p class="meta" id="review-status"></p><button class="check" id="review-btn">Mark reviewed</button></section>
 <section class="activity"><h3>Ask the tutor</h3><div id="chat" class="chat"></div><textarea id="chat-input" placeholder="Ask a question about this unit…"></textarea><button class="check" id="chat-send">Send</button><div class="meta" id="chat-status"></div></section>`;
-  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button> <button class="check" data-bookmark>☆ Bookmark</button></div>${tools}<footer>Primary sources only. Nothing here is modern commentary. <span id="sync-status" class="meta"></span></footer>`;
+  const body = `<p><a href="../index.html">← All units</a></p><h1>${esc(unit.title)}</h1>${meta ? `<div class="meta">${meta}</div>` : ''}${outline}${mapHtml}${spineHtml}${artifactHtml}<h2>Sources</h2>${sourcesHtml}${interpretationsHtml}<h2>Practice</h2>${activitiesHtml}<div class="activity complete-card"><p>Finished this unit?</p><button class="check" data-complete="${esc(unit.id)}">Mark unit complete</button> <button class="check" data-bookmark>☆ Bookmark</button></div>${tools}<footer>Primary sources only. Nothing here is modern commentary. <span id="sync-status" class="meta"></span></footer>`;
 
   const spineText = fs.readFileSync(path.join(dir, unit.spine), 'utf8');
   const sourceTexts = unit.sources.map(source => `${source.title} — ${source.author}\n${source.context}\n${fs.readFileSync(path.join(dir, source.file), 'utf8')}`).join('\n\n');
