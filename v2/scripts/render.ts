@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { marked } from 'marked';
+import sanitizeHtml from 'sanitize-html';
 import { UnitSchema, type Unit } from '../src/schema.ts';
+import { syncClient } from '../src/sync-client.ts';
 
 const root = path.resolve(new URL('..', import.meta.url).pathname);
 const contentDir = path.join(root, 'content');
@@ -23,6 +25,16 @@ const fontCss = fontFamilies.flatMap(([pkg, family]) => [400, 700].map(weight =>
 })).join('');
 
 const esc = (value: string) => value.replace(/[&<>"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character] as string));
+
+// Markdown is authored in this repository, but it is still sanitized: raw HTML in
+// any future spine or source would otherwise become live page HTML, and the sync
+// key lives in localStorage on these pages.
+const sanitizeOptions: sanitizeHtml.IOptions = {
+  allowedTags: ['p', 'br', 'hr', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'em', 'b', 'i', 'u', 's', 'blockquote', 'ul', 'ol', 'li', 'a', 'img', 'code', 'pre', 'sup', 'sub', 'dl', 'dt', 'dd', 'figure', 'figcaption', 'table', 'thead', 'tbody', 'tr', 'th', 'td'],
+  allowedAttributes: { a: ['href', 'title'], img: ['src', 'alt', 'title'] },
+  allowedSchemes: ['http', 'https', 'mailto'],
+};
+const renderMarkdown = (markdown: string) => sanitizeHtml(marked.parse(markdown) as string, sanitizeOptions);
 
 const style = `
 :root{color-scheme:dark;--bg:#14120f;--panel:#1d1a16;--text:#ece7dd;--muted:#b8b1a3;--line:#37322a;--accent:#d9b46a;--gold:#c9a86a;--ok:#8fce8f;--no:#e09696;--reading-font:'Lexend',Verdana,system-ui,sans-serif;--reading-size:18px;--reading-leading:1.7;--reading-para:1.4em;--reading-letter:.012em;--reading-word:.05em;--em-bg:rgba(217,180,106,.17);--measure:640px}
@@ -94,76 +106,7 @@ footer{color:var(--muted);font-size:.72em;border-top:1px solid var(--line);margi
 .reader-opts button.on{border-color:var(--accent);color:var(--accent)}
 `;
 
-const syncScript = `
-(function(){
-  var KEY='sourcebook-state', AUTH_KEY='sourcebook-key';
-  function blank(){return {complete:{},bookmarks:{},notes:{},review:{},tutor:{}}}
-  function read(){try{var s=JSON.parse(localStorage.getItem(KEY));return (s&&typeof s==='object')?s:blank()}catch(e){return blank()}}
-  function write(s){try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
-  var state=read();
-  ['complete','bookmarks','notes','review','tutor'].forEach(function(k){if(!state[k]||typeof state[k]!=='object')state[k]={}});
-  var busy=false;
-  var paired=(function(){var m=location.hash.match(/^#sync=([a-f0-9]{64})$/i);if(m){try{localStorage.setItem(AUTH_KEY,m[1])}catch(e){}history.replaceState(null,'',location.pathname+location.search);return m[1];}try{return localStorage.getItem(AUTH_KEY)||''}catch(e){return''}})();
-  function equal(a,b){return JSON.stringify(a)===JSON.stringify(b)}
-  function newer(a,b){if(!a)return b;if(!b)return a;return ((a.at||0)>=(b.at||0))?a:b}
-  function merge(a,b){
-    a=a||blank();b=b||blank();var out=blank();var k;
-    for(k in a.complete)out.complete[k]=true;for(k in b.complete)out.complete[k]=true;
-    for(k in a.bookmarks)out.bookmarks[k]=true;for(k in b.bookmarks)out.bookmarks[k]=true;
-    for(k in a.notes)out.notes[k]=a.notes[k];for(k in b.notes)out.notes[k]=newer(a.notes[k],b.notes[k]);
-    for(k in a.tutor)out.tutor[k]=a.tutor[k];for(k in b.tutor)out.tutor[k]=newer(a.tutor[k],b.tutor[k]);
-    for(k in a.review)out.review[k]=a.review[k];for(k in b.review)out.review[k]=newer(a.review[k],b.review[k]);
-    return out;
-  }
-  function changed(){window.dispatchEvent(new CustomEvent('sourcebook:changed'))}
-  function status(t){var el=document.getElementById('sync-status');if(el)el.textContent=t}
-  function sync(){
-    if(busy)return; busy=true;
-    var headers={}; if(paired)headers.Authorization='Bearer '+paired;
-    fetch('/api/progress',{headers:headers,cache:'no-store'}).then(function(res){
-      if(res.status===401||res.status===403){status(paired?'Sign in again to sync':'Local only — not paired');busy=false;return null}
-      if(!res.ok)throw new Error('offline');
-      return res.json();
-    }).then(function(remote){
-      if(!remote)return;
-      var merged=merge(state,remote.state);
-      state=merged; write(state); changed();
-      if(!remote.state||!equal(merged,remote.state)){
-        return fetch('/api/progress',{method:'PUT',headers:Object.assign({},headers,{'Content-Type':'application/json'}),body:JSON.stringify({revision:remote.revision,state:merged,syncId:crypto.randomUUID()})}).then(function(put){
-          if(put.status===409){busy=false;status('Retrying…');setTimeout(sync,700);return;}
-          if(!put.ok)throw new Error('offline');
-          return put.json();
-        });
-      }
-    }).then(function(){status(paired?'Saved to cloud':'Local only — not paired')}).catch(function(){status('Saved on this device')}).then(function(){busy=false});
-  }
-  function touch(){write(state);changed();status('Saving…');sync()}
-  function schedule(id,quality){
-    var now=Date.now(), r=state.review[id]||{reps:0,interval:0};
-    if(quality<1){r.reps=0;r.interval=0}else{r.reps=(r.reps||0)+1;r.interval=r.interval?Math.min(r.interval*2,180):1}
-    r.last=now; r.next=now+(r.interval||0)*86400000; r.at=now; state.review[id]=r;
-  }
-  window.SourcebookSync={
-    isComplete:function(id){return !!state.complete[id]},
-    toggleComplete:function(id){if(state.complete[id]){delete state.complete[id];delete state.review[id]}else{state.complete[id]=true;schedule(id,1)}touch()},
-    isBookmarked:function(id){return !!state.bookmarks[id]},
-    toggleBookmark:function(id){if(state.bookmarks[id])delete state.bookmarks[id];else state.bookmarks[id]=true;touch()},
-    getNote:function(id){var n=state.notes[id];return (n&&typeof n.text==='string')?n.text:''},
-    setNote:function(id,text){state.notes[id]={text:text,at:Date.now()};touch()},
-    getTutor:function(id){var t=state.tutor[id];return (t&&t.messages)?t.messages:[]},
-    setTutor:function(id,messages){state.tutor[id]={messages:messages,at:Date.now()};touch()},
-    dueUnits:function(){var now=Date.now(),out=[];for(var id in state.review){var r=state.review[id];if(r&&r.next&&r.next<=now)out.push(id)}return out},
-    reviewInfo:function(id){return state.review[id]||null},
-    markReviewed:function(id){schedule(id,1);touch()},
-    askTutor:function(subject,unitId,messages){var headers={'Content-Type':'application/json'};if(paired)headers.Authorization='Bearer '+paired;return fetch('/api/tutor',{method:'POST',headers:headers,body:JSON.stringify({subject:subject,unitId:unitId,messages:messages})}).then(function(res){return res.json().then(function(data){if(!res.ok)throw new Error((data&&data.error)||'tutor_unavailable');return data})})},
-    sync:sync, changed:changed
-  };
-  addEventListener('online',sync);
-  addEventListener('focus',sync);
-  addEventListener('storage',function(e){if(e.key===KEY){state=read();changed()}});
-  sync();
-})();
-`;
+const syncScript = syncClient;
 
 const readerHead = `<script>(function(){try{var p=JSON.parse(localStorage.getItem('sourcebook-reader')||'{}');var F={lexend:"'Lexend',Verdana,system-ui,sans-serif",atkinson:"'Atkinson Hyperlegible',Verdana,system-ui,sans-serif",opendyslexic:"'OpenDyslexic',Verdana,system-ui,sans-serif",sans:"Verdana,Tahoma,Arial,system-ui,sans-serif",serif:"Georgia,'Times New Roman',serif"};var S={normal:["1.7","1.4em",".012em",".05em"],relaxed:["1.9","1.7em",".05em",".1em"],wide:["2.1","2em",".12em",".16em"]};var d=document.documentElement;d.dataset.theme=p.theme||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');d.dataset.italics=p.italics||'off';if(p.font&&F[p.font])d.style.setProperty('--reading-font',F[p.font]);if(p.size)d.style.setProperty('--reading-size',p.size+'px');var s=S[p.spacing||'normal'];d.style.setProperty('--reading-leading',s[0]);d.style.setProperty('--reading-para',s[1]);d.style.setProperty('--reading-letter',s[2]);d.style.setProperty('--reading-word',s[3])}catch(e){}})();</script>`;
 
@@ -257,7 +200,7 @@ function buildOutline(html: string): { html: string; outline: string } {
 function renderUnit(subject: string, dir: string, unit: Unit, nav: { prev: { id: string; title: string } | null; next: { id: string; title: string } | null }): string {
   const spineMarkdown = fs.readFileSync(path.join(dir, unit.spine), 'utf8');
   const sourceMarkdowns = unit.sources.map(source => fs.readFileSync(path.join(dir, source.file), 'utf8'));
-  const { html: spineHtml, outline } = buildOutline(stripLeadH1(marked.parse(spineMarkdown) as string));
+  const { html: spineHtml, outline } = buildOutline(stripLeadH1(renderMarkdown(spineMarkdown)));
 
   const map = unit.images.find(image => image.id === 'map');
   const artifacts = unit.images.filter(image => image.id !== 'map');
@@ -265,7 +208,7 @@ function renderUnit(subject: string, dir: string, unit: Unit, nav: { prev: { id:
   const artifactHtml = artifacts.length ? `<div class="grid">${artifacts.map(image => `<figure><img src="../content/${subject}/${unit.id}/${image.file}" alt="${esc(image.caption)}"><figcaption>${esc(image.caption)} — ${esc(image.credit)} (${esc(image.license)})</figcaption></figure>`).join('')}</div>` : '';
 
   const sourcesHtml = unit.sources.map((source, index) => {
-    const body = stripLeadH1(marked.parse(sourceMarkdowns[index]) as string);
+    const body = stripLeadH1(renderMarkdown(sourceMarkdowns[index]));
     const questions = source.questions.map(question => `<li>${esc(question)}</li>`).join('');
     return `<section class="source"><div class="head"><strong>${esc(source.title)}</strong><br>${esc(source.author)} · ${esc(source.date)}</div><p>${esc(source.context)}</p>${body}<h3>Questions</h3><ol class="q">${questions}</ol><div class="head" style="margin-top:14px">${esc(source.citation)} · ${esc(source.license)}</div></section>`;
   }).join('');

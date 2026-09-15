@@ -50,8 +50,9 @@ Each unit page carries, all stored in one synced state object:
   spine and sources (`POST /api/tutor`, capped per day, material served from
   `dist/tutor/<subject>/<unit>.json`).
 
-Across devices the sets (completions, bookmarks) merge by union; notes, conversations,
-and review schedules merge by timestamp.
+Across devices the sets (completions, bookmarks) merge by timestamped tombstones, so an
+unmark propagates instead of being resurrected; notes, conversations, and review
+schedules merge by timestamp.
 
 ## Deploy
 
@@ -81,13 +82,14 @@ repository in `~/Projects/learning-platform-private/sourcebook-pairing.txt` (mod
 keyed by `app_id`. GET returns `{revision, state}`; PUT sends `{revision, state}` and
 bumps the revision. The comparison and write are one SQL statement, so a stale writer
 gets `409` and retries instead of clobbering a newer snapshot. The client
-(`SourcebookSync`, embedded by the renderer) merges completions by union and falls back
-to `localStorage` when unpaired or offline.
+(`src/sync-client.ts`, embedded by the renderer as `SourcebookSync`) queues an edit made
+while a write is in flight, keeps tombstones so deletions sync, and falls back to
+`localStorage` when unpaired or offline.
 
 ### Cloudflare Access (optional)
 
-The Worker currently uses the pairing key, matching the v1 production apps. To move to
-Cloudflare Access: create a self-hosted Access application for the Worker hostname with
-an owner-email policy, then add JWT validation to `worker.mjs` (the v1 implementation is
-`packages/progress/access.mjs`, using `jose` and `ACCESS_ISSUER` / `ACCESS_AUD` /
+The Worker currently uses the pairing key. To move to Cloudflare Access: create a
+self-hosted Access application for the Worker hostname with an owner-email policy, then
+add JWT validation to `worker.mjs` (the earlier v1 implementation, now removed from the
+tree but preserved in Git history, used `jose` with `ACCESS_ISSUER` / `ACCESS_AUD` /
 `OWNER_EMAIL`). Access cannot be configured with Wrangler alone.

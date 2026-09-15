@@ -5,7 +5,7 @@
   "scripts": {
     "validate": "node scripts/validate.ts",
     "render": "node scripts/render.ts",
-    "test": "node --test tests/content.test.ts",
+    "test": "node --test tests/content.test.ts tests/sync.test.ts tests/worker.test.ts",
     "check": "npm run validate && npm run render && npm test"
   },
   "dependencies": {
@@ -14,5 +14,9 @@
     "@fontsource/opendyslexic": "^5.3.0",
     "marked": "16.4.1",
     "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/sanitize-html": "^2.16.1",
+    "sanitize-html": "^2.17.7"
   }
 }

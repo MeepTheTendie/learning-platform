@@ -17,10 +17,25 @@ async function authorized(request, env) {
   return diff === 0;
 }
 
+const LIMIT = 2_000_000;
+
 async function readBody(request) {
-  const text = await request.text();
-  if (text.length > 2_000_000) throw { status: 413, error: 'too_large' };
-  try { return JSON.parse(text); } catch { throw { status: 400, error: 'invalid_json' }; }
+  if (Number(request.headers.get('content-length')) > LIMIT) throw { status: 413, error: 'too_large' };
+  const reader = request.body?.getReader();
+  if (!reader) throw { status: 400, error: 'invalid_json' };
+  const chunks = [];
+  let size = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.byteLength;
+    if (size > LIMIT) { await reader.cancel(); throw { status: 413, error: 'too_large' }; }
+    chunks.push(value);
+  }
+  const data = new Uint8Array(size);
+  let offset = 0;
+  for (const chunk of chunks) { data.set(chunk, offset); offset += chunk.length; }
+  try { return JSON.parse(new TextDecoder().decode(data)); } catch { throw { status: 400, error: 'invalid_json' }; }
 }
 
 const snapshot = row => row
