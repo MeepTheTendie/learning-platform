@@ -2,31 +2,14 @@
   "name": "learning-platform",
   "private": true,
   "type": "module",
-  "workspaces": [
-    "apps/*"
-  ],
   "engines": {
     "node": ">=22.16.0"
   },
   "scripts": {
-    "test": "npm run test --workspaces",
-    "build": "npm run build --workspaces",
-    "check": "npm run test:auth && npm run check --workspaces",
-    "test:auth": "node --test tests/access.test.mjs tests/migration.test.mjs tests/content.test.mjs tests/exemplar-progress.test.mjs tests/tutor.test.mjs",
-    "preview": "node scripts/preview.mjs",
-    "test:browser": "npm run build && node tests/run-browser.mjs && node tests/exemplars.cjs",
     "backup": "node scripts/backup-d1.mjs",
-    "restore-drill": "node scripts/restore-drill.mjs",
-    "health": "node scripts/check-health.mjs"
+    "restore-drill": "node scripts/restore-drill.mjs"
   },
   "devDependencies": {
-    "playwright": "1.63.0",
     "wrangler": "4.129.1"
-  },
-  "overrides": {
-    "sharp": "0.35.4"
-  },
-  "dependencies": {
-    "jose": "6.2.12"
   }
 }

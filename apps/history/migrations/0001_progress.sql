@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS progress (
-  app_id TEXT PRIMARY KEY,
-  revision INTEGER NOT NULL DEFAULT 0,
-  state_json TEXT NOT NULL,
-  updated_at INTEGER NOT NULL
-);
