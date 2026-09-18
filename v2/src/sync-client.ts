@@ -11,7 +11,15 @@ export function blankState() {
 export function newer(a, b) {
   if (!a) return b;
   if (!b) return a;
-  return ((a.at || 0) >= (b.at || 0)) ? a : b;
+  var atA = a.at || 0;
+  var atB = b.at || 0;
+  if (atA !== atB) return atA > atB ? a : b;
+  // Deterministic tie-break: equal timestamps must resolve the same way on every
+  // peer, otherwise two devices can keep overwriting each other's change.
+  var delA = a.deleted === true;
+  var delB = b.deleted === true;
+  if (delA !== delB) return delA ? a : b;
+  return JSON.stringify(a) >= JSON.stringify(b) ? a : b;
 }
 
 // Completion and bookmark entries are booleans (legacy) or {at, deleted?}
@@ -41,10 +49,10 @@ export const syncClient = `(function(){
   ${mergeState.toString()}
   function isMarked(entry){return entry===true||!!(entry&&!entry.deleted)}
   function read(){try{var s=JSON.parse(localStorage.getItem(KEY));return (s&&typeof s==='object')?s:blankState()}catch(e){return blankState()}}
-  function write(s){try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
+  function write(s){try{localStorage.setItem(KEY,JSON.stringify(s));return true}catch(e){return false}}
   var state=read();
   ['complete','bookmarks','notes','review','tutor'].forEach(function(k){if(!state[k]||typeof state[k]!=='object')state[k]={}});
-  var busy=false, queued=false;
+  var busy=false, queued=false, failures=0, localFailed=false;
   var paired=(function(){var m=location.hash.match(/^#sync=([a-f0-9]{64})$/i);if(m){try{localStorage.setItem(AUTH_KEY,m[1])}catch(e){}history.replaceState(null,'',location.pathname+location.search);return m[1];}try{return localStorage.getItem(AUTH_KEY)||''}catch(e){return''}})();
   function equal(a,b){return JSON.stringify(a)===JSON.stringify(b)}
   function changed(){window.dispatchEvent(new CustomEvent('sourcebook:changed'))}
@@ -60,7 +68,7 @@ export const syncClient = `(function(){
     }).then(function(remote){
       if(!remote)return;
       var merged=mergeState(state,remote.state);
-      state=merged; write(state); changed();
+      state=merged; localFailed=!write(state); changed();
       if(!remote.state||!equal(merged,remote.state)){
         return fetch('/api/progress',{method:'PUT',headers:Object.assign({},headers,{'Content-Type':'application/json'}),body:JSON.stringify({revision:remote.revision,state:merged,syncId:crypto.randomUUID()})}).then(function(put){
           if(put.status===409){retry=true;status('Retrying…');return}
@@ -68,9 +76,23 @@ export const syncClient = `(function(){
           return put.json();
         });
       }
-    }).then(function(){if(!settled&&!retry&&!queued)status(paired?'Saved to cloud':'Local only — not paired')}).catch(function(){if(!settled&&!retry&&!queued)status('Saved on this device')}).then(function(){busy=false;if(retry){queued=false;setTimeout(sync,700)}else if(queued){queued=false;sync()}});
+    }).then(function(){
+      if(settled||retry||queued)return;
+      failures=0;
+      if(localFailed){status(paired?'Saved to cloud — local storage full':'Storage full — not saved on this device');return}
+      status(paired?'Saved to cloud':'Local only — not paired');
+    }).catch(function(){
+      if(settled||retry||queued)return;
+      if(paired&&failures<6){
+        failures++;
+        status('Offline — retrying…');
+        setTimeout(sync,Math.min(30000,1000*Math.pow(2,failures)));
+      }else{
+        status(localFailed?'Storage full — not saved on this device':'Saved on this device');
+      }
+    }).then(function(){busy=false;if(retry){queued=false;setTimeout(sync,700)}else if(queued){queued=false;sync()}});
   }
-  function touch(){write(state);changed();status('Saving…');sync()}
+  function touch(){localFailed=!write(state);changed();status(localFailed?'Storage full — not saved on this device':'Saving…');sync()}
   function schedule(id,quality){
     var now=Date.now(), prev=state.review[id];
     var r=(prev&&!prev.deleted)?prev:{reps:0,interval:0};

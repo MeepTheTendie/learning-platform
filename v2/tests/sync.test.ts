@@ -34,6 +34,21 @@ test('newer prefers the later timestamp', () => {
   assert.deepEqual(newer({ at: 2 }, undefined), { at: 2 });
 });
 
+test('equal timestamps resolve identically regardless of argument order', () => {
+  const a = { at: 5, deleted: true };
+  const b = { at: 5, text: 'kept' };
+  assert.deepEqual(newer(a, b), newer(b, a));
+  const c = { at: 7, text: 'x' };
+  const d = { at: 7, text: 'y' };
+  assert.deepEqual(newer(c, d), newer(d, c));
+});
+
+test('the embedded browser client stays self-contained and free of type syntax', () => {
+  assert.doesNotThrow(() => new Function(syncClient));
+  assert.ok(!/\bexport\b/.test(syncClient), 'no export statements leaked into the bundle');
+  assert.ok(!/:\s*(string|number|boolean|unknown)\b/.test(syncClient), 'no type annotations leaked into the bundle');
+});
+
 test('mergeState unions independent additions', () => {
   const merged = mergeState({ complete: { a: { at: 1 } } }, { complete: { b: { at: 2 } } });
   assert.ok(merged.complete.a);
@@ -97,4 +112,40 @@ test('a local unmark stays unmarked after merging a remote mark', async () => {
   assert.equal(sandbox.window.SourcebookSync.isComplete('u1'), false);
   assert.equal(puts.length, 1);
   assert.equal(puts[0].state.complete.u1.deleted, true);
+});
+
+test('a failed local write is reported instead of silently ignored', async () => {
+  const sandbox = browserSandbox();
+  const statusEl = { textContent: '' };
+  sandbox.document = { getElementById: (id: string) => (id === 'sync-status' ? statusEl : null) };
+  sandbox.localStorage.setItem = () => { throw new Error('quota exceeded'); };
+  sandbox.fetch = () => Promise.resolve({ ok: true, status: 200, json: () => Promise.resolve({ revision: 0, state: {} }) });
+  vm.runInNewContext(syncClient, sandbox);
+  await flush(4);
+  sandbox.window.SourcebookSync.toggleBookmark('u1');
+  await flush(4);
+  assert.match(statusEl.textContent, /storage full/i);
+});
+
+test('a network failure schedules a retry instead of giving up', async () => {
+  const sandbox = browserSandbox();
+  const timers: Array<() => void> = [];
+  sandbox.setTimeout = (fn: () => void) => { timers.push(fn); return timers.length; };
+  let calls = 0;
+  sandbox.fetch = () => {
+    calls += 1;
+    if (calls === 1) return Promise.reject(new Error('offline'));
+    return Promise.resolve({ ok: true, status: 200, json: () => Promise.resolve({ revision: 0, state: {} }) });
+  };
+  sandbox.store.set('sourcebook-key', 'c'.repeat(64));
+  vm.runInNewContext(syncClient, sandbox);
+  await flush(4);
+  assert.equal(calls, 1);
+  assert.ok(timers.length >= 1, 'a retry was scheduled');
+  while (timers.length) {
+    const next = timers.shift()!;
+    next();
+    await flush(4);
+  }
+  assert.ok(calls >= 2, 'the retry re-attempted the request');
 });
