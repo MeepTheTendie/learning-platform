@@ -1,0 +1,186 @@
+{
+  "id": "03-trade-growth-and-inequality",
+  "title": "Trade, growth, and inequality",
+  "period": "Classical political economy to the present",
+  "region": "Britain, Europe, and the world",
+  "spine": "spine.md",
+  "images": [
+    {
+      "id": "supply-chain",
+      "file": "assets/global-supply-chain.jpg",
+      "caption": "A diagram tracing the key points where goods move through a supply chain, from the origin factory to final delivery.",
+      "credit": "US Government Accountability Office (GAO)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Figure_1-_Example_of_Key_Points_in_the_Global_Supply_Chain_(55181792391).jpg"
+    },
+    {
+      "id": "container-shipping",
+      "file": "assets/container-shipping.jpg",
+      "caption": "A container ship towed up the Scheldt toward the Port of Antwerp, Belgium.",
+      "credit": "Trougnouf",
+      "license": "CC BY 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Container_ship_being_towed_in_the_Scheldt_towards_the_Port_of_Antwerp,_seen_from_Doel,_Belgium_(DSCF3880).jpg"
+    },
+    {
+      "id": "income-inequality-top1",
+      "file": "assets/income-inequality-top1.jpg",
+      "caption": "Share of income earned by the top 1% in selected developed countries, 1975–2015.",
+      "credit": "US Council of Economic Advisers, 2017 Economic Report of the President",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Income_inequality_-_share_of_income_earned_by_top_1%25_1975_to_2015.png"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ricardo-foreign-trade",
+      "title": "Portugal, England, wine, and cloth",
+      "author": "David Ricardo",
+      "date": "1817",
+      "citation": "David Ricardo, On the Principles of Political Economy and Taxation, Chapter 7, 'On Foreign Trade.' McMaster University Archive for the History of Economic Thought; Project Gutenberg text and Library of Congress scan also checked.",
+      "license": "Public domain",
+      "url": "https://historyofeconomicthought.mcmaster.ca/ricardo/prin/index.html",
+      "file": "sources/ricardo-foreign-trade.md",
+      "context": "Ricardo's famous example of England and Portugal shows that trade may be profitable even when one country can produce both goods with less labour. The comparison turns on relative cost.",
+      "questions": [
+        "Why can Portugal import cloth even if it could make cloth with fewer workers than England?",
+        "What does Ricardo compare: absolute labour or relative sacrifice?",
+        "How does the example connect trade to opportunity cost?"
+      ]
+    },
+    {
+      "id": "bastiat-candlemakers",
+      "title": "The candlemakers' petition",
+      "author": "Frédéric Bastiat",
+      "date": "1845",
+      "citation": "Frédéric Bastiat, 'A Petition from the Manufacturers of Candles,' translated text hosted for teaching at the University of Texas; French source cross-checked through Bastiat.org.",
+      "license": "Public domain",
+      "url": "https://la.utexas.edu/users/hcleaver/368/368bastiatpetition.html",
+      "file": "sources/bastiat-candlemakers.md",
+      "context": "Bastiat satirizes protection by having candlemakers petition against the sun. The joke turns on treating abundance and low price as injuries to producers rather than gains to consumers.",
+      "questions": [
+        "Who is the rival in Bastiat's satire?",
+        "Why do the candlemakers ask for windows to be closed?",
+        "What does the satire reveal about producer-focused protection?"
+      ]
+    },
+    {
+      "id": "owid-trade",
+      "title": "Trade and international integration",
+      "author": "Esteban Ortiz-Ospina, Bertha Rohenkohl, Veronika Samborska, Simon Van Teutem, Diana Beltekian, and Max Roser",
+      "date": "2018",
+      "citation": "Ortiz-Ospina et al. (2018) - 'Trade and Globalization.' Published online at OurWorldinData.org. Retrieved from: 'https://ourworldindata.org/trade-and-globalization' [Online Resource]. Licensed CC BY 4.0.",
+      "license": "CC BY 4.0",
+      "url": "https://ourworldindata.org/trade-and-globalization",
+      "file": "sources/owid-trade-and-globalization.md",
+      "context": "This overview gathers long-run data on how much countries trade and how that has changed since the mid-twentieth century, alongside measures of poverty, income, and inequality.",
+      "questions": [
+        "What has happened to the volume of trade relative to output since 1950?",
+        "How has extreme poverty changed over the same period, and what cautions does the page give about attributing the change to trade?",
+        "Which groups within countries does the page identify as gaining or losing?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "irwin-free-trade",
+      "historian": "Douglas A. Irwin",
+      "work": "Against the Tide: An Intellectual History of Free Trade",
+      "year": "1996",
+      "claim": "Irwin traced the free-trade argument as a long intellectual tradition, with Smith, Ricardo, and later writers making different but related cases against protection.",
+      "note": "Critics of the tradition answer that the classical case assumes full employment and ignores the cost of adjustment, and that protection can be justified where markets are already distorted or an industry is strategically important."
+    },
+    {
+      "id": "gomory-baumol",
+      "historian": "Ralph E. Gomory and William J. Baumol",
+      "work": "Global Trade and Conflicting National Interests",
+      "year": "2000",
+      "claim": "Gomory and Baumol argued that trade can create conflicting national interests when industries have increasing returns and when the location of production changes future capabilities.",
+      "note": "Free-trade economists reply that governments rarely pick winning industries well, that the losses from protection are larger and more certain than the speculative gains from shifting future capability, and that the argument does not show protection is the better policy."
+    }
+  ],
+  "activities": [
+    {
+      "id": "comparative-advantage",
+      "type": "choice",
+      "prompt": "Comparative advantage is based on...",
+      "choices": ["absolute productivity", "relative opportunity cost", "population size", "tariff levels"],
+      "answer": 1,
+      "feedback": "Comparative advantage compares the opportunity cost of producing each good, not who can produce it with the fewest resources."
+    },
+    {
+      "id": "absolute-advantage",
+      "type": "choice",
+      "prompt": "Absolute advantage compares...",
+      "choices": ["who can produce a good with fewer resources", "who trades more", "who holds more money", "who has older institutions"],
+      "answer": 0,
+      "feedback": "Absolute advantage asks who can make the good at lower direct cost; comparative advantage asks about relative sacrifice."
+    },
+    {
+      "id": "ricardo-example",
+      "type": "choice",
+      "prompt": "In Ricardo's example, Portugal imports cloth even though it can make cloth with fewer workers than England because...",
+      "choices": ["it gains more by specialising in wine and trading", "cloth is illegal in Portugal", "England forces the trade", "cloth is given away free"],
+      "answer": 0,
+      "feedback": "What matters is the relative cost: Portugal gives up less wine by specialising in wine and buying cloth."
+    },
+    {
+      "id": "terms-of-trade",
+      "type": "choice",
+      "prompt": "The terms of trade determine...",
+      "choices": ["how much of one good is exchanged for another", "the size of a tariff", "the exchange-rate regime", "the number of workers employed"],
+      "answer": 0,
+      "feedback": "The terms of trade set the rate at which exports buy imports, and therefore how the total gain from trade is divided."
+    },
+    {
+      "id": "candlemakers-point",
+      "type": "choice",
+      "prompt": "Bastiat's candlemakers satire attacks the idea that...",
+      "choices": ["blocking cheap supply creates national wealth", "sunlight is useful", "candles can be sold", "trade requires transport"],
+      "answer": 0,
+      "feedback": "The petition makes protection look absurd by asking the state to block the cheapest supplier of light."
+    },
+    {
+      "id": "concentrated-costs",
+      "type": "choice",
+      "prompt": "Protection is politically powerful because its...",
+      "choices": ["benefits are concentrated and its costs are diffuse", "costs are concentrated and its benefits are diffuse", "benefits and costs are equal", "costs fall on no one"],
+      "answer": 0,
+      "feedback": "Producers who lose from imports are few and organised; consumers who gain are many and each gains a little, so the politics favour protection."
+    },
+    {
+      "id": "supply-chain",
+      "type": "choice",
+      "prompt": "A supply chain split across countries raises efficiency and also...",
+      "choices": ["vulnerability to disruption at a single node", "tariff revenue", "the money supply", "the exchange rate"],
+      "answer": 0,
+      "feedback": "Fragmentation lets each step occur where it is cheapest, but a flood, strike, or pandemic at one node can halt production far away."
+    },
+    {
+      "id": "china-shock",
+      "type": "choice",
+      "prompt": "Studies of the shock from Chinese imports in the 2000s found...",
+      "choices": ["concentrated, persistent losses in affected local labour markets", "no effect anywhere", "uniform gains across all regions", "only benefits and no costs"],
+      "answer": 0,
+      "feedback": "The country gained in aggregate from cheaper goods, but particular communities suffered concentrated and lasting losses."
+    },
+    {
+      "id": "industrial-policy",
+      "type": "choice",
+      "prompt": "Modern industrial policy is defended mainly on grounds of...",
+      "choices": ["supply security and future capability", "lower consumer prices", "free trade", "lower taxes"],
+      "answer": 0,
+      "feedback": "Supporters argue that markets underinvest in resilience and in industries with long payoffs, and that the location of production shapes future capability."
+    },
+    {
+      "id": "trade-short-answer",
+      "type": "short-answer",
+      "prompt": "Compare Ricardo's and Bastiat's arguments for trade. What does each one add, and what does each leave out about who gains and who loses?",
+      "context": "Ricardo compares relative labour costs in the England-Portugal example; Bastiat satirizes protection by having candlemakers ask the state to block the sun.",
+      "rubric": [
+        "distinguishes absolute and comparative advantage",
+        "uses both sources",
+        "explains a distributional consequence of trade or protection"
+      ]
+    }
+  ]
+}

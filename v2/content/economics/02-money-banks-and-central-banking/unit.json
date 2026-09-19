@@ -1,0 +1,186 @@
+{
+  "id": "02-money-banks-and-central-banking",
+  "title": "Money, banks, and central banking",
+  "period": "Ancient exchange to modern central banking",
+  "region": "The Mediterranean, Britain, and the United States",
+  "spine": "spine.md",
+  "images": [
+    {
+      "id": "eccles-building",
+      "file": "assets/eccles-building-federal-reserve.jpg",
+      "caption": "The Marriner S. Eccles Federal Reserve Board Building in Washington, DC, headquarters of the US central bank.",
+      "credit": "Federalreserve (Flickr)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg"
+    },
+    {
+      "id": "lehman-2008",
+      "file": "assets/lehman-brothers-2008.jpg",
+      "caption": "Lehman Brothers headquarters in New York City on September 15, 2008, the day the firm filed for bankruptcy.",
+      "credit": "Robert Scoble",
+      "license": "CC BY 2.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers-20080915.jpg"
+    },
+    {
+      "id": "inflation-1960-2024",
+      "file": "assets/us-inflation-cpi-1960-2024.jpg",
+      "caption": "Long-run US and euro-area consumer price inflation, 1960 to 2024, showing the surge after 2021.",
+      "credit": "FRED, Federal Reserve Bank of St. Louis",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:FRED_Inflation_Rate_-_1960_to_present.png"
+    }
+  ],
+  "sources": [
+    {
+      "id": "aristotle-money",
+      "title": "Money and exchange",
+      "author": "Aristotle",
+      "date": "c. 350 BCE",
+      "citation": "Aristotle, Politics, Book I, translated by H. Rackham. Perseus Digital Library, Tufts University.",
+      "license": "Public domain",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=urn:cts:greekLit:tlg0086.tlg035.perseus-eng1:1",
+      "file": "sources/aristotle-money.md",
+      "context": "Aristotle explains money as a device that arose from barter when communities needed a portable and accepted medium for exchange, then worries that money-making can become detached from household need.",
+      "questions": [
+        "Why does Aristotle say money was devised?",
+        "How does he distinguish household provision from trade for gain?",
+        "Why does he think money can be mistaken for wealth itself?"
+      ]
+    },
+    {
+      "id": "bagehot-lombard-street",
+      "title": "Lombard Street",
+      "author": "Walter Bagehot",
+      "date": "1873",
+      "citation": "Walter Bagehot, Lombard Street: A Description of the Money Market, Chapter I. Rod Hay's Archive for the History of Economic Thought, McMaster University; Library of Congress public-domain scan also checked.",
+      "license": "Public domain",
+      "url": "https://historyofeconomicthought.mcmaster.ca/bagehot/lombard.html",
+      "file": "sources/bagehot-lombard-street.md",
+      "context": "Bagehot describes London's money market as concrete machinery, not mystery. His account explains how deposits, banks, and the Bank of England made credit powerful and fragile at the same time, and why a panic must be met with ready cash.",
+      "questions": [
+        "Why does Bagehot insist that the money market is concrete?",
+        "What does he mean by economical power and economical delicacy?",
+        "Why does concentration of cash create both strength and risk?"
+      ]
+    },
+    {
+      "id": "powell-price-stability",
+      "title": "Monetary Policy and Price Stability",
+      "author": "Jerome H. Powell, Chair, Federal Reserve Board",
+      "date": "2022",
+      "citation": "Jerome H. Powell, 'Monetary Policy and Price Stability,' speech at the economic policy symposium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming, August 26, 2022. Board of Governors of the Federal Reserve System.",
+      "license": "Public domain (US government work)",
+      "url": "https://www.federalreserve.gov/newsevents/speech/powell20220826a.htm",
+      "file": "sources/fed-powell-price-stability.md",
+      "context": "In a 2022 speech, the chair of the Federal Reserve argued that bringing inflation back to target would require tighter policy and might cause some economic pain, and that the greater risk was allowing inflation expectations to become unmoored.",
+      "questions": [
+        "What does Powell say is the greater risk, and why?",
+        "What does he mean by keeping inflation expectations anchored?",
+        "How does he describe the trade-off between reducing inflation and supporting employment?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "schumpeter-money-credit",
+      "historian": "Joseph A. Schumpeter",
+      "work": "History of Economic Analysis",
+      "year": "1954",
+      "claim": "Schumpeter treated money and banking as central to capitalist development because credit lets entrepreneurs command resources before they have already accumulated them.",
+      "note": "Other economists place more weight on money as a veil over real exchange. The disagreement turns on whether credit merely facilitates production or actively changes its path."
+    },
+    {
+      "id": "goodhart-central-bank",
+      "historian": "Charles Goodhart",
+      "work": "The Evolution of Central Banks",
+      "year": "1988",
+      "claim": "Goodhart argued that central banks grew out of ordinary commercial banks that acquired public responsibilities through crises, government finance, and the management of reserves.",
+      "note": "Critics reply that this evolutionary story understates deliberate design: central banks were also created by governments to finance wars and manage the currency, so politics and intention matter alongside the pressure of crises."
+    }
+  ],
+  "activities": [
+    {
+      "id": "money-function",
+      "type": "choice",
+      "prompt": "Which function of money solves barter's double coincidence of wants?",
+      "choices": ["Medium of exchange", "Store of value", "Unit of account", "Standard of deferred payment"],
+      "answer": 0,
+      "feedback": "A medium of exchange lets a seller accept money now and buy from someone else later, so both sides need not want each other's goods."
+    },
+    {
+      "id": "interest-price",
+      "type": "choice",
+      "prompt": "In Locke's account, interest is best understood as...",
+      "choices": ["a tax on land", "the price paid for the use of money", "a fixed moral quality of coins", "a measure of harvest weight"],
+      "answer": 1,
+      "feedback": "Locke treats interest as a price for the temporary use of money, affected by risk and the willingness to lend."
+    },
+    {
+      "id": "banking-fragility",
+      "type": "choice",
+      "prompt": "Why can a bank be both useful and fragile at once?",
+      "choices": ["It holds only a fraction of deposits in ready cash while promising withdrawal on demand", "It refuses to make loans", "It keeps every deposit in a vault", "It cannot create deposits"],
+      "answer": 0,
+      "feedback": "Banks pool cash and extend credit, but their promises depend on confidence and reserves, so a loss of confidence can cause a run."
+    },
+    {
+      "id": "money-creation",
+      "type": "choice",
+      "prompt": "In a modern banking system, when a bank makes a loan it...",
+      "choices": ["destroys money", "creates a new deposit", "must wait for new savers", "needs gold to cover it"],
+      "answer": 1,
+      "feedback": "Lending and deposit creation are two sides of one act: the loan is credited as a new deposit, expanding the money supply."
+    },
+    {
+      "id": "bagehot-rule",
+      "type": "choice",
+      "prompt": "Bagehot's rule for a panic was to...",
+      "choices": ["refuse all lending until confidence returns", "lend freely at a high rate against good collateral", "raise taxes immediately", "close the banks for a week"],
+      "answer": 1,
+      "feedback": "The rule aims to stop a panic by supplying cash to solvent institutions, while charging enough and demanding collateral to protect the public purse."
+    },
+    {
+      "id": "crisis-2008",
+      "type": "choice",
+      "prompt": "A central feature of the 2008 crisis was...",
+      "choices": ["short-term funding of long-term assets drying up outside deposit banks", "a sudden rise in the price of gold", "a legal ban on mortgages", "the abolition of central banking"],
+      "answer": 0,
+      "feedback": "Shadow banks that borrowed short and lent long suffered runs when the value of their collateral was questioned, and the panic spread."
+    },
+    {
+      "id": "powell-expectations",
+      "type": "choice",
+      "prompt": "In his 2022 speech, Powell argued the central bank must...",
+      "choices": ["ignore inflation until it falls on its own", "keep inflation expectations anchored even at the cost of slower growth", "print money to fund the government", "abandon the inflation target"],
+      "answer": 1,
+      "feedback": "Powell's case was that once people expect rising prices, they set wages and contracts accordingly, so the risk of entrenched inflation outweighed the cost of tighter policy."
+    },
+    {
+      "id": "inflation-cost",
+      "type": "choice",
+      "prompt": "Which of these is a cost of unanticipated inflation?",
+      "choices": ["an arbitrary redistribution from lenders to borrowers", "lower nominal wages", "a rise in the value of money", "more predictable long-term contracts"],
+      "answer": 0,
+      "feedback": "When prices rise faster than expected, debts are repaid in money worth less, so borrowers gain and lenders lose."
+    },
+    {
+      "id": "independence",
+      "type": "choice",
+      "prompt": "The case for central bank independence rests mainly on...",
+      "choices": ["separating monetary decisions from short-term political pressure", "giving the government direct control of money", "eliminating interest rates", "ending all bank supervision"],
+      "answer": 0,
+      "feedback": "The argument is that a government tempted to ease policy before an election can damage the currency, so monetary decisions are insulated from day-to-day politics."
+    },
+    {
+      "id": "money-short-answer",
+      "type": "short-answer",
+      "prompt": "Explain how Aristotle, Bagehot, and Powell each describe a different stage in the relationship between money, banks, and the state.",
+      "context": "Aristotle begins with barter and portable money; Bagehot describes a money market of banks and concentrated reserves that must be steadied in a panic; Powell describes a central bank using its policy rate to keep inflation expectations anchored.",
+      "rubric": [
+        "uses all three sources",
+        "explains a function of money or a reason banks are fragile",
+        "states why the state or central bank becomes involved"
+      ]
+    }
+  ]
+}

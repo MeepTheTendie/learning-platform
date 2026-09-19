@@ -210,6 +210,58 @@ c. 1975 to the present · The United States
 - interpretation: Rick Perlstein, *The Invisible Bridge: The Fall of Nixon and the Rise of Reagan* (2014)
 - interpretation: Sean Wilentz, *The Age of Reagan: A History, 1974–2008* (2008)
 
+## 01-scarcity-choice-and-prices — Scarcity, choice, and the price system
+
+Classical foundations to modern economics · Britain, Europe, and the United States
+
+- **The division of labour** — Adam Smith, 1776. Public domain. Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book I, Chapters I-II. Public-domain text checked against Project Gutenberg eBook 3300 and Toronto Metropolitan University's Public Domain Core Collection edition.
+- **Demand, supply, and time** — Alfred Marshall, 1890. Public domain. Alfred Marshall, Principles of Economics, Book V, Chapter III, with edition data checked against the public-domain 1920 eighth edition at the Library of Economics and Liberty and the California Digital Library scan in the Internet Archive.
+- **Dark patterns** — Federal Trade Commission, 2022. Public domain (US government work). Federal Trade Commission, 'FTC Report Shows Rise in Sophisticated Dark Patterns Designed to Trick and Trap Consumers,' press release, September 15, 2022, summarizing the Bureau of Consumer Protection staff report Bringing Dark Patterns to Light (September 2022).
+- image: assets/smith-portrait.jpg — Scottish National Portrait Gallery, via Wikimedia Commons (Public domain)
+- image: assets/marshall-portrait.jpg — Wikimedia Commons (Public domain)
+- image: assets/pin-factory.jpg — Diderot and d'Alembert, Encyclopédie, via Wikimedia Commons (Public domain)
+- interpretation: Friedrich Hayek, *The Use of Knowledge in Society* (1945)
+- interpretation: George Akerlof, *The Market for Lemons* (1970)
+
+## 02-money-banks-and-central-banking — Money, banks, and central banking
+
+Ancient exchange to modern central banking · The Mediterranean, Britain, and the United States
+
+- **Money and exchange** — Aristotle, c. 350 BCE. Public domain. Aristotle, Politics, Book I, translated by H. Rackham. Perseus Digital Library, Tufts University.
+- **Lombard Street** — Walter Bagehot, 1873. Public domain. Walter Bagehot, Lombard Street: A Description of the Money Market, Chapter I. Rod Hay's Archive for the History of Economic Thought, McMaster University; Library of Congress public-domain scan also checked.
+- **Monetary Policy and Price Stability** — Jerome H. Powell, Chair, Federal Reserve Board, 2022. Public domain (US government work). Jerome H. Powell, 'Monetary Policy and Price Stability,' speech at the economic policy symposium sponsored by the Federal Reserve Bank of Kansas City, Jackson Hole, Wyoming, August 26, 2022. Board of Governors of the Federal Reserve System.
+- image: assets/eccles-building-federal-reserve.jpg — Federalreserve (Flickr) (Public domain)
+- image: assets/lehman-brothers-2008.jpg — Robert Scoble (CC BY 2.0)
+- image: assets/us-inflation-cpi-1960-2024.jpg — FRED, Federal Reserve Bank of St. Louis (Public domain)
+- interpretation: Joseph A. Schumpeter, *History of Economic Analysis* (1954)
+- interpretation: Charles Goodhart, *The Evolution of Central Banks* (1988)
+
+## 03-trade-growth-and-inequality — Trade, growth, and inequality
+
+Classical political economy to the present · Britain, Europe, and the world
+
+- **Portugal, England, wine, and cloth** — David Ricardo, 1817. Public domain. David Ricardo, On the Principles of Political Economy and Taxation, Chapter 7, 'On Foreign Trade.' McMaster University Archive for the History of Economic Thought; Project Gutenberg text and Library of Congress scan also checked.
+- **The candlemakers' petition** — Frédéric Bastiat, 1845. Public domain. Frédéric Bastiat, 'A Petition from the Manufacturers of Candles,' translated text hosted for teaching at the University of Texas; French source cross-checked through Bastiat.org.
+- **Trade and international integration** — Esteban Ortiz-Ospina, Bertha Rohenkohl, Veronika Samborska, Simon Van Teutem, Diana Beltekian, and Max Roser, 2018. CC BY 4.0. Ortiz-Ospina et al. (2018) - 'Trade and Globalization.' Published online at OurWorldinData.org. Retrieved from: 'https://ourworldindata.org/trade-and-globalization' [Online Resource]. Licensed CC BY 4.0.
+- image: assets/global-supply-chain.jpg — US Government Accountability Office (GAO) (Public domain)
+- image: assets/container-shipping.jpg — Trougnouf (CC BY 4.0)
+- image: assets/income-inequality-top1.jpg — US Council of Economic Advisers, 2017 Economic Report of the President (Public domain)
+- interpretation: Douglas A. Irwin, *Against the Tide: An Intellectual History of Free Trade* (1996)
+- interpretation: Ralph E. Gomory and William J. Baumol, *Global Trade and Conflicting National Interests* (2000)
+
+## 04-externalities-and-public-finance — Externalities, public goods, and public finance
+
+Classical political economy to the present · Britain and the United States
+
+- **Four maxims of taxation** — Adam Smith, 1776. Public domain. Adam Smith, The Wealth of Nations, Book V, Chapter II. Public-domain text checked against Toronto Metropolitan University's Public Domain Core Collection edition.
+- **The state and impossible demands** — Frédéric Bastiat, 1848. Public domain. Frédéric Bastiat, 'The State,' translated in Selected Essays on Political Economy. Public-domain English text checked against Econlib and the Online Library of Liberty.
+- **Massachusetts v. Environmental Protection Agency** — Supreme Court of the United States, 2007. Public domain (US government work). Massachusetts v. Environmental Protection Agency, 549 U.S. 497 (2007), opinion of the Court by Justice John Paul Stevens. United States Reports, vol. 549.
+- image: assets/greenhouse-gas-externality.jpg — US Environmental Protection Agency (EPA) (Public domain)
+- image: assets/lighthouse-public-good.jpg — Joseph Wright of Derby / National Gallery, London (Public domain)
+- image: assets/irs-tax-forms.jpg — Underwood & Underwood / Library of Congress (Public domain)
+- interpretation: Richard A. Musgrave, *The Theory of Public Finance* (1959)
+- interpretation: James M. Buchanan, *The Demand and Supply of Public Goods* (1968)
+
 ## 01-sentence-structure — The sentence: subject and predicate
 
 English grammar

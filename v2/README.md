@@ -1,6 +1,6 @@
 # Sourcebook
 
-A single-origin learning app. Six subjects, taught from the period's own documents:
+A single-origin learning app. Seven subjects, taught from the period's own documents:
 a dense neutral spine, two or three primary sources, a named interpretation with its
 counter-argument, practice, and illustrations.
 
@@ -11,9 +11,12 @@ Subjects and units:
 | World History | `content/history` | 24 |
 | American History | `content/american-history` | 16 |
 | Geography | `content/geography` | 10 |
+| Economics | `content/economics` | 4 |
 | Philosophy | `content/philosophy` | 10 |
 | English (grammar) | `content/english` | 12 |
 | Literature | `content/literature` | 10 |
+
+Economics units should be checked against university, library, archive, or open-course anchors where possible. Good non-Ivy anchors include MIT OpenCourseWare, OpenStax/Rice, Toronto Metropolitan University Pressbooks, ETH Bibliothek, UQAM Classiques des sciences sociales, the University of Pennsylvania Online Books Page, California Digital Library scans in the Internet Archive, and other institutional collections.
 
 ## Content layout
 

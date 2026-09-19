@@ -1,0 +1,232 @@
+{
+  "id": "01-scarcity-choice-and-prices",
+  "title": "Scarcity, choice, and the price system",
+  "period": "Classical foundations to modern economics",
+  "region": "Britain, Europe, and the United States",
+  "spine": "spine.md",
+  "images": [
+    {
+      "id": "smith-portrait",
+      "file": "assets/smith-portrait.jpg",
+      "caption": "Adam Smith (1723–1790), whose example of a pin factory opened the study of the division of labour.",
+      "credit": "Scottish National Portrait Gallery, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Adam_Smith,_1723_-_1790._Political_economist.jpg"
+    },
+    {
+      "id": "marshall-portrait",
+      "file": "assets/marshall-portrait.jpg",
+      "caption": "Alfred Marshall (1842–1924), who described demand and supply as the two blades of one pair of scissors.",
+      "credit": "Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Alfred_Marshall_1891.jpg"
+    },
+    {
+      "id": "pin-factory",
+      "file": "assets/pin-factory.jpg",
+      "caption": "A plate from Diderot and d'Alembert's Encyclopédie (1762) showing pin-making divided into many separate operations, as Smith described.",
+      "credit": "Diderot and d'Alembert, Encyclopédie, via Wikimedia Commons",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1762_Diderot%27s_Encyclopedie,_Epinglier_II.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "smith-division-labour",
+      "title": "The division of labour",
+      "author": "Adam Smith",
+      "date": "1776",
+      "citation": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, Book I, Chapters I-II. Public-domain text checked against Project Gutenberg eBook 3300 and Toronto Metropolitan University's Public Domain Core Collection edition.",
+      "license": "Public domain",
+      "url": "https://pressbooks.library.torontomu.ca/wealthofnations/",
+      "file": "sources/smith-division-labour.md",
+      "context": "Smith begins with production rather than money. His pin factory shows how output rises when work is divided into many tasks, and his next chapter explains exchange as a human propensity to truck, barter, and exchange.",
+      "questions": [
+        "Why does Smith begin with a small manufacture rather than with a whole kingdom?",
+        "What three causes does Smith give for the gain from divided labour?",
+        "How does Smith connect exchange with specialisation?"
+      ]
+    },
+    {
+      "id": "marshall-demand-supply",
+      "title": "Demand, supply, and time",
+      "author": "Alfred Marshall",
+      "date": "1890",
+      "citation": "Alfred Marshall, Principles of Economics, Book V, Chapter III, with edition data checked against the public-domain 1920 eighth edition at the Library of Economics and Liberty and the California Digital Library scan in the Internet Archive.",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Principles_of_economics_(IA_principlesofecon01marsrich).pdf",
+      "file": "sources/marshall-demand-supply.md",
+      "context": "Marshall made the supply-and-demand diagram central to price theory. He describes demand and supply as two blades of one pair of scissors, so neither side alone explains market price, and he shows how the balance shifts with the time allowed for adjustment.",
+      "questions": [
+        "Why does Marshall compare supply and demand to two blades of scissors?",
+        "What does the comparison leave out if it is read too mechanically?",
+        "How does Marshall distinguish temporary price from more settled price?"
+      ]
+    },
+    {
+      "id": "ftc-dark-patterns",
+      "title": "Dark patterns",
+      "author": "Federal Trade Commission",
+      "date": "2022",
+      "citation": "Federal Trade Commission, 'FTC Report Shows Rise in Sophisticated Dark Patterns Designed to Trick and Trap Consumers,' press release, September 15, 2022, summarizing the Bureau of Consumer Protection staff report Bringing Dark Patterns to Light (September 2022).",
+      "license": "Public domain (US government work)",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2022/09/ftc-report-shows-rise-sophisticated-dark-patterns-designed-trick-trap-consumers",
+      "file": "sources/ftc-dark-patterns.md",
+      "context": "A modern regulator documents how sellers design interfaces that exploit the gap between what they know and what a distracted buyer notices. The four tactics described are disguised advertising, hard-to-cancel subscriptions, buried fees, and data collection steered by default.",
+      "questions": [
+        "Which of the four tactics works mainly by hiding information, and which works mainly by exploiting how people respond to framing or inertia?",
+        "Why would a seller choose a hard-to-cancel subscription rather than simply raising the price?",
+        "How does this document connect to the idea that markets depend on information flowing honestly between buyer and seller?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "hayek-knowledge",
+      "historian": "Friedrich Hayek",
+      "work": "The Use of Knowledge in Society",
+      "year": "1945",
+      "claim": "Hayek argued that the knowledge needed to allocate resources is dispersed among countless people and cannot be gathered into any single mind. Prices condense that dispersed knowledge into a signal, so people can respond to scarcity without understanding its cause.",
+      "note": "Critics answer that markets also conceal knowledge, that prices can be distorted by market power, and that some information — about safety, honesty, or long-run harm — is not carried by a price at all. The argument is about how much prices reveal, not whether they reveal anything."
+    },
+    {
+      "id": "akerlof-lemons",
+      "historian": "George Akerlof",
+      "work": "The Market for Lemons",
+      "year": "1970",
+      "claim": "Akerlof showed that when sellers know more about quality than buyers do, buyers discount every item to the average, owners of good items withdraw, and the market can unravel. Asymmetric information can drive good products out of a market.",
+      "note": "The result is a tendency, not a certainty. Reputation, repeat dealing, warranties, certification, and inspection can all reduce the problem, which is why real markets develop institutions to make quality credible rather than dissolving."
+    }
+  ],
+  "activities": [
+    {
+      "id": "scarcity-definition",
+      "type": "choice",
+      "prompt": "In economics, scarcity means that...",
+      "choices": [
+        "means are limited in relation to possible ends",
+        "money is always hard to obtain",
+        "there are no goods available",
+        "prices must be high"
+      ],
+      "answer": 0,
+      "feedback": "Scarcity is a relation: wants or ends exceed the means available, so choosing one use means giving up another."
+    },
+    {
+      "id": "opportunity-cost",
+      "type": "choice",
+      "prompt": "The opportunity cost of a choice is...",
+      "choices": [
+        "the best alternative given up",
+        "the money price printed on a receipt",
+        "any cost paid by someone else",
+        "the total value of every possible alternative"
+      ],
+      "answer": 0,
+      "feedback": "Opportunity cost is the next-best foregone use of the resource, not every imaginable use at once."
+    },
+    {
+      "id": "specialisation",
+      "type": "choice",
+      "prompt": "Smith's pin factory illustrates that specialisation can raise output because...",
+      "choices": [
+        "workers repeat narrower tasks, save transition time, and use task-specific tools",
+        "workers become poorer and therefore work harder",
+        "money becomes more plentiful",
+        "government fixes the price of pins"
+      ],
+      "answer": 0,
+      "feedback": "Smith names improved dexterity, saved time, and machines as the sources of the gain."
+    },
+    {
+      "id": "price-two-sides",
+      "type": "choice",
+      "prompt": "Marshall's scissors comparison means that market price is shaped by...",
+      "choices": [
+        "both demand and supply",
+        "demand alone",
+        "supply alone",
+        "custom alone"
+      ],
+      "answer": 0,
+      "feedback": "Marshall's point is that asking whether demand or supply determines price is like asking which blade of scissors cuts the paper."
+    },
+    {
+      "id": "elasticity",
+      "type": "choice",
+      "prompt": "Demand for a good is called inelastic when...",
+      "choices": [
+        "quantity bought changes little when the price changes",
+        "quantity bought changes a great deal when the price changes",
+        "the good is always free",
+        "supply is fixed forever"
+      ],
+      "answer": 0,
+      "feedback": "Inelastic demand means quantity is not very responsive to price; staples and medicines are often inelastic in the short run."
+    },
+    {
+      "id": "hayek-prices",
+      "type": "choice",
+      "prompt": "For Hayek, the chief work of the price system is to...",
+      "choices": [
+        "convey dispersed information about relative scarcity",
+        "guarantee that every trade is fair",
+        "collect all knowledge in one central office",
+        "keep prices from ever changing"
+      ],
+      "answer": 0,
+      "feedback": "Hayek's claim is that prices let people act on knowledge they do not personally hold, because the price summarises it."
+    },
+    {
+      "id": "prisoners-dilemma",
+      "type": "choice",
+      "prompt": "In a prisoner's dilemma, the stable outcome is poor for the players because...",
+      "choices": [
+        "each does better by defecting whatever the other chooses",
+        "the players cannot count",
+        "one player controls all the payoffs",
+        "cooperation is always forbidden"
+      ],
+      "answer": 0,
+      "feedback": "Each player's best response is to defect, so both defect, even though both would gain by cooperating. Repetition and credible commitments can change the outcome."
+    },
+    {
+      "id": "lemons",
+      "type": "choice",
+      "prompt": "Akerlof's used-car market can unravel because...",
+      "choices": [
+        "buyers cannot tell good cars from bad, so they pay only an average price and good cars leave the market",
+        "sellers refuse to sell any car",
+        "buyers know more about quality than sellers",
+        "cars are always identical"
+      ],
+      "answer": 0,
+      "feedback": "Asymmetric information pushes the price toward average quality, which drives better cars out — the adverse-selection result."
+    },
+    {
+      "id": "dark-patterns",
+      "type": "choice",
+      "prompt": "The FTC's dark-patterns report is mainly a study of...",
+      "choices": [
+        "how interface design can hide information or exploit inertia to steer buyers",
+        "how to set the profit-maximising price",
+        "why competition always lowers prices",
+        "how central banks set interest rates"
+      ],
+      "answer": 0,
+      "feedback": "The report documents designs that obscure terms, bury fees, or make cancelling hard — exploiting the gap between seller and buyer."
+    },
+    {
+      "id": "games-and-information",
+      "type": "short-answer",
+      "prompt": "Choose one situation in which the outcome depends on what other people do, and explain how a game-theoretic idea and an informational idea together help explain it.",
+      "context": "A firm deciding whether to cut prices, a community sharing a fishery, or a buyer choosing a subscription all involve both strategic responses and uneven information. Marshall's two blades, Hayek's price signal, Akerlof's lemons, and the prisoner's dilemma are available tools.",
+      "rubric": [
+        "names a specific situation",
+        "uses a game-theoretic idea such as equilibrium, best response, or cooperation",
+        "uses an informational idea such as asymmetric information, signalling, or the price signal",
+        "explains how the two ideas fit together"
+      ]
+    }
+  ]
+}

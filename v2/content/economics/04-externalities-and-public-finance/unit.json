@@ -1,0 +1,186 @@
+{
+  "id": "04-externalities-and-public-finance",
+  "title": "Externalities, public goods, and public finance",
+  "period": "Classical political economy to the present",
+  "region": "Britain and the United States",
+  "spine": "spine.md",
+  "images": [
+    {
+      "id": "greenhouse-gas",
+      "file": "assets/greenhouse-gas-externality.jpg",
+      "caption": "US EPA data on 2013 greenhouse gas emissions from large industrial facilities, an example of a negative environmental externality.",
+      "credit": "US Environmental Protection Agency (EPA)",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:2013_Greenhouse_Gas_Emissions_data_(15399939641).jpg"
+    },
+    {
+      "id": "lighthouse",
+      "file": "assets/lighthouse-public-good.jpg",
+      "caption": "Joseph Wright of Derby, A Moonlight with a Lighthouse, Coast of Tuscany (1789), the classic illustration of a public good.",
+      "credit": "Joseph Wright of Derby / National Gallery, London",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:Joseph_Wright_of_Derby_(1734-1797)_-_A_Moonlight_with_a_Lighthouse,_Coast_of_Tuscany_-_N05882_-_National_Gallery.jpg"
+    },
+    {
+      "id": "irs-tax-forms",
+      "file": "assets/irs-tax-forms.jpg",
+      "caption": "People filling out tax forms in a US Internal Revenue office, c. 1920.",
+      "credit": "Underwood & Underwood / Library of Congress",
+      "license": "Public domain",
+      "url": "https://commons.wikimedia.org/wiki/File:1920_tax_forms_IRS.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "id": "smith-tax-maxims",
+      "title": "Four maxims of taxation",
+      "author": "Adam Smith",
+      "date": "1776",
+      "citation": "Adam Smith, The Wealth of Nations, Book V, Chapter II. Public-domain text checked against Toronto Metropolitan University's Public Domain Core Collection edition.",
+      "license": "Public domain",
+      "url": "https://pressbooks.library.torontomu.ca/wealthofnations/",
+      "file": "sources/smith-tax-maxims.md",
+      "context": "Smith gives four famous maxims for taxation: equality, certainty, convenience, and economy. They ask not only how much the state raises, but how it raises it.",
+      "questions": [
+        "What are Smith's four maxims?",
+        "Why does certainty matter to the taxpayer?",
+        "How can a tax cost more than the revenue it raises?"
+      ]
+    },
+    {
+      "id": "bastiat-state",
+      "title": "The state and impossible demands",
+      "author": "Frédéric Bastiat",
+      "date": "1848",
+      "citation": "Frédéric Bastiat, 'The State,' translated in Selected Essays on Political Economy. Public-domain English text checked against Econlib and the Online Library of Liberty.",
+      "license": "Public domain",
+      "url": "https://oll.libertyfund.org/title/bastiat-selected-essays-on-political-economy",
+      "file": "sources/bastiat-state.md",
+      "context": "Bastiat mocks the hope that the state can give benefits to everyone while charging no one. His definition of the state turns public finance back toward scarcity.",
+      "questions": [
+        "How does Bastiat define the state?",
+        "Why does he think citizens ask contradictory things of it?",
+        "How does his argument connect spending to taxation?"
+      ]
+    },
+    {
+      "id": "massachusetts-v-epa",
+      "title": "Massachusetts v. Environmental Protection Agency",
+      "author": "Supreme Court of the United States",
+      "date": "2007",
+      "citation": "Massachusetts v. Environmental Protection Agency, 549 U.S. 497 (2007), opinion of the Court by Justice John Paul Stevens. United States Reports, vol. 549.",
+      "license": "Public domain (US government work)",
+      "url": "https://www.govinfo.gov/content/pkg/USREPORTS-549/pdf/USREPORTS-549.pdf",
+      "file": "sources/massachusetts-v-epa.md",
+      "context": "The Supreme Court considered whether the Environmental Protection Agency had authority to regulate greenhouse gases as air pollutants under the Clean Air Act, and whether states had standing to sue.",
+      "questions": [
+        "On what basis did the Court find the states had standing?",
+        "What did the Court hold about whether greenhouse gases are air pollutants?",
+        "What did the Court leave to the agency to decide?"
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "musgrave-public-finance",
+      "historian": "Richard A. Musgrave",
+      "work": "The Theory of Public Finance",
+      "year": "1959",
+      "claim": "Musgrave organized public finance around allocation, distribution, and stabilization: the state may provide goods markets undersupply, alter income distribution, and influence aggregate demand.",
+      "note": "Critics reply that folding stabilization and distribution into public finance gave governments a licence to expand without a clear limit, and that the three branches can conflict: a policy that stabilizes demand may worsen distribution, and one that redistributes may reduce efficiency."
+    },
+    {
+      "id": "buchanan-fiscal-exchange",
+      "historian": "James M. Buchanan",
+      "work": "The Demand and Supply of Public Goods",
+      "year": "1968",
+      "claim": "Buchanan treated taxation and public spending as a constitutional problem of collective choice: citizens compare tax costs with public benefits under political rules.",
+      "note": "Critics answer that the constitutional approach can be used to entrench a small state whatever citizens actually prefer, and that treating taxes as prices ignores the coercion that separates them from ordinary market exchange."
+    }
+  ],
+  "activities": [
+    {
+      "id": "externality",
+      "type": "choice",
+      "prompt": "A negative externality occurs when...",
+      "choices": ["a transaction imposes a cost on people outside it", "a firm makes an accounting loss", "prices fall for consumers", "a good is exported"],
+      "answer": 0,
+      "feedback": "The spillover means the private calculation leaves out a cost borne by others, so the market tends to produce too much."
+    },
+    {
+      "id": "pigouvian",
+      "type": "choice",
+      "prompt": "A Pigouvian tax is designed to...",
+      "choices": ["make the polluter face the external cost", "raise revenue for its own sake", "ban an activity outright", "subsidise exports"],
+      "answer": 0,
+      "feedback": "Setting the charge equal to the external cost makes the private decision reflect the social cost."
+    },
+    {
+      "id": "cap-and-trade",
+      "type": "choice",
+      "prompt": "Cap-and-trade reduces emissions at lower cost than a uniform rule because...",
+      "choices": ["firms that can cut cheaply sell permits to those that cannot", "the state picks which firms must cut", "every firm must cut by the same amount", "permits are given away free"],
+      "answer": 0,
+      "feedback": "Trading lets the cheapest reductions happen first, so a given total cut costs less."
+    },
+    {
+      "id": "public-good",
+      "type": "choice",
+      "prompt": "A public good is...",
+      "choices": ["non-rival and non-excludable", "rival and excludable", "always supplied by firms", "a private luxury good"],
+      "answer": 0,
+      "feedback": "One person's use does not reduce another's, and non-payers are hard to exclude, which is why markets underprovide it."
+    },
+    {
+      "id": "free-rider",
+      "type": "choice",
+      "prompt": "The free-rider problem means that...",
+      "choices": ["people can benefit without contributing", "everyone must pay equally", "public goods are always free", "taxes are never necessary"],
+      "answer": 0,
+      "feedback": "Because non-payers cannot easily be excluded, voluntary contributions fall short of what everyone would prefer."
+    },
+    {
+      "id": "ostrom-commons",
+      "type": "choice",
+      "prompt": "Elinor Ostrom showed that common-pool resources can sometimes be managed...",
+      "choices": ["by rules the community sets and enforces itself", "only by privatisation", "only by a central state", "never sustainably"],
+      "answer": 0,
+      "feedback": "Ostrom documented communities that avoided the tragedy of the commons through access limits, quotas, monitoring, and graduated penalties."
+    },
+    {
+      "id": "epa-case",
+      "type": "choice",
+      "prompt": "In Massachusetts v. EPA, the Court held that...",
+      "choices": ["greenhouse gases are air pollutants the EPA may regulate", "the EPA had no authority over emissions", "states lacked standing to sue", "climate policy belongs only to Congress"],
+      "answer": 0,
+      "feedback": "The Court found the states had standing and that greenhouse gases fall within the statute, so the agency could regulate unless it gave a reasoned explanation for declining."
+    },
+    {
+      "id": "tax-incidence",
+      "type": "choice",
+      "prompt": "Tax incidence concerns...",
+      "choices": ["who ultimately bears a tax's burden", "where taxes are collected", "the headline tax rate", "the size of government"],
+      "answer": 0,
+      "feedback": "The legal payer and the person who finally bears the burden can differ, depending on how easily each side avoids the taxed activity."
+    },
+    {
+      "id": "smith-maxims",
+      "type": "choice",
+      "prompt": "Smith's maxims require that a tax be...",
+      "choices": ["proportionate, certain, convenient, and economical", "high, secret, painful, and costly", "temporary, hidden, and unequal", "voluntary and rare"],
+      "answer": 0,
+      "feedback": "Smith asks that taxes be proportionate to ability, certain, convenient to pay, and cheap to collect."
+    },
+    {
+      "id": "public-finance-short-answer",
+      "type": "short-answer",
+      "prompt": "Use Smith and Bastiat, together with the EPA case, to explain why public spending cannot be judged apart from the way it is financed and authorised.",
+      "context": "Smith gives maxims for fair and economical taxation; Bastiat insists that state benefits are paid for by someone; Massachusetts v. EPA shows that whether an externality is addressed depends on legal authority.",
+      "rubric": [
+        "uses all three sources",
+        "explains a tax burden or the problem of financing",
+        "connects expenditure to scarcity, opportunity cost, or legal authority"
+      ]
+    }
+  ]
+}
