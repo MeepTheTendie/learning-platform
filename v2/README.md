@@ -32,13 +32,23 @@ content/<subject>/<NN-slug>/
 
 ```
 npm run validate   # schema + framing lint + regenerate content/MANIFEST.md
-npm run render     # build dist/ (the site the Worker serves)
+npm run render     # create/update WebP companions, then build dist/ (the site the Worker serves)
 npm test           # content tests (schema, sources, framing, images, activities)
 npm run check      # validate + render + test
 ```
 
 The framing lint (`src/framing-lint.ts`) bans present-day pedagogical and moralising
 vocabulary from authored text. It never runs on quoted primary sources.
+
+The browser layer is native HTML, CSS, and JavaScript. The renderer copies the
+small source files in `src/styles.css`, `src/reader.js`, `src/unit.js`, and
+`src/index.js` into cacheable `dist/assets/` files; there is no UI framework or
+client-side bundler.
+
+Each attributed source JPEG has a generated WebP companion, made by the local
+ImageMagick `magick` command during `npm run render`. Lesson pages use WebP where
+supported, retain JPEG fallback, eagerly load only the lead map, and lazy-load the
+remaining illustrations.
 
 ## Study features
 

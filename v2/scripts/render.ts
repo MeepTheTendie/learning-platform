@@ -24,6 +24,14 @@ const fontCss = fontFamilies.flatMap(([pkg, family]) => [400, 700].map(weight =>
   return `@font-face{font-family:'${family}';font-style:normal;font-weight:${weight};font-display:swap;src:url('/fonts/${file}') format('woff2')}`;
 })).join('');
 
+// The browser receives ordinary, cacheable web assets. There is intentionally no
+// bundler or UI framework between these source files and the rendered pages.
+const assetsDir = path.join(outDir, 'assets');
+fs.mkdirSync(assetsDir, { recursive: true });
+fs.writeFileSync(path.join(assetsDir, 'sourcebook.css'), fontCss + fs.readFileSync(path.join(root, 'src', 'styles.css'), 'utf8'));
+fs.writeFileSync(path.join(assetsDir, 'sync.js'), syncClient);
+for (const file of ['reader.js', 'unit.js', 'index.js']) fs.copyFileSync(path.join(root, 'src', file), path.join(assetsDir, file));
+
 const esc = (value: string) => value.replace(/[&<>"]/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character] as string));
 
 // Markdown is authored in this repository, but it is still sanitized: raw HTML in
@@ -165,10 +173,10 @@ const readerScript = `
 })();
 `;
 
-const layout = (title: string, body: string, script = '') => `<!doctype html>
+const layout = (title: string, body: string, page: 'unit' | 'index', data: Record<string, string> = {}) => `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)}</title><style>${fontCss}${style}</style>${readerHead}</head>
-<body><div class="shell">${body}</div>${readerBar}<script>${syncScript}</script><script>${readerScript}</script>${script ? `<script>${script}</script>` : ''}</body></html>`;
+<title>${esc(title)}</title><link rel="stylesheet" href="/assets/sourcebook.css">${readerHead}</head>
+<body data-page="${page}"${Object.entries(data).map(([key, value]) => ` data-${esc(key)}="${esc(value)}"`).join('')}><div class="shell">${body}</div>${readerBar}<script src="/assets/sync.js" defer></script><script src="/assets/reader.js" defer></script><script src="/assets/${page}.js" defer></script></body></html>`;
 
 const stripLeadH1 = (html: string) => html.replace(/^\s*<h1\b[^>]*>[\s\S]*?<\/h1>\s*/i, '');
 
@@ -204,8 +212,14 @@ function renderUnit(subject: string, dir: string, unit: Unit, nav: { prev: { id:
 
   const map = unit.images.find(image => image.id === 'map');
   const artifacts = unit.images.filter(image => image.id !== 'map');
-  const mapHtml = map ? `<figure><img class="map" src="../content/${subject}/${unit.id}/${map.file}" alt="${esc(map.caption)}"><figcaption>${esc(map.caption)} — ${esc(map.credit)} (${esc(map.license)})</figcaption></figure>` : '';
-  const artifactHtml = artifacts.length ? `<div class="grid">${artifacts.map(image => `<figure><img src="../content/${subject}/${unit.id}/${image.file}" alt="${esc(image.caption)}"><figcaption>${esc(image.caption)} — ${esc(image.credit)} (${esc(image.license)})</figcaption></figure>`).join('')}</div>` : '';
+  const image = (entry: Unit['images'][number], className = '', priority = false) => {
+    const jpg = `../content/${subject}/${unit.id}/${entry.file}`;
+    const webp = jpg.replace(/\.jpg$/, '.webp');
+    const attrs = `${className ? ` class="${className}"` : ''} src="${jpg}" alt="${esc(entry.caption)}" decoding="async"${priority ? ' fetchpriority="high"' : ' loading="lazy"'}`;
+    return `<picture><source type="image/webp" srcset="${webp}"><img${attrs}></picture>`;
+  };
+  const mapHtml = map ? `<figure>${image(map, 'map', true)}<figcaption>${esc(map.caption)} — ${esc(map.credit)} (${esc(map.license)})</figcaption></figure>` : '';
+  const artifactHtml = artifacts.length ? `<div class="grid">${artifacts.map(entry => `<figure>${image(entry)}<figcaption>${esc(entry.caption)} — ${esc(entry.credit)} (${esc(entry.license)})</figcaption></figure>`).join('')}</div>` : '';
 
   const sourcesHtml = unit.sources.map((source, index) => {
     const body = stripLeadH1(renderMarkdown(sourceMarkdowns[index]));
@@ -287,7 +301,7 @@ paintComplete();paintBookmark();paintReview();paintChat();`;
 
   const out = path.join(outDir, subject, `${unit.id}.html`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, layout(`${unit.title} — Sources`, body, script));
+  fs.writeFileSync(out, layout(`${unit.title} — Sources`, body, 'unit', { 'unit-id': unit.id, subject }));
   return `<li data-unit="${esc(unit.id)}"><a href="${subject}/${unit.id}.html">${esc(unit.title)}</a> <span class="meta">${esc(unit.period)}</span></li>`;
 }
 
@@ -317,5 +331,5 @@ const mark=()=>{
   document.querySelector('#marks').innerHTML=marks.length?marks.map(id=>'<li>'+unitLink(id)+'</li>').join(''):'<li class="meta">No bookmarks yet.</li>';
 };
 addEventListener('sourcebook:changed',mark);mark();`;
-fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">Taught from the period's own documents. <span id="sync-status"></span></p><section class="activity"><h3>Due for review</h3><ul class="due-list" id="due"></ul></section><section class="activity"><h3>Bookmarks</h3><ul class="mark-list" id="marks"></ul></section>${lists.join('')}`, indexScript));
+fs.writeFileSync(path.join(outDir, 'index.html'), layout('Learning — sourcebook', `<h1>Sourcebook</h1><p class="meta">Taught from the period's own documents. <span id="sync-status"></span></p><section class="activity"><h3>Due for review</h3><ul class="due-list" id="due"></ul></section><section class="activity"><h3>Bookmarks</h3><ul class="mark-list" id="marks"></ul></section>${lists.join('')}`, 'index'));
 console.log('Rendered to dist/.');

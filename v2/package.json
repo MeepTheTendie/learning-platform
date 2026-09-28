@@ -4,8 +4,9 @@
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate.ts",
-    "render": "node scripts/render.ts",
-    "test": "node --test tests/content.test.ts tests/sync.test.ts tests/worker.test.ts",
+    "optimize-images": "node scripts/optimize-images.ts",
+    "render": "npm run optimize-images && node scripts/render.ts",
+    "test": "node --test tests/content.test.ts tests/render.test.ts tests/sync.test.ts tests/worker.test.ts",
     "check": "npm run validate && npm run render && npm test"
   },
   "dependencies": {

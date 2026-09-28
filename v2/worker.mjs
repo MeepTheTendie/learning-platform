@@ -55,10 +55,12 @@ function tutorMessages(raw) {
     return { role, content };
   });
 }
-async function bumpTutorUsage(env) {
+async function bumpTutorUsage(env, limit) {
   const day = new Date().toISOString().slice(0, 10);
-  const row = await env.PROGRESS_DB.prepare('INSERT INTO tutor_usage (app_id,day,messages) VALUES (?,?,1) ON CONFLICT(app_id,day) DO UPDATE SET messages=messages+1 RETURNING messages').bind(env.APP_ID, day).first();
-  return Number(row?.messages) || 0;
+  // Keep the limit in the write itself. Otherwise every rejected request would
+  // continue incrementing the counter for the rest of the day.
+  const row = await env.PROGRESS_DB.prepare('INSERT INTO tutor_usage (app_id,day,messages) VALUES (?,?,1) ON CONFLICT(app_id,day) DO UPDATE SET messages=messages+1 WHERE messages < ? RETURNING messages').bind(env.APP_ID, day, limit).first();
+  return row ? Number(row.messages) : null;
 }
 const tutorSystem = lesson => `You are a patient Socratic tutor inside a study app, helping with the unit "${lesson.title}". Use only the unit material below and keep the learner thinking.\n\nUnit material:\n${lesson.material}\n\nRules: stay on this unit; never invent facts outside it; keep replies under 120 words; ask one short question back when it helps; encourage the learner's own reasoning; do not claim to grade work or give an official answer key. If asked about something outside the unit, say you can only help with this unit.`;
 
@@ -77,8 +79,8 @@ async function tutor(request, env, url) {
     if (!materialResponse.ok) return json({ error: 'lesson_unavailable' }, 503);
     const lesson = await materialResponse.json();
     const limit = Number(env.TUTOR_DAILY_LIMIT) || 40;
-    const used = await bumpTutorUsage(env);
-    if (used > limit) return json({ error: 'daily_limit', limit }, 429);
+    const used = await bumpTutorUsage(env, limit);
+    if (used === null) return json({ error: 'daily_limit', limit }, 429);
     const result = await env.AI.run(env.TUTOR_MODEL || '@cf/meta/llama-3.1-8b-instruct-fp8', { messages: [{ role: 'system', content: tutorSystem(lesson) }, ...messages], max_tokens: 400, temperature: 0.4 });
     const reply = typeof result?.response === 'string' ? result.response.trim() : '';
     if (!reply) return json({ error: 'empty_response' }, 502);
